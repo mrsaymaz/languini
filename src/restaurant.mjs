@@ -1,7 +1,7 @@
 import {buildNeighbourhood,guestArrivalPose} from './neighbourhood.mjs';
 import {taskIdentity,tableIdentity,intentIdentity} from './task-identity.mjs';
 import {customerBehaviour} from './customer-behaviour.mjs';
-import {cleanOverview,navigateOverview,panOverview} from './overview-navigation.mjs';
+import {cleanOverview,navigateOverview,panOverview,followOverview} from './overview-navigation.mjs';
 import {OpeningWeather} from './opening-weather.mjs';
 import {cleanDesign} from './cafe-design.mjs';
 import {buildCafeRecovery,createAtmosphereRain} from './cafe-craft.mjs';
@@ -172,7 +172,7 @@ export class RestaurantView {
     if(this.fallback)return;
     const visual=JSON.stringify({arena:config.arena||'courtyard',team:config.team||'gryffindor',furnishings:config.furnishings||{},projects:config.projects||{},postcards:config.postcards||0,reputationLevel:config.reputationLevel||0,design:cleanDesign(config.design),atmosphere:config.atmosphere||'breakfast'});
     if(reuse&&this.menu&&!this.focus&&this.world&&this.sceneSignature===visual)return false;
-    this.overview=cleanOverview();this.clearOverviewGesture?.();this.sceneSignature=visual;this.menuDirty=true;this.menuPrimed=false;this.menuElapsed=0;
+    this.overview=cleanOverview();this.manualOverview=false;this.followPaused=null;this.clearOverviewGesture?.();this.sceneSignature=visual;this.menuDirty=true;this.menuPrimed=false;this.menuElapsed=0;
 
     this.station?.dispose();this.station=null;
     this.focus=null;
@@ -228,14 +228,25 @@ export class RestaurantView {
   }
   setSpeaking(tableId,speaking){const t=this.world?.tables[tableId];if(t)t.speaking=speaking;}
   overviewEnabled(){return !!this.liveKitchen&&!this.menu&&!this.focus&&!this.takeover&&!this.story&&!this.navigationBlocked&&!this.contextLost;}
-  changeOverview(value){if(!this.overviewEnabled()||this.cameraFlight)return false;this.overview=cleanOverview(value);this.resize();return true;}
+  // Portrait phones follow the chef until the player pinches, pans or zooms; Reset hands the camera back.
+  followCapable(){return !!this.liveKitchen&&(this.viewport?.width??this.container.clientWidth)<760;}
+  overviewChanged(){const s=this.overview||{zoom:1,x:0,y:0};return this.followCapable()?!!(this.manualOverview||this.followPaused):Math.abs(s.zoom-1)>.001||!!s.x||!!s.y;}
+  changeOverview(value,{manual=true}={}){if(!this.overviewEnabled()||this.cameraFlight)return false;if(manual)this.manualOverview=true;this.overview=cleanOverview(value);this.resize();return true;}
   zoomOverview(delta){return this.changeOverview({...this.overview,zoom:this.overview.zoom+delta});}
-  resetOverview(){return this.changeOverview({zoom:1,x:0,y:0});}
+  resetOverview(){this.followPaused=null;const changed=this.changeOverview({zoom:1,x:0,y:0},{manual:false});this.manualOverview=false;return changed;}
+  followChef(kitchen){
+    if(!kitchen?.position||!this.followCapable()||this.manualOverview||!this.overviewEnabled()||this.cameraFlight||!this.overviewBase)return;
+    const destination=kitchen.route?.length?kitchen.route.at(-1).x.toFixed(2)+','+kitchen.route.at(-1).z.toFixed(2):'idle';
+    if(this.followPaused){if(destination==='idle'||destination===this.followPaused.destination)return;this.followPaused=null;}
+    this.overview=followOverview(this.overviewBase,{x:kitchen.position.x,y:.5,z:kitchen.position.z});this.cameraGoal=navigateOverview(this.overviewBase,this.overview);
+  }
   revealOverviewPoint(point,rect){
     if(!this.overviewEnabled())return;const p=this.projectKitchenPoint(point),base=this.overviewBase;if(!p||!base)return;
     const cx=(rect.left+rect.right)/2,cy=(rect.top+rect.bottom)/2;
-    this.changeOverview(panOverview(base,this.overview,cx-p.x,cy-p.y,this.viewport.width,this.viewport.height));
-    const after=this.projectKitchenPoint(point);if(after.x<rect.left||after.x>rect.right||after.y<rect.top||after.y>rect.bottom)this.changeOverview({zoom:.9,x:0,y:0});
+    // A revealed mark holds the view until the chef sets off somewhere new.
+    if(this.followCapable()&&!this.manualOverview){const k=this.followKitchen;this.followPaused={destination:k?.route?.length?k.route.at(-1).x.toFixed(2)+','+k.route.at(-1).z.toFixed(2):'idle'};}
+    this.changeOverview(panOverview(base,this.overview,cx-p.x,cy-p.y,this.viewport.width,this.viewport.height),{manual:false});
+    const after=this.projectKitchenPoint(point);if(after.x<rect.left||after.x>rect.right||after.y<rect.top||after.y>rect.bottom)this.changeOverview({zoom:.9,x:0,y:0},{manual:false});
   }
   installOverviewGestures(canvas){
     const pointers=new Map();let gesture=null;
@@ -334,6 +345,7 @@ export class RestaurantView {
   update(time,dt,game,frameDt=dt){
     this.navigationBlocked=!game||game.paused||game.focused||game.closingService||game.state!=='playing';
     if(this.navigationBlocked)this.clearOverviewGesture?.();
+    this.followKitchen=game?.kitchen||null;if(!this.navigationBlocked)this.followChef(game?.kitchen);
     if(this.fallback||this.contextLost||!this.world)return;this.openingWeather?.visible(this.menu&&!this.takeover&&!this.focus);if(this.takeover){if(this.renderer.shadowMap)this.renderer.shadowMap.autoUpdate=true;this.takeover.update();this.renderer.render(this.scene,this.camera);return;}this.settings||={};this.quality||=renderQuality();this.frameBudget||=new FrameBudget();const w=this.world;
     if(this.menu&&!this.focus){this.updateMenu(time,dt,game);return;}
     if(this.renderer.shadowMap)this.renderer.shadowMap.autoUpdate=true;

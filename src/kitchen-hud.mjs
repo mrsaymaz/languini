@@ -71,7 +71,7 @@ export class KitchenHUD {
     const w=view.container.clientWidth,h=view.container.clientHeight,viewport=view.container.getBoundingClientRect(),rail=this.orders.getBoundingClientRect(),dock=this.dock.getBoundingClientRect(),hint=w<760&&this.hint.dataset.blocked!=='true'?{top:dock.top-34}:this.hint.getBoundingClientRect();
     const landscape=h<450&&w/h>1.4,controlsTop=Math.max(rail.bottom-viewport.top+8,(landscape?dock.top:hint.top)-viewport.top-54);
     this.camera.style.top=controlsTop+'px';
-    const state=view.overview||{zoom:1,x:0,y:0},changed=Math.abs(state.zoom-1)>.001||!!state.x||!!state.y;
+    const state=view.overview||{zoom:1,x:0,y:0},changed=view.overviewChanged?view.overviewChanged():Math.abs(state.zoom-1)>.001||!!state.x||!!state.y;
     this.camera.querySelector('output').textContent=Math.round(state.zoom*100)+'%';this.camera.querySelector('[data-camera=out]').disabled=state.zoom<=MIN_ZOOM+.0001;this.camera.querySelector('[data-camera=in]').disabled=state.zoom>=MAX_ZOOM-.0001;for(const b of this.camera.querySelectorAll('[data-camera=reset]'))b.hidden=!changed;
     // Marker centres leave a full finger target inside the unobstructed field.
     const top=rail.bottom-viewport.top+30,bottom=Math.max(top+54,controlsTop-30);

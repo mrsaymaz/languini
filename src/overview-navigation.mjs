@@ -1,6 +1,6 @@
 import * as THREE from 'three';
 import {kitchenAction} from './kitchen-signifiers.mjs';
-export const MIN_ZOOM=.9,MAX_ZOOM=1.25;
+export const MIN_ZOOM=.9,MAX_ZOOM=1.4;
 const clamp=(v,a,b)=>Math.max(a,Math.min(b,v));
 export function cleanOverview(value={}){const zoom=clamp(Number(value.zoom)||1,MIN_ZOOM,MAX_ZOOM),limit=Math.max(0,1-1/zoom)/2;return{zoom,x:clamp(Number(value.x)||0,-limit,limit),y:clamp(Number(value.y)||0,-limit,limit)};}
 export function navigateOverview(frame,value){
@@ -8,6 +8,16 @@ export function navigateOverview(frame,value){
  const direction=frame.position.clone().sub(frame.target).normalize(),right=new THREE.Vector3().crossVectors(frame.up,direction).normalize(),up=new THREE.Vector3().crossVectors(direction,right).normalize();
  const offset=right.clone().multiplyScalar(b.centerX*(1-1/state.zoom)+state.x*b.spanX).addScaledVector(up,b.centerY*(1-1/state.zoom)+state.y*b.spanY);
  return{...frame,left:frame.left/state.zoom,right:frame.right/state.zoom,top:frame.top/state.zoom,bottom:frame.bottom/state.zoom,target:frame.target.clone().add(offset),position:frame.position.clone().add(offset)};
+}
+// Phones follow the chef at a closer zoom. The usable rect's centre lands on
+// the point when x/y equal its offset from that centre in overview spans;
+// the result is then clamped to the room like any other pan.
+export const FOLLOW_ZOOM=MAX_ZOOM;
+export function followOverview(frame,point,zoom=FOLLOW_ZOOM){
+ const b=frame.overviewBounds;if(!b)return cleanOverview({zoom});
+ const direction=frame.position.clone().sub(frame.target).normalize(),right=new THREE.Vector3().crossVectors(frame.up,direction).normalize(),up=new THREE.Vector3().crossVectors(direction,right).normalize();
+ const v=new THREE.Vector3(point.x,point.y??.5,point.z).sub(frame.target);
+ return cleanOverview({zoom,x:(v.dot(right)-b.centerX)/b.spanX,y:(v.dot(up)-b.centerY)/b.spanY});
 }
 // Screen-space distance is converted using the *current* orthographic scale.
 export function panOverview(frame,state,dx,dy,width,height){const s=cleanOverview(state),b=frame.overviewBounds;return cleanOverview({...s,x:s.x-dx*(frame.right-frame.left)/s.zoom/width/b.spanX,y:s.y+dy*(frame.top-frame.bottom)/s.zoom/height/b.spanY});}
