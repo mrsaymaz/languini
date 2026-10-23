@@ -1,6 +1,7 @@
 import * as THREE from 'three';
 import {finishGeometry} from './geometry-finish.mjs';
 import {contactShadow} from './art-direction.mjs';
+import {hazeColor} from './scene-lighting.mjs';
 
 const shapes=new Map();
 function shape(key,make){if(!shapes.has(key)){const g=finishGeometry(make());g.userData.shared=true;shapes.set(key,g);}return shapes.get(key);}
@@ -115,9 +116,12 @@ export function buildNeighbourhood(root,p,{plan,arena,level=0,atmosphere='breakf
  for(let i=0;i<layout.queue;i++){const c=createCustomer(p,[5,8][i],{standing:true});c.root.position.set(plan.pickup[0]+.65,-.04,5.95+i*.64);c.root.rotation.y=Math.PI;queue.add(c.root);}
  // One baked tree shade gives Light graphics the same ground contact cue.
  if(!rain&&!evening)for(const side of [-1,1]){const shade=new THREE.Group();near.add(shade);for(let i=0;i<4;i++){const o=add(shade,shape('shade',()=>new THREE.CircleGeometry(1,14)),p.contact,side*(r+.65)+i*.12,-.048,-1.1+i*.32,.42,.26,1);o.rotation.x=-Math.PI/2;}mergeStatic(shade);}
+ // Distant shops fade towards the sky colour, so the restaurant stays the sharpest thing on screen.
+ const haze=new THREE.Color(hazeColor(arena,atmosphere)),hazed=new Map();
+ far.traverse(o=>{if(!o.isMesh||Array.isArray(o.material)||o.material.transparent)return;let m=hazed.get(o.material);if(!m){m=o.material.clone();m.userData.hazeFrom=m.color.getHex();m.color.lerp(haze,.45);m.userData.haze=true;mats.push(m);hazed.set(o.material,m);}o.material=m;});
  mergeStatic(near);mergeStatic(far);mergeStatic(lamps);
- // Contact sheets and glow pools must not cast opaque rectangle shadows.
- for(const parent of [near,far,lamps])parent.traverse(o=>{if(o.isMesh&&(o.material.transparent||o.material.userData.contact))o.castShadow=false;});
+ // Contact sheets and glow pools must not cast opaque rectangle shadows; hazed shops cast none either.
+ for(const parent of [near,far,lamps])parent.traverse(o=>{if(o.isMesh&&(o.material.transparent||o.material.userData.contact||o.material.userData.haze))o.castShadow=false;});
  let lightStart=null;
  return {group,near,far,moving,layout,queue,foliage,puddles,drips,materials:mats,
   setViewport(width){far.visible=width>=600;},

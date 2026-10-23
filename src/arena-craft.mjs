@@ -6,11 +6,13 @@ export function arenaPalette(p,arena){
  const colors=arena==='bistro'?{stone:'#eee0c8',stoneDark:'#b9c8bb',wood:'#a37a56',woodLight:'#c5a581',darkWood:'#544039',green:'#286667'}:arena==='banquet'?{stone:'#e2ddd6',stoneDark:'#bbb9c1',wood:'#795640',woodLight:'#ac8562',darkWood:'#423127',green:'#496356'}:{stone:'#dfd9c9',stoneDark:'#b8bfae',wood:'#ad8b63',woodLight:'#d0b68e',darkWood:'#63533f',green:'#4e795c'};
  for(const [key,color]of Object.entries(colors))p[key].color.set(color);
 }
+// Floor tiles sit a step below the cream furniture and pavement so tables,
+// guests and the chef separate from the floor in the overview.
 export function floorColor(arena,i,j){
- if(j<=2)return i%2?'#b9c6b6':'#c7d0bf';
- if(arena==='bistro')return (Math.floor(i/2)+j)%2?'#d6c4a5':'#e3d4b9';
- if(arena==='banquet')return i===0||i===10||j===0?'#9fa2b7':(i+j)%2?'#deded9':'#eee9dd';
- return (i+2*j)%3?'#e4dfcb':'#d4d9c0';
+ if(j<=2)return i%2?'#a9b8a6':'#b8c3b0';
+ if(arena==='bistro')return (Math.floor(i/2)+j)%2?'#c9b48f':'#d8c6a6';
+ if(arena==='banquet')return i===0||i===10||j===0?'#9599af':(i+j)%2?'#cfcdc6':'#e1dbcc';
+ return (i+2*j)%3?'#d8d0b7':'#c6ccb0';
 }
 let archGeometry;
 function arch(parent,p,x,y,z){

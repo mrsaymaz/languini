@@ -23,7 +23,8 @@ export function createAtmosphereRain(root,p,plan,atmosphere,mergeStatic){
  const group=new THREE.Group();group.userData.atmosphereExterior=true;root.add(group);const fixed=new THREE.Group();group.add(fixed);
  const rainDay=atmosphere==='rain',dusk=atmosphere==='evening',mats=[],geos=[];
  const mat=(color,opacity=1)=>{const m=new THREE.MeshBasicMaterial({color,transparent:opacity<1,opacity,depthWrite:opacity===1,toneMapped:false});mats.push(m);return m;};
- const sky=mat(rainDay?'#718f9f':dusk?'#f3bf70':'#a9e5f1'),cloud=mat(rainDay?'#c0cbd0':dusk?'#b2a8b3':'#fff7e1'),paving=mat(rainDay?'#8caaa9':dusk?'#7b838e':'#d5d0b8'),shine=mat(rainDay?'#bedde0':'#ffd89b',rainDay?.42:.16),warm=mat('#ffc263',.34);
+ const sky=mat(rainDay?'#718f9f':dusk?'#f3bf70':'#a9e5f1'),cloud=mat(rainDay?'#c0cbd0':dusk?'#b2a8b3':'#fff7e1'),puffColor=rainDay?'#b9c5ca':dusk?'#b8aeb8':'#fbf6ea',puff=new THREE.MeshStandardMaterial({color:puffColor,emissive:puffColor,emissiveIntensity:.5,roughness:1,flatShading:true}),paving=mat(rainDay?'#8caaa9':dusk?'#7b838e':'#d5d0b8'),shine=mat(rainDay?'#bedde0':'#ffd89b',rainDay?.42:.16),warm=mat('#ffc263',.34);
+ puff.userData.contact=true;mats.push(puff);
  const add=(geometry,material,x,y,z)=>{geos.push(geometry);const m=new THREE.Mesh(geometry,material);m.userData.ownedGeometry=true;m.position.set(x,y,z);fixed.add(m);return m;};
  const slab=(m,x,y,z,w,h,d)=>add(new THREE.BoxGeometry(w,h,d),m,x,y,z);
  const edge=5.12+plan.venue.extraWidth/2;
@@ -37,17 +38,23 @@ export function createAtmosphereRain(root,p,plan,atmosphere,mergeStatic){
   if(!rainDay){const sun=add(new THREE.SphereGeometry(dusk?.11:.15,12,8),mat(dusk?'#fff1be':'#ffe59c'),x+.30,1.88,z+.018);sun.scale.z=.05;}
  }
  // Exterior clouds are deliberately at the right edge, visible in portrait.
- const clouds=[];
+ const clouds=[],setupOnly=[];
  // Broad floor beams and an exterior sun remain legible from the overview.
  if(!rainDay&&!dusk){
-  const gold=mat('#ffd272',.25),sun=mat('#ffe390'),ray=mat('#f6c46c');
-  const x=-4.25-plan.venue.extraWidth*.35,z=plan.kitchenZ-.65;add(new THREE.SphereGeometry(.48,16,10),sun,x,3.05,z);
+  const sun=mat('#ffe390'),ray=mat('#f6c46c');
+  // Beams fade from the window to nothing; vertex alpha keeps them one shared batch.
+  const gold=new THREE.MeshBasicMaterial({color:'#ffd272',vertexColors:true,transparent:true,opacity:.34,depthWrite:false,toneMapped:false});gold.userData.contact=true;mats.push(gold);
+  // The big sun belongs to the setup view; during a shift it would sit over the
+  // kitchen shelves, and the window suns and floor beams already carry the morning.
+  const x=-4.25-plan.venue.extraWidth*.35,z=plan.kitchenZ-.65;add(new THREE.IcosahedronGeometry(.48,1),sun,x,3.05,z);
   for(let i=0;i<10;i++){const a=i*Math.PI/5,m=slab(ray,x+Math.sin(a)*.72,3.05+Math.cos(a)*.72,z,.065,.24,.045);m.rotation.z=-a;}
-  for(const x of [-3.05,0,3.05]){const g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.Float32BufferAttribute([x-.55,.097,plan.kitchenZ+.65,x+.55,.097,plan.kitchenZ+.65,x+2.15,.097,plan.kitchenZ+4.65,x+.40,.097,plan.kitchenZ+4.65],3));g.setIndex([0,2,1,0,3,2]);g.computeVertexNormals();add(g,gold,0,0,0);}
+  setupOnly.push(sun,ray);
+  for(const x of [-3.05,0,3.05]){const g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.Float32BufferAttribute([x-.55,.097,plan.kitchenZ+.65,x+.55,.097,plan.kitchenZ+.65,x+2.15,.097,plan.kitchenZ+4.65,x+.40,.097,plan.kitchenZ+4.65],3));g.setAttribute('color',new THREE.Float32BufferAttribute([1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,0],4));g.setIndex([0,2,1,0,3,2]);g.computeVertexNormals();add(g,gold,0,0,0);}
  }
  for(let j=0;j<(rainDay?3:2);j++){
-  const c=new THREE.Group();c.userData.baseX=j===0?-edge:edge-.10;c.position.set(c.userData.baseX,1.8+j*.25,-2.4-j*.8-plan.venue.extraDepth*.35);group.add(c);clouds.push(c);
-  for(let i=0;i<3;i++){const m=add(new THREE.SphereGeometry(.52,10,6),cloud,0,0,0);c.add(m);m.position.set((i-1)*.22,i%2*.12,0);m.scale.set(1,.8,.8);}
+  // Faceted, lit puffs float above the tree line so they never cut through a crown or wall.
+  const c=new THREE.Group();c.userData.baseX=j===0?-edge-.8:edge+.85;c.position.set(c.userData.baseX,3.3+j*.3,-2.4-j*.8-plan.venue.extraDepth*.35);group.add(c);clouds.push(c);
+  for(let i=0;i<3;i++){const m=add(new THREE.IcosahedronGeometry(.44,0),puff,0,0,0);c.add(m);m.position.set((i-1)*.26,i%2*.14,(i%2-.5)*.08);m.scale.set(1,.72,.8);m.rotation.set(i*.7,i*1.1,0);}
  }
  const puddles=[];
  if(rainDay)for(const [x,z]of [[-2.3,5.05],[2.7,4.9],[edge,-.1],[edge,2.3]]){
@@ -57,10 +64,11 @@ export function createAtmosphereRain(root,p,plan,atmosphere,mergeStatic){
  const lamp=dusk?mat('#ffdf91'):null;
  if(dusk){const pole=mat('#69776b');for(const x of [-1.05,1.05]){slab(pole,x,1.45,4.40,.07,1.4,.07);add(new THREE.SphereGeometry(.17,12,8),lamp,x,2.17,4.40);}for(const [x,z]of [[-1.1,3.4],[1.1,3.4],[-2.6,-.1],[2.6,-.1]]){const pool=add(new THREE.CircleGeometry(1.1,32),warm,x,.098,z);pool.rotation.x=-Math.PI/2;pool.scale.set(.8,1.15,1);}}
  if(mergeStatic){mergeStatic(fixed);clouds.forEach(c=>mergeStatic(c));}
+ const setupProps=[];fixed.traverse(o=>{if(o.isMesh&&setupOnly.includes(o.material))setupProps.push(o);});
  let lightStart=null,lightProgress=1;
  const count=rainDay?240:0,positions=new Float32Array(count*6),geometry=new THREE.BufferGeometry();geometry.setAttribute('position',new THREE.BufferAttribute(positions,3));geometry.userData.atmosphereRain=true;
  const material=new THREE.LineBasicMaterial({color:'#d3edf6',transparent:true,opacity:.90,depthWrite:false}),rain=new THREE.LineSegments(geometry,material);rain.visible=rainDay;rain.userData.ownedGeometry=true;rain.frustumCulled=false;group.add(rain);
- return {group,mesh:rain,geometry,count,clouds,puddles,get lightProgress(){return lightProgress;},update(time=0,reduced=false){const t=reduced?0:time;
+ return {group,mesh:rain,geometry,count,clouds,puddles,get lightProgress(){return lightProgress;},update(time=0,reduced=false,{menu=true}={}){const t=reduced?0:time;for(const o of setupProps)o.visible=menu;
   if(dusk){if(lightStart===null&&!reduced)lightStart=time;lightProgress=reduced?1:Math.min(1,Math.max(0,(time-(lightStart??time))/1.1));warm.opacity=.08+.30*lightProgress;lamp.color.set(lightProgress>.75?'#ffe7aa':'#c8a87c');}
   for(let i=0;i<count;i++){let x,z,y;if(i<48){const w=Math.floor(i/16);x=(-3.1+w*3.1)*plan.venue.width/9.4+(i%16/16-.5)*1.10;y=.62+((i*.137-t*.65)%1+1)%1*1.35;z=-4.205-plan.venue.extraDepth;}else if(i<176){const side=i<112?1:-1,index=(i-48)%64;x=side*(edge+((i*.27)%1-.5)*.52);z=-4.0-plan.venue.extraDepth+index/64*(8.6+plan.venue.extraDepth);y=.30+((i*.173-t*.70)%1+1)%1*2.8;}else{x=-4.9+(i-176)/64*9.8;z=4.82+(i%3)*.15;y=.25+((i*.173-t*.75)%1+1)%1*2.8;}positions.set([x,y,z,x+.07,y-.38,z],i*6);}
   geometry.attributes.position.needsUpdate=true;clouds.forEach((c,i)=>c.position.x=c.userData.baseX+Math.sin(t*.09+i)*.08);puddles.forEach((r,i)=>{const phase=(t*.48+i*.23)%1;r.scale.setScalar(.5+phase*1.8);r.material.opacity=reduced?.26:(1-phase)*.32;});
