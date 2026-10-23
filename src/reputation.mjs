@@ -18,9 +18,10 @@ export function reputationAverage(value={}){const s=cleanReputation(value);retur
 export function reputationSnapshot(value={}){const s=cleanReputation(value);return {average:reputationAverage(s),reviews:INHERITED_REVIEWS+s.count,newReviews:s.count,level:s.level};}
 export function customerRating(ratings={}){const values=['taste','service','speed'].map(k=>ratings[k]).filter(n=>Number.isFinite(n)&&n>=1&&n<=3);return values.length?values.reduce((a,b)=>a+b,0)/values.length/3*5:null;}
 export function ratingText(value){return Number.isFinite(value)?String(Math.round(value*10)/10):'—';}
-export function creditReview(state,id,value){
- if(!Number.isFinite(value)||value<1||value>5||!/^\d+:\d+$/.test(id)||state.credited.includes(id))return null;
- const before=reputationSnapshot(state);state.count++;state.total+=value;state.credited=[...state.credited,id].slice(-256);
+// weight lets one review count as several, as for a perfect food-critic visit.
+export function creditReview(state,id,value,weight=1){
+ if(!Number.isFinite(value)||value<1||value>5||!/^\d+:\d+$/.test(id)||state.credited.includes(id)||!Number.isInteger(weight)||weight<1||weight>5)return null;
+ const before=reputationSnapshot(state);state.count+=weight;state.total+=value*weight;state.credited=[...state.credited,id].slice(-256);
  const average=reputationAverage(state),level=REPUTATION_MILESTONES.filter(m=>average+1e-10>=m.rating).length;
  const milestones=REPUTATION_MILESTONES.slice(state.level,Math.max(state.level,level));state.level=Math.max(state.level,level);
  return {before,after:reputationSnapshot(state),milestones};

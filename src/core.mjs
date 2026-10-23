@@ -1,4 +1,5 @@
 import {newShiftId} from './ulti.mjs';
+import {CRITIC_WEIGHT,CRITIC_GREETING,criticCandidate} from './food-critic.mjs';
 import {cleanDesign,cleanDesigns,cleanCafeProgress,cleanCafeProgresses,atmosphereFor,ATMOSPHERE_GREETINGS} from './cafe-design.mjs';
 import {takeawayTask,practicalMode} from './takeaway-tasks.mjs';
 import {ServiceDirector} from './service-director.mjs';
@@ -192,8 +193,8 @@ export class BistroGame {
     const together=event&&this.eventCandidate.id==='together',partyRecipes=together||large?[recipe,(recipe+1)%RECIPES.length]:[recipe],partyGuests=together||large?[guest,(guest+1)%CUSTOMER_PROFILES.length]:[guest];
     const route=together||large?[{setting:'tablet',phase:'order'},{setting:'recipe',phase:'prepare',part:0},{setting:'recipe',phase:'prepare',part:1},...(this.config.difficulty==='challenge'?[{setting:'repair',phase:'serve'}]:[])]:descriptors;
     const planned=this.demoSetting?route:venueRoute(route,this.arena.id);if(pickup&&!this.demoSetting){planned.push({setting:'pickup',phase:'serve',pickupMode:'numbers'});const mode=this.connectedService&&practicalMode(this.cafeProgress.pickups);if(mode)planned.push({setting:'pickup',phase:'serve',pickupMode:mode});}
-    if(pickup)this.takeawayScheduled=true;const personality={...personalityFor(guest)},name=CUSTOMER_PROFILES[guest].name;if(visits>0&&this.reputation.level)personality.returning=REPUTATION_MILESTONES[this.reputation.level-1].returning;
-    if(large)this.director.largeSpawned();Object.assign(t,{episodeLarge:large,atmosphereGreeting:ATMOSPHERE_GREETINGS[this.atmosphere],status:'waiting',patience,maxPatience:patience,recipe,guest,name,personality,visits,greeting:visits?personality.returning:personality.greeting,reward:0,freshnessCount:0,freshnessScore:0,reviewScores:newOrderReview(),dining:null,firstHandoff:null,plan:planned.map(d=>({...d,task:null})),orderType,orderLabel:together?'Serve together':ORDER_TYPES[orderType].name,orderReason:ORDER_TYPES[orderType].reason,final,event,partySize:partyRecipes.length,partyRecipes,partyGuests,deliveredParts:[],transitParts:[],readyParts:[],side:false,sideOffered:false,step:0,stockReserved:false,cooked:false,delivered:false,orderId:++this.sequence,task:null,settingsDone:[],languageContext:''});if(this.demoSetting==='pickup'){t.status='ready';t.cooked=true;t.readyParts=[0];}this.emit('arrival',{table:t.id,final});return true;
+    if(pickup)this.takeawayScheduled=true;const critic=criticCandidate(this,{pickup,event,final,large});if(critic)this.criticSpawned=true;const personality={...personalityFor(guest)},name=CUSTOMER_PROFILES[guest].name;if(visits>0&&this.reputation.level)personality.returning=REPUTATION_MILESTONES[this.reputation.level-1].returning;
+    if(large)this.director.largeSpawned();Object.assign(t,{episodeLarge:large,atmosphereGreeting:ATMOSPHERE_GREETINGS[this.atmosphere],status:'waiting',patience,maxPatience:patience,recipe,guest,name,personality,visits,greeting:critic?CRITIC_GREETING:visits?personality.returning:personality.greeting,critic,criticSlip:false,reward:0,freshnessCount:0,freshnessScore:0,reviewScores:newOrderReview(),dining:null,firstHandoff:null,plan:planned.map(d=>({...d,task:null})),orderType,orderLabel:together?'Serve together':ORDER_TYPES[orderType].name,orderReason:ORDER_TYPES[orderType].reason,final,event,partySize:partyRecipes.length,partyRecipes,partyGuests,deliveredParts:[],transitParts:[],readyParts:[],side:false,sideOffered:false,step:0,stockReserved:false,cooked:false,delivered:false,orderId:++this.sequence,task:null,settingsDone:[],languageContext:''});if(this.demoSetting==='pickup'){t.status='ready';t.cooked=true;t.readyParts=[0];}this.emit('arrival',{table:t.id,final,critic});return true;
   }
   get focused(){return !!this.active||!!this.director?.offer||!!this.pendingSide&&!this.kitchen?.sideRestock;}
   get needsDelivery(){return this.stock<=1||!!this.director?.needsSupplies;}
@@ -211,7 +212,7 @@ export class BistroGame {
       if(t.transitParts?.length)continue;
       if(['waiting','ready','queued','preparing','prepared'].includes(t.status)){
         if(t.status==='ready'&&this.kitchen)t.readyAge=(t.readyAge||0)+dt;
-        t.patience=Math.max(0,t.patience-dt*(t.status==='ready'&&this.equipped.has('warmer')?.6:1));if(t.patience<=0){t.status='leaving';t.cooldown=2;this.kitchen?.invalidate(t);if(this.selectedDish?.orderId===t.orderId)this.selectedDish=null;this.loaded=this.loaded.filter(l=>l.orderId!==t.orderId);this.closeEvent(t,false);this.director?.missed(t);this.jobs=this.jobs.filter(j=>j.orderId!==t.orderId);this.missed++;this.combo=0;this.emit('missed',{table:t.id});if(this.missed>=3){this.finish(false);return;}}
+        t.patience=Math.max(0,t.patience-dt*(t.status==='ready'&&this.equipped.has('warmer')?.6:1));if(t.patience<=0){t.status='leaving';t.cooldown=2;this.kitchen?.invalidate(t);if(this.selectedDish?.orderId===t.orderId)this.selectedDish=null;this.loaded=this.loaded.filter(l=>l.orderId!==t.orderId);this.closeEvent(t,false);this.director?.missed(t);if(t.critic)this.criticReview={name:t.name,left:true};this.jobs=this.jobs.filter(j=>j.orderId!==t.orderId);this.missed++;this.combo=0;this.emit('missed',{table:t.id});if(this.missed>=3){this.finish(false);return;}}
       }
     }
     this.spawnClock-=dt;if(this.spawnClock<=0){this.spawnGuest();this.spawnClock=this.arena.arrival*(this.config.difficulty==='challenge'?.65:1)*(this.kitchen?1.4:1);}
@@ -260,6 +261,7 @@ export class BistroGame {
     a.completed=true;this.completed++;this.combo++;this.bestCombo=Math.max(this.bestCombo,this.combo);
     this.learning.record(a.task,{supported:a.task.kind==='sorting'?false:a.task.kind==='matching'?!!a.hinted:a.attempts>1||!!a.hinted||!!a.repairCueShown,pairSupport:a.pairSupport||[]});this.emit('learning');
     const first=a.attempts===1&&!a.hinted,multiplier=this.config.difficulty==='challenge'?2:1;
+    if(a.purpose==='order'&&!first&&this.tables[a.tableId]?.critic)this.tables[a.tableId].criticSlip=true;
     a.reward=a.purpose==='washing'?0:(a.purpose==='delivery'?5:10+(first?5:0)+Math.min(5,Math.floor(this.combo/3)))*multiplier;
     if(a.prepPhase!=null&&a.prepPhase<PREP_PHASE_COUNT-1||a.activityRound<(a.activityRounds||1)-1)a.reward=0;
     if(a.purpose==='order')this.tables[a.tableId].reward+=a.reward;
@@ -338,7 +340,7 @@ export class BistroGame {
     this.kitchen?.onServed(load);this.served++;this.runes+=reward;this.projects=advanceProject(this.projects);this.emit('project_progress',{projects:this.projects});const guest=t.partyGuests?.[load.part]??t.guest,previous=this.guests[guest]||{visits:0,favourite:load.recipe},visits=previous.visits+1;this.guests[guest]={visits,favourite:previous.favourite};
     if(complete&&t.pickup&&!this.demoSetting){const key=`${this.reputation.shiftSerial}:${t.orderId}`;if(!this.cafeProgress.credited.includes(key)){this.cafeProgress.pickups++;this.cafeProgress.credited=[...this.cafeProgress.credited,key].slice(-128);this.emit('cafe_progress');}}
     if(t.pickup)this.director?.pickupServed(t,complete);
-    if(complete){t.status='leaving';t.delivered=true;t.cooldown=diningDuration;t.dining={elapsed:0,ratings:customerReview(t,this.restaurantCleanliness())};this.closeEvent(t,true);}else t.status='ready';
+    if(complete){t.status='leaving';t.delivered=true;t.cooldown=diningDuration;t.dining={elapsed:0,ratings:t.critic&&!t.criticSlip?{taste:3,service:3,speed:3}:customerReview(t,this.restaurantCleanliness())};this.closeEvent(t,true);}else t.status='ready';
     this.emit('served',{table:load.tableId,reward,freshnessTip:freshTip,steps:t.step,name:CUSTOMER_PROFILES[guest].name,thanks:t.personality.thanks,postcard:visits===3,final:t.final,part:load.part});if(this.served>=this.goal&&!this.director?.holdFinal){this.closingService=true;this.run=null;this.loaded=[];this.selectedDish=null;}return reward;}
   restaurantCleanliness(){
     if(!this.kitchen)return this.cleanlinessQuality;
@@ -355,9 +357,9 @@ export class BistroGame {
     }
   }
   commitCustomerReview(t){
-    if(!t.dining||t.dining.credited)return false;const score=customerRating(t.dining.ratings);if(score==null)return false;t.dining.credited=true;t.dining.score=score;
-    const review={name:t.name||CUSTOMER_PROFILES[t.guest]?.name||'Customer',score,orderId:t.orderId,table:t.id};this.shiftReviews.push(review);
-    if(!this.demoSetting){const change=creditReview(this.reputation,`${this.reputation.shiftSerial}:${t.orderId}`,score);if(change)this.reputationMilestones.push(...change.milestones);}
+    if(!t.dining||t.dining.credited)return false;const perfect=!!t.critic&&!t.criticSlip,score=customerRating(t.dining.ratings);if(score==null)return false;t.dining.credited=true;t.dining.score=score;
+    const review={name:t.name||CUSTOMER_PROFILES[t.guest]?.name||'Customer',score,orderId:t.orderId,table:t.id,...(t.critic?{critic:true,perfect}:{})};this.shiftReviews.push(review);if(t.critic)this.criticReview={name:review.name,perfect,score};
+    if(!this.demoSetting){const change=creditReview(this.reputation,`${this.reputation.shiftSerial}:${t.orderId}`,score,perfect?CRITIC_WEIGHT:1);if(change)this.reputationMilestones.push(...change.milestones);}
     this.emit('customer_rating',review);return review;
   }
   commitPendingReviews(){for(const t of this.tables)this.commitCustomerReview(t);}
@@ -365,6 +367,7 @@ export class BistroGame {
   boost(){if(this.state!=='playing'||this.paused||this.active||this.boostUsed)return false;this.boostUsed=true;for(const t of this.tables)t.patience=Math.min(t.maxPatience,t.patience+15);this.emit('boost');return true;}
   finish(won){if(this.state==='finished')return;this.commitPendingReviews();this.active=null;this.run=null;this.jobs=[];this.loaded=[];this.selectedDish=null;this.pendingSide=null;this.state='finished';this.result={shift:this.shift,freshness:{...this.freshnessTotals},won,served:this.served,goal:this.goal,runes:this.runes,accuracy:this.total?Math.round(this.firstCorrect/this.total*100):0,missed:this.missed,bestCombo:this.bestCombo,completed:this.completed,deliveries:this.deliveries,review:this.review.slice(0,6)};
     if(this.director)this.result.episode=this.director.summary();
+    this.result.critic=this.criticReview||null;
     this.result.reputation=reputationProgress(this.reputationStart,this.reputation,this.shiftReviews);this.result.reputation.milestones=[...this.reputationMilestones];if(this.kitchen)this.result.kitchen=this.kitchen.summary();
     this.result.stars=won?(this.result.accuracy>=85&&this.missed===0?3:this.result.accuracy>=65&&this.missed<=1?2:1):0;this.emit('finish',{result:this.result});
   }

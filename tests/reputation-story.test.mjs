@@ -1,4 +1,5 @@
 import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';import * as THREE from 'three';
+import {CRITIC_WEIGHT} from '../src/food-critic.mjs';
 import {cleanReputation,cleanReputations,customerRating,ratingText,reputationAverage,reputationKey,reputationSnapshot,creditReview,REPUTATION_MILESTONES} from '../src/reputation.mjs';
 import {BistroGame,ARENAS,loadProfile,saveProfile} from '../src/core.mjs';import {DINING,diningStage} from '../src/customer-reviews.mjs';import {ReviewCards} from '../src/review-cards.mjs';import {TakeoverScene,takeoverShot,TAKEOVER_DURATION,TAKEOVER_SHOTS} from '../src/takeover-story.mjs';import {createRestaurant} from '../src/restaurant.mjs';import {eventFor} from '../src/service-events.mjs';import {reputationResult} from '../src/reputation-ui.mjs';import {Element} from './dom-double.mjs';import {seeded,tick,finishShift} from './helpers.mjs';
 const bank=JSON.parse(fs.readFileSync(new URL('../public/data/language.json',import.meta.url))),tasks=bank[0].units[0].tasks,config={grade:5,unit:'g5u1',team:'gryffindor',arena:'courtyard',difficulty:'relaxed'};
@@ -18,7 +19,7 @@ test('all five story milestones are crossed once and keep earned visual progress
 
 test('every regular shift has a complete pickup task, including every event candidate and both paces',()=>{
  for(const arena of ARENAS)for(const difficulty of ['relaxed','challenge'])for(const eventType of ['mixed','side','takeaway','together']){
-  const g=finishShift({...config,arena:arena.id,difficulty},tasks,{eventType});assert.equal(g.result.won,true);assert.equal(g.history.filter(h=>h.setting==='pickup').length,1,`${arena.id}/${difficulty}/${eventType}`);assert.equal(g.takeawayScheduled,true);assert.ok(g.shiftReviews.length>0);assert.equal(g.reputation.count,g.shiftReviews.length);assert.equal(g.result.reputation.count,g.shiftReviews.length);assert.equal(g.result.reputation.before.average,2.1);assert.ok(g.result.reputation.after.average>2.1);
+  const g=finishShift({...config,arena:arena.id,difficulty},tasks,{eventType});assert.equal(g.result.won,true);assert.equal(g.history.filter(h=>h.setting==='pickup').length,1,`${arena.id}/${difficulty}/${eventType}`);assert.equal(g.takeawayScheduled,true);assert.ok(g.shiftReviews.length>0);assert.equal(g.reputation.count,g.shiftReviews.length+g.shiftReviews.filter(r=>r.perfect).length*(CRITIC_WEIGHT-1),'A perfect critic review counts '+CRITIC_WEIGHT+' times');assert.equal(g.result.reputation.count,g.shiftReviews.length);assert.equal(g.result.reputation.before.average,2.1);assert.ok(g.result.reputation.after.average>2.1);
  }
  for(const arena of ARENAS){let history=[],ids=[];for(let i=0;i<8;i++){const e=eventFor(arena.id,history,()=>0);ids.push(e.id);history=[...history,e.id].slice(-4);}assert.equal(new Set(ids.slice(0,4)).size,4);assert.ok(ids.includes('takeaway'));}
 });

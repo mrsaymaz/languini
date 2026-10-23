@@ -85,3 +85,9 @@
 #setup-form #setup-ulti[hidden],.ulti-result[hidden]{display:none}
 
 #ulti-modal{z-index:20}
+/* Food critic: a badge on their ticket and one line on the results. */
+.critic-badge{color:#7a5410;font-weight:800}
+.critic-result{display:grid;gap:3px;width:100%;margin:12px 0 0;padding:10px 14px;border:1px solid #e3cf9f;border-radius:12px;background:#fbf3df;color:#5d4a26;text-align:left}
+.critic-result h3{display:flex;align-items:center;gap:6px;margin:0;font:800 14px/1.25 var(--sans);color:#6b4b10}.critic-result h3 svg{width:16px;height:16px;flex:none}
+.critic-result p{margin:0;font-size:12px;line-height:1.45}
+.critic-result[data-perfect=false] h3{color:#5d4a26}
