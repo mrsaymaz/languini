@@ -1,5 +1,5 @@
 import {tableIdentity,taskIdentity,applyIdentity} from './task-identity.mjs';
-import {creditUlti,ultiPool,mergeUlti} from './ulti.mjs';
+import {createLeague,leagueApi,ultiClaim,hoursLabel,ULTI_ACCURACY} from './ulti.mjs';
 import {DesignEditor} from './design-editor.mjs';
 import {cleanDesign,cleanCafeProgress,atmosphereFor,ATMOSPHERES,DECOR_SLOTS} from './cafe-design.mjs';
 import {TakeoverStory} from './takeover-story.mjs';
@@ -15,7 +15,7 @@ import {KitchenHUD} from './kitchen-hud.mjs';
 import {PROJECTS,PROJECT_GOALS,PROJECT_COSTS,cleanProjects,buyProjectStage} from './refurbishment.mjs';
 import {eventFor,SERVICE_EVENTS} from './service-events.mjs';
 import {getLanguageBank,messageTargetOrigin} from './local-runtime.mjs';
-import {SAVE_KEY,TEAMS,ARENAS,RECIPES,UPGRADES,BistroGame,normalizeConfig,loadProfile,saveProfile,walletKey,practiceKey,recordKey,saveResult,buyUpgrade,upgradeCost,CATALOG,buyItem,equipItem} from './core.mjs';
+import {TEAMS,ARENAS,RECIPES,UPGRADES,BistroGame,normalizeConfig,loadProfile,saveProfile,walletKey,practiceKey,recordKey,saveResult,buyUpgrade,upgradeCost,CATALOG,buyItem,equipItem} from './core.mjs';
 import {layoutSignals} from './service-layout.mjs';
 import {serviceGuidance} from './service-guidance.mjs';
 import {CUSTOMER_PROFILES} from './customer-profiles.mjs';
@@ -29,25 +29,62 @@ const $=id=>document.getElementById(id),esc=s=>String(s??'').replace(/[&<>"']/g,
 const reviewCards=new ReviewCards(document.getElementById('customer-reviews'));
 const previewMode=new URLSearchParams(location.search).get('preview')==='phone';
 let storage;if(previewMode){const memory=new Map();storage={getItem:k=>memory.get(k)||null,setItem:(k,v)=>memory.set(k,v)};document.body.classList.add('preview-embedded');}else try{storage=window.localStorage;}catch{storage={getItem:()=>null,setItem:()=>{throw Error('Storage unavailable');}};}
-const profile=loadProfile(storage),audio=new BistroAudio(profile.settings);
+const profile=loadProfile(storage),audio=new BistroAudio(profile.settings),league=createLeague({api:previewMode?'':leagueApi(window.LANGUINI_CONFIG),storage});
 let kitchenHUD,lessonPicker,takeoverStory,designEditor;let storyStartsShift=false;
 const ownerGuide=new OwnerGuide({storage,getGame:()=>game,getMode:()=>profile.kitchenHelp.mode,notify:ownerToast});
 function ownerToast(text,pose){toast(text);const img=document.createElement('img');img.src=OWNER_ASSETS[pose].small;img.alt='';img.width=38;img.height=46;img.decoding='async';ownerGuide.watchImage(img);$('toast').prepend(img);$('toast').dataset.owner='true';}
 let bank=[],config,game=null,view=null,interactions=null,taskEpoch=0,toastTimer,lastFrame=0,uiClock=0,labels=[],lastFocus=null,saveWarningShown=false,previewSetting=null;
 const team=()=>TEAMS.find(t=>t.id===config.team),arena=()=>ARENAS.find(a=>a.id===config.arena),unit=()=>bank.find(g=>g.grade===config.grade)?.units.find(u=>u.id===config.unit),wallet=()=>profile.wallets[walletKey(config)]||0;
-let ultiRefreshAt=0;
-function refreshUlti(now=Date.now()){
-  if(!config)return;const pool=ultiPool(profile,config,now),badge=$('setup-ulti-value');
-  if(badge&&badge.textContent!==String(pool.balance))badge.textContent=String(pool.balance);
-  const context=$('setup-ulti-context');if(context)context.textContent=`Grade ${config.grade} · ${team().name}`;
-  const button=$('setup-ulti');if(button)button.setAttribute('aria-label',`Ulti pool: ${pool.balance} · Grade ${config.grade} · ${team().name}`);
-  if(!$('ulti-modal').hidden){
-    $('ulti-title').textContent=`Grade ${config.grade} · ${team().name}`;$('ulti-balance').textContent=pool.balance+' Ulti';
-    const stamp=pool.key+':'+pool.awards.map(a=>a.id).join('|');if($('ulti-awards').dataset.stamp!==stamp){$('ulti-awards').dataset.stamp=stamp;$('ulti-awards').innerHTML=pool.awards.length?[...pool.awards].sort((a,b)=>a.expiresAt-b.expiresAt).map(a=>`<li><b>+${a.amount} Ulti</b><span>Expires <time datetime="${new Date(a.expiresAt).toISOString()}">${esc(new Date(a.expiresAt).toLocaleString(undefined,{month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'}))}</time></span></li>`).join(''):'<li class="ulti-empty">No active Ulti yet.</li>';}
-  }
-  if(!$('results').hidden){const receipt=game?.result?.ultiAward,node=$('result-ulti');if(node){const earned=receipt?.amount||0,expired=receipt?.expiresAt<=now;const html=`<b>${earned?'+'+earned+' Ulti':'Ulti'}</b><span>${pool.balance} in pool${earned?' · '+(expired?'Award expired':'Expires '+esc(new Date(receipt.expiresAt).toLocaleDateString(undefined,{month:'short',day:'numeric'}))):''}</span>`;if(node.innerHTML!==html)node.innerHTML=html;}}
+let ultiRefreshAt=0,leagueGrade=null,leagueAt=0;const ticketRequests=new Map();
+const paceName=id=>id==='challenge'?'Challenge':'Relaxed';
+// Pools are fetched when the grade changes, when the dialog opens and every five minutes while setup shows.
+function syncLeague(force=false){
+  if(!league.enabled||!config||(!force&&$('setup').hidden&&$('ulti-modal').hidden))return;const grade=config.grade,now=Date.now();
+  if(!force&&grade===leagueGrade&&now-leagueAt<300000)return;leagueGrade=grade;leagueAt=now;league.refresh(grade).then(()=>refreshUlti());
 }
-function openUlti(){openModal('ulti-modal');refreshUlti();}
+function ultiRules(snap){
+  if(!snap.settings)return 'Win a shift to add Ulti to your team in the English League. Connecting to the League…';
+  if(!snap.game)return 'Languini is not switched on in the English League yet. Shifts still earn runes and stars.';
+  const points=snap.game.points,table=Array.isArray(points?.relaxed)&&Array.isArray(points?.challenge)?` Cafe/Diner/Bistro: Relaxed ${points.relaxed.join('/')} · Challenge ${points.challenge.join('/')}.`:'';
+  return `Win a shift with ${ULTI_ACCURACY.relaxed}% first-try accuracy on Relaxed or ${ULTI_ACCURACY.challenge}% on Challenge to add Ulti to your team's Battle Arena pool. Points last ${hoursLabel(snap.hours)}.${table}`;
+}
+const ULTI_REASONS={'device-limit':'Today’s Ulti wins on this device are used up.','team-limit':'Your team reached today’s Ulti limit.',off:'Languini is not switched on in the League yet.','too-fast':'This shift finished too quickly to count.',expired:'This shift’s League ticket expired.'};
+function ultiResultHTML(u,grade,teamName){
+  if(u.state==='sending')return '<b>Ulti</b><span>Sending your win to the English League…</span>';
+  if(u.state==='accuracy')return `<b>Ulti</b><span>Ulti needs ${u.needed}% first-try accuracy on ${paceName(game?.config.difficulty)}. You got ${u.accuracy}%.</span>`;
+  if(u.state==='queued')return '<b>Ulti</b><span>Saved on this device. It will be sent when you are back online.</span>';
+  if(u.state==='no-ticket')return '<b>Ulti</b><span>This shift could not reach the League when it opened.</span>';
+  if(u.state==='counted'&&u.points>0)return `<b>+${u.points} Ulti</b><span>for Grade ${grade} ${esc(teamName)}!</span>`;
+  return `<b>Ulti</b><span>${ULTI_REASONS[u.reason]||'The League could not count this shift.'}</span>`;
+}
+function refreshUlti(){
+  if(!config)return;$('setup-ulti').hidden=!league.enabled;const node=$('result-ulti'),receipt=game?.result?.ulti;node.hidden=!league.enabled||!receipt;
+  if(!league.enabled)return;syncLeague();
+  const snap=league.snapshot(config.grade),mine=snap.teams.find(t=>t.id===config.team),value=snap.known?String(mine.points):'–',badge=$('setup-ulti-value');
+  if(badge&&badge.textContent!==value)badge.textContent=value;
+  const context=$('setup-ulti-context');if(context)context.textContent=`Grade ${config.grade} · ${team().name}`;
+  $('setup-ulti').setAttribute('aria-label',`Ulti: ${snap.known?mine.points+' League points':'not loaded yet'} · Grade ${config.grade} · ${team().name}`);
+  if(!$('ulti-modal').hidden){
+    $('ulti-title').textContent=`Grade ${config.grade} · ${team().name}`;$('ulti-balance').textContent=value+' Ulti';$('ulti-note').textContent=ultiRules(snap);
+    const stamp=JSON.stringify([config.team,snap.known,snap.capacity,snap.teams.map(t=>t.points)]);
+    if($('ulti-awards').dataset.stamp!==stamp){$('ulti-awards').dataset.stamp=stamp;$('ulti-awards').innerHTML=snap.known?snap.teams.map(t=>{const info=TEAMS.find(x=>x.id===t.id),fill=Math.round(Math.min(1,t.points/snap.capacity)*100);return `<li class="ulti-team${t.id===config.team?' current':''}" style="--team-color:${info.color}"><b>${info.name}</b><span>${t.points} / ${snap.capacity} · x${t.strength.toFixed(2)}</span><i class="ulti-bar" aria-hidden="true"><i style="width:${fill}%"></i></i></li>`;}).join(''):'<li class="ulti-empty">The League has not answered yet.</li>';}
+  }
+  if(!$('results').hidden&&receipt){const html=ultiResultHTML(receipt,game.shift.grade,TEAMS.find(t=>t.id===game.shift.team)?.name||'');if(node.innerHTML!==html)node.innerHTML=html;}
+}
+function openUlti(){openModal('ulti-modal');syncLeague(true);refreshUlti();}
+// A ticket is asked for when a shift opens; without one (offline) it is asked for again after each served guest.
+function requestTicket(shift){
+  if(!league.enabled||ticketRequests.has(shift.id)||league.ticketFor(shift.id))return;
+  ticketRequests.set(shift.id,league.start(shift).finally(()=>ticketRequests.delete(shift.id)));
+}
+// Claims a qualifying win once its ticket request has settled; the receipt fills in as the League answers.
+function claimUlti(result){
+  if(!league.enabled)return null;const rule=ultiClaim(result,{preview:previewMode});
+  if(!rule.claim){league.discard(result.shift.id);return rule.reason==='accuracy'?{state:'accuracy',accuracy:rule.accuracy,needed:rule.needed}:null;}
+  const receipt={state:'sending'};
+  Promise.resolve(ticketRequests.get(result.shift.id)).then(()=>league.claim(result.shift.id)).then(reply=>{Object.assign(receipt,reply);refreshUlti();if(reply.state==='counted')league.flush().then(()=>refreshUlti());});
+  return receipt;
+}
 function sceneConfig(){const key=walletKey(config);return {...config,furnishings:profile.furnishings[key]||{},projects:profile.projects[key]||{},postcards:Object.values(profile.guests[key]||{}).filter(g=>g.visits>=3).length,design:cleanDesign(profile.designs[reputationKey(config)]),atmosphere:game?.state==='playing'?game.atmosphere:atmosphereFor(profile.designs[reputationKey(config)],cleanReputation(profile.reputations[reputationKey(config)]).shiftSerial+1),reputationLevel:cleanReputation(profile.reputations[reputationKey(config)]).level};}
 function persist(){profile.config={...config};if(!saveProfile(storage,profile)&&!saveWarningShown){saveWarningShown=true;toast('Saving is unavailable in this browser. You can still play this session.');}}
 function toast(text){clearTimeout(toastTimer);$('toast').dataset.owner='false';$('toast').textContent=text;$('toast').hidden=false;toastTimer=setTimeout(()=>$('toast').hidden=true,2900);}
@@ -93,7 +130,7 @@ function startService(demoSetting=null,demoMenuMode=null,liveKitchen=true){
   if(!arenaUnlocked(profile,config.arena)){const required=arenaRequirement(config.arena);config.arena=permittedArena(profile,config.arena);renderSetup();persist();toast(required+'.');}
   if(view?.fallback||view?.contextLost){toast('Graphics need to recover before opening the café.');return;}
   if(!unit()?.tasks.length){toast('This unit could not be loaded. Please choose another unit.');return;}
-  taskEpoch++;interactions?.cancel();audio.cancelSpeech();const ups=profile.upgrades[walletKey(config)]||{};game=new BistroGame({...config},unit().tasks,{upgrades:{...ups},demoSetting:typeof demoSetting==='string'?demoSetting:null,demoMenuMode,demoDialogue:previewMode&&demoSetting==='conversation',conversationHistory:previewMode&&demoSetting==='conversation'?{}:profile.practice[practiceKey(config)]||{},learning:profile.learning[practiceKey(config)]||{},guests:profile.guests[walletKey(config)]||{},furnishings:profile.furnishings[walletKey(config)]||{},projects:profile.projects[walletKey(config)]||{},eventHistory:profile.eventHistory[walletKey(config)+':'+config.arena]||[],eventType:eventFor(config.arena,profile.eventHistory[walletKey(config)+':'+config.arena]||[],()=>0).id,demoSorting:demoSetting==='delivery',liveKitchen:typeof demoSetting!=='string'&&liveKitchen,reputation:profile.reputations[reputationKey(config)]||{},design:profile.designs[reputationKey(config)]||{},cafeProgress:profile.cafeProgress[reputationKey(config)]||{},connectedService:typeof demoSetting!=='string'});if(!demoSetting&&!previewMode){profile.reputations[reputationKey(config)]=game.reputation;persist();}
+  taskEpoch++;interactions?.cancel();audio.cancelSpeech();const ups=profile.upgrades[walletKey(config)]||{};game=new BistroGame({...config},unit().tasks,{upgrades:{...ups},demoSetting:typeof demoSetting==='string'?demoSetting:null,demoMenuMode,demoDialogue:previewMode&&demoSetting==='conversation',conversationHistory:previewMode&&demoSetting==='conversation'?{}:profile.practice[practiceKey(config)]||{},learning:profile.learning[practiceKey(config)]||{},guests:profile.guests[walletKey(config)]||{},furnishings:profile.furnishings[walletKey(config)]||{},projects:profile.projects[walletKey(config)]||{},eventHistory:profile.eventHistory[walletKey(config)+':'+config.arena]||[],eventType:eventFor(config.arena,profile.eventHistory[walletKey(config)+':'+config.arena]||[],()=>0).id,demoSorting:demoSetting==='delivery',liveKitchen:typeof demoSetting!=='string'&&liveKitchen,reputation:profile.reputations[reputationKey(config)]||{},design:profile.designs[reputationKey(config)]||{},cafeProgress:profile.cafeProgress[reputationKey(config)]||{},connectedService:typeof demoSetting!=='string'});requestTicket(game.shift);if(!demoSetting&&!previewMode){profile.reputations[reputationKey(config)]=game.reputation;persist();}
   $('setup').hidden=true;$('results').hidden=true;$('pause-modal').hidden=true;$('play').hidden=false;$('task-card').hidden=true;$('play').classList.remove('task-open');
   document.documentElement.style.setProperty('--team',team().color);$('play-team').innerHTML=icon(team().animal.toLowerCase());$('play-arena').textContent=arena().name;$('play-unit').textContent=unit().title;$('play-unit').title=`Grade ${config.grade} · ${unit().title} · ${config.difficulty==='challenge'?'Challenge':'Relaxed'}`;
   if(game.kitchen)game.kitchen.help=cleanKitchenHelp(profile.kitchenHelp);kitchenHUD?.hide();syncDisplaySettings();
@@ -143,14 +180,14 @@ function processEvents(){
     if(e.type==='incorrect'){audio.effect('wrong');if(e.table!=null)view.reactGuest(e.table,'thinking');}
     if(e.type==='correct'){audio.effect('correct');if(e.table!=null)view.reactGuest(e.table,'understood');}
     if(e.type==='cooking'){view.sendChef(e);$('context-tip').innerHTML=icon('flame')+'<span>Your dish is cooking. You can take another order.</span>';}
-    if(e.type==='served'){audio.effect('rune');const k=walletKey(config);profile.guests[k]=game.guests;profile.wallets[k]=(profile.wallets[k]||0)+e.reward;persist();view.sendChef(e);view.reactGuest(e.table,e.postcard?'gift':'delighted');view.reward(e.table,e.final?16:8);audio.effect('serve');$('wallet-value').closest('.rune-wallet').classList.remove('pop');requestAnimationFrame(()=>$('wallet-value').closest('.rune-wallet').classList.add('pop'));toast(e.postcard?`${e.name} left you a postcard! +${e.reward} runes`:`${e.name}: “${e.thanks}” +${e.reward} runes${e.freshnessTip?' · Freshness +'+e.freshnessTip:''}`);}
+    if(e.type==='served'){requestTicket(game.shift);audio.effect('rune');const k=walletKey(config);profile.guests[k]=game.guests;profile.wallets[k]=(profile.wallets[k]||0)+e.reward;persist();view.sendChef(e);view.reactGuest(e.table,e.postcard?'gift':'delighted');view.reward(e.table,e.final?16:8);audio.effect('serve');$('wallet-value').closest('.rune-wallet').classList.remove('pop');requestAnimationFrame(()=>$('wallet-value').closest('.rune-wallet').classList.add('pop'));toast(e.postcard?`${e.name} left you a postcard! +${e.reward} runes`:`${e.name}: “${e.thanks}” +${e.reward} runes${e.freshnessTip?' · Freshness +'+e.freshnessTip:''}`);}
     if(e.type==='restocked'){const k=walletKey(config);profile.wallets[k]=(profile.wallets[k]||0)+e.reward;persist();audio.effect('serve');toast(`Supplies for ${game.maxStock} orders! +${e.reward} runes`);}
     if(e.type==='stock_needed')announce('Your café needs a fresh delivery.');
     if(e.type==='missed'){audio.effect('wrong');toast('A guest had to leave. A fresh order is on its way.');}
     if(e.type==='boost'){audio.effect('correct');toast('Tea time! Your guests feel refreshed.');}
     if(e.type==='customer_review'){const r=e.ratings;announce(`Table ${e.table+1} review: Taste ${r.taste??'unrated'}, Service ${r.service}, Speed ${r.speed??'unrated'} out of 3 stars.`);}
     if(e.type==='customer_rating'){if(!game.demoSetting&&!previewMode){profile.reputations[reputationKey(config)]=game.reputation;persist();}announce(e.name+': '+Number(e.score.toFixed(1))+' stars.');if(!game.paused&&e.score>4){audio.effect(e.score===5?'rune':'serve');view.reward(e.table,e.score===5?9:5);}}
-    if(e.type==='finish'){profile.ulti=mergeUlti(loadProfile(storage).ulti,profile.ulti);e.result.ultiAward=creditUlti(profile,e.result,{preview:previewMode});const locked=['bistro','banquet'].filter(id=>!arenaUnlocked(profile,id));saveResult(profile,config,e.result);e.result.venueUnlocked=locked.find(id=>arenaUnlocked(profile,id));persist();showResults(e.result);}
+    if(e.type==='finish'){e.result.ulti=claimUlti(e.result);const locked=['bistro','banquet'].filter(id=>!arenaUnlocked(profile,id));saveResult(profile,config,e.result);e.result.venueUnlocked=locked.find(id=>arenaUnlocked(profile,id));persist();showResults(e.result);}
     ownerGuide.event(e);
   }
 }
@@ -252,7 +289,6 @@ function wireUI(){
   $('back-to-setup').addEventListener('click',showSetup);$('play-again').addEventListener('click',requestService);
   $('delivery-button').addEventListener('click',openDelivery);
   $('tea-button').addEventListener('click',()=>{if(wallet()<25||!game||game.boostUsed)return;if(!game.tables.some(t=>['waiting','ready'].includes(t.status)&&t.patience<t.maxPatience-5)){toast('Save your tea for guests who need a little patience.');return;}if(game.boost()){profile.wallets[walletKey(config)]-=25;persist();processEvents();updateHUD();}});
-  window.addEventListener('storage',e=>{if(e.key===SAVE_KEY){profile.ulti=mergeUlti(profile.ulti,loadProfile(storage).ulti);refreshUlti();}});
   document.addEventListener('visibilitychange',()=>{lastFrame=0;if(takeoverStory?.active)takeoverStory.syncAudio();if(document.hidden)pauseGame();else if(game?.paused)openModal('pause-modal');});window.addEventListener('focus',()=>{lastFrame=0;if(game?.paused)openModal('pause-modal');});window.addEventListener('pageshow',()=>{lastFrame=0;if(game?.paused)openModal('pause-modal');});window.addEventListener('blur',()=>{interactions?.cancelDrag();if(game?.state==='playing')pauseGame();});
   document.addEventListener('pointerdown',()=>audio.wake(),{passive:true});
   document.addEventListener('keydown',e=>{
@@ -305,7 +341,7 @@ window.LanguiniDiagnostics=window.RuneBistroDiagnostics;
   interactions=new StationInteractions({getGame:()=>game,getView:()=>view,audio,onChanged:()=>{processEvents();updateHUD();},announce,onStationOpened:a=>{clearTimeout(toastTimer);$('toast').hidden=true;ownerGuide.openStation(a);},onStationClosed:()=>ownerGuide.clear()});
   renderSetup();syncDisplaySettings();view.setRestaurant(sceneConfig(),{reuse:true});view.update(0,0,game);
   if(view.fallback){$('start-button').disabled=true;const retry=document.createElement('button');retry.type='button';retry.className='secondary-button';retry.textContent='Retry graphics';retry.addEventListener('click',()=>location.reload());$('graphics-warning').append(retry);}
-  if(window.RuneBistroStartup&&!window.RuneBistroStartup.ready())return;$('loading').hidden=true;$('setup').hidden=false;view.revealVenue();requestAnimationFrame(frame);
+  if(window.RuneBistroStartup&&!window.RuneBistroStartup.ready())return;$('loading').hidden=true;$('setup').hidden=false;view.revealVenue();requestAnimationFrame(frame);if(league.enabled)league.flush().then(()=>refreshUlti());
   if(previewMode){profile.settings.music=false;startPreviewDemo(new URLSearchParams(location.search).get('demo')||'conversation',new URLSearchParams(location.search).get('menu'),{recipe:new URLSearchParams(location.search).get('recipe'),labels:new URLSearchParams(location.search).get('labels')==='1'});if(window.parent!==window)window.parent.postMessage({type:'bistro-ready'},messageTargetOrigin());}
 }
 function reportFailure(error){console.error(error);if(window.RuneBistroStartup){window.RuneBistroStartup.fail(error);return;}$('loading').hidden=false;$('loading').innerHTML=`<strong>A little kitchen delay.</strong><span>${esc(error.message)}</span><button class="primary-button" id="retry-load">Try again</button>`;$('retry-load').addEventListener('click',()=>location.reload());}

@@ -79,5 +79,9 @@
 .ulti-note{font-size:12px;line-height:1.5;color:#73746c;margin:10px 0 16px}
 .ulti-awards{list-style:none;padding:0;margin:0;display:grid;gap:8px;max-height:40svh;overflow:auto}
 .ulti-awards li{display:flex;flex-wrap:wrap;justify-content:space-between;gap:4px 10px;border-top:1px solid #e4ddce;padding:10px 0;font-size:12px}.ulti-awards b{color:#695091}.ulti-awards span{color:#72796b}.ulti-empty{color:#838473}
+/* League team pools: the student's own team is highlighted; bars fill towards the League's capacity. */
+.ulti-team b{color:var(--team-color)}.ulti-team.current{padding:10px 8px;border-radius:9px;background:#f4eff9}.ulti-team.current b::after{content:' · your team';color:#72796b;font-weight:600}
+.ulti-bar{display:block;flex-basis:100%;height:6px;border-radius:3px;background:#ebe6dc;overflow:hidden}.ulti-bar>i{display:block;height:100%;border-radius:inherit;background:var(--team-color)}
+#setup-form #setup-ulti[hidden],.ulti-result[hidden]{display:none}
 
 #ulti-modal{z-index:20}

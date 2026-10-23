@@ -1,12 +1,12 @@
 # Languini · by Mr. Saymaz
 
-**Version 0.55.0** · A lightweight stylised 3D restaurant game with eight stations for Grades 5–8.
+**Version 0.56.0** · A lightweight stylised 3D restaurant game with eight stations for Grades 5–8.
 
 ## Open the game
 
 Extract the **entire ZIP** into one folder, then open the **root index.html** in a desktop browser with WebGL enabled. Keep its adjacent files and folders together. Do not open source/public/index.html or run the game inside a ZIP preview.
 
-For phones, upload the ready root files to your static host, such as Netlify, and open that address in Safari or Chrome. No backend, account, microphone, external game asset service or paid assets are required. A stable hosted address is preferable for dependable browser saving; file-origin saving depends on the browser and folder.
+For phones, upload the ready root files to your static host, such as Netlify, and open that address in Safari or Chrome. Apart from the optional English League connection (config.js), no backend, account, microphone, external game asset service or paid assets are required. A stable hosted address is preferable for dependable browser saving; file-origin saving depends on the browser and folder.
 
 **phone-preview.html** runs the actual game with adjustable portrait/landscape sizes. A Live Kitchen service preview joins direct demonstrations covering the restaurant stations, four-pair matching, one/two-word listening, ordinary labels, sorting, all nine dishes, four events, equipment and projects. Preview progress is isolated from normal saves.
 
@@ -26,7 +26,7 @@ Restaurant camera: 90–125% zoom using mouse wheel, −/+ or phone pinch. Drag 
 
 Desktop service views now fill more of the screen: about 34% larger at 1366×768 and 20–55% larger across the tested desktop sizes. The room keeps its viewing angle and central framing, with all stations and tables visible. Phone/short-window, opening-screen and language-task views retain their existing framing.
 
-Ulti points: sixteen separate grade/team pools, awarded once for each successful shift. Cafe awards 4/8, Diner 6/12 and Bistro 8/16 in Relaxed/Challenge. Each award expires after seven days; points cannot be spent in the game. Open the compact Ulti balance button for current points and expiry dates. Existing runes and saves are retained. See ULTI-POINTS.md for the local ledger and future integration boundary.
+Ulti points (English League): a won shift with at least 60% first-try accuracy on Relaxed or 75% on Challenge adds Ulti to the student's grade/team pool in the English League, the same Battle Arena pools that Tower Swarm, Wordramp and Growbloom feed. The League decides the points and limits; the game asks for a ticket when a shift opens and claims it after the win, keeping offline wins until they can be sent. The setup Ulti button and dialog show the four team pools for the grade. `config.js` holds the League address; set `ultiApi: ''` for a practice copy that makes no network requests. See ULTI-POINTS.md, including the line to add to the League's Apps Script.
 
 Menu rounds now change in place without fading to a background cover or restarting the camera. The native tablet has a plain backing, and listening completion no longer repaints a second menu under the task. Matching, listening, hints, wrong-answer recovery, rotation and pause are checked alongside the full language-bank audit.
 

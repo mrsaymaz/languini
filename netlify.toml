@@ -1,0 +1,9 @@
+# For a Netlify site connected to this repository. Dragging the Ready-to-Play
+# folder onto Netlify needs no build and ignores this file.
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+

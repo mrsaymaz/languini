@@ -10,30 +10,30 @@
   <link rel="icon" href="./favicon-32.png" type="image/png" sizes="32x32">
   <link rel="apple-touch-icon" href="./apple-touch-icon.png" sizes="180x180">
   <link rel="manifest" href="./manifest.webmanifest">
-  <link rel="stylesheet" href="./style.css?v=0.55.0">
-  <link rel="stylesheet" href="./tasks.css?v=0.55.0">
-  <link rel="stylesheet" href="./stations.css?v=0.55.0">
-  <link rel="stylesheet" href="./service.css?v=0.55.0">
-  <link rel="stylesheet" href="./objects.css?v=0.55.0">
-  <link rel="stylesheet" href="./mobile.css?v=0.55.0">
-  <link rel="stylesheet" href="./polish.css?v=0.55.0">
-  <link rel="stylesheet" href="./atelier.css?v=0.55.0">
-  <link rel="stylesheet" href="./kitchen.css?v=0.55.0">
-  <link rel="stylesheet" href="./checkout.css?v=0.55.0">
-  <link rel="stylesheet" href="./activities.css?v=0.55.0">
-  <link rel="stylesheet" href="./identity.css?v=0.55.0">
-  <link rel="stylesheet" href="./motion.css?v=0.55.0">
-  <link rel="stylesheet" href="./freshness.css?v=0.55.0">
-  <link rel="stylesheet" href="./customer-reviews.css?v=0.55.0">
-  <link rel="stylesheet" href="./owner-guide.css?v=0.55.0">
-  <link rel="stylesheet" href="./branding.css?v=0.55.0">
-  <link rel="stylesheet" href="./setup-layout.css?v=0.55.0">
-  <link rel="stylesheet" href="./reputation.css?v=0.55.0">
-  <link rel="stylesheet" href="./cafe-design.css?v=0.55.0">
-  <link rel="stylesheet" href="./ui-clean.css?v=0.55.0">
-  <link rel="stylesheet" href="./phone-repair.css?v=0.55.0">
-  <link rel="stylesheet" href="./task-colours.css?v=0.55.0">
-  <link rel="stylesheet" href="./opening-layout.css?v=0.55.0">
+  <link rel="stylesheet" href="./style.css?v=0.56.0">
+  <link rel="stylesheet" href="./tasks.css?v=0.56.0">
+  <link rel="stylesheet" href="./stations.css?v=0.56.0">
+  <link rel="stylesheet" href="./service.css?v=0.56.0">
+  <link rel="stylesheet" href="./objects.css?v=0.56.0">
+  <link rel="stylesheet" href="./mobile.css?v=0.56.0">
+  <link rel="stylesheet" href="./polish.css?v=0.56.0">
+  <link rel="stylesheet" href="./atelier.css?v=0.56.0">
+  <link rel="stylesheet" href="./kitchen.css?v=0.56.0">
+  <link rel="stylesheet" href="./checkout.css?v=0.56.0">
+  <link rel="stylesheet" href="./activities.css?v=0.56.0">
+  <link rel="stylesheet" href="./identity.css?v=0.56.0">
+  <link rel="stylesheet" href="./motion.css?v=0.56.0">
+  <link rel="stylesheet" href="./freshness.css?v=0.56.0">
+  <link rel="stylesheet" href="./customer-reviews.css?v=0.56.0">
+  <link rel="stylesheet" href="./owner-guide.css?v=0.56.0">
+  <link rel="stylesheet" href="./branding.css?v=0.56.0">
+  <link rel="stylesheet" href="./setup-layout.css?v=0.56.0">
+  <link rel="stylesheet" href="./reputation.css?v=0.56.0">
+  <link rel="stylesheet" href="./cafe-design.css?v=0.56.0">
+  <link rel="stylesheet" href="./ui-clean.css?v=0.56.0">
+  <link rel="stylesheet" href="./phone-repair.css?v=0.56.0">
+  <link rel="stylesheet" href="./task-colours.css?v=0.56.0">
+  <link rel="stylesheet" href="./opening-layout.css?v=0.56.0">
 </head>
 <body>
   <main id="app">
@@ -54,7 +54,7 @@
       <form id="setup-form" class="setup-card">
         <h2 class="sr-only">Set up your restaurant service</h2>
         <fieldset class="setup-restaurants"><legend><span>Restaurant</span><span id="setup-reputation" class="setup-reputation" aria-label="Restaurant reputation"></span></legend><div id="arena-options" class="arena-options"></div></fieldset>
-        <button id="setup-ulti" type="button" class="text-button ulti-pill" aria-label="Ulti pool" aria-haspopup="dialog" aria-controls="ulti-modal"><span>Ulti <b id="setup-ulti-value">0</b></span><small id="setup-ulti-context"></small><span data-icon="arrow"></span></button>
+        <button id="setup-ulti" type="button" class="text-button ulti-pill" aria-label="Ulti" hidden aria-haspopup="dialog" aria-controls="ulti-modal"><span>Ulti <b id="setup-ulti-value">0</b></span><small id="setup-ulti-context"></small><span data-icon="arrow"></span></button>
         <fieldset class="setup-teams"><legend>Team</legend><div id="team-options" class="team-options"></div></fieldset>
         <div class="lesson-pace-row">
           <fieldset class="setup-lesson"><legend>Lesson</legend><button id="choose-lesson" class="lesson-button" type="button" aria-haspopup="dialog" aria-controls="lesson-modal"></button></fieldset>
@@ -92,7 +92,7 @@
       <div class="flow-guide" id="flow-guide"><span class="flow-step active">1 <b>Order</b></span><i></i><span class="flow-step">2 <b>Prepare</b></span><i></i><span class="flow-step">3 <b>Serve</b></span></div>
     </section>
 
-    <section id="results" class="modal-backdrop results-backdrop" aria-label="Shift results" hidden><div class="results-card"><div class="owner-result"><div data-owner-art><img id="owner-result-image" data-owner-image width="92" height="138" alt="" decoding="async"></div><p><small>CHEF</small><b id="owner-result-copy"></b></p></div><span class="eyebrow" id="result-eyebrow"></span><div id="result-stars" class="result-stars"></div><h2 id="result-title"></h2><p id="result-subtitle"></p><section id="result-reputation" class="reputation-result" aria-label="Restaurant reputation this shift"></section><button type="button" id="result-ulti" class="ulti-result" aria-label="Ulti earned this shift"></button><div class="result-stats" id="result-stats"></div><details id="result-details" class="panel-details"><summary>Shift details</summary><p id="result-learning" class="learning-summary"></p><div id="result-review" class="result-review"></div></details><div class="result-actions"><button id="play-again" type="button" class="primary-button">Another service <span data-icon="arrow"></span></button><button id="result-design" type="button" class="secondary-button">Design</button><button id="result-shop" type="button" class="secondary-button"><span data-icon="sparkles"></span> Shop</button><button id="back-to-setup" type="button" class="text-button">Change your setup</button></div></div></section>
+    <section id="results" class="modal-backdrop results-backdrop" aria-label="Shift results" hidden><div class="results-card"><div class="owner-result"><div data-owner-art><img id="owner-result-image" data-owner-image width="92" height="138" alt="" decoding="async"></div><p><small>CHEF</small><b id="owner-result-copy"></b></p></div><span class="eyebrow" id="result-eyebrow"></span><div id="result-stars" class="result-stars"></div><h2 id="result-title"></h2><p id="result-subtitle"></p><section id="result-reputation" class="reputation-result" aria-label="Restaurant reputation this shift"></section><button type="button" id="result-ulti" class="ulti-result" aria-label="Ulti earned this shift" hidden></button><div class="result-stats" id="result-stats"></div><details id="result-details" class="panel-details"><summary>Shift details</summary><p id="result-learning" class="learning-summary"></p><div id="result-review" class="result-review"></div></details><div class="result-actions"><button id="play-again" type="button" class="primary-button">Another service <span data-icon="arrow"></span></button><button id="result-design" type="button" class="secondary-button">Design</button><button id="result-shop" type="button" class="secondary-button"><span data-icon="sparkles"></span> Shop</button><button id="back-to-setup" type="button" class="text-button">Change your setup</button></div></div></section>
     <section id="pause-modal" class="modal-backdrop" role="dialog" aria-modal="true" aria-label="Paused" hidden><div class="small-modal"><h2>Paused</h2><div class="settings-row"><button id="pause-music" class="secondary-button" type="button"></button><button id="pause-speech" class="secondary-button" type="button"></button></div><details class="panel-details pause-details"><summary>Sound, display &amp; guidance</summary><label class="ambience-setting">Ambience volume<input type="range" data-ambience-volume min="0" max="1" step="0.05" aria-label="Ambience volume"></label><div class="display-settings"><label>Graphics<select data-display-setting="quality"><option value="auto">Auto</option><option value="lite">Light · for slower devices</option><option value="high">Detailed</option></select></label><label>Motion<select data-display-setting="motion"><option value="system">Follow device setting</option><option value="reduced">Reduced motion</option></select></label></div><div class="guidance-settings"><label>Guidance<select data-kitchen-guidance><option value="auto">First-use tips</option><option value="always">Every action</option><option value="off">Quiet · signs only</option></select></label><button type="button" class="text-button" data-restart-guidance>Reset tips</button></div><p id="performance-note" class="performance-note"></p></details><button id="resume-button" class="primary-button" type="button">Resume <span data-icon="arrow"></span></button><button id="quit-button" class="text-button" type="button">End shift</button></div></section>
     <section id="design-modal" class="modal-backdrop design-backdrop" role="dialog" aria-modal="true" aria-label="Café design studio" hidden></section>
     <section id="shop-modal" class="modal-backdrop" role="dialog" aria-modal="true" aria-label="Restaurant upgrades" hidden><div class="shop-card"><header><div><h2>Café shop</h2></div><button id="close-shop" class="icon-button quiet" type="button" aria-label="Close upgrades" data-icon="close"></button></header><p class="shop-balance" id="shop-balance"></p><h3 class="shop-section-title">Permanent upgrades</h3><div id="shop-items"></div><section id="projects" class="projects"></section><div id="furnishing-items"></div><div id="guestbook" class="guestbook"></div></div></section>
@@ -106,12 +106,13 @@
         
       </div>
     </section>
-    <section id="ulti-modal" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="ulti-title" hidden><div class="small-modal ulti-modal"><button type="button" id="close-ulti" class="icon-button" aria-label="Close Ulti pool">×</button><span class="eyebrow">ULTI POOL</span><h2 id="ulti-title"></h2><strong id="ulti-balance" class="ulti-balance">0 Ulti</strong><p class="ulti-note">Each award lasts 7 days. Ulti cannot be spent here.</p><ul id="ulti-awards" class="ulti-awards"></ul></div></section>
+    <section id="ulti-modal" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="ulti-title" hidden><div class="small-modal ulti-modal"><button type="button" id="close-ulti" class="icon-button" aria-label="Close Ulti pool">×</button><span class="eyebrow">ENGLISH LEAGUE · ULTI</span><h2 id="ulti-title"></h2><strong id="ulti-balance" class="ulti-balance">0 Ulti</strong><p id="ulti-note" class="ulti-note"></p><ul id="ulti-awards" class="ulti-awards"></ul></div></section>
     <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
     <div id="announcer" class="sr-only" role="status" aria-live="polite"></div>
   </main>
   <noscript><div class="loading-screen">Please enable JavaScript to open Languini.</div></noscript>
-  <script defer src="./startup.js?v=0.55.0"></script>
-  <script defer src="./game.js?v=0.55.0"></script>
+  <script defer src="./startup.js?v=0.56.0"></script>
+  <script defer src="./config.js?v=0.56.0"></script>
+  <script defer src="./game.js?v=0.56.0"></script>
 </body>
 </html>

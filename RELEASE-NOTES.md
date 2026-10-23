@@ -1,3 +1,11 @@
+## v0.56.0 · Ulti points join the English League
+
+Won shifts now add Ulti to the student's grade/team pool in the English League, alongside Tower Swarm, Wordramp and Growbloom (League game id `languini`). A shift asks the League for a ticket when it opens and claims it after a win; the League decides the points from restaurant and pace, and the game never sends a points value. Only won shifts with at least 60% first-try accuracy on Relaxed or 75% on Challenge are claimed; a win below the rule says why on the result screen. Offline wins wait on the device for up to 47 hours and are sent on the next launch or win.
+
+The setup Ulti button shows the team's live League points for the lesson's grade, and its dialog lists all four team pools with Battle Arena strength and the League's rules. The result screen reports "+N Ulti for Grade g Team!" or the League's reason (daily limits, too fast, not switched on, saved offline). The browser-only Ulti ledger is retired: old saves drop it without changing runes, stars, reputation, purchases or unlocks.
+
+`config.js` holds the League address; `ultiApi: ''` makes a practice copy with no Ulti button and no network requests. The phone preview never contacts the League. Add the `languini` line from ULTI-POINTS.md to the League's Apps Script before students play.
+
 ## v0.55.0 · A neighbourhood around your restaurant
 
 All three venues now sit in a small street scene with paving, an open entrance, menu/hours signs, two entrance planters, an exterior collection hatch and awnings. The Café gains flower boxes, a bench and bicycle; the Diner gains enamel frontage and roadside details; the Bistro gains a planted timber terrace, linen-style table and brass entrance details. Neighbouring shops, trees and low walls give wider screens depth while phones retain the near scenery and omit distant shop geometry from rendering.

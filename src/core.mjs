@@ -1,4 +1,4 @@
-import {cleanUlti,mergeUlti,newShiftId} from './ulti.mjs';
+import {newShiftId} from './ulti.mjs';
 import {cleanDesign,cleanDesigns,cleanCafeProgress,cleanCafeProgresses,atmosphereFor,ATMOSPHERE_GREETINGS} from './cafe-design.mjs';
 import {takeawayTask,practicalMode} from './takeaway-tasks.mjs';
 import {ServiceDirector} from './service-director.mjs';
@@ -106,7 +106,7 @@ export function normalizeConfig(config={},bank=[]){
 }
 function bounded(n,max=1e7){return Number.isFinite(n)?Math.max(0,Math.min(max,Math.floor(n))):0;}
 export function loadProfile(storage){
-  const base={version:1,ulti:cleanUlti(),kitchenHelp:cleanKitchenHelp(),designs:{},cafeProgress:{},projects:{},reputations:{},eventHistory:{},wallets:{},upgrades:{},records:{},practice:{},learning:{},guests:{},furnishings:{},config:{},settings:{music:true,speech:true,ambience:.55,quality:'auto',motion:'system'}};
+  const base={version:1,kitchenHelp:cleanKitchenHelp(),designs:{},cafeProgress:{},projects:{},reputations:{},eventHistory:{},wallets:{},upgrades:{},records:{},practice:{},learning:{},guests:{},furnishings:{},config:{},settings:{music:true,speech:true,ambience:.55,quality:'auto',motion:'system'}};
   try{const d=JSON.parse(storage.getItem(SAVE_KEY));if(!d||d.version!==1)return base;
     for(const [k,v] of Object.entries(d.wallets||{}))if(/^([5-8]):(gryffindor|hufflepuff|slytherin|ravenclaw)$/.test(k))base.wallets[k]=bounded(v);
     for(const [k,v] of Object.entries(d.upgrades||{}))if(k in base.wallets)base.upgrades[k]=Object.fromEntries(UPGRADES.map(u=>[u.id,bounded(v?.[u.id],3)]));
@@ -116,13 +116,13 @@ export function loadProfile(storage){
     for(const [key,value]of Object.entries(d.furnishings||{}))if(/^([5-8]):(gryffindor|hufflepuff|slytherin|ravenclaw)$/.test(key)&&value&&typeof value==='object')base.furnishings[key]=cleanFurnishing(value);
     for(const [key,value]of Object.entries(d.guests||{}))if(/^([5-8]):(gryffindor|hufflepuff|slytherin|ravenclaw)$/.test(key)&&value&&typeof value==='object'){const guests={};for(const [id,record]of Object.entries(value))if(CUSTOMER_PROFILES.some(p=>String(p.id)===id)&&record&&typeof record==='object')guests[id]={visits:bounded(record.visits,10000),favourite:bounded(record.favourite,RECIPES.length-1)};base.guests[key]=guests;}
     for(const [key,value]of Object.entries(d.projects||{}))if(/^[5-8]:(gryffindor|hufflepuff|slytherin|ravenclaw)$/.test(key))base.projects[key]=cleanProjects(value);
-    base.ulti=cleanUlti(d.ulti);base.kitchenHelp=cleanKitchenHelp(d.kitchenHelp);base.designs=cleanDesigns(d.designs);base.cafeProgress=cleanCafeProgresses(d.cafeProgress);
+    base.kitchenHelp=cleanKitchenHelp(d.kitchenHelp);base.designs=cleanDesigns(d.designs);base.cafeProgress=cleanCafeProgresses(d.cafeProgress);
     base.eventHistory=cleanEventHistory(d.eventHistory);base.reputations=cleanReputations(d.reputations);
     base.config=d.config&&typeof d.config==='object'?d.config:{};
     base.settings={music:d.settings?.music!==false,speech:d.settings?.speech!==false,ambience:Number.isFinite(d.settings?.ambience)?Math.max(0,Math.min(1,d.settings.ambience)):.55,quality:['auto','lite','high'].includes(d.settings?.quality)?d.settings.quality:'auto',motion:d.settings?.motion==='reduced'?'reduced':'system'};return base;
   }catch{return base;}
 }
-export function saveProfile(storage,profile){try{let saved;try{saved=JSON.parse(storage.getItem?.(SAVE_KEY)||'null');}catch{}profile.ulti=mergeUlti(saved?.ulti,profile.ulti);storage.setItem(SAVE_KEY,JSON.stringify(profile));return true;}catch{return false;}}
+export function saveProfile(storage,profile){try{storage.setItem(SAVE_KEY,JSON.stringify(profile));return true;}catch{return false;}}
 export function walletKey(config){return `${config.grade}:${config.team}`;}
 export function practiceKey(config){return `${config.grade}:${config.unit}`;}
 export function recordKey(config){return `${config.grade}:${config.unit}:${config.team}:${config.difficulty}:${config.arena}`;}
@@ -151,7 +151,7 @@ export function orderPlan(arena,index,difficulty='relaxed'){
 }
 export class BistroGame {
   constructor(config,tasks,{rng=Math.random,upgrades={},demoSetting=null,demoMenuMode=null,demoDialogue=false,conversationHistory={},learning={},guests={},furnishings={},projects={},eventHistory=[],eventType=null,demoSorting=false,liveKitchen=false,reputation={},guaranteeTakeaway=true,design={},cafeProgress={},connectedService=false}={}){
-    this.config=config;this.shift=Object.freeze({id:newShiftId(),grade:config.grade,team:config.team,arena:config.arena,difficulty:config.difficulty,eligible:!demoSetting});this.venue=venueLearning(config.arena);this.rng=rng;this.upgrades=upgrades;this.demoSetting=demoSetting;this.demoMenuMode=demoSetting==='tablet'?demoMenuMode:null;this.arena=ARENAS.find(x=>x.id===config.arena)||ARENAS[0];
+    this.config=config;this.shift=Object.freeze({id:newShiftId(),grade:config.grade,unit:config.unit,team:config.team,arena:config.arena,difficulty:config.difficulty,eligible:!demoSetting});this.venue=venueLearning(config.arena);this.rng=rng;this.upgrades=upgrades;this.demoSetting=demoSetting;this.demoMenuMode=demoSetting==='tablet'?demoMenuMode:null;this.arena=ARENAS.find(x=>x.id===config.arena)||ARENAS[0];
     this.design=cleanDesign(design);this.cafeProgress=cleanCafeProgress(cafeProgress);this.connectedService=connectedService;this.episodeExtra=0;this.furnishings=cleanFurnishing(furnishings);this.equipped=new Set(this.furnishings.equipped);this.guests=JSON.parse(JSON.stringify(guests));this.learning=new LearningMemory(tasks,learning);
     this.deck=new TaskDeck(tasks,rng,{conversationHistory,learning:this.learning});this.state='idle';this.paused=false;this.active=null;this.maxStock=(this.equipped.has('pantry')?5:3)+(this.design.counter==='takeaway'?1:0);this.stock=this.maxStock;this.selectedDish=null;this.serviceEvent=null;this.eventDone=false;this.dialogueOffers=0;this.demoDialogue=demoDialogue;this.role=0;
     this.projects=cleanProjects(projects);this.eventCandidate=SERVICE_EVENTS.find(e=>e.id===eventType)||eventFor(config.arena,eventHistory,rng);this.demoSorting=demoSorting;this.deliverySerial=0;this.jobs=[];this.jobSerial=0;this.loaded=[];this.run=null;this.pendingSide=null;

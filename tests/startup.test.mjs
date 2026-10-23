@@ -7,6 +7,7 @@ import vm from 'node:vm';
 import {build} from 'esbuild';
 import {getLanguageBank,artworkSource,messageTargetOrigin} from '../src/local-runtime.mjs';
 import {FLUENT_WORDS} from '../src/fluent-emoji.mjs';
+import {LEAGUE_URL} from '../src/ulti.mjs';
 
 const html=await readFile(new URL('../public/index.html',import.meta.url),'utf8');
 const startup=await readFile(new URL('../public/startup.js',import.meta.url),'utf8');
@@ -34,8 +35,10 @@ const rendererOutput=await build({entryPoints:[fileURLToPath(new URL('../src/app
 }]});
 const rendererBundle=rendererOutput.outputFiles[0].text;
 
-function environment({storageBlocked=false,reduced=false,savedProfile=null}={}){
-  const nodes=new Map(),events=new Map(),timers=new Map(),frames=new Map(),errors=[],metrics={fetches:0,frames:0,reloads:0};let serial=0;
+// The only network the game may use is the English League's Ulti endpoint; assets and lessons never load over the network.
+const leagueOnly=env=>env.metrics.requests.every(r=>r.url===LEAGUE_URL&&r.method==='POST');
+function environment({storageBlocked=false,reduced=false,savedProfile=null,config}={}){
+  const nodes=new Map(),events=new Map(),timers=new Map(),frames=new Map(),errors=[],metrics={fetches:0,frames:0,reloads:0,requests:[]};let serial=0;
   class Element {
     constructor(tag='DIV'){this.tagName=tag;this.hidden=false;this.children=[];this.dataset={};this.attributes={};this.style={setProperty(){}};this.listeners=new Map();this.classList={add(){},remove(){},toggle(){}};this.innerHTML='';this.textContent='';this.clientWidth=393;this.clientHeight=740;}
     getBoundingClientRect(){return {left:0,top:0,right:this.clientWidth,bottom:this.clientHeight,width:this.clientWidth,height:this.clientHeight};}
@@ -45,13 +48,13 @@ function environment({storageBlocked=false,reduced=false,savedProfile=null}={}){
   for(const m of html.matchAll(/<([a-z][a-z0-9]*)\b[^>]*\bid="([^"]+)"[^>]*>/gi)){const node=new Element(m[1].toUpperCase());node.hidden=/\bhidden\b/.test(m[0]);nodes.set(m[2],node);}
   const document={getElementById:id=>nodes.get(id)||null,querySelectorAll:()=>[],createElement:tag=>new Element(tag.toUpperCase()),createElementNS:(_ns,tag)=>new Element(tag.toUpperCase()),body:new Element(),documentElement:new Element(),addEventListener(k,v){events.set('document:'+k,v);}};
   const location={protocol:'file:',origin:'null',href:'file:///Rune%20Bistro/index.html',search:'',reload(){metrics.reloads++;}};
-  const window={location,matchMedia:()=>({matches:reduced}),addEventListener(k,v){events.set(k,v);},localStorage:{getItem:()=>savedProfile?JSON.stringify(savedProfile):null,setItem(){}},innerWidth:393,innerHeight:740};window.parent=window;
+  const window={location,matchMedia:()=>({matches:reduced}),addEventListener(k,v){events.set(k,v);},localStorage:{getItem:()=>savedProfile?JSON.stringify(savedProfile):null,setItem(){}},innerWidth:393,innerHeight:740};window.parent=window;if(config)window.LANGUINI_CONFIG=config;
   if(storageBlocked)Object.defineProperty(window,'localStorage',{get(){throw Error('Local storage is blocked');}});
   const sandbox={window,self:window,document,location,URL,URLSearchParams,AbortController,performance,innerWidth:393,innerHeight:740,
     console:{log(){},warn(){},error(...args){errors.push(args);}},
     setTimeout(fn,delay){const id=++serial;timers.set(id,{fn,delay});return id;},clearTimeout(id){timers.delete(id);},
     __rendererFrames:[],__rendererFailure:null,ResizeObserver:class{observe(){}},
-    requestAnimationFrame(fn){metrics.frames++;const id=++serial;frames.set(id,fn);return id;},fetch(){metrics.fetches++;throw Error('file:// fetch deliberately blocked');}};
+    requestAnimationFrame(fn){metrics.frames++;const id=++serial;frames.set(id,fn);return id;},fetch(url,init){metrics.fetches++;metrics.requests.push({url:String(url),method:init?.method||'GET'});throw Error('file:// fetch deliberately blocked');}};
   vm.createContext(sandbox);vm.runInContext(startup,sandbox);
   function nextFrame(ms){const [id,fn]=frames.entries().next().value||[];assert.ok(fn,'A restaurant frame must be scheduled');frames.delete(id);fn(ms);}
   return {sandbox,nodes,events,timers,frames,errors,metrics,window,nextFrame};
@@ -70,7 +73,7 @@ test('the real opening scene renders with no service, changes arenas, starts and
     assert.equal(env.nodes.get('play').hidden,false);
     env.nodes.get('quit-button').listeners.get('click')();env.nextFrame(80);env.nextFrame(96);
     assert.equal(env.nodes.get('setup').hidden,false);assert.equal(env.nodes.get('play').hidden,true);
-    assert.equal(env.frames.size,1);assert.equal(env.metrics.fetches,0);assert.equal(env.errors.length,0);
+    assert.equal(env.frames.size,1);assert.ok(leagueOnly(env),JSON.stringify(env.metrics.requests));assert.equal(env.errors.length,0);
     for(const frame of env.sandbox.__rendererFrames){assert.ok(frame.meshes>100);assert.ok(frame.projection.every(Number.isFinite));}
   }
 });
@@ -89,8 +92,10 @@ test('an animation-frame render failure after opening gives a retry instead of s
 });
 
 test('the exact game entry can finish local startup with every network request blocked',async()=>{
+  const practice=environment({config:{ultiApi:''}});vm.runInContext(bundle,practice.sandbox,{timeout:10000});await Promise.resolve();await Promise.resolve();
+  assert.equal(practice.metrics.fetches,0,'A practice copy makes no requests');assert.equal(practice.nodes.get('setup').hidden,false);practice.nextFrame(16);assert.equal(practice.metrics.fetches,0);
   const env=environment();vm.runInContext(bundle,env.sandbox,{timeout:10000});await Promise.resolve();await Promise.resolve();
-  assert.equal(env.metrics.fetches,0);assert.equal(env.nodes.get('loading').hidden,true);assert.equal(env.nodes.get('setup').hidden,false);assert.equal(env.metrics.frames,1);
+  assert.ok(leagueOnly(env),JSON.stringify(env.metrics.requests));assert.equal(env.nodes.get('loading').hidden,true);assert.equal(env.nodes.get('setup').hidden,false);assert.equal(env.metrics.frames,1);
   assert.equal((env.nodes.get('lesson-grade-options').innerHTML.match(/data-lesson-grade=/g)||[]).length,4);assert.match(env.nodes.get('lesson-unit-list').innerHTML,/School Life/);assert.equal(env.timers.size,0);
   // The test intentionally has no WebGL renderer: its separate graphics message is visible.
   assert.match(env.nodes.get('graphics-warning').textContent,/WebGL/);assert.ok(!env.errors.some(args=>args.some(v=>String(v).includes('ReferenceError'))));
