@@ -1,6 +1,6 @@
 # Languini · by Mr. Saymaz
 
-**Version 0.56.0** · A lightweight stylised 3D restaurant game with eight stations for Grades 5–8.
+**Version 0.57.0** · A lightweight stylised 3D restaurant game with eight stations for Grades 5–8.
 
 ## Open the game
 
@@ -11,6 +11,8 @@ For phones, upload the ready root files to your static host, such as Netlify, an
 **phone-preview.html** runs the actual game with adjustable portrait/landscape sizes. A Live Kitchen service preview joins direct demonstrations covering the restaurant stations, four-pair matching, one/two-word listening, ordinary labels, sorting, all nine dishes, four events, equipment and projects. Preview progress is isolated from normal saves.
 
 ## What this version adds
+
+Conversation questions can no longer be answered by matching words: 429 questions have new wrong replies that share the question's topic but are clearly wrong (content/reviewed-distractors.json). Each normal shift has a food critic whose review counts three times when every task for them is right first time. Phones get larger ticket and checkout text within thumb reach and a camera that follows the chef. See RELEASE-NOTES.md.
 
 A small neighbourhood surrounds each venue: pavements, an entrance and menu, collection awnings, trees and quieter neighbouring shops. Café has a bicycle and bench, Diner an enamel collection frontage, and Bistro a planted terrace. Reputation repairs paving, strengthens planting and signage, then earns a small collection queue. Customers approach, pause at the menu and enter; task controls remain available throughout. Weather adds wet paving, awning drips, tree shade and evening entrance pools. See NEIGHBOURHOOD.md.
 

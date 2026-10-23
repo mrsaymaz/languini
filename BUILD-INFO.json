@@ -1,8 +1,8 @@
 {
   "name": "Languini",
   "credit": "by Mr. Saymaz",
-  "version": "0.56.0",
-  "basedOnVersion": "0.55.0",
+  "version": "0.57.0",
+  "basedOnVersion": "0.56.0",
   "date": "2026-10-23",
   "units": 44,
   "tasks": 4805,
@@ -12,13 +12,13 @@
   "sortingClassificationCards": 1220,
   "customerProfiles": 24,
   "layeredDishes": 9,
-  "automatedTests": 470,
-  "automatedPassed": 470,
+  "automatedTests": 481,
+  "automatedPassed": 481,
   "automatedFailed": 0,
   "completeServiceCombinations": 264,
   "additionalEventEquipmentServices": 528,
   "totalSimulatedServices": 1200,
-  "baselineAutomatedTests": 469,
+  "baselineAutomatedTests": 470,
   "newFocusedRegressionTests": 11,
   "terminalMeasuredStates": 34408,
   "fontAdvanceProfiles": [
@@ -63,7 +63,7 @@
   "phoneLaunch": "Upload ready root files or rebuilt source/dist to a static host.",
   "readyRuntimeManifestFiles": 242,
   "sourceFingerprintFiles": 435,
-  "gameBundleSha256": "cae30c0e8778adf66ee4bbd0b4415044827f1a288ceb5b184002ed6225efbd33",
+  "gameBundleSha256": "c91fd618c9a0166f711113455e647cfa3f2f38d8721115fcbe2353ab52d03772",
   "performance": {
     "type": "CPU scene traversal. Includes hidden meshes and multiplies instanced triangle counts; not renderer calls, GPU memory or FPS.",
     "regularSceneMeshBudget": 320,
@@ -487,9 +487,9 @@
     "limitedSentencePools": "Exhaust distinct answers, then revisit least recently used sentences",
     "inventoryAndStageRewards": "committed once after the complete group"
   },
-  "lastFullSuiteSeconds": 272.97,
-  "fullSuiteDurationSeconds": 272.97,
-  "fullSuiteTestCount": 470,
+  "lastFullSuiteSeconds": 269.76,
+  "fullSuiteDurationSeconds": 269.76,
+  "fullSuiteTestCount": 481,
   "ownerGuide": {
     "poses": 6,
     "productionVariants": 11,
@@ -649,7 +649,7 @@
     "renderedCasesVersion": "0.39.0"
   },
   "automatedScope": "54 targeted startup, view, navigation, geometry, story and weather checks passed; 351 other suite checks were not rerun for this visual update.",
-  "fullSuitePassed": 470,
+  "fullSuitePassed": 481,
   "fullSuiteFailed": 0,
   "previousReleaseTestEvidence": {
     "version": "0.39.0",
@@ -1294,7 +1294,7 @@
     "passed": 465,
     "scope": "See fullRegressionRun for the retained evidence and earlier recovery limitations."
   },
-  "currentVerificationScope": "470 regression checks pass: the v0.55.0 suite (469/469 before this change) with the ten local-ledger Ulti tests replaced by eleven League tests, and the startup network checks narrowed to League POSTs only (none for a practice copy). Chromium against a local stand-in League: 20 checks covering setup button, dialog, +4 claim, accuracy refusal, offline outbox, too-fast, practice copy, phone preview and 320/390 px layouts. The real League site and real phones were not tested.",
+  "currentVerificationScope": "481 regression checks pass. New: no conversation question can be answered by matching question words (every shown option set on both paces), reviewed replies applied and gated, the food critic appears once per normal shift and weights only perfect visits, touch ticket and checkout layouts fit every task on nine phone sizes, and the phone camera follows the chef until the player takes control. Checked in Chromium at 320×480, 393×740, 844×390 and 1366×768. Not verified on real phones or by a teacher review of the new replies.",
   "openingLayout": {
     "version": "0.54.0",
     "passPlayRemoved": true,
@@ -1362,5 +1362,6 @@
     "testedBundleSHA256": "233a2ecb49131c2f5200b03b0714f67c028c1f92a278795923035af67fc814f1"
   },
   "leagueGameId": "languini",
-  "leagueEndpoint": "config.js ultiApi (default https://mrsaymaz.netlify.app/api/ulti)"
+  "leagueEndpoint": "config.js ultiApi (default https://mrsaymaz.netlify.app/api/ulti)",
+  "reviewedConversationReplies": 429
 }
