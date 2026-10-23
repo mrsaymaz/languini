@@ -152,7 +152,8 @@ function tapTable(id){
 }
 function kitchenCommand(action){if(!game?.kitchen)return;audio.wake();if(simpleKitchenScreen(innerWidth,matchMedia('(pointer:coarse)').matches))game.kitchen.commandSimple(action);else game.kitchen.command(action);processEvents();updateHUD();}
 function openDelivery(){if(game?.kitchen){kitchenCommand('receiving');return;}if(game?.openDelivery()){openTask();processEvents();updateHUD();}}
-function openTask(){interactions.open();}
+// Hide the kitchen signs at once: on a slow frame the next HUD update could leave one over the task.
+function openTask(){if(game)kitchenHUD?.update(game,view);interactions.open();}
 function processEvents(){
   if(!game)return;for(const e of game.drainEvents()){
     if(e.type==='task'&&game.active){setFlow(game.active.phase==='serve'?2:game.active.phase==='order'?0:1);if(e.setting==='conversation'){profile.practice[practiceKey(config)]=game.deck.conversationState;persist();}}

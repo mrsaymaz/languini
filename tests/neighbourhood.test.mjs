@@ -51,3 +51,18 @@ test('arrival animation freezes on pause and settles before a protected task whi
  view.setRestaurant({});const state={status:'waiting',orderId:1,guest:0,patience:85,maxPatience:85,recipe:0,partySize:1,partyRecipes:[0],deliveredParts:[],transitParts:[],plan:[],step:0},game={state:'playing',tables:[state],paused:false,focused:false,jobs:[],loaded:[],equipped:new Set()};
  view.update(0,.5,game);const table=view.world.tables[0],elapsed=table.arrivalElapsed,position=table.guest.root.position.clone();game.paused=true;view.update(100,5,game);assert.equal(table.arrivalElapsed,elapsed);assert.ok(table.guest.root.position.equals(position));game.paused=false;game.focused=true;view.update(101,.01,game);assert.equal(table.arrivalStage,'settled');assert.equal(table.arrivalElapsed,4.6);assert.equal(state.patience,85);
 });
+
+test('a task opened while its guest is still walking in frames them at their seat, not where they were mid-walk',async()=>{
+ const fs=await import('node:fs'),bank=JSON.parse(fs.readFileSync(new URL('../public/data/language.json',import.meta.url))),tasks=bank[0].units[0].tasks;
+ for(const [setting,kind]of [['tablet','matching'],['conversation','question']]){
+  const view=Object.assign(Object.create(RestaurantView.prototype),{container:{clientWidth:393,clientHeight:740},menu:false,reduced:false,fallback:false,scene:new THREE.Scene(),camera:new THREE.OrthographicCamera(-10,10,7,-7,.1,90),renderer:{setSize(){},render(){},shadowMap:{}}});
+  view.setRestaurant({});const state={status:'waiting',orderId:1,guest:0,patience:85,maxPatience:85,recipe:0,partySize:1,partyRecipes:[0],deliveredParts:[],transitParts:[],plan:[],step:0},game={state:'playing',tables:[state],paused:false,focused:false,jobs:[],loaded:[],equipped:new Set()};
+  view.update(0,1.6,game);const table=view.world.tables[0];assert.notEqual(table.arrivalStage,'settled',setting);
+  const task=tasks.find(t=>t.kind===kind)||tasks.find(t=>t.kind!=='sorting'&&t.kind!=='sentence');
+  view.focusTask(setting,0,{task,recipe:0,options:task.options||[],order:[],customerId:0});game.focused=true;
+  const seat=guestArrivalPose(table,null,view.world.neighbourhood.layout,4.6);assert.deepEqual(table.guest.root.position.toArray(),[seat.x,seat.y,seat.z],setting);
+  const goal=view.cameraGoal;view.update(1,.01,game);view.resize(true);
+  assert.ok(view.cameraGoal.position.distanceTo(goal.position)<1e-6&&view.cameraGoal.target.distanceTo(goal.target)<1e-6,setting+' keeps the framing it opened with');
+  view.station?.dispose();
+ }
+});

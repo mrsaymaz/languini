@@ -194,10 +194,12 @@ export class RestaurantView {
     // Consecutive menu pages use the same physical screen. Keep its camera
     // settled instead of replaying the arrival flight between language tasks.
     const sameScreen=['tablet','pickup'].includes(setting)&&this.focus?.setting===setting&&this.focus.tableId===tableId&&this.stationReady();
-    this.station?.dispose();this.station=null;if(!setting){this.focus=null;applySceneLighting(this);this.resize(true);return;}if(this.world&&context.customerId!=null)setTableCustomer(this.world,tableId,context.customerId);const t=this.world?.tables[tableId];
+    this.station?.dispose();this.station=null;if(!setting){this.focus=null;applySceneLighting(this);this.resize(true);return;}if(this.world&&context.customerId!=null)setTableCustomer(this.world,tableId,context.customerId);this.settleGuest(tableId);const t=this.world?.tables[tableId];
     const customer=setting==='conversation'||setting==='tablet';
     if(this.world&&context.task)this.station=new StationScene(this.world,{setting,tableId,...context,viewport:{width:this.container.clientWidth,height:this.container.clientHeight}});this.focus={setting,tableId,angle:t?.angle||0,point:this.station?.cameraPoint?.toArray()||(customer&&t?[t.guest.root.position.x,1.5,t.guest.root.position.z]:(FOCUS_POINTS[setting]||FOCUS_POINTS.ticket).map((n,i)=>n+(this.world?.plan.stationOffsets[setting]?.[i]||0)))};applySceneLighting(this);this.resize(!sameScreen);
   }
+  // A task can open while its guest is still walking in. Seat them first: the close-up is framed once, on where they are now.
+  settleGuest(tableId){const w=this.world,t=w?.tables[tableId];if(!t||!w.neighbourhood)return;t.arrivalElapsed=4.6;const pose=guestArrivalPose(t,null,w.neighbourhood.layout,4.6);t.arrivalStage=pose.stage;t.guest.root.position.set(pose.x,pose.y,pose.z);t.guest.root.rotation.y=pose.angle;customerWalkPose(t.guest,this.motionClock||0,{...pose,reduced:this.reduced});w.root.updateMatrixWorld(true);}
   stationReady(){return !this.cameraGoal||this.reduced||!this.cameraFlight&&this.camera.position.distanceTo(this.cameraGoal.position)<.025&&this.cameraTarget.distanceTo(this.cameraGoal.target)<.025&&['left','right','top','bottom'].every(k=>Math.abs(this.camera[k]-this.cameraGoal[k])<.018);}
   projectObject(key){const surface=this.station?.surfaces?.[key];return surface?projectSurface(surface,this.camera,this.container.clientWidth,this.container.clientHeight):null;}
   startObjectDrag(kind,index,pickup=null){

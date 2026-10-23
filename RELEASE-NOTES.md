@@ -1,3 +1,9 @@
+## v0.58.1 · Task cameras find the guest
+
+Fixes tasks that could not be finished because the camera pointed at the wrong place. When a student opened a guest's order before that guest had finished walking in, the menu tablet and conversation close-ups were framed on the spot where the guest was mid-walk; the guest then sat down and the camera kept looking at the floor or a wall, with the answers off screen. Opening a task now seats its guest first, so the close-up is framed on where they will stay. This only happened with motion switched on; Reduced motion already seated guests at once.
+
+On laptops a kitchen sign could stay over one answer for a moment after a recipe opened on a slow frame. The kitchen signs now hide as soon as any task opens.
+
 ## v0.58.0 · A clearer low-poly overview
 
 During a shift the restaurant now reads as the centre of the scene. The overview uses a stronger sun and a quieter sky light, so the tops, sides and shadows of the low-poly furniture, counters and characters separate; close-ups and the opening film keep their existing lighting. Floor tiles in all three venues sit a step below the cream furniture and pavement, so tables, guests and the chef stand out from the floor. Distant shops fade towards the colour of the day's weather and no longer cast shadows, so on wide screens the restaurant is the sharpest thing on screen.

@@ -1,6 +1,6 @@
 # Languini · by Mr. Saymaz
 
-**Version 0.58.0** · A lightweight stylised 3D restaurant game with eight stations for Grades 5–8.
+**Version 0.58.1** · A lightweight stylised 3D restaurant game with eight stations for Grades 5–8.
 
 ## Open the game
 
@@ -11,6 +11,8 @@ For phones, upload the ready root files to your static host, such as Netlify, an
 **phone-preview.html** runs the actual game with adjustable portrait/landscape sizes. A Live Kitchen service preview joins direct demonstrations covering the restaurant stations, four-pair matching, one/two-word listening, ordinary labels, sorting, all nine dishes, four events, equipment and projects. Preview progress is isolated from normal saves.
 
 ## What this version adds
+
+Task close-ups no longer point at the wrong place when a guest's order is opened while they are still walking in; the kitchen signs hide as soon as a task opens. See RELEASE-NOTES.md.
 
 A clearer low-poly overview during shifts: stronger form lighting, deeper floor tiles, hazed distant shops, lifted faceted clouds, fading sunbeams and no sun over the kitchen. See RELEASE-NOTES.md.
 
