@@ -1,0 +1,2150 @@
+{
+ "policy": "Reviewed replacement wrong replies for conversation questions whose correct reply was the only option repeating the question's key words. Each wrong reply shares the question's topic words but either states a wrong fact or answers a different question (when, where, who, how many, yes/no). Opinion questions use only the second kind, so no wrong reply could also be a true answer. The correct reply is unchanged and stays first.",
+ "wrongReplies": {
+  "g5u1-upload-g5u1q2": [
+   "Pupils can borrow books on Monday mornings.",
+   "Pupils can borrow books in the playground.",
+   "Pupils can borrow two books every week."
+  ],
+  "g5u1-upload-g5u1q3": [
+   "They wear it at school every day.",
+   "Yes, pupils wear it at school.",
+   "Because the school says they must wear it."
+  ],
+  "g5u1-upload-g5u1q8": [
+   "The chess club meets on Fridays.",
+   "There are twenty pupils in the chess club.",
+   "Our teacher leads the chess club."
+  ],
+  "g5u1-upload-g5u1q9": [
+   "They must be at the gate at eight o'clock.",
+   "The teacher must open the gate.",
+   "Because the gate must stay safe."
+  ],
+  "g5u1-extra-g5u1-g5u1q1": [
+   "The club meets at half past nine.",
+   "Yes, you can join the club.",
+   "There are six school clubs."
+  ],
+  "g5u1-extra-g5u1-g5u1q5": [
+   "The clubs are on Fridays.",
+   "The chess club is my favourite.",
+   "Our coach leads the clubs."
+  ],
+  "g5u1-extra-g5u1-g5u1q9": [
+   "The art club meets in the library.",
+   "I joined the art club last year.",
+   "There are six clubs to join."
+  ],
+  "g5u2-upload-g5u2q1": [
+   "I use glue to draw straight lines.",
+   "I use scissors to draw straight lines.",
+   "I use an eraser to draw straight lines."
+  ],
+  "g5u2-upload-g5u2q3": [
+   "I write them after every lesson.",
+   "I write them with a blue pen.",
+   "I write them for my English test."
+  ],
+  "g5u2-upload-g5u2q5": [
+   "Monday comes after Sunday.",
+   "Maths comes after lunch on Monday.",
+   "Art comes after break on Monday."
+  ],
+  "g5u2-upload-g5u2q6": [
+   "Glue cuts paper.",
+   "I cut paper in art lessons.",
+   "A ruler cuts paper."
+  ],
+  "g5u2-upload-g5u2q7": [
+   "Scissors stick paper together.",
+   "An eraser sticks paper together.",
+   "I stick paper together in art lessons."
+  ],
+  "g5u2-upload-g5u2q9": [
+   "Here is your pen. I borrowed it yesterday.",
+   "I borrow a pen every day.",
+   "No, you can't borrow my pen."
+  ],
+  "g5u2-extra-g5u2-g5u2q3": [
+   "The desks are under the window.",
+   "The classroom desks are brown.",
+   "My desk is near the door."
+  ],
+  "g5u2-extra-g5u2-g5u2q4": [
+   "English is my favourite lesson.",
+   "We have English on Mondays.",
+   "My English teacher is very kind."
+  ],
+  "g5u2-extra-g5u2-g5u2q5": [
+   "Mondays are my favourite days.",
+   "The lesson starts at nine on Mondays.",
+   "Yes, I have a lesson on Mondays."
+  ],
+  "g5u2-extra-g5u2-g5u2q6": [
+   "My ruler is thirty centimetres long.",
+   "I draw lines with my ruler.",
+   "I bought my ruler last week."
+  ],
+  "g5u2-extra-g5u2-g5u2q8": [
+   "I use it in art lessons.",
+   "I use them to make cards.",
+   "I use paper to make cards."
+  ],
+  "g5u3-upload-g5u3q2": [
+   "I wear socks on my hands.",
+   "I wear them on my hands in winter.",
+   "My hands are cold, so I wear a hat."
+  ],
+  "g5u3-upload-g5u3q3": [
+   "I wear a belt round my neck.",
+   "I wear gloves round my neck.",
+   "I wear it round my neck in winter."
+  ],
+  "g5u3-upload-g5u3q6": [
+   "I brush my hair with it.",
+   "I brush them in the morning.",
+   "I brush the dog with it."
+  ],
+  "g5u3-upload-g5u3q7": [
+   "I wear them for running on Saturdays.",
+   "I wear my pyjamas for running.",
+   "I wear slippers for running."
+  ],
+  "g5u3-upload-g5u3q8": [
+   "I feel happy at the weekend.",
+   "I feel hungry before lunch.",
+   "I feel cold in winter."
+  ],
+  "g5u3-extra-g5u3-g5u3q1": [
+   "I wake up in my bedroom.",
+   "I wake up with my alarm clock.",
+   "My mother wakes me up."
+  ],
+  "g5u3-extra-g5u3-g5u3q2": [
+   "I wear them every day.",
+   "I wear a hat on my head.",
+   "I wear gloves on my feet."
+  ],
+  "g5u3-extra-g5u3-g5u3q4": [
+   "It is a red scarf.",
+   "Her scarf is in the wardrobe.",
+   "I bought the scarf last week."
+  ],
+  "g5u3-extra-g5u3-g5u3q5": [
+   "My eyes are big.",
+   "I close my eyes at night.",
+   "My eyes are tired today."
+  ],
+  "g5u3-extra-g5u3-g5u3q9": [
+   "I feel fresh in the morning.",
+   "I feel cold without my coat.",
+   "I feel excited before my birthday."
+  ],
+  "g5u3-extra-g5u9-g5u9q1": [
+   "I feel sleepy after breakfast.",
+   "I feel hungry before lunch.",
+   "I feel cold in the morning."
+  ],
+  "g5u3-extra-g5u9-g5u9q2": [
+   "I need a coat when I am cold.",
+   "I need a bed when I am tired.",
+   "I need it after football."
+  ],
+  "g5u3-extra-g5u9-g5u9q4": [
+   "I can help my brother with his homework.",
+   "A mechanic can help with my car.",
+   "They can help me after school."
+  ],
+  "g5u3-extra-g5u9-g5u9q6": [
+   "I sleep in my own bedroom.",
+   "I sleep after I do homework for two hours.",
+   "Yes, I sleep many hours."
+  ],
+  "g5u4-ext26-g5u4-q7": [
+   "It means drinking water near the plants.",
+   "It means buying plants and water at the shop.",
+   "It means taking photos of plants."
+  ],
+  "g5u4-upload-g5u4q3": [
+   "My aunt's child is my sister.",
+   "My aunt's child is ten years old.",
+   "My aunt's child lives in Izmir."
+  ],
+  "g5u4-upload-g5u4q4": [
+   "A kite has a string.",
+   "A drum makes music.",
+   "A trumpet makes music."
+  ],
+  "g5u4-upload-g5u4q5": [
+   "I use a guitar to take photos.",
+   "I use it to take photos at weekends.",
+   "I use a ruler to take photos."
+  ],
+  "g5u4-upload-g5u4q6": [
+   "I usually cook in the bathroom.",
+   "I usually cook with my mum at home.",
+   "I usually cook pasta on Fridays."
+  ],
+  "g5u4-upload-g5u4q8": [
+   "A very young child is my grandfather.",
+   "A very young child is one year old.",
+   "A very young child sleeps a lot."
+  ],
+  "g5u4-upload-g5u4q9": [
+   "My hobby is reading, not doing a puzzle.",
+   "The hobby is gardening, not a puzzle game.",
+   "My sister's hobby is painting, not a puzzle."
+  ],
+  "g5u4-extra-g5u4-g5u4q4": [
+   "I have got photos of my cousins.",
+   "My cousins have got a big dog.",
+   "I visit my cousins, and I have got a present for them."
+  ],
+  "g5u4-extra-g5u4-g5u4q5": [
+   "The guitar is on the sofa.",
+   "It is a new guitar.",
+   "The guitar is brown and old."
+  ],
+  "g5u4-extra-g5u4-g5u4q6": [
+   "We have breakfast in the kitchen.",
+   "We have eggs and cheese for breakfast.",
+   "My family has breakfast together."
+  ],
+  "g5u4-extra-g5u4-g5u4q7": [
+   "She enjoys her hobby at the weekend.",
+   "My sister enjoys it with her friends.",
+   "She enjoys it because it is fun."
+  ],
+  "g5u4-extra-g5u4-g5u4q9": [
+   "My grandfather is seventy years old.",
+   "The piano is in the living room.",
+   "He plays football on Sundays."
+  ],
+  "g5u5-upload-g5u5q1": [
+   "A doctor can treat patients in a bakery.",
+   "A doctor can treat patients every day.",
+   "A doctor can treat ten patients in an hour."
+  ],
+  "g5u5-upload-g5u5q4": [
+   "A map shows my face.",
+   "My face shows that I am happy.",
+   "A clock shows the time, not my face."
+  ],
+  "g5u5-upload-g5u5q5": [
+   "I put my head on a plate.",
+   "I put my book on the table.",
+   "I go to bed at nine."
+  ],
+  "g5u5-upload-g5u5q6": [
+   "I wash them before lunch.",
+   "I wash them with soap.",
+   "I wash them three times a day."
+  ],
+  "g5u5-upload-g5u5q8": [
+   "We call it a skyscraper.",
+   "We call our grandma at home.",
+   "We call it a bridge."
+  ],
+  "g5u5-extra-g5u5-g5u5q2": [
+   "The parks are near the school.",
+   "I play in the park after school.",
+   "The park is big and green."
+  ],
+  "g5u5-extra-g5u5-g5u5q3": [
+   "The bicycle is red and new.",
+   "The bicycle is beside the bridge.",
+   "I ride my bicycle to school."
+  ],
+  "g5u5-extra-g5u5-g5u5q4": [
+   "A town is bigger.",
+   "A town has a bigger school.",
+   "A city has more cars than a village."
+  ],
+  "g5u5-extra-g5u5-g5u5q5": [
+   "The museum opens at nine.",
+   "The museum is old and big.",
+   "The museum has old paintings."
+  ],
+  "g5u5-extra-g5u5-g5u5q8": [
+   "They work there every day.",
+   "They work there to help people.",
+   "Pilots work there."
+  ],
+  "g5u5-extra-g5u5-g5u5q9": [
+   "The cinema opens at ten.",
+   "My town is small and quiet.",
+   "The cinema ticket is ten lira."
+  ],
+  "g5u6-upload-g5u6q1": [
+   "I use a knife to eat soup.",
+   "I use a fork to eat soup.",
+   "I use scissors to eat soup."
+  ],
+  "g5u6-upload-g5u6q3": [
+   "Water is good for you.",
+   "I drink water every day.",
+   "Here is your water, sir."
+  ],
+  "g5u6-upload-g5u6q4": [
+   "I feel thirsty.",
+   "I feel sleepy.",
+   "I feel cold."
+  ],
+  "g5u6-upload-g5u6q6": [
+   "It goes on a plate.",
+   "The bread goes in the oven.",
+   "Two bread slices go in a bag."
+  ],
+  "g5u6-upload-g5u6q7": [
+   "I cut bread with a spoon.",
+   "I cut bread for breakfast.",
+   "I cut bread in the kitchen."
+  ],
+  "g5u6-upload-g5u6q8": [
+   "A spoon can hold a litre of milk.",
+   "A cup can hold a litre of milk.",
+   "A plate can hold a litre of milk."
+  ],
+  "g5u6-extra-g5u6-g5u6q2": [
+   "I have got eggs for breakfast.",
+   "The eggs have got brown shells.",
+   "I have got the eggs in my bag."
+  ],
+  "g5u6-extra-g5u6-g5u6q5": [
+   "The waiter brings the meals.",
+   "They make the meals in the kitchen.",
+   "The restaurant makes a lot of money."
+  ],
+  "g5u6-extra-g5u6-g5u6q6": [
+   "The menu has twenty dishes.",
+   "I like the pasta on the menu.",
+   "The menu is in English and Turkish."
+  ],
+  "g5u6-extra-g5u6-g5u6q9": [
+   "My favourite fruit is in the fridge.",
+   "I buy my favourite fruit at the market.",
+   "My favourite fruit costs five lira."
+  ],
+  "g5u7-upload-g5u7q1": [
+   "A penguin has a very long neck.",
+   "A bear has a very long neck.",
+   "A rabbit has a very long neck."
+  ],
+  "g5u7-upload-g5u7q3": [
+   "A parrot cannot fly.",
+   "An eagle cannot fly.",
+   "A fish cannot fly, but it can swim."
+  ],
+  "g5u7-upload-g5u7q5": [
+   "A giraffe carries a shell.",
+   "A bird carries a shell.",
+   "A whale carries a shell."
+  ],
+  "g5u7-upload-g5u7q7": [
+   "A crab is a large sea mammal.",
+   "A penguin is a large sea mammal.",
+   "A starfish is a large sea mammal."
+  ],
+  "g5u7-upload-g5u7q8": [
+   "We must keep wild animals at home.",
+   "We must feed wild animals sweets.",
+   "We must visit the zoo on Sunday."
+  ],
+  "g5u7-upload-g5u7q9": [
+   "Its ears are at the back.",
+   "Its eyes are at the back.",
+   "Its legs are under its body."
+  ],
+  "g5u7-extra-g5u7-g5u7q1": [
+   "They live for about forty years.",
+   "They live in big groups.",
+   "They live in the desert."
+  ],
+  "g5u7-extra-g5u7-g5u7q3": [
+   "A fox is taller.",
+   "A fox is taller than a bear.",
+   "A giraffe eats leaves."
+  ],
+  "g5u7-extra-g5u7-g5u7q5": [
+   "It has got strong legs.",
+   "It has got brown fur on its legs.",
+   "A bird has got two legs."
+  ],
+  "g5u7-extra-g5u7-g5u7q6": [
+   "It eats in the morning.",
+   "It eats fish.",
+   "It eats meat."
+  ],
+  "g5u7-extra-g5u7-g5u7q9": [
+   "A pilot helps sick animals.",
+   "A chef helps them.",
+   "Sick animals need help quickly."
+  ],
+  "g5u8-upload-g5u8q3": [
+   "A map shows where I am.",
+   "A ticket shows my seat.",
+   "A clock shows the time."
+  ],
+  "g5u8-upload-g5u8q4": [
+   "I pack them in the morning.",
+   "I pack them with my mother.",
+   "I pack them in a pencil case."
+  ],
+  "g5u8-upload-g5u8q7": [
+   "Mars is our home planet.",
+   "The Moon is our home planet.",
+   "Our home planet is very big."
+  ],
+  "g5u8-upload-g5u8q8": [
+   "I build it in the summer.",
+   "I build a house with my dad.",
+   "I build it with my sister."
+  ],
+  "g5u8-extra-g5u8-g5u8q2": [
+   "I am going to travel by train.",
+   "I am going to travel with my family.",
+   "I am going to travel to Antalya."
+  ],
+  "g5u8-extra-g5u8-g5u8q7": [
+   "We are going to stay in a tent at night.",
+   "We are going to stay with our grandparents.",
+   "We are going to stay up late at night."
+  ],
+  "g5u8-extra-g5u8-g5u8q8": [
+   "A forest has sand by the sea.",
+   "A mountain has sand by the sea.",
+   "A desert has sand, but no sea."
+  ],
+  "g5u9-extra-g5u10-g5u10q1": [
+   "A chef repairs it.",
+   "He repairs it in a garage.",
+   "He repairs it on Mondays."
+  ],
+  "g5u9-extra-g5u10-g5u10q3": [
+   "The farmer grows them in the spring.",
+   "The farmer grows chairs.",
+   "The farmer grows them on a big farm."
+  ],
+  "g5u9-extra-g5u10-g5u10q4": [
+   "She starts work in a bakery.",
+   "She starts with a cup of tea.",
+   "She starts work by bus."
+  ],
+  "g5u9-extra-g5u10-g5u10q7": [
+   "The cooks work in the morning.",
+   "The cooks work very hard.",
+   "Cooks work with knives and pans."
+  ],
+  "g5u9-extra-g5u10-g5u10q8": [
+   "I would like to do it next year.",
+   "I would like to work in London.",
+   "I would like a sandwich, please."
+  ],
+  "g5u9-extra-g5u10-g5u10q9": [
+   "No, a vet can't help it.",
+   "My rabbit is white and small.",
+   "No, a vet helps only dogs."
+  ],
+  "g5u10-ext26-g5u10-q1": [
+   "I use a chessboard to play tennis.",
+   "I use dice to play tennis.",
+   "I use a kite to play tennis."
+  ],
+  "g5u10-ext26-g5u10-q7": [
+   "I hide my toys in a box.",
+   "I kick a ball in hide-and-seek.",
+   "I fly a kite in hide-and-seek."
+  ],
+  "g5u10-upload-g5u10q2": [
+   "Football has kings and queens.",
+   "Hide-and-seek has kings and queens.",
+   "Dice have kings and queens."
+  ],
+  "g5u10-upload-g5u10q3": [
+   "A ball flies on a string.",
+   "A doll flies on a string.",
+   "A plane flies on a string."
+  ],
+  "g5u10-upload-g5u10q5": [
+   "They kick a hoop in football.",
+   "They kick a chessboard in football.",
+   "They kick it in football matches at school."
+  ],
+  "g5u10-upload-g5u10q6": [
+   "I can jump over it for ten minutes.",
+   "I can jump over the rope on Fridays.",
+   "I can jump over a rope with my eyes closed."
+  ],
+  "g5u10-upload-g5u10q8": [
+   "Kites have dots for counting.",
+   "Rackets have dots for counting.",
+   "Chess has dots for counting."
+  ],
+  "g6u1-ext26-g6u1-q3": [
+   "We can read school notices on the canteen menu.",
+   "We can read school notices every Monday.",
+   "We can read school notices with our friends."
+  ],
+  "g6u1-ext26-g6u1-q7": [
+   "A volunteer is someone who sells food.",
+   "A volunteer is someone who works for money.",
+   "A volunteer is someone who visits a museum."
+  ],
+  "g6u1-upload-g6u1q1": [
+   "The school office opens at eight.",
+   "The school cook does that.",
+   "The school office work is important."
+  ],
+  "g6u1-upload-g6u1q2": [
+   "They put their shirts in the wardrobe.",
+   "They put shoes on their shirts.",
+   "They put their shirts on in the morning."
+  ],
+  "g6u1-upload-g6u1q9": [
+   "Pupils follow school rules every day.",
+   "Pupils follow school rules in the classroom.",
+   "Pupils follow school rules with their teachers."
+  ],
+  "g6u1-extra-g6u1-g6u1q2": [
+   "I help there with my friend.",
+   "I help there because I love books.",
+   "I help in the library after lunch."
+  ],
+  "g6u1-extra-g6u1-g6u1q5": [
+   "It begins with a maths lesson.",
+   "It begins in the main hall.",
+   "It begins and ends with a bell."
+  ],
+  "g6u1-extra-g6u1-g6u1q6": [
+   "The pupils in my class are friendly.",
+   "My class has pupils from three cities.",
+   "Our pupils sit in groups."
+  ],
+  "g6u1-extra-g6u1-g6u1q8": [
+   "The club organises it in June.",
+   "Our teacher organises the school show.",
+   "The club organises a show every year."
+  ],
+  "g6u1-extra-g6u1-g6u1q9": [
+   "Elif gives me notes every day.",
+   "These notes are about maths.",
+   "I give Elif a present on her birthday."
+  ],
+  "g6u2-upload-g6u2q1": [
+   "A ruler helps me write a word.",
+   "A calculator helps me count each word.",
+   "A clock helps me read a word."
+  ],
+  "g6u2-upload-g6u2q2": [
+   "The first comes after the second.",
+   "It comes after lunch.",
+   "Number one comes first."
+  ],
+  "g6u2-upload-g6u2q4": [
+   "They tell me the time.",
+   "They tell me in English.",
+   "They tell me a funny story."
+  ],
+  "g6u2-upload-g6u2q5": [
+   "I check my answers at the end of the test.",
+   "I check my answers with a red pen.",
+   "I check my answers with my partner."
+  ],
+  "g6u2-upload-g6u2q8": [
+   "I forget the word again.",
+   "I forget about the word and play.",
+   "I put the word in my bag."
+  ],
+  "g6u2-upload-g6u2q9": [
+   "It means studying with friends.",
+   "It means studying in a big group.",
+   "It means learning a new language."
+  ],
+  "g6u2-extra-g6u2-g6u2q1": [
+   "I am revising in my bedroom.",
+   "I am revising with my sister.",
+   "I am revising because I have a test."
+  ],
+  "g6u2-extra-g6u2-g6u2q2": [
+   "I use them to learn new words.",
+   "I use them at home.",
+   "I use them with my friends."
+  ],
+  "g6u2-extra-g6u2-g6u2q3": [
+   "The notes are about history.",
+   "These notes are on the desk.",
+   "They are maths notes."
+  ],
+  "g6u2-extra-g6u2-g6u2q5": [
+   "Eighteen comes after nineteen.",
+   "Nineteen comes after eighteen.",
+   "Ten comes after nineteen."
+  ],
+  "g6u2-extra-g6u2-g6u2q6": [
+   "The examples are in red.",
+   "The examples are about animals.",
+   "Our teacher writes examples on the board."
+  ],
+  "g6u2-extra-g6u2-g6u2q8": [
+   "I keep them for a week.",
+   "I keep them because they are useful.",
+   "I keep them tidy and clean."
+  ],
+  "g6u3-upload-g6u3q1": [
+   "We call it straight hair.",
+   "We call it short hair.",
+   "We call it long hair."
+  ],
+  "g6u3-upload-g6u3q2": [
+   "I wear a necklace on my wrist.",
+   "I wear a ring on my wrist.",
+   "I wear a scarf on my wrist."
+  ],
+  "g6u3-upload-g6u3q4": [
+   "I wear gloves to protect my eyes.",
+   "I wear a scarf to protect my eyes.",
+   "I wear a bracelet in the sun."
+  ],
+  "g6u3-upload-g6u3q8": [
+   "A helpful person tells lies.",
+   "A helpful person takes things.",
+   "A helpful person is my friend Ali."
+  ],
+  "g6u3-upload-g6u3q9": [
+   "A bracelet goes round my neck.",
+   "A ring goes round my neck.",
+   "A scarf goes round my neck."
+  ],
+  "g6u3-extra-g6u3-g6u3q3": [
+   "It is a new watch.",
+   "The watch is on the table.",
+   "I watch TV every evening."
+  ],
+  "g6u3-extra-g6u3-g6u3q4": [
+   "The tallest pupil is 150 centimetres.",
+   "The tallest building is in the city.",
+   "The tallest pupil sits at the back."
+  ],
+  "g6u3-extra-g6u3-g6u3q5": [
+   "She has got bracelets in her bag.",
+   "She has got her bracelets from her aunt.",
+   "Elif has got blue and green bracelets."
+  ],
+  "g6u3-extra-g6u3-g6u3q6": [
+   "His jacket is new.",
+   "His jacket is in the car.",
+   "His jacket is too big."
+  ],
+  "g6u3-extra-g6u3-g6u3q8": [
+   "A longer scarf is warmer.",
+   "My scarf is warmer.",
+   "The longer scarf is in the shop."
+  ],
+  "g6u4-upload-g6u4q1": [
+   "A farmer prepares the meals.",
+   "A pilot prepares the meals.",
+   "We prepare meals at home."
+  ],
+  "g6u4-upload-g6u4q4": [
+   "A chef grows crops.",
+   "A mechanic grows crops.",
+   "Crops grow in spring."
+  ],
+  "g6u4-upload-g6u4q6": [
+   "A family can park a car in the kitchen.",
+   "A family can park a car at night.",
+   "A family can park a car for free."
+  ],
+  "g6u4-upload-g6u4q8": [
+   "It shows working tools.",
+   "It shows work in a museum.",
+   "It shows the way to work."
+  ],
+  "g6u4-upload-g6u4q9": [
+   "It means that we did it for you.",
+   "It means that we did not do it.",
+   "It means that a friend did it for us."
+  ],
+  "g6u4-extra-g6u4-g6u4q4": [
+   "I need it this afternoon.",
+   "I need a spoon.",
+   "I need it for the picture."
+  ],
+  "g6u4-extra-g6u4-g6u4q5": [
+   "It has got big floors.",
+   "It has got wooden floors.",
+   "My home has got a balcony."
+  ],
+  "g6u4-extra-g6u4-g6u4q6": [
+   "The dinner is ready at eight.",
+   "Preparing dinner takes two hours.",
+   "The family dinner is fish and rice."
+  ],
+  "g6u4-extra-g6u4-g6u4q9": [
+   "The toolbox is on the balcony.",
+   "It is a red toolbox.",
+   "The toolbox has a hammer in it."
+  ],
+  "g6u5-upload-g6u5q2": [
+   "A taxi carries them.",
+   "A bus carries them across the city.",
+   "A tram carries them."
+  ],
+  "g6u5-upload-g6u5q4": [
+   "They stop in the evening.",
+   "They stop on the motorway.",
+   "They stop because of a storm."
+  ],
+  "g6u5-upload-g6u5q7": [
+   "It is called tomorrow.",
+   "It is called the weekend.",
+   "It is called a holiday."
+  ],
+  "g6u5-upload-g6u5q8": [
+   "People buy travel tickets at the station.",
+   "People buy travel tickets online or at a kiosk.",
+   "People buy travel tickets in the morning."
+  ],
+  "g6u5-extra-g6u5-g6u5q6": [
+   "He bought tickets for the concert.",
+   "The tickets were expensive.",
+   "He bought the tickets yesterday."
+  ],
+  "g6u5-extra-g6u5-g6u5q9": [
+   "The city centre is near the river.",
+   "Crowded places make me tired.",
+   "The city centre has many shops."
+  ],
+  "g6u6-ext26-g6u6-q1": [
+   "A recipe is a list of guests.",
+   "A recipe is a train schedule.",
+   "A recipe gives the price of a dish."
+  ],
+  "g6u6-upload-g6u6q2": [
+   "Cuisine is the music of a place.",
+   "Cuisine is the weather of a place.",
+   "Cuisine is the clothes of a place."
+  ],
+  "g6u6-upload-g6u6q5": [
+   "We learn about other cultures at school.",
+   "We learn about other cultures from books.",
+   "We learn about other cultures every Friday."
+  ],
+  "g6u6-upload-g6u6q7": [
+   "They wear them on stage.",
+   "They wear them for one night only.",
+   "They wear them to have fun."
+  ],
+  "g6u6-upload-g6u6q8": [
+   "People follow a map in a tradition.",
+   "People follow the bus to school.",
+   "People follow a new fashion every year."
+  ],
+  "g6u6-upload-g6u6q9": [
+   "It helps us cook.",
+   "It helps us run fast.",
+   "It helps us sleep."
+  ],
+  "g6u6-extra-g6u6-g6u6q1": [
+   "We visited it in July.",
+   "We visited it with our cousins.",
+   "We visited a museum last year."
+  ],
+  "g6u6-extra-g6u6-g6u6q3": [
+   "The guests were welcomed at six o'clock.",
+   "The guests were welcomed with tea.",
+   "The guests welcomed the host."
+  ],
+  "g6u6-extra-g6u6-g6u6q4": [
+   "It started with a song.",
+   "It started in the town square.",
+   "It started because it was a holiday."
+  ],
+  "g6u6-extra-g6u6-g6u6q6": [
+   "She speaks languages very well.",
+   "She speaks languages with her friends.",
+   "She speaks languages at school."
+  ],
+  "g6u6-extra-g6u6-g6u6q9": [
+   "Traditional music uses a flute.",
+   "The music started at six o'clock.",
+   "My grandfather enjoys traditional music."
+  ],
+  "g6u7-ext26-g6u7-q3": [
+   "It means to throw everything away.",
+   "It means to buy a new one each time.",
+   "It means to use something only once."
+  ],
+  "g6u7-ext26-g6u7-q5": [
+   "It means to make more waste.",
+   "It means to make the amount bigger.",
+   "It means to use more water."
+  ],
+  "g6u7-upload-g6u7q1": [
+   "They give animals plastic bags.",
+   "They give animals money.",
+   "They give animals rubbish."
+  ],
+  "g6u7-upload-g6u7q4": [
+   "It means to throw waste into the sea.",
+   "It means to buy more plastic.",
+   "It means to put waste on the street."
+  ],
+  "g6u7-upload-g6u7q6": [
+   "We should turn off unused taps in the evening.",
+   "We should turn off unused taps with our hands.",
+   "We should turn off unused taps at school and at home."
+  ],
+  "g6u7-upload-g6u7q7": [
+   "They can plant plastic bottles.",
+   "They can plant them in spring.",
+   "They can plant with their families."
+  ],
+  "g6u7-upload-g6u7q9": [
+   "People sort waste in the kitchen.",
+   "People sort waste every day.",
+   "People sort waste with gloves."
+  ],
+  "g6u7-extra-g6u7-g6u7q5": [
+   "We filled the bags on the beach.",
+   "We filled bags with plastic bottles.",
+   "We filled the bags in the morning."
+  ],
+  "g6u7-extra-g6u7-g6u7q7": [
+   "The glass recycling bin.",
+   "The food waste bin.",
+   "We empty the bin on Fridays."
+  ],
+  "g6u8-upload-g6u8q2": [
+   "A rocket is trained to travel in space.",
+   "A pilot is trained to fly planes.",
+   "Space travel is exciting."
+  ],
+  "g6u8-upload-g6u8q3": [
+   "It is called a comet.",
+   "It is called a telescope.",
+   "It is called a rocket."
+  ],
+  "g6u8-upload-g6u8q5": [
+   "It is called lightning.",
+   "It is called rain.",
+   "It is called a rainbow."
+  ],
+  "g6u8-upload-g6u8q8": [
+   "A bus launches into space.",
+   "A ferry launches into space.",
+   "A plane launches into space."
+  ],
+  "g6u8-upload-g6u8q9": [
+   "The scientist is going to observe them tomorrow night.",
+   "The scientist is going to observe with a telescope.",
+   "The scientist is going to observe from a high mountain."
+  ],
+  "g6u8-extra-g6u8-g6u8q1": [
+   "We live on Mars.",
+   "We live on the Moon.",
+   "We live in a big city."
+  ],
+  "g6u8-extra-g6u8-g6u8q2": [
+   "We are going to use a ruler.",
+   "We are going to use it tonight.",
+   "We are going to use it on the hill."
+  ],
+  "g6u8-extra-g6u8-g6u8q3": [
+   "The visit is going to be next Wednesday.",
+   "The visit is going to take two hours.",
+   "We are going to visit the space centre."
+  ],
+  "g6u8-extra-g6u8-g6u8q6": [
+   "The planets go round the Sun.",
+   "Some planets are very big.",
+   "Planets are far away from Earth."
+  ],
+  "g6u9-upload-g6u9q1": [
+   "A clock tells me the time.",
+   "My friend tells me a joke.",
+   "The map tells me the way."
+  ],
+  "g6u9-upload-g6u9q3": [
+   "The customer takes payments.",
+   "The farmer takes payments.",
+   "Payments take two minutes."
+  ],
+  "g6u9-upload-g6u9q4": [
+   "That person is a cashier.",
+   "That person is a farmer.",
+   "That person is a chef."
+  ],
+  "g6u9-upload-g6u9q6": [
+   "I carry it in a trolley.",
+   "I carry it in the car.",
+   "I carry it to the checkout."
+  ],
+  "g6u9-upload-g6u9q7": [
+   "A banana is yellow and sour.",
+   "A strawberry is yellow and sour.",
+   "A pear is yellow and sour."
+  ],
+  "g6u9-upload-g6u9q9": [
+   "A kilo of pears is ten lira.",
+   "Pears are sold by the kilo.",
+   "Here is your kilo of pears."
+  ],
+  "g6u9d1-guest": [
+   "The word is “shop assistant”.",
+   "The word is “price list”.",
+   "The word is “shop sign”."
+  ],
+  "g6u10-upload-g6u10q2": [
+   "I dry them after I wash them.",
+   "I dry them with a toothbrush.",
+   "I dry them in the bathroom."
+  ],
+  "g6u10-upload-g6u10q3": [
+   "I should run a long race.",
+   "I should drink lots of cola.",
+   "I should play computer games all night."
+  ],
+  "g6u10-upload-g6u10q5": [
+   "I should drink it slowly.",
+   "I should drink cola every day.",
+   "I should drink before I sleep."
+  ],
+  "g6u10-upload-g6u10q6": [
+   "I should brush them with toothpaste.",
+   "I should brush them in the bathroom.",
+   "I should brush them for two minutes."
+  ],
+  "g6u10-upload-g6u10q7": [
+   "It is called a headache.",
+   "It is called a toothache.",
+   "It is called a sore throat."
+  ],
+  "g6u10-upload-g6u10q8": [
+   "We wash our hands before meals in the kitchen.",
+   "We wash our hands before meals with soap.",
+   "We wash our hands before meals and after the toilet."
+  ],
+  "g6u10-extra-g6u9-g6u9q2": [
+   "You use a ruler.",
+   "You use it twice a day.",
+   "You use a towel."
+  ],
+  "g6u10-extra-g6u9-g6u9q3": [
+   "A mechanic can help.",
+   "A chef can help.",
+   "My friend can help with homework."
+  ],
+  "g6u10-extra-g6u9-g6u9q6": [
+   "I carry it in my bag.",
+   "My water bottle is blue.",
+   "I carry it every day."
+  ],
+  "g6u10-extra-g6u9-g6u9q7": [
+   "The clean towels are in the bathroom.",
+   "Clean towels are soft and white.",
+   "We need clean towels after swimming."
+  ],
+  "g6u10-extra-g6u9-g6u9q8": [
+   "It hurts a lot.",
+   "It hurts when I run.",
+   "It started to hurt yesterday."
+  ],
+  "g6u10-extra-g6u9-g6u9q9": [
+   "The teacher is in the classroom.",
+   "I feel ill on Mondays.",
+   "My teacher is very kind."
+  ],
+  "g6u10-extra-g6u10-g6u10q1": [
+   "I play it in the park.",
+   "I play it with my brother.",
+   "I play it for one hour."
+  ],
+  "g6u10-extra-g6u10-g6u10q2": [
+   "I go swimming with my sister.",
+   "I go swimming at the sports centre.",
+   "I go swimming because it is fun."
+  ],
+  "g6u10-extra-g6u10-g6u10q4": [
+   "The team trains on Tuesdays.",
+   "We train in the school garden.",
+   "Our football team trains very hard."
+  ],
+  "g6u10-extra-g6u10-g6u10q5": [
+   "It begins in the sports hall.",
+   "It begins with a whistle.",
+   "It begins with twelve players."
+  ],
+  "g6u10-extra-g6u10-g6u10q7": [
+   "The players are very fast.",
+   "The players wear red shirts.",
+   "This team has good players."
+  ],
+  "g6u10-extra-g6u10-g6u10q8": [
+   "My brother is twelve.",
+   "My brother plays football.",
+   "My brother has got a new bike."
+  ],
+  "g7u1-upload-g7u1q3": [
+   "They enjoy staying alone at home.",
+   "They enjoy being quiet all day.",
+   "They enjoy reading alone in their room."
+  ],
+  "g7u1-upload-g7u1q5": [
+   "Appearance is the way someone thinks.",
+   "Appearance is the way someone talks.",
+   "Appearance is the time someone arrives."
+  ],
+  "g7u1-upload-g7u1q6": [
+   "Personality describes how a person looks.",
+   "Personality describes how tall a person is.",
+   "Personality describes where a person lives."
+  ],
+  "g7u1-extra-g7u1-g7u1q3": [
+   "Ece and Deniz are taller than me.",
+   "Ece is taller than me, and so is Deniz.",
+   "Ece and Deniz are best friends."
+  ],
+  "g7u1-extra-g7u1-g7u1q5": [
+   "She has got sisters and brothers.",
+   "Her sisters have got long hair.",
+   "My friend has got kind sisters."
+  ],
+  "g7u1-extra-g7u1-g7u1q6": [
+   "The pupil wears round glasses in class.",
+   "Round glasses are popular this year.",
+   "Yes, a pupil in my class wears round glasses."
+  ],
+  "g7u1-extra-g7u1-g7u1q7": [
+   "The portrait is on the wall.",
+   "It is a big portrait.",
+   "The portrait is very old."
+  ],
+  "g7u1-extra-g7u1-g7u1q8": [
+   "Her eyes are big and round.",
+   "Her eyes are tired today.",
+   "She closes her eyes at night."
+  ],
+  "g7u2-upload-g7u2q1": [
+   "Athletes warm up before a race.",
+   "Athletes warm up in the gym.",
+   "Athletes warm up with their coach."
+  ],
+  "g7u2-upload-g7u2q2": [
+   "Swimming goggles protect your knees.",
+   "A helmet protects your knees.",
+   "Gloves protect your knees."
+  ],
+  "g7u2-upload-g7u2q3": [
+   "Training is hard every week.",
+   "It is on Monday this week.",
+   "It is in the gym each week."
+  ],
+  "g7u2-upload-g7u2q5": [
+   "A coach sells the tickets.",
+   "A coach watches TV at home.",
+   "A coach plays for the other team."
+  ],
+  "g7u2-upload-g7u2q8": [
+   "A teammate is someone on the other team.",
+   "A teammate is someone who watches the match.",
+   "A teammate is someone who sells tickets."
+  ],
+  "g7u2-upload-g7u2q9": [
+   "Playing is the opposite.",
+   "Scoring is the opposite.",
+   "Training is the opposite."
+  ],
+  "g7u2-extra-g7u2-g7u2q1": [
+   "We train in the school gym.",
+   "We train with our coach.",
+   "We train because we have a match."
+  ],
+  "g7u2-extra-g7u2-g7u2q2": [
+   "Football uses a racket and a net.",
+   "Swimming uses a racket and a net.",
+   "Basketball uses a racket and a net."
+  ],
+  "g7u2-extra-g7u2-g7u2q3": [
+   "The goalkeeper checks them.",
+   "The fans check them.",
+   "The players check the score."
+  ],
+  "g7u2-extra-g7u2-g7u2q7": [
+   "Our team has good players.",
+   "Our team has players from three schools.",
+   "Our team players train every day."
+  ],
+  "g7u2-extra-g7u2-g7u2q9": [
+   "The medal is on the wall.",
+   "My sister likes medals.",
+   "A medal is made of metal."
+  ],
+  "g7u3-ext26-g7u3-q3": [
+   "Birthplace is the day someone retired.",
+   "Birthplace is a person's job.",
+   "Birthplace is the place where someone works."
+  ],
+  "g7u3-ext26-g7u3-q9": [
+   "A person's career is their birthplace.",
+   "A person's career is their favourite meal.",
+   "A person's career is their family name."
+  ],
+  "g7u3-upload-g7u3q1": [
+   "It is about a new invention.",
+   "It is about the weather.",
+   "It is about a football match."
+  ],
+  "g7u3-upload-g7u3q2": [
+   "It puts books in order on a shelf.",
+   "It puts people in order of height.",
+   "It puts colours in order."
+  ],
+  "g7u3-upload-g7u3q4": [
+   "It means to start primary school.",
+   "It means to stop working in later life.",
+   "It means to get a new job."
+  ],
+  "g7u3-upload-g7u3q5": [
+   "An invention is something old that someone finds.",
+   "An invention is a prize for a winner.",
+   "An invention is a book about a person's life."
+  ],
+  "g7u3-upload-g7u3q6": [
+   "An award is given on a stage.",
+   "An award is given by a famous person.",
+   "An award is given at the end of the year."
+  ],
+  "g7u3-upload-g7u3q8": [
+   "It means to start working in a new job.",
+   "It means to go to bed early.",
+   "It means to work harder."
+  ],
+  "g7u3-extra-g7u3-g7u3q1": [
+   "She was born in Izmir.",
+   "She was born into a big family.",
+   "She was born in a small hospital."
+  ],
+  "g7u3-extra-g7u3-g7u3q3": [
+   "Selin taught her friends to paint.",
+   "Selin learned to paint when she was six.",
+   "Selin paints flowers and trees."
+  ],
+  "g7u3-extra-g7u3-g7u3q4": [
+   "She invented it in 2010.",
+   "She invented it to help farmers.",
+   "She invented it with her team."
+  ],
+  "g7u3-extra-g7u3-g7u3q5": [
+   "He wrote books about animals.",
+   "He wrote books for children.",
+   "He wrote his books at night."
+  ],
+  "g7u3-extra-g7u3-g7u3q7": [
+   "The scientist won it last year.",
+   "The scientist was very happy.",
+   "The scientist won it for her invention."
+  ],
+  "g7u3-extra-g7u3-g7u3q8": [
+   "He went to school at eight.",
+   "He went to school with his sister.",
+   "Efe's school is near the park."
+  ],
+  "g7u3-extra-g7u3-g7u3q9": [
+   "The teacher is fifty years old.",
+   "Last year the teacher taught maths.",
+   "The teacher has got two children."
+  ],
+  "g7u4-ext26-g7u4-q3": [
+   "It means that a species lives in every habitat.",
+   "It means that a species is no longer living anywhere.",
+   "It means that a species is very common."
+  ],
+  "g7u4-ext26-g7u4-q4": [
+   "It means that a species is at risk but still alive.",
+   "It means that a species is common everywhere.",
+   "It means that a species lives in the sea."
+  ],
+  "g7u4-upload-g7u4q2": [
+   "An animal's habitat is its favourite food.",
+   "An animal's habitat is its thick fur.",
+   "An animal's habitat is its family."
+  ],
+  "g7u4-upload-g7u4q5": [
+   "It uses its strong legs.",
+   "It uses its sharp eyes.",
+   "It uses its hard shell."
+  ],
+  "g7u4-upload-g7u4q6": [
+   "Feathers cover its body.",
+   "A hard shell covers its body.",
+   "Scales cover its body."
+  ],
+  "g7u4-upload-g7u4q7": [
+   "It uses its tail.",
+   "It uses its ears.",
+   "It uses its strong wings."
+  ],
+  "g7u4-upload-g7u4q8": [
+   "Its long neck protects it.",
+   "Its thick fur protects it.",
+   "Its strong wings protect it."
+  ],
+  "g7u4-extra-g7u4-g7u4q1": [
+   "They live for about twenty-five years.",
+   "They live alone.",
+   "They live in the desert."
+  ],
+  "g7u4-extra-g7u4-g7u4q4": [
+   "A giraffe has a trunk.",
+   "A bear has a trunk.",
+   "A tree has a trunk."
+  ],
+  "g7u4-extra-g7u4-g7u4q5": [
+   "It has got strong wings.",
+   "It has got wings and feathers.",
+   "Its wings have got brown feathers."
+  ],
+  "g7u4-extra-g7u4-g7u4q6": [
+   "The park needs help in summer.",
+   "The park helps animals and birds.",
+   "Nature parks help to protect animals."
+  ],
+  "g7u4-extra-g7u4-g7u4q7": [
+   "They look for food in the forest.",
+   "They look for food with their big eyes.",
+   "They look for food alone."
+  ],
+  "g7u4-extra-g7u4-g7u4q8": [
+   "We should leave it on the beach.",
+   "We should throw it in the river.",
+   "We should drop litter in the park."
+  ],
+  "g7u5-upload-g7u5q1": [
+   "A cartoon reports current events.",
+   "A quiz show reports current events.",
+   "A cooking show reports current events."
+  ],
+  "g7u5-upload-g7u5q2": [
+   "Children love animated pictures.",
+   "Animated pictures move on the screen.",
+   "A radio programme uses them."
+  ],
+  "g7u5-upload-g7u5q3": [
+   "The viewer introduces it.",
+   "The camera introduces it.",
+   "The remote control introduces it."
+  ],
+  "g7u5-upload-g7u5q7": [
+   "The weather report tests it.",
+   "A cartoon tests it.",
+   "The news tests it."
+  ],
+  "g7u5-upload-g7u5q8": [
+   "People watch documentaries in the evening.",
+   "People watch documentaries with their families.",
+   "People watch documentaries on Channel Four."
+  ],
+  "g7u5-upload-g7u5q9": [
+   "That person is a presenter.",
+   "That person is a reporter.",
+   "That person is an actor."
+  ],
+  "g7u5-extra-g7u5-g7u5q1": [
+   "I prefer to watch it at night.",
+   "I prefer it because it is funny.",
+   "I prefer to watch it with my dad."
+  ],
+  "g7u5-extra-g7u5-g7u5q2": [
+   "It starts with the weather.",
+   "It starts on Channel Four.",
+   "It starts with a song."
+  ],
+  "g7u5-extra-g7u5-g7u5q3": [
+   "The channel is very popular.",
+   "The school quiz is on Fridays.",
+   "My favourite channel shows films."
+  ],
+  "g7u5-extra-g7u5-g7u5q4": [
+   "I watch them with my brother.",
+   "I watch them on my tablet.",
+   "I watch them because they are funny."
+  ],
+  "g7u5-extra-g7u5-g7u5q5": [
+   "It presents school news.",
+   "The school talk show presents famous guests.",
+   "It presents interviews on Fridays."
+  ],
+  "g7u5-extra-g7u5-g7u5q8": [
+   "The episodes are very exciting.",
+   "The episodes are on Saturday.",
+   "I watch the episodes with my friends."
+  ],
+  "g7u5-extra-g7u5-g7u5q9": [
+   "The weather is sunny now.",
+   "I like the weather report.",
+   "Weather reports use maps."
+  ],
+  "g7u6-upload-g7u6q1": [
+   "I send a parcel.",
+   "I send it by post.",
+   "I send it to my friends."
+  ],
+  "g7u6-upload-g7u6q3": [
+   "It contains the party food.",
+   "It contains the music.",
+   "It contains the presents."
+  ],
+  "g7u6-upload-g7u6q5": [
+   "It means much more than we need.",
+   "It means a very small amount of food.",
+   "It means not at all, or none."
+  ],
+  "g7u6-upload-g7u6q6": [
+   "We organise a party every year.",
+   "Who will organise the party?",
+   "Did you organise the party?"
+  ],
+  "g7u6-upload-g7u6q7": [
+   "Sorry, I can't come to your party.",
+   "Would you like to come to my party?",
+   "The party invitation is on the table."
+  ],
+  "g7u6-upload-g7u6q9": [
+   "It is called a balloon.",
+   "It is called an invitation.",
+   "It is called a candle."
+  ],
+  "g7u6-extra-g7u6-g7u6q2": [
+   "The guests are coming at five.",
+   "Our guests are coming by bus.",
+   "My cousins are coming as guests."
+  ],
+  "g7u6-extra-g7u6-g7u6q4": [
+   "It is making me hungry.",
+   "The birthday cake has ten candles.",
+   "The cake is in the oven."
+  ],
+  "g7u6-extra-g7u6-g7u6q5": [
+   "We need two hours.",
+   "We need help from our friends.",
+   "We need to finish before six."
+  ],
+  "g7u6-extra-g7u6-g7u6q7": [
+   "I am bringing it in a box.",
+   "I am bringing my little brother.",
+   "I am bringing it at five."
+  ],
+  "g7u6-extra-g7u6-g7u6q8": [
+   "A slice of cake is two lira.",
+   "I would like to make a cake.",
+   "The cake has five slices."
+  ],
+  "g7u6-extra-g7u6-g7u6q9": [
+   "We need it for the cake.",
+   "We need cold milk.",
+   "We need it at four o'clock."
+  ],
+  "g7u7-upload-g7u7q1": [
+   "A goal is something you want to forget.",
+   "A goal is something you buy at a shop.",
+   "A goal is something you eat for lunch."
+  ],
+  "g7u7-upload-g7u7q2": [
+   "It is about a past event.",
+   "It is about a person's life.",
+   "It is about the size of a building."
+  ],
+  "g7u7-upload-g7u7q4": [
+   "People practise a new skill every day.",
+   "People practise a new skill with a teacher.",
+   "People practise a new skill at home."
+  ],
+  "g7u7-upload-g7u7q6": [
+   "An ambition is a type of robot.",
+   "An ambition is a strong wind.",
+   "An ambition is a building for sports."
+  ],
+  "g7u7-upload-g7u7q8": [
+   "I hope my cat sees a vet.",
+   "My vet hopes I will be fine.",
+   "Did you hope to be a vet?"
+  ],
+  "g7u7-upload-g7u7q9": [
+   "A robot is designed to feel sad and lonely.",
+   "A robot is designed in a factory by a team.",
+   "A robot is designed by engineers at a university."
+  ],
+  "g7u7-extra-g7u7-g7u7q1": [
+   "I would like to do it in Ankara.",
+   "I would like it because it is exciting.",
+   "I would like to travel in the future."
+  ],
+  "g7u7-extra-g7u7-g7u7q6": [
+   "My goals are very big.",
+   "My first goal is to learn Spanish.",
+   "I write my goals in a notebook."
+  ],
+  "g7u7-extra-g7u7-g7u7q7": [
+   "I want to improve it this year.",
+   "I want to improve it with my teacher.",
+   "I want to improve it because it is useful."
+  ],
+  "g7u7-extra-g7u7-g7u7q8": [
+   "It will power it at the science fair.",
+   "My model car will be red.",
+   "The power will make it fast."
+  ],
+  "g7u8-ext26-g7u8-q1": [
+   "You can send a parcel at the bakery.",
+   "You can send a parcel on Monday.",
+   "You can send a parcel to your aunt."
+  ],
+  "g7u8-ext26-g7u8-q7": [
+   "You can buy medicine at the museum.",
+   "You can buy medicine at the bank.",
+   "You can buy medicine in the morning."
+  ],
+  "g7u8-ext26-g7u8-q8": [
+   "Its ticket prices show when it is open.",
+   "Its street name shows when it is open.",
+   "Its roof shows when it is open."
+  ],
+  "g7u8-upload-g7u8q2": [
+   "You can borrow books at the bank.",
+   "You can borrow books for two weeks.",
+   "You can borrow books with a library card."
+  ],
+  "g7u8-upload-g7u8q3": [
+   "You can buy fresh loaves at the pharmacy.",
+   "You can buy fresh loaves every morning.",
+   "You can buy fresh loaves for two lira."
+  ],
+  "g7u8-upload-g7u8q4": [
+   "People see historic objects at the post office.",
+   "People see historic objects with a guide.",
+   "People see historic objects on school trips."
+  ],
+  "g7u8-upload-g7u8q5": [
+   "People can get medical care at the fire station.",
+   "People can get medical care from doctors.",
+   "People can get medical care day and night."
+  ],
+  "g7u8-upload-g7u8q6": [
+   "You can pay bills from an account at the bakery.",
+   "You can pay bills from an account every month.",
+   "You can pay bills from an account at the museum."
+  ],
+  "g7u8-upload-g7u8q9": [
+   "It means on the same side of the road.",
+   "It means next to the road.",
+   "It means at the end of the road."
+  ],
+  "g7u8-extra-g7u8-g7u8q3": [
+   "The pharmacy helps me feel better.",
+   "It helps me when I am ill.",
+   "The mechanic helps me."
+  ],
+  "g7u8-extra-g7u8-g7u8q4": [
+   "It opens with a short film.",
+   "It opens its doors to children.",
+   "It opens a new exhibition."
+  ],
+  "g7u8-extra-g7u8-g7u8q5": [
+   "I need stamps for my letters.",
+   "I need stamps from the post office.",
+   "I need big stamps."
+  ],
+  "g7u8-extra-g7u8-g7u8q6": [
+   "I buy medicine at the bakery.",
+   "I buy stamps at the bakery.",
+   "I buy it in the morning."
+  ],
+  "g7u8-extra-g7u8-g7u8q7": [
+   "The fire engine is red.",
+   "The library has a fire engine.",
+   "The hospital has a fire engine."
+  ],
+  "g7u9-ext26-g7u9-q1": [
+   "We should turn off unused lights at night.",
+   "We should turn off unused lights to waste electricity.",
+   "We should turn off unused lights in every room."
+  ],
+  "g7u9-ext26-g7u9-q3": [
+   "It means designed for many uses.",
+   "It means made to last forever.",
+   "It means designed to be repaired."
+  ],
+  "g7u9-ext26-g7u9-q4": [
+   "A landfill is a forest with no rubbish.",
+   "A landfill is a bottle reuse station.",
+   "A landfill is a place where food is cooked."
+  ],
+  "g7u9-upload-g7u9q5": [
+   "A reusable bag can replace a glass bottle.",
+   "A reusable bag can replace a solar panel.",
+   "A reusable bag can replace a bicycle."
+  ],
+  "g7u9-upload-g7u9q6": [
+   "We should repair broken items with tools from the garage at home.",
+   "We should repair broken items on Saturday mornings with our parents.",
+   "We should repair broken items in the school workshop after lessons."
+  ],
+  "g7u9-upload-g7u9q7": [
+   "It means to drink water every hour.",
+   "It means to buy water in plastic bottles.",
+   "It means to leave the water running."
+  ],
+  "g7u9-upload-g7u9q8": [
+   "An environmental campaign is a holiday in the mountains.",
+   "An environmental campaign is a shop that sells plastic.",
+   "An environmental campaign is a football match."
+  ],
+  "g7u9-upload-g7u9q9": [
+   "Old glass bottles should go in the sea.",
+   "Old glass bottles should go in the paper recycling bin.",
+   "Old glass bottles should go with the food waste."
+  ],
+  "g7u9d1-guest": [
+   "The word is “solar panel”.",
+   "The word is “wind”.",
+   "The word is “electricity”."
+  ],
+  "g7u9-extra-g7u9-g7u9q6": [
+   "I have got reusable bags in the car.",
+   "I have got reusable bags from the market.",
+   "My reusable bags have got flowers on them."
+  ],
+  "g7u9-extra-g7u9-g7u9q7": [
+   "Wind energy does.",
+   "Water energy does.",
+   "Energy from the sun is free."
+  ],
+  "g7u9-extra-g7u9-g7u9q9": [
+   "The park is clean and green.",
+   "We must leave the park at six.",
+   "The park must close at night."
+  ],
+  "g7u10-upload-g7u10q3": [
+   "Earth is called the Red Planet.",
+   "Jupiter is called the Red Planet.",
+   "The Moon is called the Red Planet."
+  ],
+  "g7u10-upload-g7u10q4": [
+   "The Sun is Earth's satellite.",
+   "Mars is Earth's satellite.",
+   "A comet is Earth's satellite."
+  ],
+  "g7u10-upload-g7u10q5": [
+   "A telescope helps us observe at night.",
+   "A telescope helps us observe from a hill.",
+   "A telescope helps us observe small insects on the ground."
+  ],
+  "g7u10-upload-g7u10q9": [
+   "A rocky planet has rings of gas.",
+   "A rocky planet has no surface.",
+   "A rocky planet has a surface made of water."
+  ],
+  "g7u10-extra-g7u10-g7u10q1": [
+   "Planets orbit the Sun very slowly.",
+   "The planets orbit the Sun at different speeds.",
+   "Planets orbit the Sun because of gravity."
+  ],
+  "g7u10-extra-g7u10-g7u10q2": [
+   "Mars is the closest.",
+   "Neptune is the closest.",
+   "The Moon is the closest to Earth."
+  ],
+  "g7u10-extra-g7u10-g7u10q4": [
+   "A microscope helps us.",
+   "A map helps us.",
+   "A calculator helps us."
+  ],
+  "g7u11-extra-g7u11-g7u11q1": [
+   "I use a frying pan.",
+   "I use it every Sunday.",
+   "I use a cup."
+  ],
+  "g7u11-extra-g7u11-g7u11q2": [
+   "First, eat the vegetables.",
+   "The first step is easy.",
+   "The recipe has five steps."
+  ],
+  "g7u11-extra-g7u11-g7u11q3": [
+   "We need fresh eggs.",
+   "We need eggs for the cake.",
+   "We need the eggs now."
+  ],
+  "g7u11-extra-g7u11-g7u11q4": [
+   "The rice is hot.",
+   "Rice is in the cupboard.",
+   "The bowl of rice is on the table."
+  ],
+  "g7u11-extra-g7u11-g7u11q6": [
+   "I make it every winter.",
+   "I taught my brother to make it.",
+   "This soup has tomatoes in it."
+  ],
+  "g7u11-extra-g7u11-g7u11q9": [
+   "Fried potatoes are less healthy than baked ones.",
+   "My mum prefers baked potatoes.",
+   "Potatoes are baked in the oven."
+  ],
+  "g7u12-extra-g7u12-g7u12q2": [
+   "We are going there at nine.",
+   "We are going to the airport with Dad.",
+   "We are going because our flight is at noon."
+  ],
+  "g7u12-extra-g7u12-g7u12q4": [
+   "Our train uses a big platform.",
+   "Our train leaves from the platform at nine.",
+   "It uses electricity."
+  ],
+  "g7u12-extra-g7u12-g7u12q5": [
+   "We are staying for a week.",
+   "We are staying in Izmir until Sunday.",
+   "We are staying because we love the sea."
+  ],
+  "g8u1-ext26-g8u1-q7": [
+   "It means to stop all contact.",
+   "It means to forget each other.",
+   "It means to touch something gently."
+  ],
+  "g8u1-upload-g8u1q1": [
+   "Sorry, I can't come to your picnic.",
+   "Would you like to come to my picnic?",
+   "The picnic invitation is on my desk."
+  ],
+  "g8u1-upload-g8u1q6": [
+   "An excuse is a reason for doing something well.",
+   "An excuse is a kind of invitation.",
+   "An excuse is a promise to help."
+  ],
+  "g8u1-upload-g8u1q8": [
+   "I made a poster yesterday.",
+   "The poster is on the wall.",
+   "Do you like my poster?"
+  ],
+  "g8u1-upload-g8u1q9": [
+   "An invitation should include a present.",
+   "An invitation should include a cake.",
+   "An invitation should include your password."
+  ],
+  "g8u1-extra-g8u1-g8u1q5": [
+   "The board game is in my bag.",
+   "Bringing a board game is a good idea.",
+   "The board game is new."
+  ],
+  "g8u1-extra-g8u1-g8u1q6": [
+   "My friends are coming at four.",
+   "Friends are coming by bike.",
+   "Our friends from school are coming."
+  ],
+  "g8u1-extra-g8u1-g8u1q8": [
+   "She suggests it every weekend.",
+   "Ece suggests it because it is fun.",
+   "Ece's activity starts at four."
+  ],
+  "g8u2-ext26-g8u2-q3": [
+   "It means every day.",
+   "It means all the time.",
+   "It means very quickly."
+  ],
+  "g8u2-ext26-g8u12-q7": [
+   "It is called a throat sweet.",
+   "It is called a healthy throat.",
+   "It is called a headache."
+  ],
+  "g8u2-upload-g8u2q1": [
+   "A playlist is a long written story.",
+   "A playlist is a list of school rules.",
+   "A playlist is a game for two players."
+  ],
+  "g8u2-upload-g8u2q2": [
+   "A podcast is a printed newspaper.",
+   "A podcast is a long written story.",
+   "A podcast is a kind of musical instrument."
+  ],
+  "g8u2-upload-g8u2q4": [
+   "A novel is a short song.",
+   "A novel is an audio programme.",
+   "A novel is a list of songs."
+  ],
+  "g8u2-upload-g8u2q6": [
+   "It means very easy to accept.",
+   "It means very nice and friendly.",
+   "It means very heavy to carry."
+  ],
+  "g8u2-upload-g8u2q8": [
+   "It means to like everything the same.",
+   "It means to dislike everything.",
+   "It means to buy two things."
+  ],
+  "g8u2-extra-g8u2-g8u2q2": [
+   "I listen to them on the bus.",
+   "I listen to them with headphones.",
+   "I listen to them because they are interesting."
+  ],
+  "g8u2-extra-g8u2-g8u2q3": [
+   "I prefer to listen to it at night.",
+   "I prefer it because it is relaxing.",
+   "I prefer listening with my friends."
+  ],
+  "g8u2-extra-g8u2-g8u2q5": [
+   "Skating is my favourite interest.",
+   "I share photos of my skating.",
+   "I go skating on Sundays."
+  ],
+  "g8u2-extra-g8u2-g8u2q8": [
+   "I can play instruments very well.",
+   "I play instruments in the music room.",
+   "I can play instruments for my family."
+  ],
+  "g8u2-extra-g8u2-g8u2q9": [
+   "My sister plays football.",
+   "The drums are in the music room.",
+   "My sister is eleven years old."
+  ],
+  "g8u2-extra-g8u11-g8u11q4": [
+   "Our project group meets on Thursdays.",
+   "Our project group helps the school garden.",
+   "Our group has five members."
+  ],
+  "g8u2-extra-g8u11-g8u11q5": [
+   "The members paint every week.",
+   "The members meet in the art room.",
+   "New members can join in September."
+  ],
+  "g8u2-extra-g8u11-g8u11q6": [
+   "History deals with numbers.",
+   "Art deals with numbers.",
+   "English deals with numbers."
+  ],
+  "g8u2-extra-g8u11-g8u11q7": [
+   "I need a calculator.",
+   "I need a dictionary.",
+   "I need it for my maths homework."
+  ],
+  "g8u2-extra-g8u12-g8u12q1": [
+   "I feel tired after a long day.",
+   "I feel hungry before dinner.",
+   "I feel nervous before a test."
+  ],
+  "g8u2-extra-g8u12-g8u12q3": [
+   "It leads to good health.",
+   "The school fitness club meets after school.",
+   "The fitness club leads a walk every Friday."
+  ],
+  "g8u2-extra-g8u12-g8u12q7": [
+   "The glasses are on the tray.",
+   "The glasses are clean and empty.",
+   "We put glasses on the tray for guests."
+  ],
+  "g8u2-extra-g8u12-g8u12q8": [
+   "A clean towel can cover the table.",
+   "A hat can cover your head.",
+   "A blanket can cover a bed."
+  ],
+  "g8u3-upload-g8u3q3": [
+   "It means to cook food in an oven.",
+   "It means to cut food into small pieces.",
+   "It means to add salt to food."
+  ],
+  "g8u3-upload-g8u3q4": [
+   "It means to cook in a hot oven.",
+   "It means to cut into small pieces.",
+   "It means to keep food cold."
+  ],
+  "g8u3-upload-g8u3q5": [
+   "A recipe tells you the price of the food.",
+   "A recipe tells you the opening hours.",
+   "A recipe tells you the weather."
+  ],
+  "g8u3-upload-g8u3q6": [
+   "A ruler measures that much.",
+   "A thermometer measures that much.",
+   "A clock measures that much."
+  ],
+  "g8u3-upload-g8u3q7": [
+   "You should eat the food before cooking.",
+   "You should go to bed before cooking.",
+   "You should taste the cake before cooking."
+  ],
+  "g8u3-upload-g8u3q8": [
+   "I bake a cake in a fridge.",
+   "I bake a cake on Sundays.",
+   "I bake a cake for my sister."
+  ],
+  "g8u3-extra-g8u3-g8u3q1": [
+   "The first step is easy.",
+   "This recipe has six steps.",
+   "First, eat the potatoes."
+  ],
+  "g8u3-extra-g8u3-g8u3q2": [
+   "I use a whisk.",
+   "I use a spoon.",
+   "I use cheese in my sandwich."
+  ],
+  "g8u3-extra-g8u3-g8u3q3": [
+   "The eggs are in the fridge.",
+   "The mixture has eggs and flour.",
+   "Eggs make the mixture soft."
+  ],
+  "g8u3-extra-g8u3-g8u3q4": [
+   "We need it for the cake.",
+   "We need white flour.",
+   "We need it before we add the eggs."
+  ],
+  "g8u3-extra-g8u3-g8u3q6": [
+   "This pasta recipe is easy.",
+   "I taught my sister this recipe.",
+   "The recipe has tomatoes and cheese."
+  ],
+  "g8u3-extra-g8u3-g8u3q9": [
+   "My brother prefers salty snacks.",
+   "Sweet snacks are bad for your teeth.",
+   "Sweet and salty snacks are in the cupboard."
+  ],
+  "g8u4-ext26-g8u4-q2": [
+   "It means to end the call.",
+   "It means to dial a new number.",
+   "It means to hold the phone in your hand."
+  ],
+  "g8u4-upload-g8u4q1": [
+   "Elif is talking to her friend.",
+   "Elif, can you call me later?",
+   "Is this Elif's phone number?"
+  ],
+  "g8u4-upload-g8u4q3": [
+   "Could you leave the room, please?",
+   "I leave school at four.",
+   "Please leave your shoes here."
+  ],
+  "g8u4-upload-g8u4q7": [
+   "I can spell my name.",
+   "Spelling is easy for me.",
+   "Did you spell it right?"
+  ],
+  "g8u4-upload-g8u4q8": [
+   "You should shout and end the call.",
+   "You should call the number again and again.",
+   "You should give your address."
+  ],
+  "g8u4d3-guest": [
+   "The word is “phone call”.",
+   "The word is “call off”.",
+   "The word is “answer”."
+  ],
+  "g8u4-extra-g8u4-g8u4q5": [
+   "You spell it with a pen.",
+   "You spell it very slowly.",
+   "You spell it in English and Turkish."
+  ],
+  "g8u4-extra-g8u4-g8u4q9": [
+   "It received calls from parents.",
+   "The office calls parents every day.",
+   "The calls were about swimming lessons."
+  ],
+  "g8u5-ext26-g8u5-q3": [
+   "An attachment is an account name.",
+   "An attachment is a secret password.",
+   "An attachment is a broken computer."
+  ],
+  "g8u5-ext26-g8u5-q4": [
+   "It means connected to the internet.",
+   "It means sharing every file.",
+   "It means very fast internet."
+  ],
+  "g8u5-ext26-g8u5-q7": [
+   "A username is the secret account password.",
+   "A username is a file sent with a message.",
+   "A username is a computer's price."
+  ],
+  "g8u5-upload-g8u5q1": [
+   "You should keep your favourite colour private.",
+   "You should keep your private details on a poster.",
+   "You should keep everything public, not private."
+  ],
+  "g8u5-upload-g8u5q2": [
+   "It opens the front door.",
+   "It opens tins of food.",
+   "It opens at nine o'clock."
+  ],
+  "g8u5-upload-g8u5q5": [
+   "It means to start your account session.",
+   "It means to buy a new computer.",
+   "It means to share your password."
+  ],
+  "g8u5-upload-g8u5q6": [
+   "You can check it every morning.",
+   "You can check your email online.",
+   "You can check the time on your phone."
+  ],
+  "g8u5-upload-g8u5q8": [
+   "You should ask your friends for photos.",
+   "You should ask after you share them.",
+   "You should ask for more likes."
+  ],
+  "g8u5-upload-g8u5q9": [
+   "It deletes the file forever.",
+   "It prints the file on paper.",
+   "It hides the file from everyone."
+  ],
+  "g8u5-extra-g8u5-g8u5q5": [
+   "They are downloaded every day.",
+   "They are big files.",
+   "My files are from the internet."
+  ],
+  "g8u5-extra-g8u5-g8u5q7": [
+   "Our devices use it every day.",
+   "Devices use it to connect to the internet.",
+   "New devices use it quickly."
+  ],
+  "g8u5-extra-g8u5-g8u5q8": [
+   "The button is on the right.",
+   "I send my reply in the evening.",
+   "The delete button sends nothing."
+  ],
+  "g8u5-extra-g8u5-g8u5q9": [
+   "Yes, I should share it with everyone.",
+   "I should change my password.",
+   "My password should be long."
+  ],
+  "g8u6-upload-g8u6q1": [
+   "Climbing gloves protect it.",
+   "A climbing rope protects it.",
+   "Climbing shoes protect it."
+  ],
+  "g8u6-upload-g8u6q6": [
+   "You should check your phone games.",
+   "You should check the TV programmes.",
+   "You should check it after the trip."
+  ],
+  "g8u6-upload-g8u6q7": [
+   "It means easy and not testing your skills.",
+   "It means quick, cheap and very simple.",
+   "It means boring, slow and not interesting."
+  ],
+  "g8u6d2-guest": [
+   "The word is “surfing”.",
+   "The word is “guide”.",
+   "The word is “caves”."
+  ],
+  "g8u6-extra-g8u6-g8u6q1": [
+   "My sister would rather go rafting.",
+   "Rafting and hiking are both fun.",
+   "Hiking would be better than rafting for my brother."
+  ],
+  "g8u6-extra-g8u6-g8u6q3": [
+   "The climbing equipment is new.",
+   "We check the weather before climbing.",
+   "Climbing equipment is expensive."
+  ],
+  "g8u6-extra-g8u6-g8u6q5": [
+   "It starts at the cave entrance.",
+   "It starts with a safety talk.",
+   "It starts with twenty people."
+  ],
+  "g8u6-extra-g8u6-g8u6q7": [
+   "We need life jackets for rafting.",
+   "We need life jackets to stay safe.",
+   "We need new life jackets."
+  ],
+  "g8u6-extra-g8u6-g8u6q9": [
+   "Climbing is fun with friends.",
+   "A short walk is good after lunch.",
+   "I go climbing on Saturdays."
+  ],
+  "g8u7-ext26-g8u7-q1": [
+   "A destination is the bag you carry.",
+   "A destination is the money you spend.",
+   "A destination is the place you are travelling from."
+  ],
+  "g8u7-upload-g8u7q2": [
+   "Accommodation is a place to eat on a trip.",
+   "Accommodation is the food on a trip.",
+   "Accommodation is a ticket for a train."
+  ],
+  "g8u7-upload-g8u7q3": [
+   "A travel brochure provides free food.",
+   "A travel brochure provides a hotel room.",
+   "A travel brochure provides plane tickets."
+  ],
+  "g8u7-upload-g8u7q6": [
+   "You can see historic objects in a supermarket.",
+   "You can see historic objects with a guide.",
+   "You can see historic objects on Sundays."
+  ],
+  "g8u7-upload-g8u7q7": [
+   "It is called the desert.",
+   "It is called the forest.",
+   "It is called the valley."
+  ],
+  "g8u7-upload-g8u7q8": [
+   "A guesthouse is a large airport.",
+   "A guesthouse is a place to buy souvenirs.",
+   "A guesthouse is a travel brochure."
+  ],
+  "g8u7-extra-g8u7-g8u7q1": [
+   "Konya and Izmir are big cities.",
+   "We will visit Konya next year.",
+   "Izmir is near the sea, and Konya is not."
+  ],
+  "g8u7-extra-g8u7-g8u7q3": [
+   "We walked around the old town.",
+   "The old town has narrow streets.",
+   "The old town showed us its history."
+  ],
+  "g8u7-extra-g8u7-g8u7q5": [
+   "I booked it online.",
+   "I booked it for three nights.",
+   "I booked a room with a sea view."
+  ],
+  "g8u7-extra-g8u7-g8u7q8": [
+   "We stayed in a hotel at night.",
+   "We stayed up late every night.",
+   "We stayed near the sea, so the nights were cool."
+  ],
+  "g8u8-ext26-g8u8-q3": [
+   "It means to set out plates.",
+   "It means to water the plants.",
+   "It means to buy new clothes."
+  ],
+  "g8u8-upload-g8u8q2": [
+   "I wash it every Saturday.",
+   "I wash it with my brother.",
+   "I wash it with a fork."
+  ],
+  "g8u8-upload-g8u8q4": [
+   "It means to clean the table after dinner.",
+   "It means to buy a new table.",
+   "It means to sit at the table."
+  ],
+  "g8u8-upload-g8u8q6": [
+   "It means that something is necessary and very important.",
+   "It means that something is not allowed at all.",
+   "It means that something is easy and very quick."
+  ],
+  "g8u8-upload-g8u8q7": [
+   "Families should share chores every weekend.",
+   "Families should share chores on a list.",
+   "Families should share chores with their children."
+  ],
+  "g8u8-extra-g8u8-g8u8q3": [
+   "I use a broom to water them.",
+   "I use a towel to water them.",
+   "I water them every morning."
+  ],
+  "g8u8-extra-g8u8-g8u8q7": [
+   "Put out the plates after dinner.",
+   "Put out plates and glasses.",
+   "Put out the big plates."
+  ],
+  "g8u8-extra-g8u8-g8u8q8": [
+   "My mum washes our clothes.",
+   "A coffee machine washes our clothes.",
+   "The dishwasher does."
+  ],
+  "g8u9-upload-g8u9q3": [
+   "They test it in a laboratory.",
+   "They test it with a microscope.",
+   "They test it every week."
+  ],
+  "g8u9-upload-g8u9q4": [
+   "Evidence is a guess with no information.",
+   "Evidence is a tool for measuring.",
+   "Evidence is a famous scientist."
+  ],
+  "g8u9-upload-g8u9q5": [
+   "I record it in a notebook.",
+   "I record it every five minutes.",
+   "I record my favourite songs."
+  ],
+  "g8u9-upload-g8u9q6": [
+   "It means to find something not known before.",
+   "It means to break something old.",
+   "It means to copy something."
+  ],
+  "g8u9-upload-g8u9q7": [
+   "It means to create something new.",
+   "It means to lose something.",
+   "It means to hide something."
+  ],
+  "g8u9-upload-g8u9q8": [
+   "It is based on a guess.",
+   "It is based on your favourite colour.",
+   "It is based in a laboratory."
+  ],
+  "g8u9-extra-g8u9-g8u9q6": [
+   "We tested the samples in the lab.",
+   "We tested samples from the river.",
+   "We tested samples with a microscope."
+  ],
+  "g8u10-ext26-g8u10-q7": [
+   "A forecast describes yesterday's results.",
+   "A forecast describes a list of supplies.",
+   "A forecast describes a famous person."
+  ],
+  "g8u10-upload-g8u10q4": [
+   "It is called a flood.",
+   "It is called an earthquake.",
+   "It is called a drought."
+  ],
+  "g8u10-upload-g8u10q8": [
+   "We prepare an emergency kit at home in a big box.",
+   "We prepare an emergency kit with our family every year.",
+   "We prepare an emergency kit before winter starts."
+  ],
+  "g8u10-upload-g8u10q9": [
+   "It means to stay at home.",
+   "It means to clean a place.",
+   "It means to build a new house."
+  ],
+  "g8u10-extra-g8u10-g8u10q4": [
+   "The school safety rules are on the wall.",
+   "The rules explain what to do in a fire.",
+   "School safety rules are very important."
+  ],
+  "g8u10-extra-g8u10-g8u10q6": [
+   "The water bottles are in the kit.",
+   "The kit has water and food.",
+   "We need water bottles for the kit."
+  ],
+  "g8u10-extra-g8u10-g8u10q8": [
+   "We can check it in the morning.",
+   "We can check the weather with our friends.",
+   "We can check our emergency kit."
+  ],
+  "g8u10-extra-g8u10-g8u10q9": [
+   "Yes, plants grow well in a long drought.",
+   "Plants grow fast in spring.",
+   "Long droughts are common in summer."
+  ],
+  "g8u11-bistro-chat-3": [
+   "A farmer helps them in a shop.",
+   "A pilot helps them in a shop.",
+   "Customers help each other in a shop."
+  ],
+  "g8u11d2-guest": [
+   "The word is “price list”.",
+   "The word is “number plate”.",
+   "The word is “receipt”."
+  ],
+  "g8u12-bistro-chat-2": [
+   "I should put dirty water in it.",
+   "I should put salt water in it.",
+   "I should put the water bowl in the garden."
+  ],
+  "g8u12d3-guest": [
+   "The word is “pet bed”.",
+   "The word is “pet shop”.",
+   "The word is “vet”."
+  ],
+  "g8u12d4-guest": [
+   "The word is “cat food”.",
+   "The word is “cat toy”.",
+   "The word is “soft toy”."
+  ]
+ }
+}
