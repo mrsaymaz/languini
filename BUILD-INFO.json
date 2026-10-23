@@ -1,8 +1,8 @@
 {
   "name": "Languini",
   "credit": "by Mr. Saymaz",
-  "version": "0.55.0",
-  "basedOnVersion": "0.54.0",
+  "version": "0.56.0",
+  "basedOnVersion": "0.55.0",
   "date": "2026-10-23",
   "units": 44,
   "tasks": 4805,
@@ -12,14 +12,14 @@
   "sortingClassificationCards": 1220,
   "customerProfiles": 24,
   "layeredDishes": 9,
-  "automatedTests": 469,
-  "automatedPassed": 469,
+  "automatedTests": 470,
+  "automatedPassed": 470,
   "automatedFailed": 0,
   "completeServiceCombinations": 264,
   "additionalEventEquipmentServices": 528,
   "totalSimulatedServices": 1200,
-  "baselineAutomatedTests": 465,
-  "newFocusedRegressionTests": 4,
+  "baselineAutomatedTests": 469,
+  "newFocusedRegressionTests": 11,
   "terminalMeasuredStates": 34408,
   "fontAdvanceProfiles": [
     "DejaVu Sans Bold",
@@ -63,7 +63,7 @@
   "phoneLaunch": "Upload ready root files or rebuilt source/dist to a static host.",
   "readyRuntimeManifestFiles": 242,
   "sourceFingerprintFiles": 435,
-  "gameBundleSha256": "8608f64df089e9319b1d42bd54e72c626a74886b27baa18e271b49f235d2b7a2",
+  "gameBundleSha256": "cae30c0e8778adf66ee4bbd0b4415044827f1a288ceb5b184002ed6225efbd33",
   "performance": {
     "type": "CPU scene traversal. Includes hidden meshes and multiplies instanced triangle counts; not renderer calls, GPU memory or FPS.",
     "regularSceneMeshBudget": 320,
@@ -81,7 +81,7 @@
     "lightModeStudioEnvironment": true,
     "regularSceneCountScope": "Initial CPU scene objects/triangles, including hidden objects. Pass meals are created on readiness. Counts are not actual renderer draw calls or FPS.",
     "guidanceSignSourceTextureBytes": 458752,
-    "guidanceSignSourceTextures": "7 \u00d7 256x64 RGBA; GPU/browser overhead unmeasured",
+    "guidanceSignSourceTextures": "7 × 256x64 RGBA; GPU/browser overhead unmeasured",
     "renovatedSceneMeshBudget": 360,
     "milestoneSceneMeshBudget": 360,
     "memoryPhotoAdditionalMeshObjects": 2,
@@ -195,7 +195,7 @@
     "plateAndVoices": "passed: matching white serving ceramic; recognized British male selection, novelty/default exclusion, British speech locale/discovery, stable persona variation and preserved replay gates; actual device voice sound/availability unverified",
     "washingFeedback": "passed: translucent foam outside native cards, rising bubbles, dirt-before-shimmer ordering, finite sheen, static glints for reduced motion and restored completion; actual rendering pending",
     "restaurantCraft": "Bounded scene geometry, oriented guest/menu ray tests, new floor-plan/decor navigation combinations and station cutaways passed. Weather adds 144 line segments with no new dynamic lights or downloaded media.",
-    "languini": "Unchanged restaurant/save IDs and sequential unlocks; increasing venue floor and walkable area, reachable actual station approaches, portrait 60\u00b0/15\u00b0 overview with all anchors on screen.",
+    "languini": "Unchanged restaurant/save IDs and sequential unlocks; increasing venue floor and walkable area, reachable actual station approaches, portrait 60°/15° overview with all anchors on screen.",
     "finalLayout": "Approved back kitchen and entrance counters; clear central aisle in every venue. Station approaches, held/cooking/pass meals, plate stacks and steam use the same plan. Existing work-surface geometry and full-size prep plate retained.",
     "motion": "passed: five targeted regressions for finite camera pose/bounds, actual camera pause/readiness and unchanged simulation, ripple pooling/reduced/disposal, scrub/rinse/restoration and stable washing SVG nodes; startup included in 15-test focused pass",
     "threePhasePreparation": "Three phases retained; five/six-block fixtures cannot complete at the third block. All nine recipes consolidate to canonical final geometry; earlier phase food persists.",
@@ -261,7 +261,7 @@
     "feedMilliseconds": 850,
     "minimumReadingMilliseconds": 400,
     "maximumReadingMilliseconds": 3000,
-    "readingMillisecondsFormula": "clamp(1600 + 190 \u00d7 word count, 2400, 5000) - 2000",
+    "readingMillisecondsFormula": "clamp(1600 + 190 × word count, 2400, 5000) - 2000",
     "collectionButton": false,
     "pauseSpeechReadinessGates": true,
     "readingTimerFreezes": true,
@@ -487,9 +487,9 @@
     "limitedSentencePools": "Exhaust distinct answers, then revisit least recently used sentences",
     "inventoryAndStageRewards": "committed once after the complete group"
   },
-  "lastFullSuiteSeconds": 248.399034981,
-  "fullSuiteDurationSeconds": 248.399034981,
-  "fullSuiteTestCount": 420,
+  "lastFullSuiteSeconds": 272.97,
+  "fullSuiteDurationSeconds": 272.97,
+  "fullSuiteTestCount": 470,
   "ownerGuide": {
     "poses": 6,
     "productionVariants": 11,
@@ -522,7 +522,7 @@
   },
   "automatedEvidenceVersion": "pending",
   "branding": {
-    "direction": "Chef\u2019s Seal",
+    "direction": "Chef’s Seal",
     "fullLogo": true,
     "compactEmblem": true,
     "transparent": true,
@@ -649,8 +649,8 @@
     "renderedCasesVersion": "0.39.0"
   },
   "automatedScope": "54 targeted startup, view, navigation, geometry, story and weather checks passed; 351 other suite checks were not rerun for this visual update.",
-  "fullSuitePassed": 373,
-  "fullSuiteFailed": 2,
+  "fullSuitePassed": 470,
+  "fullSuiteFailed": 0,
   "previousReleaseTestEvidence": {
     "version": "0.39.0",
     "automatedTests": 347,
@@ -988,7 +988,7 @@
   "designWeather": {
     "version": "0.46.0",
     "layoutSaveIDs": {
-      "classic": "Window caf\u00e9",
+      "classic": "Window café",
       "cosy": "Dining clusters",
       "express": "Takeaway first"
     },
@@ -1197,7 +1197,7 @@
     ],
     "browserCases": 10,
     "browserPageErrors": 0,
-    "characterShadowBatchCapacity": "2 \u00d7 venue seats + pickup guests + chef",
+    "characterShadowBatchCapacity": "2 × venue seats + pickup guests + chef",
     "newImageDownloads": 0,
     "newDynamicLights": 0,
     "extractedRuntimePassed": true
@@ -1294,7 +1294,7 @@
     "passed": 465,
     "scope": "See fullRegressionRun for the retained evidence and earlier recovery limitations."
   },
-  "currentVerificationScope": "469 unique regression checks: initial full run 465 passed and four old total-mesh assertions failed after scenery was added. Their checks now keep the original room limit and separately bound exterior/hidden walking meshes. Final 106 affected scene, service, graphics, startup and story checks all pass. Final paired arrivals and terrace material are included in that rerun.",
+  "currentVerificationScope": "470 regression checks pass: the v0.55.0 suite (469/469 before this change) with the ten local-ledger Ulti tests replaced by eleven League tests, and the startup network checks narrowed to League POSTs only (none for a practice copy). Chromium against a local stand-in League: 20 checks covering setup button, dialog, +4 claim, accuracy refusal, offline outbox, too-fast, practice copy, phone preview and 320/390 px layouts. The real League site and real phones were not tested.",
   "openingLayout": {
     "version": "0.54.0",
     "passPlayRemoved": true,
@@ -1306,7 +1306,7 @@
       "Ulti",
       "Team",
       "Lesson and Pace",
-      "Shop and Open caf\u00e9",
+      "Shop and Open café",
       "Design"
     ],
     "minimumTouchTargetCSSpx": 44,
@@ -1325,7 +1325,7 @@
   "neighbourhood": {
     "version": "0.55.0",
     "venues": [
-      "Caf\u00e9",
+      "Café",
       "Diner",
       "Bistro"
     ],
@@ -1360,5 +1360,7 @@
     ],
     "extractedRuntimePassed": true,
     "testedBundleSHA256": "233a2ecb49131c2f5200b03b0714f67c028c1f92a278795923035af67fc814f1"
-  }
+  },
+  "leagueGameId": "languini",
+  "leagueEndpoint": "config.js ultiApi (default https://mrsaymaz.netlify.app/api/ulti)"
 }
