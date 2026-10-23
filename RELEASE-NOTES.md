@@ -1,3 +1,9 @@
+## v0.58.0 · A clearer low-poly overview
+
+During a shift the restaurant now reads as the centre of the scene. The overview uses a stronger sun and a quieter sky light, so the tops, sides and shadows of the low-poly furniture, counters and characters separate; close-ups and the opening film keep their existing lighting. Floor tiles in all three venues sit a step below the cream furniture and pavement, so tables, guests and the chef stand out from the floor. Distant shops fade towards the colour of the day's weather and no longer cast shadows, so on wide screens the restaurant is the sharpest thing on screen.
+
+The large sun now appears only above the setup view; during a shift it covered the kitchen shelves, and the window suns and floor beams already show the morning. Exterior clouds are faceted, lit and float above the trees instead of cutting through crowns and walls. Window sunbeams fade away from the window instead of ending in hard edges. No new lights, textures, downloads or scene objects are added.
+
 ## v0.57.0 · Fairer answers, a food critic and clearer phone screens
 
 **Answers that need reading.** In 429 of the 921 conversation questions, the right reply was the only option that repeated the question's words, so a student could match words instead of reading. Each of those questions now has three new wrong replies that use the same topic words but state a wrong fact or answer a different question (when, where, who, how many, yes/no). Opinion questions only use the second kind, so no wrong reply could also be a true answer. The right replies are unchanged. The new replies are listed in content/reviewed-distractors.json, the build applies them, the curriculum preservation check allows exactly these changes, and a new test fails if any shown set of options gives the answer away again.

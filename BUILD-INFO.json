@@ -1,8 +1,8 @@
 {
   "name": "Languini",
   "credit": "by Mr. Saymaz",
-  "version": "0.57.0",
-  "basedOnVersion": "0.56.0",
+  "version": "0.58.0",
+  "basedOnVersion": "0.57.0",
   "date": "2026-10-23",
   "units": 44,
   "tasks": 4805,
@@ -12,14 +12,14 @@
   "sortingClassificationCards": 1220,
   "customerProfiles": 24,
   "layeredDishes": 9,
-  "automatedTests": 481,
-  "automatedPassed": 481,
+  "automatedTests": 485,
+  "automatedPassed": 485,
   "automatedFailed": 0,
   "completeServiceCombinations": 264,
   "additionalEventEquipmentServices": 528,
   "totalSimulatedServices": 1200,
-  "baselineAutomatedTests": 470,
-  "newFocusedRegressionTests": 11,
+  "baselineAutomatedTests": 481,
+  "newFocusedRegressionTests": 4,
   "terminalMeasuredStates": 34408,
   "fontAdvanceProfiles": [
     "DejaVu Sans Bold",
@@ -63,7 +63,7 @@
   "phoneLaunch": "Upload ready root files or rebuilt source/dist to a static host.",
   "readyRuntimeManifestFiles": 242,
   "sourceFingerprintFiles": 435,
-  "gameBundleSha256": "c91fd618c9a0166f711113455e647cfa3f2f38d8721115fcbe2353ab52d03772",
+  "gameBundleSha256": "8c89458a1fb1ce3eeb8fa666d87a9c846d698fbc7c960778a5051989467301dd",
   "performance": {
     "type": "CPU scene traversal. Includes hidden meshes and multiplies instanced triangle counts; not renderer calls, GPU memory or FPS.",
     "regularSceneMeshBudget": 320,
@@ -487,9 +487,9 @@
     "limitedSentencePools": "Exhaust distinct answers, then revisit least recently used sentences",
     "inventoryAndStageRewards": "committed once after the complete group"
   },
-  "lastFullSuiteSeconds": 269.76,
-  "fullSuiteDurationSeconds": 269.76,
-  "fullSuiteTestCount": 481,
+  "lastFullSuiteSeconds": 266.21,
+  "fullSuiteDurationSeconds": 266.21,
+  "fullSuiteTestCount": 485,
   "ownerGuide": {
     "poses": 6,
     "productionVariants": 11,
@@ -649,7 +649,7 @@
     "renderedCasesVersion": "0.39.0"
   },
   "automatedScope": "54 targeted startup, view, navigation, geometry, story and weather checks passed; 351 other suite checks were not rerun for this visual update.",
-  "fullSuitePassed": 481,
+  "fullSuitePassed": 485,
   "fullSuiteFailed": 0,
   "previousReleaseTestEvidence": {
     "version": "0.39.0",
@@ -1294,7 +1294,7 @@
     "passed": 465,
     "scope": "See fullRegressionRun for the retained evidence and earlier recovery limitations."
   },
-  "currentVerificationScope": "481 regression checks pass. New: no conversation question can be answered by matching question words (every shown option set on both paces), reviewed replies applied and gated, the food critic appears once per normal shift and weights only perfect visits, touch ticket and checkout layouts fit every task on nine phone sizes, and the phone camera follows the chef until the player takes control. Checked in Chromium at 320×480, 393×740, 844×390 and 1366×768. Not verified on real phones or by a teacher review of the new replies.",
+  "currentVerificationScope": "485 regression checks pass, including overview-only lighting, floor values below furniture, exact haze blend on distant shops, the setup-only sun and fading window beams. Compared in Chromium (software WebGL, Detailed graphics) for all three venues at 1366×768 and 393×740 in breakfast light, plus rain and evening. Not verified on real phone GPUs.",
   "openingLayout": {
     "version": "0.54.0",
     "passPlayRemoved": true,
