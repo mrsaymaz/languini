@@ -44,3 +44,5 @@ body{position:fixed;inset:0;overflow:hidden;overflow:clip}#app{position:fixed;in
 #kitchen-hud[data-simple=true] .kitchen-dock button .dock-short{display:none!important}
 #kitchen-hud[data-simple=true] .kitchen-dock button .dock-full{display:flex;min-height:24px;white-space:normal;overflow-wrap:normal;word-break:normal}
 #kitchen-hud[data-simple=true] .kitchen-world-actions [data-primary=true]{border:2px solid #315b42;background:#e8f1d8;box-shadow:0 0 0 3px #f6e1a380,0 3px 8px #294d3433}
+/* Touch screens: the sentence and its answers sit in the lower part of the paper, within thumb reach; the heading stays at the top. */
+#task-card.object-ui [data-page=ticket][data-thumb=true] .ticket-sentence,#task-card.object-ui [data-page=checkout][data-thumb=true] .repair-sentence{margin-top:auto}

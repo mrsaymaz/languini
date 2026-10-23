@@ -122,10 +122,12 @@ function packTokens(tokens,width,gap=5){
   for(const token of tokens){if(x&&x+token.width>width+.01){rows.push(row);y+=row+gap;x=0;row=0;}x+=token.width+gap;row=Math.max(row,token.height);}
   return y+row;
 }
-export function terminalPageLayout({width,height,task,options=[],stage='find',clip=48,measure=estimateText}){
-  if(task.kind==='repair')return checkoutPageLayout({width,height,task,options,stage,measure});
+// Touch screens may grow the text to 24px when the paper has room; desktop keeps 18px at most.
+const TERMINAL_FONTS=[18,17,16,15,14.5],TOUCH_TERMINAL_FONTS=[24,22,20,...TERMINAL_FONTS];
+export function terminalPageLayout({width,height,task,options=[],stage='find',clip=48,touch=false,measure=estimateText}){
+  if(task.kind==='repair')return checkoutPageLayout({width,height,task,options,stage,touch,measure});
   const ticket=task.kind==='completion',gap=5,padding=8,inner=width-padding*2;
-  for(const font of [18,17,16,15,14.5])for(const columns of [options.length,2,1].filter((n,i,a)=>n&&a.indexOf(n)===i)){
+  for(const font of touch?TOUCH_TERMINAL_FONTS:TERMINAL_FONTS)for(const columns of [options.length,2,1].filter((n,i,a)=>n&&a.indexOf(n)===i)){
     const line=font*1.3,tokens=[];
     if(ticket){
       for(const word of task.prompt.replace('___',' ∎ ').trim().split(/\s+/))tokens.push(word==='∎'?{width:Math.min(inner,Math.max(64,measure(stage==='send'?task.answer:'?',font)+20)),height:44}:{width:Math.min(inner,measure(word,font)),height:line});
@@ -145,10 +147,10 @@ export function terminalPageLayout({width,height,task,options=[],stage='find',cl
   return {fits:false,font:14.5,padding:8,gap:5,header:ticket?clip:24,footer:18,columns:2,choiceHeight:44,sentenceHeight:height*.55,used:height+1};
 }
 
-export function checkoutPageLayout({width,height,task,options=[],stage='find',measure=estimateText}){
+export function checkoutPageLayout({width,height,task,options=[],stage='find',touch=false,measure=estimateText}){
  const padding=6,gap=4,inner=width-padding*2,step=checkoutStep({completed:stage==='print',repairErased:stage==='replace',repairFound:stage==='clear'});
  const [left,right]=task.prompt.split('___'),words=[...left.trim().split(/\s+/).filter(Boolean),stage==='replace'?'_____':stage==='print'?task.answer:task.broken,...right.trim().split(/\s+/).filter(Boolean)],selected=left.trim()?left.trim().split(/\s+/).length:0;
- for(const font of [18,17,16,15,14.5])for(const columns of [options.length,2,1].filter((n,i,a)=>n&&a.indexOf(n)===i))for(const chrome of ['full','compact']){
+ for(const font of touch?TOUCH_TERMINAL_FONTS:TERMINAL_FONTS)for(const columns of [options.length,2,1].filter((n,i,a)=>n&&a.indexOf(n)===i))for(const chrome of ['full','compact']){
   const instructionFont=chrome==='compact'?16:stage==='find'?20:18,bannerWidth=inner-48;
   const header=chrome==='compact'?32:Math.ceil(textLines(step.title,bannerWidth,instructionFont,measure).length*instructionFont*1.3+textLines(step.help,bannerWidth,12,measure).length*14.4+12);
   const tokens=words.map((word,i)=>{const interactive=stage==='find'||i===selected,w=Math.min(inner,Math.max(interactive?44:0,measure(word,font)+(interactive?16:0)));return {width:w,height:Math.max(interactive?44:0,textLines(word,w-(interactive?16:0),font,measure).length*font*1.3+(interactive?10:0))};});
