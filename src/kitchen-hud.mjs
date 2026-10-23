@@ -3,6 +3,8 @@ import {MIN_ZOOM,MAX_ZOOM,overviewEvents,edgeMarkers} from './overview-navigatio
 import {ticketStateIcon} from './presentation.mjs';
 import {icon} from './icons.mjs';
 import {RECIPES} from './menu.mjs';
+// Plain names for the carry line: "Table 2" rather than the ticket code.
+const tableName=t=>t?.pickup?'Pickup #'+t.orderId:'Table '+(t.id+1);
 import {cleanKitchenHelp,kitchenAction,kitchenTarget,kitchenTip,orderName,placeKitchenBadge,kitchenWorldActions,shortKitchenLabel,placeWorldBadges,simpleKitchenAction,simpleKitchenLabel,simpleKitchenScreen} from './kitchen-signifiers.mjs';
 const jobToken=id=>id.key==='neutral'?'':'<small class="job-token">'+id.label+'</small>';
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -28,11 +30,11 @@ export class KitchenHUD {
     const help=cleanKitchenHelp(k.help),firstUse=target?.lesson&&(help.mode==='always'||help.mode==='auto'&&!help.seen.includes(target.lesson));
     const tables=game.tables.filter(t=>!['empty','leaving'].includes(t.status));
     const signature=JSON.stringify([this.simple,k.carry?.kind,k.carry?.orderId,game.loaded.map(l=>l.orderId+':'+l.part),k.counter.map(c=>c.kind+':'+c.orderId)])+tables.map(t=>[t.id,t.orderId,t.status,t.step,k.description(t),t.recipe,k.selected===t.id].join(':')).join('|');
-    if(this.signature!==signature){this.signature=signature;this.orders.innerHTML=tables.map(t=>'<button type="button" class="kitchen-ticket" '+identityAttributes(tableIdentity(t))+' data-kitchen="order:'+t.id+'" data-state="'+t.status+'" aria-pressed="'+(k.selected===t.id)+'"><span class="ticket-id"><span class="ticket-identity">'+esc(orderName(t))+'</span><i class="ticket-state">'+icon(kitchenAction(game,'order:'+t.id)?.icon||ticketStateIcon(t.status))+esc(k.description(t))+'</i></span><b>'+esc(t.partySize===2?t.partyRecipes.map(r=>RECIPES[r].name).join(' + '):RECIPES[t.recipe].name)+'</b><small>'+esc(t.name)+' · '+t.step+'/'+t.plan.length+' stations</small></button>').join('');}
+    if(this.signature!==signature){this.signature=signature;this.orders.innerHTML=tables.map(t=>'<button type="button" class="kitchen-ticket" '+identityAttributes(tableIdentity(t))+' data-kitchen="order:'+t.id+'" data-state="'+t.status+'" aria-pressed="'+(k.selected===t.id)+'"><span class="ticket-id"><span class="ticket-identity">'+esc(orderName(t))+'</span><i class="ticket-state">'+icon(kitchenAction(game,'order:'+t.id)?.icon||ticketStateIcon(t.status))+esc(k.description(t))+'</i></span><b>'+esc(t.partySize===2?t.partyRecipes.map(r=>RECIPES[r].name).join(' + '):RECIPES[t.recipe].name)+'</b><small>'+esc(t.name)+' · '+t.step+' of '+t.plan.length+' steps</small></button>').join('');}
     for(const t of tables){const button=this.orders.querySelector('[data-kitchen="order:'+t.id+'"]');if(button){button.style.setProperty('--ticket-progress',String(t.status==='cooking'?1-t.cookLeft/t.cookTotal:t.patience/t.maxPatience));button.dataset.recommended=String(target?.orderId===t.orderId&&!!target.action);button.dataset.firstUse=String(!!firstUse);button.disabled=!!k.busy||!!game.run||this.simple&&!simpleKitchenAction(game,'order:'+t.id)?.available;}}
     const cargo=k.carry,t=cargo?.tableId!=null?game.tables[cargo.tableId]:null;
-    const load=cargo?.kind==='supplies'?'Crate → Pantry':cargo?.kind==='prepared'?'Tray · '+orderName(t)+' → Cook':game.loaded.length?game.loaded.map(l=>orderName(game.tables[l.tableId])).join(' + ')+' → Guest':game.run?'Delivering meals':'Hands free';
-    const state=load+' · '+k.clean+' clean / '+k.dirty+' dirty'+(k.flow>1?' · Flow ×'+k.flow:'');if(this.carry.textContent!==state)this.carry.textContent=state;
+    const load=cargo?.kind==='supplies'?'Carrying a crate to the Pantry':cargo?.kind==='prepared'?'Carrying '+tableName(t)+'’s tray to Cook':game.loaded.length?'Carrying '+game.loaded.map(l=>tableName(game.tables[l.tableId])).join(' + ')+'’s meal':game.run?'Serving meals':'Hands empty';
+    const state=load+' · '+k.clean+' clean plate'+(k.clean===1?'':'s')+' · '+k.dirty+' to wash'+(k.flow>1?' · Flow ×'+k.flow:'');if(this.carry.textContent!==state)this.carry.textContent=state;
     const copy=kitchenTip(game,target);if(this.hint.textContent!==copy)this.hint.textContent=copy;this.hint.dataset.blocked=String(!!k.notice);this.hint.dataset.firstUse=String(!!firstUse);
     const signKey=JSON.stringify([target?.action,target?.label,target?.station,target?.identity,!!firstUse,!!target?.travelling,!!target?.automatic]);
     this.sign.hidden=!target;this.leader.hidden=!target;

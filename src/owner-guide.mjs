@@ -49,7 +49,7 @@ export class OwnerGuide {
   this.original=status.querySelector('small');this.note=document.createElement('small');this.note.className='owner-station-note';this.note.hidden=true;status.append(this.note);
   b.addEventListener('click',()=>{if(this.remaining>0)this.dismiss();else this.show('point',ownerInstruction(a),12,3);});
   const key='station:'+settingForTask(a.task)+':'+(a.task.mode||a.task.kind);
-  if(this.getMode()!=='off'&&(this.getMode()==='always'||!this.seen.has(key))){this.remember(key);this.show('point',typeof innerWidth!=='undefined'&&innerWidth<760?({recipe:'Build a sentence.',conversation:'Choose a reply.',wash:'Connect the words.',delivery:'Match the label.',tablet:'Choose from the menu.',pickup:'Match each pair.'}[settingForTask(a.task)]||'Use the highlighted controls.'):ownerInstruction(a),8,2);}
+  if(this.getMode()!=='off'&&(this.getMode()==='always'||!this.seen.has(key))){this.remember(key);this.show('point',typeof innerWidth!=='undefined'&&innerWidth<760?({recipe:'Build a sentence.',conversation:'Choose a reply.',wash:'Connect the words.',delivery:'Match the label.',tablet:'Choose from the menu.',pickup:'Match each pair.',ticket:'Pick the missing word.',repair:'Find the mistake.'}[settingForTask(a.task)]||'Answer in English.'):ownerInstruction(a),8,2);}
  }
  show(pose,text,seconds=6,priority=1){
   if(!this.button?.isConnected||priority<this.priority&&this.remaining>0)return false;
