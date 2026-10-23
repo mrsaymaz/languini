@@ -1,0 +1,11 @@
+{"width":320,"height":480,"cases":3682,"issues":0}
+{"width":320,"height":568,"cases":3682,"issues":0}
+{"width":360,"height":640,"cases":3682,"issues":0}
+{"width":393,"height":740,"cases":3682,"issues":0}
+{"width":390,"height":844,"cases":3682,"issues":0}
+{"width":430,"height":850,"cases":3682,"issues":0}
+{"width":568,"height":320,"cases":3682,"issues":0}
+{"width":667,"height":375,"cases":3682,"issues":0}
+{"width":844,"height":390,"cases":3682,"issues":0}
+{"width":1024,"height":600,"cases":3682,"issues":0}
+{"width":1366,"height":768,"cases":3682,"issues":0}

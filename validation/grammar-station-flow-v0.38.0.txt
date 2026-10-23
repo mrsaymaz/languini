@@ -1,0 +1,19 @@
+✔ Cafe and Diner wins unlock restaurants sequentially and persist (3.43383ms)
+✔ freshness counts down only the task, changes great/good/late, and never skips an expired English answer (8.820365ms)
+✔ pause, camera/audio readiness and completed readback freeze task clocks, including all three plating phases (4.253426ms)
+✔ freshness adds a bounded tip only at handoff and cannot pay twice or affect language accuracy (19.284589ms)
+✔ all task types receive finite length-aware budgets and Challenge is faster (11.89896ms)
+✔ venue order formats add required checks and gate every final stage (20.078325ms)
+✔ stock is reserved once per order and deliveries cannot be farmed at full stock (21.808389ms)
+✔ recipe ingredients enforce sentence order and ticket clipping commits once (1.792407ms)
+✔ listening variants preserve the source vocabulary and answer choices (15.653234ms)
+✔ customer identities rotate without repeats and every dish can be ordered (1.137627ms)
+✔ all checkout sentences fit the display before and after correction (8.257431ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 306.307401

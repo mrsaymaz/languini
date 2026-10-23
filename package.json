@@ -1,0 +1,21 @@
+{
+  "name": "languini",
+  "version": "0.55.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --max-old-space-size=512 --test --test-concurrency=1 tests/*.test.mjs",
+    "verify:content": "node scripts/verify-preservation.mjs",
+    "verify:release": "node scripts/verify-release.mjs",
+    "import:language": "node scripts/import-additional-banks.mjs",
+    "verify:language": "node scripts/verify-language.mjs",
+    "verify:answer-controls": "node scripts/verify-answer-controls.mjs"
+  },
+  "dependencies": {
+    "three": "0.180.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.11"
+  }
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "arena": "courtyard",
+    "upgraded": false,
+    "meshObjects": 190,
+    "triangles": 116690
+  },
+  {
+    "arena": "bistro",
+    "upgraded": false,
+    "meshObjects": 224,
+    "triangles": 138632
+  },
+  {
+    "arena": "banquet",
+    "upgraded": false,
+    "meshObjects": 256,
+    "triangles": 158444
+  },
+  {
+    "arena": "courtyard",
+    "upgraded": true,
+    "meshObjects": 194,
+    "triangles": 126554
+  },
+  {
+    "arena": "bistro",
+    "upgraded": true,
+    "meshObjects": 229,
+    "triangles": 148496
+  },
+  {
+    "arena": "banquet",
+    "upgraded": true,
+    "meshObjects": 261,
+    "triangles": 168308
+  }
+]

@@ -1,0 +1,14 @@
+✔ baked form shading preserves every vertex, normal, UV and index used for picking (14.990181ms)
+✔ the studio environment is a bounded local texture with no asset URL or per-frame work (7.504979ms)
+✔ all three restaurants retain the mesh budget and complete shading after material batching (934.667259ms)
+✔ paper packaging uses shared matte finishes instead of ceramic gloss or wooden grain (226.064424ms)
+✔ refined dishes keep their finite scale and use folded leaves and open curved pasta (216.815961ms)
+✔ Light mode removes studio reflections while Detailed reuses the same environment (3.175886ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1722.717878

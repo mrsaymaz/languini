@@ -1,0 +1,16 @@
+✔ the real opening scene renders with no service, changes arenas, starts and returns to setup (30057.98558ms)
+✔ a first-frame render failure keeps startup blocked and offers a visible retry (5111.674244ms)
+✔ an animation-frame render failure after opening gives a retry instead of silently freezing (5104.475948ms)
+✔ the exact game entry can finish local startup with every network request blocked (106.688262ms)
+✔ blocked file-origin storage does not prevent the setup screen from opening (56.961441ms)
+✔ actual setup blocks later arenas and cached selection until a saved Cafe win exists (46562.236871ms)
+✔ tab return keeps Resume accessible and repeated hide/focus cycles preserve one render loop (10114.602003ms)
+✔ customer identities rotate without repeats and every dish can be ordered (10.816364ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 98327.057374

@@ -1,0 +1,11 @@
+✔ the exact game entry can finish local startup with every network request blocked (128.942642ms)
+✔ blocked file-origin storage does not prevent the setup screen from opening (92.60922ms)
+✔ the extracted index loads classic scripts in startup order without module imports (8.815396ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1599.10336

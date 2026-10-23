@@ -1,0 +1,13 @@
+{"width":390,"height":844,"arena":"courtyard","upgraded":false,"setting":"overview","pass":true}
+{"width":390,"height":844,"arena":"bistro","upgraded":false,"setting":"overview","pass":true}
+{"width":390,"height":844,"arena":"banquet","upgraded":false,"setting":"overview","pass":true}
+{"width":390,"height":844,"arena":"banquet","upgraded":true,"setting":"overview","pass":true}
+{"width":320,"height":480,"arena":"banquet","upgraded":false,"setting":"overview","pass":true}
+{"width":360,"height":640,"arena":"bistro","upgraded":false,"setting":"overview","pass":true}
+{"width":568,"height":320,"arena":"banquet","upgraded":false,"setting":"overview","pass":true}
+{"width":1366,"height":768,"arena":"banquet","upgraded":false,"setting":"overview","pass":true}
+{"width":390,"height":844,"arena":"banquet","upgraded":false,"setting":"recipe","pass":true}
+{"width":390,"height":844,"arena":"banquet","upgraded":false,"setting":"wash","pass":true}
+{"width":390,"height":844,"arena":"banquet","upgraded":false,"setting":"ticket","pass":true}
+{"width":390,"height":844,"arena":"banquet","upgraded":false,"setting":"repair","pass":true}
+{"width":390,"height":844,"arena":"banquet","upgraded":false,"setting":"delivery","pass":true}

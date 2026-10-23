@@ -1,0 +1,16 @@
+{
+  "version": "0.45.2",
+  "actualExtractedRuntime": true,
+  "fileOrigin": true,
+  "nativeDesignApply": true,
+  "compact320": true,
+  "longLessonHeaderAndPause": true,
+  "packingPreview": true,
+  "episodePreviewAndDecline": true,
+  "openingStory": true,
+  "nativePauseContinueSkip": true,
+  "firstShiftAndPauseResume": true,
+  "errors": [],
+  "externalRequests": [],
+  "gameBundleSha256": "51f085e7f9a60ea07895b7b9939784f108fae719928d9671dbf25d4728bcb613"
+}

@@ -1,0 +1,11 @@
+{
+  "version": "0.44.0",
+  "actualExtractedRuntime": true,
+  "fileOrigin": true,
+  "openingStory": true,
+  "nativePauseContinueSkip": true,
+  "firstShiftAndPauseResume": true,
+  "errors": [],
+  "externalRequests": [],
+  "gameBundleSha256": "79ee64bbb97291d8f201a124751f52f8573971aa79fdf1a579446c8610bcef9a"
+}

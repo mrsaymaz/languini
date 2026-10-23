@@ -1,0 +1,25 @@
+✔ enlarged delivery crate matches label proportions, stays inside work area and cannot obscure printed choices (1906.987499ms)
+✔ ready and served nine-component meals keep every triangle when static food is batched (988.764313ms)
+✔ chef stride moves independent legs while carrying keeps both hands steady and reduced motion settles (1937.513211ms)
+✔ station lighting narrows its shadow view and restores the arena overview without new shadow lights (1623.981222ms)
+✔ angled preparation grips tools while keeping recipe and sentence ink clear at small portrait and landscape sizes (4546.670539ms)
+✔ completed preparation retains the exact food geometry used for serving all nine dishes (953.278877ms)
+✔ served meal moves from the actual tray to the table, pauses and settles without modifying the game (887.719626ms)
+✔ all arena/team combinations build finite complete 3D scenes (10356.794225ms)
+✔ table markers remain on screen at desktop and phone aspect ratios (8.762425ms)
+✔ static entrypoint includes all wired controls and local assets (49.867359ms)
+✔ close-ups keep each station above the phone task sheet (5.783072ms)
+✔ each camera has a distinct angle and recipe view is aerial (0.457992ms)
+✔ physical stations animate, remain pickable and restore the shared restaurant (575.135522ms)
+✔ customer-held menu is unobstructed from behind the right shoulder at every table (2585.315151ms)
+✔ all 24 customer profiles render, hold the menu and replace the previous table model (839.256595ms)
+✔ hanging paper meets its clip and checkout display sits in the existing terminal (414.650317ms)
+✔ all nine dishes plate distinct ingredients at stable landing heights (509.231135ms)
+ℹ tests 17
+ℹ suites 0
+ℹ pass 17
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 15967.846092

@@ -1,0 +1,545 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> languini@0.39.0 test
+> node --max-old-space-size=512 --test --test-concurrency=1 tests/*.test.mjs
+
+✔ the expansion reproduces exactly, preserves every original object, and never mutates inputs (1051.010521ms)
+✔ all 44 source sections and every practice record resolve to an existing same-grade activity (31.227744ms)
+✔ new assembly preserves full source sentences and translations with grammatical boundaries (4.528453ms)
+✔ new questions have distinct same-section distractors with incompatible answer functions (4.534595ms)
+✔ all picture words join vocabulary; ambiguous duplicate meanings are safely filtered from matching (18.848525ms)
+✔ new sorting packs use exclusive positive classifications and rotate without changing parent unit (3.372423ms)
+✔ every added activity is available to its station deck and can complete through actual game actions (110.302894ms)
+✔ speech waits for the utterance, supports manual replay while muted and settles cancellation (3.605866ms)
+✔ all existing theme IDs, names and ordering remain exactly unchanged (12.112796ms)
+✔ mapped questions and words stay in their exact grade and matching theme (7.723432ms)
+✔ derived guest prompts preserve a same-unit vocabulary or definition answer (0.717422ms)
+✔ the import is reproducible and never mutates its source banks (82.975736ms)
+✔ Taste assesses all three phases, with independent service and answering speed ratings (18.239975ms)
+✔ washing accuracy and actual dish backlog affect restaurant service quality (0.831918ms)
+✔ the last guest eats, reviews, spins and departs before victory; paused time never counts (6.473421ms)
+✔ review cards stay table-owned, show three labelled star rows and spin without blocking play (10.630052ms)
+✔ voice personas distinguish female/male vendor names and leave generic voices unknown (4.341312ms)
+✔ customer selection prefers American female and British male gender, stable distinct personas, local voices and graceful fallback (13.691094ms)
+✔ male customers use British natural voices and never Fred or a US default (2.16749ms)
+✔ late voice discovery uses the requested British customer voice and waits for speech to finish (1.071649ms)
+✔ cancelling voice discovery removes the listener and prevents stale speech (380.758892ms)
+✔ an empty voice catalogue has a bounded fallback instead of blocking the task (380.086471ms)
+✔ male speech requests British English and provides written fallback without a suitable voice (1.19021ms)
+✔ station speech follows the actual table guest, restores its voice and keeps shared tasks neutral (1.494228ms)
+✔ enlarged delivery crate matches label proportions, stays inside work area and cannot obscure printed choices (698.406456ms)
+✔ ready and served nine-component meals keep every triangle when static food is batched (553.59877ms)
+✔ Cafe and Diner wins unlock restaurants sequentially and persist (2.905309ms)
+✔ freshness counts down only the task, changes great/good/late, and never skips an expired English answer (8.581954ms)
+✔ pause, camera/audio readiness and completed readback freeze task clocks, including all three plating phases (3.499095ms)
+✔ freshness adds a bounded tip only at handoff and cannot pay twice or affect language accuracy (9.721011ms)
+✔ all task types receive finite length-aware budgets and Challenge is faster (5.365007ms)
+✔ reviewed content covers every grade and 44 selectable units (37.506024ms)
+✔ every unit completes in both difficulties and all three arenas (2040.454107ms)
+✔ courtyard orders require both tasks and cooking before serving once (2.151065ms)
+✔ reading, answer playback and pause protect all guests and cooking (9.559421ms)
+✔ wrong answers and free hints remain playable and produce review (0.972318ms)
+✔ a hint before the first attempt does not count as unaided accuracy (0.631068ms)
+✔ three departed guests end the shift with zero stars (2.710331ms)
+✔ Challenge awards twice the runes for equivalent service (15.518142ms)
+✔ all units provide all six stations (10.713311ms)
+✔ saves, upgrades, team wallets and records remain isolated (1.800187ms)
+✔ all opening choices normalize safely without crossing grade content (0.576712ms)
+✔ tea is a once-per-shift service boost and does not skip learning (0.916171ms)
+✔ the three teacher examples use complete subjects, predicates, recipients and time phrases (2.452476ms)
+✔ all 1520 activities preserve exact sentence text and have explicit reviewed constituent boundaries (10.702363ms)
+✔ five and six blocks are required in every food phase; the third block cannot finish the sentence (4.378159ms)
+✔ washing keeps its three plate routine while each plate requires all five grammatical links (4.202684ms)
+✔ extra block portions finish each of the nine dishes with three canonical layers per phase (1818.826048ms)
+✔ five and six block fixtures fit readable separated phone targets in both orientations (136.948037ms)
+✔ four to six blocks retain the original board, recipe note and full-size plate (46.828228ms)
+✔ baked form shading preserves every vertex, normal, UV and index used for picking (19.170949ms)
+✔ the studio environment is a bounded local texture with no asset URL or per-frame work (11.931935ms)
+✔ all three restaurants retain the mesh budget and complete shading after material batching (1147.459906ms)
+✔ paper packaging uses shared matte finishes instead of ceramic gloss or wooden grain (242.549738ms)
+✔ refined dishes keep their finite scale and use folded leaves and open curved pasta (279.883983ms)
+✔ Light mode removes studio reflections while Detailed reuses the same environment (4.468383ms)
+✔ recommendations alone can complete 48 services across modes, arenas, events and equipment (1430.456877ms)
+✔ the destination badge and contextual primary button perform the same advertised action (8.983947ms)
+✔ tray, crate, plate and trolley advice stays attached to real destinations and order identities (12.77751ms)
+✔ blocked actions explain themselves until the player chooses a valid route (5.373758ms)
+✔ first-use tips learn only successful use, persist safely, and restore without changing progress (5.019904ms)
+✔ guidance and signs hide during English, side decisions, pause and terminal states (1.302283ms)
+✔ one badge stays inside the available playfield across phone sizes and safe side insets (1.390272ms)
+✔ free movement has finite footprint confirmation and does not alter English outcomes (1.95156ms)
+✔ scene signifiers point to the recommendation before any click and retain bounded geometry (8348.479399ms)
+✔ Languini renames the restaurant without changing the existing save identity (66.978143ms)
+✔ larger venues provide real floor and walkable space while retaining reachable service anchors (1924.834529ms)
+✔ expanded overview cameras preserve usable station and guest positions on phones (6.945438ms)
+✔ corrected check reading time scales with the sentence and stays bounded (0.730584ms)
+✔ live kitchens complete 264 grade/unit/difficulty/arena services with plate conservation (5400.016332ms)
+✔ all four events work in 72 live equipment/arena/difficulty combinations (1444.569116ms)
+✔ navigation reaches every station and guest while avoiding tables and furniture (12.302003ms)
+✔ movement consumes the full frame budget and stays consistent across step sizes (2.765894ms)
+✔ an order requires walking and explicit station choices, with protected learning time (3.556487ms)
+✔ prepared trays occupy hands and can be held on the counter without duplicating cooking (1.089308ms)
+✔ supply rewards and stock commit only when the carried crate reaches Pantry (1.745758ms)
+✔ washing is a timed batch, pauses safely and conserves serving dishes (1.610587ms)
+✔ a trolley commits two physical destinations and credits each handoff once (4.461481ms)
+✔ side requests can restock through the live kitchen and resume the same offer (2.993668ms)
+✔ ticket buttons drive travel through the visible HUD control (7.038237ms)
+✔ the live renderer follows simulated position and displays the real held load (596.879401ms)
+✔ the visible Pass action loads both shared-table meals onto the trolley (3.6452ms)
+✔ an invalidated delivery cannot credit a replacement order or strand the route (1.187423ms)
+✔ every matching menu stays inside its original unit and rotates all supported modes (113.606219ms)
+✔ matching gates order completion, prevents duplicate rewards and keeps mistakes recoverable (4.786164ms)
+✔ preview opens each menu mode directly and missing pictures never cross unit coverage (2.115226ms)
+✔ matching cards preserve complete labels, independently ordered columns and image fallbacks (2.367755ms)
+✔ physical matching tablet mirrors pair state and stays visible behind every customer table (2405.30837ms)
+✔ all shipped Fluent artwork is traceable, optimized and covered by the included Microsoft license (88.749194ms)
+✔ pair interaction gives a brief silent reaction before accepting another pair (182.5693ms)
+✔ all translation matching choices fit one page in real font metrics across every unit (1165.542108ms)
+✔ picture menu cards and written image fallbacks fit without growing the page (104.441163ms)
+✔ every one- and two-word listening menu keeps all choices and confirmation on its page (637.064504ms)
+✔ all vocabulary and definition delivery labels retain their size on a compact backing paper (1892.006266ms)
+✔ all 1520 sentence tasks fit the papers beneath the saucers with readable ink (3072.523691ms)
+✔ all full-sentence guest reply menus fit without a scrolling reply list (1029.802017ms)
+✔ menu font, row heights and positions do not depend on which answers have been matched (1.66721ms)
+✔ notched phones reserve safe controls while matching remains one page (1.10467ms)
+✔ all 24 customer shapes give the tablet its full upright phone work area (4827.105661ms)
+✔ prep saucers retain the old physical relationship: the cream paper lies below the food (257.929364ms)
+✔ delivery packages have six distinct low-poly silhouettes and finite shared geometry (260.357665ms)
+✔ incoming parcel and both sorting trays occupy separate readable work areas (0.428323ms)
+✔ package appearance rotates independently of the assessed sorting category (0.330052ms)
+✔ the live page audit requests a bounded refit when actual browser ink exceeds a button (2.794556ms)
+✔ the shipped phone page uses the real game and enables header controls and whole-sticker dragging (1.141678ms)
+✔ camera arcs have exact endpoints, smooth monotonic travel and bounded lift (4.219064ms)
+✔ venue reveal and task camera pause, settle exactly and honor reduced motion without changing the game (432.116151ms)
+✔ ingredient landing ripples reuse one mesh, finish and dispose even after repeated actions (1.574725ms)
+✔ washing scrubs twice without moving word surfaces and the final rinse ends cleanly (298.768412ms)
+✔ stationary washing links retain their SVG node instead of restarting the drawing each frame (6.451377ms)
+✔ sorting has 44 canonical packs with bilingual, unambiguous explicit memberships (8.494532ms)
+✔ five incompatible imported themes use their canonical category packs (0.463394ms)
+✔ all 88 unit/difficulty sorting batches contain both headings and correct card counts (2.232845ms)
+✔ sorting gates its answer, refills stock once and cannot be replayed at full capacity (7.117368ms)
+✔ sorting mistakes and hints attach to individual classification skills (1.375362ms)
+✔ sorting, readback and pause protect all service clocks (2.289712ms)
+✔ sorting text and physical trays expose two destinations without hiding long words (400.459639ms)
+✔ sorting uses a short silent reaction and safely resumes after pause (484.379505ms)
+✔ one preparation position queues a second matching dish and the bench adds real capacity (7.978009ms)
+✔ bench cannot process a pot and queue priority never restarts running work (1.231189ms)
+✔ cooking queues and committed deliveries stop throughout English practice (2.206009ms)
+✔ a trolley takes two loads, pays only at separate handoffs and advances projects once each (25.468894ms)
+✔ single tray keeps one load and a committed meal cannot be lost to impatience (0.799594ms)
+✔ all event formats and equipment combinations complete in every arena and difficulty (3633.030523ms)
+✔ event rotation has no undefined outcomes and avoids the last two eligible types (3.50508ms)
+✔ extra-side request can be declined or accepted after restocking with a bounded route (1.200037ms)
+✔ takeaway uses its own pickup space without increasing dining capacity (0.476877ms)
+✔ Diner shared table retains two meals and adds ticket/checkout stages (0.766261ms)
+✔ refurbishment requires earned milestones, charges once and grants the physical equipment (0.849564ms)
+✔ project progress and event history persist with old gear, wallets and cosmetics (1.797338ms)
+✔ all project stages and finishes create distinct finite restaurant structures (1263.27477ms)
+✔ phone preview exposes all four events, both physical equipment pieces and project stages (0.458321ms)
+✔ runtime scene displays real queued food, the occupied bench and the loaded trolley (516.258968ms)
+✔ a takeaway parcel and a second guest persist through the shared restaurant scene (743.378412ms)
+✔ missed queued orders cancel their jobs and cannot become phantom ready meals (1.003602ms)
+✔ sorting revisits due classifications while avoiding an immediate repeat when fresh cards exist (1.219764ms)
+✔ fully refurbished rooms keep the physical tablet unobstructed at every table and pickup (1753.251048ms)
+✔ every object station fits portrait and landscape phone work areas without a popup sheet (871.849933ms)
+✔ all curriculum sentence chunks have wide labels and complete text in the object interface (13.002268ms)
+✔ phone tablet screens remain physically unobstructed in fully refurbished arenas (2119.867887ms)
+✔ food appearance is assigned independently of sentence order and all nine dishes finish (445.314531ms)
+✔ dragging a sentence label moves its actual ingredient and keeps the label attached (714.684248ms)
+✔ missing a plate and pointer cancellation do not record an English mistake (328.556295ms)
+✔ a valid drop in the wrong sentence order records one mistake and returns the food (283.248037ms)
+✔ a second finger and an unsettled camera cannot start an ingredient drag (289.376924ms)
+✔ tap ingredient then tap dish provides the same preparation without extra confirmation (9515.202289ms)
+✔ sorting drags reach either physical bin and misses preserve the current label (518.843439ms)
+✔ a delivery sticker can be dragged directly from its manifest onto the crate (1142.946265ms)
+✔ tapping a ticket option fills the blank and clips it automatically without another control (1964.687553ms)
+✔ checkout waits for its physical print key and prints and advances exactly once (2862.686177ms)
+✔ screen refitting preserves sentence order, ingredient assignments and accepted placements (315.420098ms)
+✔ automatic speech contains only a guest line or a listening request (2.739219ms)
+✔ opening preparation, delivery and ticket stations does not narrate instructions (1321.96282ms)
+✔ explicit English playback remains available on an object and is the only speech requested (276.366332ms)
+✔ the phone stylesheet reserves safe controls, wrapping text and scrollable object surfaces (0.974324ms)
+✔ ingredient touch areas never overlap, including short landscape phones (269.461745ms)
+✔ captured touch drops ignore their compatibility click and the next quick tap works (284.710341ms)
+✔ a visible ingredient over the plate lands even with the fingertip below the rim (244.235233ms)
+✔ a rejected ingredient returns smoothly and can be picked up during its return (292.777842ms)
+✔ canceled capture cannot leave a selected piece or turn into a phantom tap (240.500325ms)
+✔ every delivery sticker is available on one manifest and its whole face accepts touch dragging (214.661277ms)
+✔ drops use only the visible part of a scrollable destination (0.353116ms)
+✔ the final pointerup position is used even when its last move was coalesced (219.112853ms)
+✔ an out-of-window release safely cancels a clamped ingredient (233.091803ms)
+✔ the ticket stays under its pickup point rather than jumping by its paper height (235.945175ms)
+✔ native device controls cannot be bypassed by obsolete screen raycast buttons (501.49748ms)
+✔ the newly revealed clear and print keys scroll into the register view (483.108508ms)
+✔ both a captured horizontal swipe and the keyboard backspace clear the selected word (1036.527065ms)
+✔ pause during requested audio and completion cannot strand the order on resume (2923.056726ms)
+✔ all three ingredients accept immediate deliberate taps while their food settles (975.585212ms)
+✔ the sorting card also explains its tap route and a bin accepts that selection once (497.339379ms)
+✔ repeated taps cannot answer or automatically send a ticket twice (1897.782354ms)
+✔ Enter on a focused native replay button preserves its own action (242.77801ms)
+✔ the clip clearance follows its physical size on large and small screens (976.751714ms)
+✔ rotating during receipt printing keeps its physical finish and rewards only once (2177.816081ms)
+✔ four native menu pairs remain on one page through hints, matching and completion (1618.523765ms)
+✔ the same task surface clears compact recipe state before opening a menu (258.137923ms)
+✔ sorted parcels land in their trays and rotation preserves parcel identity and stock progress (1376.03435ms)
+✔ liquid ingredients use source jugs but only food lands at full dish scale (871.433098ms)
+✔ camera travel has an exact finish before controls unlock, with an immediate reduced-motion path (234.642123ms)
+✔ explicit cancellation releases the captured pointer and leaves the next deliberate input usable (235.280836ms)
+✔ native answer callbacks cannot submit before their station camera is ready (336.833279ms)
+✔ disabled customer speech exposes a supported written two-word listening order without blocking replay (259.369697ms)
+✔ sorted parcels retain their own reviewed word tag and the receiving lid opens before answering (710.320402ms)
+✔ checkout leads with its instruction and a single error cue, then names every required stage (489.147636ms)
+✔ printed corrected receipts have a clear sightline and remain inside the work area in every arena (1649.058418ms)
+✔ automatic receipt finish respects pause, camera readiness and requested speech, and commits once (6381.893999ms)
+✔ every corrected receipt fits its projected paper with measured fonts at eleven screen sizes (9850.948267ms)
+✖ later plating phases preserve earlier food and partial sentences through rotation and wrong drops (5939.812427ms)
+✖ all later sentences accept captured swipes without carrying over the previous selection (10014.073546ms)
+✔ freshness ring runs only during available input and survives rotation, pause, audio and expiry (387.706264ms)
+✔ checkout prints the corrected English only on a separate paper, then waits for protected reading (1977.439748ms)
+✔ receipt feed crops physical paper without stretching its ink, with a stable full-size projection (715.093305ms)
+✔ tab pause during printing freezes the feed and resumes the same corrected receipt once (2251.58244ms)
+✔ wrong ticket taps stay on the task and cannot send an incorrect sentence (3047.597321ms)
+✔ automatic ticket send waits for pause, camera readiness and speech then preserves its clip animation (4464.530665ms)
+✔ rotation restores the filled word and automatic clipping without a second send (1579.061971ms)
+✔ preparation hides Turkish until correct and protects the full two-second reveal before fresh ingredients (3095.445797ms)
+✔ rotation preserves translation time remaining rather than skipping or restarting the reveal (2476.684905ms)
+✔ a supplied completion without Turkish reveals its English sentence with the correct language (260.810891ms)
+✔ five native ingredient controls survive rotation and require all subject/verb/object/time blocks (281.281182ms)
+✔ first-use guidance saves separately and manual Help remains available after dismissal (4.837732ms)
+✔ pause and camera readiness protect guidance time; closing a task discards its message (1.144897ms)
+✔ repeated mistakes and successful recovery select distinct poses without changing scoring state (1.244022ms)
+✔ quiet mode suppresses automatic tips and reactions while permitting requested help (0.735457ms)
+✔ served milestones have a cooldown and do not backlog into the next task (6.234799ms)
+✔ blocked storage does not stop play and resetting tips restores first-use explanations (1.96735ms)
+✔ instruction and hint text follows real task types without supplying sentence answers (0.242105ms)
+✔ chef stride moves independent legs while carrying keeps both hands steady and reduced motion settles (725.614253ms)
+✔ station lighting narrows its shadow view and restores the arena overview without new shadow lights (507.361964ms)
+✔ angled preparation grips tools while keeping recipe and sentence ink clear at small portrait and landscape sizes (2313.924464ms)
+✔ completed preparation retains the exact food geometry used for serving all nine dishes (815.294843ms)
+✔ served meal moves from the actual tray to the table, pauses and settles without modifying the game (345.47443ms)
+✔ station, arena, shop and ticket controls resolve to one complete semantic icon family (8.743629ms)
+✔ particle feedback remains bounded after repeated actions, clears on reduced motion and releases its resources (18.480326ms)
+✔ real preparation emits crumbs for bread and steam for hot broth, with silent restoration (884.555934ms)
+✔ delivery approval seal stamps once and remains fully formed on restored packages (566.623712ms)
+✔ station feedback freezes during pause and overview steam follows real hot cooking jobs (749.414698ms)
+✔ all arena renovation stages add visible structure without exceeding existing mesh budgets (6164.495827ms)
+✔ fully upgraded warming equipment leaves ticket and receipt ink clear across arenas and viewports (1780.365562ms)
+✔ every venue keeps a clear central spine and all actual service approaches are reachable (46.97887ms)
+✔ all portrait overview cameras use the approved 60 degree pitch and 15 degree yaw (9.519337ms)
+✔ moving the prep counter preserves the close-up board, papers, plate and native surface size (1340.515778ms)
+✔ tall kitchen fixtures cut away for work and restore when the station closes (434.540565ms)
+✔ review revolves around its own vertical axis, displays the back and fades only after most of its turn (3.392559ms)
+✔ every corrected check reads for exactly two seconds less while the physical feed stays unchanged (28.799992ms)
+✔ delivery backing gives surplus space to the crate while preserving label dimensions (2.223071ms)
+✔ interleaved stations cannot cause a repeated conversation at a cycle boundary (4.36157ms)
+✔ question cycles continue after a save and a new service (1.816247ms)
+✔ waiting tables reserve no conversation until the student opens it (3.343219ms)
+✔ duplicate question spellings are one conversation and stale history is ignored (0.721403ms)
+✔ all arena/team combinations build finite complete 3D scenes (3838.51925ms)
+✔ table markers remain on screen at desktop and phone aspect ratios (3.900025ms)
+✔ static entrypoint includes all wired controls and local assets (26.212604ms)
+✔ close-ups keep each station above the phone task sheet (1.16558ms)
+✔ each camera has a distinct angle and recipe view is aerial (0.298938ms)
+✔ physical stations animate, remain pickable and restore the shared restaurant (382.56734ms)
+✔ customer-held menu is unobstructed from behind the right shoulder at every table (1041.361147ms)
+✔ all 24 customer profiles render, hold the menu and replace the previous table model (629.710954ms)
+✔ hanging paper meets its clip and checkout display sits in the existing terminal (233.83478ms)
+✔ all nine dishes plate distinct ingredients at stable landing heights (360.038412ms)
+✔ complete listening clues and independent replay fit 32,648 measured menu states (850.847915ms)
+✔ two-word hints keep replay separate and retain clue and selections through rotation (428.424864ms)
+✔ unavailable speech reveals both words and keeps supported completion playable (498.033057ms)
+✖ rotation restarts exact requested pronunciation and holds advancement until it finishes (9193.291552ms)
+✔ selected matching cards survive refits without shuffling or losing the intended match (1631.063138ms)
+✔ pause followed by rotation replays the last request only once on resume (365.577493ms)
+✔ five tall service markers stay separate and inside all supported work areas (2.436927ms)
+✔ guidance reflects destinations, ready meals and supplies without changing the service (0.904083ms)
+✔ an order retains its customer, table, dish and ticket through every station (19.783019ms)
+✔ ready dishes require their matching table and cannot be delivered twice (3.56998ms)
+✔ departing guests invalidate their selected dish without awarding runes (9.966954ms)
+✔ a featured service event resolves and the finale waits for committed handoffs (69.492961ms)
+✔ equipment has two selectable slots, practical effects and isolated purchases (3.939895ms)
+✔ warming shelves slow ready patience while English practice freezes all service needs (3.435493ms)
+✔ regular guests remember visits and favourites and give a postcard on their third visit (5.540546ms)
+✔ saved v0.6 profiles retain wallets and records while new state survives reload (1.018005ms)
+✔ supported vocabulary returns later across matching, listening and definitions (0.440169ms)
+✔ adaptive selection keeps complete question cycles and matching words inside the unit (2.681384ms)
+✔ matching records supported pairs individually and never makes free hints a purchase (4.058679ms)
+✔ feedback explains subject agreement and preserves the reviewed correct sentence (0.404156ms)
+✔ every station renders a consistent order token without changing answer text (2.35756ms)
+✔ refurbished restaurants and team equipment build finite geometry for all teams and arenas (3989.396565ms)
+✔ pass-and-play changes roles after successful delivery and preserves team neutrality (28.223448ms)
+✔ management signals remain separate touch targets on portrait and landscape screens (3.061029ms)
+✔ the real opening scene renders with no service, changes arenas, starts and returns to setup (24890.807551ms)
+✔ a first-frame render failure keeps startup blocked and offers a visible retry (5239.832885ms)
+✔ an animation-frame render failure after opening gives a retry instead of silently freezing (5197.761714ms)
+✔ the exact game entry can finish local startup with every network request blocked (107.489012ms)
+✔ blocked file-origin storage does not prevent the setup screen from opening (34.242498ms)
+✔ local artwork is embedded and exactly matches every shipped Fluent image (85.825634ms)
+✔ the extracted index loads classic scripts in startup order without module imports (3.399354ms)
+✔ script load failures and initialization exceptions replace the spinner with a retry (2.166837ms)
+✔ a stalled startup has a finite timeout and does not silently hide its error (0.881418ms)
+✔ the phone frame uses an explicit local HTML path and permits only its own window messages (1.997786ms)
+✔ actual setup blocks later arenas and cached selection until a saved Cafe win exists (27933.171129ms)
+✔ tab return keeps Resume accessible and repeated hide/focus cycles preserve one render loop (7211.585932ms)
+✔ all 44 dialogue links connect reviewed questions inside their original grade and unit (2.728103ms)
+✔ a dialogue spends one supply and advances its station only after both answers (7.221828ms)
+✔ follow-up questions preserve the accepted reply and do not consume unseen history early (17.922243ms)
+✔ saved conversation cycles preserve both turns and recover after an interrupted first turn (3.404755ms)
+✔ both dialogue exchanges pause arrivals, cooking and patience, including a paused answer (5.371235ms)
+✔ two-word listening alternates in Challenge and retains only same-unit vocabulary choices (13.39834ms)
+✔ listening requires exactly two selections and one confirmation, in either order (1.426236ms)
+✔ wrong listening selections can be removed and repaired without losing the order (1.291071ms)
+✔ listening hints are free and selection is protected while the game is paused (0.823168ms)
+✔ requested answer audio finishes before a follow-up can replace the first exchange (162.602168ms)
+✔ requested answer audio protects the two-word confirmation before cooking begins (162.749348ms)
+✔ the two-word controller mirrors toggles and confirms only a complete selection (1.984422ms)
+✔ two-word tablet screens mirror selected cards and preserve their touch targets (421.937043ms)
+✔ conversation supporting objects are finite and restore guest poses after both turns (323.998112ms)
+✔ all nine meals use bounded preparation tools, liquid streams and stable finished layers (394.033212ms)
+✔ customer reactions have distinct finite poses and honour reduced motion (0.738675ms)
+✔ returning guests recognise the player and postcard handoffs clean up after their reaction (294.331574ms)
+✔ phone station actions stay within the viewport and above the English answer sheet (0.250807ms)
+✔ new station markup keeps both word selections explicit and the accepted reply visible (3.160457ms)
+✔ Enter confirms listening once and prevents a second default button activation (1.307495ms)
+✔ written fallback for unavailable speech records supported listening success (1.356622ms)
+✔ venue order formats add required checks and gate every final stage (15.691675ms)
+✔ stock is reserved once per order and deliveries cannot be farmed at full stock (5.258463ms)
+✔ recipe ingredients enforce sentence order and ticket clipping commits once (1.976293ms)
+✔ listening variants preserve the source vocabulary and answer choices (6.467647ms)
+✔ customer identities rotate without repeats and every dish can be ordered (1.754505ms)
+✔ all checkout sentences fit the display before and after correction (8.711377ms)
+✔ every repair preserves a reviewed correct sentence and one exact error location (12.919112ms)
+✔ repair requires locating the error before a correction can be submitted (3.590212ms)
+✔ finding, erasing and fixing a ticket first time earns unaided accuracy (0.832441ms)
+✔ all guest replies are full reviewed sentences and correct options preserve readback (2.523282ms)
+✔ every task renders the matching interaction and every repair hides fixes until discovery (63.922561ms)
+✔ phone preview embeds the actual local game and exposes six stations and full service (8.978613ms)
+✔ long delivery labels get a full row and preserve all words in their markup (1.978622ms)
+✔ all delivery words and 3D paper sentences fit without losing letters (59.892649ms)
+✔ delivery controls allow natural height, wrapping and full-row long labels (6.207929ms)
+✔ all 44 units in both difficulties require three distinct reviewed sentences before one preparation handoff (71.607756ms)
+✔ adaptive repetition cannot repeat either earlier sentence in the third phase (0.677037ms)
+✔ third-phase errors, duplicates and pause retain all prior progress and protect service time (3.210773ms)
+✔ Cafe washing requires three sentence plates without food preparation phases (4.384604ms)
+✔ all nine meals retain three then six ingredients through every placement and match the final served meal (1786.901919ms)
+✔ all three phases show distinct guidance with nine components and preserved native targets (1.995705ms)
+✔ the release preserves every protected content byte and exact curriculum catalog (362.723312ms)
+✔ all ticket and register stages fit projected pages with measured fonts and real clip clearance (940.374167ms)
+✔ finished preparation and served meals have the same layer geometry and placement for all nine dishes (500.168656ms)
+✔ ordinary scenes remain below the existing mesh budget while arena details stay distinct (1040.523522ms)
+✔ a tilted destination rejects the empty corners of its bounding box (0.663894ms)
+✔ light graphics respect weak hardware and auto degrades only after sustained slow frames (0.937578ms)
+✔ old saves retain progress and accept optional graphics settings without changing save identity (2.196098ms)
+✔ a broken voice list and a lost speech callback resolve safely, cancelling the timed-out utterance (2.726096ms)
+✔ notched portrait and landscape layouts retain complete terminal content and physical clip controls (282.333472ms)
+✔ every unit supports 3/6/9 washing plates, using reviewed sentences and one physical batch commit (356.076049ms)
+✔ venue routes and assessed steps rise while keeping three preparation phases (0.751238ms)
+✔ Bistro menu, ticket and checkout require two separate assessments without advancing or rewarding the first (3.524861ms)
+✔ delivery needs 1/2/3 labels and pays/restocks only after the final correct parcel (3.539186ms)
+✔ a captured washing tap accepts on pointerup even when the browser retargets its click to the plate (469.3895ms)
+✔ washing reuses reviewed sentences in every unit, freezes English time and cleans the batch once (132.679143ms)
+✔ native washing brings a fresh sentence plate for each step and rinses the batch once (5769.568987ms)
+✔ a captured swipe accepts coalesced crossings once and ignores its compatibility click (328.743801ms)
+✔ cancelled, missed and second-finger swipes preserve progress; a wrong link records only one error per stroke (321.714606ms)
+✔ reverse menu shows Turkish on the left and English on the right, with unchanged pair identity (282.370587ms)
+✔ audio–Turkish pairing waits for speech, keeps English hidden and exposes supported text when unavailable (526.13745ms)
+✔ requested English audio restores the exact word after rotation before matching continues (522.422451ms)
+✔ all 1520 wash sentences fit tap targets at eleven screen sizes with two measured fonts (298.522999ms)
+✔ delivery stickers remain compact and all reviewed sorting labels fit including revealed Turkish (1107.222714ms)
+✔ washing close-up and plate controls have a clear world sightline in every arena and viewport (2367.078725ms)
+✔ washing close-up has a shaped ceramic plate, two hands, food patches and a camera facing the sink (299.350469ms)
+✔ native cleaning clears its own physical patch and restores it across rotation (261.885382ms)
+✔ soap bubbles float during scrubbing and clean ceramic shimmers only after the dirt clears (258.636888ms)
+✔ washing labels use compact intrinsic sizes rather than filling the plate (0.653685ms)
+ℹ tests 347
+ℹ suites 0
+ℹ pass 344
+ℹ fail 3
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 310371.35956
+
+✖ failing tests:
+
+test at tests/objects.test.mjs:347:1
+✖ later plating phases preserve earlier food and partial sentences through rotation and wrong drops (5939.812427ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 1
+  
+      at file:///workspace/scratch/ca8a670dbe2e/languini-work/source/tests/objects.test.mjs:350:12
+      at async harness (file:///workspace/scratch/ca8a670dbe2e/languini-work/source/tests/objects.test.mjs:34:73)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 1,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/objects.test.mjs:359:1
+✖ all later sentences accept captured swipes without carrying over the previous selection (10014.073546ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 1
+  
+      at file:///workspace/scratch/ca8a670dbe2e/languini-work/source/tests/objects.test.mjs:361:76
+      at async harness (file:///workspace/scratch/ca8a670dbe2e/languini-work/source/tests/objects.test.mjs:34:73)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 1,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/service-polish.test.mjs:59:1
+✖ rotation restarts exact requested pronunciation and holds advancement until it finishes (9193.291552ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + {
+  +   attempts: 1,
+  +   completed: true,
+  +   freshness: {
+  +     duration: 22,
+  +     remaining: 22,
+  +     started: false
+  +   },
+  +   freshnessResult: {
+  +     grade: 'great',
+  +     ratio: 1,
+  +     seconds: 22,
+  +     timed: false
+  +   },
+  +   ingredients: [
+  +     0,
+  +     1,
+  +     2
+  +   ],
+  +   matchedPairs: [],
+  +   pairSupport: [],
+  +   phase: 'order',
+  +   prepHistory: [
+  +     {
+  +       adaptedFrom: 'completion',
+  +       additionalSource: {
+  +         file: 'grade5-2.json',
+  +         grade: 5,
+  +         parent: 'g5u6',
+  +         record: 'g5u6h2',
+  +         unit: 'g5u6'
+  +       },
+  +       answer: 'My favourite drink is milk.',
+  +       blockRoles: [
+  +         'Subject',
+  +         'Verb',
+  +         'Complement'
+  +       ],
+  +       blocks: [
+  +         'My favourite drink',
+  +         'is',
+  +         'milk.'
+  +       ],
+  +       id: 'g5u6-extra-g5u6-g5u6h2',
+  +       kind: 'sentence',
+  +       prompt: 'Build the English sentence.',
+  +       translation: ''
+  +     },
+  +     {
+  +       answer: 'Can I have some fresh bread?',
+  +       blockRoles: [
+  +         'Auxiliary',
+  +         'Subject',
+  +         'Verb',
+  +         'Object'
+  +       ],
+  +       blocks: [
+  +         'Can',
+  +         'I',
+  +         'have',
+  +         'some fresh bread?'
+  +       ],
+  +       id: 'g5u6-ext26-g5u6-s4',
+  +       kind: 'sentence',
+  +       prompt: 'Biraz ekmek alabilir miyim?',
+  +       translation: 'Biraz ekmek alabilir miyim?'
+  +     }
+  +   ],
+  +   prepPhase: 2,
+  +   prepPrevious: {
+  +     answer: 'Can I have some fresh bread?',
+  +     blockRoles: [
+  +       'Auxiliary',
+  +       'Subject',
+  +       'Verb',
+  +       'Object'
+  +     ],
+  +     blocks: [
+  +       'Can',
+  +       'I',
+  +       'have',
+  +       'some fresh bread?'
+  +     ],
+  +     id: 'g5u6-ext26-g5u6-s4',
+  +     kind: 'sentence',
+  +     prompt: 'Biraz ekmek alabilir miyim?',
+  +     translation: 'Biraz ekmek alabilir miyim?'
+  +   },
+  +   prepRevealRemaining: 168,
+  +   presentation: {
+  +     foodAssignment: [
+  +       1,
+  +       2,
+  +       0
+  +     ],
+  +     menuOrder: null,
+  +     options: [],
+  +     order: [
+  +       2,
+  +       1,
+  +       0
+  +     ],
+  +     packageOffset: 1,
+  +     scrollTops: []
+  +   },
+  +   promptHeard: true,
+  +   purpose: 'order',
+  +   reward: 32,
+  +   selectedWords: [],
+  +   tableId: 0,
+  +   task: {
+  +     answer: 'Zeynep has got a cheese sandwich.',
+  +     blockRoles: [
+  +       'Subject',
+  +       'Verb',
+  +       'Object'
+  +     ],
+  +     blocks: [
+  +       'Zeynep',
+  +       'has got',
+  +       'a cheese sandwich.'
+  +     ],
+  +     id: 'g5u6-ext26-g5u6-s5',
+  +     kind: 'sentence',
+  +     prompt: "Zeynep'in peynirli bir sandviçi var.",
+  +     translation: "Zeynep'in peynirli bir sandviçi var."
+  +   }
+  + }
+  - null
+  
+      at file:///workspace/scratch/ca8a670dbe2e/languini-work/source/tests/service-polish.test.mjs:63:757
+      at async harness (file:///workspace/scratch/ca8a670dbe2e/languini-work/source/tests/service-polish.test.mjs:23:72)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { tableId: 0, task: { id: 'g5u6-ext26-g5u6-s5', kind: 'sentence', prompt: "Zeynep'in peynirli bir sandviçi var.", answer: 'Zeynep has got a cheese sandwich.', blocks: [Array], translation: "Zeynep'in peynirli bir sandviçi var.", blockRoles: [Array] }, phase: 'order', purpose: 'order', prepPhase: 2, prepHistory: [ [Object], [Object] ], prepPrevious: { id: 'g5u6-ext26-g5u6-s4', kind: 'sentence', prompt: 'Biraz ekmek alabilir miyim?', answer: 'Can I have some fresh bread?', blocks: [Array], translation: 'Biraz ekmek alabilir miyim?', blockRoles: [Array] }, attempts: 1, completed: true, ingredients: [ 0, 1, 2 ], matchedPairs: [], pairSupport: [], selectedWords: [], freshness: { duration: 22, remaining: 22, started: false }, presentation: { options: [], order: [Array], menuOrder: null, foodAssignment: [Array], packageOffset: 1, scrollTops: [] }, freshnessResult: { ratio: 1, grade: 'great', seconds: 22, timed: false }, reward: 32, prepRevealRemaining: 168, promptHeard: true },
+    expected: null,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

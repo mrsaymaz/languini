@@ -1,0 +1,1 @@
+{"version": "0.40.0", "path": "/workspace/scratch/ca8a670dbe2e/Languini-v0.40.0-Takeaway-Numbers.zip", "entries": 825, "bytes": 21284056, "crc": "passed"}

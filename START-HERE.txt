@@ -1,0 +1,23 @@
+LANGUINI v0.38.0 · by Mr. Saymaz
+
+Extract the entire ZIP into one folder. Open the root index.html with its adjacent files and folders intact. Do not open source/public/index.html or play inside a ZIP preview.
+
+For mobile play, upload the ready root files to Netlify or another static host, then open the hosted address in Safari or Chrome. Keep a stable address for saved progress.
+
+WHAT CHANGED
+Sentence blocks now follow grammatical roles rather than an exact three-piece limit. Complete subjects, verb groups, objects and place/time phrases stay intact. Preparation and washing use the actual count; see SENTENCE-BLOCKS.md.
+
+Four additional grade banks add 1,772 activities and 44 sorting packs. Duplicates reuse existing practice; new subtopics stay under their appropriate parent units. See LANGUAGE-EXPANSION.md.
+
+Preparation now reveals Turkish only after a correct English sentence, for two protected seconds. Washing uses 3/6/9 sentence plates in Cafe/Diner/Bistro. Later restaurants add fuller service routes, more menu/check activities and larger delivery routines.
+
+Automatic tap-to-send tickets, the 3D review card, shorter receipt reading, revised delivery proportions, three preparation phases, tab recovery and sequential venue unlocks are retained.
+
+phone-preview.html runs station demonstrations with separate temporary progress. The full game uses the browser's saved player progress.
+
+SOURCE AND VERIFICATION
+The ready game is at the ZIP root. Editable source and tests are in source/. Dependencies are excluded; use npm ci there before development. Read README.md for build commands.
+
+Read VENUE-LEARNING-PROGRESSION.md for this change and VALIDATION-REPORT.md for checks and device-testing limits. MOBILE-PLAYTEST.md lists the phone checks.
+
+Mr. Saymaz character integration: see OWNER-GUIDE.md.

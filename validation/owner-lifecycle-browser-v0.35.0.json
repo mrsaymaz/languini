@@ -1,0 +1,19 @@
+{
+  "compact": {
+    "height": 480,
+    "scrollHeight": 480,
+    "brandTop": 9.703125,
+    "overflowX": false
+  },
+  "recovery": {
+    "think": "http://127.0.0.1:8778/assets/saymaz/think-160.webp",
+    "afterCorrect": "http://127.0.0.1:8778/assets/saymaz/smile-160.webp",
+    "text": "Good recovery! You can continue this order."
+  },
+  "resultImage": {
+    "src": "http://127.0.0.1:8778/assets/saymaz/cheer-320.webp",
+    "loaded": true
+  },
+  "errors": [],
+  "boundary": "Temporary QA-only getters expose private app state; no hooks ship in the release."
+}

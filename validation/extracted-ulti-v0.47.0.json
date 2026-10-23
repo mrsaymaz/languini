@@ -1,0 +1,16 @@
+{
+  "version": "0.47.0",
+  "actualExtractedFileOrigin": true,
+  "noQAHooks": true,
+  "compact320": true,
+  "activeAndExpiredReceipts": true,
+  "oneActiveExpiryRow": true,
+  "nativeModalEscape": true,
+  "nativeGradeTeamSwitch": true,
+  "reloadPreservesPool": true,
+  "runePurchaseDoesNotConsumeUlti": true,
+  "nativeAbandonedShiftNoAward": true,
+  "errors": [],
+  "externalRequests": [],
+  "gameBundleSha256": "3318a3e79047545294f3a56fd11858057307cbd5dbc4bb0f0eee10439ea8742b"
+}

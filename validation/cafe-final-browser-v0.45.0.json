@@ -1,0 +1,62 @@
+{
+  "cases": [
+    {
+      "nativeAtmosphereChoiceAndSoundPauseMute": true
+    },
+    {
+      "rain": {
+        "falls": true,
+        "reducedStatic": true
+      },
+      "sound": [
+        {
+          "kind": "breakfast",
+          "peak": 0.00605799863114953,
+          "rms": 0.001454629672456328,
+          "remainingNodes": 0
+        },
+        {
+          "kind": "rain",
+          "peak": 0.022040868178009987,
+          "rms": 0.006162348637336841,
+          "remainingNodes": 0
+        },
+        {
+          "kind": "evening",
+          "peak": 0.004623389802873135,
+          "rms": 0.0013373537021019017,
+          "remainingNodes": 0
+        }
+      ]
+    },
+    {
+      "packingWrongRecoveryAndRotation": true,
+      "currentRequestRestored": true
+    },
+    {
+      "touchCaptionCancelAndDrop": true
+    },
+    {
+      "nativeLargeOfferDeclineAndResultsDesign": true
+    },
+    {
+      "nativePreview": "packing",
+      "pass": true
+    },
+    {
+      "nativePreview": "rain",
+      "pass": true
+    },
+    {
+      "nativePreview": "episode",
+      "pass": true
+    },
+    {
+      "nativePreview": "design",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "externalRequests": [],
+  "method": "Native software-WebGL Chromium; real design/decor controls and save/reload, atmosphere renders, projected practical-task fits, 4/8 packing-pair taps, six-block prep, checkout and episode decision buttons. Scratch-only fast-forward solves existing lesson tasks between episode decisions. Physical-phone FPS/input unmeasured."
+}

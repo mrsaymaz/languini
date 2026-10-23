@@ -1,0 +1,17 @@
+✔ dragging a sentence label moves its actual ingredient and keeps the label attached (755.986306ms)
+✔ missing a plate and pointer cancellation do not record an English mistake (282.894307ms)
+✔ a valid drop in the wrong sentence order records one mistake and returns the food (254.047654ms)
+✔ captured touch drops ignore their compatibility click and the next quick tap works (263.974687ms)
+✔ a visible ingredient over the plate lands even with the fingertip below the rim (252.371214ms)
+✔ a rejected ingredient returns smoothly and can be picked up during its return (250.882946ms)
+✔ canceled capture cannot leave a selected piece or turn into a phantom tap (245.437553ms)
+✔ the final pointerup position is used even when its last move was coalesced (278.963072ms)
+✔ an out-of-window release safely cancels a clamped ingredient (232.173134ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 9
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3040.695163

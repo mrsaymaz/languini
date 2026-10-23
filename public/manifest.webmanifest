@@ -1,0 +1,26 @@
+{
+  "id": "./",
+  "name": "Languini \u00b7 by Mr. Saymaz",
+  "short_name": "Languini",
+  "description": "Your restaurant. Your English adventure.",
+  "lang": "en",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "theme_color": "#254c42",
+  "background_color": "#f5efdf",
+  "icons": [
+    {
+      "src": "./app-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./app-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

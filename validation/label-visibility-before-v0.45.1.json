@@ -1,0 +1,370 @@
+{
+  "rows": [
+    {
+      "size": [
+        390,
+        844
+      ],
+      "task": {
+        "id": "g5u1d3",
+        "kind": "description",
+        "prompt": "You learn to move kings and queens on a board.",
+        "answer": "chess club",
+        "options": [
+          "chess club",
+          "art club",
+          "music club"
+        ],
+        "translation": "",
+        "readback": ""
+      },
+      "paper": {
+        "x": 32.5,
+        "y": 498.843994140625,
+        "width": 325,
+        "height": 257,
+        "top": 498.843994140625,
+        "right": 357.5,
+        "bottom": 755.843994140625,
+        "left": 32.5
+      },
+      "labels": [
+        {
+          "text": "art club",
+          "r": {
+            "x": 41.5,
+            "y": 585.359619140625,
+            "width": 151,
+            "height": 76,
+            "top": 585.359619140625,
+            "right": 192.5,
+            "bottom": 661.359619140625,
+            "left": 41.5
+          },
+          "hit": [
+            "SPAN#.label-text",
+            "BUTTON#.answer-button label-choice draggable-piece",
+            "DIV#.delivery-labels",
+            "DIV#.delivery-page"
+          ],
+          "display": "flex"
+        },
+        {
+          "text": "music club",
+          "r": {
+            "x": 197.5,
+            "y": 585.359619140625,
+            "width": 151,
+            "height": 76,
+            "top": 585.359619140625,
+            "right": 348.5,
+            "bottom": 661.359619140625,
+            "left": 197.5
+          },
+          "hit": [
+            "SPAN#.label-text",
+            "BUTTON#.answer-button label-choice draggable-piece",
+            "DIV#.delivery-labels",
+            "DIV#.delivery-page"
+          ],
+          "display": "flex"
+        },
+        {
+          "text": "chess club",
+          "r": {
+            "x": 41.5,
+            "y": 666.359619140625,
+            "width": 307,
+            "height": 76,
+            "top": 666.359619140625,
+            "right": 348.5,
+            "bottom": 742.359619140625,
+            "left": 41.5
+          },
+          "hit": [
+            "SPAN#.label-text",
+            "BUTTON#.answer-button label-choice draggable-piece",
+            "DIV#.delivery-labels",
+            "DIV#.delivery-page"
+          ],
+          "display": "flex"
+        }
+      ]
+    },
+    {
+      "size": [
+        320,
+        480
+      ],
+      "task": {
+        "id": "g5u1d3",
+        "kind": "description",
+        "prompt": "You learn to move kings and queens on a board.",
+        "answer": "chess club",
+        "options": [
+          "chess club",
+          "art club",
+          "music club"
+        ],
+        "translation": "",
+        "readback": ""
+      },
+      "paper": {
+        "x": 22.5,
+        "y": 200.98899841308594,
+        "width": 275,
+        "height": 195.00001525878906,
+        "top": 200.98899841308594,
+        "right": 297.5,
+        "bottom": 395.989013671875,
+        "left": 22.5
+      },
+      "labels": [
+        {
+          "text": "art club",
+          "r": {
+            "x": 31.5,
+            "y": 287.504638671875,
+            "width": 126,
+            "height": 47.234375,
+            "top": 287.504638671875,
+            "right": 157.5,
+            "bottom": 334.739013671875,
+            "left": 31.5
+          },
+          "hit": [
+            "SPAN#.label-text",
+            "BUTTON#.answer-button label-choice draggable-piece",
+            "DIV#.delivery-labels",
+            "DIV#.delivery-page"
+          ],
+          "display": "flex"
+        },
+        {
+          "text": "chess club",
+          "r": {
+            "x": 162.5,
+            "y": 287.504638671875,
+            "width": 126,
+            "height": 47.234375,
+            "top": 287.504638671875,
+            "right": 288.5,
+            "bottom": 334.739013671875,
+            "left": 162.5
+          },
+          "hit": [
+            "SPAN#.label-text",
+            "BUTTON#.answer-button label-choice draggable-piece",
+            "DIV#.delivery-labels",
+            "DIV#.delivery-page"
+          ],
+          "display": "flex"
+        },
+        {
+          "text": "music club",
+          "r": {
+            "x": 31.5,
+            "y": 339.739013671875,
+            "width": 257,
+            "height": 47.234375,
+            "top": 339.739013671875,
+            "right": 288.5,
+            "bottom": 386.973388671875,
+            "left": 31.5
+          },
+          "hit": [
+            "SPAN#.label-text",
+            "BUTTON#.answer-button label-choice draggable-piece",
+            "DIV#.delivery-labels",
+            "DIV#.delivery-page"
+          ],
+          "display": "flex"
+        }
+      ]
+    },
+    {
+      "size": [
+        568,
+        320
+      ],
+      "task": {
+        "id": "g5u1d3",
+        "kind": "description",
+        "prompt": "You learn to move kings and queens on a board.",
+        "answer": "chess club",
+        "options": [
+          "chess club",
+          "art club",
+          "music club"
+        ],
+        "translation": "",
+        "readback": ""
+      },
+      "paper": {
+        "x": 236.76400756835938,
+        "y": 78.98100280761719,
+        "width": 300.9999694824219,
+        "height": 176,
+        "top": 78.98100280761719,
+        "right": 537.7639770507812,
+        "bottom": 254.9810028076172,
+        "left": 236.76400756835938
+      },
+      "labels": [
+        {
+          "text": "chess club",
+          "r": {
+            "x": 245.76400756835938,
+            "y": 165.4966278076172,
+            "width": 91,
+            "height": 76,
+            "top": 165.4966278076172,
+            "right": 336.7640075683594,
+            "bottom": 241.4966278076172,
+            "left": 245.76400756835938
+          },
+          "hit": [
+            "SPAN#.label-text",
+            "BUTTON#.answer-button label-choice draggable-piece",
+            "DIV#.delivery-labels",
+            "DIV#.delivery-page"
+          ],
+          "display": "flex"
+        },
+        {
+          "text": "art club",
+          "r": {
+            "x": 341.7640075683594,
+            "y": 165.4966278076172,
+            "width": 91,
+            "height": 76,
+            "top": 165.4966278076172,
+            "right": 432.7640075683594,
+            "bottom": 241.4966278076172,
+            "left": 341.7640075683594
+          },
+          "hit": [
+            "SPAN#.label-text",
+            "BUTTON#.answer-button label-choice draggable-piece",
+            "DIV#.delivery-labels",
+            "DIV#.delivery-page"
+          ],
+          "display": "flex"
+        },
+        {
+          "text": "music club",
+          "r": {
+            "x": 245.76400756835938,
+            "y": 246.4966278076172,
+            "width": 282.9999694824219,
+            "height": 75.99998474121094,
+            "top": 246.4966278076172,
+            "right": 528.7639770507812,
+            "bottom": 322.4966125488281,
+            "left": 245.76400756835938
+          },
+          "hit": [
+            "CANVAS#.",
+            "DIV#world.",
+            "MAIN#app.",
+            "BODY#."
+          ],
+          "display": "flex"
+        }
+      ]
+    },
+    {
+      "size": [
+        1366,
+        768
+      ],
+      "task": {
+        "id": "g5u1d3",
+        "kind": "description",
+        "prompt": "You learn to move kings and queens on a board.",
+        "answer": "chess club",
+        "options": [
+          "chess club",
+          "art club",
+          "music club"
+        ],
+        "translation": "",
+        "readback": ""
+      },
+      "paper": {
+        "x": 383,
+        "y": 516.489990234375,
+        "width": 600,
+        "height": 154,
+        "top": 516.489990234375,
+        "right": 983,
+        "bottom": 670.489990234375,
+        "left": 383
+      },
+      "labels": [
+        {
+          "text": "chess club",
+          "r": {
+            "x": 393,
+            "y": 581.239990234375,
+            "width": 190,
+            "height": 76,
+            "top": 581.239990234375,
+            "right": 583,
+            "bottom": 657.239990234375,
+            "left": 393
+          },
+          "hit": [
+            "SPAN#.label-text",
+            "BUTTON#.answer-button label-choice draggable-piece",
+            "DIV#.delivery-labels",
+            "DIV#.delivery-page"
+          ],
+          "display": "flex"
+        },
+        {
+          "text": "music club",
+          "r": {
+            "x": 588,
+            "y": 581.239990234375,
+            "width": 190,
+            "height": 76,
+            "top": 581.239990234375,
+            "right": 778,
+            "bottom": 657.239990234375,
+            "left": 588
+          },
+          "hit": [
+            "SPAN#.label-text",
+            "BUTTON#.answer-button label-choice draggable-piece",
+            "DIV#.delivery-labels",
+            "DIV#.delivery-page"
+          ],
+          "display": "flex"
+        },
+        {
+          "text": "art club",
+          "r": {
+            "x": 393,
+            "y": 662.239990234375,
+            "width": 580,
+            "height": 76,
+            "top": 662.239990234375,
+            "right": 973,
+            "bottom": 738.239990234375,
+            "left": 393
+          },
+          "hit": [
+            "CANVAS#.",
+            "DIV#world.",
+            "MAIN#app.",
+            "BODY#."
+          ],
+          "display": "flex"
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "external": []
+}

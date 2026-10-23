@@ -1,0 +1,23 @@
+{
+  "version": "0.55.0",
+  "openingStorySkipAndFirstShift": true,
+  "phoneDockBounds": true,
+  "nativeCorrectIngredientPlacement": true,
+  "normalAndPreviewEntry": true,
+  "noQAHooks": true,
+  "noNetworkRequests": true,
+  "diagnostics": {
+    "samples": 6,
+    "frameMeanMs": 22.22,
+    "frameP95Ms": 33.3,
+    "quality": "lite",
+    "pixelRatio": 1.5,
+    "renderCalls": 69,
+    "renderTriangles": 55322,
+    "textures": 23,
+    "geometries": 129
+  },
+  "errors": [],
+  "bundleSHA256": "233a2ecb49131c2f5200b03b0714f67c028c1f92a278795923035af67fc814f1",
+  "physicalDeviceFPS": "Unmeasured"
+}

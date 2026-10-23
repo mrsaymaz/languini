@@ -1,0 +1,15 @@
+✔ first-use guidance saves separately and manual Help remains available after dismissal (3.298902ms)
+✔ pause and camera readiness protect guidance time; closing a task discards its message (0.583675ms)
+✔ repeated mistakes and successful recovery select distinct poses without changing scoring state (0.914246ms)
+✔ quiet mode suppresses automatic tips and reactions while permitting requested help (0.467934ms)
+✔ served milestones have a cooldown and do not backlog into the next task (1.398364ms)
+✔ blocked storage does not stop play and resetting tips restores first-use explanations (0.571107ms)
+✔ instruction and hint text follows real task types without supplying sentence answers (0.160408ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 90.660955

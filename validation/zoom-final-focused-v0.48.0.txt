@@ -1,0 +1,26 @@
+✔ desktop service fills the room at a scale close to the opening view without changing the angle (5.592782ms)
+✔ all desktop kitchen/table anchors clear the ticket rail and dock while the whole venue fits (4.010609ms)
+✔ phone/short-window, opening and non-kitchen frames exactly retain the previous release poses (3.438427ms)
+✔ recommendations alone can complete 48 services across modes, arenas, events and equipment (668.874286ms)
+✔ the destination badge and contextual primary button perform the same advertised action (5.958793ms)
+✔ tray, crate, plate and trolley advice stays attached to real destinations and order identities (2.885565ms)
+✔ blocked actions explain themselves until the player chooses a valid route (1.938399ms)
+✔ first-use tips learn only successful use, persist safely, and restore without changing progress (2.216056ms)
+✔ guidance and signs hide during English, side decisions, pause and terminal states (0.913806ms)
+✔ one badge stays inside the available playfield across phone sizes and safe side insets (0.435466ms)
+✔ free movement has finite footprint confirmation and does not alter English outcomes (0.851162ms)
+✔ scene signifiers point to the recommendation before any click and retain bounded geometry (423.983114ms)
+✔ zoom limits and pan clamps survive extreme input and return exactly to the default framing (7.159751ms)
+✔ zoom keeps the room centre fixed while pan follows the drag direction (0.579703ms)
+✔ camera controls cannot change story, setup, protected tasks, pause or arrival flights (0.362456ms)
+✔ activity markers are read-only, follow order destinations, and disappear during protected time (7.745683ms)
+✔ off-screen marks aggregate counts, retain urgency and clear as soon as their source is visible (0.729188ms)
+✔ real pointer handlers separate taps, drags, pinches, cancelled and distant releases (3.588754ms)
+ℹ tests 18
+ℹ suites 0
+ℹ pass 18
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1324.617768

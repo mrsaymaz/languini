@@ -1,0 +1,26 @@
+✔ food motion profiles distinguish liquids, leaves, toppings and layered meals across all nine dishes (1.639511ms)
+✔ broth fills the vessel under a timed stream instead of flying as a solid disc (396.589303ms)
+✔ salad leaves and crunchy toppings tumble individually in bounded shared-geometry batches (271.445799ms)
+✔ sandwich layers settle gently and a completed sentence gets one short vessel-local flourish (261.49674ms)
+✔ six quick placements finish once without blocking other blocks or duplicating final layers (267.360593ms)
+✔ rotation restoration and reduced motion settle immediately without replaying celebration (283.603757ms)
+✔ chef stride moves independent legs while carrying keeps both hands steady and reduced motion settles (641.000768ms)
+✔ station lighting narrows its shadow view and restores the arena overview without new shadow lights (352.540578ms)
+✔ angled preparation grips tools while keeping recipe and sentence ink clear at small portrait and landscape sizes (1565.65548ms)
+✔ completed preparation retains the exact food geometry used for serving all nine dishes (549.253156ms)
+✔ served meal moves from the actual tray to the table, pauses and settles without modifying the game (313.872634ms)
+✔ station, arena, shop and ticket controls resolve to one complete semantic icon family (2.561951ms)
+✔ particle feedback remains bounded after repeated actions, clears on reduced motion and releases its resources (8.676792ms)
+✔ real preparation emits crumbs for bread and steam for hot broth, with silent restoration (475.873459ms)
+✔ delivery approval seal stamps once and remains fully formed on restored packages (287.391574ms)
+✔ station feedback freezes during pause and overview steam follows real hot cooking jobs (328.057319ms)
+✔ all arena renovation stages add visible structure within the room and exterior mesh budgets (3407.845853ms)
+✔ fully upgraded warming equipment leaves ticket and receipt ink clear across arenas and viewports (1458.174938ms)
+ℹ tests 18
+ℹ suites 0
+ℹ pass 18
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 11516.278411

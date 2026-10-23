@@ -1,0 +1,98 @@
+[
+  {
+    "asset": "assets/branding/chefs-seal-logo-240.webp",
+    "dimensions": [
+      240,
+      156
+    ],
+    "bytes": 14154,
+    "source": "artwork/branding/chefs-seal-logo.png",
+    "sourceBytes": 2074858,
+    "alphaPreserved": true
+  },
+  {
+    "asset": "assets/branding/chefs-seal-logo-480.webp",
+    "dimensions": [
+      480,
+      311
+    ],
+    "bytes": 36500,
+    "source": "artwork/branding/chefs-seal-logo.png",
+    "sourceBytes": 2074858,
+    "alphaPreserved": true
+  },
+  {
+    "asset": "assets/branding/chefs-seal-logo-768.webp",
+    "dimensions": [
+      768,
+      498
+    ],
+    "bytes": 71866,
+    "source": "artwork/branding/chefs-seal-logo.png",
+    "sourceBytes": 2074858,
+    "alphaPreserved": true
+  },
+  {
+    "asset": "assets/branding/chefs-seal-emblem-64.webp",
+    "dimensions": [
+      64,
+      64
+    ],
+    "bytes": 3506,
+    "source": "artwork/branding/chefs-seal-emblem.png",
+    "sourceBytes": 2229650,
+    "alphaPreserved": true
+  },
+  {
+    "asset": "assets/branding/chefs-seal-emblem-128.webp",
+    "dimensions": [
+      128,
+      128
+    ],
+    "bytes": 8392,
+    "source": "artwork/branding/chefs-seal-emblem.png",
+    "sourceBytes": 2229650,
+    "alphaPreserved": true
+  },
+  {
+    "asset": "favicon-32.png",
+    "dimensions": [
+      32,
+      32
+    ],
+    "bytes": 3080,
+    "alphaPreserved": true
+  },
+  {
+    "asset": "apple-touch-icon.png",
+    "dimensions": [
+      180,
+      180
+    ],
+    "bytes": 58748,
+    "alphaPreserved": true
+  },
+  {
+    "asset": "app-icon-192.png",
+    "dimensions": [
+      192,
+      192
+    ],
+    "bytes": 65764,
+    "alphaPreserved": true
+  },
+  {
+    "asset": "app-icon-512.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "bytes": 394253,
+    "alphaPreserved": true
+  },
+  {
+    "asset": "favicon.ico",
+    "bytes": 20280,
+    "alphaPreserved": true
+  }
+]

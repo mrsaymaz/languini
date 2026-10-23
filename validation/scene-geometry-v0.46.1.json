@@ -1,0 +1,48 @@
+{
+  "version": "0.46.1",
+  "method": "CPU traversal, includes hidden objects and instance-expanded triangles. Not GPU calls or physical-device FPS.",
+  "scenes": [
+    {
+      "arena": "courtyard",
+      "upgraded": false,
+      "meshObjects": 247,
+      "triangles": 195906,
+      "rainSegments": 0
+    },
+    {
+      "arena": "courtyard",
+      "upgraded": true,
+      "meshObjects": 286,
+      "triangles": 227386,
+      "rainSegments": 240
+    },
+    {
+      "arena": "bistro",
+      "upgraded": false,
+      "meshObjects": 278,
+      "triangles": 222382,
+      "rainSegments": 0
+    },
+    {
+      "arena": "bistro",
+      "upgraded": true,
+      "meshObjects": 318,
+      "triangles": 255214,
+      "rainSegments": 240
+    },
+    {
+      "arena": "banquet",
+      "upgraded": false,
+      "meshObjects": 308,
+      "triangles": 249106,
+      "rainSegments": 0
+    },
+    {
+      "arena": "banquet",
+      "upgraded": true,
+      "meshObjects": 348,
+      "triangles": 282714,
+      "rainSegments": 240
+    }
+  ]
+}

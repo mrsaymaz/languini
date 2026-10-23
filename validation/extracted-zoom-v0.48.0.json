@@ -1,0 +1,17 @@
+{
+  "version": "0.48.0",
+  "actualExtractedFileOrigin": true,
+  "noQAHooks": true,
+  "desktop1366": true,
+  "nativeDesktopZoomWheelAndReset": true,
+  "nativePhoneCameraToggleAndQuickReset": true,
+  "nativeOrderTicketWalkAndTask": true,
+  "nativeEnglishTaskCompleted": "matching",
+  "returnedToServiceOverview": true,
+  "portrait390Resize": true,
+  "nativePauseQuit": true,
+  "ultiUnchanged": true,
+  "errors": [],
+  "externalRequests": [],
+  "bundleSha256": "2f52f5b4db03890099990dd70bb88bc4177857f8e5c4e84d6b96dd91bb046486"
+}

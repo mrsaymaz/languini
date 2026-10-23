@@ -1,0 +1,23 @@
+[
+  {
+    "arena": "courtyard",
+    "upgraded": false,
+    "meshObjects": 250,
+    "triangles": 195906,
+    "rainSegments": 0
+  },
+  {
+    "arena": "bistro",
+    "upgraded": false,
+    "meshObjects": 281,
+    "triangles": 222382,
+    "rainSegments": 0
+  },
+  {
+    "arena": "banquet",
+    "upgraded": false,
+    "meshObjects": 312,
+    "triangles": 249106,
+    "rainSegments": 0
+  }
+]

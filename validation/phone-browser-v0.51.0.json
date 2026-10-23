@@ -1,0 +1,104 @@
+{
+  "version": "0.51.0",
+  "cases": [
+    {
+      "lightTierHasAAAndEnvironment": true,
+      "dpr": 3,
+      "internalPixelRatio": 1.5
+    },
+    {
+      "nativeFingerBelowRimAccepted": true,
+      "headerMissReturnsWithoutPenalty": true
+    },
+    {
+      "recipe": true,
+      "w": 393,
+      "h": 680,
+      "six": false,
+      "plateWidth": 245.00001525878906,
+      "meaningHeight": 42,
+      "blocks": 3
+    },
+    {
+      "recipe": true,
+      "w": 315,
+      "h": 545,
+      "six": true,
+      "plateWidth": 152.59375,
+      "meaningHeight": 54.29689025878906,
+      "blocks": 6
+    },
+    {
+      "recipe": true,
+      "w": 320,
+      "h": 480,
+      "six": true,
+      "plateWidth": 106.79688262939453,
+      "meaningHeight": 54.1875,
+      "blocks": 6
+    },
+    {
+      "recipe": true,
+      "w": 390,
+      "h": 740,
+      "six": true,
+      "plateWidth": 264.796875,
+      "meaningHeight": 54.296875,
+      "blocks": 6
+    },
+    {
+      "recipe": true,
+      "w": 844,
+      "h": 390,
+      "six": false,
+      "plateWidth": 89.890625,
+      "meaningHeight": 173.09375,
+      "blocks": 3
+    },
+    {
+      "conversation": true,
+      "w": 393,
+      "h": 680,
+      "questionWidth": 299.875
+    },
+    {
+      "conversation": true,
+      "w": 315,
+      "h": 545,
+      "questionWidth": 244.4375
+    },
+    {
+      "conversation": true,
+      "w": 320,
+      "h": 480,
+      "questionWidth": 248.625
+    },
+    {
+      "conversation": true,
+      "w": 844,
+      "h": 390,
+      "questionWidth": 187.1875
+    },
+    {
+      "overviewBadges": [
+        "order:1",
+        "order:0",
+        "sink"
+      ],
+      "touchTargets": true
+    },
+    {
+      "nativeWorldBadgeOpenedCorrectPrep": true
+    },
+    {
+      "reviewWidth": 148,
+      "reviewHeight": 140,
+      "footerInside": true
+    },
+    {
+      "washingNativeTap": true
+    }
+  ],
+  "errors": [],
+  "method": "Actual app source with scratch-only scenario hooks; native taps, high-DPR phone emulation, forced 4-core Light tier, actual WebGL antialias/environment checks. Chromium software WebGL; not a physical iPhone or Safari performance claim."
+}

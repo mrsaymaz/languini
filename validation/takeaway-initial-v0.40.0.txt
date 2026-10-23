@@ -1,0 +1,46 @@
+✔ recommendations alone can complete 48 services across modes, arenas, events and equipment (1891.230857ms)
+✔ the destination badge and contextual primary button perform the same advertised action (14.0815ms)
+✔ tray, crate, plate and trolley advice stays attached to real destinations and order identities (6.073043ms)
+✔ blocked actions explain themselves until the player chooses a valid route (2.591634ms)
+✔ first-use tips learn only successful use, persist safely, and restore without changing progress (4.050594ms)
+✔ guidance and signs hide during English, side decisions, pause and terminal states (1.674384ms)
+✔ one badge stays inside the available playfield across phone sizes and safe side insets (1.153258ms)
+✔ free movement has finite footprint confirmation and does not alter English outcomes (1.48647ms)
+✔ scene signifiers point to the recommendation before any click and retain bounded geometry (1073.185723ms)
+✔ live kitchens complete 264 grade/unit/difficulty/arena services with plate conservation (6037.01186ms)
+✔ all four events work in 72 live equipment/arena/difficulty combinations (1052.116591ms)
+✔ navigation reaches every station and guest while avoiding tables and furniture (12.576547ms)
+✔ movement consumes the full frame budget and stays consistent across step sizes (3.575345ms)
+✔ an order requires walking and explicit station choices, with protected learning time (3.99819ms)
+✔ prepared trays occupy hands and can be held on the counter without duplicating cooking (0.891379ms)
+✔ supply rewards and stock commit only when the carried crate reaches Pantry (1.539146ms)
+✔ washing is a timed batch, pauses safely and conserves serving dishes (1.473107ms)
+✔ a trolley commits two physical destinations and credits each handoff once (4.053715ms)
+✔ side requests can restock through the live kitchen and resume the same offer (1.106199ms)
+✔ ticket buttons drive travel through the visible HUD control (9.800119ms)
+✔ the live renderer follows simulated position and displays the real held load (435.34883ms)
+✔ the visible Pass action loads both shared-table meals onto the trolley (1.711943ms)
+✔ an invalidated delivery cannot credit a replacement order or strand the route (1.684476ms)
+✔ every matching menu stays inside its original unit and rotates all supported modes (238.580618ms)
+✔ matching gates order completion, prevents duplicate rewards and keeps mistakes recoverable (7.805127ms)
+✔ preview opens each menu mode directly and missing pictures never cross unit coverage (4.902822ms)
+✔ matching cards preserve complete labels, independently ordered columns and image fallbacks (3.503623ms)
+✔ physical matching tablet mirrors pair state and stays visible behind every customer table (2560.70163ms)
+✔ all shipped Fluent artwork is traceable, optimized and covered by the included Microsoft license (70.358245ms)
+✔ pair interaction gives a brief silent reaction before accepting another pair (182.597145ms)
+✔ every venue keeps a clear central spine and all actual service approaches are reachable (48.73993ms)
+✔ all portrait overview cameras use the approved 60 degree pitch and 15 degree yaw (4.474936ms)
+✔ moving the prep counter preserves the close-up board, papers, plate and native surface size (2426.084935ms)
+✔ tall kitchen fixtures cut away for work and restore when the station closes (539.454235ms)
+✔ every unit supports 3/6/9 washing plates, using reviewed sentences and one physical batch commit (746.890342ms)
+✔ venue routes and assessed steps rise while keeping three preparation phases (1.246229ms)
+✔ Bistro menu, ticket and checkout require two separate assessments without advancing or rewarding the first (4.758385ms)
+✔ delivery needs 1/2/3 labels and pays/restocks only after the final correct parcel (3.317764ms)
+ℹ tests 38
+ℹ suites 0
+ℹ pass 38
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 8135.498593

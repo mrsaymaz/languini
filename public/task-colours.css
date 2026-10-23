@@ -1,0 +1,31 @@
+/* Stable job ownership; correctness keeps its own cues and reading stays neutral. */
+#kitchen-hud .kitchen-ticket[data-task-identity]{border-top-color:var(--job-accent);border-left:4px solid var(--job-accent);background:linear-gradient(#fffdf5,var(--job-tint));color:#34473e}
+#kitchen-hud .kitchen-ticket[data-task-identity][aria-pressed=true],#kitchen-hud .kitchen-ticket[data-task-identity][data-recommended=true]{outline-color:var(--job-accent)}
+#kitchen-hud .ticket-identity{color:var(--job-accent);font-weight:900}
+#kitchen-hud .kitchen-destination[data-task-identity]{border-color:var(--job-accent);background:var(--job-tint);color:var(--job-accent)}
+#kitchen-hud .kitchen-destination .destination-icon{background:#fffaf0}
+#kitchen-hud .kitchen-leader path{stroke:var(--job-accent)}
+#kitchen-hud .kitchen-dock button[data-task-identity]{position:relative;border-color:var(--job-accent);background:var(--job-tint);color:var(--job-accent)}
+#kitchen-hud .kitchen-dock button[data-kitchen=work]{background:var(--job-accent);color:#fffdf5}
+#kitchen-hud .kitchen-dock .job-token{position:absolute;right:4px;top:3px;font-size:8px}
+#kitchen-hud[data-simple=false] .kitchen-dock button:is([data-task-identity=wash],[data-task-identity=supplies])>.job-token{display:none!important}
+.job-token{display:inline-block!important;min-height:0!important;min-width:18px;width:max-content;max-width:100%;padding:1px 3px;border:1px solid currentColor;border-radius:4px;font:800 9px/1.1 var(--sans);letter-spacing:0;white-space:nowrap}
+#kitchen-hud[data-simple=true] .kitchen-dock .job-token{position:static;font-size:11px;min-width:28px;padding:3px 5px}
+#kitchen-hud .kitchen-world-actions button[data-task-identity]{border-color:var(--job-accent);color:var(--job-accent);background:var(--job-tint)}
+#kitchen-hud .kitchen-world-actions [data-primary=true]{box-shadow:0 0 0 3px #f6e1a380,0 3px 8px #294d3433;border-width:2px}
+#kitchen-hud[data-simple=true] .kitchen-world-actions button[data-task-identity][data-primary=true]{border-color:var(--job-accent);background:var(--job-tint);color:var(--job-accent)}
+#kitchen-hud .kitchen-world-actions .job-copy{display:flex;flex-direction:column;align-items:center;gap:2px;min-width:0}
+#kitchen-hud .kitchen-world-actions .job-copy b{font:inherit;white-space:normal}
+#kitchen-hud .kitchen-world-actions .job-token{font-size:8px}
+#kitchen-hud .kitchen-carry[data-task-identity]{border-left:4px solid var(--job-accent);color:var(--job-accent);background:#fff9ed}
+#kitchen-hud .overview-markers button[data-task-identity]{border-color:var(--job-accent);color:var(--job-accent);background:var(--job-tint)}
+#task-card.object-ui[data-task-identity] .table-token{background:var(--job-accent);color:#fffdf5;border-color:#fff1cf;box-shadow:0 2px 0 #4a4b3533}
+#task-card.object-ui[data-task-identity] .station-route i.current{background:var(--job-accent);color:#fffdf5}
+#task-card.object-ui[data-task-identity] .recipe-note-ink{box-shadow:inset 0 3px var(--job-accent)}
+#task-card.object-ui[data-task-identity] .printed-ticket-heading,#task-card.object-ui[data-task-identity] .tablet-topline,#task-card.object-ui[data-task-identity] .paper-heading{border-bottom-color:var(--job-accent)}
+.table-label[data-task-identity],#delivery-button[data-task-identity]{border-color:var(--job-accent);background:var(--job-tint);color:var(--job-accent)}
+#task-card.object-ui[data-task-identity] .station-status>span:last-child{border-left-color:var(--job-accent)}
+#task-card.object-ui[data-task-identity] .station-mark{border-color:var(--job-accent);background:var(--job-accent);color:#fffdf5}
+#task-card.object-ui[data-task-identity] .table-token small{color:inherit}
+#task-card.object-ui[data-task-identity] .station-status .table-token{display:grid}
+@media(max-width:759px){#task-card.object-ui[data-task-identity] .station-status>span:last-child{grid-column:4;min-width:0}}

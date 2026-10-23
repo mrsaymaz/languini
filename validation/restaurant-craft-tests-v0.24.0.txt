@@ -1,0 +1,29 @@
+✔ voice personas distinguish female/male vendor names and leave generic voices unknown (3.227507ms)
+✔ customer selection prefers US gender, stable distinct personas, local voices and graceful fallback (13.884194ms)
+✔ male customers stay American and avoid novelty and legacy rotation when US alternatives exist (3.256329ms)
+✔ late voice discovery uses the requested US customer voice and waits for speech to finish (1.099514ms)
+✔ cancelling voice discovery removes the listener and prevents stale speech (380.213765ms)
+✔ an empty voice catalogue has a bounded fallback instead of blocking the task (381.056843ms)
+✔ male speech never uses Fred or a non-American browser default when US male voices are missing (0.641544ms)
+✔ station speech follows the actual table guest, restores its voice and keeps shared tasks neutral (0.666501ms)
+✔ baked form shading preserves every vertex, normal, UV and index used for picking (11.213904ms)
+✔ the studio environment is a bounded local texture with no asset URL or per-frame work (5.734612ms)
+✔ all three restaurants retain the mesh budget and complete shading after material batching (752.678333ms)
+✔ paper packaging uses shared matte finishes instead of ceramic gloss or wooden grain (227.337069ms)
+✔ refined dishes keep their finite scale and use folded leaves and open curved pasta (211.12115ms)
+✔ Light mode removes studio reflections while Detailed reuses the same environment (2.760732ms)
+✔ station, arena, shop and ticket controls resolve to one complete semantic icon family (2.121351ms)
+✔ particle feedback remains bounded after repeated actions, clears on reduced motion and releases its resources (7.157575ms)
+✔ real preparation emits crumbs for bread and steam for hot broth, with silent restoration (344.754499ms)
+✔ delivery approval seal stamps once and remains fully formed on restored packages (233.023757ms)
+✔ station feedback freezes during pause and overview steam follows real hot cooking jobs (321.151975ms)
+✔ all arena renovation stages add visible structure without exceeding existing mesh budgets (3260.454759ms)
+✔ fully upgraded warming equipment leaves ticket and receipt ink clear across arenas and viewports (1856.405579ms)
+ℹ tests 21
+ℹ suites 0
+ℹ pass 21
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 8527.972534

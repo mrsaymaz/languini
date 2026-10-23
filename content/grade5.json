@@ -1,0 +1,4663 @@
+{
+  "grade": 5,
+  "cefr": "A1",
+  "units": [
+    {
+      "id": "g5u1",
+      "title": "School Life",
+      "source": "maarif",
+      "targetLanguage": [
+        "I am / She is / They are",
+        "must / mustn't + base verb",
+        "like / likes + -ing",
+        "Who / Where + be?"
+      ],
+      "categories": [
+        {
+          "id": "g5u1c1",
+          "title": "SCHOOL PEOPLE",
+          "yes": [
+            "headteacher",
+            "secretary",
+            "coach",
+            "pupil",
+            "teacher",
+            "assistant",
+            "librarian",
+            "classmate",
+            "helper",
+            "visitor"
+          ],
+          "no": [
+            "apple",
+            "banana",
+            "pear",
+            "peach",
+            "carrot",
+            "onion",
+            "potato",
+            "cheese",
+            "bread",
+            "rice"
+          ]
+        },
+        {
+          "id": "g5u1c2",
+          "title": "SCHOOL CLUBS",
+          "yes": [
+            "drama",
+            "music",
+            "chess",
+            "science",
+            "art",
+            "sports",
+            "reading",
+            "dance",
+            "robotics",
+            "gardening"
+          ],
+          "no": [
+            "cat",
+            "dog",
+            "rabbit",
+            "horse",
+            "sheep",
+            "cow",
+            "duck",
+            "goat",
+            "zebra",
+            "tiger"
+          ]
+        }
+      ],
+      "descriptions": [
+        {
+          "id": "g5u1d1",
+          "clue": "The person who leads a school.",
+          "options": [
+            "secretary",
+            "coach",
+            "headteacher"
+          ],
+          "answer": "headteacher"
+        },
+        {
+          "id": "g5u1d2",
+          "clue": "A person who helps with office work.",
+          "options": [
+            "headteacher",
+            "coach",
+            "secretary"
+          ],
+          "answer": "secretary"
+        },
+        {
+          "id": "g5u1d3",
+          "clue": "A person who teaches a sport.",
+          "options": [
+            "coach",
+            "secretary",
+            "headteacher"
+          ],
+          "answer": "coach"
+        },
+        {
+          "id": "g5u1d4",
+          "clue": "A place with books to read or borrow.",
+          "options": [
+            "canteen",
+            "library",
+            "lab"
+          ],
+          "answer": "library"
+        },
+        {
+          "id": "g5u1d5",
+          "clue": "A room for science work.",
+          "options": [
+            "lab",
+            "library",
+            "canteen"
+          ],
+          "answer": "lab"
+        },
+        {
+          "id": "g5u1d6",
+          "clue": "A place to buy food at school.",
+          "options": [
+            "canteen",
+            "library",
+            "lab"
+          ],
+          "answer": "canteen"
+        }
+      ],
+      "pictures": [
+        {
+          "id": "g5u1p1",
+          "word": "headteacher",
+          "drawing": "adult holding a school key beside a school building"
+        },
+        {
+          "id": "g5u1p2",
+          "word": "secretary",
+          "drawing": "adult sitting at a desk with a telephone"
+        },
+        {
+          "id": "g5u1p3",
+          "word": "coach",
+          "drawing": "adult wearing a whistle and holding a ball"
+        },
+        {
+          "id": "g5u1p4",
+          "word": "pupil",
+          "drawing": "child wearing a backpack and holding a book"
+        },
+        {
+          "id": "g5u1p5",
+          "word": "library",
+          "drawing": "building with an open book sign above the entrance"
+        },
+        {
+          "id": "g5u1p6",
+          "word": "lab",
+          "drawing": "room with a bench and two test tubes"
+        },
+        {
+          "id": "g5u1p7",
+          "word": "canteen",
+          "drawing": "school counter with trays and a plate of food"
+        },
+        {
+          "id": "g5u1p8",
+          "word": "gate",
+          "drawing": "two open metal gates between brick posts"
+        },
+        {
+          "id": "g5u1p9",
+          "word": "uniform",
+          "drawing": "plain school shirt and trousers on a hanger"
+        }
+      ],
+      "questions": [
+        {
+          "id": "g5u1q1",
+          "q": "Who leads the school?",
+          "a": "The headteacher leads it."
+        },
+        {
+          "id": "g5u1q2",
+          "q": "Where can pupils borrow books?",
+          "a": "In the school library."
+        },
+        {
+          "id": "g5u1q3",
+          "q": "What do pupils wear at school?",
+          "a": "They wear a school uniform."
+        },
+        {
+          "id": "g5u1q4",
+          "q": "Which club is for acting?",
+          "a": "The drama club is for acting."
+        },
+        {
+          "id": "g5u1q5",
+          "q": "What must we do in the library?",
+          "a": "We must keep quiet there."
+        },
+        {
+          "id": "g5u1q6",
+          "q": "Where is Ankara?",
+          "a": "It is in Türkiye."
+        },
+        {
+          "id": "g5u1q7",
+          "q": "What does a school coach teach?",
+          "a": "A school coach teaches sport."
+        },
+        {
+          "id": "g5u1q8",
+          "q": "Which club is for playing chess?",
+          "a": "The chess club is for that."
+        },
+        {
+          "id": "g5u1q9",
+          "q": "What must pupils do at the gate?",
+          "a": "They must walk through the gate."
+        }
+      ],
+      "completions": [
+        {
+          "id": "g5u1h1",
+          "start": "Our coach…",
+          "end": "…is in the sports club.",
+          "wrongEndings": [
+            "g5u1h2",
+            "g5u1h3"
+          ]
+        },
+        {
+          "id": "g5u1h2",
+          "start": "The new pupils…",
+          "end": "…are ready for the school show.",
+          "wrongEndings": [
+            "g5u1h1",
+            "g5u1h5"
+          ]
+        },
+        {
+          "id": "g5u1h3",
+          "start": "A pupil must…",
+          "end": "…follow the school rules.",
+          "wrongEndings": [
+            "g5u1h1",
+            "g5u1h2"
+          ]
+        },
+        {
+          "id": "g5u1h4",
+          "start": "Can we…",
+          "end": "…join the music club?",
+          "wrongEndings": [
+            "g5u1h1",
+            "g5u1h2"
+          ]
+        },
+        {
+          "id": "g5u1h5",
+          "start": "There is…",
+          "end": "…a flag beside the school gate.",
+          "wrongEndings": [
+            "g5u1h1",
+            "g5u1h2"
+          ]
+        },
+        {
+          "id": "g5u1h6",
+          "start": "There are…",
+          "end": "…two visitors in the lab.",
+          "wrongEndings": [
+            "g5u1h1",
+            "g5u1h2"
+          ]
+        },
+        {
+          "id": "g5u1h7",
+          "start": "We must not…",
+          "end": "…shout in the library.",
+          "wrongEndings": [
+            "g5u1h1",
+            "g5u1h2"
+          ]
+        },
+        {
+          "id": "g5u1h8",
+          "start": "Where is…",
+          "end": "…the new school secretary?",
+          "wrongEndings": [
+            "g5u1h1",
+            "g5u1h2"
+          ]
+        },
+        {
+          "id": "g5u1h9",
+          "start": "Does Elif…",
+          "end": "…like the drama club?",
+          "wrongEndings": [
+            "g5u1h1",
+            "g5u1h2"
+          ]
+        }
+      ],
+      "sentences": [
+        {
+          "id": "g5u1s1",
+          "blocks": [
+            "Our teacher",
+            "likes",
+            "this school."
+          ],
+          "difficulty": 1,
+          "tr": "Öğretmenimiz bu okulu seviyor."
+        },
+        {
+          "id": "g5u1s2",
+          "blocks": [
+            "The coach",
+            "is",
+            "very helpful."
+          ],
+          "difficulty": 1,
+          "tr": "Antrenör çok yardımsever."
+        },
+        {
+          "id": "g5u1s3",
+          "blocks": [
+            "We",
+            "must follow",
+            "the rules."
+          ],
+          "difficulty": 1,
+          "tr": "Kurallara uymalıyız."
+        },
+        {
+          "id": "g5u1s4",
+          "blocks": [
+            "Elif",
+            "likes",
+            "the",
+            "music club."
+          ],
+          "difficulty": 2,
+          "tr": "Elif müzik kulübünü seviyor."
+        },
+        {
+          "id": "g5u1s5",
+          "blocks": [
+            "The pupil",
+            "has got",
+            "a blue",
+            "uniform."
+          ],
+          "difficulty": 2,
+          "tr": "Öğrencinin mavi bir üniforması var."
+        },
+        {
+          "id": "g5u1s6",
+          "blocks": [
+            "My classmate",
+            "is",
+            "a helpful",
+            "person."
+          ],
+          "difficulty": 2,
+          "tr": "Sınıf arkadaşım yardımsever bir insan."
+        },
+        {
+          "id": "g5u1s7",
+          "blocks": [
+            "This visitor",
+            "is",
+            "our new",
+            "coach."
+          ],
+          "difficulty": 2,
+          "tr": "Bu ziyaretçi bizim yeni antrenörümüz."
+        },
+        {
+          "id": "g5u1s8",
+          "blocks": [
+            "Can you",
+            "open",
+            "the blue",
+            "gate?"
+          ],
+          "difficulty": 2,
+          "tr": "Kapıyı açabilir misin?"
+        },
+        {
+          "id": "g5u1s9",
+          "blocks": [
+            "Our secretary",
+            "has got",
+            "a photo",
+            "of",
+            "our school."
+          ],
+          "difficulty": 2,
+          "tr": "Sekreterimizin okulumuzun bir fotoğrafı var."
+        },
+        {
+          "id": "g5u1s10",
+          "blocks": [
+            "This",
+            "is",
+            "the name",
+            "of",
+            "our club."
+          ],
+          "difficulty": 2,
+          "tr": "Bu, kulübümüzün adı."
+        }
+      ],
+      "translations": [
+        {
+          "id": "g5u1t1",
+          "en": "headteacher",
+          "tr": "okul müdürü"
+        },
+        {
+          "id": "g5u1t2",
+          "en": "secretary",
+          "tr": "sekreter"
+        },
+        {
+          "id": "g5u1t3",
+          "en": "coach",
+          "tr": "antrenör"
+        },
+        {
+          "id": "g5u1t4",
+          "en": "pupil",
+          "tr": "öğrenci"
+        },
+        {
+          "id": "g5u1t5",
+          "en": "library",
+          "tr": "kütüphane"
+        },
+        {
+          "id": "g5u1t6",
+          "en": "lab",
+          "tr": "laboratuvar"
+        },
+        {
+          "id": "g5u1t7",
+          "en": "canteen",
+          "tr": "kantin"
+        },
+        {
+          "id": "g5u1t8",
+          "en": "gate",
+          "tr": "kapı"
+        },
+        {
+          "id": "g5u1t9",
+          "en": "uniform",
+          "tr": "üniforma"
+        }
+      ]
+    },
+    {
+      "id": "g5u2",
+      "title": "Classroom Life",
+      "source": "maarif",
+      "targetLanguage": [
+        "present simple: school routines",
+        "there is / there are",
+        "What time is it? / at + clock time",
+        "classroom instructions"
+      ],
+      "categories": [
+        {
+          "id": "g5u2c1",
+          "title": "CLASSROOM OBJECTS",
+          "yes": [
+            "ruler",
+            "notebook",
+            "eraser",
+            "scissors",
+            "glue",
+            "desk",
+            "pencil",
+            "pen",
+            "board",
+            "clock"
+          ],
+          "no": [
+            "cat",
+            "dog",
+            "rabbit",
+            "horse",
+            "sheep",
+            "cow",
+            "duck",
+            "goat",
+            "zebra",
+            "tiger"
+          ]
+        },
+        {
+          "id": "g5u2c2",
+          "title": "SCHOOL SUBJECTS",
+          "yes": [
+            "English",
+            "maths",
+            "science",
+            "art",
+            "music",
+            "PE",
+            "history",
+            "geography",
+            "ICT",
+            "Turkish"
+          ],
+          "no": [
+            "apple",
+            "banana",
+            "pear",
+            "peach",
+            "carrot",
+            "onion",
+            "potato",
+            "cheese",
+            "bread",
+            "rice"
+          ]
+        }
+      ],
+      "descriptions": [
+        {
+          "id": "g5u2d1",
+          "clue": "A tool for measuring or drawing straight lines.",
+          "options": [
+            "ruler",
+            "scissors",
+            "eraser"
+          ],
+          "answer": "ruler"
+        },
+        {
+          "id": "g5u2d2",
+          "clue": "A small object that removes pencil marks.",
+          "options": [
+            "ruler",
+            "scissors",
+            "eraser"
+          ],
+          "answer": "eraser"
+        },
+        {
+          "id": "g5u2d3",
+          "clue": "A tool for cutting paper.",
+          "options": [
+            "ruler",
+            "scissors",
+            "eraser"
+          ],
+          "answer": "scissors"
+        },
+        {
+          "id": "g5u2d4",
+          "clue": "A book for writing notes.",
+          "options": [
+            "glue",
+            "clock",
+            "notebook"
+          ],
+          "answer": "notebook"
+        },
+        {
+          "id": "g5u2d5",
+          "clue": "An object that shows the time.",
+          "options": [
+            "notebook",
+            "glue",
+            "clock"
+          ],
+          "answer": "clock"
+        },
+        {
+          "id": "g5u2d6",
+          "clue": "A sticky material that joins things.",
+          "options": [
+            "notebook",
+            "glue",
+            "clock"
+          ],
+          "answer": "glue"
+        }
+      ],
+      "pictures": [
+        {
+          "id": "g5u2p1",
+          "word": "ruler",
+          "drawing": "yellow ruler with black measurement marks"
+        },
+        {
+          "id": "g5u2p2",
+          "word": "notebook",
+          "drawing": "spiral notebook open at a lined page"
+        },
+        {
+          "id": "g5u2p3",
+          "word": "eraser",
+          "drawing": "pink and blue rubber eraser"
+        },
+        {
+          "id": "g5u2p4",
+          "word": "scissors",
+          "drawing": "closed school scissors with rounded tips"
+        },
+        {
+          "id": "g5u2p5",
+          "word": "glue",
+          "drawing": "white glue bottle with an orange cap"
+        },
+        {
+          "id": "g5u2p6",
+          "word": "desk",
+          "drawing": "wooden school desk with a small drawer"
+        },
+        {
+          "id": "g5u2p7",
+          "word": "pencil",
+          "drawing": "yellow pencil with a sharpened graphite point"
+        },
+        {
+          "id": "g5u2p8",
+          "word": "pen",
+          "drawing": "blue pen with its cap beside it"
+        },
+        {
+          "id": "g5u2p9",
+          "word": "board",
+          "drawing": "green classroom board with a white chalk line"
+        }
+      ],
+      "questions": [
+        {
+          "id": "g5u2q1",
+          "q": "What do you use to draw straight lines?",
+          "a": "I draw straight lines with it."
+        },
+        {
+          "id": "g5u2q2",
+          "q": "What removes pencil marks?",
+          "a": "An eraser removes them."
+        },
+        {
+          "id": "g5u2q3",
+          "q": "Where do you write your class notes?",
+          "a": "I write them in my notebook."
+        },
+        {
+          "id": "g5u2q4",
+          "q": "What time is half past nine?",
+          "a": "It is nine thirty."
+        },
+        {
+          "id": "g5u2q5",
+          "q": "Which day comes after Monday?",
+          "a": "Tuesday comes after Monday."
+        },
+        {
+          "id": "g5u2q6",
+          "q": "What cuts paper?",
+          "a": "Scissors cut paper."
+        },
+        {
+          "id": "g5u2q7",
+          "q": "What sticks paper together?",
+          "a": "Glue sticks paper together."
+        },
+        {
+          "id": "g5u2q8",
+          "q": "What does a timetable show?",
+          "a": "It shows lesson times."
+        },
+        {
+          "id": "g5u2q9",
+          "q": "What do you say to borrow a pen?",
+          "a": "Can I borrow your pen, please?"
+        }
+      ],
+      "completions": [
+        {
+          "id": "g5u2h1",
+          "start": "This lesson…",
+          "end": "…starts at half past ten.",
+          "wrongEndings": [
+            "g5u2h2",
+            "g5u2h3"
+          ]
+        },
+        {
+          "id": "g5u2h2",
+          "start": "Our notebooks…",
+          "end": "…are on the classroom desk.",
+          "wrongEndings": [
+            "g5u2h1",
+            "g5u2h5"
+          ]
+        },
+        {
+          "id": "g5u2h3",
+          "start": "You must…",
+          "end": "…listen to your teacher.",
+          "wrongEndings": [
+            "g5u2h1",
+            "g5u2h2"
+          ]
+        },
+        {
+          "id": "g5u2h4",
+          "start": "Can I…",
+          "end": "…borrow your blue pencil?",
+          "wrongEndings": [
+            "g5u2h1",
+            "g5u2h2"
+          ]
+        },
+        {
+          "id": "g5u2h5",
+          "start": "There is…",
+          "end": "…an eraser in my pencil case.",
+          "wrongEndings": [
+            "g5u2h1",
+            "g5u2h2"
+          ]
+        },
+        {
+          "id": "g5u2h6",
+          "start": "There are…",
+          "end": "…four desks near the board.",
+          "wrongEndings": [
+            "g5u2h1",
+            "g5u2h2"
+          ]
+        },
+        {
+          "id": "g5u2h7",
+          "start": "We must not…",
+          "end": "…write on the classroom walls.",
+          "wrongEndings": [
+            "g5u2h1",
+            "g5u2h2"
+          ]
+        },
+        {
+          "id": "g5u2h8",
+          "start": "Where is…",
+          "end": "…our English timetable?",
+          "wrongEndings": [
+            "g5u2h1",
+            "g5u2h2"
+          ]
+        },
+        {
+          "id": "g5u2h9",
+          "start": "Does Can…",
+          "end": "…need a ruler for this lesson?",
+          "wrongEndings": [
+            "g5u2h1",
+            "g5u2h2"
+          ]
+        }
+      ],
+      "sentences": [
+        {
+          "id": "g5u2s1",
+          "blocks": [
+            "This ruler",
+            "is",
+            "very long."
+          ],
+          "difficulty": 1,
+          "tr": "Bu cetvel çok uzun."
+        },
+        {
+          "id": "g5u2s2",
+          "blocks": [
+            "We",
+            "read",
+            "our books."
+          ],
+          "difficulty": 1,
+          "tr": "Kitaplarımızı okuyoruz."
+        },
+        {
+          "id": "g5u2s3",
+          "blocks": [
+            "Our teacher",
+            "checks",
+            "the timetable."
+          ],
+          "difficulty": 1,
+          "tr": "Öğretmenimiz ders programını kontrol ediyor."
+        },
+        {
+          "id": "g5u2s4",
+          "blocks": [
+            "Zeynep",
+            "has got",
+            "a new",
+            "notebook."
+          ],
+          "difficulty": 2,
+          "tr": "Zeynep'in yeni bir defteri var."
+        },
+        {
+          "id": "g5u2s5",
+          "blocks": [
+            "This",
+            "is",
+            "my blue",
+            "pen."
+          ],
+          "difficulty": 2,
+          "tr": "Bu benim mavi kalemim."
+        },
+        {
+          "id": "g5u2s6",
+          "blocks": [
+            "Elif",
+            "needs",
+            "a small",
+            "eraser."
+          ],
+          "difficulty": 2,
+          "tr": "Elif'in küçük bir silgiye ihtiyacı var."
+        },
+        {
+          "id": "g5u2s7",
+          "blocks": [
+            "My partner",
+            "opens",
+            "the red",
+            "book."
+          ],
+          "difficulty": 2,
+          "tr": "Eşim kırmızı kitabı açıyor."
+        },
+        {
+          "id": "g5u2s8",
+          "blocks": [
+            "The clock",
+            "has got",
+            "two black",
+            "hands."
+          ],
+          "difficulty": 2,
+          "tr": "Saatin iki siyah ibresi var."
+        },
+        {
+          "id": "g5u2s9",
+          "blocks": [
+            "Can",
+            "knows",
+            "the names",
+            "of",
+            "our lessons."
+          ],
+          "difficulty": 2,
+          "tr": "Can derslerimizin adlarını biliyor."
+        },
+        {
+          "id": "g5u2s10",
+          "blocks": [
+            "My notebook",
+            "has got",
+            "a picture",
+            "of",
+            "a classroom."
+          ],
+          "difficulty": 2,
+          "tr": "Defterimde bir sınıf resmi var."
+        }
+      ],
+      "translations": [
+        {
+          "id": "g5u2t1",
+          "en": "ruler",
+          "tr": "cetvel"
+        },
+        {
+          "id": "g5u2t2",
+          "en": "notebook",
+          "tr": "defter"
+        },
+        {
+          "id": "g5u2t3",
+          "en": "eraser",
+          "tr": "silgi"
+        },
+        {
+          "id": "g5u2t4",
+          "en": "scissors",
+          "tr": "makas"
+        },
+        {
+          "id": "g5u2t5",
+          "en": "glue",
+          "tr": "yapıştırıcı"
+        },
+        {
+          "id": "g5u2t6",
+          "en": "desk",
+          "tr": "sıra"
+        },
+        {
+          "id": "g5u2t7",
+          "en": "pencil",
+          "tr": "kurşun kalem"
+        },
+        {
+          "id": "g5u2t8",
+          "en": "pen",
+          "tr": "tükenmez kalem"
+        },
+        {
+          "id": "g5u2t9",
+          "en": "board",
+          "tr": "tahta"
+        }
+      ]
+    },
+    {
+      "id": "g5u3",
+      "title": "Personal Life",
+      "source": "maarif",
+      "targetLanguage": [
+        "present simple: personal routines",
+        "have got: appearance",
+        "my / your / his / her",
+        "wear + clothes"
+      ],
+      "categories": [
+        {
+          "id": "g5u3c1",
+          "title": "CLOTHES",
+          "yes": [
+            "scarf",
+            "gloves",
+            "boots",
+            "belt",
+            "raincoat",
+            "trainers",
+            "shirt",
+            "trousers",
+            "skirt",
+            "jumper"
+          ],
+          "no": [
+            "cat",
+            "dog",
+            "rabbit",
+            "horse",
+            "sheep",
+            "cow",
+            "duck",
+            "goat",
+            "zebra",
+            "tiger"
+          ]
+        },
+        {
+          "id": "g5u3c2",
+          "title": "BODY PARTS",
+          "yes": [
+            "hair",
+            "teeth",
+            "face",
+            "eyes",
+            "ears",
+            "nose",
+            "mouth",
+            "arms",
+            "hands",
+            "legs"
+          ],
+          "no": [
+            "apple",
+            "banana",
+            "pear",
+            "peach",
+            "carrot",
+            "onion",
+            "potato",
+            "cheese",
+            "bread",
+            "rice"
+          ]
+        }
+      ],
+      "descriptions": [
+        {
+          "id": "g5u3d1",
+          "clue": "A long piece of cloth worn around the neck.",
+          "options": [
+            "gloves",
+            "scarf",
+            "boots"
+          ],
+          "answer": "scarf"
+        },
+        {
+          "id": "g5u3d2",
+          "clue": "Clothes that cover your hands.",
+          "options": [
+            "boots",
+            "scarf",
+            "gloves"
+          ],
+          "answer": "gloves"
+        },
+        {
+          "id": "g5u3d3",
+          "clue": "Shoes that cover your feet and ankles.",
+          "options": [
+            "scarf",
+            "gloves",
+            "boots"
+          ],
+          "answer": "boots"
+        },
+        {
+          "id": "g5u3d4",
+          "clue": "Feeling good and smiling.",
+          "options": [
+            "hungry",
+            "tired",
+            "happy"
+          ],
+          "answer": "happy"
+        },
+        {
+          "id": "g5u3d5",
+          "clue": "Needing rest after activity.",
+          "options": [
+            "hungry",
+            "happy",
+            "tired"
+          ],
+          "answer": "tired"
+        },
+        {
+          "id": "g5u3d6",
+          "clue": "Wanting to eat food.",
+          "options": [
+            "hungry",
+            "happy",
+            "tired"
+          ],
+          "answer": "hungry"
+        }
+      ],
+      "pictures": [
+        {
+          "id": "g5u3p1",
+          "word": "scarf",
+          "drawing": "scarf centred in a simple flat icon with clear outlines"
+        },
+        {
+          "id": "g5u3p2",
+          "word": "gloves",
+          "drawing": "gloves centred in a simple flat icon with clear outlines"
+        },
+        {
+          "id": "g5u3p3",
+          "word": "boots",
+          "drawing": "boots centred in a simple flat icon with clear outlines"
+        },
+        {
+          "id": "g5u3p4",
+          "word": "belt",
+          "drawing": "belt centred in a simple flat icon with clear outlines"
+        },
+        {
+          "id": "g5u3p5",
+          "word": "raincoat",
+          "drawing": "raincoat centred in a simple flat icon with clear outlines"
+        },
+        {
+          "id": "g5u3p6",
+          "word": "trainers",
+          "drawing": "trainers centred in a simple flat icon with clear outlines"
+        },
+        {
+          "id": "g5u3p7",
+          "word": "shirt",
+          "drawing": "shirt centred in a simple flat icon with clear outlines"
+        },
+        {
+          "id": "g5u3p8",
+          "word": "trousers",
+          "drawing": "trousers centred in a simple flat icon with clear outlines"
+        },
+        {
+          "id": "g5u3p9",
+          "word": "comb",
+          "drawing": "comb centred in a simple flat icon with clear outlines"
+        }
+      ],
+      "questions": [
+        {
+          "id": "g5u3q1",
+          "q": "What do you use to tidy your hair?",
+          "a": "I use a comb to tidy my hair."
+        },
+        {
+          "id": "g5u3q2",
+          "q": "What do you wear on your hands?",
+          "a": "I wear gloves on my hands."
+        },
+        {
+          "id": "g5u3q3",
+          "q": "What do you wear round your neck?",
+          "a": "I wear a scarf round my neck."
+        },
+        {
+          "id": "g5u3q4",
+          "q": "What is the first meal of the day?",
+          "a": "Breakfast is the first meal."
+        },
+        {
+          "id": "g5u3q5",
+          "q": "Why do you wear a raincoat?",
+          "a": "It keeps my clothes dry."
+        },
+        {
+          "id": "g5u3q6",
+          "q": "What do you brush with a toothbrush?",
+          "a": "I brush my teeth with it."
+        },
+        {
+          "id": "g5u3q7",
+          "q": "What do you wear for running?",
+          "a": "I wear trainers for running."
+        },
+        {
+          "id": "g5u3q8",
+          "q": "How do you feel when you need sleep?",
+          "a": "I feel sleepy."
+        },
+        {
+          "id": "g5u3q9",
+          "q": "What do you wear round your waist?",
+          "a": "I wear a belt round my waist."
+        }
+      ],
+      "completions": [
+        {
+          "id": "g5u3h1",
+          "start": "My brother…",
+          "end": "…wears a green shirt.",
+          "wrongEndings": [
+            "g5u3h2",
+            "g5u3h3"
+          ]
+        },
+        {
+          "id": "g5u3h2",
+          "start": "These boots…",
+          "end": "…are too big for me.",
+          "wrongEndings": [
+            "g5u3h1",
+            "g5u3h5"
+          ]
+        },
+        {
+          "id": "g5u3h3",
+          "start": "You can…",
+          "end": "…wash your face with water.",
+          "wrongEndings": [
+            "g5u3h1",
+            "g5u3h2"
+          ]
+        },
+        {
+          "id": "g5u3h4",
+          "start": "Can you…",
+          "end": "…brush your hair with this comb?",
+          "wrongEndings": [
+            "g5u3h1",
+            "g5u3h2"
+          ]
+        },
+        {
+          "id": "g5u3h5",
+          "start": "There is…",
+          "end": "…a belt beside my trousers.",
+          "wrongEndings": [
+            "g5u3h1",
+            "g5u3h2"
+          ]
+        },
+        {
+          "id": "g5u3h6",
+          "start": "There are…",
+          "end": "…two gloves in my schoolbag.",
+          "wrongEndings": [
+            "g5u3h1",
+            "g5u3h2"
+          ]
+        },
+        {
+          "id": "g5u3h7",
+          "start": "We must not…",
+          "end": "…wear dirty shoes in the house.",
+          "wrongEndings": [
+            "g5u3h1",
+            "g5u3h2"
+          ]
+        },
+        {
+          "id": "g5u3h8",
+          "start": "Where is…",
+          "end": "…your yellow raincoat?",
+          "wrongEndings": [
+            "g5u3h1",
+            "g5u3h2"
+          ]
+        },
+        {
+          "id": "g5u3h9",
+          "start": "Does Deniz…",
+          "end": "…have breakfast before school?",
+          "wrongEndings": [
+            "g5u3h1",
+            "g5u3h2"
+          ]
+        }
+      ],
+      "sentences": [
+        {
+          "id": "g5u3s1",
+          "blocks": [
+            "I",
+            "brush",
+            "my teeth."
+          ],
+          "difficulty": 1,
+          "tr": "Dişlerimi fırçalarım."
+        },
+        {
+          "id": "g5u3s2",
+          "blocks": [
+            "My sister",
+            "wears",
+            "trainers."
+          ],
+          "difficulty": 1,
+          "tr": "Kız kardeşim spor ayakkabısı giyer."
+        },
+        {
+          "id": "g5u3s3",
+          "blocks": [
+            "Our clothes",
+            "are",
+            "clean."
+          ],
+          "difficulty": 1,
+          "tr": "Giysilerimiz temiz."
+        },
+        {
+          "id": "g5u3s4",
+          "blocks": [
+            "Elif",
+            "has got",
+            "long brown",
+            "hair."
+          ],
+          "difficulty": 2,
+          "tr": "Elif'in uzun kahverengi saçları var."
+        },
+        {
+          "id": "g5u3s5",
+          "blocks": [
+            "This",
+            "is",
+            "my favourite",
+            "shirt."
+          ],
+          "difficulty": 2,
+          "tr": "Bu benim en sevdiğim gömlek."
+        },
+        {
+          "id": "g5u3s6",
+          "blocks": [
+            "Can",
+            "needs",
+            "a warm",
+            "scarf."
+          ],
+          "difficulty": 2,
+          "tr": "Can'ın sıcak tutan bir atkıya ihtiyacı var."
+        },
+        {
+          "id": "g5u3s7",
+          "blocks": [
+            "My brother",
+            "has got",
+            "a black",
+            "belt."
+          ],
+          "difficulty": 2,
+          "tr": "Erkek kardeşimin siyah bir kemeri var."
+        },
+        {
+          "id": "g5u3s8",
+          "blocks": [
+            "I",
+            "wear",
+            "my blue",
+            "raincoat."
+          ],
+          "difficulty": 2,
+          "tr": "Mavi yağmurluğumu giyerim."
+        },
+        {
+          "id": "g5u3s9",
+          "blocks": [
+            "This girl",
+            "has got",
+            "a pair",
+            "of",
+            "red gloves."
+          ],
+          "difficulty": 2,
+          "tr": "Bu kızın bir çift kırmızı eldiveni var."
+        },
+        {
+          "id": "g5u3s10",
+          "blocks": [
+            "My father",
+            "has got",
+            "a pair",
+            "of",
+            "brown boots."
+          ],
+          "difficulty": 2,
+          "tr": "Babamın bir çift kahverengi botu var."
+        }
+      ],
+      "translations": [
+        {
+          "id": "g5u3t1",
+          "en": "routine",
+          "tr": "rutin"
+        },
+        {
+          "id": "g5u3t2",
+          "en": "breakfast",
+          "tr": "kahvaltı"
+        },
+        {
+          "id": "g5u3t3",
+          "en": "hair",
+          "tr": "saç"
+        },
+        {
+          "id": "g5u3t4",
+          "en": "teeth",
+          "tr": "dişler"
+        },
+        {
+          "id": "g5u3t5",
+          "en": "face",
+          "tr": "yüz"
+        },
+        {
+          "id": "g5u3t6",
+          "en": "wake up",
+          "tr": "uyanmak"
+        },
+        {
+          "id": "g5u3t7",
+          "en": "brush",
+          "tr": "fırçalamak"
+        },
+        {
+          "id": "g5u3t8",
+          "en": "wash",
+          "tr": "yıkamak"
+        },
+        {
+          "id": "g5u3t9",
+          "en": "get dressed",
+          "tr": "giyinmek"
+        }
+      ]
+    },
+    {
+      "id": "g5u4",
+      "title": "Family Life",
+      "source": "maarif",
+      "targetLanguage": [
+        "present continuous: actions now",
+        "present simple versus present continuous",
+        "family members",
+        "What is ... doing?"
+      ],
+      "categories": [
+        {
+          "id": "g5u4c1",
+          "title": "FAMILY MEMBERS",
+          "yes": [
+            "mother",
+            "father",
+            "sister",
+            "brother",
+            "baby",
+            "cousin",
+            "aunt",
+            "uncle",
+            "grandmother",
+            "grandfather"
+          ],
+          "no": [
+            "cat",
+            "dog",
+            "rabbit",
+            "horse",
+            "sheep",
+            "cow",
+            "duck",
+            "goat",
+            "zebra",
+            "tiger"
+          ]
+        },
+        {
+          "id": "g5u4c2",
+          "title": "HOME HOBBIES",
+          "yes": [
+            "reading",
+            "cooking",
+            "drawing",
+            "singing",
+            "dancing",
+            "painting",
+            "gardening",
+            "sewing",
+            "knitting",
+            "chess"
+          ],
+          "no": [
+            "apple",
+            "banana",
+            "pear",
+            "peach",
+            "carrot",
+            "onion",
+            "potato",
+            "cheese",
+            "bread",
+            "rice"
+          ]
+        }
+      ],
+      "descriptions": [
+        {
+          "id": "g5u4d1",
+          "clue": "Your female parent.",
+          "options": [
+            "mother",
+            "father",
+            "cousin"
+          ],
+          "answer": "mother"
+        },
+        {
+          "id": "g5u4d2",
+          "clue": "Your male parent.",
+          "options": [
+            "mother",
+            "father",
+            "cousin"
+          ],
+          "answer": "father"
+        },
+        {
+          "id": "g5u4d3",
+          "clue": "Your aunt's or uncle's child.",
+          "options": [
+            "mother",
+            "father",
+            "cousin"
+          ],
+          "answer": "cousin"
+        },
+        {
+          "id": "g5u4d4",
+          "clue": "A musical instrument with strings.",
+          "options": [
+            "puzzle",
+            "camera",
+            "guitar"
+          ],
+          "answer": "guitar"
+        },
+        {
+          "id": "g5u4d5",
+          "clue": "A device for taking photographs.",
+          "options": [
+            "guitar",
+            "puzzle",
+            "camera"
+          ],
+          "answer": "camera"
+        },
+        {
+          "id": "g5u4d6",
+          "clue": "A game of fitting pieces together.",
+          "options": [
+            "guitar",
+            "puzzle",
+            "camera"
+          ],
+          "answer": "puzzle"
+        }
+      ],
+      "pictures": [
+        {
+          "id": "g5u4p1",
+          "word": "guitar",
+          "drawing": "wooden guitar with six strings and a round sound hole"
+        },
+        {
+          "id": "g5u4p2",
+          "word": "puzzle",
+          "drawing": "puzzle centred in a simple flat icon with clear outlines"
+        },
+        {
+          "id": "g5u4p3",
+          "word": "camera",
+          "drawing": "camera centred in a simple flat icon with clear outlines"
+        },
+        {
+          "id": "g5u4p4",
+          "word": "sofa",
+          "drawing": "sofa centred in a simple flat icon with clear outlines"
+        },
+        {
+          "id": "g5u4p5",
+          "word": "table",
+          "drawing": "table centred in a simple flat icon with clear outlines"
+        },
+        {
+          "id": "g5u4p6",
+          "word": "photo",
+          "drawing": "printed photograph of a family in a park"
+        },
+        {
+          "id": "g5u4p7",
+          "word": "bed",
+          "drawing": "bed centred in a simple flat icon with clear outlines"
+        },
+        {
+          "id": "g5u4p8",
+          "word": "chair",
+          "drawing": "chair centred in a simple flat icon with clear outlines"
+        },
+        {
+          "id": "g5u4p9",
+          "word": "television",
+          "drawing": "television centred in a simple flat icon with clear outlines"
+        }
+      ],
+      "questions": [
+        {
+          "id": "g5u4q1",
+          "q": "What is your mother's sister called?",
+          "a": "She is my aunt."
+        },
+        {
+          "id": "g5u4q2",
+          "q": "What is your father's brother called?",
+          "a": "He is my uncle."
+        },
+        {
+          "id": "g5u4q3",
+          "q": "Who is your aunt's child?",
+          "a": "My aunt's child is my cousin."
+        },
+        {
+          "id": "g5u4q4",
+          "q": "What has strings and makes music?",
+          "a": "A guitar has strings."
+        },
+        {
+          "id": "g5u4q5",
+          "q": "What do you use to take photos?",
+          "a": "I use a camera to take photos."
+        },
+        {
+          "id": "g5u4q6",
+          "q": "Where do you usually cook at home?",
+          "a": "I usually cook in the kitchen."
+        },
+        {
+          "id": "g5u4q7",
+          "q": "What does watering plants mean?",
+          "a": "It means giving plants water."
+        },
+        {
+          "id": "g5u4q8",
+          "q": "What do you call a very young child?",
+          "a": "A very young child is a baby."
+        },
+        {
+          "id": "g5u4q9",
+          "q": "What hobby uses puzzle pieces?",
+          "a": "Doing a jigsaw puzzle."
+        }
+      ],
+      "completions": [
+        {
+          "id": "g5u4h1",
+          "start": "My cousin…",
+          "end": "…is drawing a family picture.",
+          "wrongEndings": [
+            "g5u4h2",
+            "g5u4h3"
+          ]
+        },
+        {
+          "id": "g5u4h2",
+          "start": "My grandparents…",
+          "end": "…are sitting on the sofa.",
+          "wrongEndings": [
+            "g5u4h1",
+            "g5u4h5"
+          ]
+        },
+        {
+          "id": "g5u4h3",
+          "start": "A family can…",
+          "end": "…share the housework.",
+          "wrongEndings": [
+            "g5u4h1",
+            "g5u4h2"
+          ]
+        },
+        {
+          "id": "g5u4h4",
+          "start": "Can we…",
+          "end": "…play the guitar together?",
+          "wrongEndings": [
+            "g5u4h1",
+            "g5u4h2"
+          ]
+        },
+        {
+          "id": "g5u4h5",
+          "start": "There is…",
+          "end": "…a camera on the kitchen table.",
+          "wrongEndings": [
+            "g5u4h1",
+            "g5u4h2"
+          ]
+        },
+        {
+          "id": "g5u4h6",
+          "start": "There are…",
+          "end": "…three photos in this bedroom.",
+          "wrongEndings": [
+            "g5u4h1",
+            "g5u4h2"
+          ]
+        },
+        {
+          "id": "g5u4h7",
+          "start": "We must not…",
+          "end": "…wake the sleeping baby.",
+          "wrongEndings": [
+            "g5u4h1",
+            "g5u4h2"
+          ]
+        },
+        {
+          "id": "g5u4h8",
+          "start": "Where is…",
+          "end": "…your grandmother's puzzle?",
+          "wrongEndings": [
+            "g5u4h1",
+            "g5u4h2"
+          ]
+        },
+        {
+          "id": "g5u4h9",
+          "start": "Does your sister…",
+          "end": "…enjoy cooking with you?",
+          "wrongEndings": [
+            "g5u4h1",
+            "g5u4h2"
+          ]
+        }
+      ],
+      "sentences": [
+        {
+          "id": "g5u4s1",
+          "blocks": [
+            "My mother",
+            "is reading",
+            "a book."
+          ],
+          "difficulty": 1,
+          "tr": "Annem bir kitap okuyor."
+        },
+        {
+          "id": "g5u4s2",
+          "blocks": [
+            "Our baby",
+            "is",
+            "asleep."
+          ],
+          "difficulty": 1,
+          "tr": "Bebeğimiz uyuyor."
+        },
+        {
+          "id": "g5u4s3",
+          "blocks": [
+            "My cousin",
+            "is playing",
+            "the guitar."
+          ],
+          "difficulty": 1,
+          "tr": "Kuzenim gitar çalıyor."
+        },
+        {
+          "id": "g5u4s4",
+          "blocks": [
+            "My father",
+            "is making",
+            "a small",
+            "table."
+          ],
+          "difficulty": 2,
+          "tr": "Babam küçük bir masa yapıyor."
+        },
+        {
+          "id": "g5u4s5",
+          "blocks": [
+            "My sister",
+            "is drawing",
+            "our new",
+            "garden."
+          ],
+          "difficulty": 2,
+          "tr": "Kız kardeşim yeni bahçemizi çiziyor."
+        },
+        {
+          "id": "g5u4s6",
+          "blocks": [
+            "My brother",
+            "is doing",
+            "a big",
+            "puzzle."
+          ],
+          "difficulty": 2,
+          "tr": "Erkek kardeşim büyük bir yapboz yapıyor."
+        },
+        {
+          "id": "g5u4s7",
+          "blocks": [
+            "This",
+            "is",
+            "our",
+            "family photo."
+          ],
+          "difficulty": 2,
+          "tr": "Bu bizim aile fotoğrafımız."
+        },
+        {
+          "id": "g5u4s8",
+          "blocks": [
+            "My grandmother",
+            "has got",
+            "a new",
+            "camera."
+          ],
+          "difficulty": 2,
+          "tr": "Büyükannemin yeni bir fotoğraf makinesi var."
+        },
+        {
+          "id": "g5u4s9",
+          "blocks": [
+            "Elif",
+            "is making",
+            "a picture",
+            "of",
+            "her family."
+          ],
+          "difficulty": 2,
+          "tr": "Elif ailesinin bir resmini yapıyor."
+        },
+        {
+          "id": "g5u4s10",
+          "blocks": [
+            "My uncle",
+            "is showing",
+            "a photo",
+            "of",
+            "his baby."
+          ],
+          "difficulty": 2,
+          "tr": "Amcam bebeğinin bir fotoğrafını gösteriyor."
+        }
+      ],
+      "translations": [
+        {
+          "id": "g5u4t1",
+          "en": "cousin",
+          "tr": "kuzen"
+        },
+        {
+          "id": "g5u4t2",
+          "en": "grandparents",
+          "tr": "büyükanne ve büyükbaba"
+        },
+        {
+          "id": "g5u4t3",
+          "en": "mother",
+          "tr": "anne"
+        },
+        {
+          "id": "g5u4t4",
+          "en": "father",
+          "tr": "baba"
+        },
+        {
+          "id": "g5u4t5",
+          "en": "sister",
+          "tr": "kız kardeş"
+        },
+        {
+          "id": "g5u4t6",
+          "en": "brother",
+          "tr": "erkek kardeş"
+        },
+        {
+          "id": "g5u4t7",
+          "en": "baby",
+          "tr": "bebek"
+        },
+        {
+          "id": "g5u4t8",
+          "en": "family",
+          "tr": "aile"
+        },
+        {
+          "id": "g5u4t9",
+          "en": "living room",
+          "tr": "oturma odası"
+        }
+      ]
+    },
+    {
+      "id": "g5u5",
+      "title": "Neighbourhood / City Life",
+      "source": "maarif",
+      "targetLanguage": [
+        "there is / there are: places and furniture",
+        "near / opposite / next to",
+        "simple comparisons with -er than",
+        "possessive 's"
+      ],
+      "categories": [
+        {
+          "id": "g5u5c1",
+          "title": "TOWN PLACES",
+          "yes": [
+            "library",
+            "hospital",
+            "park",
+            "market",
+            "school",
+            "shop",
+            "bakery",
+            "museum",
+            "bank",
+            "cinema"
+          ],
+          "no": [
+            "apple",
+            "banana",
+            "pear",
+            "peach",
+            "carrot",
+            "onion",
+            "potato",
+            "cheese",
+            "bread",
+            "rice"
+          ]
+        },
+        {
+          "id": "g5u5c2",
+          "title": "HOME FURNITURE",
+          "yes": [
+            "bed",
+            "chair",
+            "table",
+            "sofa",
+            "cupboard",
+            "wardrobe",
+            "bookcase",
+            "desk",
+            "armchair",
+            "shelf"
+          ],
+          "no": [
+            "cat",
+            "dog",
+            "rabbit",
+            "horse",
+            "sheep",
+            "cow",
+            "duck",
+            "goat",
+            "zebra",
+            "tiger"
+          ]
+        }
+      ],
+      "descriptions": [
+        {
+          "id": "g5u5d1",
+          "clue": "You can borrow books here in the town centre.",
+          "options": [
+            "hospital",
+            "market",
+            "library"
+          ],
+          "answer": "library"
+        },
+        {
+          "id": "g5u5d2",
+          "clue": "A place where doctors care for people.",
+          "options": [
+            "hospital",
+            "library",
+            "market"
+          ],
+          "answer": "hospital"
+        },
+        {
+          "id": "g5u5d3",
+          "clue": "A place with stalls that sell things.",
+          "options": [
+            "market",
+            "library",
+            "hospital"
+          ],
+          "answer": "market"
+        },
+        {
+          "id": "g5u5d4",
+          "clue": "A surface where you can see yourself.",
+          "options": [
+            "mirror",
+            "pillow",
+            "sink"
+          ],
+          "answer": "mirror"
+        },
+        {
+          "id": "g5u5d5",
+          "clue": "A soft object you rest your head on.",
+          "options": [
+            "pillow",
+            "sink",
+            "mirror"
+          ],
+          "answer": "pillow"
+        },
+        {
+          "id": "g5u5d6",
+          "clue": "A bowl with a tap for washing.",
+          "options": [
+            "pillow",
+            "mirror",
+            "sink"
+          ],
+          "answer": "sink"
+        }
+      ],
+      "pictures": [
+        {
+          "id": "g5u5p1",
+          "word": "bridge",
+          "drawing": "arched stone bridge crossing a small river"
+        },
+        {
+          "id": "g5u5p2",
+          "word": "skyscraper",
+          "drawing": "very tall modern building with many square windows"
+        },
+        {
+          "id": "g5u5p3",
+          "word": "roof",
+          "drawing": "roof centred in a simple flat icon with clear outlines"
+        },
+        {
+          "id": "g5u5p4",
+          "word": "mirror",
+          "drawing": "mirror centred in a simple flat icon with clear outlines"
+        },
+        {
+          "id": "g5u5p5",
+          "word": "pillow",
+          "drawing": "pillow centred in a simple flat icon with clear outlines"
+        },
+        {
+          "id": "g5u5p6",
+          "word": "sink",
+          "drawing": "sink centred in a simple flat icon with clear outlines"
+        },
+        {
+          "id": "g5u5p7",
+          "word": "window",
+          "drawing": "window centred in a simple flat icon with clear outlines"
+        },
+        {
+          "id": "g5u5p8",
+          "word": "cupboard",
+          "drawing": "cupboard centred in a simple flat icon with clear outlines"
+        },
+        {
+          "id": "g5u5p9",
+          "word": "bench",
+          "drawing": "bench centred in a simple flat icon with clear outlines"
+        }
+      ],
+      "questions": [
+        {
+          "id": "g5u5q1",
+          "q": "Where can a doctor treat patients?",
+          "a": "In a hospital."
+        },
+        {
+          "id": "g5u5q2",
+          "q": "What crosses a river in a city?",
+          "a": "A bridge crosses it."
+        },
+        {
+          "id": "g5u5q3",
+          "q": "What is on top of a house?",
+          "a": "The roof is on top."
+        },
+        {
+          "id": "g5u5q4",
+          "q": "What shows your face when you look?",
+          "a": "A mirror shows my face."
+        },
+        {
+          "id": "g5u5q5",
+          "q": "What do you put your head on in bed?",
+          "a": "I put it on a pillow."
+        },
+        {
+          "id": "g5u5q6",
+          "q": "Where do you wash your hands at home?",
+          "a": "I wash them in the sink."
+        },
+        {
+          "id": "g5u5q7",
+          "q": "What is a very tall city building?",
+          "a": "It is a skyscraper."
+        },
+        {
+          "id": "g5u5q8",
+          "q": "What do we call an area near home?",
+          "a": "We call it a neighbourhood."
+        },
+        {
+          "id": "g5u5q9",
+          "q": "Where can several people sit in a park?",
+          "a": "They can sit on a bench."
+        }
+      ],
+      "completions": [
+        {
+          "id": "g5u5h1",
+          "start": "This street…",
+          "end": "…is quieter than that street.",
+          "wrongEndings": [
+            "g5u5h2",
+            "g5u5h3"
+          ]
+        },
+        {
+          "id": "g5u5h2",
+          "start": "The city parks…",
+          "end": "…are next to the river.",
+          "wrongEndings": [
+            "g5u5h1",
+            "g5u5h5"
+          ]
+        },
+        {
+          "id": "g5u5h3",
+          "start": "A visitor can…",
+          "end": "…find the hospital on this map.",
+          "wrongEndings": [
+            "g5u5h1",
+            "g5u5h2"
+          ]
+        },
+        {
+          "id": "g5u5h4",
+          "start": "Can you…",
+          "end": "…show me the nearest bridge?",
+          "wrongEndings": [
+            "g5u5h1",
+            "g5u5h2"
+          ]
+        },
+        {
+          "id": "g5u5h5",
+          "start": "There is…",
+          "end": "…a mirror above the sink.",
+          "wrongEndings": [
+            "g5u5h1",
+            "g5u5h2"
+          ]
+        },
+        {
+          "id": "g5u5h6",
+          "start": "There are…",
+          "end": "…five shops opposite the school.",
+          "wrongEndings": [
+            "g5u5h1",
+            "g5u5h2"
+          ]
+        },
+        {
+          "id": "g5u5h7",
+          "start": "We must not…",
+          "end": "…play football in the street.",
+          "wrongEndings": [
+            "g5u5h1",
+            "g5u5h2"
+          ]
+        },
+        {
+          "id": "g5u5h8",
+          "start": "Where is…",
+          "end": "…your neighbour's house?",
+          "wrongEndings": [
+            "g5u5h1",
+            "g5u5h2"
+          ]
+        },
+        {
+          "id": "g5u5h9",
+          "start": "Does this town…",
+          "end": "…have a big market?",
+          "wrongEndings": [
+            "g5u5h1",
+            "g5u5h2"
+          ]
+        }
+      ],
+      "sentences": [
+        {
+          "id": "g5u5s1",
+          "blocks": [
+            "Our street",
+            "is",
+            "very quiet."
+          ],
+          "difficulty": 1,
+          "tr": "Sokağımız çok sessiz."
+        },
+        {
+          "id": "g5u5s2",
+          "blocks": [
+            "This map",
+            "shows",
+            "the town."
+          ],
+          "difficulty": 1,
+          "tr": "Bu harita kasabayı gösteriyor."
+        },
+        {
+          "id": "g5u5s3",
+          "blocks": [
+            "That building",
+            "is",
+            "a hospital."
+          ],
+          "difficulty": 1,
+          "tr": "Şu bina bir hastane."
+        },
+        {
+          "id": "g5u5s4",
+          "blocks": [
+            "My bedroom",
+            "has got",
+            "a small",
+            "cupboard."
+          ],
+          "difficulty": 2,
+          "tr": "Yatak odamda küçük bir dolap var."
+        },
+        {
+          "id": "g5u5s5",
+          "blocks": [
+            "This",
+            "is",
+            "our new",
+            "sofa."
+          ],
+          "difficulty": 2,
+          "tr": "Bu bizim yeni kanepemiz."
+        },
+        {
+          "id": "g5u5s6",
+          "blocks": [
+            "The park",
+            "has got",
+            "a long",
+            "bench."
+          ],
+          "difficulty": 2,
+          "tr": "Parkta uzun bir bank var."
+        },
+        {
+          "id": "g5u5s7",
+          "blocks": [
+            "Our town",
+            "has got",
+            "a new",
+            "bridge."
+          ],
+          "difficulty": 2,
+          "tr": "Kasabamızın yeni bir köprüsü var."
+        },
+        {
+          "id": "g5u5s8",
+          "blocks": [
+            "This flat",
+            "has got",
+            "two big",
+            "windows."
+          ],
+          "difficulty": 2,
+          "tr": "Bu dairenin iki büyük penceresi var."
+        },
+        {
+          "id": "g5u5s9",
+          "blocks": [
+            "Our house",
+            "is",
+            "smaller",
+            "than",
+            "that building."
+          ],
+          "difficulty": 2,
+          "tr": "Evimiz o binadan daha küçük."
+        },
+        {
+          "id": "g5u5s10",
+          "blocks": [
+            "This street",
+            "is",
+            "wider",
+            "than",
+            "that road."
+          ],
+          "difficulty": 2,
+          "tr": "Bu sokak o yoldan daha geniş."
+        }
+      ],
+      "translations": [
+        {
+          "id": "g5u5t1",
+          "en": "neighbourhood",
+          "tr": "mahalle"
+        },
+        {
+          "id": "g5u5t2",
+          "en": "hospital",
+          "tr": "hastane"
+        },
+        {
+          "id": "g5u5t3",
+          "en": "bridge",
+          "tr": "köprü"
+        },
+        {
+          "id": "g5u5t4",
+          "en": "skyscraper",
+          "tr": "gökdelen"
+        },
+        {
+          "id": "g5u5t5",
+          "en": "park",
+          "tr": "park"
+        },
+        {
+          "id": "g5u5t6",
+          "en": "market",
+          "tr": "pazar"
+        },
+        {
+          "id": "g5u5t7",
+          "en": "building",
+          "tr": "bina"
+        },
+        {
+          "id": "g5u5t8",
+          "en": "school",
+          "tr": "okul"
+        },
+        {
+          "id": "g5u5t9",
+          "en": "shop",
+          "tr": "dükkân"
+        }
+      ]
+    },
+    {
+      "id": "g5u6",
+      "title": "Life In The World",
+      "source": "maarif",
+      "targetLanguage": [
+        "Can / May I ...?: permission",
+        "have got: food",
+        "How much / How many ...?",
+        "ordering food politely"
+      ],
+      "categories": [
+        {
+          "id": "g5u6c1",
+          "title": "FOOD",
+          "yes": [
+            "soup",
+            "bread",
+            "sandwich",
+            "garlic",
+            "rice",
+            "pasta",
+            "egg",
+            "milk",
+            "cheese",
+            "fruit"
+          ],
+          "no": [
+            "cat",
+            "dog",
+            "rabbit",
+            "horse",
+            "sheep",
+            "cow",
+            "duck",
+            "goat",
+            "zebra",
+            "tiger"
+          ]
+        },
+        {
+          "id": "g5u6c2",
+          "title": "TABLE ITEMS",
+          "yes": [
+            "spoon",
+            "fork",
+            "plate",
+            "bowl",
+            "cup",
+            "knife",
+            "glass",
+            "napkin",
+            "bottle",
+            "tray"
+          ],
+          "no": [
+            "cat",
+            "dog",
+            "rabbit",
+            "horse",
+            "sheep",
+            "cow",
+            "duck",
+            "goat",
+            "zebra",
+            "tiger"
+          ]
+        }
+      ],
+      "descriptions": [
+        {
+          "id": "g5u6d1",
+          "clue": "A liquid food, usually served warm.",
+          "options": [
+            "bread",
+            "sandwich",
+            "soup"
+          ],
+          "answer": "soup"
+        },
+        {
+          "id": "g5u6d2",
+          "clue": "A food made from flour and baked.",
+          "options": [
+            "soup",
+            "bread",
+            "sandwich"
+          ],
+          "answer": "bread"
+        },
+        {
+          "id": "g5u6d3",
+          "clue": "Food between two pieces of bread.",
+          "options": [
+            "soup",
+            "sandwich",
+            "bread"
+          ],
+          "answer": "sandwich"
+        },
+        {
+          "id": "g5u6d4",
+          "clue": "A tool for eating soup or soft food.",
+          "options": [
+            "knife",
+            "spoon",
+            "fork"
+          ],
+          "answer": "spoon"
+        },
+        {
+          "id": "g5u6d5",
+          "clue": "A tool with points for picking up food.",
+          "options": [
+            "fork",
+            "spoon",
+            "knife"
+          ],
+          "answer": "fork"
+        },
+        {
+          "id": "g5u6d6",
+          "clue": "A sharp tool with one blade for slicing food.",
+          "options": [
+            "knife",
+            "fork",
+            "spoon"
+          ],
+          "answer": "knife"
+        }
+      ],
+      "pictures": [
+        {
+          "id": "g5u6p1",
+          "word": "soup",
+          "drawing": "soup centred in a simple flat icon with clear outlines"
+        },
+        {
+          "id": "g5u6p2",
+          "word": "spoon",
+          "drawing": "spoon centred in a simple flat icon with clear outlines"
+        },
+        {
+          "id": "g5u6p3",
+          "word": "fork",
+          "drawing": "fork centred in a simple flat icon with clear outlines"
+        },
+        {
+          "id": "g5u6p4",
+          "word": "bread",
+          "drawing": "bread centred in a simple flat icon with clear outlines"
+        },
+        {
+          "id": "g5u6p5",
+          "word": "sandwich",
+          "drawing": "sandwich centred in a simple flat icon with clear outlines"
+        },
+        {
+          "id": "g5u6p6",
+          "word": "plate",
+          "drawing": "plate centred in a simple flat icon with clear outlines"
+        },
+        {
+          "id": "g5u6p7",
+          "word": "garlic",
+          "drawing": "garlic centred in a simple flat icon with clear outlines"
+        },
+        {
+          "id": "g5u6p8",
+          "word": "bowl",
+          "drawing": "bowl centred in a simple flat icon with clear outlines"
+        },
+        {
+          "id": "g5u6p9",
+          "word": "cup",
+          "drawing": "cup centred in a simple flat icon with clear outlines"
+        }
+      ],
+      "questions": [
+        {
+          "id": "g5u6q1",
+          "q": "What do you use to eat soup?",
+          "a": "I use a spoon to eat soup."
+        },
+        {
+          "id": "g5u6q2",
+          "q": "Where can you read a list of meals?",
+          "a": "I can read it on a menu."
+        },
+        {
+          "id": "g5u6q3",
+          "q": "What do you say to order water?",
+          "a": "May I have some water, please?"
+        },
+        {
+          "id": "g5u6q4",
+          "q": "How do you feel when you want food?",
+          "a": "I feel hungry."
+        },
+        {
+          "id": "g5u6q5",
+          "q": "What do you say after someone helps?",
+          "a": "I say thank you."
+        },
+        {
+          "id": "g5u6q6",
+          "q": "What goes between two bread slices?",
+          "a": "A sandwich filling goes there."
+        },
+        {
+          "id": "g5u6q7",
+          "q": "What do you use to cut bread?",
+          "a": "I cut bread with a knife."
+        },
+        {
+          "id": "g5u6q8",
+          "q": "What container can hold a litre of milk?",
+          "a": "A milk bottle can hold a litre."
+        },
+        {
+          "id": "g5u6q9",
+          "q": "What do you say to ask for the price?",
+          "a": "How much is it, please?"
+        }
+      ],
+      "completions": [
+        {
+          "id": "g5u6h1",
+          "start": "This cheese…",
+          "end": "…is very fresh.",
+          "wrongEndings": [
+            "g5u6h2",
+            "g5u6h3"
+          ]
+        },
+        {
+          "id": "g5u6h2",
+          "start": "The sandwiches…",
+          "end": "…are on the picnic table.",
+          "wrongEndings": [
+            "g5u6h1",
+            "g5u6h5"
+          ]
+        },
+        {
+          "id": "g5u6h3",
+          "start": "You may…",
+          "end": "…have a slice of bread.",
+          "wrongEndings": [
+            "g5u6h1",
+            "g5u6h2"
+          ]
+        },
+        {
+          "id": "g5u6h4",
+          "start": "Can I…",
+          "end": "…order a bowl of soup?",
+          "wrongEndings": [
+            "g5u6h1",
+            "g5u6h2"
+          ]
+        },
+        {
+          "id": "g5u6h5",
+          "start": "There is…",
+          "end": "…some rice beside the cheese.",
+          "wrongEndings": [
+            "g5u6h1",
+            "g5u6h2"
+          ]
+        },
+        {
+          "id": "g5u6h6",
+          "start": "There are…",
+          "end": "…three forks beside the plates.",
+          "wrongEndings": [
+            "g5u6h1",
+            "g5u6h2"
+          ]
+        },
+        {
+          "id": "g5u6h7",
+          "start": "We must not…",
+          "end": "…waste our food.",
+          "wrongEndings": [
+            "g5u6h1",
+            "g5u6h2"
+          ]
+        },
+        {
+          "id": "g5u6h8",
+          "start": "Where is…",
+          "end": "…the menu for this café?",
+          "wrongEndings": [
+            "g5u6h1",
+            "g5u6h2"
+          ]
+        },
+        {
+          "id": "g5u6h9",
+          "start": "Does your cousin…",
+          "end": "…want some orange juice?",
+          "wrongEndings": [
+            "g5u6h1",
+            "g5u6h2"
+          ]
+        }
+      ],
+      "sentences": [
+        {
+          "id": "g5u6s1",
+          "blocks": [
+            "I",
+            "am",
+            "hungry."
+          ],
+          "difficulty": 1,
+          "tr": "Açım."
+        },
+        {
+          "id": "g5u6s2",
+          "blocks": [
+            "We",
+            "have got",
+            "some rice."
+          ],
+          "difficulty": 1,
+          "tr": "Biraz pirincimiz var."
+        },
+        {
+          "id": "g5u6s3",
+          "blocks": [
+            "This soup",
+            "is",
+            "hot."
+          ],
+          "difficulty": 1,
+          "tr": "Bu çorba sıcak."
+        },
+        {
+          "id": "g5u6s4",
+          "blocks": [
+            "Can I",
+            "have",
+            "some fresh",
+            "bread?"
+          ],
+          "difficulty": 2,
+          "tr": "Biraz ekmek alabilir miyim?"
+        },
+        {
+          "id": "g5u6s5",
+          "blocks": [
+            "Zeynep",
+            "has got",
+            "a cheese",
+            "sandwich."
+          ],
+          "difficulty": 2,
+          "tr": "Zeynep'in peynirli bir sandviçi var."
+        },
+        {
+          "id": "g5u6s6",
+          "blocks": [
+            "We",
+            "need",
+            "three clean",
+            "plates."
+          ],
+          "difficulty": 2,
+          "tr": "Üç temiz tabağa ihtiyacımız var."
+        },
+        {
+          "id": "g5u6s7",
+          "blocks": [
+            "This",
+            "is",
+            "my favourite",
+            "soup."
+          ],
+          "difficulty": 2,
+          "tr": "Bu benim en sevdiğim çorba."
+        },
+        {
+          "id": "g5u6s8",
+          "blocks": [
+            "May I",
+            "use",
+            "this clean",
+            "spoon?"
+          ],
+          "difficulty": 2,
+          "tr": "Bu kaşığı kullanabilir miyim?"
+        },
+        {
+          "id": "g5u6s9",
+          "blocks": [
+            "Elif",
+            "has got",
+            "a bottle",
+            "of",
+            "cold water."
+          ],
+          "difficulty": 2,
+          "tr": "Elif'in bir şişe soğuk suyu var."
+        },
+        {
+          "id": "g5u6s10",
+          "blocks": [
+            "Can",
+            "needs",
+            "a bowl",
+            "of",
+            "hot soup."
+          ],
+          "difficulty": 2,
+          "tr": "Can'ın bir kâse sıcak çorbaya ihtiyacı var."
+        }
+      ],
+      "translations": [
+        {
+          "id": "g5u6t1",
+          "en": "soup",
+          "tr": "çorba"
+        },
+        {
+          "id": "g5u6t2",
+          "en": "spoon",
+          "tr": "kaşık"
+        },
+        {
+          "id": "g5u6t3",
+          "en": "fork",
+          "tr": "çatal"
+        },
+        {
+          "id": "g5u6t4",
+          "en": "bread",
+          "tr": "ekmek"
+        },
+        {
+          "id": "g5u6t5",
+          "en": "sandwich",
+          "tr": "sandviç"
+        },
+        {
+          "id": "g5u6t6",
+          "en": "fruit",
+          "tr": "meyve"
+        },
+        {
+          "id": "g5u6t7",
+          "en": "vegetable",
+          "tr": "sebze"
+        },
+        {
+          "id": "g5u6t8",
+          "en": "menu",
+          "tr": "menü"
+        },
+        {
+          "id": "g5u6t9",
+          "en": "plate",
+          "tr": "tabak"
+        }
+      ]
+    },
+    {
+      "id": "g5u7",
+      "title": "Life In Nature",
+      "source": "maarif",
+      "targetLanguage": [
+        "can / can't: animal abilities",
+        "Where do ... live?",
+        "must / mustn't: protecting animals",
+        "simple animal comparisons"
+      ],
+      "categories": [
+        {
+          "id": "g5u7c1",
+          "title": "WILD ANIMALS",
+          "yes": [
+            "lion",
+            "fox",
+            "bear",
+            "camel",
+            "dolphin",
+            "whale",
+            "penguin",
+            "turtle",
+            "snake",
+            "giraffe"
+          ],
+          "no": [
+            "apple",
+            "banana",
+            "pear",
+            "peach",
+            "carrot",
+            "onion",
+            "potato",
+            "cheese",
+            "bread",
+            "rice"
+          ]
+        },
+        {
+          "id": "g5u7c2",
+          "title": "ANIMAL PARTS",
+          "yes": [
+            "feather",
+            "wing",
+            "tail",
+            "beak",
+            "claw",
+            "fur",
+            "paw",
+            "fin",
+            "shell",
+            "trunk"
+          ],
+          "no": [
+            "pencil",
+            "ruler",
+            "notebook",
+            "eraser",
+            "scissors",
+            "desk",
+            "board",
+            "pen",
+            "crayon",
+            "textbook"
+          ]
+        }
+      ],
+      "descriptions": [
+        {
+          "id": "g5u7d1",
+          "clue": "A large wild cat; the male has a mane.",
+          "options": [
+            "fox",
+            "lion",
+            "giraffe"
+          ],
+          "answer": "lion"
+        },
+        {
+          "id": "g5u7d2",
+          "clue": "A wild animal with pointed ears and a bushy tail.",
+          "options": [
+            "fox",
+            "giraffe",
+            "lion"
+          ],
+          "answer": "fox"
+        },
+        {
+          "id": "g5u7d3",
+          "clue": "A tall animal with a very long neck.",
+          "options": [
+            "lion",
+            "giraffe",
+            "fox"
+          ],
+          "answer": "giraffe"
+        },
+        {
+          "id": "g5u7d4",
+          "clue": "A sea mammal with a curved fin and a long nose.",
+          "options": [
+            "penguin",
+            "whale",
+            "dolphin"
+          ],
+          "answer": "dolphin"
+        },
+        {
+          "id": "g5u7d5",
+          "clue": "A very large sea mammal.",
+          "options": [
+            "dolphin",
+            "whale",
+            "penguin"
+          ],
+          "answer": "whale"
+        },
+        {
+          "id": "g5u7d6",
+          "clue": "A black and white bird that swims but cannot fly.",
+          "options": [
+            "penguin",
+            "dolphin",
+            "whale"
+          ],
+          "answer": "penguin"
+        }
+      ],
+      "pictures": [
+        {
+          "id": "g5u7p1",
+          "word": "lion",
+          "drawing": "lion centred in a simple flat icon with clear outlines"
+        },
+        {
+          "id": "g5u7p2",
+          "word": "fox",
+          "drawing": "fox centred in a simple flat icon with clear outlines"
+        },
+        {
+          "id": "g5u7p3",
+          "word": "bear",
+          "drawing": "bear centred in a simple flat icon with clear outlines"
+        },
+        {
+          "id": "g5u7p4",
+          "word": "camel",
+          "drawing": "camel centred in a simple flat icon with clear outlines"
+        },
+        {
+          "id": "g5u7p5",
+          "word": "dolphin",
+          "drawing": "dolphin centred in a simple flat icon with clear outlines"
+        },
+        {
+          "id": "g5u7p6",
+          "word": "whale",
+          "drawing": "whale centred in a simple flat icon with clear outlines"
+        },
+        {
+          "id": "g5u7p7",
+          "word": "penguin",
+          "drawing": "penguin centred in a simple flat icon with clear outlines"
+        },
+        {
+          "id": "g5u7p8",
+          "word": "turtle",
+          "drawing": "turtle centred in a simple flat icon with clear outlines"
+        },
+        {
+          "id": "g5u7p9",
+          "word": "snake",
+          "drawing": "snake centred in a simple flat icon with clear outlines"
+        }
+      ],
+      "questions": [
+        {
+          "id": "g5u7q1",
+          "q": "Which tall animal has a very long neck?",
+          "a": "A giraffe has a very long neck."
+        },
+        {
+          "id": "g5u7q2",
+          "q": "What do we call an animal's home?",
+          "a": "We call it a habitat."
+        },
+        {
+          "id": "g5u7q3",
+          "q": "Which black and white bird cannot fly?",
+          "a": "A penguin cannot fly."
+        },
+        {
+          "id": "g5u7q4",
+          "q": "What covers a bird's body?",
+          "a": "Feathers cover its body."
+        },
+        {
+          "id": "g5u7q5",
+          "q": "Which animal carries a hard shell?",
+          "a": "A turtle carries a shell."
+        },
+        {
+          "id": "g5u7q6",
+          "q": "Which desert animal has humps?",
+          "a": "A camel has humps."
+        },
+        {
+          "id": "g5u7q7",
+          "q": "What is a very large sea mammal?",
+          "a": "A whale is a large sea mammal."
+        },
+        {
+          "id": "g5u7q8",
+          "q": "What must we do for wild animals?",
+          "a": "We must protect their habitats."
+        },
+        {
+          "id": "g5u7q9",
+          "q": "What is at the back of a fox's body?",
+          "a": "Its tail is at the back."
+        }
+      ],
+      "completions": [
+        {
+          "id": "g5u7h1",
+          "start": "A giraffe…",
+          "end": "…has got a very long neck.",
+          "wrongEndings": [
+            "g5u7h2",
+            "g5u7h3"
+          ]
+        },
+        {
+          "id": "g5u7h2",
+          "start": "These penguins…",
+          "end": "…are very good swimmers.",
+          "wrongEndings": [
+            "g5u7h1",
+            "g5u7h5"
+          ]
+        },
+        {
+          "id": "g5u7h3",
+          "start": "A dolphin can…",
+          "end": "…jump out of the water.",
+          "wrongEndings": [
+            "g5u7h1",
+            "g5u7h2"
+          ]
+        },
+        {
+          "id": "g5u7h4",
+          "start": "Can a bear…",
+          "end": "…climb a tree?",
+          "wrongEndings": [
+            "g5u7h1",
+            "g5u7h2"
+          ]
+        },
+        {
+          "id": "g5u7h5",
+          "start": "There is…",
+          "end": "…a feather beside the nest.",
+          "wrongEndings": [
+            "g5u7h1",
+            "g5u7h2"
+          ]
+        },
+        {
+          "id": "g5u7h6",
+          "start": "There are…",
+          "end": "…two turtles near the river.",
+          "wrongEndings": [
+            "g5u7h1",
+            "g5u7h2"
+          ]
+        },
+        {
+          "id": "g5u7h7",
+          "start": "We must not…",
+          "end": "…drop litter in animal habitats.",
+          "wrongEndings": [
+            "g5u7h1",
+            "g5u7h2"
+          ]
+        },
+        {
+          "id": "g5u7h8",
+          "start": "Where is…",
+          "end": "…the small fox's home?",
+          "wrongEndings": [
+            "g5u7h1",
+            "g5u7h2"
+          ]
+        },
+        {
+          "id": "g5u7h9",
+          "start": "Does a camel…",
+          "end": "…live in the desert?",
+          "wrongEndings": [
+            "g5u7h1",
+            "g5u7h2"
+          ]
+        }
+      ],
+      "sentences": [
+        {
+          "id": "g5u7s1",
+          "blocks": [
+            "A whale",
+            "is",
+            "a mammal."
+          ],
+          "difficulty": 1,
+          "tr": "Balina bir memelidir."
+        },
+        {
+          "id": "g5u7s2",
+          "blocks": [
+            "Birds",
+            "have got",
+            "feathers."
+          ],
+          "difficulty": 1,
+          "tr": "Kuşların tüyleri vardır."
+        },
+        {
+          "id": "g5u7s3",
+          "blocks": [
+            "Penguins",
+            "cannot fly",
+            "like eagles."
+          ],
+          "difficulty": 1,
+          "tr": "Penguenler kartallar gibi uçamaz."
+        },
+        {
+          "id": "g5u7s4",
+          "blocks": [
+            "A lion",
+            "has got",
+            "a long",
+            "tail."
+          ],
+          "difficulty": 2,
+          "tr": "Aslanın uzun bir kuyruğu vardır."
+        },
+        {
+          "id": "g5u7s5",
+          "blocks": [
+            "This snake",
+            "has got",
+            "a small",
+            "head."
+          ],
+          "difficulty": 2,
+          "tr": "Bu yılanın küçük bir kafası var."
+        },
+        {
+          "id": "g5u7s6",
+          "blocks": [
+            "A turtle",
+            "has got",
+            "a hard",
+            "shell."
+          ],
+          "difficulty": 2,
+          "tr": "Kaplumbağanın sert bir kabuğu vardır."
+        },
+        {
+          "id": "g5u7s7",
+          "blocks": [
+            "We",
+            "must protect",
+            "these wild",
+            "animals."
+          ],
+          "difficulty": 2,
+          "tr": "Bu yabani hayvanları korumalıyız."
+        },
+        {
+          "id": "g5u7s8",
+          "blocks": [
+            "The forest",
+            "is",
+            "their natural",
+            "habitat."
+          ],
+          "difficulty": 2,
+          "tr": "Orman onların doğal yaşam alanıdır."
+        },
+        {
+          "id": "g5u7s9",
+          "blocks": [
+            "A giraffe",
+            "is",
+            "taller",
+            "than",
+            "a fox."
+          ],
+          "difficulty": 2,
+          "tr": "Zürafa tilkiden daha uzundur."
+        },
+        {
+          "id": "g5u7s10",
+          "blocks": [
+            "A whale",
+            "is",
+            "bigger",
+            "than",
+            "a dolphin."
+          ],
+          "difficulty": 2,
+          "tr": "Balina yunustan daha büyüktür."
+        }
+      ],
+      "translations": [
+        {
+          "id": "g5u7t1",
+          "en": "lion",
+          "tr": "aslan"
+        },
+        {
+          "id": "g5u7t2",
+          "en": "fox",
+          "tr": "tilki"
+        },
+        {
+          "id": "g5u7t3",
+          "en": "bear",
+          "tr": "ayı"
+        },
+        {
+          "id": "g5u7t4",
+          "en": "camel",
+          "tr": "deve"
+        },
+        {
+          "id": "g5u7t5",
+          "en": "dolphin",
+          "tr": "yunus"
+        },
+        {
+          "id": "g5u7t6",
+          "en": "whale",
+          "tr": "balina"
+        },
+        {
+          "id": "g5u7t7",
+          "en": "penguin",
+          "tr": "penguen"
+        },
+        {
+          "id": "g5u7t8",
+          "en": "turtle",
+          "tr": "kaplumbağa"
+        },
+        {
+          "id": "g5u7t9",
+          "en": "snake",
+          "tr": "yılan"
+        }
+      ]
+    },
+    {
+      "id": "g5u8",
+      "title": "Universe & Future",
+      "source": "maarif",
+      "targetLanguage": [
+        "am / is / are going to + base verb",
+        "holiday plans",
+        "geographical features"
+      ],
+      "categories": [
+        {
+          "id": "g5u8c1",
+          "title": "LAND FEATURES",
+          "yes": [
+            "mountain",
+            "waterfall",
+            "island",
+            "cave",
+            "coast",
+            "valley",
+            "beach",
+            "river",
+            "forest",
+            "lake"
+          ],
+          "no": [
+            "pencil",
+            "ruler",
+            "notebook",
+            "eraser",
+            "scissors",
+            "desk",
+            "board",
+            "pen",
+            "crayon",
+            "textbook"
+          ]
+        },
+        {
+          "id": "g5u8c2",
+          "title": "TRAVEL ITEMS",
+          "yes": [
+            "tent",
+            "suitcase",
+            "ticket",
+            "passport",
+            "map",
+            "backpack",
+            "camera",
+            "water bottle",
+            "compass",
+            "sleeping bag"
+          ],
+          "no": [
+            "apple",
+            "banana",
+            "pear",
+            "peach",
+            "carrot",
+            "onion",
+            "potato",
+            "cheese",
+            "bread",
+            "rice"
+          ]
+        }
+      ],
+      "descriptions": [
+        {
+          "id": "g5u8d1",
+          "clue": "A very high area of land.",
+          "options": [
+            "waterfall",
+            "island",
+            "mountain"
+          ],
+          "answer": "mountain"
+        },
+        {
+          "id": "g5u8d2",
+          "clue": "Water falling down from a high place.",
+          "options": [
+            "waterfall",
+            "mountain",
+            "island"
+          ],
+          "answer": "waterfall"
+        },
+        {
+          "id": "g5u8d3",
+          "clue": "Land with water all around it.",
+          "options": [
+            "waterfall",
+            "island",
+            "mountain"
+          ],
+          "answer": "island"
+        },
+        {
+          "id": "g5u8d4",
+          "clue": "A cloth shelter used for camping.",
+          "options": [
+            "suitcase",
+            "tent",
+            "passport"
+          ],
+          "answer": "tent"
+        },
+        {
+          "id": "g5u8d5",
+          "clue": "A case for clothes when travelling.",
+          "options": [
+            "tent",
+            "suitcase",
+            "passport"
+          ],
+          "answer": "suitcase"
+        },
+        {
+          "id": "g5u8d6",
+          "clue": "An official document used for foreign travel.",
+          "options": [
+            "passport",
+            "suitcase",
+            "tent"
+          ],
+          "answer": "passport"
+        }
+      ],
+      "pictures": [
+        {
+          "id": "g5u8p1",
+          "word": "mountain",
+          "drawing": "mountain centred in a simple flat icon with clear outlines"
+        },
+        {
+          "id": "g5u8p2",
+          "word": "waterfall",
+          "drawing": "waterfall centred in a simple flat icon with clear outlines"
+        },
+        {
+          "id": "g5u8p3",
+          "word": "island",
+          "drawing": "island centred in a simple flat icon with clear outlines"
+        },
+        {
+          "id": "g5u8p4",
+          "word": "cave",
+          "drawing": "cave centred in a simple flat icon with clear outlines"
+        },
+        {
+          "id": "g5u8p5",
+          "word": "tent",
+          "drawing": "tent centred in a simple flat icon with clear outlines"
+        },
+        {
+          "id": "g5u8p6",
+          "word": "suitcase",
+          "drawing": "suitcase centred in a simple flat icon with clear outlines"
+        },
+        {
+          "id": "g5u8p7",
+          "word": "passport",
+          "drawing": "closed passport booklet beside an open identification page"
+        },
+        {
+          "id": "g5u8p8",
+          "word": "boat",
+          "drawing": "boat centred in a simple flat icon with clear outlines"
+        },
+        {
+          "id": "g5u8p9",
+          "word": "train",
+          "drawing": "train centred in a simple flat icon with clear outlines"
+        }
+      ],
+      "questions": [
+        {
+          "id": "g5u8q1",
+          "q": "What is land with water all around it?",
+          "a": "It is an island."
+        },
+        {
+          "id": "g5u8q2",
+          "q": "What do you sleep in when camping?",
+          "a": "I sleep in a tent."
+        },
+        {
+          "id": "g5u8q3",
+          "q": "What document shows who you are abroad?",
+          "a": "A passport shows who I am."
+        },
+        {
+          "id": "g5u8q4",
+          "q": "What do you pack clothes in for travel?",
+          "a": "I pack them in a suitcase."
+        },
+        {
+          "id": "g5u8q5",
+          "q": "What is water falling from a high place?",
+          "a": "It is a waterfall."
+        },
+        {
+          "id": "g5u8q6",
+          "q": "What is a natural hole in rock?",
+          "a": "It is a cave."
+        },
+        {
+          "id": "g5u8q7",
+          "q": "Which planet is our home?",
+          "a": "Earth is our home planet."
+        },
+        {
+          "id": "g5u8q8",
+          "q": "What do you build with sand on a beach?",
+          "a": "I build a sandcastle."
+        },
+        {
+          "id": "g5u8q9",
+          "q": "What helps you find places on a trip?",
+          "a": "A map helps me find places."
+        }
+      ],
+      "completions": [
+        {
+          "id": "g5u8h1",
+          "start": "Our island…",
+          "end": "…is a beautiful holiday place.",
+          "wrongEndings": [
+            "g5u8h2",
+            "g5u8h3"
+          ]
+        },
+        {
+          "id": "g5u8h2",
+          "start": "The suitcases…",
+          "end": "…are ready for our trip.",
+          "wrongEndings": [
+            "g5u8h1",
+            "g5u8h5"
+          ]
+        },
+        {
+          "id": "g5u8h3",
+          "start": "A visitor can…",
+          "end": "…explore the mountain paths.",
+          "wrongEndings": [
+            "g5u8h1",
+            "g5u8h2"
+          ]
+        },
+        {
+          "id": "g5u8h4",
+          "start": "Can we…",
+          "end": "…take the boat to the island?",
+          "wrongEndings": [
+            "g5u8h1",
+            "g5u8h2"
+          ]
+        },
+        {
+          "id": "g5u8h5",
+          "start": "There is…",
+          "end": "…a small cave near the beach.",
+          "wrongEndings": [
+            "g5u8h1",
+            "g5u8h2"
+          ]
+        },
+        {
+          "id": "g5u8h6",
+          "start": "There are…",
+          "end": "…two tents beside the lake.",
+          "wrongEndings": [
+            "g5u8h1",
+            "g5u8h2"
+          ]
+        },
+        {
+          "id": "g5u8h7",
+          "start": "We must not…",
+          "end": "…leave rubbish on the coast.",
+          "wrongEndings": [
+            "g5u8h1",
+            "g5u8h2"
+          ]
+        },
+        {
+          "id": "g5u8h8",
+          "start": "Where is…",
+          "end": "…your ticket for the train?",
+          "wrongEndings": [
+            "g5u8h1",
+            "g5u8h2"
+          ]
+        },
+        {
+          "id": "g5u8h9",
+          "start": "Does your family…",
+          "end": "…plan to visit the waterfall?",
+          "wrongEndings": [
+            "g5u8h1",
+            "g5u8h2"
+          ]
+        }
+      ],
+      "sentences": [
+        {
+          "id": "g5u8s1",
+          "blocks": [
+            "We",
+            "are going to visit",
+            "an island."
+          ],
+          "difficulty": 1,
+          "tr": "Bir adayı ziyaret edeceğiz."
+        },
+        {
+          "id": "g5u8s2",
+          "blocks": [
+            "I",
+            "am going to pack",
+            "my bag."
+          ],
+          "difficulty": 1,
+          "tr": "Çantamı hazırlayacağım."
+        },
+        {
+          "id": "g5u8s3",
+          "blocks": [
+            "Can",
+            "is going to take",
+            "a camera."
+          ],
+          "difficulty": 1,
+          "tr": "Can bir fotoğraf makinesi götürecek."
+        },
+        {
+          "id": "g5u8s4",
+          "blocks": [
+            "Elif",
+            "is going to make",
+            "a big",
+            "sandcastle."
+          ],
+          "difficulty": 2,
+          "tr": "Elif büyük bir kumdan kale yapacak."
+        },
+        {
+          "id": "g5u8s5",
+          "blocks": [
+            "This",
+            "is",
+            "our new",
+            "tent."
+          ],
+          "difficulty": 2,
+          "tr": "Bu bizim yeni çadırımız."
+        },
+        {
+          "id": "g5u8s6",
+          "blocks": [
+            "We",
+            "are going to use",
+            "this small",
+            "boat."
+          ],
+          "difficulty": 2,
+          "tr": "Bu küçük tekneyi kullanacağız."
+        },
+        {
+          "id": "g5u8s7",
+          "blocks": [
+            "My father",
+            "has got",
+            "our",
+            "train tickets."
+          ],
+          "difficulty": 2,
+          "tr": "Tren biletlerimiz babamda."
+        },
+        {
+          "id": "g5u8s8",
+          "blocks": [
+            "Zeynep",
+            "is going to draw",
+            "that high",
+            "mountain."
+          ],
+          "difficulty": 2,
+          "tr": "Zeynep şu yüksek dağı çizecek."
+        },
+        {
+          "id": "g5u8s9",
+          "blocks": [
+            "This lake",
+            "is",
+            "smaller",
+            "than",
+            "the sea."
+          ],
+          "difficulty": 2,
+          "tr": "Bu göl denizden daha küçük."
+        },
+        {
+          "id": "g5u8s10",
+          "blocks": [
+            "This mountain",
+            "is",
+            "higher",
+            "than",
+            "that hill."
+          ],
+          "difficulty": 2,
+          "tr": "Bu dağ şu tepeden daha yüksek."
+        }
+      ],
+      "translations": [
+        {
+          "id": "g5u8t1",
+          "en": "mountain",
+          "tr": "dağ"
+        },
+        {
+          "id": "g5u8t2",
+          "en": "waterfall",
+          "tr": "şelale"
+        },
+        {
+          "id": "g5u8t3",
+          "en": "island",
+          "tr": "ada"
+        },
+        {
+          "id": "g5u8t4",
+          "en": "cave",
+          "tr": "mağara"
+        },
+        {
+          "id": "g5u8t5",
+          "en": "coast",
+          "tr": "kıyı"
+        },
+        {
+          "id": "g5u8t6",
+          "en": "valley",
+          "tr": "vadi"
+        },
+        {
+          "id": "g5u8t7",
+          "en": "beach",
+          "tr": "kumsal"
+        },
+        {
+          "id": "g5u8t8",
+          "en": "river",
+          "tr": "nehir"
+        },
+        {
+          "id": "g5u8t9",
+          "en": "forest",
+          "tr": "orman"
+        }
+      ]
+    },
+    {
+      "id": "g5u9",
+      "title": "Health and Feelings",
+      "source": "general",
+      "targetLanguage": [
+        "How do you feel? / I feel ...",
+        "have got: simple health problems",
+        "basic personal care"
+      ],
+      "categories": [
+        {
+          "id": "g5u9c1",
+          "title": "FEELINGS",
+          "yes": [
+            "sad",
+            "angry",
+            "worried",
+            "bored",
+            "calm",
+            "excited",
+            "proud",
+            "lonely",
+            "confused",
+            "happy"
+          ],
+          "no": [
+            "cat",
+            "dog",
+            "rabbit",
+            "horse",
+            "sheep",
+            "cow",
+            "duck",
+            "goat",
+            "zebra",
+            "tiger"
+          ]
+        },
+        {
+          "id": "g5u9c2",
+          "title": "BODY PARTS",
+          "yes": [
+            "head",
+            "neck",
+            "shoulder",
+            "elbow",
+            "knee",
+            "foot",
+            "toe",
+            "finger",
+            "back",
+            "tooth"
+          ],
+          "no": [
+            "apple",
+            "banana",
+            "pear",
+            "peach",
+            "carrot",
+            "onion",
+            "potato",
+            "cheese",
+            "bread",
+            "rice"
+          ]
+        }
+      ],
+      "descriptions": [
+        {
+          "id": "g5u9d1",
+          "clue": "Unhappy and wanting to cry.",
+          "options": [
+            "worried",
+            "angry",
+            "sad"
+          ],
+          "answer": "sad"
+        },
+        {
+          "id": "g5u9d2",
+          "clue": "Feeling cross because something is wrong.",
+          "options": [
+            "angry",
+            "worried",
+            "sad"
+          ],
+          "answer": "angry"
+        },
+        {
+          "id": "g5u9d3",
+          "clue": "Thinking that something bad may happen.",
+          "options": [
+            "sad",
+            "angry",
+            "worried"
+          ],
+          "answer": "worried"
+        },
+        {
+          "id": "g5u9d4",
+          "clue": "I check people's hearts and lungs in a hospital.",
+          "options": [
+            "doctor",
+            "dentist",
+            "vet"
+          ],
+          "answer": "doctor"
+        },
+        {
+          "id": "g5u9d5",
+          "clue": "I check people's teeth and repair holes in them.",
+          "options": [
+            "doctor",
+            "vet",
+            "dentist"
+          ],
+          "answer": "dentist"
+        },
+        {
+          "id": "g5u9d6",
+          "clue": "I treat sick animals in an animal clinic.",
+          "options": [
+            "dentist",
+            "vet",
+            "doctor"
+          ],
+          "answer": "vet"
+        }
+      ],
+      "pictures": [
+        {
+          "id": "g5u9p1",
+          "word": "doctor",
+          "drawing": "doctor centred in a simple flat icon with clear outlines"
+        },
+        {
+          "id": "g5u9p2",
+          "word": "nurse",
+          "drawing": "nurse centred in a simple flat icon with clear outlines"
+        },
+        {
+          "id": "g5u9p3",
+          "word": "dentist",
+          "drawing": "dentist centred in a simple flat icon with clear outlines"
+        },
+        {
+          "id": "g5u9p4",
+          "word": "ambulance",
+          "drawing": "ambulance centred in a simple flat icon with clear outlines"
+        },
+        {
+          "id": "g5u9p5",
+          "word": "thermometer",
+          "drawing": "simple thermometer with a red temperature line"
+        },
+        {
+          "id": "g5u9p6",
+          "word": "bandage",
+          "drawing": "bandage centred in a simple flat icon with clear outlines"
+        },
+        {
+          "id": "g5u9p7",
+          "word": "tissue",
+          "drawing": "tissue centred in a simple flat icon with clear outlines"
+        },
+        {
+          "id": "g5u9p8",
+          "word": "soap",
+          "drawing": "soap centred in a simple flat icon with clear outlines"
+        },
+        {
+          "id": "g5u9p9",
+          "word": "toothbrush",
+          "drawing": "toothbrush centred in a simple flat icon with clear outlines"
+        }
+      ],
+      "questions": [
+        {
+          "id": "g5u9q1",
+          "q": "Who checks your teeth?",
+          "a": "A dentist checks my teeth."
+        },
+        {
+          "id": "g5u9q2",
+          "q": "What does a thermometer measure?",
+          "a": "It measures temperature."
+        },
+        {
+          "id": "g5u9q3",
+          "q": "How do you feel when you want to cry?",
+          "a": "I feel sad."
+        },
+        {
+          "id": "g5u9q4",
+          "q": "What do you use to wash your hands?",
+          "a": "I wash them with soap and water."
+        },
+        {
+          "id": "g5u9q5",
+          "q": "What takes sick people to hospital?",
+          "a": "An ambulance takes them there."
+        },
+        {
+          "id": "g5u9q6",
+          "q": "How do you feel without company?",
+          "a": "I feel lonely."
+        },
+        {
+          "id": "g5u9q7",
+          "q": "What covers a small cut?",
+          "a": "A bandage covers a small cut."
+        },
+        {
+          "id": "g5u9q8",
+          "q": "How do you feel before a fun trip?",
+          "a": "I feel excited."
+        },
+        {
+          "id": "g5u9q9",
+          "q": "What is a pain in a tooth called?",
+          "a": "It is called toothache."
+        }
+      ],
+      "completions": [
+        {
+          "id": "g5u9h1",
+          "start": "My friend…",
+          "end": "…is worried about her test.",
+          "wrongEndings": [
+            "g5u9h2",
+            "g5u9h3"
+          ]
+        },
+        {
+          "id": "g5u9h2",
+          "start": "The doctors…",
+          "end": "…are ready to help the child.",
+          "wrongEndings": [
+            "g5u9h1",
+            "g5u9h5"
+          ]
+        },
+        {
+          "id": "g5u9h3",
+          "start": "A dentist can…",
+          "end": "…check your teeth.",
+          "wrongEndings": [
+            "g5u9h1",
+            "g5u9h2"
+          ]
+        },
+        {
+          "id": "g5u9h4",
+          "start": "Can I…",
+          "end": "…have a clean tissue, please?",
+          "wrongEndings": [
+            "g5u9h1",
+            "g5u9h2"
+          ]
+        },
+        {
+          "id": "g5u9h5",
+          "start": "There is…",
+          "end": "…a bandage in this small box.",
+          "wrongEndings": [
+            "g5u9h1",
+            "g5u9h2"
+          ]
+        },
+        {
+          "id": "g5u9h6",
+          "start": "There are…",
+          "end": "…two nurses near the ambulance.",
+          "wrongEndings": [
+            "g5u9h1",
+            "g5u9h2"
+          ]
+        },
+        {
+          "id": "g5u9h7",
+          "start": "We must not…",
+          "end": "…forget to wash our hands.",
+          "wrongEndings": [
+            "g5u9h1",
+            "g5u9h2"
+          ]
+        },
+        {
+          "id": "g5u9h8",
+          "start": "Where is…",
+          "end": "…your new toothbrush?",
+          "wrongEndings": [
+            "g5u9h1",
+            "g5u9h2"
+          ]
+        },
+        {
+          "id": "g5u9h9",
+          "start": "Does your friend…",
+          "end": "…feel happy about the trip?",
+          "wrongEndings": [
+            "g5u9h1",
+            "g5u9h2"
+          ]
+        }
+      ],
+      "sentences": [
+        {
+          "id": "g5u9s1",
+          "blocks": [
+            "I",
+            "feel",
+            "sad."
+          ],
+          "difficulty": 1,
+          "tr": "Üzgün hissediyorum."
+        },
+        {
+          "id": "g5u9s2",
+          "blocks": [
+            "The dentist",
+            "checks",
+            "my teeth."
+          ],
+          "difficulty": 1,
+          "tr": "Diş hekimi dişlerimi kontrol ediyor."
+        },
+        {
+          "id": "g5u9s3",
+          "blocks": [
+            "My friend",
+            "needs",
+            "a tissue."
+          ],
+          "difficulty": 1,
+          "tr": "Arkadaşımın bir mendile ihtiyacı var."
+        },
+        {
+          "id": "g5u9s4",
+          "blocks": [
+            "My brother",
+            "has got",
+            "a bad",
+            "toothache."
+          ],
+          "difficulty": 2,
+          "tr": "Erkek kardeşimin dişi çok ağrıyor."
+        },
+        {
+          "id": "g5u9s5",
+          "blocks": [
+            "This",
+            "is",
+            "a clean",
+            "bandage."
+          ],
+          "difficulty": 2,
+          "tr": "Bu temiz bir bandaj."
+        },
+        {
+          "id": "g5u9s6",
+          "blocks": [
+            "The nurse",
+            "has got",
+            "a small",
+            "thermometer."
+          ],
+          "difficulty": 2,
+          "tr": "Hemşirenin küçük bir termometresi var."
+        },
+        {
+          "id": "g5u9s7",
+          "blocks": [
+            "Elif",
+            "has got",
+            "a happy",
+            "smile."
+          ],
+          "difficulty": 2,
+          "tr": "Elif'in yüzünde mutlu bir gülümseme var."
+        },
+        {
+          "id": "g5u9s8",
+          "blocks": [
+            "Our doctor",
+            "is",
+            "a kind",
+            "person."
+          ],
+          "difficulty": 2,
+          "tr": "Doktorumuz nazik bir insan."
+        },
+        {
+          "id": "g5u9s9",
+          "blocks": [
+            "Can",
+            "has got",
+            "a bottle",
+            "of",
+            "liquid soap."
+          ],
+          "difficulty": 2,
+          "tr": "Can'ın bir şişe sıvı sabunu var."
+        },
+        {
+          "id": "g5u9s10",
+          "blocks": [
+            "This",
+            "is",
+            "a picture",
+            "of",
+            "an ambulance."
+          ],
+          "difficulty": 2,
+          "tr": "Bu bir ambulans resmi."
+        }
+      ],
+      "translations": [
+        {
+          "id": "g5u9t1",
+          "en": "sad",
+          "tr": "üzgün"
+        },
+        {
+          "id": "g5u9t2",
+          "en": "angry",
+          "tr": "kızgın"
+        },
+        {
+          "id": "g5u9t3",
+          "en": "worried",
+          "tr": "endişeli"
+        },
+        {
+          "id": "g5u9t4",
+          "en": "calm",
+          "tr": "sakin"
+        },
+        {
+          "id": "g5u9t5",
+          "en": "excited",
+          "tr": "heyecanlı"
+        },
+        {
+          "id": "g5u9t6",
+          "en": "proud",
+          "tr": "gururlu"
+        },
+        {
+          "id": "g5u9t7",
+          "en": "lonely",
+          "tr": "yalnız"
+        },
+        {
+          "id": "g5u9t8",
+          "en": "confused",
+          "tr": "kafası karışmış"
+        },
+        {
+          "id": "g5u9t9",
+          "en": "toothache",
+          "tr": "diş ağrısı"
+        }
+      ]
+    },
+    {
+      "id": "g5u10",
+      "title": "Fun and Games",
+      "source": "general",
+      "targetLanguage": [
+        "like / don't like + -ing",
+        "can / can't: games and skills",
+        "What is your favourite game?"
+      ],
+      "categories": [
+        {
+          "id": "g5u10c1",
+          "title": "GAMES",
+          "yes": [
+            "chess",
+            "football",
+            "basketball",
+            "tennis",
+            "volleyball",
+            "badminton",
+            "hide-and-seek",
+            "hopscotch",
+            "marbles",
+            "tag"
+          ],
+          "no": [
+            "apple",
+            "banana",
+            "pear",
+            "peach",
+            "carrot",
+            "onion",
+            "potato",
+            "cheese",
+            "bread",
+            "rice"
+          ]
+        },
+        {
+          "id": "g5u10c2",
+          "title": "GAME EQUIPMENT",
+          "yes": [
+            "ball",
+            "racket",
+            "net",
+            "dice",
+            "chessboard",
+            "kite",
+            "skipping rope",
+            "bat",
+            "goal",
+            "hoop"
+          ],
+          "no": [
+            "apple",
+            "banana",
+            "pear",
+            "peach",
+            "carrot",
+            "onion",
+            "potato",
+            "cheese",
+            "bread",
+            "rice"
+          ]
+        }
+      ],
+      "descriptions": [
+        {
+          "id": "g5u10d1",
+          "clue": "A toy that flies on a string.",
+          "options": [
+            "kite",
+            "dice",
+            "marbles"
+          ],
+          "answer": "kite"
+        },
+        {
+          "id": "g5u10d2",
+          "clue": "Small cubes with dots used in games.",
+          "options": [
+            "marbles",
+            "kite",
+            "dice"
+          ],
+          "answer": "dice"
+        },
+        {
+          "id": "g5u10d3",
+          "clue": "Small glass balls used in games.",
+          "options": [
+            "dice",
+            "kite",
+            "marbles"
+          ],
+          "answer": "marbles"
+        },
+        {
+          "id": "g5u10d4",
+          "clue": "A game with pieces that join to make a picture.",
+          "options": [
+            "chess",
+            "puzzle",
+            "skipping rope"
+          ],
+          "answer": "puzzle"
+        },
+        {
+          "id": "g5u10d5",
+          "clue": "A rope you jump over for fun.",
+          "options": [
+            "chess",
+            "skipping rope",
+            "puzzle"
+          ],
+          "answer": "skipping rope"
+        },
+        {
+          "id": "g5u10d6",
+          "clue": "A board game with kings and queens.",
+          "options": [
+            "skipping rope",
+            "puzzle",
+            "chess"
+          ],
+          "answer": "chess"
+        }
+      ],
+      "pictures": [
+        {
+          "id": "g5u10p1",
+          "word": "ball",
+          "drawing": "ball centred in a simple flat icon with clear outlines"
+        },
+        {
+          "id": "g5u10p2",
+          "word": "racket",
+          "drawing": "racket centred in a simple flat icon with clear outlines"
+        },
+        {
+          "id": "g5u10p3",
+          "word": "net",
+          "drawing": "net centred in a simple flat icon with clear outlines"
+        },
+        {
+          "id": "g5u10p4",
+          "word": "dice",
+          "drawing": "dice centred in a simple flat icon with clear outlines"
+        },
+        {
+          "id": "g5u10p5",
+          "word": "kite",
+          "drawing": "kite centred in a simple flat icon with clear outlines"
+        },
+        {
+          "id": "g5u10p6",
+          "word": "chessboard",
+          "drawing": "chessboard centred in a simple flat icon with clear outlines"
+        },
+        {
+          "id": "g5u10p7",
+          "word": "bat",
+          "drawing": "bat centred in a simple flat icon with clear outlines"
+        },
+        {
+          "id": "g5u10p8",
+          "word": "goal",
+          "drawing": "goal centred in a simple flat icon with clear outlines"
+        },
+        {
+          "id": "g5u10p9",
+          "word": "hoop",
+          "drawing": "hoop centred in a simple flat icon with clear outlines"
+        }
+      ],
+      "questions": [
+        {
+          "id": "g5u10q1",
+          "q": "What do you use to play tennis?",
+          "a": "I use a tennis racket."
+        },
+        {
+          "id": "g5u10q2",
+          "q": "Which game has kings and queens?",
+          "a": "Chess has kings and queens."
+        },
+        {
+          "id": "g5u10q3",
+          "q": "What toy flies on a string?",
+          "a": "A kite flies on a string."
+        },
+        {
+          "id": "g5u10q4",
+          "q": "What small glass balls are for games?",
+          "a": "They are marbles."
+        },
+        {
+          "id": "g5u10q5",
+          "q": "What do players kick in football?",
+          "a": "They kick a football."
+        },
+        {
+          "id": "g5u10q6",
+          "q": "What rope can you jump over for fun?",
+          "a": "I can jump over a skipping rope."
+        },
+        {
+          "id": "g5u10q7",
+          "q": "What do you do in hide-and-seek?",
+          "a": "I hide while a friend looks."
+        },
+        {
+          "id": "g5u10q8",
+          "q": "What cubes have dots for counting?",
+          "a": "Dice have dots for counting."
+        },
+        {
+          "id": "g5u10q9",
+          "q": "Where do you throw a basketball?",
+          "a": "I throw it through a hoop."
+        }
+      ],
+      "completions": [
+        {
+          "id": "g5u10h1",
+          "start": "This kite…",
+          "end": "…has got a very long string.",
+          "wrongEndings": [
+            "g5u10h2",
+            "g5u10h3"
+          ]
+        },
+        {
+          "id": "g5u10h2",
+          "start": "The tennis balls…",
+          "end": "…are in the sports bag.",
+          "wrongEndings": [
+            "g5u10h1",
+            "g5u10h5"
+          ]
+        },
+        {
+          "id": "g5u10h3",
+          "start": "My classmate can…",
+          "end": "…play chess with us.",
+          "wrongEndings": [
+            "g5u10h1",
+            "g5u10h2"
+          ]
+        },
+        {
+          "id": "g5u10h4",
+          "start": "Can you…",
+          "end": "…jump over this skipping rope?",
+          "wrongEndings": [
+            "g5u10h1",
+            "g5u10h2"
+          ]
+        },
+        {
+          "id": "g5u10h5",
+          "start": "There is…",
+          "end": "…a red racket beside the net.",
+          "wrongEndings": [
+            "g5u10h1",
+            "g5u10h2"
+          ]
+        },
+        {
+          "id": "g5u10h6",
+          "start": "There are…",
+          "end": "…six marbles in this glass jar.",
+          "wrongEndings": [
+            "g5u10h1",
+            "g5u10h2"
+          ]
+        },
+        {
+          "id": "g5u10h7",
+          "start": "We must not…",
+          "end": "…push other players.",
+          "wrongEndings": [
+            "g5u10h1",
+            "g5u10h2"
+          ]
+        },
+        {
+          "id": "g5u10h8",
+          "start": "Where is…",
+          "end": "…the ball for our new game?",
+          "wrongEndings": [
+            "g5u10h1",
+            "g5u10h2"
+          ]
+        },
+        {
+          "id": "g5u10h9",
+          "start": "Does your cousin…",
+          "end": "…like playing hide-and-seek?",
+          "wrongEndings": [
+            "g5u10h1",
+            "g5u10h2"
+          ]
+        }
+      ],
+      "sentences": [
+        {
+          "id": "g5u10s1",
+          "blocks": [
+            "I",
+            "like playing",
+            "basketball."
+          ],
+          "difficulty": 1,
+          "tr": "Basketbol oynamayı seviyorum."
+        },
+        {
+          "id": "g5u10s2",
+          "blocks": [
+            "My friend",
+            "can fly",
+            "a kite."
+          ],
+          "difficulty": 1,
+          "tr": "Arkadaşım uçurtma uçurabilir."
+        },
+        {
+          "id": "g5u10s3",
+          "blocks": [
+            "This game",
+            "needs",
+            "two players."
+          ],
+          "difficulty": 1,
+          "tr": "Bu oyun iki oyuncu gerektirir."
+        },
+        {
+          "id": "g5u10s4",
+          "blocks": [
+            "Elif",
+            "has got",
+            "a new",
+            "racket."
+          ],
+          "difficulty": 2,
+          "tr": "Elif'in yeni bir raketi var."
+        },
+        {
+          "id": "g5u10s5",
+          "blocks": [
+            "We",
+            "need",
+            "a big",
+            "ball."
+          ],
+          "difficulty": 2,
+          "tr": "Büyük bir topa ihtiyacımız var."
+        },
+        {
+          "id": "g5u10s6",
+          "blocks": [
+            "Can",
+            "likes",
+            "this",
+            "board game."
+          ],
+          "difficulty": 2,
+          "tr": "Can bu kutu oyununu seviyor."
+        },
+        {
+          "id": "g5u10s7",
+          "blocks": [
+            "These",
+            "are",
+            "my glass",
+            "marbles."
+          ],
+          "difficulty": 2,
+          "tr": "Bunlar benim cam bilyelerim."
+        },
+        {
+          "id": "g5u10s8",
+          "blocks": [
+            "Our team",
+            "has got",
+            "a small",
+            "goal."
+          ],
+          "difficulty": 2,
+          "tr": "Takımımızın küçük bir kalesi var."
+        },
+        {
+          "id": "g5u10s9",
+          "blocks": [
+            "The coach",
+            "explains",
+            "the rules",
+            "of",
+            "this game."
+          ],
+          "difficulty": 2,
+          "tr": "Antrenör bu oyunun kurallarını açıklıyor."
+        },
+        {
+          "id": "g5u10s10",
+          "blocks": [
+            "Zeynep",
+            "has got",
+            "a pair",
+            "of",
+            "tennis rackets."
+          ],
+          "difficulty": 2,
+          "tr": "Zeynep'in bir çift tenis raketi var."
+        }
+      ],
+      "translations": [
+        {
+          "id": "g5u10t1",
+          "en": "kite",
+          "tr": "uçurtma"
+        },
+        {
+          "id": "g5u10t2",
+          "en": "dice",
+          "tr": "zarlar"
+        },
+        {
+          "id": "g5u10t3",
+          "en": "marbles",
+          "tr": "bilyeler"
+        },
+        {
+          "id": "g5u10t4",
+          "en": "hopscotch",
+          "tr": "seksek"
+        },
+        {
+          "id": "g5u10t5",
+          "en": "tag",
+          "tr": "ebelemece"
+        },
+        {
+          "id": "g5u10t6",
+          "en": "hide-and-seek",
+          "tr": "saklambaç"
+        },
+        {
+          "id": "g5u10t7",
+          "en": "racket",
+          "tr": "raket"
+        },
+        {
+          "id": "g5u10t8",
+          "en": "hoop",
+          "tr": "çember"
+        },
+        {
+          "id": "g5u10t9",
+          "en": "bat",
+          "tr": "oyun sopası"
+        }
+      ]
+    }
+  ]
+}

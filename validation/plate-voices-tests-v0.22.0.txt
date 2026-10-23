@@ -1,0 +1,28 @@
+✔ speech waits for the utterance, supports manual replay while muted and settles cancellation (2.714175ms)
+✔ voice personas distinguish female/male vendor names and leave generic voices unknown (2.642666ms)
+✔ customer selection prefers US gender, stable distinct personas, local voices and graceful fallback (8.781763ms)
+✔ late voice discovery uses the requested US customer voice and waits for speech to finish (0.980247ms)
+✔ cancelling voice discovery removes the listener and prevents stale speech (380.397691ms)
+✔ an empty voice catalogue has a bounded fallback instead of blocking the task (381.644988ms)
+✔ station speech follows the actual table guest, restores its voice and keeps shared tasks neutral (2.004087ms)
+✔ washing reuses reviewed sentences in every unit, freezes English time and cleans the batch once (45.052741ms)
+✔ native taps connect plate blocks and a completed sentence rinses all dishes after its reading finish (1294.624486ms)
+✔ a captured swipe accepts coalesced crossings once and ignores its compatibility click (287.294756ms)
+✔ cancelled, missed and second-finger swipes preserve progress; a wrong link records only one error per stroke (276.020599ms)
+✔ reverse menu shows Turkish on the left and English on the right, with unchanged pair identity (256.862549ms)
+✔ audio–Turkish pairing waits for speech, keeps English hidden and exposes supported text when unavailable (458.193998ms)
+✔ requested English audio restores the exact word after rotation before matching continues (439.273909ms)
+✔ all 702 wash sentences fit tap targets at eleven screen sizes with two measured fonts (94.558012ms)
+✔ delivery stickers remain compact and all reviewed sorting labels fit including revealed Turkish (507.010304ms)
+✔ washing close-up and plate controls have a clear world sightline in every arena and viewport (2068.443491ms)
+✔ washing close-up has a shaped ceramic plate, two hands, food patches and a camera facing the sink (203.42054ms)
+✔ native cleaning clears its own physical patch and restores it across rotation (234.114004ms)
+✔ washing labels use compact intrinsic sizes rather than filling the plate (0.418959ms)
+ℹ tests 20
+ℹ suites 0
+ℹ pass 20
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 7305.963865

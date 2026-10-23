@@ -1,0 +1,38 @@
+✔ Languini renames the restaurant without changing the existing save identity (2.40182ms)
+✔ larger venues provide real floor and walkable space while retaining reachable service anchors (778.506762ms)
+✔ expanded overview cameras preserve usable station and guest positions on phones (2.387138ms)
+✔ corrected check reading time scales with the sentence and stays bounded (0.350537ms)
+✔ chef stride moves independent legs while carrying keeps both hands steady and reduced motion settles (479.990874ms)
+✔ station lighting narrows its shadow view and restores the arena overview without new shadow lights (285.282092ms)
+✔ angled preparation grips tools while keeping recipe and sentence ink clear at small portrait and landscape sizes (567.777989ms)
+✔ completed preparation retains the exact food geometry used for serving all nine dishes (285.555317ms)
+✔ served meal moves from the actual tray to the table, pauses and settles without modifying the game (283.761546ms)
+✔ station, arena, shop and ticket controls resolve to one complete semantic icon family (2.360248ms)
+✔ particle feedback remains bounded after repeated actions, clears on reduced motion and releases its resources (9.226108ms)
+✔ real preparation emits crumbs for bread and steam for hot broth, with silent restoration (324.510522ms)
+✔ delivery approval seal stamps once and remains fully formed on restored packages (227.533367ms)
+✔ station feedback freezes during pause and overview steam follows real hot cooking jobs (276.793827ms)
+✔ all arena renovation stages add visible structure without exceeding existing mesh budgets (2678.377186ms)
+✔ fully upgraded warming equipment leaves ticket and receipt ink clear across arenas and viewports (1303.849065ms)
+✔ washing reuses reviewed sentences in every unit, freezes English time and cleans the batch once (45.978141ms)
+✔ native taps connect plate blocks and a completed sentence rinses all dishes after its reading finish (1268.332002ms)
+✔ a captured swipe accepts coalesced crossings once and ignores its compatibility click (274.886156ms)
+✔ cancelled, missed and second-finger swipes preserve progress; a wrong link records only one error per stroke (296.191374ms)
+✔ reverse menu shows Turkish on the left and English on the right, with unchanged pair identity (281.934045ms)
+✔ audio–Turkish pairing waits for speech, keeps English hidden and exposes supported text when unavailable (478.281952ms)
+✔ requested English audio restores the exact word after rotation before matching continues (473.407223ms)
+✔ all 702 wash sentences fit tap targets at eleven screen sizes with two measured fonts (94.153677ms)
+✔ delivery stickers remain compact and all reviewed sorting labels fit including revealed Turkish (461.438384ms)
+✔ washing close-up and plate controls have a clear world sightline in every arena and viewport (2146.469551ms)
+✔ washing close-up has a shaped ceramic plate, two hands, food patches and a camera facing the sink (183.056578ms)
+✔ native cleaning clears its own physical patch and restores it across rotation (223.834784ms)
+✔ soap bubbles float during scrubbing and clean ceramic shimmers only after the dirt clears (198.744469ms)
+✔ washing labels use compact intrinsic sizes rather than filling the plate (0.493401ms)
+ℹ tests 30
+ℹ suites 0
+ℹ pass 30
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 14575.303787

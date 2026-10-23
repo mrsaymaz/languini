@@ -1,0 +1,11 @@
+✔ male customers avoid novelty and legacy rotation when another English male persona is available (17.222445ms)
+✔ automatic receipt finish respects pause, camera readiness and requested speech, and commits once (2272.949747ms)
+✔ soap bubbles float during scrubbing and clean ceramic shimmers only after the dirt clears (340.530947ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3089.355131

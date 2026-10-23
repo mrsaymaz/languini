@@ -1,0 +1,46 @@
+/* Stable native typography: iOS must not inflate absolutely positioned panels. */
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%;overflow:hidden;overflow:clip}
+body{position:fixed;inset:0;overflow:hidden;overflow:clip}#app{position:fixed;inset:0;overflow:hidden;overflow:clip}
+#world canvas{image-rendering:auto}
+#task-card.object-ui .guest-question{display:block;right:auto;min-width:0}
+#task-card.object-ui .guest-question .speech-question{width:100%;min-width:0;flex:none}
+#task-card.object-ui .dialogue-progress{display:flex;flex-wrap:wrap;align-items:center;gap:3px 10px;max-height:none}
+#task-card.object-ui .dialogue-progress>*{min-width:0;overflow-wrap:break-word}
+#task-card.object-ui .speech-question .task-prompt{word-break:normal;overflow-wrap:break-word}
+.dock-short{display:none!important}
+.kitchen-world-actions{display:none}
+@media(max-width:759px),(pointer:coarse){.kitchen-world-actions{display:block}.kitchen-destination,.kitchen-leader{display:none!important}}
+.kitchen-world-actions button{position:absolute;transform:translate(-50%,-50%);display:flex;align-items:center;gap:4px;justify-content:center;min-width:68px;max-width:90px;min-height:44px;padding:5px 7px;border:1px solid #486d53;border-radius:11px;background:#fff8e9f5;color:#315641;box-shadow:0 2px 4px #244b342e;pointer-events:auto;font:800 11px/1.15 var(--sans);z-index:2}
+.kitchen-world-actions button .icon{width:21px;height:21px}.kitchen-world-actions button span{min-width:0;overflow-wrap:normal}.kitchen-world-actions i{position:absolute;right:-4px;top:-6px;border-radius:50%;background:#365b48;color:#fff;font:700 10px/18px var(--sans);width:18px;height:18px}.kitchen-world-actions [hidden]{display:none!important}
+@media(max-width:759px){
+ .kitchen-destination,.kitchen-leader{display:none!important}
+ .live-kitchen:not(.task-open) .game-header{top:8px;left:12px;right:12px}.live-kitchen:not(.task-open) .header-tools .icon-button{width:44px;height:44px}.live-kitchen:not(.task-open) .service-title{font-size:16px}.live-kitchen:not(.task-open) .rune-wallet{font-size:12px;padding:7px;min-width:52px}.live-kitchen:not(.task-open) .service-progress{top:55px;font-size:10px;padding:4px 7px}
+ .kitchen-orders{top:82px;gap:7px;max-height:88px}.kitchen-ticket{flex-basis:156px;min-width:156px;min-height:68px;max-height:78px;padding:6px 8px 9px;overflow:hidden}.kitchen-ticket .ticket-id{font-size:10px;gap:4px}.kitchen-ticket .ticket-identity{min-width:0;white-space:nowrap}.kitchen-ticket .ticket-state{max-width:68px;flex:0 0 68px;font-size:10px;overflow-wrap:normal;word-break:normal}.kitchen-ticket .ticket-state .icon{width:14px;height:14px}.kitchen-ticket>b{font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.kitchen-ticket>small{font-size:10px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+ .kitchen-dock{bottom:max(7px,env(safe-area-inset-bottom));width:calc(100% - 20px);grid-template-columns:repeat(6,minmax(0,1fr));gap:4px;padding:5px}.kitchen-dock button{min-width:0;min-height:56px;padding:5px 2px;font-size:10px;gap:2px}.kitchen-dock button .icon{width:20px;height:20px}.kitchen-dock button .dock-full{display:none}.kitchen-dock button .dock-short{display:flex!important;min-height:22px;max-width:100%;line-height:1.1;overflow-wrap:normal;word-break:normal}
+ .kitchen-carry{bottom:max(78px,calc(env(safe-area-inset-bottom) + 78px));font-size:10px;line-height:1.2;padding:4px 8px;max-width:calc(100% - 24px);overflow:hidden;white-space:nowrap;text-overflow:ellipsis}.kitchen-hint{display:none}.kitchen-hint[data-blocked=true]{display:block;bottom:max(112px,calc(env(safe-area-inset-bottom) + 112px));width:calc(100% - 28px);max-width:380px;font-size:11px;max-height:48px;overflow:auto}
+ .overview-controls{right:10px}.overview-controls button{width:44px;height:44px}
+ .toast{top:auto;left:12px;right:auto;transform:none;bottom:max(115px,calc(env(safe-area-inset-bottom) + 115px));width:max-content;max-width:calc(100% - 88px);font-size:11px;line-height:1.3;padding:8px 10px;max-height:70px;overflow:auto}
+ #task-card.object-ui .station-status{top:8px;left:12px;right:66px;display:grid;grid-template-columns:42px 44px 28px minmax(0,1fr);gap:5px;align-items:center;min-height:50px}
+ #task-card.object-ui .station-status>span:last-child{width:100%;max-width:none;min-width:0;padding:4px 6px;max-height:64px;overflow:auto}
+ #task-card.object-ui .station-status b{font-size:12px;line-height:1.2;word-break:normal;overflow-wrap:normal}#task-card.object-ui .station-status small{font-size:10px;line-height:1.2}.station-status .station-meta,.station-status .station-route{display:none!important}
+ #task-card.object-ui .table-token{min-width:0;min-height:34px;padding:3px;font-size:10px;outline-width:1px}#task-card.object-ui .table-token small{font-size:8px}
+ #task-card.object-ui .station-status .freshness-ring{width:42px;height:42px}#task-card.object-ui .freshness-ring svg{width:42px;height:42px}#task-card.object-ui .freshness-ring b{top:8px;font-size:12px}#task-card.object-ui .freshness-ring small{top:23px;font-size:7px}
+ #task-card.object-ui .station-status .owner-station-note{font-size:10px;line-height:1.25;overflow-wrap:normal}
+ #task-card.object-ui .owner-station-note[data-manual=true]{position:fixed;bottom:max(76px,calc(env(safe-area-inset-bottom) + 76px));left:14px;right:14px;max-width:none;max-height:105px;overflow:auto;padding:10px;border:1px solid #c3ba99;border-radius:12px;background:#fff9e9;color:#355b48;font-size:12px;z-index:10;pointer-events:auto;box-shadow:0 4px 16px #294d3433}
+ #task-card.object-ui .station-assist{gap:6px;left:12px;right:12px;bottom:max(7px,env(safe-area-inset-bottom));align-items:end;max-width:none}
+ #task-card.object-ui .task-toolbar button{width:48px;min-width:48px;padding:4px 3px;font-size:10px;line-height:1.15}#task-card.object-ui .task-toolbar button span{font:inherit;white-space:nowrap;overflow-wrap:normal;word-break:normal}
+ #task-card.object-ui .assist-copy,#task-card.object-ui .task-feedback,#task-card.object-ui #sentence-tray{pointer-events:auto;touch-action:pan-y}
+ #task-card.object-ui .task-feedback{font-size:11px;line-height:1.25;max-height:56px;overflow:auto;padding:6px 8px}
+ #task-card.object-ui.recipe-compact #sentence-tray{font-size:13px;line-height:1.25;max-height:58px;overflow:auto}
+ #task-card.object-ui .recipe-note-ink{padding:5px 8px;justify-content:center;overflow:auto}#task-card.object-ui .recipe-build-cue{font-size:13px;line-height:1.3;min-height:0;margin:0}#task-card.object-ui .recipe-translation{font:700 var(--note-font,15px)/1.25 var(--sans);padding:0;margin:0;min-height:0}
+ #task-card.object-ui .dish-drop>span{font-size:11px;padding:4px 8px;white-space:nowrap;max-width:none}#task-card.object-ui .dish-drop>span b{font:inherit;white-space:nowrap}
+ .customer-review[data-compact=true] .review-front{padding:8px 10px 6px}.customer-review[data-compact=true] .review-front header{height:22px;font-size:8px;letter-spacing:.06em}.customer-review[data-compact=true] .review-front header small{font-size:8px}.customer-review[data-compact=true] .review-medallion{width:23px;height:23px}.customer-review[data-compact=true] .review-front h3{font-size:15px;margin:3px 0 4px}.customer-review[data-compact=true] .rating-row{height:19px;font-size:11px}.customer-review[data-compact=true] .rating-row svg{width:14px;height:14px}.customer-review[data-compact=true] .rating-row>span{gap:3px}.customer-review[data-compact=true] .review-front footer{font-size:8px;margin-top:4px}.customer-review[data-compact=true] .review-back b{font-size:9px;letter-spacing:.1em}
+ .customer-rating{gap:4px;padding:9px 8px;border-radius:12px}.customer-rating strong{font-size:15px}.customer-rating small{font-size:8px}.rating-stars svg{width:17px;height:17px}
+}
+@media(max-width:759px) and (max-height:450px){.kitchen-orders{top:80px}.kitchen-carry{display:none}.kitchen-world-actions button{min-width:60px;padding:4px}.kitchen-dock button{min-height:48px}}
+/* A single next action; other available jobs stay at their real locations. */
+#kitchen-hud[data-simple=true] .kitchen-dock{left:50%;right:auto;transform:translateX(-50%);width:min(280px,calc(100% - 28px));grid-template-columns:minmax(0,1fr);padding:5px}
+#kitchen-hud[data-simple=true] .kitchen-dock button{min-height:52px;flex-direction:row;gap:9px;padding:8px 14px;font-size:15px}
+#kitchen-hud[data-simple=true] .kitchen-dock button .dock-short{display:none!important}
+#kitchen-hud[data-simple=true] .kitchen-dock button .dock-full{display:flex;min-height:24px;white-space:normal;overflow-wrap:normal;word-break:normal}
+#kitchen-hud[data-simple=true] .kitchen-world-actions [data-primary=true]{border:2px solid #315b42;background:#e8f1d8;box-shadow:0 0 0 3px #f6e1a380,0 3px 8px #294d3433}

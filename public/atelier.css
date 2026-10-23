@@ -1,0 +1,50 @@
+/* v0.15 · warm ivory, enamel, linen and restrained brass. Geometry and ink
+   measurements remain owned by the station page plans. */
+:root{--atelier-ivory:#fffaf0;--atelier-ink:#29483e;--atelier-brass:#b19460;--atelier-edge:#d8ccb4;--atelier-green:#346550;--atelier-shadow:0 8px 22px #263d2e18;--shadow-contact:0 2px 0 #9b886226}
+body{background:#e9dfcb;color:var(--atelier-ink)}
+.vignette{opacity:.52}
+.setup-card,.small-modal,.shop-card,.results-card{background:linear-gradient(145deg,#fffdf4 0%,#fbf4e5 68%,#f2e9d6 100%);border-color:#e5d8bb;box-shadow:0 22px 55px #243b3029,0 2px 0 #fffaf077 inset,0 -3px 0 #d8c9a533 inset}
+.wordmark{color:#2c5747}
+.brand-icon{background:linear-gradient(150deg,#416a53,#224a3c);border:1px solid #dac69b;box-shadow:0 3px 0 #6b69402b,0 1px 0 #fff4c955 inset}
+.primary-button{background:linear-gradient(165deg,#4b7f61,#2e5b46 78%);border:1px solid #305c44;color:#fffbee;box-shadow:0 3px 0 #214633,0 8px 15px #244a3020,0 1px 0 #a6c29e66 inset}
+.primary-button:hover:not(:disabled){background:linear-gradient(165deg,#568a69,#35654e)}
+.secondary-button,.small-modal .text-button,.setup-card select{background:linear-gradient(#fffdf6,#f2eddd);border-color:#d8cfb9;color:#3c614e;box-shadow:0 2px 0 #b8aa8633,0 1px 0 #ffffffaa inset}
+.setup-card .team-option,.setup-card .difficulty-option,.setup-card .arena-option{background:linear-gradient(155deg,#fffef6,#f4eedf);border-color:#dcd2bb;box-shadow:0 2px 0 #b6a37b22,0 1px 0 #fff inset}
+.setup-card button[aria-pressed=true]{background:linear-gradient(145deg,#f5f5e6,#e3ead8);border-color:var(--team-color,#70936f);box-shadow:0 2px 0 #748e6333,inset 0 0 0 1px #fff8}
+.setup-card .crest{filter:none}
+.setup-card .arena-option svg{color:var(--arena-color,#68866b)}
+.icon-button.quiet,.icon-button.glass{background:#fff9eced;border:1px solid #e1d5ba;box-shadow:0 2px 0 #b7a07926}
+.rune-wallet{background:linear-gradient(135deg,#fffdf3,#e9f3e8);border-color:#c5d8cc;box-shadow:0 3px 8px #294c3a15,0 1px 0 #fff inset}
+.rune-wallet>svg{color:#20bccd;filter:drop-shadow(0 1px 0 #117a8b33)}
+.table-label,.serving-pass,.side-offer{background:linear-gradient(145deg,#fffdf1,#f4eddd);border-color:#d9ceb6;box-shadow:var(--atelier-shadow),0 1px 0 #fff inset}
+.table-label[data-status=cooking]{background:linear-gradient(#fff9eb,#f3e6d0)}
+.table-label[data-status=ready]{background:linear-gradient(#f6fbe9,#e3efd8);border-color:#a0bc8e}
+.table-label[data-recommended=true]{box-shadow:inset 3px 0 0 #b59a5d,0 6px 16px #294a351c}
+.pass-dish{background:linear-gradient(#fffdf4,#f1eddd);border-color:#d4ccb5;box-shadow:0 2px 0 #bba77e2b}
+.pass-dish[aria-pressed=true]{background:linear-gradient(#edf6e3,#d9ead0)}
+.context-tip,.flow-guide,.shift-note{background:#fff9eae8;box-shadow:0 3px 12px #314b3012;border-color:#eee3cc}
+#task-card.object-ui .recipe-note{background:linear-gradient(125deg,#fffdf0,#f5ead1);border-color:#cbb990;box-shadow:0 2px 0 #ad956b33,0 4px 10px #4d41231c}
+#task-card.object-ui .recipe-note-heading{border-color:#c7b690}
+#task-card.object-ui .device-surface{background:#f3f4e7;border-color:#9eaf94;box-shadow:0 2px 3px #283f2926,inset 0 0 0 2px #fffff177}
+#task-card.object-ui .menu-page{background:linear-gradient(130deg,#fbfcef,#edf2e2)}
+#task-card.object-ui .menu-page .pair-card,#task-card.object-ui .menu-page .tablet-choice{background:linear-gradient(150deg,#fffef7,#f5f1e1);border-color:#c3ccb1;box-shadow:0 2px 0 #9eae8a33,0 1px 0 #fff inset}
+#task-card.object-ui .menu-page .pair-card.selected,#task-card.object-ui .menu-page .tablet-choice.selected{background:linear-gradient(#eff9e9,#dcefdc);border-color:#477f68;box-shadow:inset 0 -3px 0 #96bea266,0 2px 0 #8ca48033}
+#task-card.object-ui .menu-page .pair-card.matched{background:linear-gradient(#e7f0db,#d8e5cc);border-color:#a2bc93;color:#456a46}
+#task-card.object-ui .menu-page .pair-card.pair-wrong{background:#fcf0df;border-color:#b78b5e}
+#task-card.object-ui .menu-page .customer-audio{background:linear-gradient(#edf3df,#dce8cf);border-color:#b7c7a5;color:#456e52;box-shadow:0 2px 0 #96ac8238,0 1px 0 #fff9 inset}
+#task-card.object-ui .listening-clue{background:#f7f4e5;border-color:#d4ccb0}
+#task-card.object-ui .manifest-surface{background:linear-gradient(125deg,#fffbee,#f4ead5);box-shadow:0 3px 0 #ae96743b,0 7px 18px #393c2520}
+#task-card.object-ui .delivery-page .label-choice{background:linear-gradient(#fffdf6,#f5edda);border-color:#ccb88e;box-shadow:0 2px 0 #b29c7140}
+#task-card.object-ui .delivery-page .label-choice.selected{background:#e5efdc;border-color:#518666}
+#task-card.object-ui .speech-question{background:linear-gradient(140deg,#fffdf2,#f7edda);border-color:#d6c29c;box-shadow:0 3px 0 #bea78040,0 8px 22px #2f49321b}
+#task-card.object-ui .reply-bubble{background:linear-gradient(140deg,#f9fbee,#e5ecdb);border-color:#bfcbb0;box-shadow:0 2px 0 #97ad872e}
+#task-card.object-ui .reply-bubble.correct{background:#dcebd1;border-color:#7ea471}
+#task-card.object-ui .ticket-paper{background:linear-gradient(110deg,#fffdf2,#f6ecd5);border-color:#c5b18b;box-shadow:0 4px 0 #aa916b2e,0 7px 15px #3b382920}
+#task-card.object-ui .checkout-terminal{background:linear-gradient(145deg,#345a49,#244638);border-color:#62836a;box-shadow:inset 0 2px 5px #132e2855,0 1px 0 #a9b999}
+#task-card.object-ui .task-toolbar button{background:linear-gradient(#fffdf2,#f0e8d6);border:1px solid #d8c9ab;box-shadow:0 2px 0 #aa936c33;color:#496d52}
+#task-card.object-ui .object-drop-zone.drop-ready{background:#c8e6cb24;outline-color:#469980}
+.project-card,.shop-item,.review-item{border-color:#d7cbb0}
+.project-card{background:linear-gradient(135deg,#fffdf3,#f4ecda)}
+.project-card.active{border-color:#8ca27d;box-shadow:inset 3px 0 0 #8ca27d,0 2px 0 #bba67b22}
+.result-star,.result-stars{color:#c9a158}
+.toast{background:#2f5546f5;color:#fff9e8;border:1px solid #a7b393;box-shadow:0 5px 18px #1f352d25}

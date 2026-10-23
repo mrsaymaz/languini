@@ -1,0 +1,13 @@
+✔ every object station fits portrait and landscape phone work areas without a popup sheet (1756.106887ms)
+✔ ingredient touch areas never overlap, including short landscape phones (632.875117ms)
+✔ a visible ingredient over the plate lands even with the fingertip below the rim (532.574156ms)
+✔ shuffled physical ingredient racks fit the actual phrase assigned to each paper (1028.830304ms)
+✔ angled preparation grips tools while keeping recipe and sentence ink clear at small portrait and landscape sizes (3318.670572ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3970.878322

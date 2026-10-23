@@ -1,0 +1,53 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> languini@0.53.0 build
+> node scripts/build.mjs
+
+Languini v0.53.0 built · 44 units · eight stations · connected orders · phone preview
+bundle sha256 8608f64df089e9319b1d42bd54e72c626a74886b27baa18e271b49f235d2b7a2
+matches previously tested runtime True
+✔ enlarged delivery crate matches label proportions, stays inside work area and cannot obscure printed choices (627.479666ms)
+✔ ready and served nine-component meals keep every triangle when static food is batched (404.734582ms)
+✔ recommendations alone can complete 48 services across modes, arenas, events and equipment (803.000547ms)
+✔ the destination badge and contextual primary button perform the same advertised action (8.38557ms)
+✔ tray, crate, plate and trolley advice stays attached to real destinations and order identities (3.640806ms)
+✔ blocked actions explain themselves until the player chooses a valid route (1.725691ms)
+✔ first-use tips learn only successful use, persist safely, and restore without changing progress (2.366804ms)
+✔ guidance and signs hide during English, side decisions, pause and terminal states (1.027532ms)
+✔ one badge stays inside the available playfield across phone sizes and safe side insets (0.392289ms)
+✔ free movement has finite footprint confirmation and does not alter English outcomes (1.437138ms)
+✔ scene signifiers point to the recommendation before any click and retain bounded geometry (430.772925ms)
+✔ phone Light quality keeps antialiasing and a bounded sharper render buffer (7.926601ms)
+✔ phone preparation gives the meal more area than its translation while every block remains readable (34.956894ms)
+✔ shuffled physical ingredient racks fit the actual phrase assigned to each paper (464.081661ms)
+✔ nearby task signs describe current available actions and route through the normal kitchen command (13.448521ms)
+✔ world task signs disappear during protected English, pause and closing service (2.095055ms)
+✔ phone reviews occupy a bounded fraction of the room and desktop review dimensions remain familiar (0.197006ms)
+✔ clustered phone task signs remain separated and avoid camera controls (0.77922ms)
+✔ phone job switches walk to storage before opening the selected English task (29.911529ms)
+✔ stored trays remain selectable and cook only after an explicit Cook action (8.245319ms)
+✔ a cooked meal returns to the pass on a job switch without losing or duplicating a plate (4.909901ms)
+✔ a full holding counter swaps trays at the counter and never deletes either order (2.094675ms)
+✔ a full counter rejects unrelated switches and preserves a clear current destination (2.019332ms)
+✔ stored supply crates credit stock and rewards only when explicitly restocked (5.340228ms)
+✔ cancelling or changing a storage walk cannot execute its abandoned job (3.154086ms)
+✔ stale destination identities and closing state cannot start replacement tasks (1.500162ms)
+✔ trolley capacity remains useful without a Return control (2.112662ms)
+✔ two stored counter slots have individual Collect actions with no manual storage badges (2.086773ms)
+✔ a protected restocking request offers only its receiving and pantry route (3.484392ms)
+✔ phone HUD has one main action while desktop retains its station dock (6.977236ms)
+✔ four stable table colours and three shared-task colours carry readable independent identities (1.797238ms)
+✔ an order keeps its identity from first task through prepared, stored, cooked and collected states (25.822149ms)
+✔ washing, supplies and pickup identity override incidental table context (2.11152ms)
+✔ phone, tablet and desktop controls expose the same identity without mutating service (9.655626ms)
+✔ 3D carried, stored and cooking tags and destination ring keep the table identity (526.710702ms)
+✔ stock crates remain ochre when carried and stored without table attribution (337.871199ms)
+ℹ tests 36
+ℹ suites 0
+ℹ pass 36
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1452.026092
+

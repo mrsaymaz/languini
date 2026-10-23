@@ -1,0 +1,11 @@
+{"version":"0.45.1","initializationMilliseconds":7701.769086,"setupOpen":true,"errors":[]}
+{"version":"0.45.2","initializationMilliseconds":7164.97277,"setupOpen":true,"errors":[]}
+✔ paired largest-venue startup timing (14874.714606ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 1
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 16426.649836

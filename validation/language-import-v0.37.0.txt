@@ -1,0 +1,6 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> languini@0.37.0 import:language
+> node scripts/import-additional-banks.mjs
+
+{"counts":{"added":1772,"duplicates":516,"byKind":{"vocabulary":312,"description":252,"question":390,"sentence":818},"pictures":396,"pictureVocabulary":174,"sortingPacks":44},"totalTasks":4805,"totalQuestions":921}

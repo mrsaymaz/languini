@@ -1,0 +1,13 @@
+✔ opening camera is still and sunny setup renders once with static shadows and no duplicate actors (442.790313ms)
+✔ rainy setup keeps the 3D background cached; reduced motion redraws only after invalidation (306.779309ms)
+✔ lesson-only visual reuse preserves the scene; atmosphere/team changes still rebuild (896.897597ms)
+✔ leaving setup restores gameplay rendering, actors and live shadow updates (284.188055ms)
+✔ opening weather supports all moods, one canvas, bounded resolution and static reduced motion (1.443154ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2151.165072

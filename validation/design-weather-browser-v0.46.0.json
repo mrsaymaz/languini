@@ -1,0 +1,567 @@
+{
+  "version": "0.46.0",
+  "cases": [
+    {
+      "arena": "courtyard",
+      "layout": "classic",
+      "tables": [
+        [
+          -3,
+          -0.05
+        ],
+        [
+          3,
+          -0.05
+        ]
+      ],
+      "angles": [
+        1.5707963267948966,
+        -1.5707963267948966
+      ],
+      "weather": true,
+      "markers": [
+        {
+          "x": 106.91684821748123,
+          "y": 397.85758285481194
+        },
+        {
+          "x": 283.8734079035734,
+          "y": 438.92049543457983
+        },
+        {
+          "x": 253.0280908355766,
+          "y": 528.3975356369536
+        }
+      ],
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "meshes": 180
+    },
+    {
+      "arena": "courtyard",
+      "layout": "cosy",
+      "tables": [
+        [
+          -1.95,
+          -0.9
+        ],
+        [
+          1.95,
+          1.25
+        ]
+      ],
+      "angles": [
+        0,
+        0
+      ],
+      "weather": true,
+      "markers": [
+        {
+          "x": 144.60142319151174,
+          "y": 383.3333351152238
+        },
+        {
+          "x": 242.632680384797,
+          "y": 464.938408878252
+        },
+        {
+          "x": 253.0280908355766,
+          "y": 528.3975356369536
+        }
+      ],
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "meshes": 180
+    },
+    {
+      "arena": "courtyard",
+      "layout": "express",
+      "tables": [
+        [
+          -2.5,
+          -0.8
+        ],
+        [
+          -2.5,
+          1.3
+        ]
+      ],
+      "angles": [
+        0,
+        0
+      ],
+      "weather": true,
+      "markers": [
+        {
+          "x": 127.59014909923204,
+          "y": 382.12338272965263
+        },
+        {
+          "x": 110.99477055708465,
+          "y": 435.7604893487112
+        },
+        {
+          "x": 253.0280908355766,
+          "y": 528.3975356369536
+        }
+      ],
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "meshes": 178
+    },
+    {
+      "arena": "bistro",
+      "layout": "classic",
+      "tables": [
+        [
+          -3.95,
+          -0.3
+        ],
+        [
+          3.95,
+          -1.9
+        ],
+        [
+          3.95,
+          1
+        ]
+      ],
+      "angles": [
+        1.5707963267948966,
+        -1.5707963267948966,
+        -1.5707963267948966
+      ],
+      "weather": true,
+      "markers": [
+        {
+          "x": 88.10493323293612,
+          "y": 400.8909111222024
+        },
+        {
+          "x": 310.4800960944244,
+          "y": 412.8406953022519
+        },
+        {
+          "x": 289.73294188663647,
+          "y": 479.896551814289
+        },
+        {
+          "x": 243.95575301351866,
+          "y": 530.7353736831392
+        }
+      ],
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "meshes": 175
+    },
+    {
+      "arena": "bistro",
+      "layout": "cosy",
+      "tables": [
+        [
+          -1.95,
+          -1.35
+        ],
+        [
+          1.95,
+          -1.35
+        ],
+        [
+          -1.95,
+          1.35
+        ]
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "weather": true,
+      "markers": [
+        {
+          "x": 149.01644328467387,
+          "y": 389.0034890058977
+        },
+        {
+          "x": 253.14568159575356,
+          "y": 413.1667628475158
+        },
+        {
+          "x": 129.70012729811268,
+          "y": 451.43480368951845
+        },
+        {
+          "x": 243.95575301351866,
+          "y": 530.7353736831392
+        }
+      ],
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "meshes": 178
+    },
+    {
+      "arena": "bistro",
+      "layout": "express",
+      "tables": [
+        [
+          -2.5,
+          -1.65
+        ],
+        [
+          -2.5,
+          1.25
+        ],
+        [
+          2,
+          -1.65
+        ]
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "weather": true,
+      "markers": [
+        {
+          "x": 136.47780803418226,
+          "y": 378.65903508048086
+        },
+        {
+          "x": 115.7306538263943,
+          "y": 445.7148915925179
+        },
+        {
+          "x": 256.62692916235113,
+          "y": 406.5397356669633
+        },
+        {
+          "x": 243.95575301351866,
+          "y": 530.7353736831392
+        }
+      ],
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "meshes": 176
+    },
+    {
+      "arena": "banquet",
+      "layout": "classic",
+      "tables": [
+        [
+          -4.25,
+          -1.85
+        ],
+        [
+          4.25,
+          -1.85
+        ],
+        [
+          -4.25,
+          1.45
+        ],
+        [
+          4.25,
+          1.45
+        ]
+      ],
+      "angles": [
+        1.5707963267948966,
+        -1.5707963267948966,
+        1.5707963267948966,
+        -1.5707963267948966
+      ],
+      "weather": true,
+      "markers": [
+        {
+          "x": 96.89719755906688,
+          "y": 379.61910776624853
+        },
+        {
+          "x": 304.21281277608534,
+          "y": 427.7268636989963
+        },
+        {
+          "x": 75.33070690847714,
+          "y": 449.3231012899138
+        },
+        {
+          "x": 282.6463221254956,
+          "y": 497.43085722266153
+        },
+        {
+          "x": 236.45306501434615,
+          "y": 532.6687308615368
+        }
+      ],
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "meshes": 177
+    },
+    {
+      "arena": "banquet",
+      "layout": "cosy",
+      "tables": [
+        [
+          -1.95,
+          -1.8
+        ],
+        [
+          1.95,
+          -1.8
+        ],
+        [
+          -1.95,
+          1.35
+        ],
+        [
+          1.95,
+          1.35
+        ]
+      ],
+      "angles": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "weather": true,
+      "markers": [
+        {
+          "x": 152.66759901969684,
+          "y": 393.69262166204584
+        },
+        {
+          "x": 247.7888812957406,
+          "y": 415.76559203118893
+        },
+        {
+          "x": 132.08140339867933,
+          "y": 460.22825184372624
+        },
+        {
+          "x": 227.20268567472309,
+          "y": 482.3012222128694
+        },
+        {
+          "x": 236.45306501434615,
+          "y": 532.6687308615368
+        }
+      ],
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "meshes": 176
+    },
+    {
+      "arena": "banquet",
+      "layout": "express",
+      "tables": [
+        [
+          -2.65,
+          -3
+        ],
+        [
+          -2.65,
+          -0.8
+        ],
+        [
+          -2.65,
+          1.4
+        ],
+        [
+          2.05,
+          -2.3
+        ]
+      ],
+      "angles": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "weather": true,
+      "markers": [
+        {
+          "x": 143.43690859134398,
+          "y": 364.383899731706
+        },
+        {
+          "x": 129.0592481576175,
+          "y": 410.8532287474828
+        },
+        {
+          "x": 114.68158772389097,
+          "y": 457.3225577632596
+        },
+        {
+          "x": 253.49553863216204,
+          "y": 405.7703544904484
+        },
+        {
+          "x": 236.45306501434615,
+          "y": 532.6687308615368
+        }
+      ],
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "meshes": 175
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "mood": "breakfast",
+      "rain": 0,
+      "weatherVisible": true,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "mood": "rain",
+      "rain": 144,
+      "weatherVisible": true,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "mood": "evening",
+      "rain": 0,
+      "weatherVisible": true,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "height": 480,
+      "mood": "breakfast",
+      "rain": 0,
+      "weatherVisible": true,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "height": 480,
+      "mood": "rain",
+      "rain": 144,
+      "weatherVisible": true,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "height": 480,
+      "mood": "evening",
+      "rain": 0,
+      "weatherVisible": true,
+      "overflow": false
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "mood": "breakfast",
+      "rain": 0,
+      "weatherVisible": true,
+      "overflow": false
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "mood": "rain",
+      "rain": 144,
+      "weatherVisible": true,
+      "overflow": false
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "mood": "evening",
+      "rain": 0,
+      "weatherVisible": true,
+      "overflow": false
+    },
+    {
+      "nativeSoundPauseResumeAndVolume": true
+    },
+    {
+      "nativeDesignPreviewAndSaveReload": true
+    },
+    {
+      "closeup": "conversation",
+      "hidden": true,
+      "background": "e5e8dc",
+      "setting": "conversation"
+    },
+    {
+      "closeup": "tablet",
+      "hidden": true,
+      "background": "e5e8dc",
+      "setting": "tablet"
+    },
+    {
+      "closeup": "recipe",
+      "hidden": true,
+      "background": "e5e8dc",
+      "setting": "recipe"
+    },
+    {
+      "closeup": "delivery",
+      "hidden": true,
+      "background": "e5e8dc",
+      "setting": "tablet"
+    },
+    {
+      "closeup": "repair",
+      "hidden": true,
+      "background": "e5e8dc",
+      "setting": "repair"
+    },
+    {
+      "closeup": "pickup",
+      "hidden": true,
+      "background": "e5e8dc",
+      "setting": "pickup"
+    },
+    {
+      "offlineAudio": [
+        {
+          "kind": "breakfast",
+          "peak": 0.013506358489394188,
+          "rms": 0.0034284940445269306,
+          "remainingNodes": 0
+        },
+        {
+          "kind": "rain",
+          "peak": 0.024243447929620743,
+          "rms": 0.006496113762949553,
+          "remainingNodes": 0
+        },
+        {
+          "kind": "evening",
+          "peak": 0.011685553006827831,
+          "rms": 0.0033918597161008224,
+          "remainingNodes": 0
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "externalRequests": [],
+  "method": "Native software-WebGL Chromium. Three plans in all venues, three atmospheres at three viewports, native design preview/save/reload, sound pause/resume, ambience volume, six neutral weather-free station closeups and offline audio sample bounds at a fixed 55% ambience gain. Physical phone FPS and speaker listening unmeasured."
+}

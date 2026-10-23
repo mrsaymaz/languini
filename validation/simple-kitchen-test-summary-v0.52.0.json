@@ -1,0 +1,22 @@
+{
+  "version": "0.52.0",
+  "uniquePassingChecks": 459,
+  "fullRun": {
+    "tests": 458,
+    "pass": 457,
+    "fail": 1,
+    "durationMs": 327349.80864,
+    "exitCode": 1
+  },
+  "correctedFilesRerun": {
+    "tests": 22,
+    "pass": 22,
+    "fail": 0,
+    "exitCode": 0
+  },
+  "scope": "Initial full run passed 457/458 and caught stale entrypoint asset-version tags, now corrected. All 22 scene/simple-kitchen checks then passed, including the additional restocking-route regression. Combined passing evidence covers all 459 unique checks. The early full-run output was display-truncated; final counts and failure are retained.",
+  "evidence": [
+    "simple-kitchen-full-v0.52.0.txt",
+    "simple-kitchen-rerun-v0.52.0.txt"
+  ]
+}

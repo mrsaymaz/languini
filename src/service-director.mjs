@@ -1,0 +1,21 @@
+const STORIES={
+ rain:{title:'Shelter from the rain',cause:'The rain is getting heavier. Customers want food to take home.',supplier:'The last takeaway bag has been used. A supplier can bring fresh packaging.',request:'A nearby shop would like two meals to take away.'},
+ breakfast:{title:'Breakfast on the go',cause:'The neighbourhood is waking up. Breakfast orders are heading to collection.',supplier:'The breakfast pickup used the last bag. A supplier can bring fresh packaging.',request:'A nearby office would like two breakfast meals to take away.'},
+ evening:{title:'An evening opportunity',cause:'People are heading home. A warm takeaway would be welcome.',supplier:'The evening pickup used the last bag. A supplier can bring fresh packaging.',request:'A nearby shop would like two evening meals to take away.'}
+};
+// Only management time advances the director. It never owns English content,
+// reading timers, stock rewards, arrivals or background wall-clock timers.
+export class ServiceDirector {
+ constructor(game,atmosphere){this.game=game;this.story=STORIES[atmosphere]||STORIES.breakfast;this.stage='quiet';this.elapsed=0;this.offer=null;this.pending=null;this.packaging=1;this.capacity=game.config.difficulty==='challenge'?3:2;this.queuedLarge=false;this.acceptedLarge=false;this.received=false;this.declined=false;this.rewarded=false;this.journal=[];this.notice='';this.offerSerial=0;}
+ get holdFinal(){return !['complete','declined'].includes(this.stage);}
+ get needsSupplies(){return this.stage==='restock';}
+ safe(){const g=this.game;return !g.active&&!g.pendingSide&&!g.run&&!g.kitchen?.carry&&!g.loaded.length&&!g.kitchen?.moving&&!g.kitchen?.busy&&!g.serviceEvent&&!g.tables.some(t=>['waiting','ready','prepared','preparing','queued'].includes(t.status)&&t.patience<t.maxPatience*.22);}
+ note(copy){this.notice=copy;this.journal.push(copy);this.game.emit('episode_notice',{title:this.story.title,message:copy});}
+ tick(dt){if(this.offer)return;this.elapsed+=dt;if(this.stage==='quiet'&&(this.elapsed>=18||this.game.served>=1)){this.stage='collection';this.note(this.story.cause);}if(this.pending&&this.safe()){const kind=this.pending;this.pending=null;this.offer={id:++this.offerSerial,kind,title:kind==='supplies'?'Fresh packaging?':'Take the larger order?',copy:kind==='supplies'?this.story.supplier:this.story.request};this.game.emit('episode_offer',{offer:this.offer});}}
+ pickupServed(t,complete){this.packaging=Math.max(0,this.packaging-1);if(t.episodeLarge){if(complete){this.stage='complete';this.queuedLarge=false;if(!this.rewarded){this.rewarded=true;const reward=this.game.config.difficulty==='challenge'?24:12;this.game.runes+=reward;this.game.emit('episode_bonus',{reward});this.note('The larger order is complete. The neighbourhood has a new reason to return.');}}return;}if(complete&&['quiet','collection'].includes(this.stage)){if(this.stage==='quiet')this.note(this.story.cause);this.stage='supplier';this.pending='supplies';}}
+ deliveryReceived(){if(this.stage!=='restock')return;this.packaging=this.capacity;this.received=true;this.stage='opportunity';this.pending='large';this.note('Fresh bags are on the shelf. There is room for one more opportunity.');}
+ resolve(accept){const o=this.offer,g=this.game;if(!o||g.paused||g.active||g.state!=='playing')return false;if(o.kind==='large'&&accept&&g.stock<2)return false;this.offer=null;if(!accept){this.declined=true;this.stage='declined';this.note('You chose a calm finish. The original shift continues.');return true;}if(o.kind==='supplies'){this.stage='restock';this.note('The supplier is waiting at Receiving. Check the delivery, then carry it to Pantry.');}else{this.stage='large';this.acceptedLarge=true;this.queuedLarge=true;g.episodeExtra+=2;g.spawnClock=0;this.note('Two meals accepted. Prepare both, check the labels and send them to collection.');}return true;}
+ largeSpawned(){this.queuedLarge=false;}
+ missed(t){if(t.episodeLarge){this.stage='complete';this.queuedLarge=false;this.note('The larger order could not be completed. Focus on the remaining guests.');}}
+ summary(){return {title:this.story.title,stage:this.stage,received:this.received,acceptedLarge:this.acceptedLarge,declined:this.declined,completed:this.rewarded,packaging:this.packaging,journal:[...this.journal]};}
+}

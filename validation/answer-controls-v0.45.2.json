@@ -1,0 +1,121 @@
+{
+  "version": "0.45.2",
+  "labelTasks": 1841,
+  "cases": 40502,
+  "results": [
+    {
+      "width": 320,
+      "height": 480,
+      "cases": 3682,
+      "issues": [],
+      "shapes": {
+        "3 choices / 2 columns": 2344,
+        "3 choices / 3 columns": 284,
+        "4 choices / 2 columns": 1054
+      }
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "cases": 3682,
+      "issues": [],
+      "shapes": {
+        "3 choices / 2 columns": 2628,
+        "4 choices / 2 columns": 1054
+      }
+    },
+    {
+      "width": 360,
+      "height": 640,
+      "cases": 3682,
+      "issues": [],
+      "shapes": {
+        "3 choices / 2 columns": 2628,
+        "4 choices / 2 columns": 1054
+      }
+    },
+    {
+      "width": 393,
+      "height": 740,
+      "cases": 3682,
+      "issues": [],
+      "shapes": {
+        "3 choices / 2 columns": 2628,
+        "4 choices / 2 columns": 1054
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "cases": 3682,
+      "issues": [],
+      "shapes": {
+        "3 choices / 2 columns": 2628,
+        "4 choices / 2 columns": 1054
+      }
+    },
+    {
+      "width": 430,
+      "height": 850,
+      "cases": 3682,
+      "issues": [],
+      "shapes": {
+        "3 choices / 2 columns": 2628,
+        "4 choices / 2 columns": 1054
+      }
+    },
+    {
+      "width": 568,
+      "height": 320,
+      "cases": 3682,
+      "issues": [],
+      "shapes": {
+        "3 choices / 3 columns": 2628,
+        "4 choices / 4 columns": 1027,
+        "4 choices / 2 columns": 27
+      }
+    },
+    {
+      "width": 667,
+      "height": 375,
+      "cases": 3682,
+      "issues": [],
+      "shapes": {
+        "3 choices / 3 columns": 2628,
+        "4 choices / 4 columns": 1054
+      }
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "cases": 3682,
+      "issues": [],
+      "shapes": {
+        "3 choices / 3 columns": 2628,
+        "4 choices / 4 columns": 1054
+      }
+    },
+    {
+      "width": 1024,
+      "height": 600,
+      "cases": 3682,
+      "issues": [],
+      "shapes": {
+        "3 choices / 2 columns": 2628,
+        "4 choices / 2 columns": 1054
+      }
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "cases": 3682,
+      "issues": [],
+      "shapes": {
+        "3 choices / 3 columns": 2628,
+        "4 choices / 4 columns": 1054
+      }
+    }
+  ],
+  "errors": [],
+  "method": "Real production CSS, markup, measured fonts, receiving paper layout and page-fitting code. Every rendered label checked for paper containment, 44px targets, readable ink, hit testing and one exact answer. Software Chromium DOM check; full WebGL native interaction checked separately."
+}

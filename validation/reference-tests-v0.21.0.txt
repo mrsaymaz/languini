@@ -1,0 +1,13 @@
+✔ chef stride moves independent legs while carrying keeps both hands steady and reduced motion settles (501.458937ms)
+✔ station lighting narrows its shadow view and restores the arena overview without new shadow lights (347.066562ms)
+✔ angled preparation grips tools while keeping recipe and sentence ink clear at small portrait and landscape sizes (613.212482ms)
+✔ completed preparation retains the exact food geometry used for serving all nine dishes (266.13149ms)
+✔ served meal moves from the actual tray to the table, pauses and settles without modifying the game (257.019434ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2164.974768

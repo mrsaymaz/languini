@@ -1,0 +1,18 @@
+✔ every venue/pace reward matches the six requested Ulti amounts (3.203377ms)
+✔ sixteen grade/team pools remain isolated while lessons, paces and venues contribute together (1.702288ms)
+✔ each reward expires at its own exact 168-hour boundary, including when offline (1.031125ms)
+✔ a shift can be credited only once, including after save/load and after expiry (0.758432ms)
+✔ failure, preview, practice, invalid context and missing shift identities award nothing (0.298862ms)
+✔ old saves migrate without changing runes, records, progress or purchases; Ulti cannot pay (1.550383ms)
+✔ malformed awards cannot introduce invalid pools, amounts, dates or duplicate shift IDs (0.213606ms)
+✔ future integration snapshot exposes active dated receipts and cannot mutate the ledger (0.397859ms)
+✔ real completed shifts carry immutable unique reward context; demos remain ineligible (43.111054ms)
+✔ older open tabs cannot overwrite another grade/team award when saving (0.776559ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 202.012525

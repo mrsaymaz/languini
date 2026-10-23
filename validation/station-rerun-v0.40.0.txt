@@ -1,0 +1,12 @@
+✔ reading, answer playback and pause protect all guests and cooking (41.668106ms)
+✔ tapping a ticket option fills the blank and clips it automatically without another control (1995.434827ms)
+✔ rotation preserves translation time remaining rather than skipping or restarting the reveal (2385.124305ms)
+✔ each camera has a distinct angle and recipe view is aerial (2.11605ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4684.481371

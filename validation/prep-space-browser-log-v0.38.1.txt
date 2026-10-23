@@ -1,0 +1,8 @@
+{"width":320,"height":480,"count":5,"washing":false,"fit":true}
+{"width":320,"height":480,"count":6,"washing":false,"fit":true}
+{"width":390,"height":844,"count":5,"washing":false,"fit":true}
+{"width":390,"height":844,"count":6,"washing":false,"fit":true}
+{"width":568,"height":320,"count":5,"washing":false,"fit":true}
+{"width":568,"height":320,"count":6,"washing":false,"fit":true}
+{"width":1366,"height":768,"count":5,"washing":false,"fit":true}
+{"width":1366,"height":768,"count":6,"washing":false,"fit":true}

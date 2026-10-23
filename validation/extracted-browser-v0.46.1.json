@@ -1,0 +1,18 @@
+{
+  "version": "0.46.1",
+  "fileOrigin": true,
+  "actualExtractedRuntime": true,
+  "compact320": true,
+  "nativeRainAndEveningApply": true,
+  "animatedSky": true,
+  "oneCanvas": true,
+  "grade7LessonAndStory": true,
+  "pauseSkipAndFirstShift": true,
+  "skyHiddenForStoryGameplayAndEnglish": true,
+  "nightHeaderContrast": true,
+  "ambienceSetting": true,
+  "packingPreview": true,
+  "errors": [],
+  "external": [],
+  "gameBundleSha256": "eb2878a98413b1662db9b098a447b5234f4538ea3d6a3ea6065bc2b3184caec9"
+}

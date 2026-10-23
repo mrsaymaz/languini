@@ -1,0 +1,121 @@
+{
+  "errors": [],
+  "openingRequests": [
+    "full-160.webp"
+  ],
+  "layouts": [
+    {
+      "width": 360,
+      "height": 640,
+      "scrollHeight": 640,
+      "clientHeight": 640,
+      "start": {
+        "x": 137,
+        "y": 516.296875,
+        "right": 331,
+        "bottom": 562.296875
+      },
+      "owner": {
+        "x": 16,
+        "y": 101.203125,
+        "bottom": 163.203125
+      },
+      "brandBottom": 97.203125
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "scrollHeight": 568,
+      "clientHeight": 568,
+      "start": {
+        "x": 137,
+        "y": 480.796875,
+        "right": 291,
+        "bottom": 526.796875
+      },
+      "owner": {
+        "x": 16,
+        "y": 64.703125,
+        "bottom": 126.703125
+      },
+      "brandBottom": 60.703125
+    },
+    {
+      "width": 320,
+      "height": 480,
+      "scrollHeight": 484,
+      "clientHeight": 480,
+      "start": {
+        "x": 137,
+        "y": 405.796875,
+        "right": 291,
+        "bottom": 451.796875
+      },
+      "owner": {
+        "x": 16,
+        "y": 3.703125,
+        "bottom": 41.703125
+      },
+      "brandBottom": 47.703125
+    },
+    {
+      "width": 667,
+      "height": 375,
+      "scrollHeight": 375,
+      "clientHeight": 375,
+      "start": {
+        "x": 169,
+        "y": 278.296875,
+        "right": 636,
+        "bottom": 322.296875
+      },
+      "owner": {
+        "x": 301.75,
+        "y": 41.703125,
+        "bottom": 85.703125
+      },
+      "brandBottom": 85.703125
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "scrollHeight": 768,
+      "clientHeight": 768,
+      "start": {
+        "x": 1023.265625,
+        "y": 647.234375,
+        "right": 1279.265625,
+        "bottom": 695.234375
+      },
+      "owner": {
+        "x": 58.734375,
+        "y": 257.84375,
+        "bottom": 738
+      },
+      "brandBottom": 80
+    }
+  ],
+  "station": {
+    "rect": {
+      "x": 66,
+      "y": 16.625,
+      "width": 44,
+      "height": 48,
+      "top": 16.625,
+      "right": 110,
+      "bottom": 64.625,
+      "left": 66
+    },
+    "hit": true
+  },
+  "toggled": "true",
+  "hintPose": "./assets/saymaz/think-160.webp",
+  "pairMatched": true,
+  "requests": [
+    "full-160.webp",
+    "bust-160.webp",
+    "full-480.webp",
+    "point-160.webp",
+    "think-160.webp"
+  ]
+}

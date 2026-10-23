@@ -1,0 +1,99 @@
+{
+  "cases": [
+    {
+      "lesson": "Choose lesson. Grade 5 A1, Unit 5: Life in the Neighbourhood & City",
+      "scrollHeight": 480,
+      "height": 480,
+      "buttonHeight": 98,
+      "buttonScroll": 98,
+      "playBottom": 449.75
+    },
+    {
+      "lesson": "Choose lesson. Grade 6 A1+, Unit 7: Life in Nature & Global Problems",
+      "scrollHeight": 480,
+      "height": 480,
+      "buttonHeight": 98,
+      "buttonScroll": 98,
+      "playBottom": 449.75
+    },
+    {
+      "lesson": "Choose lesson. Grade 7 A2, Unit 1: Appearance and Personality",
+      "scrollHeight": 480,
+      "height": 480,
+      "buttonHeight": 98,
+      "buttonScroll": 98,
+      "playBottom": 449.75
+    },
+    {
+      "lesson": "Choose lesson. Grade 8 A2+, Unit 12: Animals and Pet Care",
+      "scrollHeight": 480,
+      "height": 480,
+      "buttonHeight": 98,
+      "buttonScroll": 98,
+      "playBottom": 449.75
+    }
+  ],
+  "textFlow": [
+    {
+      "unit": "g5u1",
+      "height": 88,
+      "contentHeight": 67.875,
+      "ownHeight": 89.875
+    },
+    {
+      "unit": "g5u2",
+      "height": 104,
+      "contentHeight": 83.8125,
+      "ownHeight": 105.8125
+    },
+    {
+      "unit": "g5u3",
+      "height": 88,
+      "contentHeight": 67.875,
+      "ownHeight": 89.875
+    },
+    {
+      "unit": "g5u4",
+      "height": 104,
+      "contentHeight": 83.8125,
+      "ownHeight": 105.8125
+    },
+    {
+      "unit": "g5u5",
+      "height": 128,
+      "contentHeight": 107.875,
+      "ownHeight": 129.875
+    },
+    {
+      "unit": "g5u6",
+      "height": 88,
+      "contentHeight": 67.875,
+      "ownHeight": 89.875
+    },
+    {
+      "unit": "g5u7",
+      "height": 88,
+      "contentHeight": 67.875,
+      "ownHeight": 89.875
+    },
+    {
+      "unit": "g5u8",
+      "height": 128,
+      "contentHeight": 107.875,
+      "ownHeight": 129.875
+    },
+    {
+      "unit": "g5u9",
+      "height": 108,
+      "contentHeight": 87.875,
+      "ownHeight": 109.875
+    },
+    {
+      "unit": "g5u10",
+      "height": 88,
+      "contentHeight": 67.875,
+      "ownHeight": 89.875
+    }
+  ],
+  "errors": []
+}

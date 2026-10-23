@@ -1,0 +1,41 @@
+{
+  "scope": "CPU scene objects, including hidden meshes and instance-expanded triangle counts; not GPU performance or draw calls",
+  "counts": [
+    {
+      "arena": "courtyard",
+      "reputationLevel": 0,
+      "meshObjects": 235,
+      "triangles": 117124
+    },
+    {
+      "arena": "courtyard",
+      "reputationLevel": 5,
+      "meshObjects": 249,
+      "triangles": 118264
+    },
+    {
+      "arena": "bistro",
+      "reputationLevel": 0,
+      "meshObjects": 266,
+      "triangles": 137122
+    },
+    {
+      "arena": "bistro",
+      "reputationLevel": 5,
+      "meshObjects": 280,
+      "triangles": 138262
+    },
+    {
+      "arena": "banquet",
+      "reputationLevel": 0,
+      "meshObjects": 296,
+      "triangles": 156238
+    },
+    {
+      "arena": "banquet",
+      "reputationLevel": 5,
+      "meshObjects": 310,
+      "triangles": 157378
+    }
+  ]
+}

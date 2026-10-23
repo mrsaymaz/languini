@@ -1,0 +1,18 @@
+✔ washing reuses reviewed sentences in every unit, freezes English time and cleans the batch once (39.184235ms)
+✔ native taps connect plate blocks and a completed sentence rinses all dishes after its reading finish (1203.245441ms)
+✔ a captured swipe accepts coalesced crossings once and ignores its compatibility click (205.493817ms)
+✔ cancelled, missed and second-finger swipes preserve progress; a wrong link records only one error per stroke (228.877593ms)
+✔ reverse menu shows Turkish on the left and English on the right, with unchanged pair identity (204.309634ms)
+✔ audio–Turkish pairing waits for speech, keeps English hidden and exposes supported text when unavailable (414.558766ms)
+✔ requested English audio restores the exact word after rotation before matching continues (446.668325ms)
+✔ all 702 wash sentences fit tap targets at eleven screen sizes with two measured fonts (65.967354ms)
+✔ delivery stickers remain compact and all reviewed sorting labels fit including revealed Turkish (476.721336ms)
+✔ washing board and plate controls have a clear world sightline in every arena and viewport (1126.052883ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4587.25057

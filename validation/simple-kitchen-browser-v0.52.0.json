@@ -1,0 +1,61 @@
+{
+  "version": "0.52.0",
+  "cases": [
+    {
+      "nativeAlternateJob": true,
+      "storageBeforeTask": true,
+      "noEnglishOrCookingSkipped": true,
+      "protectedTime": true
+    },
+    {
+      "nativeCollectThenExplicitCook": true
+    },
+    {
+      "nativeCookedMealStorage": true,
+      "plateIdentityPreserved": true
+    },
+    {
+      "nativeTwoSlotsAndSwap": true
+    },
+    {
+      "fullCounterRecovery": true
+    },
+    {
+      "phoneLayout": [
+        320,
+        480
+      ],
+      "oneMainAction": true,
+      "locationTargets": true
+    },
+    {
+      "phoneLayout": [
+        393,
+        680
+      ],
+      "oneMainAction": true,
+      "locationTargets": true
+    },
+    {
+      "phoneLayout": [
+        430,
+        850
+      ],
+      "oneMainAction": true,
+      "locationTargets": true
+    },
+    {
+      "phoneLayout": [
+        844,
+        390
+      ],
+      "oneMainAction": true,
+      "locationTargets": true
+    },
+    {
+      "desktopExplicitDockRetained": true
+    }
+  ],
+  "errors": [],
+  "method": "Native simulated touches in DPR-3 Chromium software WebGL with scratch-only scenario hooks and normal app command dispatch. No physical Safari/FPS claim."
+}

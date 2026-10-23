@@ -1,0 +1,126 @@
+{
+  "version": "0.55.0",
+  "cases": [
+    {
+      "arena": "courtyard",
+      "level": 0,
+      "room": {
+        "meshes": 250,
+        "triangles": 195906
+      },
+      "exterior": {
+        "meshes": 31,
+        "triangles": 10882
+      },
+      "walking": {
+        "meshes": 12,
+        "triangles": 1296
+      },
+      "total": {
+        "meshes": 293,
+        "triangles": 208084
+      }
+    },
+    {
+      "arena": "courtyard",
+      "level": 5,
+      "room": {
+        "meshes": 267,
+        "triangles": 199056
+      },
+      "exterior": {
+        "meshes": 43,
+        "triangles": 23458
+      },
+      "walking": {
+        "meshes": 12,
+        "triangles": 1296
+      },
+      "total": {
+        "meshes": 322,
+        "triangles": 223810
+      }
+    },
+    {
+      "arena": "bistro",
+      "level": 0,
+      "room": {
+        "meshes": 281,
+        "triangles": 222382
+      },
+      "exterior": {
+        "meshes": 31,
+        "triangles": 9558
+      },
+      "walking": {
+        "meshes": 16,
+        "triangles": 1728
+      },
+      "total": {
+        "meshes": 328,
+        "triangles": 233668
+      }
+    },
+    {
+      "arena": "bistro",
+      "level": 5,
+      "room": {
+        "meshes": 299,
+        "triangles": 226540
+      },
+      "exterior": {
+        "meshes": 43,
+        "triangles": 22134
+      },
+      "walking": {
+        "meshes": 16,
+        "triangles": 1728
+      },
+      "total": {
+        "meshes": 358,
+        "triangles": 250402
+      }
+    },
+    {
+      "arena": "banquet",
+      "level": 0,
+      "room": {
+        "meshes": 312,
+        "triangles": 249106
+      },
+      "exterior": {
+        "meshes": 33,
+        "triangles": 10610
+      },
+      "walking": {
+        "meshes": 20,
+        "triangles": 2160
+      },
+      "total": {
+        "meshes": 365,
+        "triangles": 261876
+      }
+    },
+    {
+      "arena": "banquet",
+      "level": 5,
+      "room": {
+        "meshes": 330,
+        "triangles": 253696
+      },
+      "exterior": {
+        "meshes": 45,
+        "triangles": 24386
+      },
+      "walking": {
+        "meshes": 20,
+        "triangles": 2160
+      },
+      "total": {
+        "meshes": 395,
+        "triangles": 280242
+      }
+    }
+  ],
+  "physicalDeviceFPS": "Unmeasured"
+}

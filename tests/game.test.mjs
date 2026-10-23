@@ -1,0 +1,39 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+import {BistroGame,ARENAS,TEAMS,TaskDeck,choicesFor,normalizeConfig,loadProfile,saveProfile,walletKey,recordKey,buyUpgrade,saveResult,SAVE_KEY} from '../src/core.mjs';
+import {settingForTask,repairParts,TASK_SETTINGS} from '../src/tasks.mjs';
+import {seeded,tick,finishShift,solveActive} from './helpers.mjs';
+const bank=JSON.parse(await readFile(new URL('../public/data/language.json',import.meta.url),'utf8'));
+const unit=bank[0].units[0];
+const config={grade:5,unit:unit.id,team:'gryffindor',difficulty:'relaxed',arena:'courtyard'};
+
+test('reviewed content covers every grade and 44 selectable units',()=>{
+  assert.deepEqual(bank.map(g=>g.grade),[5,6,7,8]);assert.equal(bank.reduce((n,g)=>n+g.units.length,0),44);let count=0;
+  for(const g of bank)for(const u of g.units){assert.ok(u.tasks.length>=20);const ids=new Set();for(const t of u.tasks){count++;assert.ok(!ids.has(t.id),`Duplicate ${t.id}`);ids.add(t.id);assert.ok(t.prompt);assert.ok(t.answer);if(t.kind==='sentence'){assert.ok(t.blocks.length>=3&&t.blocks.length<=5);assert.equal(t.blocks.join(' '),t.answer);}else{assert.ok(t.options.includes(t.answer),t.id);assert.equal(new Set(t.options).size,t.options.length);assert.ok(t.options.length>=3,t.id);for(const diff of ['relaxed','challenge']){const choices=choicesFor(t,diff,seeded());assert.equal(choices.filter(x=>x===t.answer).length,1);assert.ok(choices.length>=3&&choices.length<=4);}}}}
+  assert.equal(count,4805);
+});
+test('every unit completes in both difficulties and all three arenas',()=>{
+  let wins=0;for(const g of bank)for(const u of g.units)for(const difficulty of ['relaxed','challenge'])for(const arena of ARENAS){const finished=finishShift({...config,grade:g.grade,unit:u.id,difficulty,arena:arena.id},u.tasks);assert.equal(finished.result.won,true);assert.equal(finished.result.served,arena.goal);assert.equal(finished.result.stars,3);assert.equal(finished.result.accuracy,100);assert.ok(finished.runes>=90);wins++;}assert.equal(wins,264);
+});
+test('courtyard orders require both tasks and cooking before serving once',()=>{
+  const g=new BistroGame(config,unit.tasks,{rng:seeded()});g.start();assert.equal(g.serve(0),false);g.openOrder(0);assert.equal(g.completeTask(),false);solveActive(g);assert.equal(g.tables[0].step,1);assert.ok(g.active);assert.equal(g.serve(0),false);solveActive(g);assert.equal(g.active,null);assert.equal(g.tables[0].step,2);assert.equal(g.serve(0),false);tick(g,g.tables[0].cookTotal+.1);assert.equal(g.tables[0].status,'ready');const before=g.runes;assert.ok(g.serve(0));assert.equal(g.served,0);assert.equal(g.serve(0),false);tick(g,1.3);const reward=g.runes-before;assert.ok(reward>0);assert.equal(g.runes,reward);assert.equal(g.served,1);
+});
+test('reading, answer playback and pause protect all guests and cooking',()=>{
+  for(const setting of Object.keys(TASK_SETTINGS)){const g=new BistroGame(config,unit.tasks,{demoSetting:setting});g.start();const table=g.tables.find(t=>t.status!=='empty'),initialStatus=table.status;if(setting==='delivery'){g.stock=1;g.openDelivery();}else assert.ok(g.openOrder(table.id));const snapshot=JSON.stringify(g.tables);tick(g,300);assert.equal(JSON.stringify(g.tables),snapshot);assert.equal(g.elapsed,0);solveActive(g,{advance:false});tick(g,60);assert.equal(table.status,initialStatus);g.paused=true;assert.equal(g.completeTask(),false);const paused=JSON.stringify(g.tables);tick(g,100);assert.equal(JSON.stringify(g.tables),paused);g.paused=false;assert.ok(g.completeTask());if(setting==='delivery')assert.equal(g.stock,3);else{if(g.active)solveActive(g);tick(g,5);assert.equal(table.status,'ready');}}
+});
+test('wrong answers and free hints remain playable and produce review',()=>{
+  const g=new BistroGame(config,unit.tasks,{rng:seeded(),demoSetting:'conversation'});g.start();g.openOrder(0);const a=g.active;assert.equal(g.answer('an incorrect answer').correct,false);assert.equal(g.active,a);assert.equal(g.hint(),true);assert.equal(g.answer(a.task.answer).correct,true);assert.equal(g.firstCorrect,0);assert.equal(g.total,1);assert.equal(g.review.length,1);assert.equal(g.tables[0].reward,10);assert.equal(g.answer(a.task.answer).accepted,false);g.completeTask();tick(g,5);assert.ok(g.serve(0));tick(g,1.3);assert.equal(g.runes,10);
+});
+test('a hint before the first attempt does not count as unaided accuracy',()=>{const g=new BistroGame(config,unit.tasks,{demoSetting:'conversation'});g.start();g.openOrder(0);g.hint();if(g.active.task.kind==='repair')g.locateRepair(repairParts(g.active.task).errorIndex);assert.equal(g.answer(g.active.task.answer).correct,true);assert.equal(g.firstCorrect,0);assert.equal(g.review.length,1);});
+test('three departed guests end the shift with zero stars',()=>{const g=new BistroGame(config,unit.tasks);g.start();tick(g,300);assert.equal(g.state,'finished');assert.equal(g.result.won,false);assert.equal(g.result.stars,0);assert.equal(g.result.missed,3);assert.equal(g.result.runes,0);const result=g.result;g.finish(true);assert.equal(g.result,result);});
+test('Challenge awards twice the runes for equivalent service',()=>{const relaxed=finishShift(config,unit.tasks);const challenge=finishShift({...config,difficulty:'challenge'},unit.tasks);assert.equal(challenge.runes,relaxed.runes*2);});
+test('all units provide all six stations',()=>{for(const g of bank)for(const u of g.units){const d=new TaskDeck(u.tasks,seeded());const settings=new Set();for(let i=0;i<6;i++)settings.add(settingForTask(d.next()));assert.deepEqual([...settings].sort(),['conversation','delivery','recipe','repair','tablet','ticket']);}assert.throws(()=>new TaskDeck([]));});
+test('saves, upgrades, team wallets and records remain isolated',()=>{
+  const mem=new Map(),storage={getItem:k=>mem.get(k),setItem:(k,v)=>mem.set(k,v)};const p=loadProfile(storage);const k=walletKey(config);p.wallets[k]=1000;p.wallets[walletKey({...config,team:'ravenclaw'})]=10;
+  assert.equal(buyUpgrade(p,config,'kitchen'),true);assert.equal(p.wallets[k],935);assert.equal(p.wallets['5:ravenclaw'],10);assert.equal(buyUpgrade(p,config,'kitchen'),true);assert.equal(buyUpgrade(p,config,'kitchen'),true);assert.equal(buyUpgrade(p,config,'kitchen'),false);assert.equal(buyUpgrade(p,config,'not-real'),false);assert.equal(buyUpgrade(p,{...config,grade:6},'comfort'),false);
+  saveResult(p,config,{stars:3,served:6,accuracy:100,won:true});saveResult(p,config,{stars:1,served:6,accuracy:50,won:true});assert.equal(p.records[recordKey(config)].stars,3);assert.equal(p.records[recordKey(config)].wins,2);assert.notEqual(recordKey(config),recordKey({...config,unit:'g5u2'}));assert.ok(saveProfile(storage,p));assert.deepEqual(loadProfile(storage).wallets,p.wallets);assert.deepEqual(loadProfile(storage).upgrades,p.upgrades);
+  mem.set(SAVE_KEY,'broken');assert.equal(Object.keys(loadProfile(storage).wallets).length,0);assert.equal(saveProfile({setItem:()=>{throw Error('blocked');}},p),false);
+});
+test('all opening choices normalize safely without crossing grade content',()=>{for(const g of bank)for(const t of TEAMS)for(const a of ARENAS){const c=normalizeConfig({grade:g.grade,team:t.id,arena:a.id,unit:'wrong',difficulty:'wrong'},bank);assert.equal(c.unit,g.units[0].id);assert.equal(c.team,t.id);assert.equal(c.arena,a.id);assert.equal(c.difficulty,'relaxed');}assert.equal(normalizeConfig({grade:100,team:'broken'},bank).grade,5);});
+test('tea is a once-per-shift service boost and does not skip learning',()=>{const g=new BistroGame(config,unit.tasks);g.start();tick(g,20);const before=g.tables[0].patience;assert.equal(g.boost(),true);assert.equal(g.tables[0].patience,Math.min(g.tables[0].maxPatience,before+15));assert.equal(g.boost(),false);assert.equal(g.served,0);assert.equal(g.completed,0);});

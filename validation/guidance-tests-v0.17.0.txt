@@ -1,0 +1,31 @@
+✔ recommendations alone can complete 48 services across modes, arenas, events and equipment (359.446471ms)
+✔ the destination badge and contextual primary button perform the same advertised action (4.475624ms)
+✔ tray, crate, plate and trolley advice stays attached to real destinations and order identities (1.921682ms)
+✔ blocked actions explain themselves until the player chooses a valid route (1.160045ms)
+✔ first-use tips learn only successful use, persist safely, and restore without changing progress (1.630032ms)
+✔ guidance and signs hide during English, side decisions, pause and terminal states (0.808928ms)
+✔ one badge stays inside the available playfield across phone sizes and safe side insets (0.440783ms)
+✔ free movement has finite footprint confirmation and does not alter English outcomes (0.478219ms)
+✔ scene signifiers point to the recommendation before any click and retain bounded geometry (310.010238ms)
+✔ live kitchens complete 264 grade/unit/difficulty/arena services with plate conservation (1269.108894ms)
+✔ all four events work in 72 live equipment/arena/difficulty combinations (237.229786ms)
+✔ navigation reaches every station and guest while avoiding tables and furniture (3.713778ms)
+✔ movement consumes the full frame budget and stays consistent across step sizes (1.374177ms)
+✔ an order requires walking and explicit station choices, with protected learning time (1.279806ms)
+✔ prepared trays occupy hands and can be held on the counter without duplicating cooking (0.589838ms)
+✔ supply rewards and stock commit only when the carried crate reaches Pantry (0.759462ms)
+✔ washing is a timed batch, pauses safely and conserves serving dishes (0.394474ms)
+✔ a trolley commits two physical destinations and credits each handoff once (0.840935ms)
+✔ side requests can restock through the live kitchen and resume the same offer (0.681966ms)
+✔ ticket buttons drive travel through the visible HUD control (3.539175ms)
+✔ the live renderer follows simulated position and displays the real held load (301.475932ms)
+✔ the visible Pass action loads both shared-table meals onto the trolley (0.931392ms)
+✔ an invalidated delivery cannot credit a replacement order or strand the route (0.869208ms)
+ℹ tests 23
+ℹ suites 0
+ℹ pass 23
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1979.142335

@@ -1,0 +1,356 @@
+{
+  "cases": [
+    {
+      "label": "handover",
+      "width": 390,
+      "height": 844,
+      "title": "The keys are yours.",
+      "overflow": false,
+      "caption": {
+        "x": 14,
+        "y": 633.125,
+        "width": 362,
+        "height": 196.875,
+        "top": 633.125,
+        "right": 376,
+        "bottom": 830,
+        "left": 14
+      },
+      "buttons": [
+        {
+          "x": 275.625,
+          "y": 15,
+          "width": 98.375,
+          "height": 44,
+          "top": 15,
+          "right": 374,
+          "bottom": 59,
+          "left": 275.625
+        },
+        {
+          "x": 35,
+          "y": 773,
+          "width": 110.8125,
+          "height": 44,
+          "top": 773,
+          "right": 145.8125,
+          "bottom": 817,
+          "left": 35
+        },
+        {
+          "x": 264.328125,
+          "y": 773,
+          "width": 90.671875,
+          "height": 44,
+          "top": 773,
+          "right": 355,
+          "bottom": 817,
+          "left": 264.328125
+        }
+      ],
+      "gameStarted": false
+    },
+    {
+      "label": "inspection",
+      "width": 390,
+      "height": 844,
+      "title": "A café that needs a fresh start.",
+      "overflow": false,
+      "caption": {
+        "x": 14,
+        "y": 590.25,
+        "width": 362,
+        "height": 239.75,
+        "top": 590.25,
+        "right": 376,
+        "bottom": 830,
+        "left": 14
+      },
+      "buttons": [
+        {
+          "x": 275.625,
+          "y": 15,
+          "width": 98.375,
+          "height": 44,
+          "top": 15,
+          "right": 374,
+          "bottom": 59,
+          "left": 275.625
+        },
+        {
+          "x": 35,
+          "y": 773,
+          "width": 110.8125,
+          "height": 44,
+          "top": 773,
+          "right": 145.8125,
+          "bottom": 817,
+          "left": 35
+        },
+        {
+          "x": 264.328125,
+          "y": 773,
+          "width": 90.671875,
+          "height": 44,
+          "top": 773,
+          "right": 355,
+          "bottom": 817,
+          "left": 264.328125
+        }
+      ],
+      "gameStarted": false
+    },
+    {
+      "label": "cleaning",
+      "width": 390,
+      "height": 844,
+      "title": "A little care changes everything.",
+      "overflow": false,
+      "caption": {
+        "x": 14,
+        "y": 608.25,
+        "width": 362,
+        "height": 221.75,
+        "top": 608.25,
+        "right": 376,
+        "bottom": 830,
+        "left": 14
+      },
+      "buttons": [
+        {
+          "x": 275.625,
+          "y": 15,
+          "width": 98.375,
+          "height": 44,
+          "top": 15,
+          "right": 374,
+          "bottom": 59,
+          "left": 275.625
+        },
+        {
+          "x": 35,
+          "y": 773,
+          "width": 110.8125,
+          "height": 44,
+          "top": 773,
+          "right": 145.8125,
+          "bottom": 817,
+          "left": 35
+        },
+        {
+          "x": 264.328125,
+          "y": 773,
+          "width": 90.671875,
+          "height": 44,
+          "top": 773,
+          "right": 355,
+          "bottom": 817,
+          "left": 264.328125
+        }
+      ],
+      "gameStarted": false
+    },
+    {
+      "label": "repair",
+      "width": 390,
+      "height": 844,
+      "title": "Back in working order.",
+      "overflow": false,
+      "caption": {
+        "x": 14,
+        "y": 615.125,
+        "width": 362,
+        "height": 214.875,
+        "top": 615.125,
+        "right": 376,
+        "bottom": 830,
+        "left": 14
+      },
+      "buttons": [
+        {
+          "x": 275.625,
+          "y": 15,
+          "width": 98.375,
+          "height": 44,
+          "top": 15,
+          "right": 374,
+          "bottom": 59,
+          "left": 275.625
+        },
+        {
+          "x": 35,
+          "y": 773,
+          "width": 110.8125,
+          "height": 44,
+          "top": 773,
+          "right": 145.8125,
+          "bottom": 817,
+          "left": 35
+        },
+        {
+          "x": 264.328125,
+          "y": 773,
+          "width": 90.671875,
+          "height": 44,
+          "top": 773,
+          "right": 355,
+          "bottom": 817,
+          "left": 264.328125
+        }
+      ],
+      "gameStarted": false
+    },
+    {
+      "label": "opening",
+      "width": 390,
+      "height": 844,
+      "title": "New owner. New beginning.",
+      "overflow": false,
+      "caption": {
+        "x": 14,
+        "y": 608.25,
+        "width": 362,
+        "height": 221.75,
+        "top": 608.25,
+        "right": 376,
+        "bottom": 830,
+        "left": 14
+      },
+      "buttons": [
+        {
+          "x": 275.625,
+          "y": 15,
+          "width": 98.375,
+          "height": 44,
+          "top": 15,
+          "right": 374,
+          "bottom": 59,
+          "left": 275.625
+        },
+        {
+          "x": 35,
+          "y": 773,
+          "width": 110.8125,
+          "height": 44,
+          "top": 773,
+          "right": 145.8125,
+          "bottom": 817,
+          "left": 35
+        },
+        {
+          "x": 230.171875,
+          "y": 773,
+          "width": 124.828125,
+          "height": 44,
+          "top": 773,
+          "right": 355,
+          "bottom": 817,
+          "left": 230.171875
+        }
+      ],
+      "gameStarted": false
+    },
+    {
+      "label": "compact",
+      "width": 320,
+      "height": 480,
+      "title": "A café that needs a fresh start.",
+      "overflow": false,
+      "caption": {
+        "x": 14,
+        "y": 236.90625,
+        "width": 292,
+        "height": 229.09375,
+        "top": 236.90625,
+        "right": 306,
+        "bottom": 466,
+        "left": 14
+      },
+      "buttons": [
+        {
+          "x": 207.15625,
+          "y": 15,
+          "width": 96.84375,
+          "height": 50.78125,
+          "top": 15,
+          "right": 304,
+          "bottom": 65.78125,
+          "left": 207.15625
+        },
+        {
+          "x": 30,
+          "y": 411,
+          "width": 110.8125,
+          "height": 44,
+          "top": 411,
+          "right": 140.8125,
+          "bottom": 455,
+          "left": 30
+        },
+        {
+          "x": 199.328125,
+          "y": 411,
+          "width": 90.671875,
+          "height": 44,
+          "top": 411,
+          "right": 290,
+          "bottom": 455,
+          "left": 199.328125
+        }
+      ],
+      "gameStarted": false
+    },
+    {
+      "label": "landscape",
+      "width": 568,
+      "height": 320,
+      "title": "The keys are yours.",
+      "overflow": false,
+      "caption": {
+        "x": 316,
+        "y": 82.90625,
+        "width": 240,
+        "height": 225.09375,
+        "top": 82.90625,
+        "right": 556,
+        "bottom": 308,
+        "left": 316
+      },
+      "buttons": [
+        {
+          "x": 453.625,
+          "y": 8,
+          "width": 98.375,
+          "height": 44,
+          "top": 8,
+          "right": 552,
+          "bottom": 52,
+          "left": 453.625
+        },
+        {
+          "x": 329,
+          "y": 251,
+          "width": 98.8125,
+          "height": 44,
+          "top": 251,
+          "right": 427.8125,
+          "bottom": 295,
+          "left": 329
+        },
+        {
+          "x": 464.328125,
+          "y": 251,
+          "width": 78.671875,
+          "height": 44,
+          "top": 251,
+          "right": 543,
+          "bottom": 295,
+          "left": 464.328125
+        }
+      ],
+      "gameStarted": false
+    }
+  ],
+  "errors": [],
+  "method": "Final story rendering after adding room-compatible vertex shading to the owner and story props. Five shots plus compact and landscape bounds."
+}

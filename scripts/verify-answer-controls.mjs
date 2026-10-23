@@ -1,0 +1,18 @@
+// Optional rendered regression: npm install --no-save --package-lock=false playwright
+// node scripts/verify-answer-controls.mjs /path/to/chromium [playwright-module-path]
+import {readFile,writeFile} from 'node:fs/promises';
+import {createServer} from 'node:http';
+import {createRequire} from 'node:module';
+import {fileURLToPath} from 'node:url';
+import {resolve,join} from 'node:path';
+import {build} from 'esbuild';
+const require=createRequire(import.meta.url),{chromium}=require(process.argv[3]||'playwright'),root=fileURLToPath(new URL('../',import.meta.url)),html=await readFile(join(root,'public/index.html'),'utf8'),css=[...html.matchAll(/href="\.\/([^"?]+\.css)/g)].map(m=>m[1]);
+const fixture=await build({entryPoints:[join(root,'scripts/answer-controls-fixture.mjs')],bundle:true,write:false,format:'iife',minify:true});
+const bank=JSON.parse(await readFile(join(root,'public/data/language.json'))),tasks=bank.flatMap(g=>g.units.flatMap(u=>u.tasks)).filter(t=>['vocabulary','description'].includes(t.kind));
+const pageHTML='<!doctype html><html><head><meta name="viewport" content="width=device-width,initial-scale=1">'+css.map(f=>'<link rel="stylesheet" href="/'+f+'">').join('')+'<style>*{animation:none!important;transition:none!important}#task-card{position:fixed!important;inset:0!important;width:100%!important;height:100%!important;max-height:none!important;transform:none!important;background:transparent;overflow:visible!important}.station-assist,.station-status,#crate-drop{display:none!important}</style></head><body><main id="app"><section id="play" class="play-screen task-open"><aside id="task-card" class="task-card object-ui" data-setting="delivery"></aside></section></main><script src="/fixture.js"></script></body></html>';
+const server=createServer(async(req,res)=>{try{const path=new URL(req.url,'http://local').pathname;res.setHeader('Content-Type',path.endsWith('.css')?'text/css':path.endsWith('.js')?'text/javascript':'text/html');res.end(path==='/fixture.js'?fixture.outputFiles[0].contents:path==='/'?pageHTML:await readFile(join(root,'public',path)));}catch{res.statusCode=404;res.end();}});await new Promise(r=>server.listen(0,'127.0.0.1',r));
+let browser;try{
+ browser=await chromium.launch({headless:true,...(process.argv[2]?{executablePath:resolve(process.argv[2])}:{}),args:['--no-sandbox','--disable-dev-shm-usage','--disable-gpu']});const page=await browser.newPage(),errors=[];page.on('pageerror',e=>errors.push(e.message));const results=[];
+ for(const [width,height] of [[320,480],[320,568],[360,640],[393,740],[390,844],[430,850],[568,320],[667,375],[844,390],[1024,600],[1366,768]]){await page.setViewportSize({width,height});await page.goto('http://127.0.0.1:'+server.address().port+'/');await page.evaluate(()=>document.fonts.ready);const r=await page.evaluate(tasks=>window.checkLabelControls(tasks),tasks);results.push(r);console.log(JSON.stringify({width,height,cases:r.cases,issues:r.issues.length}));}
+ const report={version:JSON.parse(await readFile(join(root,'package.json'))).version,labelTasks:tasks.length,cases:results.reduce((n,r)=>n+r.cases,0),results,errors,method:'Real production CSS, markup, measured fonts, receiving paper layout and page-fitting code. Every rendered label checked for paper containment, 44px targets, readable ink, hit testing and one exact answer. Software Chromium DOM check; full WebGL native interaction checked separately.'};await writeFile(join(root,'validation/answer-controls-v'+report.version+'.json'),JSON.stringify(report,null,2)+'\n');if(errors.length||results.some(r=>r.issues.length))process.exitCode=1;
+}finally{await browser?.close();server.close();}

@@ -1,0 +1,16 @@
+✔ existing category stars convert to five, with exact inherited average and idempotent review credit (1.98274ms)
+✔ reputation, intro completion and ownership survive saves independently of lessons and pace (2.036713ms)
+✔ all five story milestones are crossed once and keep earned visual progress after a lower review (169.213415ms)
+✔ every regular shift has a complete pickup task, including every event candidate and both paces (258.547542ms)
+✔ a customer rating commits only after the card turns, freezes on pause and cannot pay twice (1.337072ms)
+✔ named score reveals follow the card and reserve celebrations strictly for ratings above four (11.081261ms)
+✔ the handover, dirty-room inspection, cleaning, repairs and opening have finite phone/landscape scenes and clean disposal (1448.413806ms)
+✔ simultaneous customer scores take turns so phone celebrations cannot cover each other (1.39711ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2350.416099

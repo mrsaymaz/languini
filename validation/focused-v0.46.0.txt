@@ -1,0 +1,78 @@
+✔ every venue, table arrangement and counter configuration retains reachable actual service stops (112.329995ms)
+✔ designs, earned decorations and practical pickup progress migrate and remain isolated across campaigns (2.778522ms)
+✔ atmospheres rotate by campaign shift and fixed choices remain stable (0.456325ms)
+✔ counter choices change real stock and dish capacity without mutating venue definitions (4.505552ms)
+✔ all functional modes have unambiguous four-pair pages and eight distinct Challenge pairs for every grade (27.491318ms)
+✔ director decisions freeze all simulation clocks, reject repeated resolution and respect pause (6.613288ms)
+✔ English tasks protect the director clock and delivery has to reach Pantry before a larger-order offer (5.093507ms)
+✔ connected episodes complete both accept and decline branches in all venues and paces with conservation (305.182571ms)
+✔ connected service also completes without the free-walking kitchen (17.079303ms)
+✔ connected episodes use each selected unit across all grades, events and design arrangements (1117.638168ms)
+✔ recovery choices build finite scenery and preserve the dish footprint through every milestone (2921.686654ms)
+✔ packing requests retain four stable bag targets and readable type across supported phone sizes (78.991533ms)
+✔ service ambience reuses two layered live sources, stops on mute and releases prior nodes when days change (2.513707ms)
+✔ detailed chef keeps the reach rig, face controls, identity proportions and batched mobile budget (581.499567ms)
+✔ smoother serving vessels retain the exact full-size plate footprint and cache shared geometry (336.79537ms)
+✔ all 81 ingredient layers reuse bounded material batches with their ingredient semantics intact (403.294803ms)
+✔ three restaurant scenes retain the previous draw-object cap and bounded geometry including hidden food (1123.746134ms)
+✔ window seating preserves the central spine and reaches every oriented serving approach (28.751204ms)
+✔ all portrait overview cameras use the approved 60 degree pitch and 15 degree yaw (4.204176ms)
+✔ moving the prep counter preserves the close-up board, papers, plate and native surface size (1394.971716ms)
+✔ tall kitchen fixtures cut away for work and restore when the station closes (555.526269ms)
+✔ all arena/team combinations build finite complete 3D scenes (6377.886092ms)
+✔ table markers remain on screen at desktop and phone aspect ratios (3.022031ms)
+✔ static entrypoint includes all wired controls and local assets (16.098995ms)
+✔ close-ups keep each station above the phone task sheet (1.147504ms)
+✔ each camera has a distinct angle and recipe view is aerial (0.462623ms)
+✔ physical stations animate, remain pickable and restore the shared restaurant (451.866872ms)
+✖ customer-held menu is unobstructed from behind the right shoulder at every table (320.866081ms)
+✖ all 24 customer profiles render, hold the menu and replace the previous table model (308.535222ms)
+✔ hanging paper meets its clip and checkout display sits in the existing terminal (271.037007ms)
+✔ all nine dishes plate distinct ingredients at stable landing heights (450.502384ms)
+ℹ tests 31
+ℹ suites 0
+ℹ pass 29
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 18375.167502
+
+✖ failing tests:
+
+test at tests/scene.test.mjs:48:1
+✖ customer-held menu is unobstructed from behind the right shoulder at every table (320.866081ms)
+  AssertionError [ERR_ASSERTION]: Camera is behind the customer
+      at TestContext.<anonymous> (file:///workspace/scratch/ca8a670dbe2e/languini-work/source/tests/scene.test.mjs:52:456)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests/scene.test.mjs:58:1
+✖ all 24 customer profiles render, hold the menu and replace the previous table model (308.535222ms)
+  AssertionError [ERR_ASSERTION]: Aylin
+      at sameObject (file:///workspace/scratch/ca8a670dbe2e/languini-work/source/tests/scene.test.mjs:3:53)
+      at TestContext.<anonymous> (file:///workspace/scratch/ca8a670dbe2e/languini-work/source/tests/scene.test.mjs:62:179)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

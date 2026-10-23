@@ -1,0 +1,4578 @@
+[
+  {
+    "unit": "g5u1",
+    "title": "School Life",
+    "categories": [
+      {
+        "id": "g5u1-sort-0",
+        "name": "School people",
+        "translation": "Okuldaki kişiler"
+      },
+      {
+        "id": "g5u1-sort-1",
+        "name": "School clubs",
+        "translation": "Okul kulüpleri"
+      }
+    ],
+    "cards": [
+      {
+        "id": "g5u1-sort-0-0",
+        "word": "teacher",
+        "translation": "öğretmen",
+        "category": 0,
+        "source": {
+          "unit": "g5u1",
+          "title": "School Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u1-sort-0-1",
+        "word": "headteacher",
+        "translation": "okul müdürü",
+        "category": 0,
+        "source": {
+          "unit": "g5u1",
+          "title": "School Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u1-sort-0-2",
+        "word": "librarian",
+        "translation": "kütüphaneci",
+        "category": 0,
+        "source": {
+          "unit": "g5u1",
+          "title": "School Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u1-sort-0-3",
+        "word": "classmate",
+        "translation": "sınıf arkadaşı",
+        "category": 0,
+        "source": {
+          "unit": "g5u1",
+          "title": "School Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u1-sort-1-0",
+        "word": "chess",
+        "translation": "satranç",
+        "category": 1,
+        "source": {
+          "unit": "g5u1",
+          "title": "School Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u1-sort-1-1",
+        "word": "drama",
+        "translation": "drama",
+        "category": 1,
+        "source": {
+          "unit": "g5u1",
+          "title": "School Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u1-sort-1-2",
+        "word": "robotics",
+        "translation": "robotik",
+        "category": 1,
+        "source": {
+          "unit": "g5u1",
+          "title": "School Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u1-sort-1-3",
+        "word": "gardening",
+        "translation": "bahçecilik",
+        "category": 1,
+        "source": {
+          "unit": "g5u1",
+          "title": "School Life",
+          "type": "curated-v09-category-card"
+        }
+      }
+    ]
+  },
+  {
+    "unit": "g5u2",
+    "title": "Classroom Life",
+    "categories": [
+      {
+        "id": "g5u2-sort-0",
+        "name": "Classroom objects",
+        "translation": "Sınıf eşyaları"
+      },
+      {
+        "id": "g5u2-sort-1",
+        "name": "School subjects",
+        "translation": "Okul dersleri"
+      }
+    ],
+    "cards": [
+      {
+        "id": "g5u2-sort-0-0",
+        "word": "ruler",
+        "translation": "cetvel",
+        "category": 0,
+        "source": {
+          "unit": "g5u2",
+          "title": "Classroom Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u2-sort-0-1",
+        "word": "notebook",
+        "translation": "defter",
+        "category": 0,
+        "source": {
+          "unit": "g5u2",
+          "title": "Classroom Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u2-sort-0-2",
+        "word": "eraser",
+        "translation": "silgi",
+        "category": 0,
+        "source": {
+          "unit": "g5u2",
+          "title": "Classroom Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u2-sort-0-3",
+        "word": "scissors",
+        "translation": "makas",
+        "category": 0,
+        "source": {
+          "unit": "g5u2",
+          "title": "Classroom Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u2-sort-1-0",
+        "word": "English",
+        "translation": "İngilizce",
+        "category": 1,
+        "source": {
+          "unit": "g5u2",
+          "title": "Classroom Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u2-sort-1-1",
+        "word": "maths",
+        "translation": "matematik",
+        "category": 1,
+        "source": {
+          "unit": "g5u2",
+          "title": "Classroom Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u2-sort-1-2",
+        "word": "science",
+        "translation": "fen bilimleri",
+        "category": 1,
+        "source": {
+          "unit": "g5u2",
+          "title": "Classroom Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u2-sort-1-3",
+        "word": "history",
+        "translation": "tarih",
+        "category": 1,
+        "source": {
+          "unit": "g5u2",
+          "title": "Classroom Life",
+          "type": "curated-v09-category-card"
+        }
+      }
+    ]
+  },
+  {
+    "unit": "g5u3",
+    "title": "Personal Life",
+    "categories": [
+      {
+        "id": "g5u3-sort-0",
+        "name": "Clothes",
+        "translation": "Giysiler"
+      },
+      {
+        "id": "g5u3-sort-1",
+        "name": "Body parts",
+        "translation": "Vücut bölümleri"
+      }
+    ],
+    "cards": [
+      {
+        "id": "g5u3-sort-0-0",
+        "word": "scarf",
+        "translation": "atkı",
+        "category": 0,
+        "source": {
+          "unit": "g5u3",
+          "title": "Personal Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u3-sort-0-1",
+        "word": "gloves",
+        "translation": "eldiven",
+        "category": 0,
+        "source": {
+          "unit": "g5u3",
+          "title": "Personal Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u3-sort-0-2",
+        "word": "boots",
+        "translation": "bot",
+        "category": 0,
+        "source": {
+          "unit": "g5u3",
+          "title": "Personal Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u3-sort-0-3",
+        "word": "raincoat",
+        "translation": "yağmurluk",
+        "category": 0,
+        "source": {
+          "unit": "g5u3",
+          "title": "Personal Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u3-sort-1-0",
+        "word": "eyes",
+        "translation": "gözler",
+        "category": 1,
+        "source": {
+          "unit": "g5u3",
+          "title": "Personal Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u3-sort-1-1",
+        "word": "ears",
+        "translation": "kulaklar",
+        "category": 1,
+        "source": {
+          "unit": "g5u3",
+          "title": "Personal Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u3-sort-1-2",
+        "word": "nose",
+        "translation": "burun",
+        "category": 1,
+        "source": {
+          "unit": "g5u3",
+          "title": "Personal Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u3-sort-1-3",
+        "word": "hands",
+        "translation": "eller",
+        "category": 1,
+        "source": {
+          "unit": "g5u3",
+          "title": "Personal Life",
+          "type": "curated-v09-category-card"
+        }
+      }
+    ]
+  },
+  {
+    "unit": "g5u4",
+    "title": "Family Life",
+    "categories": [
+      {
+        "id": "g5u4-sort-0",
+        "name": "Family members",
+        "translation": "Aile üyeleri"
+      },
+      {
+        "id": "g5u4-sort-1",
+        "name": "Home hobbies",
+        "translation": "Evde yapılan hobiler"
+      }
+    ],
+    "cards": [
+      {
+        "id": "g5u4-sort-0-0",
+        "word": "mother",
+        "translation": "anne",
+        "category": 0,
+        "source": {
+          "unit": "g5u4",
+          "title": "Family Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u4-sort-0-1",
+        "word": "father",
+        "translation": "baba",
+        "category": 0,
+        "source": {
+          "unit": "g5u4",
+          "title": "Family Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u4-sort-0-2",
+        "word": "cousin",
+        "translation": "kuzen",
+        "category": 0,
+        "source": {
+          "unit": "g5u4",
+          "title": "Family Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u4-sort-0-3",
+        "word": "grandmother",
+        "translation": "büyükanne",
+        "category": 0,
+        "source": {
+          "unit": "g5u4",
+          "title": "Family Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u4-sort-1-0",
+        "word": "reading",
+        "translation": "okuma",
+        "category": 1,
+        "source": {
+          "unit": "g5u4",
+          "title": "Family Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u4-sort-1-1",
+        "word": "knitting",
+        "translation": "örgü örme",
+        "category": 1,
+        "source": {
+          "unit": "g5u4",
+          "title": "Family Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u4-sort-1-2",
+        "word": "sewing",
+        "translation": "dikiş dikme",
+        "category": 1,
+        "source": {
+          "unit": "g5u4",
+          "title": "Family Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u4-sort-1-3",
+        "word": "drawing",
+        "translation": "resim çizme",
+        "category": 1,
+        "source": {
+          "unit": "g5u4",
+          "title": "Family Life",
+          "type": "curated-v09-category-card"
+        }
+      }
+    ]
+  },
+  {
+    "unit": "g5u5",
+    "title": "Life in the Neighbourhood & City",
+    "categories": [
+      {
+        "id": "g5u5-sort-0",
+        "name": "Town places",
+        "translation": "Şehirdeki yerler"
+      },
+      {
+        "id": "g5u5-sort-1",
+        "name": "Home furniture",
+        "translation": "Ev mobilyaları"
+      }
+    ],
+    "cards": [
+      {
+        "id": "g5u5-sort-0-0",
+        "word": "library",
+        "translation": "kütüphane",
+        "category": 0,
+        "source": {
+          "unit": "g5u5",
+          "title": "Life in the Neighbourhood & City",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u5-sort-0-1",
+        "word": "hospital",
+        "translation": "hastane",
+        "category": 0,
+        "source": {
+          "unit": "g5u5",
+          "title": "Life in the Neighbourhood & City",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u5-sort-0-2",
+        "word": "bakery",
+        "translation": "fırın",
+        "category": 0,
+        "source": {
+          "unit": "g5u5",
+          "title": "Life in the Neighbourhood & City",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u5-sort-0-3",
+        "word": "museum",
+        "translation": "müze",
+        "category": 0,
+        "source": {
+          "unit": "g5u5",
+          "title": "Life in the Neighbourhood & City",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u5-sort-1-0",
+        "word": "bed",
+        "translation": "yatak",
+        "category": 1,
+        "source": {
+          "unit": "g5u5",
+          "title": "Life in the Neighbourhood & City",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u5-sort-1-1",
+        "word": "sofa",
+        "translation": "kanepe",
+        "category": 1,
+        "source": {
+          "unit": "g5u5",
+          "title": "Life in the Neighbourhood & City",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u5-sort-1-2",
+        "word": "wardrobe",
+        "translation": "gardırop",
+        "category": 1,
+        "source": {
+          "unit": "g5u5",
+          "title": "Life in the Neighbourhood & City",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u5-sort-1-3",
+        "word": "armchair",
+        "translation": "koltuk",
+        "category": 1,
+        "source": {
+          "unit": "g5u5",
+          "title": "Life in the Neighbourhood & City",
+          "type": "curated-v09-category-card"
+        }
+      }
+    ]
+  },
+  {
+    "unit": "g5u6",
+    "title": "Life in the World",
+    "categories": [
+      {
+        "id": "g5u6-sort-0",
+        "name": "Food",
+        "translation": "Yiyecekler"
+      },
+      {
+        "id": "g5u6-sort-1",
+        "name": "Table items",
+        "translation": "Sofra eşyaları"
+      }
+    ],
+    "cards": [
+      {
+        "id": "g5u6-sort-0-0",
+        "word": "soup",
+        "translation": "çorba",
+        "category": 0,
+        "source": {
+          "unit": "g5u6",
+          "title": "Life in the World",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u6-sort-0-1",
+        "word": "bread",
+        "translation": "ekmek",
+        "category": 0,
+        "source": {
+          "unit": "g5u6",
+          "title": "Life in the World",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u6-sort-0-2",
+        "word": "pasta",
+        "translation": "makarna",
+        "category": 0,
+        "source": {
+          "unit": "g5u6",
+          "title": "Life in the World",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u6-sort-0-3",
+        "word": "cheese",
+        "translation": "peynir",
+        "category": 0,
+        "source": {
+          "unit": "g5u6",
+          "title": "Life in the World",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u6-sort-1-0",
+        "word": "spoon",
+        "translation": "kaşık",
+        "category": 1,
+        "source": {
+          "unit": "g5u6",
+          "title": "Life in the World",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u6-sort-1-1",
+        "word": "fork",
+        "translation": "çatal",
+        "category": 1,
+        "source": {
+          "unit": "g5u6",
+          "title": "Life in the World",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u6-sort-1-2",
+        "word": "plate",
+        "translation": "tabak",
+        "category": 1,
+        "source": {
+          "unit": "g5u6",
+          "title": "Life in the World",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u6-sort-1-3",
+        "word": "napkin",
+        "translation": "peçete",
+        "category": 1,
+        "source": {
+          "unit": "g5u6",
+          "title": "Life in the World",
+          "type": "curated-v09-category-card"
+        }
+      }
+    ]
+  },
+  {
+    "unit": "g5u7",
+    "title": "Life in Nature",
+    "categories": [
+      {
+        "id": "g5u7-sort-0",
+        "name": "Wild animals",
+        "translation": "Vahşi hayvanlar"
+      },
+      {
+        "id": "g5u7-sort-1",
+        "name": "Animal parts",
+        "translation": "Hayvanların vücut bölümleri"
+      }
+    ],
+    "cards": [
+      {
+        "id": "g5u7-sort-0-0",
+        "word": "lion",
+        "translation": "aslan",
+        "category": 0,
+        "source": {
+          "unit": "g5u7",
+          "title": "Life in Nature",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u7-sort-0-1",
+        "word": "fox",
+        "translation": "tilki",
+        "category": 0,
+        "source": {
+          "unit": "g5u7",
+          "title": "Life in Nature",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u7-sort-0-2",
+        "word": "dolphin",
+        "translation": "yunus",
+        "category": 0,
+        "source": {
+          "unit": "g5u7",
+          "title": "Life in Nature",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u7-sort-0-3",
+        "word": "giraffe",
+        "translation": "zürafa",
+        "category": 0,
+        "source": {
+          "unit": "g5u7",
+          "title": "Life in Nature",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u7-sort-1-0",
+        "word": "feather",
+        "translation": "tüy",
+        "category": 1,
+        "source": {
+          "unit": "g5u7",
+          "title": "Life in Nature",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u7-sort-1-1",
+        "word": "wing",
+        "translation": "kanat",
+        "category": 1,
+        "source": {
+          "unit": "g5u7",
+          "title": "Life in Nature",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u7-sort-1-2",
+        "word": "beak",
+        "translation": "gaga",
+        "category": 1,
+        "source": {
+          "unit": "g5u7",
+          "title": "Life in Nature",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u7-sort-1-3",
+        "word": "fin",
+        "translation": "yüzgeç",
+        "category": 1,
+        "source": {
+          "unit": "g5u7",
+          "title": "Life in Nature",
+          "type": "curated-v09-category-card"
+        }
+      }
+    ]
+  },
+  {
+    "unit": "g5u8",
+    "title": "Life in the Universe & Future",
+    "categories": [
+      {
+        "id": "g5u8-sort-0",
+        "name": "Natural places",
+        "translation": "Doğal yerler"
+      },
+      {
+        "id": "g5u8-sort-1",
+        "name": "Travel items",
+        "translation": "Seyahat eşyaları"
+      }
+    ],
+    "cards": [
+      {
+        "id": "g5u8-sort-0-0",
+        "word": "mountain",
+        "translation": "dağ",
+        "category": 0,
+        "source": {
+          "unit": "g5u8",
+          "title": "Life in the Universe & Future",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u8-sort-0-1",
+        "word": "island",
+        "translation": "ada",
+        "category": 0,
+        "source": {
+          "unit": "g5u8",
+          "title": "Life in the Universe & Future",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u8-sort-0-2",
+        "word": "waterfall",
+        "translation": "şelale",
+        "category": 0,
+        "source": {
+          "unit": "g5u8",
+          "title": "Life in the Universe & Future",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u8-sort-0-3",
+        "word": "valley",
+        "translation": "vadi",
+        "category": 0,
+        "source": {
+          "unit": "g5u8",
+          "title": "Life in the Universe & Future",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u8-sort-1-0",
+        "word": "tent",
+        "translation": "çadır",
+        "category": 1,
+        "source": {
+          "unit": "g5u8",
+          "title": "Life in the Universe & Future",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u8-sort-1-1",
+        "word": "passport",
+        "translation": "pasaport",
+        "category": 1,
+        "source": {
+          "unit": "g5u8",
+          "title": "Life in the Universe & Future",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u8-sort-1-2",
+        "word": "suitcase",
+        "translation": "bavul",
+        "category": 1,
+        "source": {
+          "unit": "g5u8",
+          "title": "Life in the Universe & Future",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u8-sort-1-3",
+        "word": "compass",
+        "translation": "pusula",
+        "category": 1,
+        "source": {
+          "unit": "g5u8",
+          "title": "Life in the Universe & Future",
+          "type": "curated-v09-category-card"
+        }
+      }
+    ]
+  },
+  {
+    "unit": "g5u9",
+    "title": "Jobs and Workplaces",
+    "categories": [
+      {
+        "id": "g5u9-sort-0",
+        "name": "Jobs",
+        "translation": "Meslekler"
+      },
+      {
+        "id": "g5u9-sort-1",
+        "name": "Workplaces",
+        "translation": "İş yerleri"
+      }
+    ],
+    "cards": [
+      {
+        "id": "g5u9-sort-0-0",
+        "word": "vet",
+        "translation": "veteriner",
+        "category": 0,
+        "source": {
+          "unit": "g5u9",
+          "title": "Jobs and Workplaces",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u9-sort-0-1",
+        "word": "dentist",
+        "translation": "diş hekimi",
+        "category": 0,
+        "source": {
+          "unit": "g5u9",
+          "title": "Jobs and Workplaces",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u9-sort-0-2",
+        "word": "pilot",
+        "translation": "pilot",
+        "category": 0,
+        "source": {
+          "unit": "g5u9",
+          "title": "Jobs and Workplaces",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u9-sort-0-3",
+        "word": "farmer",
+        "translation": "çiftçi",
+        "category": 0,
+        "source": {
+          "unit": "g5u9",
+          "title": "Jobs and Workplaces",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u9-sort-1-0",
+        "word": "hospital",
+        "translation": "hastane",
+        "category": 1,
+        "source": {
+          "unit": "g5u9",
+          "title": "Jobs and Workplaces",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u9-sort-1-1",
+        "word": "farm",
+        "translation": "çiftlik",
+        "category": 1,
+        "source": {
+          "unit": "g5u9",
+          "title": "Jobs and Workplaces",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u9-sort-1-2",
+        "word": "bakery",
+        "translation": "fırın",
+        "category": 1,
+        "source": {
+          "unit": "g5u9",
+          "title": "Jobs and Workplaces",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u9-sort-1-3",
+        "word": "school",
+        "translation": "okul",
+        "category": 1,
+        "source": {
+          "unit": "g5u9",
+          "title": "Jobs and Workplaces",
+          "type": "curated-v09-category-card"
+        }
+      }
+    ]
+  },
+  {
+    "unit": "g5u10",
+    "title": "At the Toy Shop",
+    "categories": [
+      {
+        "id": "g5u10-sort-0",
+        "name": "Games",
+        "translation": "Oyunlar"
+      },
+      {
+        "id": "g5u10-sort-1",
+        "name": "Game equipment",
+        "translation": "Oyun malzemeleri"
+      }
+    ],
+    "cards": [
+      {
+        "id": "g5u10-sort-0-0",
+        "word": "chess",
+        "translation": "satranç",
+        "category": 0,
+        "source": {
+          "unit": "g5u10",
+          "title": "At the Toy Shop",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u10-sort-0-1",
+        "word": "hopscotch",
+        "translation": "seksek",
+        "category": 0,
+        "source": {
+          "unit": "g5u10",
+          "title": "At the Toy Shop",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u10-sort-0-2",
+        "word": "hide-and-seek",
+        "translation": "saklambaç",
+        "category": 0,
+        "source": {
+          "unit": "g5u10",
+          "title": "At the Toy Shop",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u10-sort-0-3",
+        "word": "tag",
+        "translation": "ebelemece",
+        "category": 0,
+        "source": {
+          "unit": "g5u10",
+          "title": "At the Toy Shop",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u10-sort-1-0",
+        "word": "ball",
+        "translation": "top",
+        "category": 1,
+        "source": {
+          "unit": "g5u10",
+          "title": "At the Toy Shop",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u10-sort-1-1",
+        "word": "dice",
+        "translation": "zar",
+        "category": 1,
+        "source": {
+          "unit": "g5u10",
+          "title": "At the Toy Shop",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u10-sort-1-2",
+        "word": "chessboard",
+        "translation": "satranç tahtası",
+        "category": 1,
+        "source": {
+          "unit": "g5u10",
+          "title": "At the Toy Shop",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g5u10-sort-1-3",
+        "word": "skipping rope",
+        "translation": "atlama ipi",
+        "category": 1,
+        "source": {
+          "unit": "g5u10",
+          "title": "At the Toy Shop",
+          "type": "curated-v09-category-card"
+        }
+      }
+    ]
+  },
+  {
+    "unit": "g6u1",
+    "title": "School Life",
+    "categories": [
+      {
+        "id": "g6u1-sort-0",
+        "name": "School roles",
+        "translation": "Okuldaki görevler"
+      },
+      {
+        "id": "g6u1-sort-1",
+        "name": "School duties",
+        "translation": "Okulda yapılan işler"
+      }
+    ],
+    "cards": [
+      {
+        "id": "g6u1-sort-0-0",
+        "word": "headteacher",
+        "translation": "okul müdürü",
+        "category": 0,
+        "source": {
+          "unit": "g6u1",
+          "title": "School Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u1-sort-0-1",
+        "word": "secretary",
+        "translation": "sekreter",
+        "category": 0,
+        "source": {
+          "unit": "g6u1",
+          "title": "School Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u1-sort-0-2",
+        "word": "librarian",
+        "translation": "kütüphaneci",
+        "category": 0,
+        "source": {
+          "unit": "g6u1",
+          "title": "School Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u1-sort-0-3",
+        "word": "caretaker",
+        "translation": "okul görevlisi",
+        "category": 0,
+        "source": {
+          "unit": "g6u1",
+          "title": "School Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u1-sort-1-0",
+        "word": "organise",
+        "translation": "düzenlemek",
+        "category": 1,
+        "source": {
+          "unit": "g6u1",
+          "title": "School Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u1-sort-1-1",
+        "word": "prepare",
+        "translation": "hazırlamak",
+        "category": 1,
+        "source": {
+          "unit": "g6u1",
+          "title": "School Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u1-sort-1-2",
+        "word": "clean",
+        "translation": "temizlemek",
+        "category": 1,
+        "source": {
+          "unit": "g6u1",
+          "title": "School Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u1-sort-1-3",
+        "word": "collect",
+        "translation": "toplamak",
+        "category": 1,
+        "source": {
+          "unit": "g6u1",
+          "title": "School Life",
+          "type": "curated-v09-category-card"
+        }
+      }
+    ]
+  },
+  {
+    "unit": "g6u2",
+    "title": "Classroom Life",
+    "categories": [
+      {
+        "id": "g6u2-sort-0",
+        "name": "Learning tools",
+        "translation": "Öğrenme araçları"
+      },
+      {
+        "id": "g6u2-sort-1",
+        "name": "Learning actions",
+        "translation": "Öğrenme eylemleri"
+      }
+    ],
+    "cards": [
+      {
+        "id": "g6u2-sort-0-0",
+        "word": "dictionary",
+        "translation": "sözlük",
+        "category": 0,
+        "source": {
+          "unit": "g6u2",
+          "title": "Classroom Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u2-sort-0-1",
+        "word": "worksheet",
+        "translation": "çalışma kâğıdı",
+        "category": 0,
+        "source": {
+          "unit": "g6u2",
+          "title": "Classroom Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u2-sort-0-2",
+        "word": "textbook",
+        "translation": "ders kitabı",
+        "category": 0,
+        "source": {
+          "unit": "g6u2",
+          "title": "Classroom Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u2-sort-0-3",
+        "word": "flashcard",
+        "translation": "bilgi kartı",
+        "category": 0,
+        "source": {
+          "unit": "g6u2",
+          "title": "Classroom Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u2-sort-1-0",
+        "word": "practise",
+        "translation": "alıştırma yapmak",
+        "category": 1,
+        "source": {
+          "unit": "g6u2",
+          "title": "Classroom Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u2-sort-1-1",
+        "word": "explain",
+        "translation": "açıklamak",
+        "category": 1,
+        "source": {
+          "unit": "g6u2",
+          "title": "Classroom Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u2-sort-1-2",
+        "word": "remember",
+        "translation": "hatırlamak",
+        "category": 1,
+        "source": {
+          "unit": "g6u2",
+          "title": "Classroom Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u2-sort-1-3",
+        "word": "compare",
+        "translation": "karşılaştırmak",
+        "category": 1,
+        "source": {
+          "unit": "g6u2",
+          "title": "Classroom Life",
+          "type": "curated-v09-category-card"
+        }
+      }
+    ]
+  },
+  {
+    "unit": "g6u3",
+    "title": "Personal Life",
+    "categories": [
+      {
+        "id": "g6u3-sort-0",
+        "name": "Personality",
+        "translation": "Kişilik özellikleri"
+      },
+      {
+        "id": "g6u3-sort-1",
+        "name": "Accessories",
+        "translation": "Aksesuarlar"
+      }
+    ],
+    "cards": [
+      {
+        "id": "g6u3-sort-0-0",
+        "word": "helpful",
+        "translation": "yardımsever",
+        "category": 0,
+        "source": {
+          "unit": "g6u3",
+          "title": "Personal Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u3-sort-0-1",
+        "word": "honest",
+        "translation": "dürüst",
+        "category": 0,
+        "source": {
+          "unit": "g6u3",
+          "title": "Personal Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u3-sort-0-2",
+        "word": "patient",
+        "translation": "sabırlı",
+        "category": 0,
+        "source": {
+          "unit": "g6u3",
+          "title": "Personal Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u3-sort-0-3",
+        "word": "generous",
+        "translation": "cömert",
+        "category": 0,
+        "source": {
+          "unit": "g6u3",
+          "title": "Personal Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u3-sort-1-0",
+        "word": "bracelet",
+        "translation": "bilezik",
+        "category": 1,
+        "source": {
+          "unit": "g6u3",
+          "title": "Personal Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u3-sort-1-1",
+        "word": "necklace",
+        "translation": "kolye",
+        "category": 1,
+        "source": {
+          "unit": "g6u3",
+          "title": "Personal Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u3-sort-1-2",
+        "word": "wallet",
+        "translation": "cüzdan",
+        "category": 1,
+        "source": {
+          "unit": "g6u3",
+          "title": "Personal Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u3-sort-1-3",
+        "word": "sunglasses",
+        "translation": "güneş gözlüğü",
+        "category": 1,
+        "source": {
+          "unit": "g6u3",
+          "title": "Personal Life",
+          "type": "curated-v09-category-card"
+        }
+      }
+    ]
+  },
+  {
+    "unit": "g6u4",
+    "title": "Family Life",
+    "categories": [
+      {
+        "id": "g6u4-sort-0",
+        "name": "Family jobs",
+        "translation": "Aile bireylerinin meslekleri"
+      },
+      {
+        "id": "g6u4-sort-1",
+        "name": "Home rooms",
+        "translation": "Evin bölümleri"
+      }
+    ],
+    "cards": [
+      {
+        "id": "g6u4-sort-0-0",
+        "word": "engineer",
+        "translation": "mühendis",
+        "category": 0,
+        "source": {
+          "unit": "g6u4",
+          "title": "Family Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u4-sort-0-1",
+        "word": "doctor",
+        "translation": "doktor",
+        "category": 0,
+        "source": {
+          "unit": "g6u4",
+          "title": "Family Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u4-sort-0-2",
+        "word": "chef",
+        "translation": "aşçı",
+        "category": 0,
+        "source": {
+          "unit": "g6u4",
+          "title": "Family Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u4-sort-0-3",
+        "word": "mechanic",
+        "translation": "tamirci",
+        "category": 0,
+        "source": {
+          "unit": "g6u4",
+          "title": "Family Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u4-sort-1-0",
+        "word": "kitchen",
+        "translation": "mutfak",
+        "category": 1,
+        "source": {
+          "unit": "g6u4",
+          "title": "Family Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u4-sort-1-1",
+        "word": "bedroom",
+        "translation": "yatak odası",
+        "category": 1,
+        "source": {
+          "unit": "g6u4",
+          "title": "Family Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u4-sort-1-2",
+        "word": "bathroom",
+        "translation": "banyo",
+        "category": 1,
+        "source": {
+          "unit": "g6u4",
+          "title": "Family Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u4-sort-1-3",
+        "word": "attic",
+        "translation": "çatı katı",
+        "category": 1,
+        "source": {
+          "unit": "g6u4",
+          "title": "Family Life",
+          "type": "curated-v09-category-card"
+        }
+      }
+    ]
+  },
+  {
+    "unit": "g6u5",
+    "title": "Life in the Neighbourhood & City",
+    "categories": [
+      {
+        "id": "g6u5-sort-0",
+        "name": "Transport",
+        "translation": "Ulaşım araçları"
+      },
+      {
+        "id": "g6u5-sort-1",
+        "name": "City events",
+        "translation": "Şehir etkinlikleri"
+      }
+    ],
+    "cards": [
+      {
+        "id": "g6u5-sort-0-0",
+        "word": "tram",
+        "translation": "tramvay",
+        "category": 0,
+        "source": {
+          "unit": "g6u5",
+          "title": "Life in the Neighbourhood & City",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u5-sort-0-1",
+        "word": "ferry",
+        "translation": "vapur",
+        "category": 0,
+        "source": {
+          "unit": "g6u5",
+          "title": "Life in the Neighbourhood & City",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u5-sort-0-2",
+        "word": "lorry",
+        "translation": "kamyon",
+        "category": 0,
+        "source": {
+          "unit": "g6u5",
+          "title": "Life in the Neighbourhood & City",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u5-sort-0-3",
+        "word": "motorcycle",
+        "translation": "motosiklet",
+        "category": 0,
+        "source": {
+          "unit": "g6u5",
+          "title": "Life in the Neighbourhood & City",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u5-sort-1-0",
+        "word": "parade",
+        "translation": "geçit töreni",
+        "category": 1,
+        "source": {
+          "unit": "g6u5",
+          "title": "Life in the Neighbourhood & City",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u5-sort-1-1",
+        "word": "exhibition",
+        "translation": "sergi",
+        "category": 1,
+        "source": {
+          "unit": "g6u5",
+          "title": "Life in the Neighbourhood & City",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u5-sort-1-2",
+        "word": "festival",
+        "translation": "festival",
+        "category": 1,
+        "source": {
+          "unit": "g6u5",
+          "title": "Life in the Neighbourhood & City",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u5-sort-1-3",
+        "word": "concert",
+        "translation": "konser",
+        "category": 1,
+        "source": {
+          "unit": "g6u5",
+          "title": "Life in the Neighbourhood & City",
+          "type": "curated-v09-category-card"
+        }
+      }
+    ]
+  },
+  {
+    "unit": "g6u6",
+    "title": "Life in the World & Culture",
+    "categories": [
+      {
+        "id": "g6u6-sort-0",
+        "name": "Cultural events",
+        "translation": "Kültürel etkinlikler"
+      },
+      {
+        "id": "g6u6-sort-1",
+        "name": "Food and drink",
+        "translation": "Yiyecek ve içecekler"
+      }
+    ],
+    "cards": [
+      {
+        "id": "g6u6-sort-0-0",
+        "word": "festival",
+        "translation": "festival",
+        "category": 0,
+        "source": {
+          "unit": "g6u6",
+          "title": "Life in the World & Culture",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u6-sort-0-1",
+        "word": "ceremony",
+        "translation": "tören",
+        "category": 0,
+        "source": {
+          "unit": "g6u6",
+          "title": "Life in the World & Culture",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u6-sort-0-2",
+        "word": "parade",
+        "translation": "geçit töreni",
+        "category": 0,
+        "source": {
+          "unit": "g6u6",
+          "title": "Life in the World & Culture",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u6-sort-0-3",
+        "word": "exhibition",
+        "translation": "sergi",
+        "category": 0,
+        "source": {
+          "unit": "g6u6",
+          "title": "Life in the World & Culture",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u6-sort-1-0",
+        "word": "rice",
+        "translation": "pirinç",
+        "category": 1,
+        "source": {
+          "unit": "g6u6",
+          "title": "Life in the World & Culture",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u6-sort-1-1",
+        "word": "soup",
+        "translation": "çorba",
+        "category": 1,
+        "source": {
+          "unit": "g6u6",
+          "title": "Life in the World & Culture",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u6-sort-1-2",
+        "word": "yoghurt",
+        "translation": "yoğurt",
+        "category": 1,
+        "source": {
+          "unit": "g6u6",
+          "title": "Life in the World & Culture",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u6-sort-1-3",
+        "word": "juice",
+        "translation": "meyve suyu",
+        "category": 1,
+        "source": {
+          "unit": "g6u6",
+          "title": "Life in the World & Culture",
+          "type": "curated-v09-category-card"
+        }
+      }
+    ]
+  },
+  {
+    "unit": "g6u7",
+    "title": "Life in Nature & Global Problems",
+    "categories": [
+      {
+        "id": "g6u7-sort-0",
+        "name": "Natural features",
+        "translation": "Doğal oluşumlar"
+      },
+      {
+        "id": "g6u7-sort-1",
+        "name": "Green actions",
+        "translation": "Çevreci eylemler"
+      }
+    ],
+    "cards": [
+      {
+        "id": "g6u7-sort-0-0",
+        "word": "river",
+        "translation": "nehir",
+        "category": 0,
+        "source": {
+          "unit": "g6u7",
+          "title": "Life in Nature & Global Problems",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u7-sort-0-1",
+        "word": "forest",
+        "translation": "orman",
+        "category": 0,
+        "source": {
+          "unit": "g6u7",
+          "title": "Life in Nature & Global Problems",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u7-sort-0-2",
+        "word": "mountain",
+        "translation": "dağ",
+        "category": 0,
+        "source": {
+          "unit": "g6u7",
+          "title": "Life in Nature & Global Problems",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u7-sort-0-3",
+        "word": "waterfall",
+        "translation": "şelale",
+        "category": 0,
+        "source": {
+          "unit": "g6u7",
+          "title": "Life in Nature & Global Problems",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u7-sort-1-0",
+        "word": "recycle",
+        "translation": "geri dönüştürmek",
+        "category": 1,
+        "source": {
+          "unit": "g6u7",
+          "title": "Life in Nature & Global Problems",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u7-sort-1-1",
+        "word": "reuse",
+        "translation": "yeniden kullanmak",
+        "category": 1,
+        "source": {
+          "unit": "g6u7",
+          "title": "Life in Nature & Global Problems",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u7-sort-1-2",
+        "word": "protect",
+        "translation": "korumak",
+        "category": 1,
+        "source": {
+          "unit": "g6u7",
+          "title": "Life in Nature & Global Problems",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u7-sort-1-3",
+        "word": "conserve",
+        "translation": "koruyarak kullanmak",
+        "category": 1,
+        "source": {
+          "unit": "g6u7",
+          "title": "Life in Nature & Global Problems",
+          "type": "curated-v09-category-card"
+        }
+      }
+    ]
+  },
+  {
+    "unit": "g6u8",
+    "title": "Life in the Universe & Future",
+    "categories": [
+      {
+        "id": "g6u8-sort-0",
+        "name": "Space objects",
+        "translation": "Uzaydaki nesneler"
+      },
+      {
+        "id": "g6u8-sort-1",
+        "name": "Weather words",
+        "translation": "Hava olayları"
+      }
+    ],
+    "cards": [
+      {
+        "id": "g6u8-sort-0-0",
+        "word": "planet",
+        "translation": "gezegen",
+        "category": 0,
+        "source": {
+          "unit": "g6u8",
+          "title": "Life in the Universe & Future",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u8-sort-0-1",
+        "word": "comet",
+        "translation": "kuyruklu yıldız",
+        "category": 0,
+        "source": {
+          "unit": "g6u8",
+          "title": "Life in the Universe & Future",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u8-sort-0-2",
+        "word": "moon",
+        "translation": "ay",
+        "category": 0,
+        "source": {
+          "unit": "g6u8",
+          "title": "Life in the Universe & Future",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u8-sort-0-3",
+        "word": "asteroid",
+        "translation": "asteroit",
+        "category": 0,
+        "source": {
+          "unit": "g6u8",
+          "title": "Life in the Universe & Future",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u8-sort-1-0",
+        "word": "storm",
+        "translation": "fırtına",
+        "category": 1,
+        "source": {
+          "unit": "g6u8",
+          "title": "Life in the Universe & Future",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u8-sort-1-1",
+        "word": "lightning",
+        "translation": "şimşek",
+        "category": 1,
+        "source": {
+          "unit": "g6u8",
+          "title": "Life in the Universe & Future",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u8-sort-1-2",
+        "word": "rain",
+        "translation": "yağmur",
+        "category": 1,
+        "source": {
+          "unit": "g6u8",
+          "title": "Life in the Universe & Future",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u8-sort-1-3",
+        "word": "snow",
+        "translation": "kar",
+        "category": 1,
+        "source": {
+          "unit": "g6u8",
+          "title": "Life in the Universe & Future",
+          "type": "curated-v09-category-card"
+        }
+      }
+    ]
+  },
+  {
+    "unit": "g6u9",
+    "title": "Shopping and Money",
+    "categories": [
+      {
+        "id": "g6u9-sort-0",
+        "name": "Fruit",
+        "translation": "Meyveler"
+      },
+      {
+        "id": "g6u9-sort-1",
+        "name": "Vegetables",
+        "translation": "Sebzeler"
+      }
+    ],
+    "cards": [
+      {
+        "id": "g6u9-sort-0-0",
+        "word": "apple",
+        "translation": "elma",
+        "category": 0,
+        "source": {
+          "unit": "g6u9",
+          "title": "Shopping and Money",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u9-sort-0-1",
+        "word": "banana",
+        "translation": "muz",
+        "category": 0,
+        "source": {
+          "unit": "g6u9",
+          "title": "Shopping and Money",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u9-sort-0-2",
+        "word": "pear",
+        "translation": "armut",
+        "category": 0,
+        "source": {
+          "unit": "g6u9",
+          "title": "Shopping and Money",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u9-sort-0-3",
+        "word": "grapes",
+        "translation": "üzüm",
+        "category": 0,
+        "source": {
+          "unit": "g6u9",
+          "title": "Shopping and Money",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u9-sort-1-0",
+        "word": "carrot",
+        "translation": "havuç",
+        "category": 1,
+        "source": {
+          "unit": "g6u9",
+          "title": "Shopping and Money",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u9-sort-1-1",
+        "word": "onion",
+        "translation": "soğan",
+        "category": 1,
+        "source": {
+          "unit": "g6u9",
+          "title": "Shopping and Money",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u9-sort-1-2",
+        "word": "potato",
+        "translation": "patates",
+        "category": 1,
+        "source": {
+          "unit": "g6u9",
+          "title": "Shopping and Money",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u9-sort-1-3",
+        "word": "lettuce",
+        "translation": "marul",
+        "category": 1,
+        "source": {
+          "unit": "g6u9",
+          "title": "Shopping and Money",
+          "type": "curated-v09-category-card"
+        }
+      }
+    ]
+  },
+  {
+    "unit": "g6u10",
+    "title": "Health and Well-being",
+    "categories": [
+      {
+        "id": "g6u10-sort-0",
+        "name": "Healthy habits",
+        "translation": "Sağlıklı alışkanlıklar"
+      },
+      {
+        "id": "g6u10-sort-1",
+        "name": "Health problems",
+        "translation": "Sağlık sorunları"
+      }
+    ],
+    "cards": [
+      {
+        "id": "g6u10-sort-0-0",
+        "word": "sleep well",
+        "translation": "iyi uyumak",
+        "category": 0,
+        "source": {
+          "unit": "g6u10",
+          "title": "Health and Well-being",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u10-sort-0-1",
+        "word": "wash hands",
+        "translation": "ellerini yıkamak",
+        "category": 0,
+        "source": {
+          "unit": "g6u10",
+          "title": "Health and Well-being",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u10-sort-0-2",
+        "word": "brush teeth",
+        "translation": "dişlerini fırçalamak",
+        "category": 0,
+        "source": {
+          "unit": "g6u10",
+          "title": "Health and Well-being",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u10-sort-0-3",
+        "word": "drink water",
+        "translation": "su içmek",
+        "category": 0,
+        "source": {
+          "unit": "g6u10",
+          "title": "Health and Well-being",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u10-sort-1-0",
+        "word": "headache",
+        "translation": "baş ağrısı",
+        "category": 1,
+        "source": {
+          "unit": "g6u10",
+          "title": "Health and Well-being",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u10-sort-1-1",
+        "word": "toothache",
+        "translation": "diş ağrısı",
+        "category": 1,
+        "source": {
+          "unit": "g6u10",
+          "title": "Health and Well-being",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u10-sort-1-2",
+        "word": "cough",
+        "translation": "öksürük",
+        "category": 1,
+        "source": {
+          "unit": "g6u10",
+          "title": "Health and Well-being",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g6u10-sort-1-3",
+        "word": "fever",
+        "translation": "ateş",
+        "category": 1,
+        "source": {
+          "unit": "g6u10",
+          "title": "Health and Well-being",
+          "type": "curated-v09-category-card"
+        }
+      }
+    ]
+  },
+  {
+    "unit": "g7u1",
+    "title": "Appearance and Personality",
+    "categories": [
+      {
+        "id": "g7u1-sort-0",
+        "name": "Personality traits",
+        "translation": "Kişilik özellikleri"
+      },
+      {
+        "id": "g7u1-sort-1",
+        "name": "Appearance words",
+        "translation": "Dış görünüş özellikleri"
+      }
+    ],
+    "cards": [
+      {
+        "id": "g7u1-sort-0-0",
+        "word": "patient",
+        "translation": "sabırlı",
+        "category": 0,
+        "source": {
+          "unit": "g7u1",
+          "title": "Appearance and Personality",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u1-sort-0-1",
+        "word": "helpful",
+        "translation": "yardımsever",
+        "category": 0,
+        "source": {
+          "unit": "g7u1",
+          "title": "Appearance and Personality",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u1-sort-0-2",
+        "word": "honest",
+        "translation": "dürüst",
+        "category": 0,
+        "source": {
+          "unit": "g7u1",
+          "title": "Appearance and Personality",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u1-sort-0-3",
+        "word": "stubborn",
+        "translation": "inatçı",
+        "category": 0,
+        "source": {
+          "unit": "g7u1",
+          "title": "Appearance and Personality",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u1-sort-1-0",
+        "word": "curly",
+        "translation": "kıvırcık",
+        "category": 1,
+        "source": {
+          "unit": "g7u1",
+          "title": "Appearance and Personality",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u1-sort-1-1",
+        "word": "tall",
+        "translation": "uzun boylu",
+        "category": 1,
+        "source": {
+          "unit": "g7u1",
+          "title": "Appearance and Personality",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u1-sort-1-2",
+        "word": "short",
+        "translation": "kısa boylu",
+        "category": 1,
+        "source": {
+          "unit": "g7u1",
+          "title": "Appearance and Personality",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u1-sort-1-3",
+        "word": "blonde",
+        "translation": "sarışın",
+        "category": 1,
+        "source": {
+          "unit": "g7u1",
+          "title": "Appearance and Personality",
+          "type": "curated-v09-category-card"
+        }
+      }
+    ]
+  },
+  {
+    "unit": "g7u2",
+    "title": "Sports",
+    "categories": [
+      {
+        "id": "g7u2-sort-0",
+        "name": "Sports",
+        "translation": "Sporlar"
+      },
+      {
+        "id": "g7u2-sort-1",
+        "name": "Sports equipment",
+        "translation": "Spor malzemeleri"
+      }
+    ],
+    "cards": [
+      {
+        "id": "g7u2-sort-0-0",
+        "word": "football",
+        "translation": "futbol",
+        "category": 0,
+        "source": {
+          "unit": "g7u2",
+          "title": "Sports",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u2-sort-0-1",
+        "word": "swimming",
+        "translation": "yüzme",
+        "category": 0,
+        "source": {
+          "unit": "g7u2",
+          "title": "Sports",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u2-sort-0-2",
+        "word": "cycling",
+        "translation": "bisiklete binme",
+        "category": 0,
+        "source": {
+          "unit": "g7u2",
+          "title": "Sports",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u2-sort-0-3",
+        "word": "gymnastics",
+        "translation": "jimnastik",
+        "category": 0,
+        "source": {
+          "unit": "g7u2",
+          "title": "Sports",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u2-sort-1-0",
+        "word": "helmet",
+        "translation": "kask",
+        "category": 1,
+        "source": {
+          "unit": "g7u2",
+          "title": "Sports",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u2-sort-1-1",
+        "word": "racket",
+        "translation": "raket",
+        "category": 1,
+        "source": {
+          "unit": "g7u2",
+          "title": "Sports",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u2-sort-1-2",
+        "word": "goggles",
+        "translation": "yüzücü gözlüğü",
+        "category": 1,
+        "source": {
+          "unit": "g7u2",
+          "title": "Sports",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u2-sort-1-3",
+        "word": "knee pad",
+        "translation": "dizlik",
+        "category": 1,
+        "source": {
+          "unit": "g7u2",
+          "title": "Sports",
+          "type": "curated-v09-category-card"
+        }
+      }
+    ]
+  },
+  {
+    "unit": "g7u3",
+    "title": "Biographies",
+    "categories": [
+      {
+        "id": "g7u3-sort-0",
+        "name": "Life events",
+        "translation": "Yaşam olayları"
+      },
+      {
+        "id": "g7u3-sort-1",
+        "name": "Careers",
+        "translation": "Meslekler"
+      }
+    ],
+    "cards": [
+      {
+        "id": "g7u3-sort-0-0",
+        "word": "be born",
+        "translation": "doğmak",
+        "category": 0,
+        "source": {
+          "unit": "g7u3",
+          "title": "Biographies",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u3-sort-0-1",
+        "word": "grow up",
+        "translation": "büyümek",
+        "category": 0,
+        "source": {
+          "unit": "g7u3",
+          "title": "Biographies",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u3-sort-0-2",
+        "word": "graduate",
+        "translation": "mezun olmak",
+        "category": 0,
+        "source": {
+          "unit": "g7u3",
+          "title": "Biographies",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u3-sort-0-3",
+        "word": "retire",
+        "translation": "emekli olmak",
+        "category": 0,
+        "source": {
+          "unit": "g7u3",
+          "title": "Biographies",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u3-sort-1-0",
+        "word": "scientist",
+        "translation": "bilim insanı",
+        "category": 1,
+        "source": {
+          "unit": "g7u3",
+          "title": "Biographies",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u3-sort-1-1",
+        "word": "writer",
+        "translation": "yazar",
+        "category": 1,
+        "source": {
+          "unit": "g7u3",
+          "title": "Biographies",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u3-sort-1-2",
+        "word": "inventor",
+        "translation": "mucit",
+        "category": 1,
+        "source": {
+          "unit": "g7u3",
+          "title": "Biographies",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u3-sort-1-3",
+        "word": "architect",
+        "translation": "mimar",
+        "category": 1,
+        "source": {
+          "unit": "g7u3",
+          "title": "Biographies",
+          "type": "curated-v09-category-card"
+        }
+      }
+    ]
+  },
+  {
+    "unit": "g7u4",
+    "title": "Wild Animals",
+    "categories": [
+      {
+        "id": "g7u4-sort-0",
+        "name": "Wild animals",
+        "translation": "Vahşi hayvanlar"
+      },
+      {
+        "id": "g7u4-sort-1",
+        "name": "Animal features",
+        "translation": "Hayvan özellikleri"
+      }
+    ],
+    "cards": [
+      {
+        "id": "g7u4-sort-0-0",
+        "word": "elephant",
+        "translation": "fil",
+        "category": 0,
+        "source": {
+          "unit": "g7u4",
+          "title": "Wild Animals",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u4-sort-0-1",
+        "word": "eagle",
+        "translation": "kartal",
+        "category": 0,
+        "source": {
+          "unit": "g7u4",
+          "title": "Wild Animals",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u4-sort-0-2",
+        "word": "dolphin",
+        "translation": "yunus",
+        "category": 0,
+        "source": {
+          "unit": "g7u4",
+          "title": "Wild Animals",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u4-sort-0-3",
+        "word": "giraffe",
+        "translation": "zürafa",
+        "category": 0,
+        "source": {
+          "unit": "g7u4",
+          "title": "Wild Animals",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u4-sort-1-0",
+        "word": "claw",
+        "translation": "pençe",
+        "category": 1,
+        "source": {
+          "unit": "g7u4",
+          "title": "Wild Animals",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u4-sort-1-1",
+        "word": "fur",
+        "translation": "kürk",
+        "category": 1,
+        "source": {
+          "unit": "g7u4",
+          "title": "Wild Animals",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u4-sort-1-2",
+        "word": "wing",
+        "translation": "kanat",
+        "category": 1,
+        "source": {
+          "unit": "g7u4",
+          "title": "Wild Animals",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u4-sort-1-3",
+        "word": "shell",
+        "translation": "kabuk",
+        "category": 1,
+        "source": {
+          "unit": "g7u4",
+          "title": "Wild Animals",
+          "type": "curated-v09-category-card"
+        }
+      }
+    ]
+  },
+  {
+    "unit": "g7u5",
+    "title": "Television",
+    "categories": [
+      {
+        "id": "g7u5-sort-0",
+        "name": "TV programmes",
+        "translation": "Televizyon programları"
+      },
+      {
+        "id": "g7u5-sort-1",
+        "name": "Viewing equipment",
+        "translation": "İzleme ekipmanları"
+      }
+    ],
+    "cards": [
+      {
+        "id": "g7u5-sort-0-0",
+        "word": "documentary",
+        "translation": "belgesel",
+        "category": 0,
+        "source": {
+          "unit": "g7u5",
+          "title": "Television",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u5-sort-0-1",
+        "word": "cartoon",
+        "translation": "çizgi film",
+        "category": 0,
+        "source": {
+          "unit": "g7u5",
+          "title": "Television",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u5-sort-0-2",
+        "word": "game show",
+        "translation": "yarışma programı",
+        "category": 0,
+        "source": {
+          "unit": "g7u5",
+          "title": "Television",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u5-sort-0-3",
+        "word": "talk show",
+        "translation": "sohbet programı",
+        "category": 0,
+        "source": {
+          "unit": "g7u5",
+          "title": "Television",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u5-sort-1-0",
+        "word": "remote",
+        "translation": "uzaktan kumanda",
+        "category": 1,
+        "source": {
+          "unit": "g7u5",
+          "title": "Television",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u5-sort-1-1",
+        "word": "screen",
+        "translation": "ekran",
+        "category": 1,
+        "source": {
+          "unit": "g7u5",
+          "title": "Television",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u5-sort-1-2",
+        "word": "aerial",
+        "translation": "anten",
+        "category": 1,
+        "source": {
+          "unit": "g7u5",
+          "title": "Television",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u5-sort-1-3",
+        "word": "projector",
+        "translation": "projektör",
+        "category": 1,
+        "source": {
+          "unit": "g7u5",
+          "title": "Television",
+          "type": "curated-v09-category-card"
+        }
+      }
+    ]
+  },
+  {
+    "unit": "g7u6",
+    "title": "Celebrations",
+    "categories": [
+      {
+        "id": "g7u6-sort-0",
+        "name": "Party decorations",
+        "translation": "Parti süsleri"
+      },
+      {
+        "id": "g7u6-sort-1",
+        "name": "Party food",
+        "translation": "Parti yiyecekleri"
+      }
+    ],
+    "cards": [
+      {
+        "id": "g7u6-sort-0-0",
+        "word": "balloon",
+        "translation": "balon",
+        "category": 0,
+        "source": {
+          "unit": "g7u6",
+          "title": "Celebrations",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u6-sort-0-1",
+        "word": "banner",
+        "translation": "pankart",
+        "category": 0,
+        "source": {
+          "unit": "g7u6",
+          "title": "Celebrations",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u6-sort-0-2",
+        "word": "ribbon",
+        "translation": "kurdele",
+        "category": 0,
+        "source": {
+          "unit": "g7u6",
+          "title": "Celebrations",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u6-sort-0-3",
+        "word": "lantern",
+        "translation": "fener",
+        "category": 0,
+        "source": {
+          "unit": "g7u6",
+          "title": "Celebrations",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u6-sort-1-0",
+        "word": "cake",
+        "translation": "pasta",
+        "category": 1,
+        "source": {
+          "unit": "g7u6",
+          "title": "Celebrations",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u6-sort-1-1",
+        "word": "sandwich",
+        "translation": "sandviç",
+        "category": 1,
+        "source": {
+          "unit": "g7u6",
+          "title": "Celebrations",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u6-sort-1-2",
+        "word": "biscuit",
+        "translation": "bisküvi",
+        "category": 1,
+        "source": {
+          "unit": "g7u6",
+          "title": "Celebrations",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u6-sort-1-3",
+        "word": "popcorn",
+        "translation": "patlamış mısır",
+        "category": 1,
+        "source": {
+          "unit": "g7u6",
+          "title": "Celebrations",
+          "type": "curated-v09-category-card"
+        }
+      }
+    ]
+  },
+  {
+    "unit": "g7u7",
+    "title": "Dreams",
+    "categories": [
+      {
+        "id": "g7u7-sort-0",
+        "name": "Future careers",
+        "translation": "Gelecekteki meslekler"
+      },
+      {
+        "id": "g7u7-sort-1",
+        "name": "Technology",
+        "translation": "Teknoloji"
+      }
+    ],
+    "cards": [
+      {
+        "id": "g7u7-sort-0-0",
+        "word": "designer",
+        "translation": "tasarımcı",
+        "category": 0,
+        "source": {
+          "unit": "g7u7",
+          "title": "Dreams",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u7-sort-0-1",
+        "word": "scientist",
+        "translation": "bilim insanı",
+        "category": 0,
+        "source": {
+          "unit": "g7u7",
+          "title": "Dreams",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u7-sort-0-2",
+        "word": "programmer",
+        "translation": "programcı",
+        "category": 0,
+        "source": {
+          "unit": "g7u7",
+          "title": "Dreams",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u7-sort-0-3",
+        "word": "vet",
+        "translation": "veteriner",
+        "category": 0,
+        "source": {
+          "unit": "g7u7",
+          "title": "Dreams",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u7-sort-1-0",
+        "word": "robot",
+        "translation": "robot",
+        "category": 1,
+        "source": {
+          "unit": "g7u7",
+          "title": "Dreams",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u7-sort-1-1",
+        "word": "drone",
+        "translation": "dron",
+        "category": 1,
+        "source": {
+          "unit": "g7u7",
+          "title": "Dreams",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u7-sort-1-2",
+        "word": "solar panel",
+        "translation": "güneş paneli",
+        "category": 1,
+        "source": {
+          "unit": "g7u7",
+          "title": "Dreams",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u7-sort-1-3",
+        "word": "3D printer",
+        "translation": "üç boyutlu yazıcı",
+        "category": 1,
+        "source": {
+          "unit": "g7u7",
+          "title": "Dreams",
+          "type": "curated-v09-category-card"
+        }
+      }
+    ]
+  },
+  {
+    "unit": "g7u8",
+    "title": "Public Buildings",
+    "categories": [
+      {
+        "id": "g7u8-sort-0",
+        "name": "Public places",
+        "translation": "Kamusal yerler"
+      },
+      {
+        "id": "g7u8-sort-1",
+        "name": "Public services",
+        "translation": "Kamu hizmetleri"
+      }
+    ],
+    "cards": [
+      {
+        "id": "g7u8-sort-0-0",
+        "word": "library",
+        "translation": "kütüphane",
+        "category": 0,
+        "source": {
+          "unit": "g7u8",
+          "title": "Public Buildings",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u8-sort-0-1",
+        "word": "post office",
+        "translation": "postane",
+        "category": 0,
+        "source": {
+          "unit": "g7u8",
+          "title": "Public Buildings",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u8-sort-0-2",
+        "word": "hospital",
+        "translation": "hastane",
+        "category": 0,
+        "source": {
+          "unit": "g7u8",
+          "title": "Public Buildings",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u8-sort-0-3",
+        "word": "town hall",
+        "translation": "belediye binası",
+        "category": 0,
+        "source": {
+          "unit": "g7u8",
+          "title": "Public Buildings",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u8-sort-1-0",
+        "word": "healthcare",
+        "translation": "sağlık hizmeti",
+        "category": 1,
+        "source": {
+          "unit": "g7u8",
+          "title": "Public Buildings",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u8-sort-1-1",
+        "word": "recycling",
+        "translation": "geri dönüşüm",
+        "category": 1,
+        "source": {
+          "unit": "g7u8",
+          "title": "Public Buildings",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u8-sort-1-2",
+        "word": "education",
+        "translation": "eğitim",
+        "category": 1,
+        "source": {
+          "unit": "g7u8",
+          "title": "Public Buildings",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u8-sort-1-3",
+        "word": "water supply",
+        "translation": "su temini",
+        "category": 1,
+        "source": {
+          "unit": "g7u8",
+          "title": "Public Buildings",
+          "type": "curated-v09-category-card"
+        }
+      }
+    ]
+  },
+  {
+    "unit": "g7u9",
+    "title": "Environment",
+    "categories": [
+      {
+        "id": "g7u9-sort-0",
+        "name": "Waste materials",
+        "translation": "Atık malzemeler"
+      },
+      {
+        "id": "g7u9-sort-1",
+        "name": "Green actions",
+        "translation": "Çevreci eylemler"
+      }
+    ],
+    "cards": [
+      {
+        "id": "g7u9-sort-0-0",
+        "word": "plastic",
+        "translation": "plastik",
+        "category": 0,
+        "source": {
+          "unit": "g7u9",
+          "title": "Environment",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u9-sort-0-1",
+        "word": "paper",
+        "translation": "kâğıt",
+        "category": 0,
+        "source": {
+          "unit": "g7u9",
+          "title": "Environment",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u9-sort-0-2",
+        "word": "glass",
+        "translation": "cam",
+        "category": 0,
+        "source": {
+          "unit": "g7u9",
+          "title": "Environment",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u9-sort-0-3",
+        "word": "metal",
+        "translation": "metal",
+        "category": 0,
+        "source": {
+          "unit": "g7u9",
+          "title": "Environment",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u9-sort-1-0",
+        "word": "reduce",
+        "translation": "azaltmak",
+        "category": 1,
+        "source": {
+          "unit": "g7u9",
+          "title": "Environment",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u9-sort-1-1",
+        "word": "reuse",
+        "translation": "yeniden kullanmak",
+        "category": 1,
+        "source": {
+          "unit": "g7u9",
+          "title": "Environment",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u9-sort-1-2",
+        "word": "recycle",
+        "translation": "geri dönüştürmek",
+        "category": 1,
+        "source": {
+          "unit": "g7u9",
+          "title": "Environment",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u9-sort-1-3",
+        "word": "compost",
+        "translation": "kompost yapmak",
+        "category": 1,
+        "source": {
+          "unit": "g7u9",
+          "title": "Environment",
+          "type": "curated-v09-category-card"
+        }
+      }
+    ]
+  },
+  {
+    "unit": "g7u10",
+    "title": "Planets",
+    "categories": [
+      {
+        "id": "g7u10-sort-0",
+        "name": "Solar system",
+        "translation": "Güneş sistemi"
+      },
+      {
+        "id": "g7u10-sort-1",
+        "name": "Space study",
+        "translation": "Uzay araştırmaları"
+      }
+    ],
+    "cards": [
+      {
+        "id": "g7u10-sort-0-0",
+        "word": "Mercury",
+        "translation": "Merkür",
+        "category": 0,
+        "source": {
+          "unit": "g7u10",
+          "title": "Planets",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u10-sort-0-1",
+        "word": "Venus",
+        "translation": "Venüs",
+        "category": 0,
+        "source": {
+          "unit": "g7u10",
+          "title": "Planets",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u10-sort-0-2",
+        "word": "Earth",
+        "translation": "Dünya",
+        "category": 0,
+        "source": {
+          "unit": "g7u10",
+          "title": "Planets",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u10-sort-0-3",
+        "word": "Mars",
+        "translation": "Mars",
+        "category": 0,
+        "source": {
+          "unit": "g7u10",
+          "title": "Planets",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u10-sort-1-0",
+        "word": "telescope",
+        "translation": "teleskop",
+        "category": 1,
+        "source": {
+          "unit": "g7u10",
+          "title": "Planets",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u10-sort-1-1",
+        "word": "astronaut",
+        "translation": "astronot",
+        "category": 1,
+        "source": {
+          "unit": "g7u10",
+          "title": "Planets",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u10-sort-1-2",
+        "word": "mission",
+        "translation": "görev",
+        "category": 1,
+        "source": {
+          "unit": "g7u10",
+          "title": "Planets",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u10-sort-1-3",
+        "word": "research",
+        "translation": "araştırma",
+        "category": 1,
+        "source": {
+          "unit": "g7u10",
+          "title": "Planets",
+          "type": "curated-v09-category-card"
+        }
+      }
+    ]
+  },
+  {
+    "unit": "g7u11",
+    "title": "Food and Cooking",
+    "categories": [
+      {
+        "id": "g7u11-sort-0",
+        "name": "Ingredients",
+        "translation": "Malzemeler"
+      },
+      {
+        "id": "g7u11-sort-1",
+        "name": "Kitchen tools",
+        "translation": "Mutfak araçları"
+      }
+    ],
+    "cards": [
+      {
+        "id": "g7u11-sort-0-0",
+        "word": "carrot",
+        "translation": "havuç",
+        "category": 0,
+        "source": {
+          "unit": "g7u11",
+          "title": "Food and Cooking",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u11-sort-0-1",
+        "word": "potato",
+        "translation": "patates",
+        "category": 0,
+        "source": {
+          "unit": "g7u11",
+          "title": "Food and Cooking",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u11-sort-0-2",
+        "word": "onion",
+        "translation": "soğan",
+        "category": 0,
+        "source": {
+          "unit": "g7u11",
+          "title": "Food and Cooking",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u11-sort-1-0",
+        "word": "grater",
+        "translation": "rende",
+        "category": 1,
+        "source": {
+          "unit": "g7u11",
+          "title": "Food and Cooking",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u11-sort-1-1",
+        "word": "whisk",
+        "translation": "çırpma teli",
+        "category": 1,
+        "source": {
+          "unit": "g7u11",
+          "title": "Food and Cooking",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u11-sort-1-2",
+        "word": "saucepan",
+        "translation": "tencere",
+        "category": 1,
+        "source": {
+          "unit": "g7u11",
+          "title": "Food and Cooking",
+          "type": "curated-v09-category-card"
+        }
+      }
+    ]
+  },
+  {
+    "unit": "g7u12",
+    "title": "Travel and Holidays",
+    "categories": [
+      {
+        "id": "g7u12-sort-0",
+        "name": "Travel documents",
+        "translation": "Seyahat belgeleri"
+      },
+      {
+        "id": "g7u12-sort-1",
+        "name": "Holiday places",
+        "translation": "Tatil yerleri"
+      }
+    ],
+    "cards": [
+      {
+        "id": "g7u12-sort-0-0",
+        "word": "passport",
+        "translation": "pasaport",
+        "category": 0,
+        "source": {
+          "unit": "g7u12",
+          "title": "Travel and Holidays",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u12-sort-0-1",
+        "word": "boarding pass",
+        "translation": "biniş kartı",
+        "category": 0,
+        "source": {
+          "unit": "g7u12",
+          "title": "Travel and Holidays",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u12-sort-0-2",
+        "word": "ticket",
+        "translation": "bilet",
+        "category": 0,
+        "source": {
+          "unit": "g7u12",
+          "title": "Travel and Holidays",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u12-sort-1-0",
+        "word": "campsite",
+        "translation": "kamp alanı",
+        "category": 1,
+        "source": {
+          "unit": "g7u12",
+          "title": "Travel and Holidays",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u12-sort-1-1",
+        "word": "beach",
+        "translation": "plaj",
+        "category": 1,
+        "source": {
+          "unit": "g7u12",
+          "title": "Travel and Holidays",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g7u12-sort-1-2",
+        "word": "waterfall",
+        "translation": "şelale",
+        "category": 1,
+        "source": {
+          "unit": "g7u12",
+          "title": "Travel and Holidays",
+          "type": "curated-v09-category-card"
+        }
+      }
+    ]
+  },
+  {
+    "unit": "g8u1",
+    "title": "Friendship",
+    "categories": [
+      {
+        "id": "g8u1-sort-0",
+        "name": "Friendly traits",
+        "translation": "Arkadaşlık özellikleri"
+      },
+      {
+        "id": "g8u1-sort-1",
+        "name": "Social actions",
+        "translation": "Sosyal eylemler"
+      }
+    ],
+    "cards": [
+      {
+        "id": "g8u1-sort-0-0",
+        "word": "reliable",
+        "translation": "güvenilir",
+        "category": 0,
+        "source": {
+          "unit": "g8u1",
+          "title": "Friendship",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u1-sort-0-1",
+        "word": "honest",
+        "translation": "dürüst",
+        "category": 0,
+        "source": {
+          "unit": "g8u1",
+          "title": "Friendship",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u1-sort-0-2",
+        "word": "kind",
+        "translation": "nazik",
+        "category": 0,
+        "source": {
+          "unit": "g8u1",
+          "title": "Friendship",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u1-sort-0-3",
+        "word": "loyal",
+        "translation": "sadık",
+        "category": 0,
+        "source": {
+          "unit": "g8u1",
+          "title": "Friendship",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u1-sort-1-0",
+        "word": "invite",
+        "translation": "davet etmek",
+        "category": 1,
+        "source": {
+          "unit": "g8u1",
+          "title": "Friendship",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u1-sort-1-1",
+        "word": "join",
+        "translation": "katılmak",
+        "category": 1,
+        "source": {
+          "unit": "g8u1",
+          "title": "Friendship",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u1-sort-1-2",
+        "word": "meet",
+        "translation": "buluşmak",
+        "category": 1,
+        "source": {
+          "unit": "g8u1",
+          "title": "Friendship",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u1-sort-1-3",
+        "word": "accept",
+        "translation": "kabul etmek",
+        "category": 1,
+        "source": {
+          "unit": "g8u1",
+          "title": "Friendship",
+          "type": "curated-v09-category-card"
+        }
+      }
+    ]
+  },
+  {
+    "unit": "g8u2",
+    "title": "Teen Life",
+    "categories": [
+      {
+        "id": "g8u2-sort-0",
+        "name": "Activities you do",
+        "translation": "Yaptığın etkinlikler"
+      },
+      {
+        "id": "g8u2-sort-1",
+        "name": "Media you read or watch",
+        "translation": "Okuduğun veya izlediğin yayınlar"
+      }
+    ],
+    "cards": [
+      {
+        "id": "g8u2-sort-0-0",
+        "word": "reading",
+        "translation": "okuma",
+        "category": 0,
+        "source": {
+          "unit": "g8u2",
+          "title": "Teen Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u2-sort-0-1",
+        "word": "cycling",
+        "translation": "bisiklete binme",
+        "category": 0,
+        "source": {
+          "unit": "g8u2",
+          "title": "Teen Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u2-sort-0-2",
+        "word": "swimming",
+        "translation": "yüzme",
+        "category": 0,
+        "source": {
+          "unit": "g8u2",
+          "title": "Teen Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u2-sort-0-3",
+        "word": "camping",
+        "translation": "kamp yapma",
+        "category": 0,
+        "source": {
+          "unit": "g8u2",
+          "title": "Teen Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u2-sort-1-0",
+        "word": "novel",
+        "translation": "roman",
+        "category": 1,
+        "source": {
+          "unit": "g8u2",
+          "title": "Teen Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u2-sort-1-1",
+        "word": "magazine",
+        "translation": "dergi",
+        "category": 1,
+        "source": {
+          "unit": "g8u2",
+          "title": "Teen Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u2-sort-1-2",
+        "word": "comic",
+        "translation": "çizgi roman",
+        "category": 1,
+        "source": {
+          "unit": "g8u2",
+          "title": "Teen Life",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u2-sort-1-3",
+        "word": "documentary",
+        "translation": "belgesel",
+        "category": 1,
+        "source": {
+          "unit": "g8u2",
+          "title": "Teen Life",
+          "type": "curated-v09-category-card"
+        }
+      }
+    ]
+  },
+  {
+    "unit": "g8u3",
+    "title": "In the Kitchen",
+    "categories": [
+      {
+        "id": "g8u3-sort-0",
+        "name": "Ingredients",
+        "translation": "Malzemeler"
+      },
+      {
+        "id": "g8u3-sort-1",
+        "name": "Kitchen tools",
+        "translation": "Mutfak araçları"
+      }
+    ],
+    "cards": [
+      {
+        "id": "g8u3-sort-0-0",
+        "word": "flour",
+        "translation": "un",
+        "category": 0,
+        "source": {
+          "unit": "g8u3",
+          "title": "In the Kitchen",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u3-sort-0-1",
+        "word": "butter",
+        "translation": "tereyağı",
+        "category": 0,
+        "source": {
+          "unit": "g8u3",
+          "title": "In the Kitchen",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u3-sort-0-2",
+        "word": "oil",
+        "translation": "yağ",
+        "category": 0,
+        "source": {
+          "unit": "g8u3",
+          "title": "In the Kitchen",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u3-sort-0-3",
+        "word": "onion",
+        "translation": "soğan",
+        "category": 0,
+        "source": {
+          "unit": "g8u3",
+          "title": "In the Kitchen",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u3-sort-1-0",
+        "word": "tablespoon",
+        "translation": "yemek kaşığı",
+        "category": 1,
+        "source": {
+          "unit": "g8u3",
+          "title": "In the Kitchen",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u3-sort-1-1",
+        "word": "whisk",
+        "translation": "çırpma teli",
+        "category": 1,
+        "source": {
+          "unit": "g8u3",
+          "title": "In the Kitchen",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u3-sort-1-2",
+        "word": "grater",
+        "translation": "rende",
+        "category": 1,
+        "source": {
+          "unit": "g8u3",
+          "title": "In the Kitchen",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u3-sort-1-3",
+        "word": "oven",
+        "translation": "fırın",
+        "category": 1,
+        "source": {
+          "unit": "g8u3",
+          "title": "In the Kitchen",
+          "type": "curated-v09-category-card"
+        }
+      }
+    ]
+  },
+  {
+    "unit": "g8u4",
+    "title": "On the Phone",
+    "categories": [
+      {
+        "id": "g8u4-sort-0",
+        "name": "Phone actions",
+        "translation": "Telefonla yapılan eylemler"
+      },
+      {
+        "id": "g8u4-sort-1",
+        "name": "Phone people and things",
+        "translation": "Telefonla ilgili kişiler ve nesneler"
+      }
+    ],
+    "cards": [
+      {
+        "id": "g8u4-sort-0-0",
+        "word": "dial",
+        "translation": "numara çevirmek",
+        "category": 0,
+        "source": {
+          "unit": "g8u4",
+          "title": "On the Phone",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u4-sort-0-1",
+        "word": "call back",
+        "translation": "geri aramak",
+        "category": 0,
+        "source": {
+          "unit": "g8u4",
+          "title": "On the Phone",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u4-sort-0-2",
+        "word": "hang up",
+        "translation": "telefonu kapatmak",
+        "category": 0,
+        "source": {
+          "unit": "g8u4",
+          "title": "On the Phone",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u4-sort-0-3",
+        "word": "spell",
+        "translation": "harf harf söylemek",
+        "category": 0,
+        "source": {
+          "unit": "g8u4",
+          "title": "On the Phone",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u4-sort-1-0",
+        "word": "caller",
+        "translation": "arayan kişi",
+        "category": 1,
+        "source": {
+          "unit": "g8u4",
+          "title": "On the Phone",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u4-sort-1-1",
+        "word": "receptionist",
+        "translation": "resepsiyon görevlisi",
+        "category": 1,
+        "source": {
+          "unit": "g8u4",
+          "title": "On the Phone",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u4-sort-1-2",
+        "word": "phone",
+        "translation": "telefon",
+        "category": 1,
+        "source": {
+          "unit": "g8u4",
+          "title": "On the Phone",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u4-sort-1-3",
+        "word": "voicemail",
+        "translation": "sesli mesaj",
+        "category": 1,
+        "source": {
+          "unit": "g8u4",
+          "title": "On the Phone",
+          "type": "curated-v09-category-card"
+        }
+      }
+    ]
+  },
+  {
+    "unit": "g8u5",
+    "title": "The Internet",
+    "categories": [
+      {
+        "id": "g8u5-sort-0",
+        "name": "Web actions",
+        "translation": "İnternette yapılan eylemler"
+      },
+      {
+        "id": "g8u5-sort-1",
+        "name": "Digital equipment",
+        "translation": "Dijital ekipmanlar"
+      }
+    ],
+    "cards": [
+      {
+        "id": "g8u5-sort-0-0",
+        "word": "download",
+        "translation": "indirmek",
+        "category": 0,
+        "source": {
+          "unit": "g8u5",
+          "title": "The Internet",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u5-sort-0-1",
+        "word": "upload",
+        "translation": "yüklemek",
+        "category": 0,
+        "source": {
+          "unit": "g8u5",
+          "title": "The Internet",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u5-sort-0-2",
+        "word": "search",
+        "translation": "aramak",
+        "category": 0,
+        "source": {
+          "unit": "g8u5",
+          "title": "The Internet",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u5-sort-0-3",
+        "word": "log in",
+        "translation": "giriş yapmak",
+        "category": 0,
+        "source": {
+          "unit": "g8u5",
+          "title": "The Internet",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u5-sort-1-0",
+        "word": "keyboard",
+        "translation": "klavye",
+        "category": 1,
+        "source": {
+          "unit": "g8u5",
+          "title": "The Internet",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u5-sort-1-1",
+        "word": "mouse",
+        "translation": "fare",
+        "category": 1,
+        "source": {
+          "unit": "g8u5",
+          "title": "The Internet",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u5-sort-1-2",
+        "word": "screen",
+        "translation": "ekran",
+        "category": 1,
+        "source": {
+          "unit": "g8u5",
+          "title": "The Internet",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u5-sort-1-3",
+        "word": "tablet",
+        "translation": "tablet",
+        "category": 1,
+        "source": {
+          "unit": "g8u5",
+          "title": "The Internet",
+          "type": "curated-v09-category-card"
+        }
+      }
+    ]
+  },
+  {
+    "unit": "g8u6",
+    "title": "Adventures",
+    "categories": [
+      {
+        "id": "g8u6-sort-0",
+        "name": "Adventure sports",
+        "translation": "Macera sporları"
+      },
+      {
+        "id": "g8u6-sort-1",
+        "name": "Safety equipment",
+        "translation": "Güvenlik ekipmanları"
+      }
+    ],
+    "cards": [
+      {
+        "id": "g8u6-sort-0-0",
+        "word": "climbing",
+        "translation": "tırmanış",
+        "category": 0,
+        "source": {
+          "unit": "g8u6",
+          "title": "Adventures",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u6-sort-0-1",
+        "word": "rafting",
+        "translation": "rafting",
+        "category": 0,
+        "source": {
+          "unit": "g8u6",
+          "title": "Adventures",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u6-sort-0-2",
+        "word": "trekking",
+        "translation": "doğa yürüyüşü",
+        "category": 0,
+        "source": {
+          "unit": "g8u6",
+          "title": "Adventures",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u6-sort-0-3",
+        "word": "diving",
+        "translation": "dalış",
+        "category": 0,
+        "source": {
+          "unit": "g8u6",
+          "title": "Adventures",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u6-sort-1-0",
+        "word": "helmet",
+        "translation": "kask",
+        "category": 1,
+        "source": {
+          "unit": "g8u6",
+          "title": "Adventures",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u6-sort-1-1",
+        "word": "rope",
+        "translation": "ip",
+        "category": 1,
+        "source": {
+          "unit": "g8u6",
+          "title": "Adventures",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u6-sort-1-2",
+        "word": "harness",
+        "translation": "emniyet kemeri",
+        "category": 1,
+        "source": {
+          "unit": "g8u6",
+          "title": "Adventures",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u6-sort-1-3",
+        "word": "life jacket",
+        "translation": "can yeleği",
+        "category": 1,
+        "source": {
+          "unit": "g8u6",
+          "title": "Adventures",
+          "type": "curated-v09-category-card"
+        }
+      }
+    ]
+  },
+  {
+    "unit": "g8u7",
+    "title": "Tourism",
+    "categories": [
+      {
+        "id": "g8u7-sort-0",
+        "name": "Tourist places",
+        "translation": "Turistik yerler"
+      },
+      {
+        "id": "g8u7-sort-1",
+        "name": "Travel items",
+        "translation": "Seyahat eşyaları"
+      }
+    ],
+    "cards": [
+      {
+        "id": "g8u7-sort-0-0",
+        "word": "castle",
+        "translation": "kale",
+        "category": 0,
+        "source": {
+          "unit": "g8u7",
+          "title": "Tourism",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u7-sort-0-1",
+        "word": "museum",
+        "translation": "müze",
+        "category": 0,
+        "source": {
+          "unit": "g8u7",
+          "title": "Tourism",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u7-sort-0-2",
+        "word": "palace",
+        "translation": "saray",
+        "category": 0,
+        "source": {
+          "unit": "g8u7",
+          "title": "Tourism",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u7-sort-0-3",
+        "word": "square",
+        "translation": "meydan",
+        "category": 0,
+        "source": {
+          "unit": "g8u7",
+          "title": "Tourism",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u7-sort-1-0",
+        "word": "passport",
+        "translation": "pasaport",
+        "category": 1,
+        "source": {
+          "unit": "g8u7",
+          "title": "Tourism",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u7-sort-1-1",
+        "word": "ticket",
+        "translation": "bilet",
+        "category": 1,
+        "source": {
+          "unit": "g8u7",
+          "title": "Tourism",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u7-sort-1-2",
+        "word": "luggage",
+        "translation": "bagaj",
+        "category": 1,
+        "source": {
+          "unit": "g8u7",
+          "title": "Tourism",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u7-sort-1-3",
+        "word": "suitcase",
+        "translation": "bavul",
+        "category": 1,
+        "source": {
+          "unit": "g8u7",
+          "title": "Tourism",
+          "type": "curated-v09-category-card"
+        }
+      }
+    ]
+  },
+  {
+    "unit": "g8u8",
+    "title": "Chores",
+    "categories": [
+      {
+        "id": "g8u8-sort-0",
+        "name": "Household chores",
+        "translation": "Ev işleri"
+      },
+      {
+        "id": "g8u8-sort-1",
+        "name": "Cleaning tools",
+        "translation": "Temizlik araçları"
+      }
+    ],
+    "cards": [
+      {
+        "id": "g8u8-sort-0-0",
+        "word": "tidy",
+        "translation": "toparlamak",
+        "category": 0,
+        "source": {
+          "unit": "g8u8",
+          "title": "Chores",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u8-sort-0-1",
+        "word": "vacuum",
+        "translation": "elektrikli süpürgeyle temizlemek",
+        "category": 0,
+        "source": {
+          "unit": "g8u8",
+          "title": "Chores",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u8-sort-0-2",
+        "word": "sweep",
+        "translation": "süpürmek",
+        "category": 0,
+        "source": {
+          "unit": "g8u8",
+          "title": "Chores",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u8-sort-0-3",
+        "word": "wash",
+        "translation": "yıkamak",
+        "category": 0,
+        "source": {
+          "unit": "g8u8",
+          "title": "Chores",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u8-sort-1-0",
+        "word": "cloth",
+        "translation": "bez",
+        "category": 1,
+        "source": {
+          "unit": "g8u8",
+          "title": "Chores",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u8-sort-1-1",
+        "word": "broom",
+        "translation": "süpürge",
+        "category": 1,
+        "source": {
+          "unit": "g8u8",
+          "title": "Chores",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u8-sort-1-2",
+        "word": "mop",
+        "translation": "paspas",
+        "category": 1,
+        "source": {
+          "unit": "g8u8",
+          "title": "Chores",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u8-sort-1-3",
+        "word": "bucket",
+        "translation": "kova",
+        "category": 1,
+        "source": {
+          "unit": "g8u8",
+          "title": "Chores",
+          "type": "curated-v09-category-card"
+        }
+      }
+    ]
+  },
+  {
+    "unit": "g8u9",
+    "title": "Science",
+    "categories": [
+      {
+        "id": "g8u9-sort-0",
+        "name": "Lab equipment",
+        "translation": "Laboratuvar araçları"
+      },
+      {
+        "id": "g8u9-sort-1",
+        "name": "Science actions",
+        "translation": "Bilimsel eylemler"
+      }
+    ],
+    "cards": [
+      {
+        "id": "g8u9-sort-0-0",
+        "word": "microscope",
+        "translation": "mikroskop",
+        "category": 0,
+        "source": {
+          "unit": "g8u9",
+          "title": "Science",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u9-sort-0-1",
+        "word": "thermometer",
+        "translation": "termometre",
+        "category": 0,
+        "source": {
+          "unit": "g8u9",
+          "title": "Science",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u9-sort-0-2",
+        "word": "test tube",
+        "translation": "deney tüpü",
+        "category": 0,
+        "source": {
+          "unit": "g8u9",
+          "title": "Science",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u9-sort-0-3",
+        "word": "beaker",
+        "translation": "beher",
+        "category": 0,
+        "source": {
+          "unit": "g8u9",
+          "title": "Science",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u9-sort-1-0",
+        "word": "measure",
+        "translation": "ölçmek",
+        "category": 1,
+        "source": {
+          "unit": "g8u9",
+          "title": "Science",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u9-sort-1-1",
+        "word": "test",
+        "translation": "test etmek",
+        "category": 1,
+        "source": {
+          "unit": "g8u9",
+          "title": "Science",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u9-sort-1-2",
+        "word": "record",
+        "translation": "kaydetmek",
+        "category": 1,
+        "source": {
+          "unit": "g8u9",
+          "title": "Science",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u9-sort-1-3",
+        "word": "compare",
+        "translation": "karşılaştırmak",
+        "category": 1,
+        "source": {
+          "unit": "g8u9",
+          "title": "Science",
+          "type": "curated-v09-category-card"
+        }
+      }
+    ]
+  },
+  {
+    "unit": "g8u10",
+    "title": "Natural Forces",
+    "categories": [
+      {
+        "id": "g8u10-sort-0",
+        "name": "Natural disasters",
+        "translation": "Doğal afetler"
+      },
+      {
+        "id": "g8u10-sort-1",
+        "name": "Emergency items",
+        "translation": "Acil durum eşyaları"
+      }
+    ],
+    "cards": [
+      {
+        "id": "g8u10-sort-0-0",
+        "word": "earthquake",
+        "translation": "deprem",
+        "category": 0,
+        "source": {
+          "unit": "g8u10",
+          "title": "Natural Forces",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u10-sort-0-1",
+        "word": "flood",
+        "translation": "sel",
+        "category": 0,
+        "source": {
+          "unit": "g8u10",
+          "title": "Natural Forces",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u10-sort-0-2",
+        "word": "drought",
+        "translation": "kuraklık",
+        "category": 0,
+        "source": {
+          "unit": "g8u10",
+          "title": "Natural Forces",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u10-sort-0-3",
+        "word": "tornado",
+        "translation": "hortum",
+        "category": 0,
+        "source": {
+          "unit": "g8u10",
+          "title": "Natural Forces",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u10-sort-1-0",
+        "word": "water bottle",
+        "translation": "su şişesi",
+        "category": 1,
+        "source": {
+          "unit": "g8u10",
+          "title": "Natural Forces",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u10-sort-1-1",
+        "word": "torch",
+        "translation": "el feneri",
+        "category": 1,
+        "source": {
+          "unit": "g8u10",
+          "title": "Natural Forces",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u10-sort-1-2",
+        "word": "radio",
+        "translation": "radyo",
+        "category": 1,
+        "source": {
+          "unit": "g8u10",
+          "title": "Natural Forces",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u10-sort-1-3",
+        "word": "battery",
+        "translation": "pil",
+        "category": 1,
+        "source": {
+          "unit": "g8u10",
+          "title": "Natural Forces",
+          "type": "curated-v09-category-card"
+        }
+      }
+    ]
+  },
+  {
+    "unit": "g8u11",
+    "title": "Shopping and Services",
+    "categories": [
+      {
+        "id": "g8u11-sort-0",
+        "name": "Money",
+        "translation": "Para"
+      },
+      {
+        "id": "g8u11-sort-1",
+        "name": "Shopping equipment",
+        "translation": "Alışveriş ekipmanları"
+      }
+    ],
+    "cards": [
+      {
+        "id": "g8u11-sort-0-0",
+        "word": "coin",
+        "translation": "madeni para",
+        "category": 0,
+        "source": {
+          "unit": "g8u11",
+          "title": "Shopping and Services",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u11-sort-0-1",
+        "word": "banknote",
+        "translation": "banknot",
+        "category": 0,
+        "source": {
+          "unit": "g8u11",
+          "title": "Shopping and Services",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u11-sort-0-2",
+        "word": "refund",
+        "translation": "para iadesi",
+        "category": 0,
+        "source": {
+          "unit": "g8u11",
+          "title": "Shopping and Services",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u11-sort-1-0",
+        "word": "trolley",
+        "translation": "alışveriş arabası",
+        "category": 1,
+        "source": {
+          "unit": "g8u11",
+          "title": "Shopping and Services",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u11-sort-1-1",
+        "word": "till",
+        "translation": "yazar kasa",
+        "category": 1,
+        "source": {
+          "unit": "g8u11",
+          "title": "Shopping and Services",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u11-sort-1-2",
+        "word": "shopping bag",
+        "translation": "alışveriş poşeti",
+        "category": 1,
+        "source": {
+          "unit": "g8u11",
+          "title": "Shopping and Services",
+          "type": "curated-v09-category-card"
+        }
+      }
+    ]
+  },
+  {
+    "unit": "g8u12",
+    "title": "Animals and Pet Care",
+    "categories": [
+      {
+        "id": "g8u12-sort-0",
+        "name": "Walking and travel",
+        "translation": "Yürüyüş ve seyahat"
+      },
+      {
+        "id": "g8u12-sort-1",
+        "name": "Feeding and rest",
+        "translation": "Beslenme ve dinlenme"
+      }
+    ],
+    "cards": [
+      {
+        "id": "g8u12-sort-0-0",
+        "word": "lead",
+        "translation": "gezdirme kayışı",
+        "category": 0,
+        "source": {
+          "unit": "g8u12",
+          "title": "Animals and Pet Care",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u12-sort-0-1",
+        "word": "collar",
+        "translation": "tasma",
+        "category": 0,
+        "source": {
+          "unit": "g8u12",
+          "title": "Animals and Pet Care",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u12-sort-0-2",
+        "word": "pet carrier",
+        "translation": "taşıma çantası",
+        "category": 0,
+        "source": {
+          "unit": "g8u12",
+          "title": "Animals and Pet Care",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u12-sort-1-0",
+        "word": "food bowl",
+        "translation": "mama kabı",
+        "category": 1,
+        "source": {
+          "unit": "g8u12",
+          "title": "Animals and Pet Care",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u12-sort-1-1",
+        "word": "water bowl",
+        "translation": "su kabı",
+        "category": 1,
+        "source": {
+          "unit": "g8u12",
+          "title": "Animals and Pet Care",
+          "type": "curated-v09-category-card"
+        }
+      },
+      {
+        "id": "g8u12-sort-1-2",
+        "word": "cat bed",
+        "translation": "kedi yatağı",
+        "category": 1,
+        "source": {
+          "unit": "g8u12",
+          "title": "Animals and Pet Care",
+          "type": "curated-v09-category-card"
+        }
+      }
+    ]
+  }
+]

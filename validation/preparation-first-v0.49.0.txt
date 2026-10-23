@@ -1,0 +1,26 @@
+✔ the three teacher examples use complete subjects, predicates, recipients and time phrases (1.660113ms)
+✔ all 1520 activities preserve exact sentence text and have explicit reviewed constituent boundaries (23.337203ms)
+✔ five and six blocks are required in every food phase; the third block cannot finish the sentence (9.52734ms)
+✔ washing keeps its three plate routine while each plate requires all five grammatical links (6.351475ms)
+✔ extra block portions finish each of the nine dishes with three canonical layers per phase (1952.836947ms)
+✔ five and six block fixtures fit readable separated phone targets in both orientations (29.208755ms)
+✔ four to six blocks retain the original board, recipe note and full-size plate (21.403548ms)
+✔ chef stride moves independent legs while carrying keeps both hands steady and reduced motion settles (916.04101ms)
+✔ station lighting narrows its shadow view and restores the arena overview without new shadow lights (390.858956ms)
+✔ angled preparation grips tools while keeping recipe and sentence ink clear at small portrait and landscape sizes (1648.162777ms)
+✔ completed preparation retains the exact food geometry used for serving all nine dishes (546.024091ms)
+✔ served meal moves from the actual tray to the table, pauses and settles without modifying the game (316.259489ms)
+✔ all 44 units in both difficulties require three distinct reviewed sentences before one preparation handoff (77.292115ms)
+✔ adaptive repetition cannot repeat either earlier sentence in the third phase (0.775369ms)
+✔ third-phase errors, duplicates and pause retain all prior progress and protect service time (2.04961ms)
+✔ Cafe washing requires three sentence plates without food preparation phases (6.342263ms)
+✔ all nine meals retain three then six ingredients through every placement and match the final served meal (1895.946394ms)
+✔ all three phases show distinct guidance with nine components and preserved native targets (1.057274ms)
+ℹ tests 18
+ℹ suites 0
+ℹ pass 18
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4177.208614

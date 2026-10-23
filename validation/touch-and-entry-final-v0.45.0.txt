@@ -1,0 +1,11 @@
+✔ explicit cancellation releases the captured pointer and leaves the next deliberate input usable (382.290328ms)
+✔ all later sentences accept captured swipes without carrying over the previous selection (6374.713508ms)
+✔ static entrypoint includes all wired controls and local assets (12.419148ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 6947.553358

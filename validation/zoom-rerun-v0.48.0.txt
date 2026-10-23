@@ -1,0 +1,34 @@
+✔ recommendations alone can complete 48 services across modes, arenas, events and equipment (872.83558ms)
+✔ the destination badge and contextual primary button perform the same advertised action (10.75678ms)
+✔ tray, crate, plate and trolley advice stays attached to real destinations and order identities (4.215088ms)
+✔ blocked actions explain themselves until the player chooses a valid route (1.901308ms)
+✔ first-use tips learn only successful use, persist safely, and restore without changing progress (3.131133ms)
+✔ guidance and signs hide during English, side decisions, pause and terminal states (1.528205ms)
+✔ one badge stays inside the available playfield across phone sizes and safe side insets (0.587296ms)
+✔ free movement has finite footprint confirmation and does not alter English outcomes (1.126239ms)
+✔ scene signifiers point to the recommendation before any click and retain bounded geometry (491.817567ms)
+✔ zoom limits and pan clamps survive extreme input and return exactly to the default framing (10.3886ms)
+✔ zoom keeps the room centre fixed while pan follows the drag direction (0.486384ms)
+✔ camera controls cannot change story, setup, protected tasks, pause or arrival flights (0.250848ms)
+✔ activity markers are read-only, follow order destinations, and disappear during protected time (6.36479ms)
+✔ off-screen marks aggregate counts, retain urgency and clear as soon as their source is visible (0.568308ms)
+✔ the real opening scene renders with no service, changes arenas, starts and returns to setup (22852.674246ms)
+✔ a first-frame render failure keeps startup blocked and offers a visible retry (3155.361891ms)
+✔ an animation-frame render failure after opening gives a retry instead of silently freezing (3294.613945ms)
+✔ the exact game entry can finish local startup with every network request blocked (93.432436ms)
+✔ blocked file-origin storage does not prevent the setup screen from opening (30.645146ms)
+✔ local artwork is embedded and exactly matches every shipped Fluent image (78.848026ms)
+✔ the extracted index loads classic scripts in startup order without module imports (2.248071ms)
+✔ script load failures and initialization exceptions replace the spinner with a retry (1.824111ms)
+✔ a stalled startup has a finite timeout and does not silently hide its error (0.893092ms)
+✔ the phone frame uses an explicit local HTML path and permits only its own window messages (2.32729ms)
+✔ actual setup blocks later arenas and cached selection until a saved Cafe win exists (34948.39379ms)
+✔ tab return keeps Resume accessible and repeated hide/focus cycles preserve one render loop (8309.422521ms)
+ℹ tests 26
+ℹ suites 0
+ℹ pass 26
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 75243.126001

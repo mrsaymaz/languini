@@ -1,0 +1,1985 @@
+{
+  "cases": [
+    {
+      "label": "nativePauseAndSound",
+      "pass": true,
+      "audioContext": "running"
+    },
+    {
+      "label": "photo-before",
+      "width": 390,
+      "height": 844,
+      "title": "Once, this was everyone’s favourite café.",
+      "copy": "It used to be full of life.",
+      "overflow": false,
+      "beat": "remember",
+      "caption": {
+        "x": 14,
+        "y": 708.3125,
+        "width": 362,
+        "height": 123.6875,
+        "top": 708.3125,
+        "right": 376,
+        "bottom": 832,
+        "left": 14
+      },
+      "buttons": [
+        {
+          "x": 206.375,
+          "y": 12,
+          "width": 74.953125,
+          "height": 44,
+          "top": 12,
+          "right": 281.328125,
+          "bottom": 56,
+          "left": 206.375
+        },
+        {
+          "x": 287.328125,
+          "y": 12,
+          "width": 88.671875,
+          "height": 44,
+          "top": 12,
+          "right": 376,
+          "bottom": 56,
+          "left": 287.328125
+        },
+        {
+          "x": 14,
+          "y": 788,
+          "width": 118.890625,
+          "height": 44,
+          "top": 788,
+          "right": 132.890625,
+          "bottom": 832,
+          "left": 14
+        },
+        {
+          "x": 268,
+          "y": 788,
+          "width": 108,
+          "height": 44,
+          "top": 788,
+          "right": 376,
+          "bottom": 832,
+          "left": 268
+        }
+      ],
+      "gameStarted": false
+    },
+    {
+      "label": "straighten-sign",
+      "width": 390,
+      "height": 844,
+      "title": "Once, this was everyone’s favourite café.",
+      "copy": "Some places are worth another chance.",
+      "overflow": false,
+      "beat": "straighten-sign",
+      "caption": {
+        "x": 14,
+        "y": 689.125,
+        "width": 362,
+        "height": 142.875,
+        "top": 689.125,
+        "right": 376,
+        "bottom": 832,
+        "left": 14
+      },
+      "buttons": [
+        {
+          "x": 206.375,
+          "y": 12,
+          "width": 74.953125,
+          "height": 44,
+          "top": 12,
+          "right": 281.328125,
+          "bottom": 56,
+          "left": 206.375
+        },
+        {
+          "x": 287.328125,
+          "y": 12,
+          "width": 88.671875,
+          "height": 44,
+          "top": 12,
+          "right": 376,
+          "bottom": 56,
+          "left": 287.328125
+        },
+        {
+          "x": 14,
+          "y": 788,
+          "width": 118.890625,
+          "height": 44,
+          "top": 788,
+          "right": 132.890625,
+          "bottom": 832,
+          "left": 14
+        },
+        {
+          "x": 268,
+          "y": 788,
+          "width": 108,
+          "height": 44,
+          "top": 788,
+          "right": 376,
+          "bottom": 832,
+          "left": 268
+        }
+      ],
+      "gameStarted": false
+    },
+    {
+      "label": "look-back",
+      "width": 390,
+      "height": 844,
+      "title": "Once, this was everyone’s favourite café.",
+      "copy": "Its next chapter starts with you.",
+      "overflow": false,
+      "beat": "look-back",
+      "caption": {
+        "x": 14,
+        "y": 708.3125,
+        "width": 362,
+        "height": 123.6875,
+        "top": 708.3125,
+        "right": 376,
+        "bottom": 832,
+        "left": 14
+      },
+      "buttons": [
+        {
+          "x": 206.375,
+          "y": 12,
+          "width": 74.953125,
+          "height": 44,
+          "top": 12,
+          "right": 281.328125,
+          "bottom": 56,
+          "left": 206.375
+        },
+        {
+          "x": 287.328125,
+          "y": 12,
+          "width": 88.671875,
+          "height": 44,
+          "top": 12,
+          "right": 376,
+          "bottom": 56,
+          "left": 287.328125
+        },
+        {
+          "x": 14,
+          "y": 788,
+          "width": 118.890625,
+          "height": 44,
+          "top": 788,
+          "right": 132.890625,
+          "bottom": 832,
+          "left": 14
+        },
+        {
+          "x": 268,
+          "y": 788,
+          "width": 108,
+          "height": 44,
+          "top": 788,
+          "right": 376,
+          "bottom": 832,
+          "left": 268
+        }
+      ],
+      "gameStarted": false
+    },
+    {
+      "label": "handover",
+      "width": 390,
+      "height": 844,
+      "title": "A promise. A fresh start.",
+      "copy": "“Please take good care of Languini.”",
+      "overflow": false,
+      "beat": "owner-promise",
+      "caption": {
+        "x": 14,
+        "y": 665.71875,
+        "width": 362,
+        "height": 166.28125,
+        "top": 665.71875,
+        "right": 376,
+        "bottom": 832,
+        "left": 14
+      },
+      "buttons": [
+        {
+          "x": 206.375,
+          "y": 12,
+          "width": 74.953125,
+          "height": 44,
+          "top": 12,
+          "right": 281.328125,
+          "bottom": 56,
+          "left": 206.375
+        },
+        {
+          "x": 287.328125,
+          "y": 12,
+          "width": 88.671875,
+          "height": 44,
+          "top": 12,
+          "right": 376,
+          "bottom": 56,
+          "left": 287.328125
+        },
+        {
+          "x": 14,
+          "y": 788,
+          "width": 118.890625,
+          "height": 44,
+          "top": 788,
+          "right": 132.890625,
+          "bottom": 832,
+          "left": 14
+        },
+        {
+          "x": 268,
+          "y": 788,
+          "width": 108,
+          "height": 44,
+          "top": 788,
+          "right": 376,
+          "bottom": 832,
+          "left": 268
+        }
+      ],
+      "gameStarted": false
+    },
+    {
+      "label": "promise",
+      "width": 390,
+      "height": 844,
+      "title": "A promise. A fresh start.",
+      "copy": "“I will.”",
+      "overflow": false,
+      "beat": "chef-promise",
+      "caption": {
+        "x": 14,
+        "y": 690.71875,
+        "width": 362,
+        "height": 141.28125,
+        "top": 690.71875,
+        "right": 376,
+        "bottom": 832,
+        "left": 14
+      },
+      "buttons": [
+        {
+          "x": 206.375,
+          "y": 12,
+          "width": 74.953125,
+          "height": 44,
+          "top": 12,
+          "right": 281.328125,
+          "bottom": 56,
+          "left": 206.375
+        },
+        {
+          "x": 287.328125,
+          "y": 12,
+          "width": 88.671875,
+          "height": 44,
+          "top": 12,
+          "right": 376,
+          "bottom": 56,
+          "left": 287.328125
+        },
+        {
+          "x": 14,
+          "y": 788,
+          "width": 118.890625,
+          "height": 44,
+          "top": 788,
+          "right": 132.890625,
+          "bottom": 832,
+          "left": 14
+        },
+        {
+          "x": 268,
+          "y": 788,
+          "width": 108,
+          "height": 44,
+          "top": 788,
+          "right": 376,
+          "bottom": 832,
+          "left": 268
+        }
+      ],
+      "gameStarted": false
+    },
+    {
+      "label": "farewell",
+      "width": 390,
+      "height": 844,
+      "title": "A promise. A fresh start.",
+      "copy": "A promise worth keeping.",
+      "overflow": false,
+      "beat": "farewell",
+      "caption": {
+        "x": 14,
+        "y": 707.3125,
+        "width": 362,
+        "height": 124.6875,
+        "top": 707.3125,
+        "right": 376,
+        "bottom": 832,
+        "left": 14
+      },
+      "buttons": [
+        {
+          "x": 206.375,
+          "y": 12,
+          "width": 74.953125,
+          "height": 44,
+          "top": 12,
+          "right": 281.328125,
+          "bottom": 56,
+          "left": 206.375
+        },
+        {
+          "x": 287.328125,
+          "y": 12,
+          "width": 88.671875,
+          "height": 44,
+          "top": 12,
+          "right": 376,
+          "bottom": 56,
+          "left": 287.328125
+        },
+        {
+          "x": 14,
+          "y": 788,
+          "width": 118.890625,
+          "height": 44,
+          "top": 788,
+          "right": 132.890625,
+          "bottom": 832,
+          "left": 14
+        },
+        {
+          "x": 268,
+          "y": 788,
+          "width": 108,
+          "height": 44,
+          "top": 788,
+          "right": 376,
+          "bottom": 832,
+          "left": 268
+        }
+      ],
+      "gameStarted": false
+    },
+    {
+      "label": "sticky-table",
+      "width": 390,
+      "height": 844,
+      "title": "There is work to do.",
+      "copy": "This café needs some care.",
+      "overflow": false,
+      "beat": "sticky-table",
+      "caption": {
+        "x": 14,
+        "y": 708.3125,
+        "width": 362,
+        "height": 123.6875,
+        "top": 708.3125,
+        "right": 376,
+        "bottom": 832,
+        "left": 14
+      },
+      "buttons": [
+        {
+          "x": 206.375,
+          "y": 12,
+          "width": 74.953125,
+          "height": 44,
+          "top": 12,
+          "right": 281.328125,
+          "bottom": 56,
+          "left": 206.375
+        },
+        {
+          "x": 287.328125,
+          "y": 12,
+          "width": 88.671875,
+          "height": 44,
+          "top": 12,
+          "right": 376,
+          "bottom": 56,
+          "left": 287.328125
+        },
+        {
+          "x": 14,
+          "y": 788,
+          "width": 118.890625,
+          "height": 44,
+          "top": 788,
+          "right": 132.890625,
+          "bottom": 832,
+          "left": 14
+        },
+        {
+          "x": 268,
+          "y": 788,
+          "width": 108,
+          "height": 44,
+          "top": 788,
+          "right": 376,
+          "bottom": 832,
+          "left": 268
+        }
+      ],
+      "gameStarted": false
+    },
+    {
+      "label": "till-try",
+      "width": 390,
+      "height": 844,
+      "title": "There is work to do.",
+      "copy": "The checkout won’t start.",
+      "overflow": false,
+      "beat": "try-till",
+      "caption": {
+        "x": 14,
+        "y": 708.3125,
+        "width": 362,
+        "height": 123.6875,
+        "top": 708.3125,
+        "right": 376,
+        "bottom": 832,
+        "left": 14
+      },
+      "buttons": [
+        {
+          "x": 206.375,
+          "y": 12,
+          "width": 74.953125,
+          "height": 44,
+          "top": 12,
+          "right": 281.328125,
+          "bottom": 56,
+          "left": 206.375
+        },
+        {
+          "x": 287.328125,
+          "y": 12,
+          "width": 88.671875,
+          "height": 44,
+          "top": 12,
+          "right": 376,
+          "bottom": 56,
+          "left": 287.328125
+        },
+        {
+          "x": 14,
+          "y": 788,
+          "width": 118.890625,
+          "height": 44,
+          "top": 788,
+          "right": 132.890625,
+          "bottom": 832,
+          "left": 14
+        },
+        {
+          "x": 268,
+          "y": 788,
+          "width": 108,
+          "height": 44,
+          "top": 788,
+          "right": 376,
+          "bottom": 832,
+          "left": 268
+        }
+      ],
+      "gameStarted": false
+    },
+    {
+      "label": "cooker-try",
+      "width": 390,
+      "height": 844,
+      "title": "There is work to do.",
+      "copy": "Neither will the cooker.",
+      "overflow": false,
+      "beat": "try-cooker",
+      "caption": {
+        "x": 14,
+        "y": 708.3125,
+        "width": 362,
+        "height": 123.6875,
+        "top": 708.3125,
+        "right": 376,
+        "bottom": 832,
+        "left": 14
+      },
+      "buttons": [
+        {
+          "x": 206.375,
+          "y": 12,
+          "width": 74.953125,
+          "height": 44,
+          "top": 12,
+          "right": 281.328125,
+          "bottom": 56,
+          "left": 206.375
+        },
+        {
+          "x": 287.328125,
+          "y": 12,
+          "width": 88.671875,
+          "height": 44,
+          "top": 12,
+          "right": 376,
+          "bottom": 56,
+          "left": 287.328125
+        },
+        {
+          "x": 14,
+          "y": 788,
+          "width": 118.890625,
+          "height": 44,
+          "top": 788,
+          "right": 132.890625,
+          "bottom": 832,
+          "left": 14
+        },
+        {
+          "x": 268,
+          "y": 788,
+          "width": 108,
+          "height": 44,
+          "top": 788,
+          "right": 376,
+          "bottom": 832,
+          "left": 268
+        }
+      ],
+      "gameStarted": false
+    },
+    {
+      "label": "resolve",
+      "width": 390,
+      "height": 844,
+      "title": "There is work to do.",
+      "copy": "2.1 stars. A fresh start.",
+      "overflow": false,
+      "beat": "resolve",
+      "caption": {
+        "x": 14,
+        "y": 708.3125,
+        "width": 362,
+        "height": 123.6875,
+        "top": 708.3125,
+        "right": 376,
+        "bottom": 832,
+        "left": 14
+      },
+      "buttons": [
+        {
+          "x": 206.375,
+          "y": 12,
+          "width": 74.953125,
+          "height": 44,
+          "top": 12,
+          "right": 281.328125,
+          "bottom": 56,
+          "left": 206.375
+        },
+        {
+          "x": 287.328125,
+          "y": 12,
+          "width": 88.671875,
+          "height": 44,
+          "top": 12,
+          "right": 376,
+          "bottom": 56,
+          "left": 287.328125
+        },
+        {
+          "x": 14,
+          "y": 788,
+          "width": 118.890625,
+          "height": 44,
+          "top": 788,
+          "right": 132.890625,
+          "bottom": 832,
+          "left": 14
+        },
+        {
+          "x": 268,
+          "y": 788,
+          "width": 108,
+          "height": 44,
+          "top": 788,
+          "right": 376,
+          "bottom": 832,
+          "left": 268
+        }
+      ],
+      "gameStarted": false
+    },
+    {
+      "label": "sweep",
+      "width": 390,
+      "height": 844,
+      "title": "Care comes first.",
+      "copy": "One small change…",
+      "overflow": false,
+      "beat": "sweep-floor",
+      "caption": {
+        "x": 14,
+        "y": 708.3125,
+        "width": 362,
+        "height": 123.6875,
+        "top": 708.3125,
+        "right": 376,
+        "bottom": 832,
+        "left": 14
+      },
+      "buttons": [
+        {
+          "x": 206.375,
+          "y": 12,
+          "width": 74.953125,
+          "height": 44,
+          "top": 12,
+          "right": 281.328125,
+          "bottom": 56,
+          "left": 206.375
+        },
+        {
+          "x": 287.328125,
+          "y": 12,
+          "width": 88.671875,
+          "height": 44,
+          "top": 12,
+          "right": 376,
+          "bottom": 56,
+          "left": 287.328125
+        },
+        {
+          "x": 14,
+          "y": 788,
+          "width": 118.890625,
+          "height": 44,
+          "top": 788,
+          "right": 132.890625,
+          "bottom": 832,
+          "left": 14
+        },
+        {
+          "x": 268,
+          "y": 788,
+          "width": 108,
+          "height": 44,
+          "top": 788,
+          "right": 376,
+          "bottom": 832,
+          "left": 268
+        }
+      ],
+      "gameStarted": false
+    },
+    {
+      "label": "wipe-table",
+      "width": 390,
+      "height": 844,
+      "title": "Care comes first.",
+      "copy": "…then another.",
+      "overflow": false,
+      "beat": "wipe-table",
+      "caption": {
+        "x": 14,
+        "y": 708.3125,
+        "width": 362,
+        "height": 123.6875,
+        "top": 708.3125,
+        "right": 376,
+        "bottom": 832,
+        "left": 14
+      },
+      "buttons": [
+        {
+          "x": 206.375,
+          "y": 12,
+          "width": 74.953125,
+          "height": 44,
+          "top": 12,
+          "right": 281.328125,
+          "bottom": 56,
+          "left": 206.375
+        },
+        {
+          "x": 287.328125,
+          "y": 12,
+          "width": 88.671875,
+          "height": 44,
+          "top": 12,
+          "right": 376,
+          "bottom": 56,
+          "left": 287.328125
+        },
+        {
+          "x": 14,
+          "y": 788,
+          "width": 118.890625,
+          "height": 44,
+          "top": 788,
+          "right": 132.890625,
+          "bottom": 832,
+          "left": 14
+        },
+        {
+          "x": 268,
+          "y": 788,
+          "width": 108,
+          "height": 44,
+          "top": 788,
+          "right": 376,
+          "bottom": 832,
+          "left": 268
+        }
+      ],
+      "gameStarted": false
+    },
+    {
+      "label": "notice-photo",
+      "width": 390,
+      "height": 844,
+      "title": "Care comes first.",
+      "copy": "Something worth saving.",
+      "overflow": false,
+      "beat": "notice-photo",
+      "caption": {
+        "x": 14,
+        "y": 708.3125,
+        "width": 362,
+        "height": 123.6875,
+        "top": 708.3125,
+        "right": 376,
+        "bottom": 832,
+        "left": 14
+      },
+      "buttons": [
+        {
+          "x": 206.375,
+          "y": 12,
+          "width": 74.953125,
+          "height": 44,
+          "top": 12,
+          "right": 281.328125,
+          "bottom": 56,
+          "left": 206.375
+        },
+        {
+          "x": 287.328125,
+          "y": 12,
+          "width": 88.671875,
+          "height": 44,
+          "top": 12,
+          "right": 376,
+          "bottom": 56,
+          "left": 287.328125
+        },
+        {
+          "x": 14,
+          "y": 788,
+          "width": 118.890625,
+          "height": 44,
+          "top": 788,
+          "right": 132.890625,
+          "bottom": 832,
+          "left": 14
+        },
+        {
+          "x": 268,
+          "y": 788,
+          "width": 108,
+          "height": 44,
+          "top": 788,
+          "right": 376,
+          "bottom": 832,
+          "left": 268
+        }
+      ],
+      "gameStarted": false
+    },
+    {
+      "label": "wipe-photo",
+      "width": 390,
+      "height": 844,
+      "title": "Care comes first.",
+      "copy": "The good days are still here.",
+      "overflow": false,
+      "beat": "wipe-photo",
+      "caption": {
+        "x": 14,
+        "y": 708.3125,
+        "width": 362,
+        "height": 123.6875,
+        "top": 708.3125,
+        "right": 376,
+        "bottom": 832,
+        "left": 14
+      },
+      "buttons": [
+        {
+          "x": 206.375,
+          "y": 12,
+          "width": 74.953125,
+          "height": 44,
+          "top": 12,
+          "right": 281.328125,
+          "bottom": 56,
+          "left": 206.375
+        },
+        {
+          "x": 287.328125,
+          "y": 12,
+          "width": 88.671875,
+          "height": 44,
+          "top": 12,
+          "right": 376,
+          "bottom": 56,
+          "left": 287.328125
+        },
+        {
+          "x": 14,
+          "y": 788,
+          "width": 118.890625,
+          "height": 44,
+          "top": 788,
+          "right": 132.890625,
+          "bottom": 832,
+          "left": 14
+        },
+        {
+          "x": 268,
+          "y": 788,
+          "width": 108,
+          "height": 44,
+          "top": 788,
+          "right": 376,
+          "bottom": 832,
+          "left": 268
+        }
+      ],
+      "gameStarted": false
+    },
+    {
+      "label": "study-photo",
+      "width": 390,
+      "height": 844,
+      "title": "Care comes first.",
+      "copy": "Let’s bring them back.",
+      "overflow": false,
+      "beat": "study-photo",
+      "caption": {
+        "x": 14,
+        "y": 708.3125,
+        "width": 362,
+        "height": 123.6875,
+        "top": 708.3125,
+        "right": 376,
+        "bottom": 832,
+        "left": 14
+      },
+      "buttons": [
+        {
+          "x": 206.375,
+          "y": 12,
+          "width": 74.953125,
+          "height": 44,
+          "top": 12,
+          "right": 281.328125,
+          "bottom": 56,
+          "left": 206.375
+        },
+        {
+          "x": 287.328125,
+          "y": 12,
+          "width": 88.671875,
+          "height": 44,
+          "top": 12,
+          "right": 376,
+          "bottom": 56,
+          "left": 287.328125
+        },
+        {
+          "x": 14,
+          "y": 788,
+          "width": 118.890625,
+          "height": 44,
+          "top": 788,
+          "right": 132.890625,
+          "bottom": 832,
+          "left": 14
+        },
+        {
+          "x": 268,
+          "y": 788,
+          "width": 108,
+          "height": 44,
+          "top": 788,
+          "right": 376,
+          "bottom": 832,
+          "left": 268
+        }
+      ],
+      "gameStarted": false
+    },
+    {
+      "label": "straighten-photo",
+      "width": 390,
+      "height": 844,
+      "title": "Care comes first.",
+      "copy": "A place for new memories.",
+      "overflow": false,
+      "beat": "straighten-photo",
+      "caption": {
+        "x": 14,
+        "y": 708.3125,
+        "width": 362,
+        "height": 123.6875,
+        "top": 708.3125,
+        "right": 376,
+        "bottom": 832,
+        "left": 14
+      },
+      "buttons": [
+        {
+          "x": 206.375,
+          "y": 12,
+          "width": 74.953125,
+          "height": 44,
+          "top": 12,
+          "right": 281.328125,
+          "bottom": 56,
+          "left": 206.375
+        },
+        {
+          "x": 287.328125,
+          "y": 12,
+          "width": 88.671875,
+          "height": 44,
+          "top": 12,
+          "right": 376,
+          "bottom": 56,
+          "left": 287.328125
+        },
+        {
+          "x": 14,
+          "y": 788,
+          "width": 118.890625,
+          "height": 44,
+          "top": 788,
+          "right": 132.890625,
+          "bottom": 832,
+          "left": 14
+        },
+        {
+          "x": 268,
+          "y": 788,
+          "width": 108,
+          "height": 44,
+          "top": 788,
+          "right": 376,
+          "bottom": 832,
+          "left": 268
+        }
+      ],
+      "gameStarted": false
+    },
+    {
+      "label": "repair-cooker",
+      "width": 390,
+      "height": 844,
+      "title": "The kitchen comes back to life.",
+      "copy": "A little patience. A steady hand.",
+      "overflow": false,
+      "beat": "repair-cooker",
+      "caption": {
+        "x": 14,
+        "y": 708.3125,
+        "width": 362,
+        "height": 123.6875,
+        "top": 708.3125,
+        "right": 376,
+        "bottom": 832,
+        "left": 14
+      },
+      "buttons": [
+        {
+          "x": 206.375,
+          "y": 12,
+          "width": 74.953125,
+          "height": 44,
+          "top": 12,
+          "right": 281.328125,
+          "bottom": 56,
+          "left": 206.375
+        },
+        {
+          "x": 287.328125,
+          "y": 12,
+          "width": 88.671875,
+          "height": 44,
+          "top": 12,
+          "right": 376,
+          "bottom": 56,
+          "left": 287.328125
+        },
+        {
+          "x": 14,
+          "y": 788,
+          "width": 118.890625,
+          "height": 44,
+          "top": 788,
+          "right": 132.890625,
+          "bottom": 832,
+          "left": 14
+        },
+        {
+          "x": 268,
+          "y": 788,
+          "width": 108,
+          "height": 44,
+          "top": 788,
+          "right": 376,
+          "bottom": 832,
+          "left": 268
+        }
+      ],
+      "gameStarted": false
+    },
+    {
+      "label": "cooker-working",
+      "width": 390,
+      "height": 844,
+      "title": "The kitchen comes back to life.",
+      "copy": "A little patience. A steady hand.",
+      "overflow": false,
+      "beat": "repair-cooker",
+      "caption": {
+        "x": 14,
+        "y": 708.3125,
+        "width": 362,
+        "height": 123.6875,
+        "top": 708.3125,
+        "right": 376,
+        "bottom": 832,
+        "left": 14
+      },
+      "buttons": [
+        {
+          "x": 206.375,
+          "y": 12,
+          "width": 74.953125,
+          "height": 44,
+          "top": 12,
+          "right": 281.328125,
+          "bottom": 56,
+          "left": 206.375
+        },
+        {
+          "x": 287.328125,
+          "y": 12,
+          "width": 88.671875,
+          "height": 44,
+          "top": 12,
+          "right": 376,
+          "bottom": 56,
+          "left": 287.328125
+        },
+        {
+          "x": 14,
+          "y": 788,
+          "width": 118.890625,
+          "height": 44,
+          "top": 788,
+          "right": 132.890625,
+          "bottom": 832,
+          "left": 14
+        },
+        {
+          "x": 268,
+          "y": 788,
+          "width": 108,
+          "height": 44,
+          "top": 788,
+          "right": 376,
+          "bottom": 832,
+          "left": 268
+        }
+      ],
+      "gameStarted": false
+    },
+    {
+      "label": "repair-till",
+      "width": 390,
+      "height": 844,
+      "title": "The kitchen comes back to life.",
+      "copy": "Ready for a second chance.",
+      "overflow": false,
+      "beat": "repair-till",
+      "caption": {
+        "x": 14,
+        "y": 708.3125,
+        "width": 362,
+        "height": 123.6875,
+        "top": 708.3125,
+        "right": 376,
+        "bottom": 832,
+        "left": 14
+      },
+      "buttons": [
+        {
+          "x": 206.375,
+          "y": 12,
+          "width": 74.953125,
+          "height": 44,
+          "top": 12,
+          "right": 281.328125,
+          "bottom": 56,
+          "left": 206.375
+        },
+        {
+          "x": 287.328125,
+          "y": 12,
+          "width": 88.671875,
+          "height": 44,
+          "top": 12,
+          "right": 376,
+          "bottom": 56,
+          "left": 287.328125
+        },
+        {
+          "x": 14,
+          "y": 788,
+          "width": 118.890625,
+          "height": 44,
+          "top": 788,
+          "right": 132.890625,
+          "bottom": 832,
+          "left": 14
+        },
+        {
+          "x": 268,
+          "y": 788,
+          "width": 108,
+          "height": 44,
+          "top": 788,
+          "right": 376,
+          "bottom": 832,
+          "left": 268
+        }
+      ],
+      "gameStarted": false
+    },
+    {
+      "label": "till-working",
+      "width": 390,
+      "height": 844,
+      "title": "The kitchen comes back to life.",
+      "copy": "Ready for a second chance.",
+      "overflow": false,
+      "beat": "repair-till",
+      "caption": {
+        "x": 14,
+        "y": 708.3125,
+        "width": 362,
+        "height": 123.6875,
+        "top": 708.3125,
+        "right": 376,
+        "bottom": 832,
+        "left": 14
+      },
+      "buttons": [
+        {
+          "x": 206.375,
+          "y": 12,
+          "width": 74.953125,
+          "height": 44,
+          "top": 12,
+          "right": 281.328125,
+          "bottom": 56,
+          "left": 206.375
+        },
+        {
+          "x": 287.328125,
+          "y": 12,
+          "width": 88.671875,
+          "height": 44,
+          "top": 12,
+          "right": 376,
+          "bottom": 56,
+          "left": 287.328125
+        },
+        {
+          "x": 14,
+          "y": 788,
+          "width": 118.890625,
+          "height": 44,
+          "top": 788,
+          "right": 132.890625,
+          "bottom": 832,
+          "left": 14
+        },
+        {
+          "x": 268,
+          "y": 788,
+          "width": 108,
+          "height": 44,
+          "top": 788,
+          "right": 376,
+          "bottom": 832,
+          "left": 268
+        }
+      ],
+      "gameStarted": false
+    },
+    {
+      "label": "turn-open",
+      "width": 390,
+      "height": 844,
+      "title": "A fresh start begins with you.",
+      "copy": "A fresh start begins with you.",
+      "overflow": false,
+      "beat": "turn-open",
+      "caption": {
+        "x": 14,
+        "y": 708.3125,
+        "width": 362,
+        "height": 123.6875,
+        "top": 708.3125,
+        "right": 376,
+        "bottom": 832,
+        "left": 14
+      },
+      "buttons": [
+        {
+          "x": 206.375,
+          "y": 12,
+          "width": 74.953125,
+          "height": 44,
+          "top": 12,
+          "right": 281.328125,
+          "bottom": 56,
+          "left": 206.375
+        },
+        {
+          "x": 287.328125,
+          "y": 12,
+          "width": 88.671875,
+          "height": 44,
+          "top": 12,
+          "right": 376,
+          "bottom": 56,
+          "left": 287.328125
+        },
+        {
+          "x": 14,
+          "y": 788,
+          "width": 118.890625,
+          "height": 44,
+          "top": 788,
+          "right": 132.890625,
+          "bottom": 832,
+          "left": 14
+        },
+        {
+          "x": 259.078125,
+          "y": 788,
+          "width": 116.921875,
+          "height": 44,
+          "top": 788,
+          "right": 376,
+          "bottom": 832,
+          "left": 259.078125
+        }
+      ],
+      "gameStarted": false
+    },
+    {
+      "label": "wait",
+      "width": 390,
+      "height": 844,
+      "title": "A fresh start begins with you.",
+      "copy": "",
+      "overflow": false,
+      "beat": "wait",
+      "caption": {
+        "x": 14,
+        "y": 708.3125,
+        "width": 362,
+        "height": 123.6875,
+        "top": 708.3125,
+        "right": 376,
+        "bottom": 832,
+        "left": 14
+      },
+      "buttons": [
+        {
+          "x": 206.375,
+          "y": 12,
+          "width": 74.953125,
+          "height": 44,
+          "top": 12,
+          "right": 281.328125,
+          "bottom": 56,
+          "left": 206.375
+        },
+        {
+          "x": 287.328125,
+          "y": 12,
+          "width": 88.671875,
+          "height": 44,
+          "top": 12,
+          "right": 376,
+          "bottom": 56,
+          "left": 287.328125
+        },
+        {
+          "x": 14,
+          "y": 788,
+          "width": 118.890625,
+          "height": 44,
+          "top": 788,
+          "right": 132.890625,
+          "bottom": 832,
+          "left": 14
+        },
+        {
+          "x": 259.078125,
+          "y": 788,
+          "width": 116.921875,
+          "height": 44,
+          "top": 788,
+          "right": 376,
+          "bottom": 832,
+          "left": 259.078125
+        }
+      ],
+      "gameStarted": false
+    },
+    {
+      "label": "welcome",
+      "width": 390,
+      "height": 844,
+      "title": "A fresh start begins with you.",
+      "copy": "Your first customer.",
+      "overflow": false,
+      "beat": "welcome",
+      "caption": {
+        "x": 14,
+        "y": 708.3125,
+        "width": 362,
+        "height": 123.6875,
+        "top": 708.3125,
+        "right": 376,
+        "bottom": 832,
+        "left": 14
+      },
+      "buttons": [
+        {
+          "x": 206.375,
+          "y": 12,
+          "width": 74.953125,
+          "height": 44,
+          "top": 12,
+          "right": 281.328125,
+          "bottom": 56,
+          "left": 206.375
+        },
+        {
+          "x": 287.328125,
+          "y": 12,
+          "width": 88.671875,
+          "height": 44,
+          "top": 12,
+          "right": 376,
+          "bottom": 56,
+          "left": 287.328125
+        },
+        {
+          "x": 14,
+          "y": 788,
+          "width": 118.890625,
+          "height": 44,
+          "top": 788,
+          "right": 132.890625,
+          "bottom": 832,
+          "left": 14
+        },
+        {
+          "x": 259.078125,
+          "y": 788,
+          "width": 116.921875,
+          "height": 44,
+          "top": 788,
+          "right": 376,
+          "bottom": 832,
+          "left": 259.078125
+        }
+      ],
+      "gameStarted": false
+    },
+    {
+      "label": "reveal",
+      "width": 390,
+      "height": 844,
+      "title": "A fresh start begins with you.",
+      "copy": "Let’s earn back their trust.",
+      "overflow": false,
+      "beat": "reveal",
+      "caption": {
+        "x": 14,
+        "y": 708.3125,
+        "width": 362,
+        "height": 123.6875,
+        "top": 708.3125,
+        "right": 376,
+        "bottom": 832,
+        "left": 14
+      },
+      "buttons": [
+        {
+          "x": 206.375,
+          "y": 12,
+          "width": 74.953125,
+          "height": 44,
+          "top": 12,
+          "right": 281.328125,
+          "bottom": 56,
+          "left": 206.375
+        },
+        {
+          "x": 287.328125,
+          "y": 12,
+          "width": 88.671875,
+          "height": 44,
+          "top": 12,
+          "right": 376,
+          "bottom": 56,
+          "left": 287.328125
+        },
+        {
+          "x": 14,
+          "y": 788,
+          "width": 118.890625,
+          "height": 44,
+          "top": 788,
+          "right": 132.890625,
+          "bottom": 832,
+          "left": 14
+        },
+        {
+          "x": 259.078125,
+          "y": 788,
+          "width": 116.921875,
+          "height": 44,
+          "top": 788,
+          "right": 376,
+          "bottom": 832,
+          "left": 259.078125
+        }
+      ],
+      "gameStarted": false
+    },
+    {
+      "label": "overview",
+      "width": 390,
+      "height": 844,
+      "title": "A fresh start begins with you.",
+      "copy": "Let’s earn back their trust.",
+      "overflow": false,
+      "beat": "reveal",
+      "caption": {
+        "x": 14,
+        "y": 708.3125,
+        "width": 362,
+        "height": 123.6875,
+        "top": 708.3125,
+        "right": 376,
+        "bottom": 832,
+        "left": 14
+      },
+      "buttons": [
+        {
+          "x": 206.375,
+          "y": 12,
+          "width": 74.953125,
+          "height": 44,
+          "top": 12,
+          "right": 281.328125,
+          "bottom": 56,
+          "left": 206.375
+        },
+        {
+          "x": 287.328125,
+          "y": 12,
+          "width": 88.671875,
+          "height": 44,
+          "top": 12,
+          "right": 376,
+          "bottom": 56,
+          "left": 287.328125
+        },
+        {
+          "x": 14,
+          "y": 788,
+          "width": 118.890625,
+          "height": 44,
+          "top": 788,
+          "right": 132.890625,
+          "bottom": 832,
+          "left": 14
+        },
+        {
+          "x": 259.078125,
+          "y": 788,
+          "width": 116.921875,
+          "height": 44,
+          "top": 788,
+          "right": 376,
+          "bottom": 832,
+          "left": 259.078125
+        }
+      ],
+      "gameStarted": false
+    },
+    {
+      "label": "compact",
+      "width": 320,
+      "height": 480,
+      "title": "A promise. A fresh start.",
+      "copy": "“Please take good care of Languini.”",
+      "overflow": false,
+      "beat": "owner-promise",
+      "caption": {
+        "x": 14,
+        "y": 304.21875,
+        "width": 292,
+        "height": 163.78125,
+        "top": 304.21875,
+        "right": 306,
+        "bottom": 468,
+        "left": 14
+      },
+      "buttons": [
+        {
+          "x": 143.375,
+          "y": 12,
+          "width": 74.953125,
+          "height": 44,
+          "top": 12,
+          "right": 218.328125,
+          "bottom": 56,
+          "left": 143.375
+        },
+        {
+          "x": 223.328125,
+          "y": 12,
+          "width": 84.671875,
+          "height": 44,
+          "top": 12,
+          "right": 308,
+          "bottom": 56,
+          "left": 223.328125
+        },
+        {
+          "x": 14,
+          "y": 424,
+          "width": 110.890625,
+          "height": 44,
+          "top": 424,
+          "right": 124.890625,
+          "bottom": 468,
+          "left": 14
+        },
+        {
+          "x": 198,
+          "y": 424,
+          "width": 108,
+          "height": 44,
+          "top": 424,
+          "right": 306,
+          "bottom": 468,
+          "left": 198
+        }
+      ],
+      "gameStarted": false
+    },
+    {
+      "label": "compact-resolve",
+      "width": 320,
+      "height": 480,
+      "title": "There is work to do.",
+      "copy": "2.1 stars. A fresh start.",
+      "overflow": false,
+      "beat": "resolve",
+      "caption": {
+        "x": 14,
+        "y": 344.3125,
+        "width": 292,
+        "height": 123.6875,
+        "top": 344.3125,
+        "right": 306,
+        "bottom": 468,
+        "left": 14
+      },
+      "buttons": [
+        {
+          "x": 143.375,
+          "y": 12,
+          "width": 74.953125,
+          "height": 44,
+          "top": 12,
+          "right": 218.328125,
+          "bottom": 56,
+          "left": 143.375
+        },
+        {
+          "x": 223.328125,
+          "y": 12,
+          "width": 84.671875,
+          "height": 44,
+          "top": 12,
+          "right": 308,
+          "bottom": 56,
+          "left": 223.328125
+        },
+        {
+          "x": 14,
+          "y": 424,
+          "width": 110.890625,
+          "height": 44,
+          "top": 424,
+          "right": 124.890625,
+          "bottom": 468,
+          "left": 14
+        },
+        {
+          "x": 198,
+          "y": 424,
+          "width": 108,
+          "height": 44,
+          "top": 424,
+          "right": 306,
+          "bottom": 468,
+          "left": 198
+        }
+      ],
+      "gameStarted": false
+    },
+    {
+      "label": "compact-photo",
+      "width": 320,
+      "height": 480,
+      "title": "Care comes first.",
+      "copy": "The good days are still here.",
+      "overflow": false,
+      "beat": "wipe-photo",
+      "caption": {
+        "x": 14,
+        "y": 344.3125,
+        "width": 292,
+        "height": 123.6875,
+        "top": 344.3125,
+        "right": 306,
+        "bottom": 468,
+        "left": 14
+      },
+      "buttons": [
+        {
+          "x": 143.375,
+          "y": 12,
+          "width": 74.953125,
+          "height": 44,
+          "top": 12,
+          "right": 218.328125,
+          "bottom": 56,
+          "left": 143.375
+        },
+        {
+          "x": 223.328125,
+          "y": 12,
+          "width": 84.671875,
+          "height": 44,
+          "top": 12,
+          "right": 308,
+          "bottom": 56,
+          "left": 223.328125
+        },
+        {
+          "x": 14,
+          "y": 424,
+          "width": 110.890625,
+          "height": 44,
+          "top": 424,
+          "right": 124.890625,
+          "bottom": 468,
+          "left": 14
+        },
+        {
+          "x": 198,
+          "y": 424,
+          "width": 108,
+          "height": 44,
+          "top": 424,
+          "right": 306,
+          "bottom": 468,
+          "left": 198
+        }
+      ],
+      "gameStarted": false
+    },
+    {
+      "label": "landscape",
+      "width": 568,
+      "height": 320,
+      "title": "A promise. A fresh start.",
+      "copy": "“Please take good care of Languini.”",
+      "overflow": false,
+      "beat": "owner-promise",
+      "caption": {
+        "x": 14,
+        "y": 192.765625,
+        "width": 540,
+        "height": 119.234375,
+        "top": 192.765625,
+        "right": 554,
+        "bottom": 312,
+        "left": 14
+      },
+      "buttons": [
+        {
+          "x": 384.375,
+          "y": 8,
+          "width": 74.953125,
+          "height": 44,
+          "top": 8,
+          "right": 459.328125,
+          "bottom": 52,
+          "left": 384.375
+        },
+        {
+          "x": 465.328125,
+          "y": 8,
+          "width": 88.671875,
+          "height": 44,
+          "top": 8,
+          "right": 554,
+          "bottom": 52,
+          "left": 465.328125
+        },
+        {
+          "x": 14,
+          "y": 268,
+          "width": 118.890625,
+          "height": 44,
+          "top": 268,
+          "right": 132.890625,
+          "bottom": 312,
+          "left": 14
+        },
+        {
+          "x": 446,
+          "y": 268,
+          "width": 108,
+          "height": 44,
+          "top": 268,
+          "right": 554,
+          "bottom": 312,
+          "left": 446
+        }
+      ],
+      "gameStarted": false
+    },
+    {
+      "label": "landscape-photo",
+      "width": 568,
+      "height": 320,
+      "title": "Care comes first.",
+      "copy": "The good days are still here.",
+      "overflow": false,
+      "beat": "wipe-photo",
+      "caption": {
+        "x": 14,
+        "y": 206.609375,
+        "width": 540,
+        "height": 105.390625,
+        "top": 206.609375,
+        "right": 554,
+        "bottom": 312,
+        "left": 14
+      },
+      "buttons": [
+        {
+          "x": 384.375,
+          "y": 8,
+          "width": 74.953125,
+          "height": 44,
+          "top": 8,
+          "right": 459.328125,
+          "bottom": 52,
+          "left": 384.375
+        },
+        {
+          "x": 465.328125,
+          "y": 8,
+          "width": 88.671875,
+          "height": 44,
+          "top": 8,
+          "right": 554,
+          "bottom": 52,
+          "left": 465.328125
+        },
+        {
+          "x": 14,
+          "y": 268,
+          "width": 118.890625,
+          "height": 44,
+          "top": 268,
+          "right": 132.890625,
+          "bottom": 312,
+          "left": 14
+        },
+        {
+          "x": 446,
+          "y": 268,
+          "width": 108,
+          "height": 44,
+          "top": 268,
+          "right": 554,
+          "bottom": 312,
+          "left": 446
+        }
+      ],
+      "gameStarted": false
+    },
+    {
+      "label": "desktop",
+      "width": 1366,
+      "height": 768,
+      "title": "A fresh start begins with you.",
+      "copy": "Your first customer.",
+      "overflow": false,
+      "beat": "welcome",
+      "caption": {
+        "x": 383,
+        "y": 632.3125,
+        "width": 600,
+        "height": 123.6875,
+        "top": 632.3125,
+        "right": 983,
+        "bottom": 756,
+        "left": 383
+      },
+      "buttons": [
+        {
+          "x": 1182.375,
+          "y": 12,
+          "width": 74.953125,
+          "height": 44,
+          "top": 12,
+          "right": 1257.328125,
+          "bottom": 56,
+          "left": 1182.375
+        },
+        {
+          "x": 1263.328125,
+          "y": 12,
+          "width": 88.671875,
+          "height": 44,
+          "top": 12,
+          "right": 1352,
+          "bottom": 56,
+          "left": 1263.328125
+        },
+        {
+          "x": 383,
+          "y": 712,
+          "width": 118.890625,
+          "height": 44,
+          "top": 712,
+          "right": 501.890625,
+          "bottom": 756,
+          "left": 383
+        },
+        {
+          "x": 866.078125,
+          "y": 712,
+          "width": 116.921875,
+          "height": 44,
+          "top": 712,
+          "right": 983,
+          "bottom": 756,
+          "left": 866.078125
+        }
+      ],
+      "gameStarted": false
+    },
+    {
+      "label": "skipStartsFirstShift",
+      "pass": true
+    },
+    {
+      "label": "replayReturnsSetup",
+      "pass": true
+    },
+    {
+      "label": "naturalFirstShiftAndPermanentPhoto",
+      "pass": true
+    }
+  ],
+  "audio": {
+    "peak": 0.06689417362213135,
+    "rmsTotal": 0.006303592092200718,
+    "seconds": 34,
+    "rms": [
+      0.007353641957538414,
+      0.004607857526318164,
+      0.0039776514757212346,
+      0.00007376341563910413,
+      0.007792071320007052,
+      0.004789266735653966,
+      0.004732477929662318,
+      0.004948286346516245,
+      0.004568139325003131,
+      0.0038578706765351046,
+      0.0020414994230249957,
+      0.0016966248508478567,
+      0.0022389690562522645,
+      0.002142119247507568,
+      0.00034943542505538004,
+      0.009160319980003823,
+      0.008732726716534816,
+      0.007361084637262079,
+      0.007086222657930149,
+      0.007969252749315866,
+      0.009421142904228338,
+      0.008892904536502997,
+      0.007600561680487608,
+      0.007925126394282389,
+      0.0074131088789723245,
+      0.009287848527326968,
+      0.008819726585149117,
+      0.00006347442821561424,
+      0.01011005621089298,
+      0.006578428189393903,
+      0.007514123954122733,
+      0.006272736988747491,
+      0.000014876455669827826
+    ]
+  },
+  "errors": [],
+  "method": "Native Chromium WebGL rendering, portrait/compact/landscape/desktop bounds, controls and first service. Actual Web Audio OfflineAudioContext render; no external audio requests. Software GPU; physical phone audio unmeasured."
+}

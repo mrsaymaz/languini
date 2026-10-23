@@ -1,0 +1,30 @@
+/* This ring shares the existing status row; it never covers assessed ink. */
+#task-card.object-ui .freshness-ring{--fresh-color:#317d56;position:relative;flex:0 0 46px;width:46px;height:46px;border-radius:50%;background:#fff9e9;color:#284d3c;text-shadow:none;box-shadow:0 1px 3px #183b2422;font-family:var(--sans)}
+#task-card.object-ui .freshness-ring[data-grade=good]{--fresh-color:#d4a21d;--fresh-ink:#856416}
+#task-card.object-ui .freshness-ring[data-grade=late]{--fresh-color:#bf4d42}
+#task-card.object-ui .freshness-ring svg{width:46px;height:46px;display:block;transform:rotate(-90deg);fill:none;stroke-width:4}
+#task-card.object-ui .freshness-track{stroke:#dddcc9}
+#task-card.object-ui .freshness-arc{stroke:var(--fresh-color);stroke-linecap:round;stroke-dasharray:100;stroke-dashoffset:0}
+#task-card.object-ui .freshness-ring b{position:absolute;top:10px;left:0;right:0;text-align:center;font:800 13px/15px var(--sans);color:#284d3c}
+#task-card.object-ui .freshness-ring small{position:absolute;top:26px;left:0;right:0;margin:0;text-align:center;font:800 8px/10px var(--sans);color:var(--fresh-ink,var(--fresh-color))}
+.arena-option[disabled]{cursor:not-allowed;filter:saturate(.4);opacity:.72}
+.arena-option[disabled] .arena-lock{color:#6a6959;font-weight:800}
+#task-card.object-ui[data-setting=repair][data-completed=true] #repair-sentence,#task-card.object-ui[data-setting=repair][data-completed=true] #repair-options{display:none!important}
+#task-card.object-ui[data-setting=repair] #printed-receipt{background:repeating-linear-gradient(0deg,#fffbed 0px,#fffbed 3px,#faf4e2 4px);border:1px solid #c5b795;border-top:3px dotted #c5b795;border-bottom:3px dotted #c5b795;border-radius:1px;box-shadow:2px 6px 12px #1e2b2738}
+#task-card.object-ui .receipt-sentence{background:transparent;border-radius:0}
+@media(max-height:500px){#task-card.object-ui .freshness-ring{flex-basis:42px;width:42px;height:42px}#task-card.object-ui .freshness-ring svg{width:42px;height:42px}#task-card.object-ui .freshness-ring b{top:8px;font-size:12px}#task-card.object-ui .freshness-ring small{top:23px;font-size:7px}}
+
+#task-card.object-ui .freshness-ring[data-grade=late] .freshness-track{stroke:#eec6bd}
+#task-card.object-ui .freshness-ring[data-expired=true] .freshness-track{stroke:#bf4d42}
+
+/* Full-size ink moves through the slot; only the exposed length is revealed. */
+#task-card.object-ui #printed-receipt{padding:0;display:block;pointer-events:none}
+#task-card.object-ui .receipt-ink{height:100%;box-sizing:border-box;display:flex;flex-direction:column;gap:var(--receipt-gap,6px);padding:var(--receipt-padding,8px);will-change:translate}
+
+/* Translation is a post-success reveal; the note itself remains stationary. */
+#task-card.object-ui .recipe-build-cue{font:700 var(--note-font,16px)/1.3 var(--sans);color:#776b4d;margin:6px 0}
+#task-card.object-ui .recipe-translation:not([hidden]){color:#345e47;font-weight:800;animation:languini-arrive .18s ease-out both}
+#task-card.object-ui .station-route{max-width:190px;flex-wrap:wrap}
+#task-card.object-ui .station-route i{width:14px;height:14px}
+#task-card.object-ui .station-route svg{width:10px;height:10px}
+#task-card.object-ui .wash-heading>b{font-size:13px}

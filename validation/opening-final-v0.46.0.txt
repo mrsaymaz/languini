@@ -1,0 +1,14 @@
+✔ farewell acting straightens the sign, transfers the keys, softens the owner and lets her leave (649.723281ms)
+✔ featured grime reveals the stationary surface behind the broom and cloth (451.085164ms)
+✔ the photograph is established dirty, revealed under the cloth, studied, and straightened (514.98204ms)
+✔ repair panels close before equipment responds, with sound tied to the same edit sheet (573.495251ms)
+✔ a quiet wait leads to the bell, chef reaction, arriving guest and exact gameplay camera (421.170968ms)
+✔ all acting beats seek deterministically, hide instructional signs and restore the chef and room (921.964208ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3887.074014

@@ -1,0 +1,269 @@
+{
+  "version": "0.46.1",
+  "cases": [
+    {
+      "width": 390,
+      "height": 844,
+      "mood": "breakfast",
+      "cameraStable": true,
+      "diagnostics": {
+        "samples": 0,
+        "frameMeanMs": null,
+        "frameP95Ms": null,
+        "quality": "lite",
+        "pixelRatio": 1,
+        "renderCalls": 111,
+        "renderTriangles": 83762,
+        "textures": 16,
+        "geometries": 109
+      },
+      "menu": true,
+      "canopy": false,
+      "skyVisible": true,
+      "skyWidth": 390,
+      "canvasCount": 1,
+      "bodyOverflow": false,
+      "weather": true,
+      "lightProgress": 1
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "mood": "rain",
+      "cameraStable": true,
+      "diagnostics": {
+        "samples": 0,
+        "frameMeanMs": null,
+        "frameP95Ms": null,
+        "quality": "lite",
+        "pixelRatio": 1,
+        "renderCalls": 112,
+        "renderTriangles": 83432,
+        "textures": 16,
+        "geometries": 113
+      },
+      "menu": true,
+      "canopy": false,
+      "skyVisible": true,
+      "skyWidth": 390,
+      "canvasCount": 1,
+      "bodyOverflow": false,
+      "weather": true,
+      "lightProgress": 1
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "mood": "evening",
+      "cameraStable": true,
+      "diagnostics": {
+        "samples": 0,
+        "frameMeanMs": null,
+        "frameP95Ms": null,
+        "quality": "lite",
+        "pixelRatio": 1,
+        "renderCalls": 111,
+        "renderTriangles": 83836,
+        "textures": 16,
+        "geometries": 115
+      },
+      "menu": true,
+      "canopy": false,
+      "skyVisible": true,
+      "skyWidth": 390,
+      "canvasCount": 1,
+      "bodyOverflow": false,
+      "weather": true,
+      "lightProgress": 1
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "mood": "breakfast",
+      "cameraStable": true,
+      "diagnostics": {
+        "samples": 0,
+        "frameMeanMs": null,
+        "frameP95Ms": null,
+        "quality": "lite",
+        "pixelRatio": 1,
+        "renderCalls": 111,
+        "renderTriangles": 83762,
+        "textures": 16,
+        "geometries": 118
+      },
+      "menu": true,
+      "canopy": false,
+      "skyVisible": true,
+      "skyWidth": 1366,
+      "canvasCount": 1,
+      "bodyOverflow": false,
+      "weather": true,
+      "lightProgress": 1
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "mood": "rain",
+      "cameraStable": true,
+      "diagnostics": {
+        "samples": 0,
+        "frameMeanMs": null,
+        "frameP95Ms": null,
+        "quality": "lite",
+        "pixelRatio": 1,
+        "renderCalls": 112,
+        "renderTriangles": 83432,
+        "textures": 16,
+        "geometries": 122
+      },
+      "menu": true,
+      "canopy": false,
+      "skyVisible": true,
+      "skyWidth": 1366,
+      "canvasCount": 1,
+      "bodyOverflow": false,
+      "weather": true,
+      "lightProgress": 1
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "mood": "evening",
+      "cameraStable": true,
+      "diagnostics": {
+        "samples": 0,
+        "frameMeanMs": null,
+        "frameP95Ms": null,
+        "quality": "lite",
+        "pixelRatio": 1,
+        "renderCalls": 111,
+        "renderTriangles": 83836,
+        "textures": 16,
+        "geometries": 124
+      },
+      "menu": true,
+      "canopy": false,
+      "skyVisible": true,
+      "skyWidth": 1366,
+      "canvasCount": 1,
+      "bodyOverflow": false,
+      "weather": true,
+      "lightProgress": 1
+    },
+    {
+      "width": 320,
+      "height": 480,
+      "mood": "breakfast",
+      "cameraStable": true,
+      "diagnostics": {
+        "samples": 0,
+        "frameMeanMs": null,
+        "frameP95Ms": null,
+        "quality": "lite",
+        "pixelRatio": 1,
+        "renderCalls": 111,
+        "renderTriangles": 83762,
+        "textures": 16,
+        "geometries": 127
+      },
+      "menu": true,
+      "canopy": false,
+      "skyVisible": true,
+      "skyWidth": 320,
+      "canvasCount": 1,
+      "bodyOverflow": false,
+      "weather": true,
+      "lightProgress": 1
+    },
+    {
+      "width": 320,
+      "height": 480,
+      "mood": "rain",
+      "cameraStable": true,
+      "diagnostics": {
+        "samples": 0,
+        "frameMeanMs": null,
+        "frameP95Ms": null,
+        "quality": "lite",
+        "pixelRatio": 1,
+        "renderCalls": 112,
+        "renderTriangles": 83432,
+        "textures": 16,
+        "geometries": 131
+      },
+      "menu": true,
+      "canopy": false,
+      "skyVisible": true,
+      "skyWidth": 320,
+      "canvasCount": 1,
+      "bodyOverflow": false,
+      "weather": true,
+      "lightProgress": 1
+    },
+    {
+      "width": 320,
+      "height": 480,
+      "mood": "evening",
+      "cameraStable": true,
+      "diagnostics": {
+        "samples": 0,
+        "frameMeanMs": null,
+        "frameP95Ms": null,
+        "quality": "lite",
+        "pixelRatio": 1,
+        "renderCalls": 111,
+        "renderTriangles": 83836,
+        "textures": 16,
+        "geometries": 133
+      },
+      "menu": true,
+      "canopy": false,
+      "skyVisible": true,
+      "skyWidth": 320,
+      "canvasCount": 1,
+      "bodyOverflow": false,
+      "weather": true,
+      "lightProgress": 1
+    },
+    {
+      "nativePaceAndLessonReuseScene": true
+    },
+    {
+      "nativeWeatherApplyAndWarmUp": true,
+      "initialLightProgress": 0.16363636363636175
+    },
+    {
+      "gameplay": "breakfast",
+      "skyHidden": true,
+      "count": 0,
+      "weatherVisible": true
+    },
+    {
+      "gameplay": "rain",
+      "skyHidden": true,
+      "count": 240,
+      "weatherVisible": true
+    },
+    {
+      "gameplay": "evening",
+      "skyHidden": true,
+      "count": 0,
+      "weatherVisible": true
+    },
+    {
+      "closeup": "recipe",
+      "weatherHidden": true
+    },
+    {
+      "closeup": "tablet",
+      "weatherHidden": true
+    },
+    {
+      "closeup": "delivery",
+      "weatherHidden": true
+    }
+  ],
+  "errors": [],
+  "method": "Software Chromium, native controls and canvas. Steady setup camera, visible weather at phone/desktop sizes, bounded render calls, no actor/roof preview load, lesson/pace reuse, warm-up, gameplay and neutral closeups. Frame timings are software diagnostics, not physical-device FPS."
+}

@@ -1,0 +1,84 @@
+{
+  "version": "0.47.0",
+  "cases": [
+    {
+      "arena": "courtyard",
+      "difficulty": "relaxed",
+      "amount": 4,
+      "successfulFullModelShift": true
+    },
+    {
+      "arena": "courtyard",
+      "difficulty": "challenge",
+      "amount": 8,
+      "successfulFullModelShift": true
+    },
+    {
+      "arena": "bistro",
+      "difficulty": "relaxed",
+      "amount": 6,
+      "successfulFullModelShift": true
+    },
+    {
+      "arena": "bistro",
+      "difficulty": "challenge",
+      "amount": 12,
+      "successfulFullModelShift": true
+    },
+    {
+      "arena": "banquet",
+      "difficulty": "relaxed",
+      "amount": 8,
+      "successfulFullModelShift": true
+    },
+    {
+      "arena": "banquet",
+      "difficulty": "challenge",
+      "amount": 16,
+      "successfulFullModelShift": true
+    },
+    {
+      "duplicateFinishNoExtraUlti": true
+    },
+    {
+      "nativeGradeAndTeamPoolSwitch": true
+    },
+    {
+      "grade6RavenclawEightSavedAcrossReload": true
+    },
+    {
+      "failureNoUlti": true
+    },
+    {
+      "rollingPerAwardExpiry": true,
+      "older54ExpireNewer4RemainThenExpire": true
+    },
+    {
+      "width": 320,
+      "height": 480,
+      "horizontalOverflow": false,
+      "modalInside": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "horizontalOverflow": false,
+      "modalInside": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "horizontalOverflow": false,
+      "modalInside": true
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "horizontalOverflow": false,
+      "modalInside": true
+    }
+  ],
+  "errors": [],
+  "externalRequests": [],
+  "method": "Actual app with scratch-only acceleration through complete non-kitchen model shifts. Native grade/team choices, balance dialog, reload and result buttons. Controlled Date.now offset for seven-day expiry; software WebGL Chromium, physical phones unmeasured."
+}

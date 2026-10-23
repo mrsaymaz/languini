@@ -1,0 +1,14 @@
+✔ all three restaurants retain the mesh budget and complete shading after material batching (1792.129231ms)
+✔ physical matching tablet mirrors pair state and stays visible behind every customer table (2574.604872ms)
+✔ fully refurbished rooms keep the physical tablet unobstructed at every table and pickup (4339.653028ms)
+✔ tap ingredient then tap dish provides the same preparation without extra confirmation (9648.184518ms)
+✔ all arena renovation stages add visible structure within the room and exterior mesh budgets (6149.833503ms)
+✔ ordinary scenes remain below the existing mesh budget while arena details stay distinct (1581.643596ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 28733.153109

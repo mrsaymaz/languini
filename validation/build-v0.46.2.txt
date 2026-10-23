@@ -1,0 +1,5 @@
+
+> languini@0.46.2 build
+> node scripts/build.mjs
+
+Languini v0.46.2 built · 44 units · eight stations · connected orders · phone preview

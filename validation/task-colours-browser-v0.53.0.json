@@ -1,0 +1,81 @@
+{
+  "version": "0.53.0",
+  "cases": [
+    {
+      "nativeStorageBeforePinkTask": true,
+      "expandedGuideBadgeAndHeader": true
+    },
+    {
+      "nativePinkCollectCookAndRing": true,
+      "twoStoredIdentities": true
+    },
+    {
+      "taskScreen": "conversation",
+      "identity": "table1"
+    },
+    {
+      "taskScreen": "recipe",
+      "identity": "table1"
+    },
+    {
+      "taskScreen": "ticket",
+      "identity": "table1"
+    },
+    {
+      "taskScreen": "repair",
+      "identity": "table1"
+    },
+    {
+      "taskScreen": "pickup",
+      "identity": "pickup"
+    },
+    {
+      "taskScreen": "wash",
+      "identity": "wash"
+    },
+    {
+      "taskScreen": "delivery",
+      "identity": "supplies"
+    },
+    {
+      "touchViewport": [
+        320,
+        480
+      ],
+      "targetsAndIdentities": true
+    },
+    {
+      "touchViewport": [
+        393,
+        680
+      ],
+      "targetsAndIdentities": true
+    },
+    {
+      "touchViewport": [
+        768,
+        1024
+      ],
+      "targetsAndIdentities": true
+    },
+    {
+      "touchViewport": [
+        1024,
+        768
+      ],
+      "targetsAndIdentities": true
+    },
+    {
+      "touchViewport": [
+        844,
+        390
+      ],
+      "targetsAndIdentities": true
+    },
+    {
+      "desktopSharedColoursAndDock": true
+    }
+  ],
+  "errors": [],
+  "method": "Rendered Chromium software WebGL with native simulated touches, phone/tablet/desktop layouts and scratch-only fixture hooks. Physical Safari/FPS unmeasured."
+}

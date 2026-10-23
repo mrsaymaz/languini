@@ -1,0 +1,97 @@
+{
+  "version": "0.45.2",
+  "results": [
+    {
+      "width": 320,
+      "height": 480,
+      "correctSlot": 0,
+      "allChoicesVisibleAndHit": true,
+      "nativeLabelAttached": true
+    },
+    {
+      "width": 320,
+      "height": 480,
+      "correctSlot": 1,
+      "allChoicesVisibleAndHit": true,
+      "nativeLabelAttached": true
+    },
+    {
+      "width": 320,
+      "height": 480,
+      "correctSlot": 2,
+      "allChoicesVisibleAndHit": true,
+      "nativeLabelAttached": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "correctSlot": 0,
+      "allChoicesVisibleAndHit": true,
+      "nativeLabelAttached": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "correctSlot": 1,
+      "allChoicesVisibleAndHit": true,
+      "nativeLabelAttached": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "correctSlot": 2,
+      "allChoicesVisibleAndHit": true,
+      "nativeLabelAttached": true
+    },
+    {
+      "width": 568,
+      "height": 320,
+      "correctSlot": 0,
+      "allChoicesVisibleAndHit": true,
+      "nativeLabelAttached": true
+    },
+    {
+      "width": 568,
+      "height": 320,
+      "correctSlot": 1,
+      "allChoicesVisibleAndHit": true,
+      "nativeLabelAttached": true
+    },
+    {
+      "width": 568,
+      "height": 320,
+      "correctSlot": 2,
+      "allChoicesVisibleAndHit": true,
+      "nativeLabelAttached": true
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "correctSlot": 0,
+      "allChoicesVisibleAndHit": true,
+      "nativeLabelAttached": true
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "correctSlot": 1,
+      "allChoicesVisibleAndHit": true,
+      "nativeLabelAttached": true
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "correctSlot": 2,
+      "allChoicesVisibleAndHit": true,
+      "nativeLabelAttached": true
+    },
+    {
+      "incompleteCachedChoicesRepaired": true,
+      "choicesAndAnswerSurviveRotation": true,
+      "nativeLabelAttached": true
+    }
+  ],
+  "errors": [],
+  "externalRequests": [],
+  "method": "Actual WebGL station, projected native labels, all three correct-answer positions at four viewports, real selection/attachment, invalid cached choices and rotation. Physical phone hardware unmeasured."
+}

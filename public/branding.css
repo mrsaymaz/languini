@@ -1,0 +1,22 @@
+/* Chef's Seal: full title where space permits, emblem for compact navigation. */
+.setup-brand-row{align-items:flex-start}
+.setup-brand-row .restaurant-brand{display:block;width:clamp(220px,24vw,340px);min-width:0;flex-shrink:1;line-height:0;text-shadow:none}
+.restaurant-brand .brand-full{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:contain;background:transparent}
+.restaurant-brand .compact-brand{display:none}
+.mobile-brand-full{display:none}
+@media(max-width:760px){
+ .setup-brand-row{align-items:center}
+ .setup-brand-row .restaurant-brand{width:auto;flex:1;min-width:0;line-height:1}
+ .restaurant-brand .brand-full{display:none}
+ .restaurant-brand .compact-brand{display:flex;align-items:center;gap:6px;width:max-content;max-width:100%;color:#244b3d;font:600 17px/1 var(--serif);letter-spacing:.02em}
+ .restaurant-brand .compact-brand>img{display:block;width:32px;height:32px;flex:none;object-fit:contain;background:transparent}
+ .restaurant-brand .compact-brand>span{display:block;min-width:0}
+ .restaurant-brand .compact-brand small{display:block;font:700 6px/1.2 var(--sans);letter-spacing:.12em;margin-top:4px;text-align:center}
+}
+@media(max-width:760px) and (min-height:521px){
+ .owner-welcome figcaption{display:flex;align-items:center;left:calc(100% + 10px);bottom:0;width:min(48vw,200px);height:100%;background:transparent;border:0;padding:0;box-shadow:none}
+ .owner-welcome figcaption .mobile-brand-full{display:block;width:100%;height:100%;object-fit:contain;background:transparent}
+}
+@media(max-width:350px){.restaurant-brand .compact-brand{font-size:15px;gap:4px}.restaurant-brand .compact-brand>img{width:28px;height:28px}}
+@media(max-width:400px) and (max-height:520px){.restaurant-brand .compact-brand{padding-left:32px}.restaurant-brand .compact-brand>img{display:none}}
+@media(max-height:450px) and (min-aspect-ratio:14/10){.restaurant-brand .compact-brand{padding-left:0}.restaurant-brand .compact-brand>img{display:block}}

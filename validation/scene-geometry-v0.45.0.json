@@ -1,0 +1,48 @@
+{
+  "version": "0.45.0",
+  "method": "CPU scene traversal includes hidden food and instance-expanded triangles. Upgraded includes all projects/equipment, reputation level 5, first choice in every decor slot, Open entrance, Takeaway counter and rain. These are not renderer calls, GPU time, memory or physical device FPS.",
+  "scenes": [
+    {
+      "arena": "courtyard",
+      "upgraded": false,
+      "meshObjects": 236,
+      "triangles": 195552,
+      "rainSegments": 0
+    },
+    {
+      "arena": "courtyard",
+      "upgraded": true,
+      "meshObjects": 275,
+      "triangles": 225226,
+      "rainSegments": 30
+    },
+    {
+      "arena": "bistro",
+      "upgraded": false,
+      "meshObjects": 267,
+      "triangles": 222028,
+      "rainSegments": 0
+    },
+    {
+      "arena": "bistro",
+      "upgraded": true,
+      "meshObjects": 307,
+      "triangles": 253054,
+      "rainSegments": 30
+    },
+    {
+      "arena": "banquet",
+      "upgraded": false,
+      "meshObjects": 297,
+      "triangles": 248752,
+      "rainSegments": 0
+    },
+    {
+      "arena": "banquet",
+      "upgraded": true,
+      "meshObjects": 337,
+      "triangles": 280554,
+      "rainSegments": 30
+    }
+  ]
+}

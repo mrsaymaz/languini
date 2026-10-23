@@ -1,0 +1,488 @@
+{
+  "version": "0.48.0",
+  "cases": [
+    {
+      "desktopWheelButtonsAndDrag": true
+    },
+    {
+      "limitsAndReset": true
+    },
+    {
+      "width": 320,
+      "height": 480,
+      "arena": "courtyard",
+      "state": {
+        "zoom": 1.25,
+        "x": 0.09999999999999998,
+        "y": -0.09999999999999998
+      },
+      "markers": [],
+      "rect": {
+        "left": 32,
+        "right": 288,
+        "top": 200.390625,
+        "bottom": 254.390625
+      },
+      "controls": {
+        "x": 217,
+        "y": 273.703125,
+        "right": 310,
+        "bottom": 317.703125
+      },
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "height": 480,
+      "arena": "bistro",
+      "state": {
+        "zoom": 1.25,
+        "x": 0.09999999999999998,
+        "y": -0.09999999999999998
+      },
+      "markers": [],
+      "rect": {
+        "left": 32,
+        "right": 288,
+        "top": 200.390625,
+        "bottom": 254.390625
+      },
+      "controls": {
+        "x": 217,
+        "y": 273.703125,
+        "right": 310,
+        "bottom": 317.703125
+      },
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "height": 480,
+      "arena": "banquet",
+      "state": {
+        "zoom": 1.25,
+        "x": 0.09999999999999998,
+        "y": -0.09999999999999998
+      },
+      "markers": [],
+      "rect": {
+        "left": 32,
+        "right": 288,
+        "top": 200.390625,
+        "bottom": 254.390625
+      },
+      "controls": {
+        "x": 217,
+        "y": 273.703125,
+        "right": 310,
+        "bottom": 317.703125
+      },
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "arena": "courtyard",
+      "state": {
+        "zoom": 1.25,
+        "x": 0.09999999999999998,
+        "y": -0.09999999999999998
+      },
+      "markers": [],
+      "rect": {
+        "left": 32,
+        "right": 358,
+        "top": 200.390625,
+        "bottom": 607.703125
+      },
+      "controls": {
+        "x": 287,
+        "y": 637.703125,
+        "right": 380,
+        "bottom": 681.703125
+      },
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "arena": "bistro",
+      "state": {
+        "zoom": 1.25,
+        "x": 0.09999999999999998,
+        "y": -0.09999999999999998
+      },
+      "markers": [],
+      "rect": {
+        "left": 32,
+        "right": 358,
+        "top": 200.390625,
+        "bottom": 607.703125
+      },
+      "controls": {
+        "x": 287,
+        "y": 637.703125,
+        "right": 380,
+        "bottom": 681.703125
+      },
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "arena": "banquet",
+      "state": {
+        "zoom": 1.25,
+        "x": 0.09999999999999998,
+        "y": -0.09999999999999998
+      },
+      "markers": [],
+      "rect": {
+        "left": 32,
+        "right": 358,
+        "top": 200.390625,
+        "bottom": 607.703125
+      },
+      "controls": {
+        "x": 287,
+        "y": 637.703125,
+        "right": 380,
+        "bottom": 681.703125
+      },
+      "overflow": false
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "arena": "courtyard",
+      "state": {
+        "zoom": 1.25,
+        "x": 0.09999999999999998,
+        "y": -0.09999999999999998
+      },
+      "markers": [],
+      "rect": {
+        "left": 32,
+        "right": 812,
+        "top": 162.140625,
+        "bottom": 224
+      },
+      "controls": {
+        "x": 741,
+        "y": 254,
+        "right": 834,
+        "bottom": 298
+      },
+      "overflow": false
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "arena": "bistro",
+      "state": {
+        "zoom": 1.25,
+        "x": 0.09999999999999998,
+        "y": -0.09999999999999998
+      },
+      "markers": [],
+      "rect": {
+        "left": 32,
+        "right": 812,
+        "top": 158.546875,
+        "bottom": 224
+      },
+      "controls": {
+        "x": 741,
+        "y": 254,
+        "right": 834,
+        "bottom": 298
+      },
+      "overflow": false
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "arena": "banquet",
+      "state": {
+        "zoom": 1.25,
+        "x": 0.09999999999999998,
+        "y": -0.09999999999999998
+      },
+      "markers": [],
+      "rect": {
+        "left": 32,
+        "right": 812,
+        "top": 158.546875,
+        "bottom": 224
+      },
+      "controls": {
+        "x": 741,
+        "y": 254,
+        "right": 834,
+        "bottom": 298
+      },
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "height": 600,
+      "arena": "courtyard",
+      "state": {
+        "zoom": 1.25,
+        "x": 0.09999999999999998,
+        "y": -0.09999999999999998
+      },
+      "markers": [
+        {
+          "kind": "guest",
+          "count": 1,
+          "urgent": true,
+          "x": 426.8298912604537,
+          "y": 205.390625
+        },
+        {
+          "kind": "pickup",
+          "count": 1,
+          "urgent": false,
+          "x": 482.8298912604537,
+          "y": 205.390625
+        },
+        {
+          "kind": "supplies",
+          "count": 1,
+          "urgent": false,
+          "x": 538.8298912604537,
+          "y": 205.390625
+        }
+      ],
+      "rect": {
+        "left": 32,
+        "right": 992,
+        "top": 205.390625,
+        "bottom": 363.703125
+      },
+      "controls": {
+        "x": 825,
+        "y": 393.703125,
+        "right": 1014,
+        "bottom": 445.703125
+      },
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "height": 600,
+      "arena": "bistro",
+      "state": {
+        "zoom": 1.25,
+        "x": 0.09999999999999998,
+        "y": -0.09999999999999998
+      },
+      "markers": [
+        {
+          "kind": "guest",
+          "count": 1,
+          "urgent": true,
+          "x": 435.7081431787112,
+          "y": 201.796875
+        },
+        {
+          "kind": "meal",
+          "count": 1,
+          "urgent": false,
+          "x": 563.462033876506,
+          "y": 201.796875
+        },
+        {
+          "kind": "pickup",
+          "count": 1,
+          "urgent": false,
+          "x": 491.7081431787112,
+          "y": 201.796875
+        },
+        {
+          "kind": "supplies",
+          "count": 1,
+          "urgent": false,
+          "x": 659.7081431787112,
+          "y": 201.796875
+        }
+      ],
+      "rect": {
+        "left": 32,
+        "right": 992,
+        "top": 201.796875,
+        "bottom": 363.703125
+      },
+      "controls": {
+        "x": 825,
+        "y": 393.703125,
+        "right": 1014,
+        "bottom": 445.703125
+      },
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "height": 600,
+      "arena": "banquet",
+      "state": {
+        "zoom": 1.25,
+        "x": 0.09999999999999998,
+        "y": -0.09999999999999998
+      },
+      "markers": [
+        {
+          "kind": "guest",
+          "count": 1,
+          "urgent": true,
+          "x": 444.7870744642706,
+          "y": 201.796875
+        },
+        {
+          "kind": "meal",
+          "count": 1,
+          "urgent": false,
+          "x": 555.2353806081364,
+          "y": 201.796875
+        },
+        {
+          "kind": "pickup",
+          "count": 1,
+          "urgent": false,
+          "x": 500.7870744642706,
+          "y": 201.796875
+        },
+        {
+          "kind": "supplies",
+          "count": 1,
+          "urgent": false,
+          "x": 612.7870744642705,
+          "y": 201.796875
+        }
+      ],
+      "rect": {
+        "left": 32,
+        "right": 992,
+        "top": 201.796875,
+        "bottom": 363.703125
+      },
+      "controls": {
+        "x": 825,
+        "y": 393.703125,
+        "right": 1014,
+        "bottom": 445.703125
+      },
+      "overflow": false
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "arena": "courtyard",
+      "state": {
+        "zoom": 1.25,
+        "x": 0.09999999999999998,
+        "y": -0.09999999999999998
+      },
+      "markers": [],
+      "rect": {
+        "left": 32,
+        "right": 1888,
+        "top": 205.390625,
+        "bottom": 843.703125
+      },
+      "controls": {
+        "x": 1721,
+        "y": 873.703125,
+        "right": 1910,
+        "bottom": 925.703125
+      },
+      "overflow": false
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "arena": "bistro",
+      "state": {
+        "zoom": 1.25,
+        "x": 0.09999999999999998,
+        "y": -0.09999999999999998
+      },
+      "markers": [],
+      "rect": {
+        "left": 32,
+        "right": 1888,
+        "top": 201.796875,
+        "bottom": 843.703125
+      },
+      "controls": {
+        "x": 1721,
+        "y": 873.703125,
+        "right": 1910,
+        "bottom": 925.703125
+      },
+      "overflow": false
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "arena": "banquet",
+      "state": {
+        "zoom": 1.25,
+        "x": 0.09999999999999998,
+        "y": -0.09999999999999998
+      },
+      "markers": [
+        {
+          "kind": "guest",
+          "count": 1,
+          "urgent": true,
+          "x": 697.9667415031136,
+          "y": 201.796875
+        },
+        {
+          "kind": "pickup",
+          "count": 1,
+          "urgent": false,
+          "x": 753.9667415031136,
+          "y": 201.796875
+        },
+        {
+          "kind": "supplies",
+          "count": 1,
+          "urgent": false,
+          "x": 809.9667415031136,
+          "y": 201.796875
+        }
+      ],
+      "rect": {
+        "left": 32,
+        "right": 1888,
+        "top": 201.796875,
+        "bottom": 843.703125
+      },
+      "controls": {
+        "x": 1721,
+        "y": 873.703125,
+        "right": 1910,
+        "bottom": 925.703125
+      },
+      "overflow": false
+    },
+    {
+      "markerOnlyMovesView": true,
+      "realOrderLocationRevealed": true
+    },
+    {
+      "englishProtectedAndOverviewRestored": true
+    },
+    {
+      "pauseAndSetupProtected": true
+    },
+    {
+      "phoneRealTouchPinchBothLimitsNoWalkAndReset": true
+    }
+  ],
+  "errors": [],
+  "method": "Actual source, scratch-only fixture/getters; native mouse, buttons and CDP touch events. Software WebGL, not physical-device FPS."
+}

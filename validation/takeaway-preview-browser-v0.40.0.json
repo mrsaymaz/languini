@@ -1,0 +1,116 @@
+{
+  "cases": [
+    {
+      "width": 390,
+      "height": 844,
+      "setting": "recipe",
+      "arena": "banquet",
+      "overflow": false,
+      "fits": [
+        {
+          "fit": "true",
+          "rect": {
+            "x": 25.788000106811523,
+            "y": 98.06800079345703,
+            "width": 208.890625,
+            "height": 191.5,
+            "top": 98.06800079345703,
+            "right": 234.67862510681152,
+            "bottom": 289.56800079345703,
+            "left": 25.788000106811523
+          }
+        },
+        {
+          "fit": "true",
+          "rect": {
+            "x": 27.788000106811523,
+            "y": 617.9030151367188,
+            "width": 103.59374237060547,
+            "height": 117.59375,
+            "top": 617.9030151367188,
+            "right": 131.381742477417,
+            "bottom": 735.4967651367188,
+            "left": 27.788000106811523
+          }
+        },
+        {
+          "fit": "true",
+          "rect": {
+            "x": 143.19200134277344,
+            "y": 617.9030151367188,
+            "width": 103.59375,
+            "height": 117.59375,
+            "top": 617.9030151367188,
+            "right": 246.78575134277344,
+            "bottom": 735.4967651367188,
+            "left": 143.19200134277344
+          }
+        },
+        {
+          "fit": "true",
+          "rect": {
+            "x": 258.59600830078125,
+            "y": 617.9030151367188,
+            "width": 103.59375,
+            "height": 117.59375,
+            "top": 617.9030151367188,
+            "right": 362.18975830078125,
+            "bottom": 735.4967651367188,
+            "left": 258.59600830078125
+          }
+        },
+        {
+          "fit": "true",
+          "rect": {
+            "x": 27.788000106811523,
+            "y": 404.90301513671875,
+            "width": 103.59374237060547,
+            "height": 117.59375,
+            "top": 404.90301513671875,
+            "right": 131.381742477417,
+            "bottom": 522.4967651367188,
+            "left": 27.788000106811523
+          }
+        },
+        {
+          "fit": "true",
+          "rect": {
+            "x": 143.19200134277344,
+            "y": 404.90301513671875,
+            "width": 103.59375,
+            "height": 117.59375,
+            "top": 404.90301513671875,
+            "right": 246.78575134277344,
+            "bottom": 522.4967651367188,
+            "left": 143.19200134277344
+          }
+        },
+        {
+          "fit": "true",
+          "rect": {
+            "x": 258.59600830078125,
+            "y": 404.90301513671875,
+            "width": 103.59375,
+            "height": 117.59375,
+            "top": 404.90301513671875,
+            "right": 362.18975830078125,
+            "bottom": 522.4967651367188,
+            "left": 258.59600830078125
+          }
+        }
+      ],
+      "cards": [],
+      "prepY": 2.936
+    },
+    {
+      "raisedPreparationNativeSixBlocks": true
+    },
+    {
+      "actualPreviewControl": true,
+      "relaxed": true,
+      "challenge": true
+    }
+  ],
+  "errors": [],
+  "method": "Software-WebGL Chromium; temporary scratch-only fixture hooks. Native four/eight matching taps, wrong-pair recovery, rotation persistence, longest number names, raised six-block preparation with all kitchen upgrades. Physical-phone GPU performance not measured."
+}

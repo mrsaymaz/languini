@@ -1,0 +1,23 @@
+✖ actual setup blocks later arenas and cached selection until a saved Cafe win exists (45752.809268ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 0
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 46773.30551
+
+✖ failing tests:
+
+test at tests/startup.test.mjs:123:1
+✖ actual setup blocks later arenas and cached selection until a saved Cafe win exists (45752.809268ms)
+  Error: Script execution timed out after 10000ms
+      at Script.runInContext (node:vm:149:12)
+      at Object.runInContext (node:vm:301:6)
+      at TestContext.<anonymous> (file:///workspace/scratch/ca8a670dbe2e/languini-work/source/tests/startup.test.mjs:126:57)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    code: 'ERR_SCRIPT_EXECUTION_TIMEOUT'
+  }

@@ -1,0 +1,310 @@
+[
+  {
+    "unit": "g5u1",
+    "topic": "School library",
+    "cue": "book",
+    "first": "g5u1-upload-g5u1q2",
+    "second": "g5u1-upload-g5u1q5"
+  },
+  {
+    "unit": "g5u2",
+    "topic": "Lesson times",
+    "cue": "clock",
+    "first": "g5u2-ext26-g5u2-q8",
+    "second": "g5u2-ext26-g5u2-q4"
+  },
+  {
+    "unit": "g5u3",
+    "topic": "Getting dressed",
+    "cue": "book",
+    "first": "g5u3-upload-g5u3q2",
+    "second": "g5u3-upload-g5u3q3"
+  },
+  {
+    "unit": "g5u4",
+    "topic": "Family connections",
+    "cue": "book",
+    "first": "g5u4-ext26-g5u4-q1",
+    "second": "g5u4-upload-g5u4q3"
+  },
+  {
+    "unit": "g5u5",
+    "topic": "Around home",
+    "cue": "map",
+    "first": "g5u5-upload-g5u5q8",
+    "second": "g5u5-ext26-g5u5-q9"
+  },
+  {
+    "unit": "g5u6",
+    "topic": "At a café",
+    "cue": "menu",
+    "first": "g5u6-ext26-g5u6-q2",
+    "second": "g5u6-upload-g5u6q3"
+  },
+  {
+    "unit": "g5u7",
+    "topic": "Animal homes",
+    "cue": "leaf",
+    "first": "g5u7-ext26-g5u7-q2",
+    "second": "g5u7-upload-g5u7q8"
+  },
+  {
+    "unit": "g5u8",
+    "topic": "Packing for travel",
+    "cue": "map",
+    "first": "g5u8-upload-g5u8q3",
+    "second": "g5u8-upload-g5u8q4"
+  },
+  {
+    "unit": "g5u9",
+    "topic": "People making food",
+    "cue": "menu",
+    "first": "g5u9-bistro-chat-3",
+    "second": "g5u9d5-guest"
+  },
+  {
+    "unit": "g5u10",
+    "topic": "Ball games",
+    "cue": "ball",
+    "first": "g5u10-upload-g5u10q5",
+    "second": "g5u10-ext26-g5u10-q9"
+  },
+  {
+    "unit": "g6u1",
+    "topic": "Helping at school",
+    "cue": "book",
+    "first": "g6u1-ext26-g6u1-q7",
+    "second": "g6u1-upload-g6u1q8"
+  },
+  {
+    "unit": "g6u2",
+    "topic": "Learning words",
+    "cue": "book",
+    "first": "g6u2-ext26-g6u2-q6",
+    "second": "g6u2-upload-g6u2q8"
+  },
+  {
+    "unit": "g6u3",
+    "topic": "Positive qualities",
+    "cue": "book",
+    "first": "g6u3-ext26-g6u3-q5",
+    "second": "g6u3-upload-g6u3q8"
+  },
+  {
+    "unit": "g6u4",
+    "topic": "Cars and home",
+    "cue": "tool",
+    "first": "g6u4-ext26-g6u4-q2",
+    "second": "g6u4-upload-g6u4q6"
+  },
+  {
+    "unit": "g6u5",
+    "topic": "Paying for a journey",
+    "cue": "map",
+    "first": "g6u5-ext26-g6u5-q6",
+    "second": "g6u5-upload-g6u5q8"
+  },
+  {
+    "unit": "g6u6",
+    "topic": "Welcoming visitors",
+    "cue": "menu",
+    "first": "g6u6-ext26-g6u6-q3",
+    "second": "g6u6-ext26-g6u6-q4"
+  },
+  {
+    "unit": "g6u7",
+    "topic": "Using materials again",
+    "cue": "leaf",
+    "first": "g6u7-ext26-g6u7-q3",
+    "second": "g6u7-upload-g6u7q4"
+  },
+  {
+    "unit": "g6u8",
+    "topic": "Watching the sky",
+    "cue": "map",
+    "first": "g6u8-ext26-g6u8-q1",
+    "second": "g6u8-upload-g6u8q9"
+  },
+  {
+    "unit": "g6u9",
+    "topic": "Prices and payment",
+    "cue": "receipt",
+    "first": "g6u9-upload-g6u9q1",
+    "second": "g6u9-ext26-g6u9-q5"
+  },
+  {
+    "unit": "g6u10",
+    "topic": "Healthy teeth",
+    "cue": "book",
+    "first": "g6u10-ext26-g6u10-q1",
+    "second": "g6u10-upload-g6u10q6"
+  },
+  {
+    "unit": "g7u1",
+    "topic": "Describing a person",
+    "cue": "book",
+    "first": "g7u1-upload-g7u1q5",
+    "second": "g7u1-ext26-g7u1-q4"
+  },
+  {
+    "unit": "g7u2",
+    "topic": "Preparing for sport",
+    "cue": "ball",
+    "first": "g7u2-upload-g7u2q5",
+    "second": "g7u2-upload-g7u2q1"
+  },
+  {
+    "unit": "g7u3",
+    "topic": "A life in order",
+    "cue": "book",
+    "first": "g7u3-upload-g7u3q2",
+    "second": "g7u3-ext26-g7u3-q7"
+  },
+  {
+    "unit": "g7u4",
+    "topic": "Protecting animal homes",
+    "cue": "leaf",
+    "first": "g7u4-upload-g7u4q2",
+    "second": "g7u4-upload-g7u4q9"
+  },
+  {
+    "unit": "g7u5",
+    "topic": "Watching a series",
+    "cue": "phone",
+    "first": "g7u5-ext26-g7u5-q5",
+    "second": "g7u5-ext26-g7u5-q6"
+  },
+  {
+    "unit": "g7u6",
+    "topic": "Inviting a friend",
+    "cue": "receipt",
+    "first": "g7u6-upload-g7u6q1",
+    "second": "g7u6-upload-g7u6q7"
+  },
+  {
+    "unit": "g7u7",
+    "topic": "Aiming for a goal",
+    "cue": "book",
+    "first": "g7u7-upload-g7u7q1",
+    "second": "g7u7-upload-g7u7q6"
+  },
+  {
+    "unit": "g7u8",
+    "topic": "Visiting a library",
+    "cue": "book",
+    "first": "g7u8-upload-g7u8q2",
+    "second": "g7u8-ext26-g7u8-q8"
+  },
+  {
+    "unit": "g7u9",
+    "topic": "Replacing single-use bags",
+    "cue": "leaf",
+    "first": "g7u9-ext26-g7u9-q3",
+    "second": "g7u9-upload-g7u9q5"
+  },
+  {
+    "unit": "g7u10",
+    "topic": "Our solar system",
+    "cue": "map",
+    "first": "g7u10-ext26-g7u10-q2",
+    "second": "g7u10-ext26-g7u10-q1"
+  },
+  {
+    "unit": "g7u11",
+    "topic": "Preparing a meal",
+    "cue": "menu",
+    "first": "g7u11-bistro-chat-2",
+    "second": "g7u11-bistro-chat-1"
+  },
+  {
+    "unit": "g7u12",
+    "topic": "Packing luggage",
+    "cue": "map",
+    "first": "g7u12-bistro-chat-2",
+    "second": "g7u12d4-guest"
+  },
+  {
+    "unit": "g8u1",
+    "topic": "Declining an invitation",
+    "cue": "receipt",
+    "first": "g8u1-upload-g8u1q4",
+    "second": "g8u1-upload-g8u1q6"
+  },
+  {
+    "unit": "g8u2",
+    "topic": "How often",
+    "cue": "clock",
+    "first": "g8u2-ext26-g8u2-q3",
+    "second": "g8u2-ext26-g8u2-q9"
+  },
+  {
+    "unit": "g8u3",
+    "topic": "Following a recipe",
+    "cue": "menu",
+    "first": "g8u3-upload-g8u3q5",
+    "second": "g8u3-ext26-g8u3-q9"
+  },
+  {
+    "unit": "g8u4",
+    "topic": "Hearing a caller",
+    "cue": "phone",
+    "first": "g8u4-upload-g8u4q5",
+    "second": "g8u4-ext26-g8u4-q6"
+  },
+  {
+    "unit": "g8u5",
+    "topic": "Sending a file",
+    "cue": "phone",
+    "first": "g8u5-ext26-g8u5-q3",
+    "second": "g8u5-upload-g8u5q9"
+  },
+  {
+    "unit": "g8u6",
+    "topic": "On a raft",
+    "cue": "map",
+    "first": "g8u6-ext26-g8u6-q2",
+    "second": "g8u6-ext26-g8u6-q5"
+  },
+  {
+    "unit": "g8u7",
+    "topic": "Finding a place to stay",
+    "cue": "map",
+    "first": "g8u7-upload-g8u7q2",
+    "second": "g8u7-ext26-g8u7-q5"
+  },
+  {
+    "unit": "g8u8",
+    "topic": "Washing and folding",
+    "cue": "book",
+    "first": "g8u8-ext26-g8u8-q3",
+    "second": "g8u8-upload-g8u8q8"
+  },
+  {
+    "unit": "g8u9",
+    "topic": "Running an experiment",
+    "cue": "book",
+    "first": "g8u9-upload-g8u9q3",
+    "second": "g8u9-upload-g8u9q5"
+  },
+  {
+    "unit": "g8u10",
+    "topic": "Being prepared",
+    "cue": "map",
+    "first": "g8u10-upload-g8u10q8",
+    "second": "g8u10-upload-g8u10q9"
+  },
+  {
+    "unit": "g8u11",
+    "topic": "Returning a purchase",
+    "cue": "receipt",
+    "first": "g8u11-bistro-chat-1",
+    "second": "g8u11-bistro-chat-2"
+  },
+  {
+    "unit": "g8u12",
+    "topic": "Taking a pet to the vet",
+    "cue": "book",
+    "first": "g8u12-bistro-chat-1",
+    "second": "g8u12d3-guest"
+  }
+]

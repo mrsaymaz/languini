@@ -1,0 +1,318 @@
+{
+  "version": "0.50.0",
+  "cases": [
+    {
+      "nativeTouchMissReturns": true,
+      "noMistake": true
+    },
+    {
+      "nativeTapLabelLiftDestinationAndSettle": true
+    },
+    {
+      "nativeTouchStickerPlacement": true
+    },
+    {
+      "washingTouchOwnershipCancelAndSuccess": true
+    },
+    {
+      "width": 320,
+      "height": 480,
+      "washingFingerSpace": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "washingFingerSpace": true
+    },
+    {
+      "arena": "courtyard",
+      "poses": {
+        "menu": {
+          "menu": true,
+          "watch": false,
+          "contacts": 2,
+          "head": [
+            0.19631727983645297,
+            0,
+            0.014314844055065508,
+            "XYZ"
+          ],
+          "render": {
+            "frame": 163,
+            "calls": 157,
+            "triangles": 126968,
+            "points": 0,
+            "lines": 0
+          }
+        },
+        "chat": {
+          "menu": false,
+          "watch": false,
+          "contacts": 3,
+          "head": [
+            0,
+            0.26249999999999996,
+            0.01291642000797997,
+            "XYZ"
+          ],
+          "render": {
+            "frame": 164,
+            "calls": 173,
+            "triangles": 136092,
+            "points": 0,
+            "lines": 0
+          }
+        },
+        "kitchen": {
+          "menu": false,
+          "watch": false,
+          "contacts": 2,
+          "head": [
+            -0.032469796037174675,
+            -0.3084630623531594,
+            0.021669905259889075,
+            "XYZ"
+          ],
+          "render": {
+            "frame": 165,
+            "calls": 155,
+            "triangles": 126536,
+            "points": 0,
+            "lines": 0
+          }
+        },
+        "watch": {
+          "menu": false,
+          "watch": true,
+          "contacts": 2,
+          "head": [
+            0.21708203932499365,
+            0.1989918693812442,
+            -0.013915960707216358,
+            "XYZ"
+          ],
+          "render": {
+            "frame": 166,
+            "calls": 157,
+            "triangles": 126752,
+            "points": 0,
+            "lines": 0
+          }
+        },
+        "raise": {
+          "menu": false,
+          "watch": false,
+          "contacts": 2,
+          "head": [
+            0,
+            -0.22,
+            0.014314844055065508,
+            "XYZ"
+          ],
+          "render": {
+            "frame": 167,
+            "calls": 155,
+            "triangles": 126536,
+            "points": 0,
+            "lines": 0
+          }
+        }
+      }
+    },
+    {
+      "arena": "bistro",
+      "poses": {
+        "menu": {
+          "menu": true,
+          "watch": false,
+          "contacts": 2,
+          "head": [
+            0.19631727983645297,
+            0,
+            0.0003620076107010742,
+            "XYZ"
+          ],
+          "render": {
+            "frame": 183,
+            "calls": 152,
+            "triangles": 128934,
+            "points": 0,
+            "lines": 0
+          }
+        },
+        "chat": {
+          "menu": false,
+          "watch": false,
+          "contacts": 3,
+          "head": [
+            0,
+            0.26249999999999996,
+            0.030342350957051754,
+            "XYZ"
+          ],
+          "render": {
+            "frame": 185,
+            "calls": 168,
+            "triangles": 138058,
+            "points": 0,
+            "lines": 0
+          }
+        },
+        "kitchen": {
+          "menu": false,
+          "watch": false,
+          "contacts": 2,
+          "head": [
+            -0.032469796037174675,
+            -0.3084630623531594,
+            0.024933179444269073,
+            "XYZ"
+          ],
+          "render": {
+            "frame": 187,
+            "calls": 150,
+            "triangles": 128502,
+            "points": 0,
+            "lines": 0
+          }
+        },
+        "watch": {
+          "menu": false,
+          "watch": true,
+          "contacts": 2,
+          "head": [
+            0.21708203932499365,
+            0.1989918693812442,
+            -0.023167357890881465,
+            "XYZ"
+          ],
+          "render": {
+            "frame": 188,
+            "calls": 152,
+            "triangles": 128718,
+            "points": 0,
+            "lines": 0
+          }
+        },
+        "raise": {
+          "menu": false,
+          "watch": false,
+          "contacts": 2,
+          "head": [
+            0,
+            -0.22,
+            0.0003620076107010742,
+            "XYZ"
+          ],
+          "render": {
+            "frame": 189,
+            "calls": 150,
+            "triangles": 128502,
+            "points": 0,
+            "lines": 0
+          }
+        }
+      }
+    },
+    {
+      "arena": "banquet",
+      "poses": {
+        "menu": {
+          "menu": true,
+          "watch": false,
+          "contacts": 2,
+          "head": [
+            0.19631727983645297,
+            0,
+            0.0003620076107010742,
+            "XYZ"
+          ],
+          "render": {
+            "frame": 209,
+            "calls": 152,
+            "triangles": 132364,
+            "points": 0,
+            "lines": 0
+          }
+        },
+        "chat": {
+          "menu": false,
+          "watch": false,
+          "contacts": 3,
+          "head": [
+            0,
+            0.26249999999999996,
+            0.030342350957051754,
+            "XYZ"
+          ],
+          "render": {
+            "frame": 211,
+            "calls": 168,
+            "triangles": 141488,
+            "points": 0,
+            "lines": 0
+          }
+        },
+        "kitchen": {
+          "menu": false,
+          "watch": false,
+          "contacts": 2,
+          "head": [
+            -0.032469796037174675,
+            -0.3084630623531594,
+            0.024933179444269073,
+            "XYZ"
+          ],
+          "render": {
+            "frame": 212,
+            "calls": 150,
+            "triangles": 131932,
+            "points": 0,
+            "lines": 0
+          }
+        },
+        "watch": {
+          "menu": false,
+          "watch": true,
+          "contacts": 2,
+          "head": [
+            0.21708203932499365,
+            0.1989918693812442,
+            -0.023167357890881465,
+            "XYZ"
+          ],
+          "render": {
+            "frame": 213,
+            "calls": 152,
+            "triangles": 132148,
+            "points": 0,
+            "lines": 0
+          }
+        },
+        "raise": {
+          "menu": false,
+          "watch": false,
+          "contacts": 2,
+          "head": [
+            0,
+            -0.22,
+            0.0003620076107010742,
+            "XYZ"
+          ],
+          "render": {
+            "frame": 214,
+            "calls": 150,
+            "triangles": 131932,
+            "points": 0,
+            "lines": 0
+          }
+        }
+      }
+    },
+    {
+      "reducedMotionGuestCalm": true
+    }
+  ],
+  "errors": [],
+  "method": "Actual source with scratch-only fixture hooks. Native CDP touch and native taps. Software WebGL; no physical device FPS claim."
+}

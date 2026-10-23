@@ -1,0 +1,21 @@
+✔ every venue, table arrangement and counter configuration retains reachable actual service stops (63.189062ms)
+✔ designs, earned decorations and practical pickup progress migrate and remain isolated across campaigns (1.609314ms)
+✔ atmospheres rotate by campaign shift and fixed choices remain stable (0.163044ms)
+✔ counter choices change real stock and dish capacity without mutating venue definitions (3.089034ms)
+✔ all functional modes have unambiguous four-pair pages and eight distinct Challenge pairs for every grade (17.321454ms)
+✔ director decisions freeze all simulation clocks, reject repeated resolution and respect pause (2.243135ms)
+✔ English tasks protect the director clock and delivery has to reach Pantry before a larger-order offer (3.187902ms)
+✔ connected episodes complete both accept and decline branches in all venues and paces with conservation (197.002689ms)
+✔ connected service also completes without the free-walking kitchen (11.060522ms)
+✔ connected episodes use each selected unit across all grades, events and design arrangements (687.055207ms)
+✔ recovery choices build finite scenery and preserve the dish footprint through every milestone (1976.818156ms)
+✔ packing requests retain four stable bag targets and readable type across supported phone sizes (47.606204ms)
+✔ service ambience reuses one live source, stops on mute and releases prior nodes when days change (1.362336ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3202.512349

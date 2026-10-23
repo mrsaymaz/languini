@@ -1,0 +1,20 @@
+✔ existing category stars convert to five, with exact inherited average and idempotent review credit (2.887087ms)
+✔ reputation, intro completion and ownership survive saves independently of lessons and pace (1.784764ms)
+✔ all five story milestones are crossed once and keep earned visual progress after a lower review (96.702621ms)
+✔ every regular shift has a complete pickup task, including every event candidate and both paces (264.047703ms)
+✔ a customer rating commits only after the card turns, freezes on pause and cannot pay twice (1.073231ms)
+✔ named score reveals follow the card and reserve celebrations strictly for ratings above four (7.964531ms)
+✔ the handover, dirty-room inspection, cleaning, repairs and opening have finite phone/landscape scenes and clean disposal (1051.495512ms)
+✔ simultaneous customer scores take turns so phone celebrations cannot cover each other (1.388958ms)
+✔ original score and Foley follow the restoration and leave room for the first guest (2.1304ms)
+✔ music and effects freeze, mute, resume without a backlog, and stop on disposal (2.400977ms)
+✔ Continue skips old sound cues rather than replaying them together (0.317227ms)
+✔ native story controls preserve pause, mute, backgrounding, skip and a clean gameplay handoff (468.763582ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1705.571345

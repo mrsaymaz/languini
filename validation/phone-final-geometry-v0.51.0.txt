@@ -1,0 +1,20 @@
+✔ every object station fits portrait and landscape phone work areas without a popup sheet (1705.746895ms)
+✔ missing a plate and pointer cancellation do not record an English mistake (591.138801ms)
+✔ ingredient touch areas never overlap, including short landscape phones (390.797591ms)
+✔ a visible ingredient over the plate lands even with the fingertip below the rim (417.893745ms)
+✔ shuffled physical ingredient racks fit the actual phrase assigned to each paper (940.266604ms)
+✔ angled preparation grips tools while keeping recipe and sentence ink clear at small portrait and landscape sizes (2917.545249ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3591.870873
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> languini@0.51.0 build
+> node scripts/build.mjs
+
+Languini v0.51.0 built · 44 units · eight stations · connected orders · phone preview

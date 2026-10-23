@@ -1,0 +1,1139 @@
+{
+  "version": "0.55.0",
+  "cases": [
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "arena": "courtyard",
+      "atmosphere": "breakfast",
+      "layout": {
+        "half": 4.7,
+        "front": 4.58,
+        "door": [
+          0,
+          4.73
+        ],
+        "menu": [
+          -1.48,
+          5.25
+        ],
+        "pickup": [
+          2.9,
+          5.3
+        ],
+        "pavement": {
+          "left": -7,
+          "right": 7,
+          "top": 4.58,
+          "bottom": 7.25
+        },
+        "road": {
+          "x": 0,
+          "z": 9.5,
+          "width": 48,
+          "depth": 4.5
+        },
+        "queue": 1,
+        "cracks": 0,
+        "repaired": true,
+        "healthy": true,
+        "restoredSign": true,
+        "litEntrance": true
+      },
+      "farVisible": true,
+      "exteriorVisible": true,
+      "diagnostics": {
+        "samples": 0,
+        "frameMeanMs": null,
+        "frameP95Ms": null,
+        "quality": "lite",
+        "pixelRatio": 1,
+        "renderCalls": 206,
+        "renderTriangles": 146064,
+        "textures": 21,
+        "geometries": 209
+      },
+      "camera": [
+        2.551827646104222,
+        18.001622953464885,
+        9.523550427419849
+      ]
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "arena": "courtyard",
+      "atmosphere": "rain",
+      "layout": {
+        "half": 4.7,
+        "front": 4.58,
+        "door": [
+          0,
+          4.73
+        ],
+        "menu": [
+          -1.48,
+          5.25
+        ],
+        "pickup": [
+          2.9,
+          5.3
+        ],
+        "pavement": {
+          "left": -7,
+          "right": 7,
+          "top": 4.58,
+          "bottom": 7.25
+        },
+        "road": {
+          "x": 0,
+          "z": 9.5,
+          "width": 48,
+          "depth": 4.5
+        },
+        "queue": 1,
+        "cracks": 0,
+        "repaired": true,
+        "healthy": true,
+        "restoredSign": true,
+        "litEntrance": true
+      },
+      "farVisible": true,
+      "exteriorVisible": true,
+      "diagnostics": {
+        "samples": 1,
+        "frameMeanMs": 16.6,
+        "frameP95Ms": 16.6,
+        "quality": "lite",
+        "pixelRatio": 1,
+        "renderCalls": 213,
+        "renderTriangles": 146042,
+        "textures": 21,
+        "geometries": 217
+      },
+      "camera": [
+        2.551827646104222,
+        18.001622953464885,
+        9.523550427419849
+      ]
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "arena": "courtyard",
+      "atmosphere": "evening",
+      "layout": {
+        "half": 4.7,
+        "front": 4.58,
+        "door": [
+          0,
+          4.73
+        ],
+        "menu": [
+          -1.48,
+          5.25
+        ],
+        "pickup": [
+          2.9,
+          5.3
+        ],
+        "pavement": {
+          "left": -7,
+          "right": 7,
+          "top": 4.58,
+          "bottom": 7.25
+        },
+        "road": {
+          "x": 0,
+          "z": 9.5,
+          "width": 48,
+          "depth": 4.5
+        },
+        "queue": 1,
+        "cracks": 0,
+        "repaired": true,
+        "healthy": true,
+        "restoredSign": true,
+        "litEntrance": true
+      },
+      "farVisible": true,
+      "exteriorVisible": true,
+      "diagnostics": {
+        "samples": 3,
+        "frameMeanMs": 16.63,
+        "frameP95Ms": 16.7,
+        "quality": "lite",
+        "pixelRatio": 1,
+        "renderCalls": 209,
+        "renderTriangles": 147730,
+        "textures": 21,
+        "geometries": 219
+      },
+      "camera": [
+        2.551827646104222,
+        18.001622953464885,
+        9.523550427419849
+      ]
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "arena": "bistro",
+      "atmosphere": "breakfast",
+      "layout": {
+        "half": 5.2,
+        "front": 4.58,
+        "door": [
+          0,
+          4.73
+        ],
+        "menu": [
+          -1.48,
+          5.25
+        ],
+        "pickup": [
+          2.9,
+          5.3
+        ],
+        "pavement": {
+          "left": -7.5,
+          "right": 7.5,
+          "top": 4.58,
+          "bottom": 7.25
+        },
+        "road": {
+          "x": 0,
+          "z": 9.5,
+          "width": 48,
+          "depth": 4.5
+        },
+        "queue": 1,
+        "cracks": 0,
+        "repaired": true,
+        "healthy": true,
+        "restoredSign": true,
+        "litEntrance": true
+      },
+      "farVisible": true,
+      "exteriorVisible": true,
+      "diagnostics": {
+        "samples": 6,
+        "frameMeanMs": 16.65,
+        "frameP95Ms": 16.8,
+        "quality": "lite",
+        "pixelRatio": 1,
+        "renderCalls": 207,
+        "renderTriangles": 148874,
+        "textures": 22,
+        "geometries": 221
+      },
+      "camera": [
+        2.5568153769857656,
+        17.990496771595367,
+        9.042164892484251
+      ]
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "arena": "bistro",
+      "atmosphere": "rain",
+      "layout": {
+        "half": 5.2,
+        "front": 4.58,
+        "door": [
+          0,
+          4.73
+        ],
+        "menu": [
+          -1.48,
+          5.25
+        ],
+        "pickup": [
+          2.9,
+          5.3
+        ],
+        "pavement": {
+          "left": -7.5,
+          "right": 7.5,
+          "top": 4.58,
+          "bottom": 7.25
+        },
+        "road": {
+          "x": 0,
+          "z": 9.5,
+          "width": 48,
+          "depth": 4.5
+        },
+        "queue": 1,
+        "cracks": 0,
+        "repaired": true,
+        "healthy": true,
+        "restoredSign": true,
+        "litEntrance": true
+      },
+      "farVisible": true,
+      "exteriorVisible": true,
+      "diagnostics": {
+        "samples": 9,
+        "frameMeanMs": 16.64,
+        "frameP95Ms": 16.8,
+        "quality": "lite",
+        "pixelRatio": 1,
+        "renderCalls": 214,
+        "renderTriangles": 150628,
+        "textures": 22,
+        "geometries": 229
+      },
+      "camera": [
+        2.5568153769857656,
+        17.990496771595367,
+        9.042164892484251
+      ]
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "arena": "bistro",
+      "atmosphere": "evening",
+      "layout": {
+        "half": 5.2,
+        "front": 4.58,
+        "door": [
+          0,
+          4.73
+        ],
+        "menu": [
+          -1.48,
+          5.25
+        ],
+        "pickup": [
+          2.9,
+          5.3
+        ],
+        "pavement": {
+          "left": -7.5,
+          "right": 7.5,
+          "top": 4.58,
+          "bottom": 7.25
+        },
+        "road": {
+          "x": 0,
+          "z": 9.5,
+          "width": 48,
+          "depth": 4.5
+        },
+        "queue": 1,
+        "cracks": 0,
+        "repaired": true,
+        "healthy": true,
+        "restoredSign": true,
+        "litEntrance": true
+      },
+      "farVisible": true,
+      "exteriorVisible": true,
+      "diagnostics": {
+        "samples": 10,
+        "frameMeanMs": 16.65,
+        "frameP95Ms": 16.8,
+        "quality": "lite",
+        "pixelRatio": 1,
+        "renderCalls": 205,
+        "renderTriangles": 148332,
+        "textures": 22,
+        "geometries": 229
+      },
+      "camera": [
+        2.5568153769857656,
+        17.990496771595367,
+        9.042164892484251
+      ]
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "arena": "banquet",
+      "atmosphere": "breakfast",
+      "layout": {
+        "half": 5.7,
+        "front": 4.58,
+        "door": [
+          0,
+          4.73
+        ],
+        "menu": [
+          -1.48,
+          5.25
+        ],
+        "pickup": [
+          2.9,
+          5.3
+        ],
+        "pavement": {
+          "left": -8,
+          "right": 8,
+          "top": 4.58,
+          "bottom": 7.25
+        },
+        "road": {
+          "x": 0,
+          "z": 9.5,
+          "width": 48,
+          "depth": 4.5
+        },
+        "queue": 1,
+        "cracks": 0,
+        "repaired": true,
+        "healthy": true,
+        "restoredSign": true,
+        "litEntrance": true
+      },
+      "farVisible": true,
+      "exteriorVisible": true,
+      "diagnostics": {
+        "samples": 12,
+        "frameMeanMs": 18.04,
+        "frameP95Ms": 33.4,
+        "quality": "lite",
+        "pixelRatio": 1,
+        "renderCalls": 209,
+        "renderTriangles": 155044,
+        "textures": 23,
+        "geometries": 236
+      },
+      "camera": [
+        2.5618031078673096,
+        17.979370589725853,
+        8.560779357548654
+      ]
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "arena": "banquet",
+      "atmosphere": "rain",
+      "layout": {
+        "half": 5.7,
+        "front": 4.58,
+        "door": [
+          0,
+          4.73
+        ],
+        "menu": [
+          -1.48,
+          5.25
+        ],
+        "pickup": [
+          2.9,
+          5.3
+        ],
+        "pavement": {
+          "left": -8,
+          "right": 8,
+          "top": 4.58,
+          "bottom": 7.25
+        },
+        "road": {
+          "x": 0,
+          "z": 9.5,
+          "width": 48,
+          "depth": 4.5
+        },
+        "queue": 1,
+        "cracks": 0,
+        "repaired": true,
+        "healthy": true,
+        "restoredSign": true,
+        "litEntrance": true
+      },
+      "farVisible": true,
+      "exteriorVisible": true,
+      "diagnostics": {
+        "samples": 13,
+        "frameMeanMs": 17.94,
+        "frameP95Ms": 33.4,
+        "quality": "lite",
+        "pixelRatio": 1,
+        "renderCalls": 211,
+        "renderTriangles": 154386,
+        "textures": 23,
+        "geometries": 240
+      },
+      "camera": [
+        2.5618031078673096,
+        17.979370589725853,
+        8.560779357548654
+      ]
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "arena": "banquet",
+      "atmosphere": "evening",
+      "layout": {
+        "half": 5.7,
+        "front": 4.58,
+        "door": [
+          0,
+          4.73
+        ],
+        "menu": [
+          -1.48,
+          5.25
+        ],
+        "pickup": [
+          2.9,
+          5.3
+        ],
+        "pavement": {
+          "left": -8,
+          "right": 8,
+          "top": 4.58,
+          "bottom": 7.25
+        },
+        "road": {
+          "x": 0,
+          "z": 9.5,
+          "width": 48,
+          "depth": 4.5
+        },
+        "queue": 1,
+        "cracks": 0,
+        "repaired": true,
+        "healthy": true,
+        "restoredSign": true,
+        "litEntrance": true
+      },
+      "farVisible": true,
+      "exteriorVisible": true,
+      "diagnostics": {
+        "samples": 15,
+        "frameMeanMs": 17.77,
+        "frameP95Ms": 33.4,
+        "quality": "lite",
+        "pixelRatio": 1,
+        "renderCalls": 207,
+        "renderTriangles": 154586,
+        "textures": 23,
+        "geometries": 244
+      },
+      "camera": [
+        2.5618031078673096,
+        17.979370589725853,
+        8.560779357548654
+      ]
+    },
+    {
+      "viewport": [
+        393,
+        680
+      ],
+      "arena": "courtyard",
+      "atmosphere": "breakfast",
+      "layout": {
+        "half": 4.7,
+        "front": 4.58,
+        "door": [
+          0,
+          4.73
+        ],
+        "menu": [
+          -1.48,
+          5.25
+        ],
+        "pickup": [
+          2.9,
+          5.3
+        ],
+        "pavement": {
+          "left": -7,
+          "right": 7,
+          "top": 4.58,
+          "bottom": 7.25
+        },
+        "road": {
+          "x": 0,
+          "z": 9.5,
+          "width": 48,
+          "depth": 4.5
+        },
+        "queue": 0,
+        "cracks": 3,
+        "repaired": true,
+        "healthy": true,
+        "restoredSign": false,
+        "litEntrance": false
+      },
+      "farVisible": false,
+      "exteriorVisible": true,
+      "diagnostics": {
+        "samples": 0,
+        "frameMeanMs": null,
+        "frameP95Ms": null,
+        "quality": "lite",
+        "pixelRatio": 1.5,
+        "renderCalls": 184,
+        "renderTriangles": 138192,
+        "textures": 21,
+        "geometries": 193
+      },
+      "camera": [
+        2.429768295760107,
+        18.273901984362208,
+        9.068018730396764
+      ]
+    },
+    {
+      "viewport": [
+        393,
+        680
+      ],
+      "arena": "bistro",
+      "atmosphere": "rain",
+      "layout": {
+        "half": 5.2,
+        "front": 4.58,
+        "door": [
+          0,
+          4.73
+        ],
+        "menu": [
+          -1.48,
+          5.25
+        ],
+        "pickup": [
+          2.9,
+          5.3
+        ],
+        "pavement": {
+          "left": -7.5,
+          "right": 7.5,
+          "top": 4.58,
+          "bottom": 7.25
+        },
+        "road": {
+          "x": 0,
+          "z": 9.5,
+          "width": 48,
+          "depth": 4.5
+        },
+        "queue": 0,
+        "cracks": 3,
+        "repaired": true,
+        "healthy": true,
+        "restoredSign": false,
+        "litEntrance": false
+      },
+      "farVisible": false,
+      "exteriorVisible": true,
+      "diagnostics": {
+        "samples": 1,
+        "frameMeanMs": 16.6,
+        "frameP95Ms": 16.6,
+        "quality": "lite",
+        "pixelRatio": 1.5,
+        "renderCalls": 188,
+        "renderTriangles": 140020,
+        "textures": 22,
+        "geometries": 197
+      },
+      "camera": [
+        2.423512497705289,
+        18.28785685653753,
+        8.544671774214294
+      ]
+    },
+    {
+      "viewport": [
+        393,
+        680
+      ],
+      "arena": "banquet",
+      "atmosphere": "evening",
+      "layout": {
+        "half": 5.7,
+        "front": 4.58,
+        "door": [
+          0,
+          4.73
+        ],
+        "menu": [
+          -1.48,
+          5.25
+        ],
+        "pickup": [
+          2.9,
+          5.3
+        ],
+        "pavement": {
+          "left": -8,
+          "right": 8,
+          "top": 4.58,
+          "bottom": 7.25
+        },
+        "road": {
+          "x": 0,
+          "z": 9.5,
+          "width": 48,
+          "depth": 4.5
+        },
+        "queue": 0,
+        "cracks": 3,
+        "repaired": true,
+        "healthy": true,
+        "restoredSign": false,
+        "litEntrance": false
+      },
+      "farVisible": false,
+      "exteriorVisible": true,
+      "diagnostics": {
+        "samples": 2,
+        "frameMeanMs": 16.65,
+        "frameP95Ms": 16.7,
+        "quality": "lite",
+        "pixelRatio": 1.5,
+        "renderCalls": 185,
+        "renderTriangles": 145034,
+        "textures": 23,
+        "geometries": 202
+      },
+      "camera": [
+        2.417256699650472,
+        18.301811728712856,
+        8.021324818031824
+      ]
+    },
+    {
+      "viewport": [
+        320,
+        480
+      ],
+      "arena": "courtyard",
+      "atmosphere": "rain",
+      "layout": {
+        "half": 4.7,
+        "front": 4.58,
+        "door": [
+          0,
+          4.73
+        ],
+        "menu": [
+          -1.48,
+          5.25
+        ],
+        "pickup": [
+          2.9,
+          5.3
+        ],
+        "pavement": {
+          "left": -7,
+          "right": 7,
+          "top": 4.58,
+          "bottom": 7.25
+        },
+        "road": {
+          "x": 0,
+          "z": 9.5,
+          "width": 48,
+          "depth": 4.5
+        },
+        "queue": 0,
+        "cracks": 3,
+        "repaired": true,
+        "healthy": true,
+        "restoredSign": false,
+        "litEntrance": false
+      },
+      "farVisible": false,
+      "exteriorVisible": true,
+      "diagnostics": {
+        "samples": 3,
+        "frameMeanMs": 16.63,
+        "frameP95Ms": 16.7,
+        "quality": "lite",
+        "pixelRatio": 1.5,
+        "renderCalls": 189,
+        "renderTriangles": 136142,
+        "textures": 21,
+        "geometries": 206
+      },
+      "camera": [
+        2.3415699564820622,
+        18.47064691441203,
+        8.738858047067902
+      ]
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "arena": "bistro",
+      "atmosphere": "evening",
+      "layout": {
+        "half": 5.2,
+        "front": 4.58,
+        "door": [
+          0,
+          4.73
+        ],
+        "menu": [
+          -1.48,
+          5.25
+        ],
+        "pickup": [
+          2.9,
+          5.3
+        ],
+        "pavement": {
+          "left": -7.5,
+          "right": 7.5,
+          "top": 4.58,
+          "bottom": 7.25
+        },
+        "road": {
+          "x": 0,
+          "z": 9.5,
+          "width": 48,
+          "depth": 4.5
+        },
+        "queue": 0,
+        "cracks": 3,
+        "repaired": true,
+        "healthy": true,
+        "restoredSign": false,
+        "litEntrance": false
+      },
+      "farVisible": true,
+      "exteriorVisible": true,
+      "diagnostics": {
+        "samples": 4,
+        "frameMeanMs": 24.97,
+        "frameP95Ms": 50,
+        "quality": "lite",
+        "pixelRatio": 1.5,
+        "renderCalls": 191,
+        "renderTriangles": 142062,
+        "textures": 22,
+        "geometries": 215
+      },
+      "camera": [
+        2.1226002194068467,
+        18.959104927981627,
+        7.421651862983201
+      ]
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "arena": "courtyard",
+      "atmosphere": "breakfast",
+      "layout": {
+        "half": 4.7,
+        "front": 4.58,
+        "door": [
+          0,
+          4.73
+        ],
+        "menu": [
+          -1.48,
+          5.25
+        ],
+        "pickup": [
+          2.9,
+          5.3
+        ],
+        "pavement": {
+          "left": -7,
+          "right": 7,
+          "top": 4.58,
+          "bottom": 7.25
+        },
+        "road": {
+          "x": 0,
+          "z": 9.5,
+          "width": 48,
+          "depth": 4.5
+        },
+        "queue": 0,
+        "cracks": 3,
+        "repaired": true,
+        "healthy": true,
+        "restoredSign": false,
+        "litEntrance": false
+      },
+      "farVisible": true,
+      "exteriorVisible": true,
+      "diagnostics": {
+        "samples": 5,
+        "frameMeanMs": 30,
+        "frameP95Ms": 50.1,
+        "quality": "lite",
+        "pixelRatio": 1.5,
+        "renderCalls": 192,
+        "renderTriangles": 139134,
+        "textures": 21,
+        "geometries": 219
+      },
+      "camera": [
+        2.46323817557095,
+        18.199240383973102,
+        9.192930022374052
+      ]
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "arena": "bistro",
+      "atmosphere": "rain",
+      "layout": {
+        "half": 5.2,
+        "front": 4.58,
+        "door": [
+          0,
+          4.73
+        ],
+        "menu": [
+          -1.48,
+          5.25
+        ],
+        "pickup": [
+          2.9,
+          5.3
+        ],
+        "pavement": {
+          "left": -7.5,
+          "right": 7.5,
+          "top": 4.58,
+          "bottom": 7.25
+        },
+        "road": {
+          "x": 0,
+          "z": 9.5,
+          "width": 48,
+          "depth": 4.5
+        },
+        "queue": 0,
+        "cracks": 3,
+        "repaired": true,
+        "healthy": true,
+        "restoredSign": false,
+        "litEntrance": false
+      },
+      "farVisible": true,
+      "exteriorVisible": true,
+      "diagnostics": {
+        "samples": 6,
+        "frameMeanMs": 27.78,
+        "frameP95Ms": 50.1,
+        "quality": "lite",
+        "pixelRatio": 1.5,
+        "renderCalls": 195,
+        "renderTriangles": 141286,
+        "textures": 22,
+        "geometries": 223
+      },
+      "camera": [
+        2.460065464236558,
+        18.206317783328494,
+        8.681089302476353
+      ]
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "arena": "banquet",
+      "atmosphere": "evening",
+      "layout": {
+        "half": 5.7,
+        "front": 4.58,
+        "door": [
+          0,
+          4.73
+        ],
+        "menu": [
+          -1.48,
+          5.25
+        ],
+        "pickup": [
+          2.9,
+          5.3
+        ],
+        "pavement": {
+          "left": -8,
+          "right": 8,
+          "top": 4.58,
+          "bottom": 7.25
+        },
+        "road": {
+          "x": 0,
+          "z": 9.5,
+          "width": 48,
+          "depth": 4.5
+        },
+        "queue": 0,
+        "cracks": 3,
+        "repaired": true,
+        "healthy": true,
+        "restoredSign": false,
+        "litEntrance": false
+      },
+      "farVisible": true,
+      "exteriorVisible": true,
+      "diagnostics": {
+        "samples": 7,
+        "frameMeanMs": 30.96,
+        "frameP95Ms": 50.1,
+        "quality": "lite",
+        "pixelRatio": 1.5,
+        "renderCalls": 191,
+        "renderTriangles": 148424,
+        "textures": 23,
+        "geometries": 227
+      },
+      "camera": [
+        2.5618031078673096,
+        17.979370589725853,
+        8.560779357548654
+      ]
+    },
+    {
+      "task": "recipe",
+      "exteriorCutaway": true
+    },
+    {
+      "task": "delivery",
+      "exteriorCutaway": true
+    },
+    {
+      "task": "wash",
+      "exteriorCutaway": true
+    },
+    {
+      "task": "tablet",
+      "exteriorCutaway": true
+    },
+    {
+      "task": "pickup",
+      "exteriorCutaway": true
+    },
+    {
+      "task": "conversation",
+      "exteriorCutaway": true
+    },
+    {
+      "task": "ticket",
+      "exteriorCutaway": true
+    },
+    {
+      "task": "repair",
+      "exteriorCutaway": true
+    }
+  ],
+  "arrival": [
+    {
+      "stage": "approach",
+      "position": [
+        5.415033785500177,
+        -0.03,
+        6.2188792358888385
+      ],
+      "standing": true,
+      "walking": [
+        -0.09564736123400251,
+        0.09564736123400558
+      ]
+    },
+    {
+      "stage": "menu",
+      "position": [
+        -1.48,
+        -0.03,
+        5.25
+      ],
+      "standing": true,
+      "walking": [
+        0,
+        0
+      ]
+    },
+    {
+      "stage": "entrance",
+      "position": [
+        -0.9338489721147973,
+        -0.03,
+        4.943712599226542
+      ],
+      "standing": true,
+      "walking": [
+        0.17976227485978113,
+        -0.17976227485977853
+      ]
+    },
+    {
+      "stage": "aisle",
+      "position": [
+        0,
+        0.13,
+        2.8196743334011813
+      ],
+      "standing": true,
+      "walking": [
+        0.17976227485978113,
+        -0.17976227485977853
+      ]
+    },
+    {
+      "stage": "seat",
+      "position": [
+        -1.632200284958275,
+        0.13,
+        0.9099999999999999
+      ],
+      "standing": true,
+      "walking": [
+        0.17976227485978113,
+        -0.17976227485977853
+      ]
+    },
+    {
+      "stage": "settled",
+      "position": [
+        -3,
+        0.5,
+        0.9099999999999999
+      ],
+      "standing": false,
+      "walking": [
+        0,
+        0
+      ]
+    }
+  ],
+  "errors": [],
+  "method": "Chromium software WebGL, native touch events; scratch-only scene fixtures and cached overview screenshots after real renders; physical-device FPS unmeasured."
+}

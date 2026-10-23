@@ -1,0 +1,4666 @@
+{
+  "grade": 6,
+  "cefr": "A1+",
+  "units": [
+    {
+      "id": "g6u1",
+      "title": "School Life",
+      "source": "maarif",
+      "targetLanguage": [
+        "School roles and responsibilities",
+        "Present simple school routines",
+        "Frequency: once/twice a week",
+        "Object pronouns: help me/help us"
+      ],
+      "categories": [
+        {
+          "id": "g6u1c1",
+          "title": "SCHOOL PEOPLE",
+          "yes": [
+            "headteacher",
+            "teacher",
+            "pupil",
+            "coach",
+            "secretary",
+            "assistant",
+            "librarian",
+            "cleaner",
+            "caretaker",
+            "school nurse"
+          ],
+          "no": [
+            "library",
+            "canteen",
+            "lab",
+            "classroom",
+            "corridor",
+            "gym",
+            "school office",
+            "playground",
+            "staffroom",
+            "sports field"
+          ]
+        },
+        {
+          "id": "g6u1c2",
+          "title": "SCHOOL ACTIONS",
+          "yes": [
+            "study",
+            "read",
+            "write",
+            "listen",
+            "ask",
+            "answer",
+            "learn",
+            "practise",
+            "revise",
+            "teach"
+          ],
+          "no": [
+            "onion",
+            "potato",
+            "carrot",
+            "tomato",
+            "cabbage",
+            "lettuce",
+            "cucumber",
+            "pepper",
+            "pea",
+            "bean"
+          ]
+        }
+      ],
+      "descriptions": [
+        {
+          "id": "g6u1d1",
+          "clue": "I look after books and lend them to pupils.",
+          "options": [
+            "cleaner",
+            "librarian",
+            "coach"
+          ],
+          "answer": "librarian"
+        },
+        {
+          "id": "g6u1d2",
+          "clue": "I keep the classrooms and corridors clean.",
+          "options": [
+            "cleaner",
+            "secretary",
+            "pupil"
+          ],
+          "answer": "cleaner"
+        },
+        {
+          "id": "g6u1d3",
+          "clue": "I answer calls and do school office work.",
+          "options": [
+            "coach",
+            "librarian",
+            "secretary"
+          ],
+          "answer": "secretary"
+        },
+        {
+          "id": "g6u1d4",
+          "clue": "I am a child who studies at school.",
+          "options": [
+            "caretaker",
+            "pupil",
+            "headteacher"
+          ],
+          "answer": "pupil"
+        },
+        {
+          "id": "g6u1d5",
+          "clue": "I help pupils practise a sport safely.",
+          "options": [
+            "coach",
+            "secretary",
+            "cleaner"
+          ],
+          "answer": "coach"
+        },
+        {
+          "id": "g6u1d6",
+          "clue": "I look after the school building and fix small problems.",
+          "options": [
+            "librarian",
+            "pupil",
+            "caretaker"
+          ],
+          "answer": "caretaker"
+        }
+      ],
+      "pictures": [
+        {
+          "id": "g6u1p1",
+          "word": "badge",
+          "drawing": "small school badge with a star"
+        },
+        {
+          "id": "g6u1p2",
+          "word": "noticeboard",
+          "drawing": "board displaying three colourful school notices"
+        },
+        {
+          "id": "g6u1p3",
+          "word": "school bell",
+          "drawing": "brass school bell with a wooden handle"
+        },
+        {
+          "id": "g6u1p4",
+          "word": "clipboard",
+          "drawing": "clipboard with a short ticked task list"
+        },
+        {
+          "id": "g6u1p5",
+          "word": "lunch box",
+          "drawing": "open lunch box with a sandwich and apple"
+        },
+        {
+          "id": "g6u1p6",
+          "word": "stage",
+          "drawing": "small stage with closed red curtains"
+        },
+        {
+          "id": "g6u1p7",
+          "word": "microphone",
+          "drawing": "black microphone on a short stand"
+        },
+        {
+          "id": "g6u1p8",
+          "word": "flagpole",
+          "drawing": "tall flagpole with a small plain flag"
+        },
+        {
+          "id": "g6u1p9",
+          "word": "school bus",
+          "drawing": "yellow bus with several large windows"
+        }
+      ],
+      "questions": [
+        {
+          "id": "g6u1q1",
+          "q": "What is your school responsibility?",
+          "a": "I collect our class notebooks."
+        },
+        {
+          "id": "g6u1q2",
+          "q": "How often do you help in the library?",
+          "a": "I help there twice a week."
+        },
+        {
+          "id": "g6u1q3",
+          "q": "Who looks after the school books?",
+          "a": "Our librarian does."
+        },
+        {
+          "id": "g6u1q4",
+          "q": "Where is the school assembly?",
+          "a": "It is in the main hall."
+        },
+        {
+          "id": "g6u1q5",
+          "q": "When does your school day begin?",
+          "a": "It begins at half past eight."
+        },
+        {
+          "id": "g6u1q6",
+          "q": "How many pupils are in your class?",
+          "a": "There are thirty pupils."
+        },
+        {
+          "id": "g6u1q7",
+          "q": "Why do pupils wear name badges?",
+          "a": "So visitors can learn our names."
+        },
+        {
+          "id": "g6u1q8",
+          "q": "Which club organises the school show?",
+          "a": "The drama club organises it."
+        },
+        {
+          "id": "g6u1q9",
+          "q": "Can you give these notes to Elif?",
+          "a": "Yes, I can give them to her."
+        }
+      ],
+      "completions": [
+        {
+          "id": "g6u1h1",
+          "start": "Our school helper collects…",
+          "end": "…the class notebooks.",
+          "wrongEndings": [
+            "g6u1h2",
+            "g6u1h5"
+          ]
+        },
+        {
+          "id": "g6u1h2",
+          "start": "The school day…",
+          "end": "…starts at half past eight.",
+          "wrongEndings": [
+            "g6u1h1",
+            "g6u1h4"
+          ]
+        },
+        {
+          "id": "g6u1h3",
+          "start": "We always…",
+          "end": "…listen to our classmates.",
+          "wrongEndings": [
+            "g6u1h2",
+            "g6u1h5"
+          ]
+        },
+        {
+          "id": "g6u1h4",
+          "start": "The assembly is…",
+          "end": "…in the main hall.",
+          "wrongEndings": [
+            "g6u1h2",
+            "g6u1h5"
+          ]
+        },
+        {
+          "id": "g6u1h5",
+          "start": "Our librarian…",
+          "end": "…helps new pupils.",
+          "wrongEndings": [
+            "g6u1h1",
+            "g6u1h4"
+          ]
+        },
+        {
+          "id": "g6u1h6",
+          "start": "Please give…",
+          "end": "…her the school badge.",
+          "wrongEndings": [
+            "g6u1h2",
+            "g6u1h5"
+          ]
+        },
+        {
+          "id": "g6u1h7",
+          "start": "I enjoy…",
+          "end": "…helping in the library.",
+          "wrongEndings": [
+            "g6u1h2",
+            "g6u1h5"
+          ]
+        },
+        {
+          "id": "g6u1h8",
+          "start": "These pupils are…",
+          "end": "…responsible and kind.",
+          "wrongEndings": [
+            "g6u1h2",
+            "g6u1h5"
+          ]
+        },
+        {
+          "id": "g6u1h9",
+          "start": "Our coach wants…",
+          "end": "…to organise a sports day.",
+          "wrongEndings": [
+            "g6u1h2",
+            "g6u1h5"
+          ]
+        }
+      ],
+      "sentences": [
+        {
+          "id": "g6u1s1",
+          "blocks": [
+            "Our librarian",
+            "helps",
+            "new pupils."
+          ],
+          "difficulty": 1,
+          "tr": "Kütüphanecimiz yeni öğrencilere yardım eder."
+        },
+        {
+          "id": "g6u1s2",
+          "blocks": [
+            "We",
+            "follow",
+            "the school rules."
+          ],
+          "difficulty": 1,
+          "tr": "Okul kurallarına uyarız."
+        },
+        {
+          "id": "g6u1s3",
+          "blocks": [
+            "The helpers",
+            "carry",
+            "the notebooks."
+          ],
+          "difficulty": 1,
+          "tr": "Yardımcı öğrenciler defterleri taşır."
+        },
+        {
+          "id": "g6u1s4",
+          "blocks": [
+            "Our teacher",
+            "gives",
+            "us",
+            "a task list."
+          ],
+          "difficulty": 2,
+          "tr": "Öğretmenimiz bize bir görev listesi verir."
+        },
+        {
+          "id": "g6u1s5",
+          "blocks": [
+            "This",
+            "is",
+            "our weekly",
+            "timetable."
+          ],
+          "difficulty": 2,
+          "tr": "Bu bizim haftalık ders programımız."
+        },
+        {
+          "id": "g6u1s6",
+          "blocks": [
+            "The school",
+            "has got",
+            "a new",
+            "noticeboard."
+          ],
+          "difficulty": 2,
+          "tr": "Okulun yeni bir duyuru panosu var."
+        },
+        {
+          "id": "g6u1s7",
+          "blocks": [
+            "My classmate",
+            "shows",
+            "me",
+            "the hall."
+          ],
+          "difficulty": 2,
+          "tr": "Sınıf arkadaşım bana salonu gösterir."
+        },
+        {
+          "id": "g6u1s8",
+          "blocks": [
+            "These",
+            "are",
+            "the visitors'",
+            "badges."
+          ],
+          "difficulty": 2,
+          "tr": "Bunlar ziyaretçilerin yaka kartlarıdır."
+        },
+        {
+          "id": "g6u1s9",
+          "blocks": [
+            "We",
+            "know",
+            "our duties",
+            "are",
+            "important."
+          ],
+          "difficulty": 2,
+          "tr": "Sorumluluklarımızın önemli olduğunu biliyoruz."
+        },
+        {
+          "id": "g6u1s10",
+          "blocks": [
+            "The headteacher",
+            "says",
+            "our class",
+            "is",
+            "helpful."
+          ],
+          "difficulty": 2,
+          "tr": "Okul müdürü sınıfımızın yardımsever olduğunu söylüyor."
+        }
+      ],
+      "translations": [
+        {
+          "id": "g6u1t1",
+          "en": "responsibility",
+          "tr": "sorumluluk"
+        },
+        {
+          "id": "g6u1t2",
+          "en": "helper",
+          "tr": "yardımcı"
+        },
+        {
+          "id": "g6u1t3",
+          "en": "headteacher",
+          "tr": "okul müdürü"
+        },
+        {
+          "id": "g6u1t4",
+          "en": "volunteer",
+          "tr": "gönüllü"
+        },
+        {
+          "id": "g6u1t5",
+          "en": "secretary",
+          "tr": "sekreter"
+        },
+        {
+          "id": "g6u1t6",
+          "en": "coach",
+          "tr": "antrenör"
+        },
+        {
+          "id": "g6u1t7",
+          "en": "pupil",
+          "tr": "öğrenci"
+        },
+        {
+          "id": "g6u1t8",
+          "en": "organise",
+          "tr": "düzenlemek"
+        },
+        {
+          "id": "g6u1t9",
+          "en": "helpful",
+          "tr": "yardımsever"
+        }
+      ]
+    },
+    {
+      "id": "g6u2",
+      "title": "Classroom Life",
+      "source": "maarif",
+      "targetLanguage": [
+        "Study methods and classroom instructions",
+        "Present continuous for actions now",
+        "Present simple and present continuous",
+        "Possessive adjectives and frequency questions"
+      ],
+      "categories": [
+        {
+          "id": "g6u2c1",
+          "title": "STUDY TOOLS",
+          "yes": [
+            "flashcard",
+            "notebook",
+            "dictionary",
+            "pencil",
+            "ruler",
+            "calculator",
+            "highlighter",
+            "folder",
+            "pen",
+            "eraser"
+          ],
+          "no": [
+            "jacket",
+            "scarf",
+            "boots",
+            "gloves",
+            "shirt",
+            "skirt",
+            "belt",
+            "hat",
+            "coat",
+            "trainers"
+          ]
+        },
+        {
+          "id": "g6u2c2",
+          "title": "LEARNING ACTIONS",
+          "yes": [
+            "read",
+            "write",
+            "revise",
+            "practise",
+            "repeat",
+            "explain",
+            "compare",
+            "check",
+            "ask",
+            "answer"
+          ],
+          "no": [
+            "mountain",
+            "river",
+            "lake",
+            "forest",
+            "beach",
+            "island",
+            "valley",
+            "cave",
+            "coast",
+            "waterfall"
+          ]
+        }
+      ],
+      "descriptions": [
+        {
+          "id": "g6u2d1",
+          "clue": "I show a word or a picture to help you revise.",
+          "options": [
+            "flashcard",
+            "ruler",
+            "calculator"
+          ],
+          "answer": "flashcard"
+        },
+        {
+          "id": "g6u2d2",
+          "clue": "I explain words and show how to spell them.",
+          "options": [
+            "notebook",
+            "folder",
+            "dictionary"
+          ],
+          "answer": "dictionary"
+        },
+        {
+          "id": "g6u2d3",
+          "clue": "I help you work with numbers quickly.",
+          "options": [
+            "ruler",
+            "calculator",
+            "highlighter"
+          ],
+          "answer": "calculator"
+        },
+        {
+          "id": "g6u2d4",
+          "clue": "I make important words bright yellow.",
+          "options": [
+            "highlighter",
+            "eraser",
+            "scissors"
+          ],
+          "answer": "highlighter"
+        },
+        {
+          "id": "g6u2d5",
+          "clue": "I hold loose worksheets together.",
+          "options": [
+            "dictionary",
+            "calculator",
+            "folder"
+          ],
+          "answer": "folder"
+        },
+        {
+          "id": "g6u2d6",
+          "clue": "I show days, weeks and months.",
+          "options": [
+            "flashcard",
+            "calendar",
+            "ruler"
+          ],
+          "answer": "calendar"
+        }
+      ],
+      "pictures": [
+        {
+          "id": "g6u2p1",
+          "word": "flashcard",
+          "drawing": "small card showing a cat and its word"
+        },
+        {
+          "id": "g6u2p2",
+          "word": "notebook",
+          "drawing": "open exercise book with neat ruled lines"
+        },
+        {
+          "id": "g6u2p3",
+          "word": "headphones",
+          "drawing": "blue headphones with padded ear cups"
+        },
+        {
+          "id": "g6u2p4",
+          "word": "calendar",
+          "drawing": "wall calendar with one day circled"
+        },
+        {
+          "id": "g6u2p5",
+          "word": "calculator",
+          "drawing": "small calculator with numbers on its buttons"
+        },
+        {
+          "id": "g6u2p6",
+          "word": "dictionary",
+          "drawing": "thick dictionary with an alphabet tab"
+        },
+        {
+          "id": "g6u2p7",
+          "word": "highlighter",
+          "drawing": "yellow marker with its wide tip showing"
+        },
+        {
+          "id": "g6u2p8",
+          "word": "folder",
+          "drawing": "blue folder holding three loose worksheets"
+        },
+        {
+          "id": "g6u2p9",
+          "word": "whiteboard",
+          "drawing": "white board with a short written sum"
+        }
+      ],
+      "questions": [
+        {
+          "id": "g6u2q1",
+          "q": "What are you revising now?",
+          "a": "I am revising English words."
+        },
+        {
+          "id": "g6u2q2",
+          "q": "How often do you use flashcards?",
+          "a": "I use them three times a week."
+        },
+        {
+          "id": "g6u2q3",
+          "q": "Whose notes are on this desk?",
+          "a": "They are Ece's notes."
+        },
+        {
+          "id": "g6u2q4",
+          "q": "Why are you using a dictionary?",
+          "a": "To check the meaning of a word."
+        },
+        {
+          "id": "g6u2q5",
+          "q": "Which number comes after nineteen?",
+          "a": "Twenty comes after nineteen."
+        },
+        {
+          "id": "g6u2q6",
+          "q": "How many examples are on the board?",
+          "a": "There are four examples."
+        },
+        {
+          "id": "g6u2q7",
+          "q": "Who is explaining the new method?",
+          "a": "Our English teacher is."
+        },
+        {
+          "id": "g6u2q8",
+          "q": "Where do you keep your worksheets?",
+          "a": "I keep them in this folder."
+        },
+        {
+          "id": "g6u2q9",
+          "q": "Can you repeat the instruction?",
+          "a": "Yes: underline the new words."
+        }
+      ],
+      "completions": [
+        {
+          "id": "g6u2h1",
+          "start": "I am checking…",
+          "end": "…the answers in my notebook.",
+          "wrongEndings": [
+            "g6u2h2",
+            "g6u2h5"
+          ]
+        },
+        {
+          "id": "g6u2h2",
+          "start": "Our new study method…",
+          "end": "…helps us remember words.",
+          "wrongEndings": [
+            "g6u2h1",
+            "g6u2h4"
+          ]
+        },
+        {
+          "id": "g6u2h3",
+          "start": "We usually…",
+          "end": "…revise with flashcards.",
+          "wrongEndings": [
+            "g6u2h2",
+            "g6u2h5"
+          ]
+        },
+        {
+          "id": "g6u2h4",
+          "start": "The dictionary is…",
+          "end": "…beside the whiteboard.",
+          "wrongEndings": [
+            "g6u2h2",
+            "g6u2h5"
+          ]
+        },
+        {
+          "id": "g6u2h5",
+          "start": "My study partner…",
+          "end": "…has a new calculator.",
+          "wrongEndings": [
+            "g6u2h1",
+            "g6u2h4"
+          ]
+        },
+        {
+          "id": "g6u2h6",
+          "start": "Please show…",
+          "end": "…me your class notes.",
+          "wrongEndings": [
+            "g6u2h2",
+            "g6u2h5"
+          ]
+        },
+        {
+          "id": "g6u2h7",
+          "start": "These instructions are…",
+          "end": "…clear and short.",
+          "wrongEndings": [
+            "g6u2h2",
+            "g6u2h5"
+          ]
+        },
+        {
+          "id": "g6u2h8",
+          "start": "Our teacher wants…",
+          "end": "…to explain the example.",
+          "wrongEndings": [
+            "g6u2h2",
+            "g6u2h5"
+          ]
+        },
+        {
+          "id": "g6u2h9",
+          "start": "I enjoy…",
+          "end": "…learning new English words.",
+          "wrongEndings": [
+            "g6u2h2",
+            "g6u2h5"
+          ]
+        }
+      ],
+      "sentences": [
+        {
+          "id": "g6u2s1",
+          "blocks": [
+            "My partner",
+            "is checking",
+            "our answers."
+          ],
+          "difficulty": 1,
+          "tr": "Çalışma arkadaşım cevaplarımızı kontrol ediyor."
+        },
+        {
+          "id": "g6u2s2",
+          "blocks": [
+            "We",
+            "are making",
+            "flashcards."
+          ],
+          "difficulty": 1,
+          "tr": "Kelime kartları hazırlıyoruz."
+        },
+        {
+          "id": "g6u2s3",
+          "blocks": [
+            "This method",
+            "is",
+            "useful."
+          ],
+          "difficulty": 1,
+          "tr": "Bu yöntem faydalı."
+        },
+        {
+          "id": "g6u2s4",
+          "blocks": [
+            "The teacher",
+            "shows",
+            "us",
+            "an example."
+          ],
+          "difficulty": 2,
+          "tr": "Öğretmen bize bir örnek gösterir."
+        },
+        {
+          "id": "g6u2s5",
+          "blocks": [
+            "These",
+            "are",
+            "my partner's",
+            "notes."
+          ],
+          "difficulty": 2,
+          "tr": "Bunlar çalışma arkadaşımın notları."
+        },
+        {
+          "id": "g6u2s6",
+          "blocks": [
+            "My notebook",
+            "has got",
+            "a green",
+            "cover."
+          ],
+          "difficulty": 2,
+          "tr": "Defterimin yeşil bir kapağı var."
+        },
+        {
+          "id": "g6u2s7",
+          "blocks": [
+            "Elif",
+            "gives",
+            "me",
+            "her dictionary."
+          ],
+          "difficulty": 2,
+          "tr": "Elif bana sözlüğünü verir."
+        },
+        {
+          "id": "g6u2s8",
+          "blocks": [
+            "This",
+            "is",
+            "a very clear",
+            "instruction."
+          ],
+          "difficulty": 2,
+          "tr": "Bu çok açık bir yönerge."
+        },
+        {
+          "id": "g6u2s9",
+          "blocks": [
+            "I",
+            "think",
+            "these flashcards",
+            "are",
+            "useful."
+          ],
+          "difficulty": 2,
+          "tr": "Bence bu kelime kartları faydalı."
+        },
+        {
+          "id": "g6u2s10",
+          "blocks": [
+            "Our teacher",
+            "says",
+            "the answers",
+            "are",
+            "correct."
+          ],
+          "difficulty": 2,
+          "tr": "Öğretmenimiz cevapların doğru olduğunu söylüyor."
+        }
+      ],
+      "translations": [
+        {
+          "id": "g6u2t1",
+          "en": "notes",
+          "tr": "notlar"
+        },
+        {
+          "id": "g6u2t2",
+          "en": "instructions",
+          "tr": "yönergeler"
+        },
+        {
+          "id": "g6u2t3",
+          "en": "method",
+          "tr": "yöntem"
+        },
+        {
+          "id": "g6u2t4",
+          "en": "partner",
+          "tr": "eş"
+        },
+        {
+          "id": "g6u2t5",
+          "en": "review",
+          "tr": "tekrar etmek"
+        },
+        {
+          "id": "g6u2t6",
+          "en": "subject",
+          "tr": "ders"
+        },
+        {
+          "id": "g6u2t7",
+          "en": "question",
+          "tr": "soru"
+        },
+        {
+          "id": "g6u2t8",
+          "en": "example",
+          "tr": "örnek"
+        },
+        {
+          "id": "g6u2t9",
+          "en": "practise",
+          "tr": "pratik yapmak"
+        }
+      ]
+    },
+    {
+      "id": "g6u3",
+      "title": "Personal Life",
+      "source": "maarif",
+      "targetLanguage": [
+        "Appearance, clothing and personality",
+        "Have got/has got",
+        "Possession: Whose? and possessive s",
+        "Simple comparisons and superlatives"
+      ],
+      "categories": [
+        {
+          "id": "g6u3c1",
+          "title": "PERSONALITY",
+          "yes": [
+            "helpful",
+            "honest",
+            "shy",
+            "outgoing",
+            "kind",
+            "friendly",
+            "patient",
+            "funny",
+            "polite",
+            "generous"
+          ],
+          "no": [
+            "curly",
+            "straight",
+            "wavy",
+            "tall",
+            "short",
+            "blonde",
+            "fair-haired",
+            "dark-haired",
+            "blue-eyed",
+            "brown-eyed"
+          ]
+        },
+        {
+          "id": "g6u3c2",
+          "title": "ACCESSORIES",
+          "yes": [
+            "bracelet",
+            "necklace",
+            "earrings",
+            "watch",
+            "glasses",
+            "sunglasses",
+            "scarf",
+            "belt",
+            "hairband",
+            "ring"
+          ],
+          "no": [
+            "elbow",
+            "knee",
+            "shoulder",
+            "ankle",
+            "wrist",
+            "thumb",
+            "finger",
+            "toe",
+            "chin",
+            "cheek"
+          ]
+        }
+      ],
+      "descriptions": [
+        {
+          "id": "g6u3d1",
+          "clue": "I tell the truth even when it is difficult.",
+          "options": [
+            "shy",
+            "funny",
+            "honest"
+          ],
+          "answer": "honest"
+        },
+        {
+          "id": "g6u3d2",
+          "clue": "I do not mind waiting for my turn.",
+          "options": [
+            "stubborn",
+            "patient",
+            "outgoing"
+          ],
+          "answer": "patient"
+        },
+        {
+          "id": "g6u3d3",
+          "clue": "I enjoy meeting and talking to new people.",
+          "options": [
+            "outgoing",
+            "shy",
+            "quiet"
+          ],
+          "answer": "outgoing"
+        },
+        {
+          "id": "g6u3d4",
+          "clue": "I make people laugh with my jokes.",
+          "options": [
+            "serious",
+            "shy",
+            "funny"
+          ],
+          "answer": "funny"
+        },
+        {
+          "id": "g6u3d5",
+          "clue": "I say please and thank you.",
+          "options": [
+            "stubborn",
+            "polite",
+            "rude"
+          ],
+          "answer": "polite"
+        },
+        {
+          "id": "g6u3d6",
+          "clue": "I give my friends some of my things.",
+          "options": [
+            "generous",
+            "selfish",
+            "shy"
+          ],
+          "answer": "generous"
+        }
+      ],
+      "pictures": [
+        {
+          "id": "g6u3p1",
+          "word": "glasses",
+          "drawing": "round glasses with a thin black frame"
+        },
+        {
+          "id": "g6u3p2",
+          "word": "sunglasses",
+          "drawing": "dark sunglasses with a wide blue frame"
+        },
+        {
+          "id": "g6u3p3",
+          "word": "necklace",
+          "drawing": "simple silver necklace with a round pendant"
+        },
+        {
+          "id": "g6u3p4",
+          "word": "bracelet",
+          "drawing": "bracelet made of small coloured beads"
+        },
+        {
+          "id": "g6u3p5",
+          "word": "watch",
+          "drawing": "wristwatch with a blue strap"
+        },
+        {
+          "id": "g6u3p6",
+          "word": "jacket",
+          "drawing": "green jacket with pockets and a zip"
+        },
+        {
+          "id": "g6u3p7",
+          "word": "moustache",
+          "drawing": "small brown moustache above a simple smiling mouth"
+        },
+        {
+          "id": "g6u3p8",
+          "word": "portrait",
+          "drawing": "framed portrait of a smiling teenager"
+        },
+        {
+          "id": "g6u3p9",
+          "word": "hairband",
+          "drawing": "plain red curved hairband"
+        }
+      ],
+      "questions": [
+        {
+          "id": "g6u3q1",
+          "q": "What does your cousin look like?",
+          "a": "She has got long, curly hair."
+        },
+        {
+          "id": "g6u3q2",
+          "q": "What is your new classmate like?",
+          "a": "He is patient and friendly."
+        },
+        {
+          "id": "g6u3q3",
+          "q": "Whose watch is this?",
+          "a": "It is Mert's watch."
+        },
+        {
+          "id": "g6u3q4",
+          "q": "Who is the tallest pupil in the group?",
+          "a": "Zeynep is the tallest."
+        },
+        {
+          "id": "g6u3q5",
+          "q": "How many bracelets has Elif got?",
+          "a": "She has got three bracelets."
+        },
+        {
+          "id": "g6u3q6",
+          "q": "What colour is your brother's jacket?",
+          "a": "His jacket is dark blue."
+        },
+        {
+          "id": "g6u3q7",
+          "q": "Why do you call Ece generous?",
+          "a": "Because she shares her things."
+        },
+        {
+          "id": "g6u3q8",
+          "q": "Which is longer, my scarf or yours?",
+          "a": "Your scarf is longer."
+        },
+        {
+          "id": "g6u3q9",
+          "q": "Where are your sunglasses?",
+          "a": "They are inside my bag."
+        }
+      ],
+      "completions": [
+        {
+          "id": "g6u3h1",
+          "start": "My cousin has got…",
+          "end": "…short, wavy hair.",
+          "wrongEndings": [
+            "g6u3h2",
+            "g6u3h5"
+          ]
+        },
+        {
+          "id": "g6u3h2",
+          "start": "My new classmate…",
+          "end": "…is very patient.",
+          "wrongEndings": [
+            "g6u3h1",
+            "g6u3h4"
+          ]
+        },
+        {
+          "id": "g6u3h3",
+          "start": "I can…",
+          "end": "…describe my best friend.",
+          "wrongEndings": [
+            "g6u3h2",
+            "g6u3h5"
+          ]
+        },
+        {
+          "id": "g6u3h4",
+          "start": "Your bracelet is…",
+          "end": "…inside the small box.",
+          "wrongEndings": [
+            "g6u3h2",
+            "g6u3h5"
+          ]
+        },
+        {
+          "id": "g6u3h5",
+          "start": "Our youngest cousin…",
+          "end": "…wears round glasses.",
+          "wrongEndings": [
+            "g6u3h1",
+            "g6u3h4"
+          ]
+        },
+        {
+          "id": "g6u3h6",
+          "start": "Please give…",
+          "end": "…him his blue jacket.",
+          "wrongEndings": [
+            "g6u3h2",
+            "g6u3h5"
+          ]
+        },
+        {
+          "id": "g6u3h7",
+          "start": "These earrings are…",
+          "end": "…smaller than those earrings.",
+          "wrongEndings": [
+            "g6u3h2",
+            "g6u3h5"
+          ]
+        },
+        {
+          "id": "g6u3h8",
+          "start": "We enjoy…",
+          "end": "…talking to our neighbours.",
+          "wrongEndings": [
+            "g6u3h2",
+            "g6u3h5"
+          ]
+        },
+        {
+          "id": "g6u3h9",
+          "start": "Elif wants…",
+          "end": "…to buy a new hairband.",
+          "wrongEndings": [
+            "g6u3h2",
+            "g6u3h5"
+          ]
+        }
+      ],
+      "sentences": [
+        {
+          "id": "g6u3s1",
+          "blocks": [
+            "My cousin",
+            "has got",
+            "green eyes."
+          ],
+          "difficulty": 1,
+          "tr": "Kuzenimin yeşil gözleri var."
+        },
+        {
+          "id": "g6u3s2",
+          "blocks": [
+            "Ece",
+            "is",
+            "taller than Mert."
+          ],
+          "difficulty": 1,
+          "tr": "Ece Mert’ten daha uzundur."
+        },
+        {
+          "id": "g6u3s3",
+          "blocks": [
+            "This necklace",
+            "looks",
+            "beautiful."
+          ],
+          "difficulty": 1,
+          "tr": "Bu kolye güzel görünüyor."
+        },
+        {
+          "id": "g6u3s4",
+          "blocks": [
+            "My friend",
+            "tells",
+            "us",
+            "funny stories."
+          ],
+          "difficulty": 2,
+          "tr": "Arkadaşım bize komik hikâyeler anlatır."
+        },
+        {
+          "id": "g6u3s5",
+          "blocks": [
+            "This",
+            "is",
+            "my favourite",
+            "bracelet."
+          ],
+          "difficulty": 2,
+          "tr": "Bu benim en sevdiğim bileklik."
+        },
+        {
+          "id": "g6u3s6",
+          "blocks": [
+            "Mert",
+            "has got",
+            "a blue",
+            "jacket."
+          ],
+          "difficulty": 2,
+          "tr": "Mert'in mavi bir ceketi var."
+        },
+        {
+          "id": "g6u3s7",
+          "blocks": [
+            "My sister",
+            "gives",
+            "me",
+            "her hairband."
+          ],
+          "difficulty": 2,
+          "tr": "Kız kardeşim bana saç bandını verir."
+        },
+        {
+          "id": "g6u3s8",
+          "blocks": [
+            "These",
+            "are",
+            "my cousin's",
+            "sunglasses."
+          ],
+          "difficulty": 2,
+          "tr": "Bunlar kuzenimin güneş gözlüğü."
+        },
+        {
+          "id": "g6u3s9",
+          "blocks": [
+            "We",
+            "know",
+            "our friend",
+            "is",
+            "honest."
+          ],
+          "difficulty": 2,
+          "tr": "Arkadaşımızın dürüst olduğunu biliyoruz."
+        },
+        {
+          "id": "g6u3s10",
+          "blocks": [
+            "Ece",
+            "says",
+            "her neighbour",
+            "is",
+            "helpful."
+          ],
+          "difficulty": 2,
+          "tr": "Ece komşusunun yardımsever olduğunu söylüyor."
+        }
+      ],
+      "translations": [
+        {
+          "id": "g6u3t1",
+          "en": "appearance",
+          "tr": "görünüş"
+        },
+        {
+          "id": "g6u3t2",
+          "en": "curly",
+          "tr": "kıvırcık"
+        },
+        {
+          "id": "g6u3t3",
+          "en": "straight",
+          "tr": "düz"
+        },
+        {
+          "id": "g6u3t4",
+          "en": "tall",
+          "tr": "uzun boylu"
+        },
+        {
+          "id": "g6u3t5",
+          "en": "hair",
+          "tr": "saç"
+        },
+        {
+          "id": "g6u3t6",
+          "en": "short",
+          "tr": "kısa"
+        },
+        {
+          "id": "g6u3t7",
+          "en": "long",
+          "tr": "uzun"
+        },
+        {
+          "id": "g6u3t8",
+          "en": "young",
+          "tr": "genç"
+        },
+        {
+          "id": "g6u3t9",
+          "en": "eyes",
+          "tr": "gözler"
+        }
+      ]
+    },
+    {
+      "id": "g6u4",
+      "title": "Family Life",
+      "source": "maarif",
+      "targetLanguage": [
+        "Family jobs, workplaces and homes",
+        "Present simple routines and simple arrangements",
+        "Which...? and choosing items",
+        "Simple reflexive chunks: by myself/by ourselves"
+      ],
+      "categories": [
+        {
+          "id": "g6u4c1",
+          "title": "FAMILY JOBS",
+          "yes": [
+            "engineer",
+            "doctor",
+            "farmer",
+            "chef",
+            "nurse",
+            "mechanic",
+            "teacher",
+            "baker",
+            "driver",
+            "dentist"
+          ],
+          "no": [
+            "kitchen",
+            "bedroom",
+            "bathroom",
+            "hall",
+            "garage",
+            "balcony",
+            "garden",
+            "attic",
+            "study",
+            "living room"
+          ]
+        },
+        {
+          "id": "g6u4c2",
+          "title": "HOME SPACES",
+          "yes": [
+            "kitchen",
+            "bedroom",
+            "bathroom",
+            "hall",
+            "garage",
+            "balcony",
+            "garden",
+            "attic",
+            "study",
+            "living room"
+          ],
+          "no": [
+            "hammer",
+            "spanner",
+            "saw",
+            "drill",
+            "brush",
+            "ladder",
+            "toolbox",
+            "apron",
+            "nail",
+            "screw"
+          ]
+        }
+      ],
+      "descriptions": [
+        {
+          "id": "g6u4d1",
+          "clue": "I repair engines in a garage.",
+          "options": [
+            "baker",
+            "mechanic",
+            "nurse"
+          ],
+          "answer": "mechanic"
+        },
+        {
+          "id": "g6u4d2",
+          "clue": "I design roads and bridges.",
+          "options": [
+            "engineer",
+            "chef",
+            "dentist"
+          ],
+          "answer": "engineer"
+        },
+        {
+          "id": "g6u4d3",
+          "clue": "I cook meals in a restaurant kitchen.",
+          "options": [
+            "farmer",
+            "driver",
+            "chef"
+          ],
+          "answer": "chef"
+        },
+        {
+          "id": "g6u4d4",
+          "clue": "You sleep in this room.",
+          "options": [
+            "bathroom",
+            "bedroom",
+            "kitchen"
+          ],
+          "answer": "bedroom"
+        },
+        {
+          "id": "g6u4d5",
+          "clue": "You cook meals in this room.",
+          "options": [
+            "kitchen",
+            "garage",
+            "bedroom"
+          ],
+          "answer": "kitchen"
+        },
+        {
+          "id": "g6u4d6",
+          "clue": "You keep a car in this building.",
+          "options": [
+            "bathroom",
+            "attic",
+            "garage"
+          ],
+          "answer": "garage"
+        }
+      ],
+      "pictures": [
+        {
+          "id": "g6u4p1",
+          "word": "hammer",
+          "drawing": "hammer with a wooden handle and grey head"
+        },
+        {
+          "id": "g6u4p2",
+          "word": "spanner",
+          "drawing": "silver spanner with one open end"
+        },
+        {
+          "id": "g6u4p3",
+          "word": "toolbox",
+          "drawing": "red toolbox with a black handle"
+        },
+        {
+          "id": "g6u4p4",
+          "word": "garage",
+          "drawing": "small garage with a car inside"
+        },
+        {
+          "id": "g6u4p5",
+          "word": "flat",
+          "drawing": "block of flats with six windows and balconies"
+        },
+        {
+          "id": "g6u4p6",
+          "word": "balcony",
+          "drawing": "small balcony with two plant pots"
+        },
+        {
+          "id": "g6u4p7",
+          "word": "stairs",
+          "drawing": "short staircase with a simple handrail"
+        },
+        {
+          "id": "g6u4p8",
+          "word": "paintbrush",
+          "drawing": "paintbrush with green paint on its bristles"
+        },
+        {
+          "id": "g6u4p9",
+          "word": "apron",
+          "drawing": "plain orange apron with a large front pocket"
+        }
+      ],
+      "questions": [
+        {
+          "id": "g6u4q1",
+          "q": "What does your father do?",
+          "a": "He is an engineer."
+        },
+        {
+          "id": "g6u4q2",
+          "q": "Where does your aunt repair cars?",
+          "a": "She works in a garage."
+        },
+        {
+          "id": "g6u4q3",
+          "q": "When is your mother's appointment?",
+          "a": "It is at three this afternoon."
+        },
+        {
+          "id": "g6u4q4",
+          "q": "Which tool do you need for this nail?",
+          "a": "I need a hammer."
+        },
+        {
+          "id": "g6u4q5",
+          "q": "How many floors has your home got?",
+          "a": "It has got two floors."
+        },
+        {
+          "id": "g6u4q6",
+          "q": "Who is preparing the family dinner?",
+          "a": "My uncle is preparing it."
+        },
+        {
+          "id": "g6u4q7",
+          "q": "Why does the chef wear an apron?",
+          "a": "To keep her clothes clean."
+        },
+        {
+          "id": "g6u4q8",
+          "q": "Can you tidy your room by yourself?",
+          "a": "Yes, I can do it by myself."
+        },
+        {
+          "id": "g6u4q9",
+          "q": "Whose toolbox is on the balcony?",
+          "a": "It is my grandfather's toolbox."
+        }
+      ],
+      "completions": [
+        {
+          "id": "g6u4h1",
+          "start": "My aunt needs…",
+          "end": "…a new paintbrush.",
+          "wrongEndings": [
+            "g6u4h2",
+            "g6u4h5"
+          ]
+        },
+        {
+          "id": "g6u4h2",
+          "start": "Our family home…",
+          "end": "…has a small balcony.",
+          "wrongEndings": [
+            "g6u4h1",
+            "g6u4h4"
+          ]
+        },
+        {
+          "id": "g6u4h3",
+          "start": "We are going to…",
+          "end": "…visit my uncle's workshop.",
+          "wrongEndings": [
+            "g6u4h2",
+            "g6u4h5"
+          ]
+        },
+        {
+          "id": "g6u4h4",
+          "start": "The toolbox is…",
+          "end": "…under the workbench.",
+          "wrongEndings": [
+            "g6u4h2",
+            "g6u4h5"
+          ]
+        },
+        {
+          "id": "g6u4h5",
+          "start": "My father…",
+          "end": "…works as an engineer.",
+          "wrongEndings": [
+            "g6u4h1",
+            "g6u4h4"
+          ]
+        },
+        {
+          "id": "g6u4h6",
+          "start": "Please bring…",
+          "end": "…me the clean apron.",
+          "wrongEndings": [
+            "g6u4h2",
+            "g6u4h5"
+          ]
+        },
+        {
+          "id": "g6u4h7",
+          "start": "These stairs are…",
+          "end": "…wider than those stairs.",
+          "wrongEndings": [
+            "g6u4h2",
+            "g6u4h5"
+          ]
+        },
+        {
+          "id": "g6u4h8",
+          "start": "I enjoy…",
+          "end": "…cooking with my grandmother.",
+          "wrongEndings": [
+            "g6u4h2",
+            "g6u4h5"
+          ]
+        },
+        {
+          "id": "g6u4h9",
+          "start": "The mechanic wants…",
+          "end": "…to repair the family car.",
+          "wrongEndings": [
+            "g6u4h2",
+            "g6u4h5"
+          ]
+        }
+      ],
+      "sentences": [
+        {
+          "id": "g6u4s1",
+          "blocks": [
+            "My aunt",
+            "repairs",
+            "cars."
+          ],
+          "difficulty": 1,
+          "tr": "Teyzem arabaları tamir eder."
+        },
+        {
+          "id": "g6u4s2",
+          "blocks": [
+            "We",
+            "tidy",
+            "our bedrooms."
+          ],
+          "difficulty": 1,
+          "tr": "Yatak odalarımızı toplarız."
+        },
+        {
+          "id": "g6u4s3",
+          "blocks": [
+            "My uncle",
+            "is cooking",
+            "pasta."
+          ],
+          "difficulty": 1,
+          "tr": "Amcam makarna pişiriyor."
+        },
+        {
+          "id": "g6u4s4",
+          "blocks": [
+            "Our home",
+            "has got",
+            "a small",
+            "balcony."
+          ],
+          "difficulty": 2,
+          "tr": "Evimizin küçük bir balkonu var."
+        },
+        {
+          "id": "g6u4s5",
+          "blocks": [
+            "My father",
+            "gives",
+            "me",
+            "the toolbox."
+          ],
+          "difficulty": 2,
+          "tr": "Babam bana alet çantasını verir."
+        },
+        {
+          "id": "g6u4s6",
+          "blocks": [
+            "This",
+            "is",
+            "my grandmother's",
+            "apron."
+          ],
+          "difficulty": 2,
+          "tr": "Bu büyükannemin önlüğü."
+        },
+        {
+          "id": "g6u4s7",
+          "blocks": [
+            "My mother",
+            "shows",
+            "us",
+            "her workshop."
+          ],
+          "difficulty": 2,
+          "tr": "Annem bize atölyesini gösterir."
+        },
+        {
+          "id": "g6u4s8",
+          "blocks": [
+            "These",
+            "are",
+            "our new",
+            "paintbrushes."
+          ],
+          "difficulty": 2,
+          "tr": "Bunlar bizim yeni boya fırçalarımız."
+        },
+        {
+          "id": "g6u4s9",
+          "blocks": [
+            "I",
+            "think",
+            "this kitchen",
+            "is",
+            "large."
+          ],
+          "difficulty": 2,
+          "tr": "Bence bu mutfak büyük."
+        },
+        {
+          "id": "g6u4s10",
+          "blocks": [
+            "My sister",
+            "says",
+            "her room",
+            "is",
+            "tidy."
+          ],
+          "difficulty": 2,
+          "tr": "Kız kardeşim odasının düzenli olduğunu söylüyor."
+        }
+      ],
+      "translations": [
+        {
+          "id": "g6u4t1",
+          "en": "job",
+          "tr": "meslek"
+        },
+        {
+          "id": "g6u4t2",
+          "en": "workplace",
+          "tr": "iş yeri"
+        },
+        {
+          "id": "g6u4t3",
+          "en": "workshop",
+          "tr": "atölye"
+        },
+        {
+          "id": "g6u4t4",
+          "en": "engineer",
+          "tr": "mühendis"
+        },
+        {
+          "id": "g6u4t5",
+          "en": "doctor",
+          "tr": "doktor"
+        },
+        {
+          "id": "g6u4t6",
+          "en": "farmer",
+          "tr": "çiftçi"
+        },
+        {
+          "id": "g6u4t7",
+          "en": "chef",
+          "tr": "aşçı"
+        },
+        {
+          "id": "g6u4t8",
+          "en": "nurse",
+          "tr": "hemşire"
+        },
+        {
+          "id": "g6u4t9",
+          "en": "mechanic",
+          "tr": "tamirci"
+        }
+      ]
+    },
+    {
+      "id": "g6u5",
+      "title": "Life in the Neighbourhood & City",
+      "source": "maarif",
+      "targetLanguage": [
+        "City places, events and transport",
+        "Past states: was/were",
+        "Simple past questions about visits",
+        "Reasons with because and transport with by"
+      ],
+      "categories": [
+        {
+          "id": "g6u5c1",
+          "title": "ROAD TRANSPORT",
+          "yes": [
+            "bus",
+            "car",
+            "taxi",
+            "lorry",
+            "van",
+            "motorcycle",
+            "bicycle",
+            "scooter",
+            "minibus",
+            "coach"
+          ],
+          "no": [
+            "ferry",
+            "boat",
+            "ship",
+            "canoe",
+            "yacht",
+            "submarine",
+            "raft",
+            "kayak",
+            "sailboat",
+            "speedboat"
+          ]
+        },
+        {
+          "id": "g6u5c2",
+          "title": "CITY PLACES",
+          "yes": [
+            "museum",
+            "station",
+            "harbour",
+            "square",
+            "cinema",
+            "market",
+            "theatre",
+            "park",
+            "hospital",
+            "library"
+          ],
+          "no": [
+            "pillow",
+            "blanket",
+            "kettle",
+            "toaster",
+            "saucepan",
+            "whisk",
+            "grater",
+            "wardrobe",
+            "sofa",
+            "mirror"
+          ]
+        }
+      ],
+      "descriptions": [
+        {
+          "id": "g6u5d1",
+          "clue": "I carry people and cars across the water.",
+          "options": [
+            "ferry",
+            "tram",
+            "lorry"
+          ],
+          "answer": "ferry"
+        },
+        {
+          "id": "g6u5d2",
+          "clue": "I move on rails through city streets.",
+          "options": [
+            "van",
+            "ferry",
+            "tram"
+          ],
+          "answer": "tram"
+        },
+        {
+          "id": "g6u5d3",
+          "clue": "I carry heavy goods on roads.",
+          "options": [
+            "motorcycle",
+            "lorry",
+            "bicycle"
+          ],
+          "answer": "lorry"
+        },
+        {
+          "id": "g6u5d4",
+          "clue": "Boats stop and stay in this place.",
+          "options": [
+            "harbour",
+            "station",
+            "square"
+          ],
+          "answer": "harbour"
+        },
+        {
+          "id": "g6u5d5",
+          "clue": "People wait here to catch a train.",
+          "options": [
+            "museum",
+            "market",
+            "station"
+          ],
+          "answer": "station"
+        },
+        {
+          "id": "g6u5d6",
+          "clue": "People gather in this open city space.",
+          "options": [
+            "library",
+            "square",
+            "hospital"
+          ],
+          "answer": "square"
+        }
+      ],
+      "pictures": [
+        {
+          "id": "g6u5p1",
+          "word": "tram",
+          "drawing": "green city tram on two rails"
+        },
+        {
+          "id": "g6u5p2",
+          "word": "ferry",
+          "drawing": "white ferry carrying people and cars"
+        },
+        {
+          "id": "g6u5p3",
+          "word": "lorry",
+          "drawing": "blue lorry with a large covered back"
+        },
+        {
+          "id": "g6u5p4",
+          "word": "motorcycle",
+          "drawing": "red motorcycle with two black wheels"
+        },
+        {
+          "id": "g6u5p5",
+          "word": "van",
+          "drawing": "small white delivery van"
+        },
+        {
+          "id": "g6u5p6",
+          "word": "ticket",
+          "drawing": "paper travel ticket with a seat number"
+        },
+        {
+          "id": "g6u5p7",
+          "word": "harbour",
+          "drawing": "two small boats beside a harbour wall"
+        },
+        {
+          "id": "g6u5p8",
+          "word": "station",
+          "drawing": "train station with a platform and clock"
+        },
+        {
+          "id": "g6u5p9",
+          "word": "crossing",
+          "drawing": "striped pedestrian crossing across a road"
+        }
+      ],
+      "questions": [
+        {
+          "id": "g6u5q1",
+          "q": "Where were you yesterday afternoon?",
+          "a": "I was at the city museum."
+        },
+        {
+          "id": "g6u5q2",
+          "q": "How did you get to the harbour?",
+          "a": "We went by tram."
+        },
+        {
+          "id": "g6u5q3",
+          "q": "When was the local music festival?",
+          "a": "It was last Friday."
+        },
+        {
+          "id": "g6u5q4",
+          "q": "Who was with you at the exhibition?",
+          "a": "My cousin was with me."
+        },
+        {
+          "id": "g6u5q5",
+          "q": "Why did you visit the town square?",
+          "a": "Because there was a concert."
+        },
+        {
+          "id": "g6u5q6",
+          "q": "How many tickets did your father buy?",
+          "a": "He bought four tickets."
+        },
+        {
+          "id": "g6u5q7",
+          "q": "What was the weather like on the trip?",
+          "a": "It was warm and sunny."
+        },
+        {
+          "id": "g6u5q8",
+          "q": "Which vehicle carries goods by road?",
+          "a": "A lorry does."
+        },
+        {
+          "id": "g6u5q9",
+          "q": "Was the city centre crowded?",
+          "a": "Yes, it was very crowded."
+        }
+      ],
+      "completions": [
+        {
+          "id": "g6u5h1",
+          "start": "We bought…",
+          "end": "…two tickets for the tram.",
+          "wrongEndings": [
+            "g6u5h2",
+            "g6u5h5"
+          ]
+        },
+        {
+          "id": "g6u5h2",
+          "start": "The city museum…",
+          "end": "…was open yesterday.",
+          "wrongEndings": [
+            "g6u5h1",
+            "g6u5h4"
+          ]
+        },
+        {
+          "id": "g6u5h3",
+          "start": "My family decided…",
+          "end": "…to visit the harbour.",
+          "wrongEndings": [
+            "g6u5h2",
+            "g6u5h5"
+          ]
+        },
+        {
+          "id": "g6u5h4",
+          "start": "The old station was…",
+          "end": "…near the town square.",
+          "wrongEndings": [
+            "g6u5h2",
+            "g6u5h5"
+          ]
+        },
+        {
+          "id": "g6u5h5",
+          "start": "Our journey…",
+          "end": "…was short and comfortable.",
+          "wrongEndings": [
+            "g6u5h1",
+            "g6u5h4"
+          ]
+        },
+        {
+          "id": "g6u5h6",
+          "start": "Please show…",
+          "end": "…me the bus route.",
+          "wrongEndings": [
+            "g6u5h2",
+            "g6u5h5"
+          ]
+        },
+        {
+          "id": "g6u5h7",
+          "start": "These passengers are…",
+          "end": "…ready for the journey.",
+          "wrongEndings": [
+            "g6u5h2",
+            "g6u5h5"
+          ]
+        },
+        {
+          "id": "g6u5h8",
+          "start": "I enjoyed…",
+          "end": "…walking around the exhibition.",
+          "wrongEndings": [
+            "g6u5h2",
+            "g6u5h5"
+          ]
+        },
+        {
+          "id": "g6u5h9",
+          "start": "Our ferry can…",
+          "end": "…carry thirty passengers.",
+          "wrongEndings": [
+            "g6u5h2",
+            "g6u5h5"
+          ]
+        }
+      ],
+      "sentences": [
+        {
+          "id": "g6u5s1",
+          "blocks": [
+            "Our visit",
+            "was",
+            "interesting."
+          ],
+          "difficulty": 1,
+          "tr": "Ziyaretimiz ilginçti."
+        },
+        {
+          "id": "g6u5s2",
+          "blocks": [
+            "Our journey",
+            "was",
+            "comfortable."
+          ],
+          "difficulty": 1,
+          "tr": "Yolculuğumuz rahattı."
+        },
+        {
+          "id": "g6u5s3",
+          "blocks": [
+            "I",
+            "enjoyed",
+            "the exhibition."
+          ],
+          "difficulty": 1,
+          "tr": "Sergiden keyif aldım."
+        },
+        {
+          "id": "g6u5s4",
+          "blocks": [
+            "The driver",
+            "gave",
+            "us",
+            "our tickets."
+          ],
+          "difficulty": 2,
+          "tr": "Şoför bize biletlerimizi verdi."
+        },
+        {
+          "id": "g6u5s5",
+          "blocks": [
+            "This",
+            "was",
+            "our first",
+            "tram ride."
+          ],
+          "difficulty": 2,
+          "tr": "Bu bizim ilk tramvay yolculuğumuzdu."
+        },
+        {
+          "id": "g6u5s6",
+          "blocks": [
+            "The city",
+            "has got",
+            "a busy",
+            "harbour."
+          ],
+          "difficulty": 2,
+          "tr": "Şehrin işlek bir limanı var."
+        },
+        {
+          "id": "g6u5s7",
+          "blocks": [
+            "Our guide",
+            "showed",
+            "us",
+            "the square."
+          ],
+          "difficulty": 2,
+          "tr": "Rehberimiz bize meydanı gösterdi."
+        },
+        {
+          "id": "g6u5s8",
+          "blocks": [
+            "These",
+            "are",
+            "my sister's",
+            "travel photos."
+          ],
+          "difficulty": 2,
+          "tr": "Bunlar kız kardeşimin gezi fotoğrafları."
+        },
+        {
+          "id": "g6u5s9",
+          "blocks": [
+            "I",
+            "think",
+            "the ferry",
+            "is",
+            "comfortable."
+          ],
+          "difficulty": 2,
+          "tr": "Bence vapur rahat."
+        },
+        {
+          "id": "g6u5s10",
+          "blocks": [
+            "My cousin",
+            "says",
+            "the exhibition",
+            "was",
+            "interesting."
+          ],
+          "difficulty": 2,
+          "tr": "Kuzenim serginin ilginç olduğunu söylüyor."
+        }
+      ],
+      "translations": [
+        {
+          "id": "g6u5t1",
+          "en": "wheel",
+          "tr": "tekerlek"
+        },
+        {
+          "id": "g6u5t2",
+          "en": "bus",
+          "tr": "otobüs"
+        },
+        {
+          "id": "g6u5t3",
+          "en": "train",
+          "tr": "tren"
+        },
+        {
+          "id": "g6u5t4",
+          "en": "bicycle",
+          "tr": "bisiklet"
+        },
+        {
+          "id": "g6u5t5",
+          "en": "walk",
+          "tr": "yürümek"
+        },
+        {
+          "id": "g6u5t6",
+          "en": "journey",
+          "tr": "yolculuk"
+        },
+        {
+          "id": "g6u5t7",
+          "en": "traffic",
+          "tr": "trafik"
+        },
+        {
+          "id": "g6u5t8",
+          "en": "stop",
+          "tr": "durak"
+        },
+        {
+          "id": "g6u5t9",
+          "en": "passenger",
+          "tr": "yolcu"
+        }
+      ]
+    },
+    {
+      "id": "g6u6",
+      "title": "Life in the World & Culture",
+      "source": "maarif",
+      "targetLanguage": [
+        "Cultures, food and community events",
+        "Regular past actions: visited/watched/tasted",
+        "Past questions: Did you...?",
+        "Describing a cultural experience respectfully"
+      ],
+      "categories": [
+        {
+          "id": "g6u6c1",
+          "title": "FOOD AT EVENTS",
+          "yes": [
+            "dumpling",
+            "noodles",
+            "rice",
+            "bread",
+            "soup",
+            "salad",
+            "cheese",
+            "pancake",
+            "pastry",
+            "yoghurt"
+          ],
+          "no": [
+            "drum",
+            "flute",
+            "guitar",
+            "violin",
+            "piano",
+            "trumpet",
+            "tambourine",
+            "harp",
+            "cello",
+            "clarinet"
+          ]
+        },
+        {
+          "id": "g6u6c2",
+          "title": "MUSICAL OBJECTS",
+          "yes": [
+            "drum",
+            "flute",
+            "guitar",
+            "violin",
+            "piano",
+            "trumpet",
+            "tambourine",
+            "harp",
+            "cello",
+            "clarinet"
+          ],
+          "no": [
+            "dumpling",
+            "noodles",
+            "rice",
+            "bread",
+            "soup",
+            "salad",
+            "cheese",
+            "pancake",
+            "pastry",
+            "yoghurt"
+          ]
+        }
+      ],
+      "descriptions": [
+        {
+          "id": "g6u6d1",
+          "clue": "I have strings and you play me with a bow.",
+          "options": [
+            "flute",
+            "drum",
+            "violin"
+          ],
+          "answer": "violin"
+        },
+        {
+          "id": "g6u6d2",
+          "clue": "You blow into me. I am a long, thin instrument.",
+          "options": [
+            "guitar",
+            "flute",
+            "piano"
+          ],
+          "answer": "flute"
+        },
+        {
+          "id": "g6u6d3",
+          "clue": "I am a small food parcel with a filling inside.",
+          "options": [
+            "dumpling",
+            "soup",
+            "salad"
+          ],
+          "answer": "dumpling"
+        },
+        {
+          "id": "g6u6d4",
+          "clue": "I am long, thin food in a bowl with soup or sauce.",
+          "options": [
+            "bread",
+            "cheese",
+            "noodles"
+          ],
+          "answer": "noodles"
+        },
+        {
+          "id": "g6u6d5",
+          "clue": "You use these two sticks to pick up food.",
+          "options": [
+            "fork",
+            "chopsticks",
+            "spoon"
+          ],
+          "answer": "chopsticks"
+        },
+        {
+          "id": "g6u6d6",
+          "clue": "I have black and white keys and many strings inside.",
+          "options": [
+            "piano",
+            "drum",
+            "trumpet"
+          ],
+          "answer": "piano"
+        }
+      ],
+      "pictures": [
+        {
+          "id": "g6u6p1",
+          "word": "dumpling",
+          "drawing": "three folded dumplings on a plain plate"
+        },
+        {
+          "id": "g6u6p2",
+          "word": "noodles",
+          "drawing": "bowl of long noodles with two chopsticks"
+        },
+        {
+          "id": "g6u6p3",
+          "word": "chopsticks",
+          "drawing": "two brown chopsticks resting beside a bowl"
+        },
+        {
+          "id": "g6u6p4",
+          "word": "costume",
+          "drawing": "colourful traditional costume on a simple mannequin"
+        },
+        {
+          "id": "g6u6p5",
+          "word": "lantern",
+          "drawing": "round paper lantern hanging from a string"
+        },
+        {
+          "id": "g6u6p6",
+          "word": "flute",
+          "drawing": "silver flute with a row of small keys"
+        },
+        {
+          "id": "g6u6p7",
+          "word": "violin",
+          "drawing": "small violin with a bow beside it"
+        },
+        {
+          "id": "g6u6p8",
+          "word": "tambourine",
+          "drawing": "round tambourine with metal discs around its edge"
+        },
+        {
+          "id": "g6u6p9",
+          "word": "fan",
+          "drawing": "folded paper fan opened into a half circle"
+        }
+      ],
+      "questions": [
+        {
+          "id": "g6u6q1",
+          "q": "Which country did you visit last year?",
+          "a": "We visited Japan."
+        },
+        {
+          "id": "g6u6q2",
+          "q": "What did you taste at the food event?",
+          "a": "I tasted vegetable dumplings."
+        },
+        {
+          "id": "g6u6q3",
+          "q": "Who welcomed the guests?",
+          "a": "Our host welcomed them."
+        },
+        {
+          "id": "g6u6q4",
+          "q": "When did the dance show start?",
+          "a": "It started at six o'clock."
+        },
+        {
+          "id": "g6u6q5",
+          "q": "Where was the culture exhibition?",
+          "a": "It was at the local museum."
+        },
+        {
+          "id": "g6u6q6",
+          "q": "How many languages does Ece speak?",
+          "a": "She speaks three languages."
+        },
+        {
+          "id": "g6u6q7",
+          "q": "Why did you use chopsticks?",
+          "a": "To pick up the noodles."
+        },
+        {
+          "id": "g6u6q8",
+          "q": "How did you travel to the festival?",
+          "a": "We travelled by bus."
+        },
+        {
+          "id": "g6u6q9",
+          "q": "Did you enjoy the traditional music?",
+          "a": "Yes, I enjoyed the flute music."
+        }
+      ],
+      "completions": [
+        {
+          "id": "g6u6h1",
+          "start": "We tasted…",
+          "end": "…a traditional rice dish.",
+          "wrongEndings": [
+            "g6u6h2",
+            "g6u6h5"
+          ]
+        },
+        {
+          "id": "g6u6h2",
+          "start": "The dance show…",
+          "end": "…started at six o'clock.",
+          "wrongEndings": [
+            "g6u6h1",
+            "g6u6h4"
+          ]
+        },
+        {
+          "id": "g6u6h3",
+          "start": "Our hosts wanted…",
+          "end": "…to welcome every guest.",
+          "wrongEndings": [
+            "g6u6h2",
+            "g6u6h5"
+          ]
+        },
+        {
+          "id": "g6u6h4",
+          "start": "The paper lantern was…",
+          "end": "…above the food table.",
+          "wrongEndings": [
+            "g6u6h2",
+            "g6u6h5"
+          ]
+        },
+        {
+          "id": "g6u6h5",
+          "start": "My cousin…",
+          "end": "…played the violin.",
+          "wrongEndings": [
+            "g6u6h1",
+            "g6u6h4"
+          ]
+        },
+        {
+          "id": "g6u6h6",
+          "start": "Please offer…",
+          "end": "…our guests some water.",
+          "wrongEndings": [
+            "g6u6h2",
+            "g6u6h5"
+          ]
+        },
+        {
+          "id": "g6u6h7",
+          "start": "These costumes are…",
+          "end": "…bright and colourful.",
+          "wrongEndings": [
+            "g6u6h2",
+            "g6u6h5"
+          ]
+        },
+        {
+          "id": "g6u6h8",
+          "start": "I enjoyed…",
+          "end": "…learning about another culture.",
+          "wrongEndings": [
+            "g6u6h2",
+            "g6u6h5"
+          ]
+        },
+        {
+          "id": "g6u6h9",
+          "start": "We can…",
+          "end": "…share our favourite recipes.",
+          "wrongEndings": [
+            "g6u6h2",
+            "g6u6h5"
+          ]
+        }
+      ],
+      "sentences": [
+        {
+          "id": "g6u6s1",
+          "blocks": [
+            "We",
+            "visited",
+            "a culture show."
+          ],
+          "difficulty": 1,
+          "tr": "Bir kültür gösterisini ziyaret ettik."
+        },
+        {
+          "id": "g6u6s2",
+          "blocks": [
+            "Our host",
+            "served",
+            "dumplings."
+          ],
+          "difficulty": 1,
+          "tr": "Ev sahibimiz mantı ikram etti."
+        },
+        {
+          "id": "g6u6s3",
+          "blocks": [
+            "The guests",
+            "enjoyed",
+            "the music."
+          ],
+          "difficulty": 1,
+          "tr": "Konuklar müzikten keyif aldı."
+        },
+        {
+          "id": "g6u6s4",
+          "blocks": [
+            "The cook",
+            "showed",
+            "us",
+            "her recipe."
+          ],
+          "difficulty": 2,
+          "tr": "Aşçı bize tarifini gösterdi."
+        },
+        {
+          "id": "g6u6s5",
+          "blocks": [
+            "This",
+            "is",
+            "a traditional",
+            "costume."
+          ],
+          "difficulty": 2,
+          "tr": "Bu geleneksel bir kıyafettir."
+        },
+        {
+          "id": "g6u6s6",
+          "blocks": [
+            "My cousin",
+            "played",
+            "a small",
+            "flute."
+          ],
+          "difficulty": 2,
+          "tr": "Kuzenim küçük bir flüt çaldı."
+        },
+        {
+          "id": "g6u6s7",
+          "blocks": [
+            "Our host",
+            "gave",
+            "me",
+            "a paper fan."
+          ],
+          "difficulty": 2,
+          "tr": "Ev sahibimiz bana bir kâğıt yelpaze verdi."
+        },
+        {
+          "id": "g6u6s8",
+          "blocks": [
+            "These",
+            "are",
+            "the dancers'",
+            "shoes."
+          ],
+          "difficulty": 2,
+          "tr": "Bunlar dansçıların ayakkabılarıdır."
+        },
+        {
+          "id": "g6u6s9",
+          "blocks": [
+            "I",
+            "think",
+            "this tradition",
+            "is",
+            "interesting."
+          ],
+          "difficulty": 2,
+          "tr": "Bence bu gelenek ilginç."
+        },
+        {
+          "id": "g6u6s10",
+          "blocks": [
+            "Our teacher",
+            "says",
+            "all cultures",
+            "are",
+            "valuable."
+          ],
+          "difficulty": 2,
+          "tr": "Öğretmenimiz bütün kültürlerin değerli olduğunu söylüyor."
+        }
+      ],
+      "translations": [
+        {
+          "id": "g6u6t1",
+          "en": "culture",
+          "tr": "kültür"
+        },
+        {
+          "id": "g6u6t2",
+          "en": "costume",
+          "tr": "kostüm"
+        },
+        {
+          "id": "g6u6t3",
+          "en": "tradition",
+          "tr": "gelenek"
+        },
+        {
+          "id": "g6u6t4",
+          "en": "country",
+          "tr": "ülke"
+        },
+        {
+          "id": "g6u6t5",
+          "en": "region",
+          "tr": "bölge"
+        },
+        {
+          "id": "g6u6t6",
+          "en": "language",
+          "tr": "dil"
+        },
+        {
+          "id": "g6u6t7",
+          "en": "family",
+          "tr": "aile"
+        },
+        {
+          "id": "g6u6t8",
+          "en": "community",
+          "tr": "topluluk"
+        },
+        {
+          "id": "g6u6t9",
+          "en": "respect",
+          "tr": "saygı göstermek"
+        }
+      ]
+    },
+    {
+      "id": "g6u7",
+      "title": "Life in Nature & Global Problems",
+      "source": "maarif",
+      "targetLanguage": [
+        "Environmental problems and simple solutions",
+        "Past actions: collected/planted/found/saw",
+        "Obligations: must/must not",
+        "Reducing waste and saving water"
+      ],
+      "categories": [
+        {
+          "id": "g6u7c1",
+          "title": "NATURAL FEATURES",
+          "yes": [
+            "river",
+            "forest",
+            "lake",
+            "ocean",
+            "mountain",
+            "valley",
+            "beach",
+            "cave",
+            "waterfall",
+            "desert"
+          ],
+          "no": [
+            "notebook",
+            "desk",
+            "pencil",
+            "eraser",
+            "scissors",
+            "ruler",
+            "calculator",
+            "folder",
+            "pen",
+            "chair"
+          ]
+        },
+        {
+          "id": "g6u7c2",
+          "title": "CLEAN RECYCLABLES",
+          "yes": [
+            "paper",
+            "glass",
+            "cardboard",
+            "newspaper",
+            "tin can",
+            "jar",
+            "bottle",
+            "carton",
+            "magazine",
+            "envelope"
+          ],
+          "no": [
+            "banana peel",
+            "apple core",
+            "egg shell",
+            "rice",
+            "bread",
+            "pasta",
+            "cheese",
+            "carrot",
+            "onion",
+            "potato"
+          ]
+        }
+      ],
+      "descriptions": [
+        {
+          "id": "g6u7d1",
+          "clue": "I give shade and have a trunk, branches and leaves.",
+          "options": [
+            "grass",
+            "tree",
+            "flower"
+          ],
+          "answer": "tree"
+        },
+        {
+          "id": "g6u7d2",
+          "clue": "I flow through the land towards the sea.",
+          "options": [
+            "river",
+            "lake",
+            "mountain"
+          ],
+          "answer": "river"
+        },
+        {
+          "id": "g6u7d3",
+          "clue": "I am waste left on the ground instead of in a bin.",
+          "options": [
+            "soil",
+            "grass",
+            "litter"
+          ],
+          "answer": "litter"
+        },
+        {
+          "id": "g6u7d4",
+          "clue": "I give you water when you turn me on.",
+          "options": [
+            "spade",
+            "tap",
+            "bin"
+          ],
+          "answer": "tap"
+        },
+        {
+          "id": "g6u7d5",
+          "clue": "I use sunlight to make electricity.",
+          "options": [
+            "solar panel",
+            "water bottle",
+            "rubbish bin"
+          ],
+          "answer": "solar panel"
+        },
+        {
+          "id": "g6u7d6",
+          "clue": "I am a cloth shopping bag you can use again and again.",
+          "options": [
+            "paper straw",
+            "glass jar",
+            "reusable bag"
+          ],
+          "answer": "reusable bag"
+        }
+      ],
+      "pictures": [
+        {
+          "id": "g6u7p1",
+          "word": "tree",
+          "drawing": "green tree with a brown trunk"
+        },
+        {
+          "id": "g6u7p2",
+          "word": "leaf",
+          "drawing": "single green leaf with clear veins"
+        },
+        {
+          "id": "g6u7p3",
+          "word": "river",
+          "drawing": "curved blue river between grassy banks"
+        },
+        {
+          "id": "g6u7p4",
+          "word": "recycle bin",
+          "drawing": "green bin with a white recycling symbol"
+        },
+        {
+          "id": "g6u7p5",
+          "word": "reusable bag",
+          "drawing": "plain cloth shopping bag with two handles"
+        },
+        {
+          "id": "g6u7p6",
+          "word": "bottle cap",
+          "drawing": "small blue plastic bottle cap"
+        },
+        {
+          "id": "g6u7p7",
+          "word": "tap",
+          "drawing": "silver tap with one drop of water"
+        },
+        {
+          "id": "g6u7p8",
+          "word": "solar panel",
+          "drawing": "blue solar panel facing a small yellow sun"
+        },
+        {
+          "id": "g6u7p9",
+          "word": "sapling",
+          "drawing": "young tree with two leaves and short roots"
+        }
+      ],
+      "questions": [
+        {
+          "id": "g6u7q1",
+          "q": "What did you find beside the river?",
+          "a": "We found a plastic bottle."
+        },
+        {
+          "id": "g6u7q2",
+          "q": "Who planted the young trees?",
+          "a": "Our school volunteers did."
+        },
+        {
+          "id": "g6u7q3",
+          "q": "Where did the class collect litter?",
+          "a": "On the beach."
+        },
+        {
+          "id": "g6u7q4",
+          "q": "When was the school clean-up?",
+          "a": "It was yesterday morning."
+        },
+        {
+          "id": "g6u7q5",
+          "q": "How many bags of rubbish did you fill?",
+          "a": "We filled six bags."
+        },
+        {
+          "id": "g6u7q6",
+          "q": "Why must we turn off the tap?",
+          "a": "To save clean water."
+        },
+        {
+          "id": "g6u7q7",
+          "q": "Which bin is for old newspapers?",
+          "a": "The paper recycling bin."
+        },
+        {
+          "id": "g6u7q8",
+          "q": "How can you use a shopping bag again?",
+          "a": "I can take it on my next trip."
+        },
+        {
+          "id": "g6u7q9",
+          "q": "Did you see any birds in the forest?",
+          "a": "Yes, we saw three small owls."
+        }
+      ],
+      "completions": [
+        {
+          "id": "g6u7h1",
+          "start": "We collected…",
+          "end": "…two bags of litter.",
+          "wrongEndings": [
+            "g6u7h2",
+            "g6u7h5"
+          ]
+        },
+        {
+          "id": "g6u7h2",
+          "start": "The river water…",
+          "end": "…was dirty yesterday.",
+          "wrongEndings": [
+            "g6u7h1",
+            "g6u7h4"
+          ]
+        },
+        {
+          "id": "g6u7h3",
+          "start": "Our class must…",
+          "end": "…protect the school garden.",
+          "wrongEndings": [
+            "g6u7h2",
+            "g6u7h5"
+          ]
+        },
+        {
+          "id": "g6u7h4",
+          "start": "The recycling bin is…",
+          "end": "…beside the school gate.",
+          "wrongEndings": [
+            "g6u7h2",
+            "g6u7h5"
+          ]
+        },
+        {
+          "id": "g6u7h5",
+          "start": "Our clean-up team…",
+          "end": "…found ten empty bottles.",
+          "wrongEndings": [
+            "g6u7h1",
+            "g6u7h4"
+          ]
+        },
+        {
+          "id": "g6u7h6",
+          "start": "Please turn off…",
+          "end": "…the tap after use.",
+          "wrongEndings": [
+            "g6u7h2",
+            "g6u7h5"
+          ]
+        },
+        {
+          "id": "g6u7h7",
+          "start": "These shopping bags are…",
+          "end": "…strong and reusable.",
+          "wrongEndings": [
+            "g6u7h2",
+            "g6u7h5"
+          ]
+        },
+        {
+          "id": "g6u7h8",
+          "start": "I enjoy…",
+          "end": "…planting young trees.",
+          "wrongEndings": [
+            "g6u7h2",
+            "g6u7h5"
+          ]
+        },
+        {
+          "id": "g6u7h9",
+          "start": "We want…",
+          "end": "…to reduce plastic waste.",
+          "wrongEndings": [
+            "g6u7h2",
+            "g6u7h5"
+          ]
+        }
+      ],
+      "sentences": [
+        {
+          "id": "g6u7s1",
+          "blocks": [
+            "We",
+            "found",
+            "an empty bottle."
+          ],
+          "difficulty": 1,
+          "tr": "Boş bir şişe bulduk."
+        },
+        {
+          "id": "g6u7s2",
+          "blocks": [
+            "Our class",
+            "planted",
+            "five trees."
+          ],
+          "difficulty": 1,
+          "tr": "Sınıfımız beş ağaç dikti."
+        },
+        {
+          "id": "g6u7s3",
+          "blocks": [
+            "You",
+            "must save",
+            "clean water."
+          ],
+          "difficulty": 1,
+          "tr": "Temiz suyu tasarruflu kullanmalısın."
+        },
+        {
+          "id": "g6u7s4",
+          "blocks": [
+            "The teacher",
+            "gave",
+            "us",
+            "reusable bags."
+          ],
+          "difficulty": 2,
+          "tr": "Öğretmen bize yeniden kullanılabilir çantalar verdi."
+        },
+        {
+          "id": "g6u7s5",
+          "blocks": [
+            "This",
+            "is",
+            "a clean",
+            "river."
+          ],
+          "difficulty": 2,
+          "tr": "Bu temiz bir nehir."
+        },
+        {
+          "id": "g6u7s6",
+          "blocks": [
+            "Our garden",
+            "has got",
+            "three young",
+            "trees."
+          ],
+          "difficulty": 2,
+          "tr": "Bahçemizde üç genç ağaç var."
+        },
+        {
+          "id": "g6u7s7",
+          "blocks": [
+            "Ece",
+            "showed",
+            "me",
+            "the recycling bin."
+          ],
+          "difficulty": 2,
+          "tr": "Ece bana geri dönüşüm kutusunu gösterdi."
+        },
+        {
+          "id": "g6u7s8",
+          "blocks": [
+            "These",
+            "are",
+            "our new",
+            "plant pots."
+          ],
+          "difficulty": 2,
+          "tr": "Bunlar bizim yeni saksılarımız."
+        },
+        {
+          "id": "g6u7s9",
+          "blocks": [
+            "We",
+            "know",
+            "clean water",
+            "is",
+            "important."
+          ],
+          "difficulty": 2,
+          "tr": "Temiz suyun önemli olduğunu biliyoruz."
+        },
+        {
+          "id": "g6u7s10",
+          "blocks": [
+            "Our teacher",
+            "says",
+            "plastic waste",
+            "is",
+            "harmful."
+          ],
+          "difficulty": 2,
+          "tr": "Öğretmenimiz plastik atıkların zararlı olduğunu söylüyor."
+        }
+      ],
+      "translations": [
+        {
+          "id": "g6u7t1",
+          "en": "environment",
+          "tr": "çevre"
+        },
+        {
+          "id": "g6u7t2",
+          "en": "wildlife",
+          "tr": "yaban hayatı"
+        },
+        {
+          "id": "g6u7t3",
+          "en": "forest",
+          "tr": "orman"
+        },
+        {
+          "id": "g6u7t4",
+          "en": "sea",
+          "tr": "deniz"
+        },
+        {
+          "id": "g6u7t5",
+          "en": "air",
+          "tr": "hava"
+        },
+        {
+          "id": "g6u7t6",
+          "en": "soil",
+          "tr": "toprak"
+        },
+        {
+          "id": "g6u7t7",
+          "en": "water",
+          "tr": "su"
+        },
+        {
+          "id": "g6u7t8",
+          "en": "nature",
+          "tr": "doğa"
+        },
+        {
+          "id": "g6u7t9",
+          "en": "pollution",
+          "tr": "kirlilik"
+        }
+      ]
+    },
+    {
+      "id": "g6u8",
+      "title": "Life in the Universe & Future",
+      "source": "maarif",
+      "targetLanguage": [
+        "The solar system and space equipment",
+        "Future plans: going to",
+        "Simple predictions: will/will not",
+        "Extreme weather vocabulary"
+      ],
+      "categories": [
+        {
+          "id": "g6u8c1",
+          "title": "SPACE OBJECTS",
+          "yes": [
+            "Sun",
+            "Moon",
+            "Earth",
+            "Mars",
+            "Venus",
+            "Saturn",
+            "Jupiter",
+            "Uranus",
+            "Neptune",
+            "comet"
+          ],
+          "no": [
+            "notebook",
+            "ruler",
+            "pencil",
+            "eraser",
+            "desk",
+            "chair",
+            "scissors",
+            "glue",
+            "folder",
+            "clock"
+          ]
+        },
+        {
+          "id": "g6u8c2",
+          "title": "WEATHER WORDS",
+          "yes": [
+            "rain",
+            "wind",
+            "snow",
+            "hail",
+            "fog",
+            "thunder",
+            "lightning",
+            "storm",
+            "frost",
+            "cloud"
+          ],
+          "no": [
+            "hammer",
+            "spanner",
+            "drill",
+            "saw",
+            "ladder",
+            "toolbox",
+            "apron",
+            "nail",
+            "screw",
+            "paintbrush"
+          ]
+        }
+      ],
+      "descriptions": [
+        {
+          "id": "g6u8d1",
+          "clue": "I am the planet where we live.",
+          "options": [
+            "Earth",
+            "Mars",
+            "Venus"
+          ],
+          "answer": "Earth"
+        },
+        {
+          "id": "g6u8d2",
+          "clue": "I am the star at the centre of our solar system.",
+          "options": [
+            "Moon",
+            "Earth",
+            "Sun"
+          ],
+          "answer": "Sun"
+        },
+        {
+          "id": "g6u8d3",
+          "clue": "I am a natural object that travels around Earth.",
+          "options": [
+            "Mars",
+            "Moon",
+            "Sun"
+          ],
+          "answer": "Moon"
+        },
+        {
+          "id": "g6u8d4",
+          "clue": "I have bright rings around me.",
+          "options": [
+            "Saturn",
+            "Mercury",
+            "Mars"
+          ],
+          "answer": "Saturn"
+        },
+        {
+          "id": "g6u8d5",
+          "clue": "I help people see distant stars.",
+          "options": [
+            "microscope",
+            "camera",
+            "telescope"
+          ],
+          "answer": "telescope"
+        },
+        {
+          "id": "g6u8d6",
+          "clue": "I travel into space and study it.",
+          "options": [
+            "baker",
+            "astronaut",
+            "mechanic"
+          ],
+          "answer": "astronaut"
+        }
+      ],
+      "pictures": [
+        {
+          "id": "g6u8p1",
+          "word": "planet",
+          "drawing": "round blue planet with green land"
+        },
+        {
+          "id": "g6u8p2",
+          "word": "comet",
+          "drawing": "bright comet with a long curved tail"
+        },
+        {
+          "id": "g6u8p3",
+          "word": "moon",
+          "drawing": "grey moon with three small craters"
+        },
+        {
+          "id": "g6u8p4",
+          "word": "rocket",
+          "drawing": "white rocket with orange fins"
+        },
+        {
+          "id": "g6u8p5",
+          "word": "telescope",
+          "drawing": "long telescope standing on a tripod"
+        },
+        {
+          "id": "g6u8p6",
+          "word": "astronaut",
+          "drawing": "astronaut wearing a white spacesuit and helmet"
+        },
+        {
+          "id": "g6u8p7",
+          "word": "satellite",
+          "drawing": "satellite with two blue solar panels"
+        },
+        {
+          "id": "g6u8p8",
+          "word": "robot",
+          "drawing": "friendly silver robot with square feet"
+        },
+        {
+          "id": "g6u8p9",
+          "word": "lightning",
+          "drawing": "yellow lightning bolt below a grey cloud"
+        }
+      ],
+      "questions": [
+        {
+          "id": "g6u8q1",
+          "q": "Which planet do we live on?",
+          "a": "We live on Earth."
+        },
+        {
+          "id": "g6u8q2",
+          "q": "What are you going to use to see Mars?",
+          "a": "We are going to use a telescope."
+        },
+        {
+          "id": "g6u8q3",
+          "q": "Who is going to visit our space club?",
+          "a": "An astronaut is going to visit."
+        },
+        {
+          "id": "g6u8q4",
+          "q": "When is the school space show?",
+          "a": "It is next Wednesday."
+        },
+        {
+          "id": "g6u8q5",
+          "q": "Where are you going to watch stars?",
+          "a": "On the hill near our town."
+        },
+        {
+          "id": "g6u8q6",
+          "q": "How many planets are in our system?",
+          "a": "There are eight planets."
+        },
+        {
+          "id": "g6u8q7",
+          "q": "Why do astronauts wear spacesuits?",
+          "a": "To stay safe in space."
+        },
+        {
+          "id": "g6u8q8",
+          "q": "Will the robot help with the project?",
+          "a": "Yes, it will carry our tools."
+        },
+        {
+          "id": "g6u8q9",
+          "q": "How will we get to the space museum?",
+          "a": "We will take the school bus."
+        }
+      ],
+      "completions": [
+        {
+          "id": "g6u8h1",
+          "start": "The astronaut has got…",
+          "end": "…a white spacesuit.",
+          "wrongEndings": [
+            "g6u8h2",
+            "g6u8h5"
+          ]
+        },
+        {
+          "id": "g6u8h2",
+          "start": "Our space club…",
+          "end": "…is going to meet on Friday.",
+          "wrongEndings": [
+            "g6u8h1",
+            "g6u8h4"
+          ]
+        },
+        {
+          "id": "g6u8h3",
+          "start": "We will…",
+          "end": "…learn more about the planets.",
+          "wrongEndings": [
+            "g6u8h2",
+            "g6u8h5"
+          ]
+        },
+        {
+          "id": "g6u8h4",
+          "start": "The telescope is…",
+          "end": "…beside the large window.",
+          "wrongEndings": [
+            "g6u8h2",
+            "g6u8h5"
+          ]
+        },
+        {
+          "id": "g6u8h5",
+          "start": "This robot…",
+          "end": "…has two strong arms.",
+          "wrongEndings": [
+            "g6u8h1",
+            "g6u8h4"
+          ]
+        },
+        {
+          "id": "g6u8h6",
+          "start": "Please show…",
+          "end": "…us your space model.",
+          "wrongEndings": [
+            "g6u8h2",
+            "g6u8h5"
+          ]
+        },
+        {
+          "id": "g6u8h7",
+          "start": "These stars are…",
+          "end": "…far away from Earth.",
+          "wrongEndings": [
+            "g6u8h2",
+            "g6u8h5"
+          ]
+        },
+        {
+          "id": "g6u8h8",
+          "start": "I enjoy…",
+          "end": "…looking at the night sky.",
+          "wrongEndings": [
+            "g6u8h2",
+            "g6u8h5"
+          ]
+        },
+        {
+          "id": "g6u8h9",
+          "start": "Our class wants…",
+          "end": "…to build a small rocket model.",
+          "wrongEndings": [
+            "g6u8h2",
+            "g6u8h5"
+          ]
+        }
+      ],
+      "sentences": [
+        {
+          "id": "g6u8s1",
+          "blocks": [
+            "We",
+            "are going to see",
+            "the Moon."
+          ],
+          "difficulty": 1,
+          "tr": "Ay’ı göreceğiz."
+        },
+        {
+          "id": "g6u8s2",
+          "blocks": [
+            "We",
+            "will test",
+            "the robot."
+          ],
+          "difficulty": 1,
+          "tr": "Robotu test edeceğiz."
+        },
+        {
+          "id": "g6u8s3",
+          "blocks": [
+            "The astronaut",
+            "wears",
+            "a spacesuit."
+          ],
+          "difficulty": 1,
+          "tr": "Astronot uzay giysisi giyer."
+        },
+        {
+          "id": "g6u8s4",
+          "blocks": [
+            "Our teacher",
+            "shows",
+            "us",
+            "a comet."
+          ],
+          "difficulty": 2,
+          "tr": "Öğretmenimiz bize bir kuyruklu yıldız gösterir."
+        },
+        {
+          "id": "g6u8s5",
+          "blocks": [
+            "This",
+            "is",
+            "my new",
+            "telescope."
+          ],
+          "difficulty": 2,
+          "tr": "Bu benim yeni teleskobum."
+        },
+        {
+          "id": "g6u8s6",
+          "blocks": [
+            "The robot",
+            "has got",
+            "two strong",
+            "arms."
+          ],
+          "difficulty": 2,
+          "tr": "Robotun iki güçlü kolu var."
+        },
+        {
+          "id": "g6u8s7",
+          "blocks": [
+            "Elif",
+            "gives",
+            "me",
+            "her planet model."
+          ],
+          "difficulty": 2,
+          "tr": "Elif bana gezegen modelini verir."
+        },
+        {
+          "id": "g6u8s8",
+          "blocks": [
+            "These",
+            "are",
+            "the astronaut's",
+            "gloves."
+          ],
+          "difficulty": 2,
+          "tr": "Bunlar astronotun eldivenleri."
+        },
+        {
+          "id": "g6u8s9",
+          "blocks": [
+            "I",
+            "think",
+            "space travel",
+            "is",
+            "exciting."
+          ],
+          "difficulty": 2,
+          "tr": "Bence uzay yolculuğu heyecan verici."
+        },
+        {
+          "id": "g6u8s10",
+          "blocks": [
+            "We",
+            "know",
+            "the Sun",
+            "is",
+            "a star."
+          ],
+          "difficulty": 2,
+          "tr": "Güneş'in bir yıldız olduğunu biliyoruz."
+        }
+      ],
+      "translations": [
+        {
+          "id": "g6u8t1",
+          "en": "solar system",
+          "tr": "Güneş sistemi"
+        },
+        {
+          "id": "g6u8t2",
+          "en": "orbit",
+          "tr": "yörünge"
+        },
+        {
+          "id": "g6u8t3",
+          "en": "Earth",
+          "tr": "Dünya"
+        },
+        {
+          "id": "g6u8t4",
+          "en": "star",
+          "tr": "yıldız"
+        },
+        {
+          "id": "g6u8t5",
+          "en": "space",
+          "tr": "uzay"
+        },
+        {
+          "id": "g6u8t6",
+          "en": "surface",
+          "tr": "yüzey"
+        },
+        {
+          "id": "g6u8t7",
+          "en": "gravity",
+          "tr": "yer çekimi"
+        },
+        {
+          "id": "g6u8t8",
+          "en": "observe",
+          "tr": "gözlemlemek"
+        },
+        {
+          "id": "g6u8t9",
+          "en": "launch",
+          "tr": "fırlatmak"
+        }
+      ]
+    },
+    {
+      "id": "g6u9",
+      "title": "Health and First Aid",
+      "source": "general",
+      "targetLanguage": [
+        "Common health problems and everyday health items",
+        "Asking about simple health needs",
+        "Basic instructions with can/must",
+        "Present simple and past was/were for feelings"
+      ],
+      "categories": [
+        {
+          "id": "g6u9c1",
+          "title": "HEALTH PROBLEMS",
+          "yes": [
+            "headache",
+            "toothache",
+            "cough",
+            "fever",
+            "cold",
+            "sore throat",
+            "stomach ache",
+            "rash",
+            "runny nose",
+            "earache"
+          ],
+          "no": [
+            "racket",
+            "net",
+            "goal",
+            "ball",
+            "medal",
+            "bat",
+            "helmet",
+            "trainers",
+            "knee pads",
+            "stopwatch"
+          ]
+        },
+        {
+          "id": "g6u9c2",
+          "title": "HEALTH ITEMS",
+          "yes": [
+            "bandage",
+            "plaster",
+            "soap",
+            "tissue",
+            "thermometer",
+            "toothbrush",
+            "toothpaste",
+            "towel",
+            "mask",
+            "first-aid kit"
+          ],
+          "no": [
+            "guitar",
+            "drum",
+            "flute",
+            "violin",
+            "piano",
+            "trumpet",
+            "tambourine",
+            "harp",
+            "cello",
+            "clarinet"
+          ]
+        }
+      ],
+      "descriptions": [
+        {
+          "id": "g6u9d1",
+          "clue": "You use me to check your temperature.",
+          "options": [
+            "toothbrush",
+            "towel",
+            "thermometer"
+          ],
+          "answer": "thermometer"
+        },
+        {
+          "id": "g6u9d2",
+          "clue": "You put me over a small cut to keep it clean.",
+          "options": [
+            "soap",
+            "plaster",
+            "tissue"
+          ],
+          "answer": "plaster"
+        },
+        {
+          "id": "g6u9d3",
+          "clue": "You use me to dry your hands.",
+          "options": [
+            "towel",
+            "mask",
+            "bandage"
+          ],
+          "answer": "towel"
+        },
+        {
+          "id": "g6u9d4",
+          "clue": "You put me on a toothbrush to clean your teeth.",
+          "options": [
+            "soap",
+            "tissue",
+            "toothpaste"
+          ],
+          "answer": "toothpaste"
+        },
+        {
+          "id": "g6u9d5",
+          "clue": "You use me with water to wash your hands.",
+          "options": [
+            "toothpaste",
+            "soap",
+            "plaster"
+          ],
+          "answer": "soap"
+        },
+        {
+          "id": "g6u9d6",
+          "clue": "You use me when you need to blow your nose.",
+          "options": [
+            "tissue",
+            "toothbrush",
+            "mask"
+          ],
+          "answer": "tissue"
+        }
+      ],
+      "pictures": [
+        {
+          "id": "g6u9p1",
+          "word": "bandage",
+          "drawing": "roll of white bandage beside a loose strip"
+        },
+        {
+          "id": "g6u9p2",
+          "word": "plaster",
+          "drawing": "small plaster with a white central pad"
+        },
+        {
+          "id": "g6u9p3",
+          "word": "thermometer",
+          "drawing": "digital thermometer with a small display"
+        },
+        {
+          "id": "g6u9p4",
+          "word": "tissue",
+          "drawing": "white tissue coming out of a blue box"
+        },
+        {
+          "id": "g6u9p5",
+          "word": "soap",
+          "drawing": "green bar of soap with three bubbles"
+        },
+        {
+          "id": "g6u9p6",
+          "word": "mask",
+          "drawing": "blue face mask with two ear loops"
+        },
+        {
+          "id": "g6u9p7",
+          "word": "towel",
+          "drawing": "folded yellow hand towel"
+        },
+        {
+          "id": "g6u9p8",
+          "word": "toothbrush",
+          "drawing": "blue toothbrush with short white bristles"
+        },
+        {
+          "id": "g6u9p9",
+          "word": "toothpaste",
+          "drawing": "white toothpaste tube with a green cap"
+        }
+      ],
+      "questions": [
+        {
+          "id": "g6u9q1",
+          "q": "How did you feel yesterday?",
+          "a": "I felt tired and had a headache."
+        },
+        {
+          "id": "g6u9q2",
+          "q": "What do you use to check a fever?",
+          "a": "A thermometer."
+        },
+        {
+          "id": "g6u9q3",
+          "q": "Who can help with a toothache?",
+          "a": "A dentist can help."
+        },
+        {
+          "id": "g6u9q4",
+          "q": "Where is the first-aid kit?",
+          "a": "It is in the nurse's office."
+        },
+        {
+          "id": "g6u9q5",
+          "q": "When do you wash your hands?",
+          "a": "Before meals; after the toilet."
+        },
+        {
+          "id": "g6u9q6",
+          "q": "Why do you carry a water bottle?",
+          "a": "To drink water when I need it."
+        },
+        {
+          "id": "g6u9q7",
+          "q": "How many clean towels are there?",
+          "a": "There are three clean towels."
+        },
+        {
+          "id": "g6u9q8",
+          "q": "Which part of your body hurts?",
+          "a": "My left ear hurts."
+        },
+        {
+          "id": "g6u9q9",
+          "q": "Can you tell a teacher you feel ill?",
+          "a": "Yes, I can ask the teacher."
+        }
+      ],
+      "completions": [
+        {
+          "id": "g6u9h1",
+          "start": "I have got…",
+          "end": "…a sore throat.",
+          "wrongEndings": [
+            "g6u9h2",
+            "g6u9h5"
+          ]
+        },
+        {
+          "id": "g6u9h2",
+          "start": "My little brother…",
+          "end": "…needs a clean tissue.",
+          "wrongEndings": [
+            "g6u9h1",
+            "g6u9h4"
+          ]
+        },
+        {
+          "id": "g6u9h3",
+          "start": "You can…",
+          "end": "…ask the school nurse for help.",
+          "wrongEndings": [
+            "g6u9h2",
+            "g6u9h5"
+          ]
+        },
+        {
+          "id": "g6u9h4",
+          "start": "The thermometer is…",
+          "end": "…inside the first-aid kit.",
+          "wrongEndings": [
+            "g6u9h2",
+            "g6u9h5"
+          ]
+        },
+        {
+          "id": "g6u9h5",
+          "start": "Our doctor…",
+          "end": "…checks my temperature.",
+          "wrongEndings": [
+            "g6u9h1",
+            "g6u9h4"
+          ]
+        },
+        {
+          "id": "g6u9h6",
+          "start": "Please wash…",
+          "end": "…your hands with soap.",
+          "wrongEndings": [
+            "g6u9h2",
+            "g6u9h5"
+          ]
+        },
+        {
+          "id": "g6u9h7",
+          "start": "These towels are…",
+          "end": "…dry and clean.",
+          "wrongEndings": [
+            "g6u9h2",
+            "g6u9h5"
+          ]
+        },
+        {
+          "id": "g6u9h8",
+          "start": "I want…",
+          "end": "…to rest because I feel tired.",
+          "wrongEndings": [
+            "g6u9h2",
+            "g6u9h5"
+          ]
+        },
+        {
+          "id": "g6u9h9",
+          "start": "We use toothpaste…",
+          "end": "…to clean our teeth.",
+          "wrongEndings": [
+            "g6u9h2",
+            "g6u9h5"
+          ]
+        }
+      ],
+      "sentences": [
+        {
+          "id": "g6u9s1",
+          "blocks": [
+            "My sister",
+            "has got",
+            "a headache."
+          ],
+          "difficulty": 1,
+          "tr": "Kız kardeşimin başı ağrıyor."
+        },
+        {
+          "id": "g6u9s2",
+          "blocks": [
+            "I",
+            "need",
+            "a clean tissue."
+          ],
+          "difficulty": 1,
+          "tr": "Temiz bir mendile ihtiyacım var."
+        },
+        {
+          "id": "g6u9s3",
+          "blocks": [
+            "We",
+            "must wash",
+            "our hands."
+          ],
+          "difficulty": 1,
+          "tr": "Ellerimizi yıkamalıyız."
+        },
+        {
+          "id": "g6u9s4",
+          "blocks": [
+            "The nurse",
+            "gives",
+            "me",
+            "a thermometer."
+          ],
+          "difficulty": 2,
+          "tr": "Hemşire bana bir termometre verir."
+        },
+        {
+          "id": "g6u9s5",
+          "blocks": [
+            "This",
+            "is",
+            "a clean",
+            "bandage."
+          ],
+          "difficulty": 2,
+          "tr": "Bu temiz bir bandaj."
+        },
+        {
+          "id": "g6u9s6",
+          "blocks": [
+            "My mother",
+            "brings",
+            "me",
+            "a towel."
+          ],
+          "difficulty": 2,
+          "tr": "Annem bana bir havlu getirir."
+        },
+        {
+          "id": "g6u9s7",
+          "blocks": [
+            "Our classroom",
+            "has got",
+            "a small",
+            "first-aid kit."
+          ],
+          "difficulty": 2,
+          "tr": "Sınıfımızda küçük bir ilk yardım çantası var."
+        },
+        {
+          "id": "g6u9s8",
+          "blocks": [
+            "These",
+            "are",
+            "my brother's",
+            "toothbrushes."
+          ],
+          "difficulty": 2,
+          "tr": "Bunlar erkek kardeşimin diş fırçaları."
+        },
+        {
+          "id": "g6u9s9",
+          "blocks": [
+            "I",
+            "think",
+            "clean hands",
+            "are",
+            "important."
+          ],
+          "difficulty": 2,
+          "tr": "Bence ellerin temiz olması önemli."
+        },
+        {
+          "id": "g6u9s10",
+          "blocks": [
+            "My friend",
+            "says",
+            "she",
+            "feels",
+            "tired."
+          ],
+          "difficulty": 2,
+          "tr": "Arkadaşım kendini yorgun hissettiğini söylüyor."
+        }
+      ],
+      "translations": [
+        {
+          "id": "g6u9t1",
+          "en": "headache",
+          "tr": "baş ağrısı"
+        },
+        {
+          "id": "g6u9t2",
+          "en": "toothache",
+          "tr": "diş ağrısı"
+        },
+        {
+          "id": "g6u9t3",
+          "en": "cough",
+          "tr": "öksürük"
+        },
+        {
+          "id": "g6u9t4",
+          "en": "fever",
+          "tr": "ateş"
+        },
+        {
+          "id": "g6u9t5",
+          "en": "sore throat",
+          "tr": "boğaz ağrısı"
+        },
+        {
+          "id": "g6u9t6",
+          "en": "stomach ache",
+          "tr": "karın ağrısı"
+        },
+        {
+          "id": "g6u9t7",
+          "en": "earache",
+          "tr": "kulak ağrısı"
+        },
+        {
+          "id": "g6u9t8",
+          "en": "plaster",
+          "tr": "yara bandı"
+        },
+        {
+          "id": "g6u9t9",
+          "en": "bandage",
+          "tr": "bandaj"
+        }
+      ]
+    },
+    {
+      "id": "g6u10",
+      "title": "Sports and Fitness",
+      "source": "general",
+      "targetLanguage": [
+        "Common sports and equipment",
+        "Sports habits: present simple and frequency",
+        "Abilities: can/cannot",
+        "Simple comparisons in sport"
+      ],
+      "categories": [
+        {
+          "id": "g6u10c1",
+          "title": "SPORTS",
+          "yes": [
+            "football",
+            "basketball",
+            "tennis",
+            "volleyball",
+            "swimming",
+            "running",
+            "cycling",
+            "badminton",
+            "gymnastics",
+            "handball"
+          ],
+          "no": [
+            "ball",
+            "racket",
+            "net",
+            "bat",
+            "helmet",
+            "trainers",
+            "knee pads",
+            "goal",
+            "stopwatch",
+            "water bottle"
+          ]
+        },
+        {
+          "id": "g6u10c2",
+          "title": "SPORTS EQUIPMENT",
+          "yes": [
+            "ball",
+            "racket",
+            "net",
+            "bat",
+            "helmet",
+            "trainers",
+            "knee pads",
+            "goal",
+            "stopwatch",
+            "water bottle"
+          ],
+          "no": [
+            "football",
+            "basketball",
+            "tennis",
+            "volleyball",
+            "swimming",
+            "running",
+            "cycling",
+            "badminton",
+            "gymnastics",
+            "handball"
+          ]
+        }
+      ],
+      "descriptions": [
+        {
+          "id": "g6u10d1",
+          "clue": "You hit a ball with me in tennis.",
+          "options": [
+            "paddle",
+            "racket",
+            "bat"
+          ],
+          "answer": "racket"
+        },
+        {
+          "id": "g6u10d2",
+          "clue": "You kick me in a game of football.",
+          "options": [
+            "football",
+            "basketball",
+            "tennis ball"
+          ],
+          "answer": "football"
+        },
+        {
+          "id": "g6u10d3",
+          "clue": "I protect your head when you cycle.",
+          "options": [
+            "knee pads",
+            "gloves",
+            "helmet"
+          ],
+          "answer": "helmet"
+        },
+        {
+          "id": "g6u10d4",
+          "clue": "A ball goes over me in a game of volleyball.",
+          "options": [
+            "hoop",
+            "net",
+            "goal"
+          ],
+          "answer": "net"
+        },
+        {
+          "id": "g6u10d5",
+          "clue": "I show how long a runner takes.",
+          "options": [
+            "stopwatch",
+            "compass",
+            "thermometer"
+          ],
+          "answer": "stopwatch"
+        },
+        {
+          "id": "g6u10d6",
+          "clue": "You try to kick a football into me.",
+          "options": [
+            "netball hoop",
+            "basket",
+            "goal"
+          ],
+          "answer": "goal"
+        }
+      ],
+      "pictures": [
+        {
+          "id": "g6u10p1",
+          "word": "football",
+          "drawing": "black and white football on grass"
+        },
+        {
+          "id": "g6u10p2",
+          "word": "basketball",
+          "drawing": "orange basketball with curved black lines"
+        },
+        {
+          "id": "g6u10p3",
+          "word": "racket",
+          "drawing": "tennis racket with white strings"
+        },
+        {
+          "id": "g6u10p4",
+          "word": "net",
+          "drawing": "volleyball net between two short poles"
+        },
+        {
+          "id": "g6u10p5",
+          "word": "goal",
+          "drawing": "small football goal with a white net"
+        },
+        {
+          "id": "g6u10p6",
+          "word": "medal",
+          "drawing": "gold medal hanging from a blue ribbon"
+        },
+        {
+          "id": "g6u10p7",
+          "word": "trainers",
+          "drawing": "pair of red sports shoes with white laces"
+        },
+        {
+          "id": "g6u10p8",
+          "word": "knee pads",
+          "drawing": "two black knee pads with soft centres"
+        },
+        {
+          "id": "g6u10p9",
+          "word": "water bottle",
+          "drawing": "reusable blue sports bottle with a drinking cap"
+        }
+      ],
+      "questions": [
+        {
+          "id": "g6u10q1",
+          "q": "Which sport do you play after school?",
+          "a": "I play basketball."
+        },
+        {
+          "id": "g6u10q2",
+          "q": "How often do you go swimming?",
+          "a": "I go swimming twice a week."
+        },
+        {
+          "id": "g6u10q3",
+          "q": "Where do you play tennis?",
+          "a": "At the sports centre."
+        },
+        {
+          "id": "g6u10q4",
+          "q": "Who trains your football team?",
+          "a": "Our coach, Ms Acar, trains us."
+        },
+        {
+          "id": "g6u10q5",
+          "q": "When does the volleyball match begin?",
+          "a": "It begins at four o'clock."
+        },
+        {
+          "id": "g6u10q6",
+          "q": "Why do cyclists wear helmets?",
+          "a": "To protect their heads."
+        },
+        {
+          "id": "g6u10q7",
+          "q": "How many players are in this team?",
+          "a": "There are eleven players."
+        },
+        {
+          "id": "g6u10q8",
+          "q": "Can your brother swim?",
+          "a": "Yes, he can swim very well."
+        },
+        {
+          "id": "g6u10q9",
+          "q": "What do you hit a tennis ball with?",
+          "a": "They use a racket."
+        }
+      ],
+      "completions": [
+        {
+          "id": "g6u10h1",
+          "start": "I need…",
+          "end": "…a tennis racket.",
+          "wrongEndings": [
+            "g6u10h2",
+            "g6u10h5"
+          ]
+        },
+        {
+          "id": "g6u10h2",
+          "start": "Our basketball team…",
+          "end": "…trains twice a week.",
+          "wrongEndings": [
+            "g6u10h1",
+            "g6u10h4"
+          ]
+        },
+        {
+          "id": "g6u10h3",
+          "start": "We can…",
+          "end": "…practise at the sports centre.",
+          "wrongEndings": [
+            "g6u10h2",
+            "g6u10h5"
+          ]
+        },
+        {
+          "id": "g6u10h4",
+          "start": "The football is…",
+          "end": "…beside the goal.",
+          "wrongEndings": [
+            "g6u10h2",
+            "g6u10h5"
+          ]
+        },
+        {
+          "id": "g6u10h5",
+          "start": "My swimming coach…",
+          "end": "…teaches young children.",
+          "wrongEndings": [
+            "g6u10h1",
+            "g6u10h4"
+          ]
+        },
+        {
+          "id": "g6u10h6",
+          "start": "Please bring…",
+          "end": "…me a full water bottle.",
+          "wrongEndings": [
+            "g6u10h2",
+            "g6u10h5"
+          ]
+        },
+        {
+          "id": "g6u10h7",
+          "start": "These trainers are…",
+          "end": "…lighter than my old ones.",
+          "wrongEndings": [
+            "g6u10h2",
+            "g6u10h5"
+          ]
+        },
+        {
+          "id": "g6u10h8",
+          "start": "I enjoy…",
+          "end": "…playing badminton with Ece.",
+          "wrongEndings": [
+            "g6u10h2",
+            "g6u10h5"
+          ]
+        },
+        {
+          "id": "g6u10h9",
+          "start": "We want…",
+          "end": "…to learn a new sport.",
+          "wrongEndings": [
+            "g6u10h2",
+            "g6u10h5"
+          ]
+        }
+      ],
+      "sentences": [
+        {
+          "id": "g6u10s1",
+          "blocks": [
+            "My sister",
+            "plays",
+            "volleyball."
+          ],
+          "difficulty": 1,
+          "tr": "Kız kardeşim voleybol oynar."
+        },
+        {
+          "id": "g6u10s2",
+          "blocks": [
+            "We",
+            "can play",
+            "volleyball."
+          ],
+          "difficulty": 1,
+          "tr": "Voleybol oynayabiliriz."
+        },
+        {
+          "id": "g6u10s3",
+          "blocks": [
+            "This racket",
+            "feels",
+            "light."
+          ],
+          "difficulty": 1,
+          "tr": "Bu raket hafif geliyor."
+        },
+        {
+          "id": "g6u10s4",
+          "blocks": [
+            "Our coach",
+            "gives",
+            "us",
+            "a football."
+          ],
+          "difficulty": 2,
+          "tr": "Antrenörümüz bize bir futbol topu verir."
+        },
+        {
+          "id": "g6u10s5",
+          "blocks": [
+            "This",
+            "is",
+            "my new",
+            "helmet."
+          ],
+          "difficulty": 2,
+          "tr": "Bu benim yeni kaskım."
+        },
+        {
+          "id": "g6u10s6",
+          "blocks": [
+            "My brother",
+            "has got",
+            "a gold",
+            "medal."
+          ],
+          "difficulty": 2,
+          "tr": "Erkek kardeşimin altın bir madalyası var."
+        },
+        {
+          "id": "g6u10s7",
+          "blocks": [
+            "Elif",
+            "shows",
+            "me",
+            "her trainers."
+          ],
+          "difficulty": 2,
+          "tr": "Elif bana spor ayakkabılarını gösterir."
+        },
+        {
+          "id": "g6u10s8",
+          "blocks": [
+            "These",
+            "are",
+            "our team's",
+            "water bottles."
+          ],
+          "difficulty": 2,
+          "tr": "Bunlar takımımızın su şişeleri."
+        },
+        {
+          "id": "g6u10s9",
+          "blocks": [
+            "I",
+            "think",
+            "this sport",
+            "is",
+            "exciting."
+          ],
+          "difficulty": 2,
+          "tr": "Bence bu spor heyecan verici."
+        },
+        {
+          "id": "g6u10s10",
+          "blocks": [
+            "Our coach",
+            "says",
+            "we",
+            "are",
+            "ready."
+          ],
+          "difficulty": 2,
+          "tr": "Antrenörümüz hazır olduğumuzu söylüyor."
+        }
+      ],
+      "translations": [
+        {
+          "id": "g6u10t1",
+          "en": "football",
+          "tr": "futbol"
+        },
+        {
+          "id": "g6u10t2",
+          "en": "basketball",
+          "tr": "basketbol"
+        },
+        {
+          "id": "g6u10t3",
+          "en": "tennis",
+          "tr": "tenis"
+        },
+        {
+          "id": "g6u10t4",
+          "en": "volleyball",
+          "tr": "voleybol"
+        },
+        {
+          "id": "g6u10t5",
+          "en": "swimming",
+          "tr": "yüzme"
+        },
+        {
+          "id": "g6u10t6",
+          "en": "running",
+          "tr": "koşu"
+        },
+        {
+          "id": "g6u10t7",
+          "en": "cycling",
+          "tr": "bisiklete binme"
+        },
+        {
+          "id": "g6u10t8",
+          "en": "racket",
+          "tr": "raket"
+        },
+        {
+          "id": "g6u10t9",
+          "en": "knee pads",
+          "tr": "dizlik"
+        }
+      ]
+    }
+  ]
+}

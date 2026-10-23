@@ -1,0 +1,20 @@
+✔ the real opening scene renders with no service, changes arenas, starts and returns to setup (27379.971115ms)
+✔ a first-frame render failure keeps startup blocked and offers a visible retry (5041.214661ms)
+✔ an animation-frame render failure after opening gives a retry instead of silently freezing (4856.186565ms)
+✔ the exact game entry can finish local startup with every network request blocked (63.719885ms)
+✔ blocked file-origin storage does not prevent the setup screen from opening (27.084278ms)
+✔ local artwork is embedded and exactly matches every shipped Fluent image (42.775856ms)
+✔ the extracted index loads classic scripts in startup order without module imports (1.557671ms)
+✔ script load failures and initialization exceptions replace the spinner with a retry (1.419696ms)
+✔ a stalled startup has a finite timeout and does not silently hide its error (0.700959ms)
+✔ the phone frame uses an explicit local HTML path and permits only its own window messages (1.529048ms)
+✔ actual setup blocks later arenas and cached selection until a saved Cafe win exists (28120.75039ms)
+✔ tab return keeps Resume accessible and repeated hide/focus cycles preserve one render loop (7023.303065ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 73125.228628

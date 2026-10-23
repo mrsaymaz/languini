@@ -1,0 +1,10 @@
+✔ preparation hides Turkish until correct and protects the full two-second reveal before fresh ingredients (3204.652257ms)
+✔ rotation preserves translation time remaining rather than skipping or restarting the reveal (2457.292337ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 2
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 5903.371774

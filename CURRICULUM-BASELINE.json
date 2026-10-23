@@ -1,0 +1,260 @@
+{
+  "basedOn": "0.12.0",
+  "files": {
+    "content/dialogue-links.json": "92a8790c89cc19798305fa725dcad3f010d18b956ea96ccf0ad7f50dd638bc4a",
+    "content/fluent-emoji-assets.json": "9ff60e356fc9a3b8d9235141a25c5947e4e0ac6d88df24bee10422ce08a2def7",
+    "content/fluent-word-map.json": "86c9c104f66fce8fc088de646e470d43d09d85dbb73909da9007eb66a241d7de",
+    "content/grade5.json": "ab2e64d700abb66e5e4674ad5f289bb9e0d46858c5779e6de73bbf3d02c68ca5",
+    "content/grade6.json": "15dbf9fbd1d8a6c6960ec7d8833f5d656e32b9da35bd24eb67350aa982d411ee",
+    "content/grade7.json": "d4e005c6f744b0d1f2336e6b80a39465f3027e8078938ce84a4f343caf120ace",
+    "content/grade8.json": "8eb581dac9f4557b5f181a1ad256a4a9ae016ab4b28cb7727fba7858cacef3b5",
+    "content/reviewed-replies.json": "fff666c13507632190617b7b0aed78fe56aea6c07c8f30516b465696641c1a33",
+    "content/sorting-packs.json": "30ae4d959c4558a17fbfe7b2c9b60fe444b82ceddeb5c3c4d01615f334cf3ac1",
+    "content/wordrift-base.json": "bbd2b1b2e0fdba8a7218a7bb74ab5d0a74bbdab2297b57fcd0d88fac7e1f982f",
+    "public/data/grade-bank-import.json": "4cd7555ac0428491679166aa9cf8627df6ad282e93c4b349cf34f82e40f68035",
+    "public/data/language.json": "4018a75658d58105292e03e874f74dbccb61165271a7e2686eeae7063c837c69",
+    "public/data/provenance.json": "87e1435881c59c74e39b920a859254226c5620c1553011ec800dc9994e5c6d96"
+  },
+  "catalog": [
+    {
+      "grade": 5,
+      "units": [
+        {
+          "id": "g5u1",
+          "title": "School Life",
+          "tasks": 68
+        },
+        {
+          "id": "g5u2",
+          "title": "Classroom Life",
+          "tasks": 64
+        },
+        {
+          "id": "g5u3",
+          "title": "Personal Life",
+          "tasks": 101
+        },
+        {
+          "id": "g5u4",
+          "title": "Family Life",
+          "tasks": 70
+        },
+        {
+          "id": "g5u5",
+          "title": "Life in the Neighbourhood & City",
+          "tasks": 69
+        },
+        {
+          "id": "g5u6",
+          "title": "Life in the World",
+          "tasks": 67
+        },
+        {
+          "id": "g5u7",
+          "title": "Life in Nature",
+          "tasks": 65
+        },
+        {
+          "id": "g5u8",
+          "title": "Life in the Universe & Future",
+          "tasks": 66
+        },
+        {
+          "id": "g5u9",
+          "title": "Jobs and Workplaces",
+          "tasks": 39
+        },
+        {
+          "id": "g5u10",
+          "title": "At the Toy Shop",
+          "tasks": 68
+        }
+      ]
+    },
+    {
+      "grade": 6,
+      "units": [
+        {
+          "id": "g6u1",
+          "title": "School Life",
+          "tasks": 70
+        },
+        {
+          "id": "g6u2",
+          "title": "Classroom Life",
+          "tasks": 70
+        },
+        {
+          "id": "g6u3",
+          "title": "Personal Life",
+          "tasks": 70
+        },
+        {
+          "id": "g6u4",
+          "title": "Family Life",
+          "tasks": 72
+        },
+        {
+          "id": "g6u5",
+          "title": "Life in the Neighbourhood & City",
+          "tasks": 66
+        },
+        {
+          "id": "g6u6",
+          "title": "Life in the World & Culture",
+          "tasks": 70
+        },
+        {
+          "id": "g6u7",
+          "title": "Life in Nature & Global Problems",
+          "tasks": 70
+        },
+        {
+          "id": "g6u8",
+          "title": "Life in the Universe & Future",
+          "tasks": 69
+        },
+        {
+          "id": "g6u9",
+          "title": "Shopping and Money",
+          "tasks": 69
+        },
+        {
+          "id": "g6u10",
+          "title": "Health and Well-being",
+          "tasks": 66
+        }
+      ]
+    },
+    {
+      "grade": 7,
+      "units": [
+        {
+          "id": "g7u1",
+          "title": "Appearance and Personality",
+          "tasks": 67
+        },
+        {
+          "id": "g7u2",
+          "title": "Sports",
+          "tasks": 71
+        },
+        {
+          "id": "g7u3",
+          "title": "Biographies",
+          "tasks": 69
+        },
+        {
+          "id": "g7u4",
+          "title": "Wild Animals",
+          "tasks": 69
+        },
+        {
+          "id": "g7u5",
+          "title": "Television",
+          "tasks": 99
+        },
+        {
+          "id": "g7u6",
+          "title": "Celebrations",
+          "tasks": 66
+        },
+        {
+          "id": "g7u7",
+          "title": "Dreams",
+          "tasks": 70
+        },
+        {
+          "id": "g7u8",
+          "title": "Public Buildings",
+          "tasks": 97
+        },
+        {
+          "id": "g7u9",
+          "title": "Environment",
+          "tasks": 71
+        },
+        {
+          "id": "g7u10",
+          "title": "Planets",
+          "tasks": 70
+        },
+        {
+          "id": "g7u11",
+          "title": "Food and Cooking",
+          "tasks": 39
+        },
+        {
+          "id": "g7u12",
+          "title": "Travel and Holidays",
+          "tasks": 39
+        }
+      ]
+    },
+    {
+      "grade": 8,
+      "units": [
+        {
+          "id": "g8u1",
+          "title": "Friendship",
+          "tasks": 70
+        },
+        {
+          "id": "g8u2",
+          "title": "Teen Life",
+          "tasks": 134
+        },
+        {
+          "id": "g8u3",
+          "title": "In the Kitchen",
+          "tasks": 70
+        },
+        {
+          "id": "g8u4",
+          "title": "On the Phone",
+          "tasks": 70
+        },
+        {
+          "id": "g8u5",
+          "title": "The Internet",
+          "tasks": 70
+        },
+        {
+          "id": "g8u6",
+          "title": "Adventures",
+          "tasks": 69
+        },
+        {
+          "id": "g8u7",
+          "title": "Tourism",
+          "tasks": 69
+        },
+        {
+          "id": "g8u8",
+          "title": "Chores",
+          "tasks": 69
+        },
+        {
+          "id": "g8u9",
+          "title": "Science",
+          "tasks": 70
+        },
+        {
+          "id": "g8u10",
+          "title": "Natural Forces",
+          "tasks": 68
+        },
+        {
+          "id": "g8u11",
+          "title": "Shopping and Services",
+          "tasks": 39
+        },
+        {
+          "id": "g8u12",
+          "title": "Animals and Pet Care",
+          "tasks": 39
+        }
+      ]
+    }
+  ]
+}

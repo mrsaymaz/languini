@@ -1,0 +1,27 @@
+// Independent traits avoid tying one skin tone, hairstyle and outfit together.
+export const CUSTOMER_PROFILES=[
+  ['Aylin',2,0,2,'bob','cardigan','round',1.00,1.00,'female'],
+  ['Emir',0,1,0,'crop','hoodie','none',.94,.94,'male'],
+  ['Ada',4,2,5,'braids','striped','none',.97,.93,'female'],
+  ['Deniz',1,4,3,'curls','jacket','square',1.08,1.08,'male'],
+  ['Ece',3,0,7,'ponytail','cardigan','none',1.02,.96,'female'],
+  ['Mert',5,3,4,'sidepart','polo','none',1.06,1.02,'male'],
+  ['Zeynep',1,1,6,'scarf','jacket','none',1.01,1.04,'female'],
+  ['Arda',4,0,1,'coils','hoodie','round',.96,1.05,'male'],
+  ['Elif',0,2,4,'bun','striped','none',1.10,.96,'female'],
+  ['Kerem',3,1,5,'swept','polo','square',1.00,1.09,'male'],
+  ['Selin',2,3,0,'bob','jacket','none',.94,1.00,'female'],
+  ['Eren',6,4,7,'crop','cardigan','round',1.07,.95,'male'],
+  ['Mina',5,0,3,'curls','striped','none',.98,1.05,'female'],
+  ['Ali',1,2,6,'sidepart','hoodie','none',1.10,1.00,'male'],
+  ['Duru',3,3,1,'braids','polo','round',1.00,.94,'female'],
+  ['Can',0,0,5,'coils','jacket','none',.95,1.07,'male'],
+  ['İpek',4,4,2,'scarf','cardigan','square',1.08,.98,'female'],
+  ['Bora',2,1,7,'swept','striped','none',1.02,1.08,'male'],
+  ['Asya',6,2,6,'ponytail','hoodie','none',.96,.96,'female'],
+  ['Kaan',5,0,0,'curls','polo','round',1.05,1.03,'male'],
+  ['Nehir',1,3,4,'bun','jacket','none',1.04,.96,'female'],
+  ['Ozan',3,4,2,'sidepart','cardigan','square',.99,1.07,'male'],
+  ['Lara',0,1,3,'bob','striped','none',1.09,1.00,'female'],
+  ['Yiğit',4,2,1,'crop','hoodie','none',1.01,.98,'male']
+].map(([name,skin,hair,shirt,hairstyle,outfit,glasses,height,width,voiceGender],id)=>({id,name,skin,hair,shirt,hairstyle,outfit,glasses,height,width,voiceGender}));

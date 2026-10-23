@@ -1,0 +1,37 @@
+✔ all arena/team combinations build finite complete 3D scenes (5472.773361ms)
+✔ table markers remain on screen at desktop and phone aspect ratios (3.22616ms)
+✔ static entrypoint includes all wired controls and local assets (22.40605ms)
+✔ close-ups keep each station above the phone task sheet (2.529679ms)
+✔ each camera has a distinct angle and recipe view is aerial (0.47707ms)
+✔ physical stations animate, remain pickable and restore the shared restaurant (390.774842ms)
+✔ customer-held menu is unobstructed from behind the right shoulder at every table (1265.847058ms)
+✔ all 24 customer profiles render, hold the menu and replace the previous table model (682.233307ms)
+✔ hanging paper meets its clip and checkout display sits in the existing terminal (273.594601ms)
+✔ all nine dishes plate distinct ingredients at stable landing heights (477.934674ms)
+✔ phone job switches walk to storage before opening the selected English task (22.633278ms)
+✔ stored trays remain selectable and cook only after an explicit Cook action (5.354533ms)
+✔ a cooked meal returns to the pass on a job switch without losing or duplicating a plate (5.480433ms)
+✔ a full holding counter swaps trays at the counter and never deletes either order (2.410699ms)
+✔ a full counter rejects unrelated switches and preserves a clear current destination (2.328665ms)
+✔ stored supply crates credit stock and rewards only when explicitly restocked (6.601665ms)
+✔ cancelling or changing a storage walk cannot execute its abandoned job (2.114973ms)
+✔ stale destination identities and closing state cannot start replacement tasks (1.526895ms)
+✔ trolley capacity remains useful without a Return control (2.658793ms)
+✔ two stored counter slots have individual Collect actions with no manual storage badges (4.364228ms)
+✔ a protected restocking request offers only its receiving and pantry route (1.809272ms)
+✔ phone HUD has one main action while desktop retains its station dock (6.92965ms)
+ℹ tests 22
+ℹ suites 0
+ℹ pass 22
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 8935.566013
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> languini@0.52.0 build
+> node scripts/build.mjs
+
+Languini v0.52.0 built · 44 units · eight stations · connected orders · phone preview
+

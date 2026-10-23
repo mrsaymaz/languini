@@ -1,0 +1,32 @@
+✔ complete listening clues and independent replay fit 32,648 measured menu states (541.187608ms)
+✔ two-word hints keep replay separate and retain clue and selections through rotation (261.508587ms)
+✔ unavailable speech reveals both words and keeps supported completion playable (252.529601ms)
+✔ rotation restarts exact requested pronunciation and holds advancement until it finishes (1732.782517ms)
+✔ selected matching cards survive refits without shuffling or losing the intended match (431.243537ms)
+✔ pause followed by rotation replays the last request only once on resume (283.59966ms)
+✔ five tall service markers stay separate and inside all supported work areas (1.881819ms)
+✔ guidance reflects destinations, ready meals and supplies without changing the service (0.697608ms)
+✔ an order retains its customer, table, dish and ticket through every station (11.200795ms)
+✔ ready dishes require their matching table and cannot be delivered twice (1.528237ms)
+✔ departing guests invalidate their selected dish without awarding runes (1.565743ms)
+✔ a featured service event resolves and the finale waits for committed handoffs (18.326116ms)
+✔ equipment has two selectable slots, practical effects and isolated purchases (1.738533ms)
+✔ warming shelves slow ready patience while English practice freezes all service needs (1.631802ms)
+✔ regular guests remember visits and favourites and give a postcard on their third visit (2.797415ms)
+✔ saved v0.6 profiles retain wallets and records while new state survives reload (0.71234ms)
+✔ supported vocabulary returns later across matching, listening and definitions (0.69852ms)
+✔ adaptive selection keeps complete question cycles and matching words inside the unit (0.73186ms)
+✔ matching records supported pairs individually and never makes free hints a purchase (0.523366ms)
+✔ feedback explains subject agreement and preserves the reviewed correct sentence (0.393782ms)
+✔ every station renders a consistent order token without changing answer text (1.152923ms)
+✔ refurbished restaurants and team equipment build finite geometry for all teams and arenas (2978.327925ms)
+✔ pass-and-play changes roles after successful delivery and preserves team neutrality (9.91949ms)
+✔ management signals remain separate touch targets on portrait and landscape screens (1.744242ms)
+ℹ tests 24
+ℹ suites 0
+ℹ pass 24
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 6947.743087

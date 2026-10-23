@@ -1,0 +1,6 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> languini@0.33.0 build
+> node scripts/build.mjs
+
+Languini v0.33.0 built · 44 units · six stations · connected orders · phone preview

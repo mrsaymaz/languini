@@ -1,0 +1,14 @@
+✔ zero to two hundred have unique, correctly formed British English names (1.67857ms)
+✔ number generation includes both endpoints and creates four distinct pairs per page (2.502349ms)
+✔ Relaxed requires four pairs and Challenge eight distinct pairs before one pickup release (14.727368ms)
+✔ real takeaway events finish their route at the number-label counter (6.329922ms)
+✔ all number names fit four-pair phone pages without smaller text or targets (911.026469ms)
+✔ the raised preparation surface clears kitchen props and guests without lifting the overview board (3223.498968ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4432.118171

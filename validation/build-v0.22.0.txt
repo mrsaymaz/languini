@@ -1,0 +1,6 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> rune-bistro@0.22.0 build
+> node scripts/build.mjs
+
+Rune Bistro v0.22.0 built · 44 units · six stations · connected orders · phone preview

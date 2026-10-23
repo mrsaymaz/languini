@@ -1,0 +1,2172 @@
+{
+  "version": "0.54.0",
+  "testRuns": [
+    {
+      "command": "node --max-old-space-size=512 --test tests/service.test.mjs tests/ulti.test.mjs tests/owner-guide.test.mjs tests/reputation-story.test.mjs tests/story-score.test.mjs tests/startup.test.mjs",
+      "passed": 57,
+      "failed": 0,
+      "exitCode": 0
+    },
+    {
+      "command": "node --max-old-space-size=512 --test tests/service.test.mjs tests/owner-guide.test.mjs tests/opening-acting.test.mjs",
+      "passed": 29,
+      "failed": 0,
+      "exitCode": 0,
+      "overlapWithFirstRun": 23,
+      "reason": "Legacy saved-setting normalization assertion added; verify story acting after the character label change."
+    }
+  ],
+  "uniquePassingTests": 63,
+  "languageAudit": {
+    "grades": 4,
+    "units": 44,
+    "tasks": 4805,
+    "issues": []
+  },
+  "protectedFiles": 13,
+  "preservedConversations": 921,
+  "browser": {
+    "version": "0.54.0",
+    "bundleSha256": "cc7a0a35ee290befd98969d5298c8a8e2665fb2326528f5d5c97b8611279729d",
+    "viewports": [
+      {
+        "viewport": [
+          320,
+          480
+        ],
+        "scrollHeight": 480,
+        "clientHeight": 480,
+        "rootScroll": 480,
+        "form": {
+          "x": 12,
+          "y": 80.203125,
+          "width": 296,
+          "height": 383.59375,
+          "bottom": 463.796875,
+          "right": 308
+        },
+        "restaurants": {
+          "x": 25,
+          "y": 92.203125,
+          "width": 270,
+          "height": 69.59375,
+          "bottom": 161.796875,
+          "right": 295
+        },
+        "ulti": {
+          "x": 25,
+          "y": 167.796875,
+          "width": 270,
+          "height": 44,
+          "bottom": 211.796875,
+          "right": 295
+        },
+        "teams": {
+          "x": 25,
+          "y": 217.796875,
+          "width": 270,
+          "height": 61,
+          "bottom": 278.796875,
+          "right": 295
+        },
+        "shop": {
+          "x": 25,
+          "y": 357.796875,
+          "width": 109.15625,
+          "height": 46,
+          "bottom": 403.796875,
+          "right": 134.15625
+        },
+        "start": {
+          "x": 142.15625,
+          "y": 357.796875,
+          "width": 152.84375,
+          "height": 46,
+          "bottom": 403.796875,
+          "right": 295
+        },
+        "design": {
+          "x": 25,
+          "y": 409.796875,
+          "width": 270,
+          "height": 44,
+          "bottom": 453.796875,
+          "right": 295
+        },
+        "buttons": [
+          {
+            "id": "courtyard",
+            "x": 25,
+            "y": 112.203125,
+            "width": 84.65625,
+            "height": 49.59375,
+            "bottom": 161.796875,
+            "right": 109.65625
+          },
+          {
+            "id": "bistro",
+            "x": 117.65625,
+            "y": 112.203125,
+            "width": 84.671875,
+            "height": 49.59375,
+            "bottom": 161.796875,
+            "right": 202.328125
+          },
+          {
+            "id": "banquet",
+            "x": 210.328125,
+            "y": 112.203125,
+            "width": 84.65625,
+            "height": 49.59375,
+            "bottom": 161.796875,
+            "right": 294.984375
+          },
+          {
+            "id": "setup-ulti",
+            "x": 25,
+            "y": 167.796875,
+            "width": 270,
+            "height": 44,
+            "bottom": 211.796875,
+            "right": 295
+          },
+          {
+            "id": "gryffindor",
+            "x": 25,
+            "y": 234.796875,
+            "width": 62.25,
+            "height": 44,
+            "bottom": 278.796875,
+            "right": 87.25
+          },
+          {
+            "id": "hufflepuff",
+            "x": 94.25,
+            "y": 234.796875,
+            "width": 62.25,
+            "height": 44,
+            "bottom": 278.796875,
+            "right": 156.5
+          },
+          {
+            "id": "slytherin",
+            "x": 163.5,
+            "y": 234.796875,
+            "width": 62.25,
+            "height": 44,
+            "bottom": 278.796875,
+            "right": 225.75
+          },
+          {
+            "id": "ravenclaw",
+            "x": 232.75,
+            "y": 234.796875,
+            "width": 62.25,
+            "height": 44,
+            "bottom": 278.796875,
+            "right": 295
+          },
+          {
+            "id": "choose-lesson",
+            "x": 25,
+            "y": 301.796875,
+            "width": 131,
+            "height": 50,
+            "bottom": 351.796875,
+            "right": 156
+          },
+          {
+            "id": "relaxed",
+            "x": 167,
+            "y": 304.796875,
+            "width": 61.5,
+            "height": 44,
+            "bottom": 348.796875,
+            "right": 228.5
+          },
+          {
+            "id": "challenge",
+            "x": 230.5,
+            "y": 304.796875,
+            "width": 61.5,
+            "height": 44,
+            "bottom": 348.796875,
+            "right": 292
+          },
+          {
+            "id": "setup-shop",
+            "x": 25,
+            "y": 357.796875,
+            "width": 109.15625,
+            "height": 46,
+            "bottom": 403.796875,
+            "right": 134.15625
+          },
+          {
+            "id": "start-button",
+            "x": 142.15625,
+            "y": 357.796875,
+            "width": 152.84375,
+            "height": 46,
+            "bottom": 403.796875,
+            "right": 295
+          },
+          {
+            "id": "setup-design",
+            "x": 25,
+            "y": 409.796875,
+            "width": 270,
+            "height": 44,
+            "bottom": 453.796875,
+            "right": 295
+          }
+        ]
+      },
+      {
+        "viewport": [
+          320,
+          568
+        ],
+        "scrollHeight": 568,
+        "clientHeight": 568,
+        "rootScroll": 568,
+        "form": {
+          "x": 12,
+          "y": 117.203125,
+          "width": 296,
+          "height": 383.59375,
+          "bottom": 500.796875,
+          "right": 308
+        },
+        "restaurants": {
+          "x": 25,
+          "y": 129.203125,
+          "width": 270,
+          "height": 69.59375,
+          "bottom": 198.796875,
+          "right": 295
+        },
+        "ulti": {
+          "x": 25,
+          "y": 204.796875,
+          "width": 270,
+          "height": 44,
+          "bottom": 248.796875,
+          "right": 295
+        },
+        "teams": {
+          "x": 25,
+          "y": 254.796875,
+          "width": 270,
+          "height": 61,
+          "bottom": 315.796875,
+          "right": 295
+        },
+        "shop": {
+          "x": 25,
+          "y": 394.796875,
+          "width": 109.15625,
+          "height": 46,
+          "bottom": 440.796875,
+          "right": 134.15625
+        },
+        "start": {
+          "x": 142.15625,
+          "y": 394.796875,
+          "width": 152.84375,
+          "height": 46,
+          "bottom": 440.796875,
+          "right": 295
+        },
+        "design": {
+          "x": 25,
+          "y": 446.796875,
+          "width": 270,
+          "height": 44,
+          "bottom": 490.796875,
+          "right": 295
+        },
+        "buttons": [
+          {
+            "id": "courtyard",
+            "x": 25,
+            "y": 149.203125,
+            "width": 84.65625,
+            "height": 49.59375,
+            "bottom": 198.796875,
+            "right": 109.65625
+          },
+          {
+            "id": "bistro",
+            "x": 117.65625,
+            "y": 149.203125,
+            "width": 84.671875,
+            "height": 49.59375,
+            "bottom": 198.796875,
+            "right": 202.328125
+          },
+          {
+            "id": "banquet",
+            "x": 210.328125,
+            "y": 149.203125,
+            "width": 84.65625,
+            "height": 49.59375,
+            "bottom": 198.796875,
+            "right": 294.984375
+          },
+          {
+            "id": "setup-ulti",
+            "x": 25,
+            "y": 204.796875,
+            "width": 270,
+            "height": 44,
+            "bottom": 248.796875,
+            "right": 295
+          },
+          {
+            "id": "gryffindor",
+            "x": 25,
+            "y": 271.796875,
+            "width": 62.25,
+            "height": 44,
+            "bottom": 315.796875,
+            "right": 87.25
+          },
+          {
+            "id": "hufflepuff",
+            "x": 94.25,
+            "y": 271.796875,
+            "width": 62.25,
+            "height": 44,
+            "bottom": 315.796875,
+            "right": 156.5
+          },
+          {
+            "id": "slytherin",
+            "x": 163.5,
+            "y": 271.796875,
+            "width": 62.25,
+            "height": 44,
+            "bottom": 315.796875,
+            "right": 225.75
+          },
+          {
+            "id": "ravenclaw",
+            "x": 232.75,
+            "y": 271.796875,
+            "width": 62.25,
+            "height": 44,
+            "bottom": 315.796875,
+            "right": 295
+          },
+          {
+            "id": "choose-lesson",
+            "x": 25,
+            "y": 338.796875,
+            "width": 131,
+            "height": 50,
+            "bottom": 388.796875,
+            "right": 156
+          },
+          {
+            "id": "relaxed",
+            "x": 167,
+            "y": 341.796875,
+            "width": 61.5,
+            "height": 44,
+            "bottom": 385.796875,
+            "right": 228.5
+          },
+          {
+            "id": "challenge",
+            "x": 230.5,
+            "y": 341.796875,
+            "width": 61.5,
+            "height": 44,
+            "bottom": 385.796875,
+            "right": 292
+          },
+          {
+            "id": "setup-shop",
+            "x": 25,
+            "y": 394.796875,
+            "width": 109.15625,
+            "height": 46,
+            "bottom": 440.796875,
+            "right": 134.15625
+          },
+          {
+            "id": "start-button",
+            "x": 142.15625,
+            "y": 394.796875,
+            "width": 152.84375,
+            "height": 46,
+            "bottom": 440.796875,
+            "right": 295
+          },
+          {
+            "id": "setup-design",
+            "x": 25,
+            "y": 446.796875,
+            "width": 270,
+            "height": 44,
+            "bottom": 490.796875,
+            "right": 295
+          }
+        ]
+      },
+      {
+        "viewport": [
+          360,
+          640
+        ],
+        "scrollHeight": 640,
+        "clientHeight": 640,
+        "rootScroll": 640,
+        "form": {
+          "x": 12,
+          "y": 158,
+          "width": 336,
+          "height": 424,
+          "bottom": 582,
+          "right": 348
+        },
+        "restaurants": {
+          "x": 25,
+          "y": 173,
+          "width": 310,
+          "height": 80,
+          "bottom": 253,
+          "right": 335
+        },
+        "ulti": {
+          "x": 25,
+          "y": 261,
+          "width": 310,
+          "height": 44,
+          "bottom": 305,
+          "right": 335
+        },
+        "teams": {
+          "x": 25,
+          "y": 313,
+          "width": 310,
+          "height": 69,
+          "bottom": 382,
+          "right": 335
+        },
+        "shop": {
+          "x": 25,
+          "y": 471,
+          "width": 125.828125,
+          "height": 46,
+          "bottom": 517,
+          "right": 150.828125
+        },
+        "start": {
+          "x": 158.828125,
+          "y": 471,
+          "width": 176.15625,
+          "height": 46,
+          "bottom": 517,
+          "right": 334.984375
+        },
+        "design": {
+          "x": 25,
+          "y": 525,
+          "width": 310,
+          "height": 44,
+          "bottom": 569,
+          "right": 335
+        },
+        "buttons": [
+          {
+            "id": "courtyard",
+            "x": 25,
+            "y": 193,
+            "width": 98,
+            "height": 60,
+            "bottom": 253,
+            "right": 123
+          },
+          {
+            "id": "bistro",
+            "x": 131,
+            "y": 193,
+            "width": 98,
+            "height": 60,
+            "bottom": 253,
+            "right": 229
+          },
+          {
+            "id": "banquet",
+            "x": 237,
+            "y": 193,
+            "width": 98,
+            "height": 60,
+            "bottom": 253,
+            "right": 335
+          },
+          {
+            "id": "setup-ulti",
+            "x": 25,
+            "y": 261,
+            "width": 310,
+            "height": 44,
+            "bottom": 305,
+            "right": 335
+          },
+          {
+            "id": "gryffindor",
+            "x": 25,
+            "y": 330,
+            "width": 72.25,
+            "height": 52,
+            "bottom": 382,
+            "right": 97.25
+          },
+          {
+            "id": "hufflepuff",
+            "x": 104.25,
+            "y": 330,
+            "width": 72.25,
+            "height": 52,
+            "bottom": 382,
+            "right": 176.5
+          },
+          {
+            "id": "slytherin",
+            "x": 183.5,
+            "y": 330,
+            "width": 72.25,
+            "height": 52,
+            "bottom": 382,
+            "right": 255.75
+          },
+          {
+            "id": "ravenclaw",
+            "x": 262.75,
+            "y": 330,
+            "width": 72.25,
+            "height": 52,
+            "bottom": 382,
+            "right": 335
+          },
+          {
+            "id": "choose-lesson",
+            "x": 25,
+            "y": 407,
+            "width": 151,
+            "height": 56,
+            "bottom": 463,
+            "right": 176
+          },
+          {
+            "id": "relaxed",
+            "x": 188,
+            "y": 412,
+            "width": 70.5,
+            "height": 46,
+            "bottom": 458,
+            "right": 258.5
+          },
+          {
+            "id": "challenge",
+            "x": 260.5,
+            "y": 412,
+            "width": 70.5,
+            "height": 46,
+            "bottom": 458,
+            "right": 331
+          },
+          {
+            "id": "setup-shop",
+            "x": 25,
+            "y": 471,
+            "width": 125.828125,
+            "height": 46,
+            "bottom": 517,
+            "right": 150.828125
+          },
+          {
+            "id": "start-button",
+            "x": 158.828125,
+            "y": 471,
+            "width": 176.15625,
+            "height": 46,
+            "bottom": 517,
+            "right": 334.984375
+          },
+          {
+            "id": "setup-design",
+            "x": 25,
+            "y": 525,
+            "width": 310,
+            "height": 44,
+            "bottom": 569,
+            "right": 335
+          }
+        ]
+      },
+      {
+        "viewport": [
+          393,
+          680
+        ],
+        "scrollHeight": 680,
+        "clientHeight": 680,
+        "rootScroll": 680,
+        "form": {
+          "x": 12,
+          "y": 198,
+          "width": 369,
+          "height": 424,
+          "bottom": 622,
+          "right": 381
+        },
+        "restaurants": {
+          "x": 25,
+          "y": 213,
+          "width": 343,
+          "height": 80,
+          "bottom": 293,
+          "right": 368
+        },
+        "ulti": {
+          "x": 25,
+          "y": 301,
+          "width": 343,
+          "height": 44,
+          "bottom": 345,
+          "right": 368
+        },
+        "teams": {
+          "x": 25,
+          "y": 353,
+          "width": 343,
+          "height": 69,
+          "bottom": 422,
+          "right": 368
+        },
+        "shop": {
+          "x": 25,
+          "y": 511,
+          "width": 139.578125,
+          "height": 46,
+          "bottom": 557,
+          "right": 164.578125
+        },
+        "start": {
+          "x": 172.578125,
+          "y": 511,
+          "width": 195.40625,
+          "height": 46,
+          "bottom": 557,
+          "right": 367.984375
+        },
+        "design": {
+          "x": 25,
+          "y": 565,
+          "width": 343,
+          "height": 44,
+          "bottom": 609,
+          "right": 368
+        },
+        "buttons": [
+          {
+            "id": "courtyard",
+            "x": 25,
+            "y": 233,
+            "width": 109,
+            "height": 60,
+            "bottom": 293,
+            "right": 134
+          },
+          {
+            "id": "bistro",
+            "x": 142,
+            "y": 233,
+            "width": 109,
+            "height": 60,
+            "bottom": 293,
+            "right": 251
+          },
+          {
+            "id": "banquet",
+            "x": 259,
+            "y": 233,
+            "width": 109,
+            "height": 60,
+            "bottom": 293,
+            "right": 368
+          },
+          {
+            "id": "setup-ulti",
+            "x": 25,
+            "y": 301,
+            "width": 343,
+            "height": 44,
+            "bottom": 345,
+            "right": 368
+          },
+          {
+            "id": "gryffindor",
+            "x": 25,
+            "y": 370,
+            "width": 80.5,
+            "height": 52,
+            "bottom": 422,
+            "right": 105.5
+          },
+          {
+            "id": "hufflepuff",
+            "x": 112.5,
+            "y": 370,
+            "width": 80.5,
+            "height": 52,
+            "bottom": 422,
+            "right": 193
+          },
+          {
+            "id": "slytherin",
+            "x": 200,
+            "y": 370,
+            "width": 80.5,
+            "height": 52,
+            "bottom": 422,
+            "right": 280.5
+          },
+          {
+            "id": "ravenclaw",
+            "x": 287.5,
+            "y": 370,
+            "width": 80.5,
+            "height": 52,
+            "bottom": 422,
+            "right": 368
+          },
+          {
+            "id": "choose-lesson",
+            "x": 25,
+            "y": 447,
+            "width": 167.5,
+            "height": 56,
+            "bottom": 503,
+            "right": 192.5
+          },
+          {
+            "id": "relaxed",
+            "x": 204.5,
+            "y": 452,
+            "width": 78.75,
+            "height": 46,
+            "bottom": 498,
+            "right": 283.25
+          },
+          {
+            "id": "challenge",
+            "x": 285.25,
+            "y": 452,
+            "width": 78.75,
+            "height": 46,
+            "bottom": 498,
+            "right": 364
+          },
+          {
+            "id": "setup-shop",
+            "x": 25,
+            "y": 511,
+            "width": 139.578125,
+            "height": 46,
+            "bottom": 557,
+            "right": 164.578125
+          },
+          {
+            "id": "start-button",
+            "x": 172.578125,
+            "y": 511,
+            "width": 195.40625,
+            "height": 46,
+            "bottom": 557,
+            "right": 367.984375
+          },
+          {
+            "id": "setup-design",
+            "x": 25,
+            "y": 565,
+            "width": 343,
+            "height": 44,
+            "bottom": 609,
+            "right": 368
+          }
+        ]
+      },
+      {
+        "viewport": [
+          390,
+          844
+        ],
+        "scrollHeight": 844,
+        "clientHeight": 844,
+        "rootScroll": 844,
+        "form": {
+          "x": 12,
+          "y": 310,
+          "width": 366,
+          "height": 424,
+          "bottom": 734,
+          "right": 378
+        },
+        "restaurants": {
+          "x": 25,
+          "y": 325,
+          "width": 340,
+          "height": 80,
+          "bottom": 405,
+          "right": 365
+        },
+        "ulti": {
+          "x": 25,
+          "y": 413,
+          "width": 340,
+          "height": 44,
+          "bottom": 457,
+          "right": 365
+        },
+        "teams": {
+          "x": 25,
+          "y": 465,
+          "width": 340,
+          "height": 69,
+          "bottom": 534,
+          "right": 365
+        },
+        "shop": {
+          "x": 25,
+          "y": 623,
+          "width": 138.328125,
+          "height": 46,
+          "bottom": 669,
+          "right": 163.328125
+        },
+        "start": {
+          "x": 171.328125,
+          "y": 623,
+          "width": 193.65625,
+          "height": 46,
+          "bottom": 669,
+          "right": 364.984375
+        },
+        "design": {
+          "x": 25,
+          "y": 677,
+          "width": 340,
+          "height": 44,
+          "bottom": 721,
+          "right": 365
+        },
+        "buttons": [
+          {
+            "id": "courtyard",
+            "x": 25,
+            "y": 345,
+            "width": 108,
+            "height": 60,
+            "bottom": 405,
+            "right": 133
+          },
+          {
+            "id": "bistro",
+            "x": 141,
+            "y": 345,
+            "width": 108,
+            "height": 60,
+            "bottom": 405,
+            "right": 249
+          },
+          {
+            "id": "banquet",
+            "x": 257,
+            "y": 345,
+            "width": 108,
+            "height": 60,
+            "bottom": 405,
+            "right": 365
+          },
+          {
+            "id": "setup-ulti",
+            "x": 25,
+            "y": 413,
+            "width": 340,
+            "height": 44,
+            "bottom": 457,
+            "right": 365
+          },
+          {
+            "id": "gryffindor",
+            "x": 25,
+            "y": 482,
+            "width": 79.75,
+            "height": 52,
+            "bottom": 534,
+            "right": 104.75
+          },
+          {
+            "id": "hufflepuff",
+            "x": 111.75,
+            "y": 482,
+            "width": 79.75,
+            "height": 52,
+            "bottom": 534,
+            "right": 191.5
+          },
+          {
+            "id": "slytherin",
+            "x": 198.5,
+            "y": 482,
+            "width": 79.75,
+            "height": 52,
+            "bottom": 534,
+            "right": 278.25
+          },
+          {
+            "id": "ravenclaw",
+            "x": 285.25,
+            "y": 482,
+            "width": 79.75,
+            "height": 52,
+            "bottom": 534,
+            "right": 365
+          },
+          {
+            "id": "choose-lesson",
+            "x": 25,
+            "y": 559,
+            "width": 166,
+            "height": 56,
+            "bottom": 615,
+            "right": 191
+          },
+          {
+            "id": "relaxed",
+            "x": 203,
+            "y": 564,
+            "width": 78,
+            "height": 46,
+            "bottom": 610,
+            "right": 281
+          },
+          {
+            "id": "challenge",
+            "x": 283,
+            "y": 564,
+            "width": 78,
+            "height": 46,
+            "bottom": 610,
+            "right": 361
+          },
+          {
+            "id": "setup-shop",
+            "x": 25,
+            "y": 623,
+            "width": 138.328125,
+            "height": 46,
+            "bottom": 669,
+            "right": 163.328125
+          },
+          {
+            "id": "start-button",
+            "x": 171.328125,
+            "y": 623,
+            "width": 193.65625,
+            "height": 46,
+            "bottom": 669,
+            "right": 364.984375
+          },
+          {
+            "id": "setup-design",
+            "x": 25,
+            "y": 677,
+            "width": 340,
+            "height": 44,
+            "bottom": 721,
+            "right": 365
+          }
+        ]
+      },
+      {
+        "viewport": [
+          430,
+          850
+        ],
+        "scrollHeight": 850,
+        "clientHeight": 850,
+        "rootScroll": 850,
+        "form": {
+          "x": 12,
+          "y": 313,
+          "width": 406,
+          "height": 424,
+          "bottom": 737,
+          "right": 418
+        },
+        "restaurants": {
+          "x": 25,
+          "y": 328,
+          "width": 380,
+          "height": 80,
+          "bottom": 408,
+          "right": 405
+        },
+        "ulti": {
+          "x": 25,
+          "y": 416,
+          "width": 380,
+          "height": 44,
+          "bottom": 460,
+          "right": 405
+        },
+        "teams": {
+          "x": 25,
+          "y": 468,
+          "width": 380,
+          "height": 69,
+          "bottom": 537,
+          "right": 405
+        },
+        "shop": {
+          "x": 25,
+          "y": 626,
+          "width": 155,
+          "height": 46,
+          "bottom": 672,
+          "right": 180
+        },
+        "start": {
+          "x": 188,
+          "y": 626,
+          "width": 217,
+          "height": 46,
+          "bottom": 672,
+          "right": 405
+        },
+        "design": {
+          "x": 25,
+          "y": 680,
+          "width": 380,
+          "height": 44,
+          "bottom": 724,
+          "right": 405
+        },
+        "buttons": [
+          {
+            "id": "courtyard",
+            "x": 25,
+            "y": 348,
+            "width": 121.328125,
+            "height": 60,
+            "bottom": 408,
+            "right": 146.328125
+          },
+          {
+            "id": "bistro",
+            "x": 154.328125,
+            "y": 348,
+            "width": 121.328125,
+            "height": 60,
+            "bottom": 408,
+            "right": 275.65625
+          },
+          {
+            "id": "banquet",
+            "x": 283.65625,
+            "y": 348,
+            "width": 121.34375,
+            "height": 60,
+            "bottom": 408,
+            "right": 405
+          },
+          {
+            "id": "setup-ulti",
+            "x": 25,
+            "y": 416,
+            "width": 380,
+            "height": 44,
+            "bottom": 460,
+            "right": 405
+          },
+          {
+            "id": "gryffindor",
+            "x": 25,
+            "y": 485,
+            "width": 89.75,
+            "height": 52,
+            "bottom": 537,
+            "right": 114.75
+          },
+          {
+            "id": "hufflepuff",
+            "x": 121.75,
+            "y": 485,
+            "width": 89.75,
+            "height": 52,
+            "bottom": 537,
+            "right": 211.5
+          },
+          {
+            "id": "slytherin",
+            "x": 218.5,
+            "y": 485,
+            "width": 89.75,
+            "height": 52,
+            "bottom": 537,
+            "right": 308.25
+          },
+          {
+            "id": "ravenclaw",
+            "x": 315.25,
+            "y": 485,
+            "width": 89.75,
+            "height": 52,
+            "bottom": 537,
+            "right": 405
+          },
+          {
+            "id": "choose-lesson",
+            "x": 25,
+            "y": 562,
+            "width": 186,
+            "height": 56,
+            "bottom": 618,
+            "right": 211
+          },
+          {
+            "id": "relaxed",
+            "x": 223,
+            "y": 567,
+            "width": 88,
+            "height": 46,
+            "bottom": 613,
+            "right": 311
+          },
+          {
+            "id": "challenge",
+            "x": 313,
+            "y": 567,
+            "width": 88,
+            "height": 46,
+            "bottom": 613,
+            "right": 401
+          },
+          {
+            "id": "setup-shop",
+            "x": 25,
+            "y": 626,
+            "width": 155,
+            "height": 46,
+            "bottom": 672,
+            "right": 180
+          },
+          {
+            "id": "start-button",
+            "x": 188,
+            "y": 626,
+            "width": 217,
+            "height": 46,
+            "bottom": 672,
+            "right": 405
+          },
+          {
+            "id": "setup-design",
+            "x": 25,
+            "y": 680,
+            "width": 380,
+            "height": 44,
+            "bottom": 724,
+            "right": 405
+          }
+        ]
+      },
+      {
+        "viewport": [
+          568,
+          320
+        ],
+        "scrollHeight": 444,
+        "clientHeight": 320,
+        "rootScroll": 320,
+        "form": {
+          "x": 14,
+          "y": 58,
+          "width": 540,
+          "height": 378,
+          "bottom": 436,
+          "right": 554
+        },
+        "restaurants": {
+          "x": 27,
+          "y": 71,
+          "width": 514,
+          "height": 64,
+          "bottom": 135,
+          "right": 541
+        },
+        "ulti": {
+          "x": 27,
+          "y": 141,
+          "width": 514,
+          "height": 44,
+          "bottom": 185,
+          "right": 541
+        },
+        "teams": {
+          "x": 27,
+          "y": 191,
+          "width": 514,
+          "height": 61,
+          "bottom": 252,
+          "right": 541
+        },
+        "shop": {
+          "x": 27,
+          "y": 331,
+          "width": 210.828125,
+          "height": 44,
+          "bottom": 375,
+          "right": 237.828125
+        },
+        "start": {
+          "x": 245.828125,
+          "y": 331,
+          "width": 295.171875,
+          "height": 44,
+          "bottom": 375,
+          "right": 541
+        },
+        "design": {
+          "x": 27,
+          "y": 381,
+          "width": 514,
+          "height": 44,
+          "bottom": 425,
+          "right": 541
+        },
+        "buttons": [
+          {
+            "id": "courtyard",
+            "x": 27,
+            "y": 91,
+            "width": 166,
+            "height": 44,
+            "bottom": 135,
+            "right": 193
+          },
+          {
+            "id": "bistro",
+            "x": 201,
+            "y": 91,
+            "width": 166,
+            "height": 44,
+            "bottom": 135,
+            "right": 367
+          },
+          {
+            "id": "banquet",
+            "x": 375,
+            "y": 91,
+            "width": 166,
+            "height": 44,
+            "bottom": 135,
+            "right": 541
+          },
+          {
+            "id": "setup-ulti",
+            "x": 27,
+            "y": 141,
+            "width": 514,
+            "height": 44,
+            "bottom": 185,
+            "right": 541
+          },
+          {
+            "id": "gryffindor",
+            "x": 27,
+            "y": 208,
+            "width": 123.25,
+            "height": 44,
+            "bottom": 252,
+            "right": 150.25
+          },
+          {
+            "id": "hufflepuff",
+            "x": 157.25,
+            "y": 208,
+            "width": 123.25,
+            "height": 44,
+            "bottom": 252,
+            "right": 280.5
+          },
+          {
+            "id": "slytherin",
+            "x": 287.5,
+            "y": 208,
+            "width": 123.25,
+            "height": 44,
+            "bottom": 252,
+            "right": 410.75
+          },
+          {
+            "id": "ravenclaw",
+            "x": 417.75,
+            "y": 208,
+            "width": 123.25,
+            "height": 44,
+            "bottom": 252,
+            "right": 541
+          },
+          {
+            "id": "choose-lesson",
+            "x": 27,
+            "y": 275,
+            "width": 297.640625,
+            "height": 50,
+            "bottom": 325,
+            "right": 324.640625
+          },
+          {
+            "id": "relaxed",
+            "x": 335.640625,
+            "y": 278,
+            "width": 100.171875,
+            "height": 44,
+            "bottom": 322,
+            "right": 435.8125
+          },
+          {
+            "id": "challenge",
+            "x": 437.8125,
+            "y": 278,
+            "width": 100.1875,
+            "height": 44,
+            "bottom": 322,
+            "right": 538
+          },
+          {
+            "id": "setup-shop",
+            "x": 27,
+            "y": 331,
+            "width": 210.828125,
+            "height": 44,
+            "bottom": 375,
+            "right": 237.828125
+          },
+          {
+            "id": "start-button",
+            "x": 245.828125,
+            "y": 331,
+            "width": 295.171875,
+            "height": 44,
+            "bottom": 375,
+            "right": 541
+          },
+          {
+            "id": "setup-design",
+            "x": 27,
+            "y": 381,
+            "width": 514,
+            "height": 44,
+            "bottom": 425,
+            "right": 541
+          }
+        ]
+      },
+      {
+        "viewport": [
+          844,
+          390
+        ],
+        "scrollHeight": 450,
+        "clientHeight": 390,
+        "rootScroll": 390,
+        "form": {
+          "x": 122,
+          "y": 58,
+          "width": 600,
+          "height": 383.5,
+          "bottom": 441.5,
+          "right": 722
+        },
+        "restaurants": {
+          "x": 135,
+          "y": 71,
+          "width": 574,
+          "height": 65,
+          "bottom": 136,
+          "right": 709
+        },
+        "ulti": {
+          "x": 135,
+          "y": 142,
+          "width": 574,
+          "height": 44,
+          "bottom": 186,
+          "right": 709
+        },
+        "teams": {
+          "x": 135,
+          "y": 192,
+          "width": 574,
+          "height": 61.25,
+          "bottom": 253.25,
+          "right": 709
+        },
+        "shop": {
+          "x": 135,
+          "y": 332.5,
+          "width": 234.984375,
+          "height": 48,
+          "bottom": 380.5,
+          "right": 369.984375
+        },
+        "start": {
+          "x": 379.984375,
+          "y": 332.5,
+          "width": 329,
+          "height": 48,
+          "bottom": 380.5,
+          "right": 708.984375
+        },
+        "design": {
+          "x": 135,
+          "y": 386.5,
+          "width": 574,
+          "height": 44,
+          "bottom": 430.5,
+          "right": 709
+        },
+        "buttons": [
+          {
+            "id": "courtyard",
+            "x": 135,
+            "y": 92,
+            "width": 186,
+            "height": 44,
+            "bottom": 136,
+            "right": 321
+          },
+          {
+            "id": "bistro",
+            "x": 329,
+            "y": 92,
+            "width": 186,
+            "height": 44,
+            "bottom": 136,
+            "right": 515
+          },
+          {
+            "id": "banquet",
+            "x": 523,
+            "y": 92,
+            "width": 186,
+            "height": 44,
+            "bottom": 136,
+            "right": 709
+          },
+          {
+            "id": "setup-ulti",
+            "x": 135,
+            "y": 142,
+            "width": 574,
+            "height": 44,
+            "bottom": 186,
+            "right": 709
+          },
+          {
+            "id": "gryffindor",
+            "x": 135,
+            "y": 209.25,
+            "width": 138.25,
+            "height": 44,
+            "bottom": 253.25,
+            "right": 273.25
+          },
+          {
+            "id": "hufflepuff",
+            "x": 280.25,
+            "y": 209.25,
+            "width": 138.25,
+            "height": 44,
+            "bottom": 253.25,
+            "right": 418.5
+          },
+          {
+            "id": "slytherin",
+            "x": 425.5,
+            "y": 209.25,
+            "width": 138.25,
+            "height": 44,
+            "bottom": 253.25,
+            "right": 563.75
+          },
+          {
+            "id": "ravenclaw",
+            "x": 570.75,
+            "y": 209.25,
+            "width": 138.25,
+            "height": 44,
+            "bottom": 253.25,
+            "right": 709
+          },
+          {
+            "id": "choose-lesson",
+            "x": 135,
+            "y": 276.5,
+            "width": 331.75,
+            "height": 50,
+            "bottom": 326.5,
+            "right": 466.75
+          },
+          {
+            "id": "relaxed",
+            "x": 479.75,
+            "y": 279.5,
+            "width": 111.625,
+            "height": 44,
+            "bottom": 323.5,
+            "right": 591.375
+          },
+          {
+            "id": "challenge",
+            "x": 594.375,
+            "y": 279.5,
+            "width": 111.625,
+            "height": 44,
+            "bottom": 323.5,
+            "right": 706
+          },
+          {
+            "id": "setup-shop",
+            "x": 135,
+            "y": 332.5,
+            "width": 234.984375,
+            "height": 48,
+            "bottom": 380.5,
+            "right": 369.984375
+          },
+          {
+            "id": "start-button",
+            "x": 379.984375,
+            "y": 332.5,
+            "width": 329,
+            "height": 48,
+            "bottom": 380.5,
+            "right": 708.984375
+          },
+          {
+            "id": "setup-design",
+            "x": 135,
+            "y": 386.5,
+            "width": 574,
+            "height": 44,
+            "bottom": 430.5,
+            "right": 709
+          }
+        ]
+      },
+      {
+        "viewport": [
+          768,
+          1024
+        ],
+        "scrollHeight": 1024,
+        "clientHeight": 1024,
+        "rootScroll": 1024,
+        "form": {
+          "x": 365,
+          "y": 243.8125,
+          "width": 380,
+          "height": 536.375,
+          "bottom": 780.1875,
+          "right": 745
+        },
+        "restaurants": {
+          "x": 388,
+          "y": 266.8125,
+          "width": 334,
+          "height": 118,
+          "bottom": 384.8125,
+          "right": 722
+        },
+        "ulti": {
+          "x": 388,
+          "y": 394.8125,
+          "width": 334,
+          "height": 44,
+          "bottom": 438.8125,
+          "right": 722
+        },
+        "teams": {
+          "x": 388,
+          "y": 448.8125,
+          "width": 334,
+          "height": 89.75,
+          "bottom": 538.5625,
+          "right": 722
+        },
+        "shop": {
+          "x": 388,
+          "y": 663.1875,
+          "width": 135,
+          "height": 48,
+          "bottom": 711.1875,
+          "right": 523
+        },
+        "start": {
+          "x": 533,
+          "y": 663.1875,
+          "width": 189,
+          "height": 48,
+          "bottom": 711.1875,
+          "right": 722
+        },
+        "design": {
+          "x": 388,
+          "y": 721.1875,
+          "width": 334,
+          "height": 44,
+          "bottom": 765.1875,
+          "right": 722
+        },
+        "buttons": [
+          {
+            "id": "courtyard",
+            "x": 388,
+            "y": 287.8125,
+            "width": 106,
+            "height": 97,
+            "bottom": 384.8125,
+            "right": 494
+          },
+          {
+            "id": "bistro",
+            "x": 502,
+            "y": 287.8125,
+            "width": 106,
+            "height": 97,
+            "bottom": 384.8125,
+            "right": 608
+          },
+          {
+            "id": "banquet",
+            "x": 616,
+            "y": 287.8125,
+            "width": 106,
+            "height": 97,
+            "bottom": 384.8125,
+            "right": 722
+          },
+          {
+            "id": "setup-ulti",
+            "x": 388,
+            "y": 394.8125,
+            "width": 334,
+            "height": 44,
+            "bottom": 438.8125,
+            "right": 722
+          },
+          {
+            "id": "gryffindor",
+            "x": 388,
+            "y": 468.5625,
+            "width": 78.25,
+            "height": 70,
+            "bottom": 538.5625,
+            "right": 466.25
+          },
+          {
+            "id": "hufflepuff",
+            "x": 473.25,
+            "y": 468.5625,
+            "width": 78.25,
+            "height": 70,
+            "bottom": 538.5625,
+            "right": 551.5
+          },
+          {
+            "id": "slytherin",
+            "x": 558.5,
+            "y": 468.5625,
+            "width": 78.25,
+            "height": 70,
+            "bottom": 538.5625,
+            "right": 636.75
+          },
+          {
+            "id": "ravenclaw",
+            "x": 643.75,
+            "y": 468.5625,
+            "width": 78.25,
+            "height": 70,
+            "bottom": 538.5625,
+            "right": 722
+          },
+          {
+            "id": "choose-lesson",
+            "x": 388,
+            "y": 568.3125,
+            "width": 174,
+            "height": 84.875,
+            "bottom": 653.1875,
+            "right": 562
+          },
+          {
+            "id": "relaxed",
+            "x": 577,
+            "y": 573.3125,
+            "width": 68.5,
+            "height": 66,
+            "bottom": 639.3125,
+            "right": 645.5
+          },
+          {
+            "id": "challenge",
+            "x": 648.5,
+            "y": 573.3125,
+            "width": 68.5,
+            "height": 66,
+            "bottom": 639.3125,
+            "right": 717
+          },
+          {
+            "id": "setup-shop",
+            "x": 388,
+            "y": 663.1875,
+            "width": 135,
+            "height": 48,
+            "bottom": 711.1875,
+            "right": 523
+          },
+          {
+            "id": "start-button",
+            "x": 533,
+            "y": 663.1875,
+            "width": 189,
+            "height": 48,
+            "bottom": 711.1875,
+            "right": 722
+          },
+          {
+            "id": "setup-design",
+            "x": 388,
+            "y": 721.1875,
+            "width": 334,
+            "height": 44,
+            "bottom": 765.1875,
+            "right": 722
+          }
+        ]
+      },
+      {
+        "viewport": [
+          1366,
+          768
+        ],
+        "scrollHeight": 768,
+        "clientHeight": 768,
+        "rootScroll": 768,
+        "form": {
+          "x": 867.265625,
+          "y": 125.75,
+          "width": 440,
+          "height": 516.5,
+          "bottom": 642.25,
+          "right": 1307.265625
+        },
+        "restaurants": {
+          "x": 890.265625,
+          "y": 148.75,
+          "width": 394,
+          "height": 107,
+          "bottom": 255.75,
+          "right": 1284.265625
+        },
+        "ulti": {
+          "x": 890.265625,
+          "y": 265.75,
+          "width": 394,
+          "height": 44,
+          "bottom": 309.75,
+          "right": 1284.265625
+        },
+        "teams": {
+          "x": 890.265625,
+          "y": 319.75,
+          "width": 394,
+          "height": 89.75,
+          "bottom": 409.5,
+          "right": 1284.265625
+        },
+        "shop": {
+          "x": 890.265625,
+          "y": 525.25,
+          "width": 160,
+          "height": 48,
+          "bottom": 573.25,
+          "right": 1050.265625
+        },
+        "start": {
+          "x": 1060.265625,
+          "y": 525.25,
+          "width": 224,
+          "height": 48,
+          "bottom": 573.25,
+          "right": 1284.265625
+        },
+        "design": {
+          "x": 890.265625,
+          "y": 583.25,
+          "width": 394,
+          "height": 44,
+          "bottom": 627.25,
+          "right": 1284.265625
+        },
+        "buttons": [
+          {
+            "id": "courtyard",
+            "x": 890.265625,
+            "y": 169.75,
+            "width": 126,
+            "height": 86,
+            "bottom": 255.75,
+            "right": 1016.265625
+          },
+          {
+            "id": "bistro",
+            "x": 1024.265625,
+            "y": 169.75,
+            "width": 126,
+            "height": 86,
+            "bottom": 255.75,
+            "right": 1150.265625
+          },
+          {
+            "id": "banquet",
+            "x": 1158.265625,
+            "y": 169.75,
+            "width": 126,
+            "height": 86,
+            "bottom": 255.75,
+            "right": 1284.265625
+          },
+          {
+            "id": "setup-ulti",
+            "x": 890.265625,
+            "y": 265.75,
+            "width": 394,
+            "height": 44,
+            "bottom": 309.75,
+            "right": 1284.265625
+          },
+          {
+            "id": "gryffindor",
+            "x": 890.265625,
+            "y": 339.5,
+            "width": 93.25,
+            "height": 70,
+            "bottom": 409.5,
+            "right": 983.515625
+          },
+          {
+            "id": "hufflepuff",
+            "x": 990.515625,
+            "y": 339.5,
+            "width": 93.25,
+            "height": 70,
+            "bottom": 409.5,
+            "right": 1083.765625
+          },
+          {
+            "id": "slytherin",
+            "x": 1090.765625,
+            "y": 339.5,
+            "width": 93.25,
+            "height": 70,
+            "bottom": 409.5,
+            "right": 1184.015625
+          },
+          {
+            "id": "ravenclaw",
+            "x": 1191.015625,
+            "y": 339.5,
+            "width": 93.25,
+            "height": 70,
+            "bottom": 409.5,
+            "right": 1284.265625
+          },
+          {
+            "id": "choose-lesson",
+            "x": 890.265625,
+            "y": 439.25,
+            "width": 234,
+            "height": 76,
+            "bottom": 515.25,
+            "right": 1124.265625
+          },
+          {
+            "id": "relaxed",
+            "x": 1139.265625,
+            "y": 444.25,
+            "width": 68.5,
+            "height": 66,
+            "bottom": 510.25,
+            "right": 1207.765625
+          },
+          {
+            "id": "challenge",
+            "x": 1210.765625,
+            "y": 444.25,
+            "width": 68.5,
+            "height": 66,
+            "bottom": 510.25,
+            "right": 1279.265625
+          },
+          {
+            "id": "setup-shop",
+            "x": 890.265625,
+            "y": 525.25,
+            "width": 160,
+            "height": 48,
+            "bottom": 573.25,
+            "right": 1050.265625
+          },
+          {
+            "id": "start-button",
+            "x": 1060.265625,
+            "y": 525.25,
+            "width": 224,
+            "height": 48,
+            "bottom": 573.25,
+            "right": 1284.265625
+          },
+          {
+            "id": "setup-design",
+            "x": 890.265625,
+            "y": 583.25,
+            "width": 394,
+            "height": 44,
+            "bottom": 627.25,
+            "right": 1284.265625
+          }
+        ]
+      }
+    ],
+    "nativeUltiLessonTeamShopDesignHelpAndStart": true,
+    "legacyPassPlayDisabled": true,
+    "errors": [],
+    "physicalDevicePerformance": "Unmeasured; Chromium software WebGL with touch emulation."
+  },
+  "verificationScope": "Focused checks for this change; no new full-suite run. Previous full-suite evidence remains version-scoped in BUILD-INFO.json.",
+  "extractedRuntime": {
+    "version": "0.54.0",
+    "bundleSha256": "cc7a0a35ee290befd98969d5298c8a8e2665fb2326528f5d5c97b8611279729d",
+    "viewports": [
+      {
+        "viewport": [
+          393,
+          680
+        ],
+        "scrollHeight": 680,
+        "clientHeight": 680,
+        "rootScroll": 680,
+        "form": {
+          "x": 12,
+          "y": 205,
+          "width": 369,
+          "height": 424,
+          "bottom": 629,
+          "right": 381
+        },
+        "restaurants": {
+          "x": 25,
+          "y": 220,
+          "width": 343,
+          "height": 80,
+          "bottom": 300,
+          "right": 368
+        },
+        "ulti": {
+          "x": 25,
+          "y": 308,
+          "width": 343,
+          "height": 44,
+          "bottom": 352,
+          "right": 368
+        },
+        "teams": {
+          "x": 25,
+          "y": 360,
+          "width": 343,
+          "height": 69,
+          "bottom": 429,
+          "right": 368
+        },
+        "shop": {
+          "x": 25,
+          "y": 518,
+          "width": 139.578125,
+          "height": 46,
+          "bottom": 564,
+          "right": 164.578125
+        },
+        "start": {
+          "x": 172.578125,
+          "y": 518,
+          "width": 195.40625,
+          "height": 46,
+          "bottom": 564,
+          "right": 367.984375
+        },
+        "design": {
+          "x": 25,
+          "y": 572,
+          "width": 343,
+          "height": 44,
+          "bottom": 616,
+          "right": 368
+        },
+        "buttons": [
+          {
+            "id": "courtyard",
+            "x": 25,
+            "y": 240,
+            "width": 109,
+            "height": 60,
+            "bottom": 300,
+            "right": 134
+          },
+          {
+            "id": "bistro",
+            "x": 142,
+            "y": 240,
+            "width": 109,
+            "height": 60,
+            "bottom": 300,
+            "right": 251
+          },
+          {
+            "id": "banquet",
+            "x": 259,
+            "y": 240,
+            "width": 109,
+            "height": 60,
+            "bottom": 300,
+            "right": 368
+          },
+          {
+            "id": "setup-ulti",
+            "x": 25,
+            "y": 308,
+            "width": 343,
+            "height": 44,
+            "bottom": 352,
+            "right": 368
+          },
+          {
+            "id": "gryffindor",
+            "x": 25,
+            "y": 377,
+            "width": 80.5,
+            "height": 52,
+            "bottom": 429,
+            "right": 105.5
+          },
+          {
+            "id": "hufflepuff",
+            "x": 112.5,
+            "y": 377,
+            "width": 80.5,
+            "height": 52,
+            "bottom": 429,
+            "right": 193
+          },
+          {
+            "id": "slytherin",
+            "x": 200,
+            "y": 377,
+            "width": 80.5,
+            "height": 52,
+            "bottom": 429,
+            "right": 280.5
+          },
+          {
+            "id": "ravenclaw",
+            "x": 287.5,
+            "y": 377,
+            "width": 80.5,
+            "height": 52,
+            "bottom": 429,
+            "right": 368
+          },
+          {
+            "id": "choose-lesson",
+            "x": 25,
+            "y": 454,
+            "width": 167.5,
+            "height": 56,
+            "bottom": 510,
+            "right": 192.5
+          },
+          {
+            "id": "relaxed",
+            "x": 204.5,
+            "y": 459,
+            "width": 78.75,
+            "height": 46,
+            "bottom": 505,
+            "right": 283.25
+          },
+          {
+            "id": "challenge",
+            "x": 285.25,
+            "y": 459,
+            "width": 78.75,
+            "height": 46,
+            "bottom": 505,
+            "right": 364
+          },
+          {
+            "id": "setup-shop",
+            "x": 25,
+            "y": 518,
+            "width": 139.578125,
+            "height": 46,
+            "bottom": 564,
+            "right": 164.578125
+          },
+          {
+            "id": "start-button",
+            "x": 172.578125,
+            "y": 518,
+            "width": 195.40625,
+            "height": 46,
+            "bottom": 564,
+            "right": 367.984375
+          },
+          {
+            "id": "setup-design",
+            "x": 25,
+            "y": 572,
+            "width": 343,
+            "height": 44,
+            "bottom": 616,
+            "right": 368
+          }
+        ]
+      }
+    ],
+    "nativeUltiLessonTeamShopDesignHelpAndStart": true,
+    "legacyPassPlayDisabled": true,
+    "errors": [],
+    "physicalDevicePerformance": "Unmeasured; Chromium software WebGL with touch emulation."
+  }
+}

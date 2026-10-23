@@ -1,0 +1,11 @@
+✔ desktop service fills the room at a scale close to the opening view without changing the angle (4.648997ms)
+✔ all desktop kitchen/table anchors clear the ticket rail and dock while the whole venue fits (2.914156ms)
+✔ phone/short-window, opening and non-kitchen frames exactly retain the previous release poses (3.266997ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 128.858216

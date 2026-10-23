@@ -1,0 +1,20 @@
+{
+  "scope": "CPU geometry construction only; not draw calls, measured device FPS or GPU cost",
+  "scenes": [
+    {
+      "arena": "courtyard",
+      "meshObjects": 212,
+      "triangles": 116598
+    },
+    {
+      "arena": "bistro",
+      "meshObjects": 256,
+      "triangles": 138718
+    },
+    {
+      "arena": "banquet",
+      "meshObjects": 298,
+      "triangles": 158978
+    }
+  ]
+}

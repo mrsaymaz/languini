@@ -1,0 +1,16 @@
+✔ complete listening clues and independent replay fit 32,648 measured menu states (571.445067ms)
+✔ two-word hints keep replay separate and retain clue and selections through rotation (275.717855ms)
+✔ unavailable speech reveals both words and keeps supported completion playable (277.673521ms)
+✔ rotation restarts exact requested pronunciation and holds advancement until it finishes (979.043255ms)
+✔ selected matching cards survive refits without shuffling or losing the intended match (427.402141ms)
+✔ pause followed by rotation replays the last request only once on resume (259.094365ms)
+✔ five tall service markers stay separate and inside all supported work areas (2.318403ms)
+✔ guidance reflects destinations, ready meals and supplies without changing the service (0.817162ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3070.076667

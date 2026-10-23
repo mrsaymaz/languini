@@ -1,0 +1,95 @@
+/* Reference composition: restaurant, team, then Lesson beside compact Pace. */
+#setup-form{display:grid;grid-template-columns:minmax(0,1fr);gap:14px;padding:22px;min-width:0}
+#setup-form>.setup-restaurants,#setup-form>.setup-teams,#setup-form>.lesson-pace-row,#setup-form>.cooperative-option,#setup-form>.setup-actions,#setup-form>.save-note,#setup-form>#equipment-note,#setup-form>#service-forecast{grid-column:1;grid-row:auto}
+#setup-form fieldset{min-width:0;margin:0;padding:0;border:0}
+#setup-form legend{font:800 11px/1.25 var(--sans);letter-spacing:.07em;color:#5a705e;margin-bottom:7px}
+#setup-form .arena-options{gap:8px}
+#setup-form .arena-option{min-height:86px;padding:10px 9px;border-radius:13px}
+#setup-form .arena-option>svg{display:block;width:22px;height:22px;margin:0 0 6px}
+#setup-form .arena-option b{font-size:11px;min-height:28px;line-height:1.25}
+#setup-form .arena-option small{font-size:9px;line-height:1.3}
+#setup-form .team-options{gap:7px}
+#setup-form .team-option{min-height:70px;padding:9px 3px;gap:6px;justify-content:center}
+#setup-form .team-option>span:last-child{font-size:10px;line-height:1.2}
+#setup-form .team-option .crest{width:29px;height:31px}
+.lesson-pace-row{display:grid;grid-template-columns:minmax(0,1fr) 110px;gap:12px;align-items:start;min-width:0}
+.lesson-button{width:100%;min-height:100px;display:grid;grid-template-columns:36px minmax(0,1fr) 14px;align-items:center;gap:8px;padding:12px 10px;text-align:left;color:var(--ui-ink);border:1px solid #b8c8ac;border-left:3px solid var(--arena-accent);border-radius:13px;background:linear-gradient(135deg,#fffef6,#f0f1df);box-shadow:var(--ui-rise);touch-action:manipulation}
+.lesson-grade-token{display:grid;place-items:center;width:36px;height:46px;border:1px solid #b6c6a4;border-radius:10px;background:#e3ebd9;color:#3c6650;font:700 27px/1 var(--serif)}
+.lesson-selection{display:block;min-width:0}
+.lesson-selection small{display:block;font:800 9px/1.3 var(--sans);letter-spacing:.045em;color:#7d8468}
+.lesson-selection strong{display:block;font:700 15px/1.25 var(--serif);margin:4px 0;overflow-wrap:normal;word-break:normal}
+.lesson-selection>span{display:block;font:600 9px/1.3 var(--sans);color:#748567}
+.lesson-button>svg{width:14px;height:18px;color:var(--ui-enamel)}
+#setup-form .setup-pace .difficulty-options{display:grid;grid-template-columns:minmax(0,1fr);gap:4px;padding:4px;border:1px solid #d5ceb6;border-radius:13px;background:#eae7d6}
+#setup-form .setup-pace .difficulty-option{min-height:44px;min-width:0;justify-content:center;text-align:center;padding:6px 4px;gap:0;box-shadow:none;border-radius:9px;background:transparent;border:1px solid transparent;color:#738070}
+#setup-form .setup-pace .difficulty-option b{font:800 12px/1.2 var(--sans);margin:0}
+#setup-form .setup-pace .difficulty-option[aria-pressed=true]{border-color:#81997c;background:#fffdf4;color:#315e4b;box-shadow:0 2px 0 #87906c26}
+#setup-form .cooperative-option{margin:0;min-height:38px;padding:7px 9px;border-radius:10px;background:#eff0e0;font-size:11px;line-height:1.3;display:flex;align-items:center;gap:8px}
+#setup-form .cooperative-option input{margin:0;width:20px;height:20px;flex:none}
+#setup-form .cooperative-option small{display:block;font-size:9px;color:#839174;margin-top:2px}
+#setup-form .service-forecast{font-size:10px;line-height:1.3;margin:0;text-align:center;color:#78896c}
+#setup-form .setup-actions{margin:0;grid-template-columns:110px minmax(0,1fr);gap:10px}
+#setup-form .save-note{margin:0}
+/* A fixed heading and grade row; only the unit list scrolls. */
+.lesson-backdrop{z-index:20;padding:max(14px,env(safe-area-inset-top)) max(14px,env(safe-area-inset-right)) max(14px,env(safe-area-inset-bottom)) max(14px,env(safe-area-inset-left))}
+.lesson-picker-card{display:flex;flex-direction:column;width:min(100%,660px);max-height:min(780px,calc(100dvh - 28px - env(safe-area-inset-top) - env(safe-area-inset-bottom)));min-height:0;padding:22px;border:1px solid var(--ui-line);border-top:3px solid var(--arena-accent);border-radius:22px;background:linear-gradient(135deg,#fffdf6,#f4eedf);box-shadow:0 20px 70px #193c3540;color:var(--ui-ink);animation:card-in .2s ease}
+.lesson-picker-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:14px;flex:none}
+.lesson-picker-heading h2{font:700 29px/1.15 var(--serif);margin:4px 0 6px}
+.lesson-picker-heading p{font:500 12px/1.4 var(--sans);color:#76846b;margin:0}
+.lesson-picker-heading .icon-button{min-width:44px;min-height:44px}
+.lesson-grade-options{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:7px;margin:18px 0 12px;flex:none}
+.lesson-grade-options button{min-width:0;min-height:58px;border:1px solid #d2c8ad;border-radius:11px;background:#f5f0e1;color:#75816a;padding:8px 3px;text-align:center}
+.lesson-grade-options button>span{display:block;font:800 10px/1.25 var(--sans);letter-spacing:.04em}
+.lesson-grade-options button>b{display:block;font:700 17px/1.25 var(--serif);margin-top:3px}
+.lesson-grade-options button[aria-selected=true]{color:#fff7df;border-color:#284f3d;background:linear-gradient(#4c795e,#315d48);box-shadow:0 2px 0 #254834}
+.lesson-list-label{font:700 11px/1.3 var(--sans);color:#7b8269;margin:0 0 10px;flex:none}
+.lesson-unit-list{display:grid;grid-auto-rows:max-content;align-content:start;gap:8px;overflow-y:auto;min-height:0;overscroll-behavior:contain;scrollbar-gutter:stable;padding:2px 5px 4px 2px;flex:1}
+.lesson-unit-card{display:flex;gap:12px;align-items:center;width:100%;min-width:0;min-height:82px;padding:12px;border:1px solid #d4ceb7;border-radius:12px;background:linear-gradient(#fffef7,#f7f2e5);color:var(--ui-ink);text-align:left;flex:none;box-shadow:0 2px 0 #b6b3931c}
+.lesson-unit-number{width:36px;height:42px;flex:none;display:grid;place-items:center;border-radius:10px;border:1px solid #c9d3b7;background:#eaf0dd;font:700 22px/1 var(--serif);color:#64815c}
+.lesson-unit-copy{min-width:0;flex:1}.lesson-unit-copy>small{display:block;font:800 8px/1.25 var(--sans);letter-spacing:.12em;color:#8a8d72}.lesson-unit-copy>strong{display:block;font:700 18px/1.25 var(--serif);margin:3px 0;color:#345e48}.lesson-unit-copy>span{display:block;font:500 11px/1.45 var(--sans);color:#7b876e}
+.lesson-unit-check{width:24px;height:28px;flex:none;display:grid;place-items:center;color:#8ba17a}.lesson-unit-check svg{width:19px;height:19px}
+.lesson-unit-card[aria-pressed=true]{background:#e8f0dc;border-color:#6f966b;box-shadow:inset 3px 0 #608956}.lesson-unit-card[aria-pressed=true] .lesson-unit-check{color:#365e44}
+.lesson-picker-footer{font:500 10px/1.4 var(--sans);color:#8a9279;margin:12px 0 0;text-align:center;flex:none}
+@media(max-width:760px){
+ #setup-form{padding:14px;gap:10px;border-radius:19px}
+ #setup-form legend{font-size:10px;margin-bottom:6px}
+ #setup-form .arena-option{min-height:75px;padding:7px 6px}.arena-options{gap:6px}
+ #setup-form .arena-option>svg{width:19px;height:19px;margin-bottom:4px}
+ #setup-form .arena-option b{font-size:10px;min-height:25px}#setup-form .arena-option small{font-size:8px;line-height:1.25}
+ #setup-form .team-option{min-height:61px;padding:7px 2px;gap:5px}#setup-form .team-option .crest{width:25px;height:27px}
+ .lesson-pace-row{grid-template-columns:minmax(0,1fr) 88px;gap:8px}.lesson-button{padding:9px 7px;grid-template-columns:28px minmax(0,1fr) 10px;gap:6px}.lesson-grade-token{width:28px;height:39px;font-size:24px}.lesson-selection small{font-size:8px;letter-spacing:0}.lesson-selection strong{font-size:13px;line-height:1.25}.lesson-selection>span{font-size:8px}.lesson-button>svg{width:11px}
+ #setup-form .setup-pace .difficulty-option b{font-size:11px}
+ #setup-form .cooperative-option{font-size:11px;padding:6px 8px}#setup-form .cooperative-option small{font-size:8px}
+ #setup-form .setup-actions{grid-template-columns:94px minmax(0,1fr);gap:8px}
+ .lesson-picker-card{padding:16px 12px;border-radius:18px}.lesson-picker-heading h2{font-size:26px}.lesson-picker-heading p{font-size:11px}.lesson-grade-options{gap:5px;margin:15px 0 11px}.lesson-grade-options button{min-height:55px}.lesson-grade-options button>span{font-size:9px;letter-spacing:0}.lesson-grade-options button>b{font-size:16px}
+ .lesson-unit-card{padding:10px 8px;gap:9px;min-height:84px}.lesson-unit-number{width:30px;height:36px;font-size:20px}.lesson-unit-copy>strong{font-size:16px}.lesson-unit-copy>span{font-size:11px}.lesson-unit-check{width:20px}.lesson-list-label{font-size:10px}.lesson-picker-footer{font-size:9px}
+}
+@media(max-width:760px) and (max-height:700px){#setup-form{padding:11px 12px;gap:8px}#setup-form .arena-option{min-height:65px}#setup-form .arena-option small{display:none}#setup-form .team-option{min-height:54px}#setup-form .service-forecast,#setup-form .save-note{display:none}#setup-form .cooperative-option small{display:none}.lesson-button{min-height:100px}}
+@media(max-height:650px) and (min-width:761px){#setup-form{padding:15px 18px;gap:9px}#setup-form .arena-option{min-height:74px}#setup-form .team-option{min-height:61px}}
+@media(max-height:450px) and (min-aspect-ratio:14/10){
+ #setup-form{grid-template-columns:128px minmax(0,1fr);gap:6px 10px;padding:9px 12px}
+ #setup-form>.setup-restaurants{grid-column:1/-1;grid-row:1}#setup-form>.setup-teams{grid-column:1/-1;grid-row:2}#setup-form>.lesson-pace-row{grid-column:1/-1;grid-row:3}
+ #setup-form>.cooperative-option{grid-column:1;grid-row:4;min-height:44px;padding:5px;font-size:10px}#setup-form>.setup-actions{grid-column:2;grid-row:4;grid-template-columns:72px minmax(0,1fr);gap:7px}#setup-form .cooperative-option small,#setup-form .service-forecast,#setup-form .save-note,#setup-form #equipment-note{display:none}
+ #setup-form legend{font-size:9px;margin-bottom:4px}#setup-form .arena-option{min-height:44px;padding:4px 6px;display:flex;align-items:center;gap:5px}#setup-form .arena-option>svg{width:17px;height:17px;margin:0;flex:none}#setup-form .arena-option b{font-size:10px;min-height:0}#setup-form .arena-option small{display:none}
+ #setup-form .team-option{min-height:44px;flex-direction:row;padding:4px 2px;gap:5px}#setup-form .team-option .crest{width:20px;height:23px}#setup-form .team-option .crest svg{width:16px;height:16px}#setup-form .team-option>span:last-child{font-size:9px}
+ .lesson-pace-row{grid-template-columns:minmax(0,1fr) 166px;gap:10px}.lesson-button{min-height:58px;padding:5px 8px;grid-template-columns:28px minmax(0,1fr) 12px}.lesson-grade-token{height:36px}.lesson-selection strong{font-size:12px;margin:2px 0}.lesson-selection>span{display:none}
+ #setup-form .setup-pace .difficulty-options{grid-template-columns:1fr 1fr;padding:6px 3px;gap:3px}#setup-form .setup-pace .difficulty-option{min-height:44px;padding:4px 2px}#setup-form .setup-pace .difficulty-option b{font-size:10px}
+ #setup-form .setup-actions .start-button{font-size:12px;gap:7px;padding:6px 9px}#setup-form .setup-actions #setup-shop{font-size:10px;padding:4px}
+ .lesson-backdrop{padding:8px 12px}.lesson-picker-card{max-height:calc(100dvh - 16px);width:min(100%,700px);padding:12px 16px}.lesson-picker-heading h2{font-size:23px}.lesson-picker-heading p,.lesson-picker-heading .eyebrow,.lesson-picker-footer{display:none}.lesson-grade-options{margin:8px 0;gap:7px}.lesson-grade-options button{min-height:44px;padding:4px}.lesson-grade-options button>span,.lesson-grade-options button>b{display:inline;margin:0 3px;font:800 11px/1.3 var(--sans)}.lesson-list-label{margin-bottom:6px}.lesson-unit-card{min-height:70px}
+}
+@media(max-height:360px) and (min-aspect-ratio:14/10){#setup-form{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}#setup-form>.setup-restaurants{grid-column:1;grid-row:1}#setup-form>.setup-teams{grid-column:2;grid-row:1}#setup-form>.lesson-pace-row{grid-column:1/-1;grid-row:2}#setup-form>.cooperative-option{grid-column:1;grid-row:3}#setup-form>.setup-actions{grid-column:2;grid-row:3}#setup-form .arena-option{padding:4px 2px;gap:3px}#setup-form .arena-option>svg{display:none}#setup-form .team-option{flex-direction:column;gap:1px}#setup-form .team-option>span:last-child{font-size:8px}#setup-form .team-option .crest{height:17px;width:18px}#setup-form .team-option .crest svg{height:14px;width:14px}#setup-form .setup-actions .start-button{font-size:10px;gap:3px;padding:5px}#setup-form .setup-actions .start-button svg{width:13px}}
+@media(prefers-reduced-motion:reduce){.lesson-picker-card{animation:none}}[data-motion=reduced] .lesson-picker-card{animation:none}
+
+@media(max-width:400px) and (max-height:520px){#setup-form{gap:6px;padding:9px 12px}#setup-form .team-option{min-height:48px;padding:4px 2px;gap:3px}#setup-form .team-option .crest{width:23px;height:25px}}
+@media(max-width:400px) and (max-height:520px){
+ #setup-form{gap:5px}
+ #setup-form .arena-option{min-height:56px;padding:5px 4px}
+ #setup-form .arena-option>svg{width:14px;height:14px;margin-bottom:2px}
+ #setup-form .arena-option b{font-size:9px;min-height:22px}
+ #setup-form .team-option{padding:3px 2px;gap:2px}
+ #setup-form .team-option .crest{height:23px;width:22px}
+ .lesson-button{grid-template-columns:minmax(0,1fr) 10px}
+ .lesson-button .lesson-grade-token,.lesson-selection>span{display:none}
+}
+
+.lesson-unit-copy>.lesson-unit-topics{color:#556b60;font-size:11px;line-height:1.45;margin-top:5px;overflow-wrap:anywhere}

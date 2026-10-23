@@ -1,0 +1,405 @@
+{
+  "checks": [
+    {
+      "width": 390,
+      "height": 844,
+      "scrollHeight": 844,
+      "clientHeight": 844,
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "character": {
+        "x": 28,
+        "y": 76.71875,
+        "width": 113.328125,
+        "height": 170,
+        "top": 76.71875,
+        "right": 141.328125,
+        "bottom": 246.71875,
+        "left": 28
+      },
+      "panel": {
+        "x": 16,
+        "y": 241.71875,
+        "width": 358,
+        "height": 588.5625,
+        "top": 241.71875,
+        "right": 374,
+        "bottom": 830.28125,
+        "left": 16
+      },
+      "start": {
+        "x": 140,
+        "y": 737.1875,
+        "width": 218,
+        "height": 46,
+        "top": 737.1875,
+        "right": 358,
+        "bottom": 783.1875,
+        "left": 140
+      },
+      "tools": {
+        "x": 232,
+        "y": 13.71875,
+        "width": 142,
+        "height": 44,
+        "top": 13.71875,
+        "right": 374,
+        "bottom": 57.71875,
+        "left": 232
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "image": "http://127.0.0.1:8778/assets/saymaz/full-160.webp"
+    },
+    {
+      "width": 360,
+      "height": 640,
+      "scrollHeight": 640,
+      "clientHeight": 640,
+      "scrollWidth": 360,
+      "clientWidth": 360,
+      "character": {
+        "x": 28,
+        "y": 89.203125,
+        "width": 73.328125,
+        "height": 110,
+        "top": 89.203125,
+        "right": 101.328125,
+        "bottom": 199.203125,
+        "left": 28
+      },
+      "panel": {
+        "x": 16,
+        "y": 194.203125,
+        "width": 328,
+        "height": 416.59375,
+        "top": 194.203125,
+        "right": 344,
+        "bottom": 610.796875,
+        "left": 16
+      },
+      "start": {
+        "x": 137,
+        "y": 540.296875,
+        "width": 194,
+        "height": 46,
+        "top": 540.296875,
+        "right": 331,
+        "bottom": 586.296875,
+        "left": 137
+      },
+      "tools": {
+        "x": 204,
+        "y": 29.203125,
+        "width": 140,
+        "height": 44,
+        "top": 29.203125,
+        "right": 344,
+        "bottom": 73.203125,
+        "left": 204
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "image": "http://127.0.0.1:8778/assets/saymaz/full-160.webp"
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "scrollHeight": 568,
+      "clientHeight": 568,
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "character": {
+        "x": 26,
+        "y": 67.203125,
+        "width": 46.65625,
+        "height": 70,
+        "top": 67.203125,
+        "right": 72.65625,
+        "bottom": 137.203125,
+        "left": 26
+      },
+      "panel": {
+        "x": 16,
+        "y": 125.203125,
+        "width": 288,
+        "height": 417.59375,
+        "top": 125.203125,
+        "right": 304,
+        "bottom": 542.796875,
+        "left": 16
+      },
+      "start": {
+        "x": 137,
+        "y": 472.296875,
+        "width": 154,
+        "height": 46,
+        "top": 472.296875,
+        "right": 291,
+        "bottom": 518.296875,
+        "left": 137
+      },
+      "tools": {
+        "x": 166,
+        "y": 25.203125,
+        "width": 138,
+        "height": 44,
+        "top": 25.203125,
+        "right": 304,
+        "bottom": 69.203125,
+        "left": 166
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "image": "http://127.0.0.1:8778/assets/saymaz/full-160.webp"
+    },
+    {
+      "width": 320,
+      "height": 480,
+      "scrollHeight": 480,
+      "clientHeight": 480,
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "character": {
+        "x": 16,
+        "y": 9.703125,
+        "width": 30,
+        "height": 38,
+        "top": 9.703125,
+        "right": 46,
+        "bottom": 47.703125,
+        "left": 16
+      },
+      "panel": {
+        "x": 16,
+        "y": 61.703125,
+        "width": 288,
+        "height": 408.59375,
+        "top": 61.703125,
+        "right": 304,
+        "bottom": 470.296875,
+        "left": 16
+      },
+      "start": {
+        "x": 137,
+        "y": 401.796875,
+        "width": 154,
+        "height": 46,
+        "top": 401.796875,
+        "right": 291,
+        "bottom": 447.796875,
+        "left": 137
+      },
+      "tools": {
+        "x": 166,
+        "y": 9.703125,
+        "width": 138,
+        "height": 44,
+        "top": 9.703125,
+        "right": 304,
+        "bottom": 53.703125,
+        "left": 166
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "image": "http://127.0.0.1:8778/assets/saymaz/bust-160.webp"
+    },
+    {
+      "width": 667,
+      "height": 375,
+      "scrollHeight": 375,
+      "clientHeight": 375,
+      "scrollWidth": 667,
+      "clientWidth": 667,
+      "character": {
+        "x": 16,
+        "y": 80.78125,
+        "width": 134,
+        "height": 250,
+        "top": 80.78125,
+        "right": 150,
+        "bottom": 330.78125,
+        "left": 16
+      },
+      "panel": {
+        "x": 158,
+        "y": 86.203125,
+        "width": 493,
+        "height": 252.578125,
+        "top": 86.203125,
+        "right": 651,
+        "bottom": 338.78125,
+        "left": 158
+      },
+      "start": {
+        "x": 311,
+        "y": 283.78125,
+        "width": 325,
+        "height": 44,
+        "top": 283.78125,
+        "right": 636,
+        "bottom": 327.78125,
+        "left": 311
+      },
+      "tools": {
+        "x": 511,
+        "y": 36.203125,
+        "width": 140,
+        "height": 44,
+        "top": 36.203125,
+        "right": 651,
+        "bottom": 80.203125,
+        "left": 511
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "image": "http://127.0.0.1:8778/assets/saymaz/full-160.webp"
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scrollHeight": 390,
+      "clientHeight": 390,
+      "scrollWidth": 844,
+      "clientWidth": 844,
+      "character": {
+        "x": 16,
+        "y": 86.296875,
+        "width": 134,
+        "height": 250,
+        "top": 86.296875,
+        "right": 150,
+        "bottom": 336.296875,
+        "left": 16
+      },
+      "panel": {
+        "x": 158,
+        "y": 95.703125,
+        "width": 670,
+        "height": 248.59375,
+        "top": 95.703125,
+        "right": 828,
+        "bottom": 344.296875,
+        "left": 158
+      },
+      "start": {
+        "x": 315,
+        "y": 287.296875,
+        "width": 494,
+        "height": 44,
+        "top": 287.296875,
+        "right": 809,
+        "bottom": 331.296875,
+        "left": 315
+      },
+      "tools": {
+        "x": 684,
+        "y": 45.703125,
+        "width": 144,
+        "height": 44,
+        "top": 45.703125,
+        "right": 828,
+        "bottom": 89.703125,
+        "left": 684
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "image": "http://127.0.0.1:8778/assets/saymaz/full-480.webp"
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "scrollHeight": 768,
+      "clientHeight": 768,
+      "scrollWidth": 1366,
+      "clientWidth": 1366,
+      "character": {
+        "x": 455.921875,
+        "y": 128.703125,
+        "width": 399.34375,
+        "height": 599.03125,
+        "top": 128.703125,
+        "right": 855.265625,
+        "bottom": 727.734375,
+        "left": 455.921875
+      },
+      "panel": {
+        "x": 867.265625,
+        "y": 30.25,
+        "width": 440,
+        "height": 707.484375,
+        "top": 30.25,
+        "right": 1307.265625,
+        "bottom": 737.734375,
+        "left": 867.265625
+      },
+      "start": {
+        "x": 1023.265625,
+        "y": 647.234375,
+        "width": 256,
+        "height": 48,
+        "top": 647.234375,
+        "right": 1279.265625,
+        "bottom": 695.234375,
+        "left": 1023.265625
+      },
+      "tools": {
+        "x": 691.265625,
+        "y": 33,
+        "width": 144,
+        "height": 44,
+        "top": 33,
+        "right": 835.265625,
+        "bottom": 77,
+        "left": 691.265625
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "image": "http://127.0.0.1:8778/assets/saymaz/full-480.webp"
+    },
+    {
+      "width": 1024,
+      "height": 600,
+      "scrollHeight": 600,
+      "clientHeight": 600,
+      "scrollWidth": 1024,
+      "clientWidth": 1024,
+      "character": {
+        "x": 232,
+        "y": 103.546875,
+        "width": 312,
+        "height": 468,
+        "top": 103.546875,
+        "right": 544,
+        "bottom": 571.546875,
+        "left": 232
+      },
+      "panel": {
+        "x": 556,
+        "y": 18.453125,
+        "width": 440,
+        "height": 563.09375,
+        "top": 18.453125,
+        "right": 996,
+        "bottom": 581.546875,
+        "left": 556
+      },
+      "start": {
+        "x": 703,
+        "y": 505.046875,
+        "width": 274,
+        "height": 48,
+        "top": 505.046875,
+        "right": 977,
+        "bottom": 553.046875,
+        "left": 703
+      },
+      "tools": {
+        "x": 380,
+        "y": 18,
+        "width": 144,
+        "height": 44,
+        "top": 18,
+        "right": 524,
+        "bottom": 62,
+        "left": 380
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "image": "http://127.0.0.1:8778/assets/saymaz/full-480.webp"
+    }
+  ],
+  "errors": []
+}

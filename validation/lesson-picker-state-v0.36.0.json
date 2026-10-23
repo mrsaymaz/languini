@@ -1,0 +1,601 @@
+{
+  "checks": [
+    {
+      "width": 390,
+      "height": 844,
+      "scrollHeight": 844,
+      "clientHeight": 844,
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "panel": {
+        "x": 16,
+        "y": 270.109375,
+        "width": 358,
+        "height": 531.78125,
+        "top": 270.109375,
+        "right": 374,
+        "bottom": 801.890625,
+        "left": 16
+      },
+      "start": {
+        "x": 133,
+        "y": 708.796875,
+        "width": 226,
+        "height": 46,
+        "top": 708.796875,
+        "right": 359,
+        "bottom": 754.796875,
+        "left": 133
+      },
+      "order": [
+        "Choose your restaurant",
+        "Your team",
+        "Lesson",
+        "Pace"
+      ],
+      "popup": {
+        "card": {
+          "x": 14,
+          "y": 32,
+          "width": 362,
+          "height": 780,
+          "top": 32,
+          "right": 376,
+          "bottom": 812,
+          "left": 14
+        },
+        "listHeight": 541,
+        "scrollable": true,
+        "tabs": [
+          "GRADE 5A1",
+          "GRADE 6A1+",
+          "GRADE 7A2",
+          "GRADE 8A2+"
+        ],
+        "backgroundInert": true,
+        "dropdowns": 0
+      }
+    },
+    {
+      "width": 360,
+      "height": 640,
+      "scrollHeight": 640,
+      "clientHeight": 640,
+      "scrollWidth": 360,
+      "clientWidth": 360,
+      "panel": {
+        "x": 16,
+        "y": 177.25,
+        "width": 328,
+        "height": 450.5,
+        "top": 177.25,
+        "right": 344,
+        "bottom": 627.75,
+        "left": 16
+      },
+      "start": {
+        "x": 131,
+        "y": 557.25,
+        "width": 200,
+        "height": 46,
+        "top": 557.25,
+        "right": 331,
+        "bottom": 603.25,
+        "left": 131
+      },
+      "order": [
+        "Choose your restaurant",
+        "Your team",
+        "Lesson",
+        "Pace"
+      ],
+      "popup": {
+        "card": {
+          "x": 14,
+          "y": 14,
+          "width": 332,
+          "height": 612,
+          "top": 14,
+          "right": 346,
+          "bottom": 626,
+          "left": 14
+        },
+        "listHeight": 343,
+        "scrollable": true,
+        "tabs": [
+          "GRADE 5A1",
+          "GRADE 6A1+",
+          "GRADE 7A2",
+          "GRADE 8A2+"
+        ],
+        "backgroundInert": true,
+        "dropdowns": 0
+      }
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "scrollHeight": 568,
+      "clientHeight": 568,
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "panel": {
+        "x": 16,
+        "y": 108.75,
+        "width": 288,
+        "height": 450.5,
+        "top": 108.75,
+        "right": 304,
+        "bottom": 559.25,
+        "left": 16
+      },
+      "start": {
+        "x": 131,
+        "y": 488.75,
+        "width": 160,
+        "height": 46,
+        "top": 488.75,
+        "right": 291,
+        "bottom": 534.75,
+        "left": 131
+      },
+      "order": [
+        "Choose your restaurant",
+        "Your team",
+        "Lesson",
+        "Pace"
+      ],
+      "popup": {
+        "card": {
+          "x": 14,
+          "y": 14,
+          "width": 292,
+          "height": 540,
+          "top": 14,
+          "right": 306,
+          "bottom": 554,
+          "left": 14
+        },
+        "listHeight": 256,
+        "scrollable": true,
+        "tabs": [
+          "GRADE 5A1",
+          "GRADE 6A1+",
+          "GRADE 7A2",
+          "GRADE 8A2+"
+        ],
+        "backgroundInert": true,
+        "dropdowns": 0
+      }
+    },
+    {
+      "width": 320,
+      "height": 480,
+      "scrollHeight": 497,
+      "clientHeight": 480,
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "panel": {
+        "x": 16,
+        "y": 40.75,
+        "width": 288,
+        "height": 450.5,
+        "top": 40.75,
+        "right": 304,
+        "bottom": 491.25,
+        "left": 16
+      },
+      "start": {
+        "x": 131,
+        "y": 420.75,
+        "width": 160,
+        "height": 46,
+        "top": 420.75,
+        "right": 291,
+        "bottom": 466.75,
+        "left": 131
+      },
+      "order": [
+        "Choose your restaurant",
+        "Your team",
+        "Lesson",
+        "Pace"
+      ],
+      "popup": {
+        "card": {
+          "x": 14,
+          "y": 14,
+          "width": 292,
+          "height": 452,
+          "top": 14,
+          "right": 306,
+          "bottom": 466,
+          "left": 14
+        },
+        "listHeight": 168,
+        "scrollable": true,
+        "tabs": [
+          "GRADE 5A1",
+          "GRADE 6A1+",
+          "GRADE 7A2",
+          "GRADE 8A2+"
+        ],
+        "backgroundInert": true,
+        "dropdowns": 0
+      }
+    },
+    {
+      "width": 667,
+      "height": 375,
+      "scrollHeight": 375,
+      "clientHeight": 375,
+      "scrollWidth": 667,
+      "clientWidth": 667,
+      "panel": {
+        "x": 158,
+        "y": 74.625,
+        "width": 493,
+        "height": 275.75,
+        "top": 74.625,
+        "right": 651,
+        "bottom": 350.375,
+        "left": 158
+      },
+      "start": {
+        "x": 388,
+        "y": 296.375,
+        "width": 250,
+        "height": 44,
+        "top": 296.375,
+        "right": 638,
+        "bottom": 340.375,
+        "left": 388
+      },
+      "order": [
+        "Choose your restaurant",
+        "Your team",
+        "Lesson",
+        "Pace"
+      ],
+      "popup": {
+        "card": {
+          "x": 12,
+          "y": 8,
+          "width": 643,
+          "height": 359,
+          "top": 8,
+          "right": 655,
+          "bottom": 367,
+          "left": 12
+        },
+        "listHeight": 208,
+        "scrollable": true,
+        "tabs": [
+          "GRADE 5A1",
+          "GRADE 6A1+",
+          "GRADE 7A2",
+          "GRADE 8A2+"
+        ],
+        "backgroundInert": true,
+        "dropdowns": 0
+      }
+    },
+    {
+      "width": 568,
+      "height": 320,
+      "scrollHeight": 320,
+      "clientHeight": 320,
+      "scrollWidth": 568,
+      "clientWidth": 568,
+      "panel": {
+        "x": 120,
+        "y": 79.75,
+        "width": 432,
+        "height": 210.5,
+        "top": 79.75,
+        "right": 552,
+        "bottom": 290.25,
+        "left": 120
+      },
+      "start": {
+        "x": 420,
+        "y": 236.25,
+        "width": 119,
+        "height": 44,
+        "top": 236.25,
+        "right": 539,
+        "bottom": 280.25,
+        "left": 420
+      },
+      "order": [
+        "Choose your restaurant",
+        "Your team",
+        "Lesson",
+        "Pace"
+      ],
+      "popup": {
+        "card": {
+          "x": 12,
+          "y": 8,
+          "width": 544,
+          "height": 304,
+          "top": 8,
+          "right": 556,
+          "bottom": 312,
+          "left": 12
+        },
+        "listHeight": 153,
+        "scrollable": true,
+        "tabs": [
+          "GRADE 5A1",
+          "GRADE 6A1+",
+          "GRADE 7A2",
+          "GRADE 8A2+"
+        ],
+        "backgroundInert": true,
+        "dropdowns": 0
+      }
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scrollHeight": 390,
+      "clientHeight": 390,
+      "scrollWidth": 844,
+      "clientWidth": 844,
+      "panel": {
+        "x": 158,
+        "y": 82.125,
+        "width": 670,
+        "height": 275.75,
+        "top": 82.125,
+        "right": 828,
+        "bottom": 357.875,
+        "left": 158
+      },
+      "start": {
+        "x": 388,
+        "y": 303.875,
+        "width": 427,
+        "height": 44,
+        "top": 303.875,
+        "right": 815,
+        "bottom": 347.875,
+        "left": 388
+      },
+      "order": [
+        "Choose your restaurant",
+        "Your team",
+        "Lesson",
+        "Pace"
+      ],
+      "popup": {
+        "card": {
+          "x": 72,
+          "y": 8,
+          "width": 700,
+          "height": 374,
+          "top": 8,
+          "right": 772,
+          "bottom": 382,
+          "left": 72
+        },
+        "listHeight": 222,
+        "scrollable": true,
+        "tabs": [
+          "GRADE 5A1",
+          "GRADE 6A1+",
+          "GRADE 7A2",
+          "GRADE 8A2+"
+        ],
+        "backgroundInert": true,
+        "dropdowns": 0
+      }
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "scrollHeight": 768,
+      "clientHeight": 768,
+      "scrollWidth": 1366,
+      "clientWidth": 1366,
+      "panel": {
+        "x": 867.265625,
+        "y": 87.1875,
+        "width": 440,
+        "height": 593.609375,
+        "top": 87.1875,
+        "right": 1307.265625,
+        "bottom": 680.796875,
+        "left": 867.265625
+      },
+      "start": {
+        "x": 1010.265625,
+        "y": 582.296875,
+        "width": 274,
+        "height": 48,
+        "top": 582.296875,
+        "right": 1284.265625,
+        "bottom": 630.296875,
+        "left": 1010.265625
+      },
+      "order": [
+        "Choose your restaurant",
+        "Your team",
+        "Lesson",
+        "Pace"
+      ],
+      "popup": {
+        "card": {
+          "x": 353,
+          "y": 14,
+          "width": 660,
+          "height": 740,
+          "top": 14,
+          "right": 1013,
+          "bottom": 754,
+          "left": 353
+        },
+        "listHeight": 475,
+        "scrollable": true,
+        "tabs": [
+          "GRADE 5A1",
+          "GRADE 6A1+",
+          "GRADE 7A2",
+          "GRADE 8A2+"
+        ],
+        "backgroundInert": true,
+        "dropdowns": 0
+      }
+    },
+    {
+      "width": 1024,
+      "height": 600,
+      "scrollHeight": 600,
+      "clientHeight": 600,
+      "scrollWidth": 1024,
+      "clientWidth": 1024,
+      "panel": {
+        "x": 556,
+        "y": 25.6875,
+        "width": 440,
+        "height": 548.609375,
+        "top": 25.6875,
+        "right": 996,
+        "bottom": 574.296875,
+        "left": 556
+      },
+      "start": {
+        "x": 695,
+        "y": 487.796875,
+        "width": 282,
+        "height": 48,
+        "top": 487.796875,
+        "right": 977,
+        "bottom": 535.796875,
+        "left": 695
+      },
+      "order": [
+        "Choose your restaurant",
+        "Your team",
+        "Lesson",
+        "Pace"
+      ],
+      "popup": {
+        "card": {
+          "x": 182,
+          "y": 14,
+          "width": 660,
+          "height": 572,
+          "top": 14,
+          "right": 842,
+          "bottom": 586,
+          "left": 182
+        },
+        "listHeight": 307,
+        "scrollable": true,
+        "tabs": [
+          "GRADE 5A1",
+          "GRADE 6A1+",
+          "GRADE 7A2",
+          "GRADE 8A2+"
+        ],
+        "backgroundInert": true,
+        "dropdowns": 0
+      }
+    }
+  ],
+  "errors": [],
+  "before": "Choose lesson. Grade 5 A1, Unit 1: School Life",
+  "cancelPreserves": true,
+  "focusReturns": true,
+  "selected": "Choose lesson. Grade 7 A2, Unit 1: Appearance and Personality",
+  "saved": "Choose lesson. Grade 7 A2, Unit 1: Appearance and Personality",
+  "paceSaved": "true",
+  "names": [
+    "Appearance and Personality",
+    "Sports",
+    "Biographies",
+    "Wild Animals",
+    "Television",
+    "Celebrations",
+    "Dreams",
+    "Public Buildings",
+    "Environment",
+    "Planets",
+    "Food and Cooking",
+    "Travel and Holidays"
+  ],
+  "counts": [
+    {
+      "grade": 5,
+      "units": 10,
+      "descriptions": [
+        "School places, subjects and everyday school routines.",
+        "Classroom objects, instructions and learning together.",
+        "Daily routines, interests and personal information.",
+        "Family members, relationships and life at home.",
+        "Places in town, directions and neighbourhood life.",
+        "Countries, people and places around the world.",
+        "Animals, plants, weather and the natural world.",
+        "Space, planets and ideas about the future.",
+        "Jobs, workplaces and what people do.",
+        "Toys, preferences and shopping conversations."
+      ]
+    },
+    {
+      "grade": 6,
+      "units": 10,
+      "descriptions": [
+        "School activities, responsibilities and people at school.",
+        "Classroom routines, teamwork and learning activities.",
+        "Habits, hobbies and talking about everyday life.",
+        "Family life, shared activities and responsibilities.",
+        "City places, local services and finding your way.",
+        "Countries, traditions and cultural experiences.",
+        "Nature, environmental problems and caring for the planet.",
+        "The universe, inventions and future possibilities.",
+        "Prices, purchases and talking about money.",
+        "Healthy habits, feelings and everyday well-being."
+      ]
+    },
+    {
+      "grade": 7,
+      "units": 12,
+      "descriptions": [
+        "Describe people’s looks, character and personal qualities.",
+        "Sports, equipment, training and sporting habits.",
+        "Life stories, achievements and events in the past.",
+        "Wildlife, habitats and protecting endangered animals.",
+        "TV programmes, preferences and viewing habits.",
+        "Parties, invitations and organising celebrations.",
+        "Dreams, hopes and predictions about the future.",
+        "Public places, services and reasons to visit them.",
+        "Environmental problems and ways to protect nature.",
+        "Planets, space exploration and comparisons.",
+        "Ingredients, kitchen tools and preparing food.",
+        "Travel plans, holiday activities and destinations."
+      ]
+    },
+    {
+      "grade": 8,
+      "units": 12,
+      "descriptions": [
+        "Friendship, invitations, trust and making arrangements.",
+        "Teenage routines, interests and preferences.",
+        "Recipes, cooking methods and kitchen equipment.",
+        "Phone conversations, messages and staying in touch.",
+        "Online activities, communication and internet habits.",
+        "Adventure activities, equipment and preferences.",
+        "Destinations, sightseeing and travel experiences.",
+        "Household jobs, responsibilities and helping at home.",
+        "Discoveries, inventions and scientific work.",
+        "Natural events, disasters and their effects.",
+        "Shopping, prices and everyday service conversations.",
+        "Animals, pet needs and responsible care."
+      ]
+    }
+  ],
+  "lastUnit": "Choose lesson. Grade 8 A2+, Unit 12: Animals and Pet Care",
+  "playing": "Grade 8 · Animals and Pet Care · Challenge"
+}

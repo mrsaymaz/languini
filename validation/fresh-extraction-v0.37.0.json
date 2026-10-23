@@ -1,0 +1,20 @@
+{
+  "version": "0.37.0",
+  "safeRelativeZipPaths": "passed",
+  "crc": "passed",
+  "duplicateEntries": 0,
+  "freshExtractionReleaseVerification": {
+    "runtimeFiles": 237,
+    "sourceFiles": 378,
+    "entrypointAssets": "passed",
+    "sourceFingerprint": "passed",
+    "runtimeHashes": "passed"
+  },
+  "freshExtractionPreservation": {
+    "protectedFiles": 13,
+    "units": 44,
+    "preservedTasks": 3033,
+    "tasks": 4805,
+    "conversations": 921
+  }
+}

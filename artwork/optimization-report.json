@@ -1,0 +1,178 @@
+[
+  {
+    "source": "saymaz-full.png",
+    "sourceDimensions": [
+      1024,
+      1536
+    ],
+    "sourceBytes": 1618465,
+    "asset": "assets/saymaz/full-160.webp",
+    "dimensions": [
+      160,
+      240
+    ],
+    "bytes": 10358,
+    "reductionPercent": 99.36,
+    "alphaPreserved": true
+  },
+  {
+    "source": "saymaz-full.png",
+    "sourceDimensions": [
+      1024,
+      1536
+    ],
+    "sourceBytes": 1618465,
+    "asset": "assets/saymaz/full-480.webp",
+    "dimensions": [
+      480,
+      720
+    ],
+    "bytes": 41788,
+    "reductionPercent": 97.42,
+    "alphaPreserved": true
+  },
+  {
+    "source": "saymaz-cheer.png",
+    "sourceDimensions": [
+      1024,
+      1536
+    ],
+    "sourceBytes": 1665709,
+    "asset": "assets/saymaz/cheer-160.webp",
+    "dimensions": [
+      160,
+      240
+    ],
+    "bytes": 10848,
+    "reductionPercent": 99.35,
+    "alphaPreserved": true
+  },
+  {
+    "source": "saymaz-cheer.png",
+    "sourceDimensions": [
+      1024,
+      1536
+    ],
+    "sourceBytes": 1665709,
+    "asset": "assets/saymaz/cheer-320.webp",
+    "dimensions": [
+      320,
+      480
+    ],
+    "bytes": 26406,
+    "reductionPercent": 98.41,
+    "alphaPreserved": true
+  },
+  {
+    "source": "saymaz-point.png",
+    "sourceDimensions": [
+      1024,
+      1536
+    ],
+    "sourceBytes": 1682224,
+    "asset": "assets/saymaz/point-160.webp",
+    "dimensions": [
+      160,
+      240
+    ],
+    "bytes": 10958,
+    "reductionPercent": 99.35,
+    "alphaPreserved": true
+  },
+  {
+    "source": "saymaz-think.png",
+    "sourceDimensions": [
+      1024,
+      1536
+    ],
+    "sourceBytes": 1533262,
+    "asset": "assets/saymaz/think-160.webp",
+    "dimensions": [
+      160,
+      240
+    ],
+    "bytes": 9242,
+    "reductionPercent": 99.4,
+    "alphaPreserved": true
+  },
+  {
+    "source": "saymaz-smile.png",
+    "sourceDimensions": [
+      1024,
+      1536
+    ],
+    "sourceBytes": 1607073,
+    "asset": "assets/saymaz/smile-160.webp",
+    "dimensions": [
+      160,
+      240
+    ],
+    "bytes": 10194,
+    "reductionPercent": 99.37,
+    "alphaPreserved": true
+  },
+  {
+    "source": "saymaz-smile.png",
+    "sourceDimensions": [
+      1024,
+      1536
+    ],
+    "sourceBytes": 1607073,
+    "asset": "assets/saymaz/smile-320.webp",
+    "dimensions": [
+      320,
+      480
+    ],
+    "bytes": 25634,
+    "reductionPercent": 98.4,
+    "alphaPreserved": true
+  },
+  {
+    "source": "saymaz-bust.png",
+    "sourceDimensions": [
+      1254,
+      1254
+    ],
+    "sourceBytes": 1481443,
+    "asset": "assets/saymaz/bust-160.webp",
+    "dimensions": [
+      160,
+      160
+    ],
+    "bytes": 8512,
+    "reductionPercent": 99.43,
+    "alphaPreserved": true
+  },
+  {
+    "source": "saymaz-bust.png",
+    "sourceDimensions": [
+      1254,
+      1254
+    ],
+    "sourceBytes": 1481443,
+    "asset": "assets/saymaz/bust-320.webp",
+    "dimensions": [
+      320,
+      320
+    ],
+    "bytes": 21822,
+    "reductionPercent": 98.53,
+    "alphaPreserved": true
+  },
+  {
+    "source": "saymaz-full.png",
+    "sourceDimensions": [
+      1024,
+      1536
+    ],
+    "sourceBytes": 1618465,
+    "asset": "assets/saymaz/full-768.webp",
+    "dimensions": [
+      768,
+      1152
+    ],
+    "bytes": 84670,
+    "reductionPercent": 94.77,
+    "alphaPreserved": true
+  }
+]

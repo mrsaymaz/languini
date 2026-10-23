@@ -1,0 +1,23 @@
+✔ camera arcs have exact endpoints, smooth monotonic travel and bounded lift (3.730667ms)
+✔ venue reveal and task camera pause, settle exactly and honor reduced motion without changing the game (352.985216ms)
+✔ ingredient landing ripples reuse one mesh, finish and dispose even after repeated actions (6.92264ms)
+✔ washing scrubs twice without moving word surfaces and the final rinse ends cleanly (245.046548ms)
+✔ stationary washing links retain their SVG node instead of restarting the drawing each frame (5.359175ms)
+✔ the real opening scene renders with no service, changes arenas, starts and returns to setup (37685.978145ms)
+✔ a first-frame render failure keeps startup blocked and offers a visible retry (4594.778316ms)
+✔ an animation-frame render failure after opening gives a retry instead of silently freezing (4570.693083ms)
+✔ the exact game entry can finish local startup with every network request blocked (67.970806ms)
+✔ blocked file-origin storage does not prevent the setup screen from opening (26.910407ms)
+✔ local artwork is embedded and exactly matches every shipped Fluent image (89.853649ms)
+✔ the extracted index loads classic scripts in startup order without module imports (1.59682ms)
+✔ script load failures and initialization exceptions replace the spinner with a retry (1.698824ms)
+✔ a stalled startup has a finite timeout and does not silently hide its error (1.993297ms)
+✔ the phone frame uses an explicit local HTML path and permits only its own window messages (2.113307ms)
+ℹ tests 15
+ℹ suites 0
+ℹ pass 15
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 48245.865465

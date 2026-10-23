@@ -1,0 +1,36 @@
+{
+  "version": "0.51.0",
+  "uniquePassingChecks": 447,
+  "fullRun": {
+    "tests": 447,
+    "pass": 444,
+    "fail": 3,
+    "exitCode": 1,
+    "durationMs": 312137.181857
+  },
+  "affectedFilesRerun": {
+    "tests": 100,
+    "pass": 100,
+    "fail": 0,
+    "exitCode": 0
+  },
+  "finalProjectedGeometry": {
+    "tests": 6,
+    "pass": 6,
+    "fail": 0,
+    "exitCode": 0
+  },
+  "scope": "The full 447-check run passed 444 and exposed three preparation regressions: undersized projected touch labels and a missed lifted-paper drop. Projection/paper sizing and grabbed-point hit testing were corrected, including header/footer release guards. All 100 checks in affected interaction/layout files then passed; the final physical-paper adjustment passed six targeted geometry/gesture checks. Combined passing names cover every check.",
+  "evidence": [
+    "phone-full-v0.51.0.txt",
+    "phone-rerun-v0.51.0.txt",
+    "phone-final-geometry-v0.51.0.txt",
+    "phone-final-gestures-v0.51.0.json"
+  ],
+  "finalGestureChecks": {
+    "tests": 17,
+    "pass": 17,
+    "fail": 0,
+    "exitCode": 0
+  }
+}

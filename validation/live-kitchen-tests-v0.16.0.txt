@@ -1,0 +1,22 @@
+✔ live kitchens complete 264 grade/unit/difficulty/arena services with plate conservation (1983.55711ms)
+✔ all four events work in 72 live equipment/arena/difficulty combinations (403.807499ms)
+✔ navigation reaches every station and guest while avoiding tables and furniture (6.630234ms)
+✔ movement consumes the full frame budget and stays consistent across step sizes (1.392419ms)
+✔ an order requires walking and explicit station choices, with protected learning time (1.316851ms)
+✔ prepared trays occupy hands and can be held on the counter without duplicating cooking (1.074737ms)
+✔ supply rewards and stock commit only when the carried crate reaches Pantry (0.96283ms)
+✔ washing is a timed batch, pauses safely and conserves serving dishes (0.952832ms)
+✔ a trolley commits two physical destinations and credits each handoff once (1.619559ms)
+✔ side requests can restock through the live kitchen and resume the same offer (0.856968ms)
+✔ ticket buttons drive travel through the visible HUD control (3.615319ms)
+✔ the live renderer follows simulated position and displays the real held load (426.587211ms)
+✔ the visible Pass action loads both shared-table meals onto the trolley (1.535395ms)
+✔ an invalidated delivery cannot credit a replacement order or strand the route (1.006057ms)
+ℹ tests 14
+ℹ suites 0
+ℹ pass 14
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3150.390811

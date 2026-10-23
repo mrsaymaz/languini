@@ -1,0 +1,38 @@
+{
+  "version": "0.34.0",
+  "basedOnVersion": "0.33.0",
+  "rollbackLineageVersion": "0.26.0",
+  "baselineArchive": "Languini-v0.33.0.zip",
+  "baselineArchiveSha256": "38b227793e78864c0d6606e8ed137058d8620849d93b9593bf4bc4eb2d8d1dae",
+  "baselineSourceFingerprintsVerifiedBeforeEditing": 324,
+  "baselineFilesUnchanged": 304,
+  "baselineFilesChanged": [
+    "src/core.mjs",
+    "src/delivery-sorting.mjs",
+    "src/interactions.mjs",
+    "src/task-ui.mjs",
+    "src/tasks.mjs",
+    "scripts/package-release.py",
+    "tests/game.test.mjs",
+    "tests/helpers.mjs",
+    "tests/next-build.test.mjs",
+    "tests/objects.test.mjs",
+    "tests/service-polish.test.mjs",
+    "tests/service.test.mjs",
+    "tests/stations.test.mjs",
+    "tests/three-phase-prep.test.mjs",
+    "tests/washing-menu.test.mjs",
+    "public/freshness.css",
+    "public/index.html",
+    "public/phone-preview.html",
+    "package.json",
+    "package-lock.json"
+  ],
+  "baselineFilesRemoved": [],
+  "newSourceFiles": [
+    "src/venue-learning.mjs",
+    "tests/venue-learning.test.mjs"
+  ],
+  "protectedCurriculumFilesByteIdentical": 13,
+  "v027RushFilesPresent": false
+}

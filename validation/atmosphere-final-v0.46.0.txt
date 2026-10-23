@@ -1,0 +1,14 @@
+✔ three authored plans differ in silhouette and keep venue capacity, kitchen anchors and save IDs (12.396464ms)
+✔ all 864 venue/layout/counter/decor combinations connect entrance, seats, stations and collection (3220.722242ms)
+✔ bounded weather is finite, exterior-only, static in reduced motion and fully disposable (13.129421ms)
+✔ ambience ducks immediately for English, respects zero volume and clears scheduled detail nodes (1.740172ms)
+✔ ambience volume migrates, persists and clamps without resetting campaign progress (1.257898ms)
+✔ every station hides weather, restores it on close and preserves rotated customer anchors (736.684314ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4379.88031

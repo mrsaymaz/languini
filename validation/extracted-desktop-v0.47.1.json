@@ -1,0 +1,17 @@
+{
+  "version": "0.47.1",
+  "actualExtractedFileOrigin": true,
+  "noQAHooks": true,
+  "desktop1366": true,
+  "nativeOrderTicketWalkAndTask": true,
+  "nativeEnglishTaskCompleted": "matching",
+  "returnedToServiceOverview": true,
+  "portrait390Resize": true,
+  "nativePauseQuit": true,
+  "ultiUnchanged": true,
+  "errors": [],
+  "externalRequests": [],
+  "gameBundleSha256": "40d19257fd297f81e509a5940bf7fb06ef29c6e50128ef3edc25f4b26e13dd84",
+  "roomRestorationVisuallyInspected": true,
+  "fixture": "Varying seeded randomness for repeatable orders and distinct graphics IDs; shipped app code unchanged."
+}

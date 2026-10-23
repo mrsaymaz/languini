@@ -1,0 +1,333 @@
+{
+  "mappings": [
+    {
+      "grade": 5,
+      "sourceUnit": "g5u1",
+      "sourceTitle": "School Life",
+      "targetUnit": "g5u1",
+      "targetTitle": "School Life"
+    },
+    {
+      "grade": 5,
+      "sourceUnit": "g5u2",
+      "sourceTitle": "Classroom Life",
+      "targetUnit": "g5u2",
+      "targetTitle": "Classroom Life"
+    },
+    {
+      "grade": 5,
+      "sourceUnit": "g5u3",
+      "sourceTitle": "Personal Life",
+      "targetUnit": "g5u3",
+      "targetTitle": "Personal Life"
+    },
+    {
+      "grade": 5,
+      "sourceUnit": "g5u4",
+      "sourceTitle": "Family Life",
+      "targetUnit": "g5u4",
+      "targetTitle": "Family Life"
+    },
+    {
+      "grade": 5,
+      "sourceUnit": "g5u5",
+      "sourceTitle": "Neighbourhood / City Life",
+      "targetUnit": "g5u5",
+      "targetTitle": "Life in the Neighbourhood & City"
+    },
+    {
+      "grade": 5,
+      "sourceUnit": "g5u6",
+      "sourceTitle": "Life In The World",
+      "targetUnit": "g5u6",
+      "targetTitle": "Life in the World"
+    },
+    {
+      "grade": 5,
+      "sourceUnit": "g5u7",
+      "sourceTitle": "Life In Nature",
+      "targetUnit": "g5u7",
+      "targetTitle": "Life in Nature"
+    },
+    {
+      "grade": 5,
+      "sourceUnit": "g5u8",
+      "sourceTitle": "Universe & Future",
+      "targetUnit": "g5u8",
+      "targetTitle": "Life in the Universe & Future"
+    },
+    {
+      "grade": 5,
+      "sourceUnit": "g5u10",
+      "sourceTitle": "Fun and Games",
+      "targetUnit": "g5u10",
+      "targetTitle": "At the Toy Shop"
+    },
+    {
+      "grade": 6,
+      "sourceUnit": "g6u1",
+      "sourceTitle": "School Life",
+      "targetUnit": "g6u1",
+      "targetTitle": "School Life"
+    },
+    {
+      "grade": 6,
+      "sourceUnit": "g6u2",
+      "sourceTitle": "Classroom Life",
+      "targetUnit": "g6u2",
+      "targetTitle": "Classroom Life"
+    },
+    {
+      "grade": 6,
+      "sourceUnit": "g6u3",
+      "sourceTitle": "Personal Life",
+      "targetUnit": "g6u3",
+      "targetTitle": "Personal Life"
+    },
+    {
+      "grade": 6,
+      "sourceUnit": "g6u4",
+      "sourceTitle": "Family Life",
+      "targetUnit": "g6u4",
+      "targetTitle": "Family Life"
+    },
+    {
+      "grade": 6,
+      "sourceUnit": "g6u5",
+      "sourceTitle": "Life in the Neighbourhood & City",
+      "targetUnit": "g6u5",
+      "targetTitle": "Life in the Neighbourhood & City"
+    },
+    {
+      "grade": 6,
+      "sourceUnit": "g6u6",
+      "sourceTitle": "Life in the World & Culture",
+      "targetUnit": "g6u6",
+      "targetTitle": "Life in the World & Culture"
+    },
+    {
+      "grade": 6,
+      "sourceUnit": "g6u7",
+      "sourceTitle": "Life in Nature & Global Problems",
+      "targetUnit": "g6u7",
+      "targetTitle": "Life in Nature & Global Problems"
+    },
+    {
+      "grade": 6,
+      "sourceUnit": "g6u8",
+      "sourceTitle": "Life in the Universe & Future",
+      "targetUnit": "g6u8",
+      "targetTitle": "Life in the Universe & Future"
+    },
+    {
+      "grade": 6,
+      "sourceUnit": "g6u9",
+      "sourceTitle": "Food Shopping and Prices",
+      "targetUnit": "g6u9",
+      "targetTitle": "Shopping and Money"
+    },
+    {
+      "grade": 6,
+      "sourceUnit": "g6u10",
+      "sourceTitle": "Healthy Habits",
+      "targetUnit": "g6u10",
+      "targetTitle": "Health and Well-being"
+    },
+    {
+      "grade": 7,
+      "sourceUnit": "g7u1",
+      "sourceTitle": "Appearance and Personality",
+      "targetUnit": "g7u1",
+      "targetTitle": "Appearance and Personality"
+    },
+    {
+      "grade": 7,
+      "sourceUnit": "g7u2",
+      "sourceTitle": "Sports",
+      "targetUnit": "g7u2",
+      "targetTitle": "Sports"
+    },
+    {
+      "grade": 7,
+      "sourceUnit": "g7u3",
+      "sourceTitle": "Biographies",
+      "targetUnit": "g7u3",
+      "targetTitle": "Biographies"
+    },
+    {
+      "grade": 7,
+      "sourceUnit": "g7u4",
+      "sourceTitle": "Wild Animals",
+      "targetUnit": "g7u4",
+      "targetTitle": "Wild Animals"
+    },
+    {
+      "grade": 7,
+      "sourceUnit": "g7u5",
+      "sourceTitle": "Television",
+      "targetUnit": "g7u5",
+      "targetTitle": "Television"
+    },
+    {
+      "grade": 7,
+      "sourceUnit": "g7u6",
+      "sourceTitle": "Celebrations",
+      "targetUnit": "g7u6",
+      "targetTitle": "Celebrations"
+    },
+    {
+      "grade": 7,
+      "sourceUnit": "g7u7",
+      "sourceTitle": "Dreams",
+      "targetUnit": "g7u7",
+      "targetTitle": "Dreams"
+    },
+    {
+      "grade": 7,
+      "sourceUnit": "g7u8",
+      "sourceTitle": "Public Buildings",
+      "targetUnit": "g7u8",
+      "targetTitle": "Public Buildings"
+    },
+    {
+      "grade": 7,
+      "sourceUnit": "g7u9",
+      "sourceTitle": "Environment",
+      "targetUnit": "g7u9",
+      "targetTitle": "Environment"
+    },
+    {
+      "grade": 7,
+      "sourceUnit": "g7u10",
+      "sourceTitle": "Planets",
+      "targetUnit": "g7u10",
+      "targetTitle": "Planets"
+    },
+    {
+      "grade": 8,
+      "sourceUnit": "g8u1",
+      "sourceTitle": "Friendship",
+      "targetUnit": "g8u1",
+      "targetTitle": "Friendship"
+    },
+    {
+      "grade": 8,
+      "sourceUnit": "g8u2",
+      "sourceTitle": "Teen Life",
+      "targetUnit": "g8u2",
+      "targetTitle": "Teen Life"
+    },
+    {
+      "grade": 8,
+      "sourceUnit": "g8u3",
+      "sourceTitle": "In the Kitchen",
+      "targetUnit": "g8u3",
+      "targetTitle": "In the Kitchen"
+    },
+    {
+      "grade": 8,
+      "sourceUnit": "g8u4",
+      "sourceTitle": "On the Phone",
+      "targetUnit": "g8u4",
+      "targetTitle": "On the Phone"
+    },
+    {
+      "grade": 8,
+      "sourceUnit": "g8u5",
+      "sourceTitle": "The Internet",
+      "targetUnit": "g8u5",
+      "targetTitle": "The Internet"
+    },
+    {
+      "grade": 8,
+      "sourceUnit": "g8u6",
+      "sourceTitle": "Adventures",
+      "targetUnit": "g8u6",
+      "targetTitle": "Adventures"
+    },
+    {
+      "grade": 8,
+      "sourceUnit": "g8u7",
+      "sourceTitle": "Tourism",
+      "targetUnit": "g8u7",
+      "targetTitle": "Tourism"
+    },
+    {
+      "grade": 8,
+      "sourceUnit": "g8u8",
+      "sourceTitle": "Chores",
+      "targetUnit": "g8u8",
+      "targetTitle": "Chores"
+    },
+    {
+      "grade": 8,
+      "sourceUnit": "g8u9",
+      "sourceTitle": "Science",
+      "targetUnit": "g8u9",
+      "targetTitle": "Science"
+    },
+    {
+      "grade": 8,
+      "sourceUnit": "g8u10",
+      "sourceTitle": "Natural Forces",
+      "targetUnit": "g8u10",
+      "targetTitle": "Natural Forces"
+    }
+  ],
+  "skipped": [
+    {
+      "grade": 5,
+      "sourceUnit": "g5u9",
+      "sourceTitle": "Health and Feelings",
+      "reason": "No matching existing theme in this grade"
+    },
+    {
+      "grade": 7,
+      "sourceUnit": "g7u11",
+      "sourceTitle": "Digital Life",
+      "reason": "No matching existing theme in this grade"
+    },
+    {
+      "grade": 7,
+      "sourceUnit": "g7u12",
+      "sourceTitle": "Shopping and Money",
+      "reason": "No matching existing theme in this grade"
+    },
+    {
+      "grade": 8,
+      "sourceUnit": "g8u11",
+      "sourceTitle": "At School",
+      "reason": "No matching existing theme in this grade"
+    },
+    {
+      "grade": 8,
+      "sourceUnit": "g8u12",
+      "sourceTitle": "Health and Well-being",
+      "reason": "No matching existing theme in this grade"
+    }
+  ],
+  "importedQuestions": 234,
+  "matchedQuestions": 117,
+  "derivedQuestions": 150,
+  "addedVocabulary": 5,
+  "addedDescriptions": 7,
+  "replyRefinements": 117,
+  "sources": [
+    {
+      "file": "grade5.json",
+      "sha256": "ab2e64d700abb66e5e4674ad5f289bb9e0d46858c5779e6de73bbf3d02c68ca5"
+    },
+    {
+      "file": "grade6.json",
+      "sha256": "15dbf9fbd1d8a6c6960ec7d8833f5d656e32b9da35bd24eb67350aa982d411ee"
+    },
+    {
+      "file": "grade7.json",
+      "sha256": "d4e005c6f744b0d1f2336e6b80a39465f3027e8078938ce84a4f343caf120ace"
+    },
+    {
+      "file": "grade8.json",
+      "sha256": "8eb581dac9f4557b5f181a1ad256a4a9ae016ab4b28cb7727fba7858cacef3b5"
+    }
+  ]
+}

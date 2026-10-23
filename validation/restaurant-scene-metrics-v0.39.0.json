@@ -1,0 +1,116 @@
+[
+  {
+    "arena": "courtyard",
+    "upgraded": false,
+    "meshObjects": 233,
+    "triangles": 117110,
+    "venue": {
+      "extraWidth": 0,
+      "extraDepth": 0,
+      "overviewScale": 1,
+      "width": 9.4,
+      "depth": 9.1,
+      "centerZ": 0,
+      "pickup": [
+        2.9,
+        3.48
+      ]
+    },
+    "walkableCells": 783
+  },
+  {
+    "arena": "courtyard",
+    "upgraded": true,
+    "meshObjects": 234,
+    "triangles": 122538,
+    "venue": {
+      "extraWidth": 0,
+      "extraDepth": 0,
+      "overviewScale": 1,
+      "width": 9.4,
+      "depth": 9.1,
+      "centerZ": 0,
+      "pickup": [
+        2.9,
+        3.48
+      ]
+    },
+    "walkableCells": 783
+  },
+  {
+    "arena": "bistro",
+    "upgraded": false,
+    "meshObjects": 264,
+    "triangles": 137108,
+    "venue": {
+      "extraWidth": 1,
+      "extraDepth": 1,
+      "overviewScale": 1.045,
+      "width": 10.4,
+      "depth": 10.1,
+      "centerZ": -0.5,
+      "pickup": [
+        2.9,
+        3.48
+      ]
+    },
+    "walkableCells": 1009
+  },
+  {
+    "arena": "bistro",
+    "upgraded": true,
+    "meshObjects": 265,
+    "triangles": 142880,
+    "venue": {
+      "extraWidth": 1,
+      "extraDepth": 1,
+      "overviewScale": 1.045,
+      "width": 10.4,
+      "depth": 10.1,
+      "centerZ": -0.5,
+      "pickup": [
+        2.9,
+        3.48
+      ]
+    },
+    "walkableCells": 1009
+  },
+  {
+    "arena": "banquet",
+    "upgraded": false,
+    "meshObjects": 294,
+    "triangles": 156224,
+    "venue": {
+      "extraWidth": 2,
+      "extraDepth": 2,
+      "overviewScale": 1.09,
+      "width": 11.4,
+      "depth": 11.1,
+      "centerZ": -1,
+      "pickup": [
+        2.9,
+        3.48
+      ]
+    },
+    "walkableCells": 1246
+  },
+  {
+    "arena": "banquet",
+    "upgraded": true,
+    "meshObjects": 295,
+    "triangles": 162340,
+    "venue": {
+      "extraWidth": 2,
+      "extraDepth": 2,
+      "overviewScale": 1.09,
+      "width": 11.4,
+      "depth": 11.1,
+      "centerZ": -1,
+      "pickup": [
+        2.9,
+        3.48
+      ]
+    },
+    "walkableCells": 1246
+  }
+]

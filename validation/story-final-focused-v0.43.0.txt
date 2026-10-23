@@ -1,0 +1,26 @@
+✔ farewell acting straightens the sign, transfers the keys, softens the owner and lets her leave (318.43735ms)
+✔ featured grime reveals the stationary surface behind the broom and cloth (198.040381ms)
+✔ the photograph is established dirty, revealed under the cloth, studied, and straightened (220.865502ms)
+✔ repair panels close before equipment responds, with sound tied to the same edit sheet (190.307178ms)
+✔ a quiet wait leads to the bell, chef reaction, arriving guest and exact gameplay camera (192.190832ms)
+✔ all acting beats seek deterministically, hide instructional signs and restore the chef and room (389.705324ms)
+✔ existing category stars convert to five, with exact inherited average and idempotent review credit (1.36673ms)
+✔ reputation, intro completion and ownership survive saves independently of lessons and pace (1.295223ms)
+✔ all five story milestones are crossed once and keep earned visual progress after a lower review (84.109937ms)
+✔ every regular shift has a complete pickup task, including every event candidate and both paces (192.629416ms)
+✔ a customer rating commits only after the card turns, freezes on pause and cannot pay twice (1.002178ms)
+✔ named score reveals follow the card and reserve celebrations strictly for ratings above four (6.307186ms)
+✔ the handover, dirty-room inspection, cleaning, repairs and opening have finite phone/landscape scenes and clean disposal (777.907422ms)
+✔ simultaneous customer scores take turns so phone celebrations cannot cover each other (1.053146ms)
+✔ original score and Foley follow the restoration and leave room for the first guest (2.09845ms)
+✔ music and effects freeze, mute, resume without a backlog, and stop on disposal (2.749967ms)
+✔ Continue skips old sound cues rather than replaying them together (0.370351ms)
+✔ native story controls preserve pause, mute, backgrounding, skip and a clean gameplay handoff (299.193994ms)
+ℹ tests 18
+ℹ suites 0
+ℹ pass 18
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1686.745119

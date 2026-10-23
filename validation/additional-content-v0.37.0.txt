@@ -1,0 +1,19 @@
+✔ the expansion reproduces exactly, preserves every original object, and never mutates inputs (640.016905ms)
+✔ all 44 source sections and every practice record resolve to an existing same-grade activity (27.189905ms)
+✔ new assembly preserves full source sentences, translations and three preparation blocks (3.882095ms)
+✔ new questions have distinct same-section distractors with incompatible answer functions (3.511195ms)
+✔ all picture words join vocabulary; ambiguous duplicate meanings are safely filtered from matching (12.052466ms)
+✔ new sorting packs use exclusive positive classifications and rotate without changing parent unit (6.047004ms)
+✔ every added activity is available to its station deck and can complete through actual game actions (60.232275ms)
+✔ all existing theme IDs, names and ordering remain exactly unchanged (8.10183ms)
+✔ mapped questions and words stay in their exact grade and matching theme (6.257666ms)
+✔ derived guest prompts preserve a same-unit vocabulary or definition answer (0.58684ms)
+✔ the import is reproducible and never mutates its source banks (69.086149ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 901.358697

@@ -1,0 +1,95 @@
+{
+  "layouts": [
+    {
+      "width": 320,
+      "height": 480,
+      "topics": "Includes: Leisure Activities · Music Equipment · School Clubs and Learning · School Clubs · Learning Tools · Health and Well-being · Healthy Habits · Health Problems",
+      "horizontalOverflow": false,
+      "contentFits": true,
+      "cardHeight": 206.4375
+    },
+    {
+      "width": 360,
+      "height": 640,
+      "topics": "Includes: Leisure Activities · Music Equipment · School Clubs and Learning · School Clubs · Learning Tools · Health and Well-being · Healthy Habits · Health Problems",
+      "horizontalOverflow": false,
+      "contentFits": true,
+      "cardHeight": 174.5625
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "topics": "Includes: Leisure Activities · Music Equipment · School Clubs and Learning · School Clubs · Learning Tools · Health and Well-being · Healthy Habits · Health Problems",
+      "horizontalOverflow": false,
+      "contentFits": true,
+      "cardHeight": 174.5625
+    },
+    {
+      "width": 667,
+      "height": 375,
+      "topics": "Includes: Leisure Activities · Music Equipment · School Clubs and Learning · School Clubs · Learning Tools · Health and Well-being · Healthy Habits · Health Problems",
+      "horizontalOverflow": false,
+      "contentFits": true,
+      "cardHeight": 110.8125
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "topics": "Includes: Leisure Activities · Music Equipment · School Clubs and Learning · School Clubs · Learning Tools · Health and Well-being · Healthy Habits · Health Problems",
+      "horizontalOverflow": false,
+      "contentFits": true,
+      "cardHeight": 117.3125
+    }
+  ],
+  "persisted": "Choose lesson. Grade 6 A1+, Unit 10: Health and Well-being",
+  "cases": [
+    {
+      "id": "g7u5-extra-g7u5-g7u5s9",
+      "kind": "sentence",
+      "answer": "We think this documentary is educational.",
+      "setting": "recipe",
+      "overflow": null,
+      "revealed": "Bizce bu belgesel eğitici.",
+      "revealLanguage": "tr"
+    },
+    {
+      "id": "g8u2-extra-g8u12-g8u12h1",
+      "kind": "sentence",
+      "answer": "I have got a sore throat and a cough.",
+      "setting": "recipe",
+      "overflow": null,
+      "revealed": "I have got a sore throat and a cough.",
+      "revealLanguage": "en"
+    },
+    {
+      "id": "g8u2-extra-g8u11-g8u11q6",
+      "kind": "question",
+      "answer": "Maths deals with numbers.",
+      "setting": "conversation",
+      "overflow": null
+    },
+    {
+      "id": "g5u9-extra-g5u10-g5u10p1",
+      "kind": "vocabulary",
+      "answer": "doctor",
+      "setting": "delivery",
+      "overflow": null
+    }
+  ],
+  "sorted": {
+    "headings": [
+      "Health Problems",
+      "Health Items"
+    ],
+    "labels": [
+      "mask",
+      "sore throat",
+      "toothbrush",
+      "bandage",
+      "headache",
+      "runny nose"
+    ]
+  },
+  "errors": [],
+  "method": "Shipped bundle for setup and persistence; temporary scratch-only instrumented bundle for selecting exact new tasks. Native ingredient/reply clicks; software WebGL."
+}

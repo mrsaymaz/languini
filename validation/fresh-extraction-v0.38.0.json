@@ -1,0 +1,22 @@
+{
+  "version": "0.38.0",
+  "safeRelativeZipPaths": "passed",
+  "crc": "passed",
+  "duplicateEntries": 0,
+  "freshExtractionReleaseVerification": {
+    "runtimeFiles": 237,
+    "sourceFiles": 381,
+    "entrypointAssets": "passed",
+    "sourceFingerprint": "passed",
+    "runtimeHashes": "passed"
+  },
+  "freshExtractionPreservation": {
+    "protectedBaselineFiles": 13,
+    "units": 44,
+    "originalTaskIdentitiesAndWording": 3033,
+    "tasks": 4805,
+    "conversations": 921,
+    "reviewedSentenceActivities": 1520,
+    "changedBoundaries": 534
+  }
+}

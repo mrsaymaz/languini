@@ -1,0 +1,5598 @@
+{
+  "grade": 8,
+  "cefr": "A2+",
+  "units": [
+    {
+      "id": "g8u1",
+      "title": "Friendship",
+      "source": "meb",
+      "targetLanguage": [
+        "Inviting friends and making arrangements",
+        "Accepting and refusing politely with a reason",
+        "Making suggestions",
+        "Describing trust and friendship"
+      ],
+      "categories": [
+        {
+          "id": "g8u1c1",
+          "title": "GOOD FRIEND TRAITS",
+          "yes": [
+            "honest",
+            "reliable",
+            "loyal",
+            "helpful",
+            "kind",
+            "generous",
+            "patient",
+            "polite",
+            "caring",
+            "supportive"
+          ],
+          "no": [
+            "rude",
+            "selfish",
+            "dishonest",
+            "unkind",
+            "jealous",
+            "impatient",
+            "careless",
+            "unfriendly",
+            "mean",
+            "greedy"
+          ]
+        },
+        {
+          "id": "g8u1c2",
+          "title": "INVITING PHRASES",
+          "yes": [
+            "join us",
+            "come along",
+            "let's meet",
+            "please come",
+            "join the game",
+            "come to lunch",
+            "be our guest",
+            "join the party",
+            "come with us",
+            "come over"
+          ],
+          "no": [
+            "I'm busy",
+            "I can't come",
+            "not this time",
+            "not today",
+            "I'm away",
+            "I'm ill",
+            "no thanks",
+            "I must study",
+            "I'm not free",
+            "I have plans"
+          ]
+        }
+      ],
+      "descriptions": [
+        {
+          "id": "g8u1d1",
+          "clue": "You can trust me because I always keep my promises.",
+          "options": [
+            "selfish",
+            "careless",
+            "reliable"
+          ],
+          "answer": "reliable"
+        },
+        {
+          "id": "g8u1d2",
+          "clue": "I tell the truth, even when it is not easy.",
+          "options": [
+            "rude",
+            "honest",
+            "dishonest"
+          ],
+          "answer": "honest"
+        },
+        {
+          "id": "g8u1d3",
+          "clue": "I stay beside my friends when they have problems.",
+          "options": [
+            "loyal",
+            "jealous",
+            "selfish"
+          ],
+          "answer": "loyal"
+        },
+        {
+          "id": "g8u1d4",
+          "clue": "I try to understand how other people feel.",
+          "options": [
+            "impatient",
+            "unkind",
+            "understanding"
+          ],
+          "answer": "understanding"
+        },
+        {
+          "id": "g8u1d5",
+          "clue": "I willingly give my time or things to others.",
+          "options": [
+            "careless",
+            "generous",
+            "greedy"
+          ],
+          "answer": "generous"
+        },
+        {
+          "id": "g8u1d6",
+          "clue": "I use kind words and show good manners.",
+          "options": [
+            "polite",
+            "rude",
+            "selfish"
+          ],
+          "answer": "polite"
+        }
+      ],
+      "pictures": [
+        {
+          "id": "g8u1p1",
+          "word": "invitation",
+          "drawing": "picnic invitation with a date and a tiny basket"
+        },
+        {
+          "id": "g8u1p2",
+          "word": "handshake",
+          "drawing": "two hands meeting in a friendly handshake"
+        },
+        {
+          "id": "g8u1p3",
+          "word": "bracelet",
+          "drawing": "friendship bracelet made of colourful threads"
+        },
+        {
+          "id": "g8u1p4",
+          "word": "board game",
+          "drawing": "simple board game with dice and counters"
+        },
+        {
+          "id": "g8u1p5",
+          "word": "picnic rug",
+          "drawing": "checked picnic rug with a small food basket"
+        },
+        {
+          "id": "g8u1p6",
+          "word": "gift",
+          "drawing": "small wrapped gift with a green ribbon"
+        },
+        {
+          "id": "g8u1p7",
+          "word": "bench",
+          "drawing": "wooden park bench with two seats"
+        },
+        {
+          "id": "g8u1p8",
+          "word": "bicycle",
+          "drawing": "red bicycle with a basket on its front"
+        },
+        {
+          "id": "g8u1p9",
+          "word": "party hat",
+          "drawing": "colourful cone-shaped party hat"
+        }
+      ],
+      "questions": [
+        {
+          "id": "g8u1q1",
+          "q": "Would you like to join our picnic?",
+          "a": "I'd love to. What time?"
+        },
+        {
+          "id": "g8u1q2",
+          "q": "Why can't you come to the concert?",
+          "a": "I have a dentist appointment."
+        },
+        {
+          "id": "g8u1q3",
+          "q": "When are you meeting your classmates?",
+          "a": "At half past four on Saturday."
+        },
+        {
+          "id": "g8u1q4",
+          "q": "Where are we meeting for the walk?",
+          "a": "At the park gate."
+        },
+        {
+          "id": "g8u1q5",
+          "q": "Who is bringing the board game?",
+          "a": "Deniz is bringing it."
+        },
+        {
+          "id": "g8u1q6",
+          "q": "How many friends are coming?",
+          "a": "Six friends are coming."
+        },
+        {
+          "id": "g8u1q7",
+          "q": "What makes Elif a reliable friend?",
+          "a": "She always keeps her promises."
+        },
+        {
+          "id": "g8u1q8",
+          "q": "Which activity does Ece suggest?",
+          "a": "She suggests a bike ride."
+        },
+        {
+          "id": "g8u1q9",
+          "q": "How can we stay in touch?",
+          "a": "We can call each other."
+        }
+      ],
+      "completions": [
+        {
+          "id": "g8u1h1",
+          "start": "I would like to bring…",
+          "end": "…a small gift for my friend.",
+          "wrongEndings": [
+            "g8u1h2",
+            "g8u1h5"
+          ]
+        },
+        {
+          "id": "g8u1h2",
+          "start": "My best friend…",
+          "end": "…always keeps her promises.",
+          "wrongEndings": [
+            "g8u1h1",
+            "g8u1h4"
+          ]
+        },
+        {
+          "id": "g8u1h3",
+          "start": "Would you like to…",
+          "end": "…join our picnic on Saturday?",
+          "wrongEndings": [
+            "g8u1h2",
+            "g8u1h5"
+          ]
+        },
+        {
+          "id": "g8u1h4",
+          "start": "Our meeting place is…",
+          "end": "…beside the old bridge.",
+          "wrongEndings": [
+            "g8u1h2",
+            "g8u1h5"
+          ]
+        },
+        {
+          "id": "g8u1h5",
+          "start": "Our class picnic…",
+          "end": "…starts at noon on Saturday.",
+          "wrongEndings": [
+            "g8u1h1",
+            "g8u1h4"
+          ]
+        },
+        {
+          "id": "g8u1h6",
+          "start": "I am sorry…",
+          "end": "…that I cannot join you.",
+          "wrongEndings": [
+            "g8u1h2",
+            "g8u1h5"
+          ]
+        },
+        {
+          "id": "g8u1h7",
+          "start": "Please give…",
+          "end": "…her my invitation.",
+          "wrongEndings": [
+            "g8u1h2",
+            "g8u1h5"
+          ]
+        },
+        {
+          "id": "g8u1h8",
+          "start": "These invitations are…",
+          "end": "…for our closest friends.",
+          "wrongEndings": [
+            "g8u1h2",
+            "g8u1h5"
+          ]
+        },
+        {
+          "id": "g8u1h9",
+          "start": "We get along…",
+          "end": "…well with our classmates.",
+          "wrongEndings": [
+            "g8u1h2",
+            "g8u1h5"
+          ]
+        }
+      ],
+      "sentences": [
+        {
+          "id": "g8u1s1",
+          "blocks": [
+            "Elif",
+            "always keeps",
+            "her promises."
+          ],
+          "difficulty": 1,
+          "tr": "Elif her zaman sözlerini tutar."
+        },
+        {
+          "id": "g8u1s2",
+          "blocks": [
+            "We",
+            "can trust",
+            "our close friends."
+          ],
+          "difficulty": 1,
+          "tr": "Yakın arkadaşlarımıza güvenebiliriz."
+        },
+        {
+          "id": "g8u1s3",
+          "blocks": [
+            "I",
+            "would love to join",
+            "your picnic."
+          ],
+          "difficulty": 1,
+          "tr": "Pikniğinize katılmayı çok isterim."
+        },
+        {
+          "id": "g8u1s4",
+          "blocks": [
+            "Deniz",
+            "offers",
+            "us",
+            "some help."
+          ],
+          "difficulty": 2,
+          "tr": "Deniz bize yardım teklif eder."
+        },
+        {
+          "id": "g8u1s5",
+          "blocks": [
+            "This",
+            "is",
+            "a thoughtful",
+            "invitation."
+          ],
+          "difficulty": 2,
+          "tr": "Bu düşünceli bir davet."
+        },
+        {
+          "id": "g8u1s6",
+          "blocks": [
+            "Our friends",
+            "send",
+            "me",
+            "kind messages."
+          ],
+          "difficulty": 2,
+          "tr": "Arkadaşlarımız bana nazik mesajlar gönderir."
+        },
+        {
+          "id": "g8u1s7",
+          "blocks": [
+            "Elif",
+            "has got",
+            "a very reliable",
+            "friend."
+          ],
+          "difficulty": 2,
+          "tr": "Elif'in çok güvenilir bir arkadaşı var."
+        },
+        {
+          "id": "g8u1s8",
+          "blocks": [
+            "These",
+            "are",
+            "my classmates'",
+            "invitations."
+          ],
+          "difficulty": 2,
+          "tr": "Bunlar sınıf arkadaşlarımın davetiyeleri."
+        },
+        {
+          "id": "g8u1s9",
+          "blocks": [
+            "We",
+            "believe",
+            "honest friends",
+            "are",
+            "valuable."
+          ],
+          "difficulty": 2,
+          "tr": "Dürüst arkadaşların değerli olduğuna inanıyoruz."
+        },
+        {
+          "id": "g8u1s10",
+          "blocks": [
+            "My friend",
+            "says",
+            "our friendship",
+            "is",
+            "important."
+          ],
+          "difficulty": 2,
+          "tr": "Arkadaşım dostluğumuzun önemli olduğunu söylüyor."
+        }
+      ],
+      "translations": [
+        {
+          "id": "g8u1t1",
+          "en": "friendship",
+          "tr": "arkadaşlık"
+        },
+        {
+          "id": "g8u1t2",
+          "en": "buddy",
+          "tr": "dost"
+        },
+        {
+          "id": "g8u1t3",
+          "en": "trust",
+          "tr": "güvenmek"
+        },
+        {
+          "id": "g8u1t4",
+          "en": "support",
+          "tr": "desteklemek"
+        },
+        {
+          "id": "g8u1t5",
+          "en": "reliable",
+          "tr": "güvenilir"
+        },
+        {
+          "id": "g8u1t6",
+          "en": "honest",
+          "tr": "dürüst"
+        },
+        {
+          "id": "g8u1t7",
+          "en": "cooperate",
+          "tr": "iş birliği yapmak"
+        },
+        {
+          "id": "g8u1t8",
+          "en": "kind",
+          "tr": "iyi kalpli"
+        },
+        {
+          "id": "g8u1t9",
+          "en": "loyal",
+          "tr": "sadık"
+        }
+      ]
+    },
+    {
+      "id": "g8u2",
+      "title": "Teen Life",
+      "source": "meb",
+      "targetLanguage": [
+        "Teen interests and daily habits",
+        "Preferences: prefer X to Y",
+        "Frequency and routines",
+        "Giving reasons for likes and dislikes"
+      ],
+      "categories": [
+        {
+          "id": "g8u2c1",
+          "title": "LEISURE ACTIVITIES",
+          "yes": [
+            "reading",
+            "swimming",
+            "cycling",
+            "drawing",
+            "dancing",
+            "singing",
+            "skating",
+            "hiking",
+            "camping",
+            "photography"
+          ],
+          "no": [
+            "ruler",
+            "eraser",
+            "desk",
+            "cupboard",
+            "scissors",
+            "glue",
+            "stapler",
+            "folder",
+            "pencil",
+            "notebook"
+          ]
+        },
+        {
+          "id": "g8u2c2",
+          "title": "MUSIC EQUIPMENT",
+          "yes": [
+            "guitar",
+            "drum",
+            "piano",
+            "violin",
+            "flute",
+            "speaker",
+            "headphones",
+            "microphone",
+            "keyboard",
+            "trumpet"
+          ],
+          "no": [
+            "doctor",
+            "dentist",
+            "nurse",
+            "vet",
+            "farmer",
+            "baker",
+            "engineer",
+            "pilot",
+            "mechanic",
+            "driver"
+          ]
+        }
+      ],
+      "descriptions": [
+        {
+          "id": "g8u2d1",
+          "clue": "I move across ice on special boots.",
+          "options": [
+            "cycling",
+            "skating",
+            "running"
+          ],
+          "answer": "skating"
+        },
+        {
+          "id": "g8u2d2",
+          "clue": "I make pictures with pencils or paints.",
+          "options": [
+            "drawing",
+            "cycling",
+            "singing"
+          ],
+          "answer": "drawing"
+        },
+        {
+          "id": "g8u2d3",
+          "clue": "I enjoy books and long stories.",
+          "options": [
+            "dancing",
+            "camping",
+            "reading"
+          ],
+          "answer": "reading"
+        },
+        {
+          "id": "g8u2d4",
+          "clue": "I make music with my voice.",
+          "options": [
+            "skating",
+            "singing",
+            "drawing"
+          ],
+          "answer": "singing"
+        },
+        {
+          "id": "g8u2d5",
+          "clue": "I sleep in a tent outside.",
+          "options": [
+            "camping",
+            "swimming",
+            "dancing"
+          ],
+          "answer": "camping"
+        },
+        {
+          "id": "g8u2d6",
+          "clue": "I follow a route on foot in the countryside.",
+          "options": [
+            "cycling",
+            "skating",
+            "hiking"
+          ],
+          "answer": "hiking"
+        }
+      ],
+      "pictures": [
+        {
+          "id": "g8u2p1",
+          "word": "headphones",
+          "drawing": "black headphones with large padded ear cups"
+        },
+        {
+          "id": "g8u2p2",
+          "word": "novel",
+          "drawing": "open adventure novel with a mountain on its cover"
+        },
+        {
+          "id": "g8u2p3",
+          "word": "magazine",
+          "drawing": "colourful teen magazine with small hobby pictures"
+        },
+        {
+          "id": "g8u2p4",
+          "word": "skateboard",
+          "drawing": "wooden skateboard with four green wheels"
+        },
+        {
+          "id": "g8u2p5",
+          "word": "speaker",
+          "drawing": "small blue speaker with a round front grille"
+        },
+        {
+          "id": "g8u2p6",
+          "word": "drum",
+          "drawing": "red drum with two wooden sticks"
+        },
+        {
+          "id": "g8u2p7",
+          "word": "guitar",
+          "drawing": "brown acoustic guitar with six strings"
+        },
+        {
+          "id": "g8u2p8",
+          "word": "chessboard",
+          "drawing": "chequered chessboard with a king and a pawn"
+        },
+        {
+          "id": "g8u2p9",
+          "word": "alarm clock",
+          "drawing": "small alarm clock with two bells on top"
+        }
+      ],
+      "questions": [
+        {
+          "id": "g8u2q1",
+          "q": "What do you usually do before school?",
+          "a": "I eat breakfast and get dressed."
+        },
+        {
+          "id": "g8u2q2",
+          "q": "How often do you listen to podcasts?",
+          "a": "I listen to them twice a week."
+        },
+        {
+          "id": "g8u2q3",
+          "q": "Which music do you prefer?",
+          "a": "I prefer jazz to pop."
+        },
+        {
+          "id": "g8u2q4",
+          "q": "Why do you enjoy adventure novels?",
+          "a": "Because I find them exciting."
+        },
+        {
+          "id": "g8u2q5",
+          "q": "Who shares your interest in skating?",
+          "a": "My cousin shares it."
+        },
+        {
+          "id": "g8u2q6",
+          "q": "Where do you practise the guitar?",
+          "a": "In the music room."
+        },
+        {
+          "id": "g8u2q7",
+          "q": "When do you usually do your homework?",
+          "a": "I do it after dinner."
+        },
+        {
+          "id": "g8u2q8",
+          "q": "How many instruments can you play?",
+          "a": "I can play two instruments."
+        },
+        {
+          "id": "g8u2q9",
+          "q": "Can your sister play the drums?",
+          "a": "Yes, she plays them very well."
+        }
+      ],
+      "completions": [
+        {
+          "id": "g8u2h1",
+          "start": "I prefer…",
+          "end": "…reading novels to watching TV.",
+          "wrongEndings": [
+            "g8u2h2",
+            "g8u2h5"
+          ]
+        },
+        {
+          "id": "g8u2h2",
+          "start": "My favourite podcast…",
+          "end": "…has a new episode every week.",
+          "wrongEndings": [
+            "g8u2h1",
+            "g8u2h4"
+          ]
+        },
+        {
+          "id": "g8u2h3",
+          "start": "Teenagers should…",
+          "end": "…have time to rest and exercise.",
+          "wrongEndings": [
+            "g8u2h2",
+            "g8u2h5"
+          ]
+        },
+        {
+          "id": "g8u2h4",
+          "start": "The new speaker is…",
+          "end": "…on the desk by my bed.",
+          "wrongEndings": [
+            "g8u2h2",
+            "g8u2h5"
+          ]
+        },
+        {
+          "id": "g8u2h5",
+          "start": "My younger cousin…",
+          "end": "…practises the guitar every day.",
+          "wrongEndings": [
+            "g8u2h1",
+            "g8u2h4"
+          ]
+        },
+        {
+          "id": "g8u2h6",
+          "start": "Please lend…",
+          "end": "…me your music magazine.",
+          "wrongEndings": [
+            "g8u2h2",
+            "g8u2h5"
+          ]
+        },
+        {
+          "id": "g8u2h7",
+          "start": "These adventure novels are…",
+          "end": "…exciting and enjoyable.",
+          "wrongEndings": [
+            "g8u2h2",
+            "g8u2h5"
+          ]
+        },
+        {
+          "id": "g8u2h8",
+          "start": "I enjoy…",
+          "end": "…listening to different music.",
+          "wrongEndings": [
+            "g8u2h2",
+            "g8u2h5"
+          ]
+        },
+        {
+          "id": "g8u2h9",
+          "start": "My friends want…",
+          "end": "…to learn a new hobby.",
+          "wrongEndings": [
+            "g8u2h2",
+            "g8u2h5"
+          ]
+        }
+      ],
+      "sentences": [
+        {
+          "id": "g8u2s1",
+          "blocks": [
+            "I",
+            "prefer",
+            "adventure novels."
+          ],
+          "difficulty": 1,
+          "tr": "Macera romanlarını tercih ederim."
+        },
+        {
+          "id": "g8u2s2",
+          "blocks": [
+            "My cousin",
+            "enjoys",
+            "skating."
+          ],
+          "difficulty": 1,
+          "tr": "Kuzenim paten kaymaktan hoşlanır."
+        },
+        {
+          "id": "g8u2s3",
+          "blocks": [
+            "We",
+            "need",
+            "a balanced life."
+          ],
+          "difficulty": 1,
+          "tr": "Dengeli bir yaşama ihtiyacımız var."
+        },
+        {
+          "id": "g8u2s4",
+          "blocks": [
+            "My sister",
+            "teaches",
+            "me",
+            "a guitar tune."
+          ],
+          "difficulty": 2,
+          "tr": "Kız kardeşim bana gitarda bir ezgi öğretir."
+        },
+        {
+          "id": "g8u2s5",
+          "blocks": [
+            "This",
+            "is",
+            "my favourite",
+            "music magazine."
+          ],
+          "difficulty": 2,
+          "tr": "Bu benim en sevdiğim müzik dergisi."
+        },
+        {
+          "id": "g8u2s6",
+          "blocks": [
+            "Elif",
+            "has got",
+            "a blue",
+            "skateboard."
+          ],
+          "difficulty": 2,
+          "tr": "Elif'in mavi bir kaykayı var."
+        },
+        {
+          "id": "g8u2s7",
+          "blocks": [
+            "Our friend",
+            "shows",
+            "us",
+            "her novel."
+          ],
+          "difficulty": 2,
+          "tr": "Arkadaşımız bize romanını gösterir."
+        },
+        {
+          "id": "g8u2s8",
+          "blocks": [
+            "These",
+            "are",
+            "my brother's",
+            "headphones."
+          ],
+          "difficulty": 2,
+          "tr": "Bunlar erkek kardeşimin kulaklıkları."
+        },
+        {
+          "id": "g8u2s9",
+          "blocks": [
+            "I",
+            "think",
+            "this podcast",
+            "is",
+            "impressive."
+          ],
+          "difficulty": 2,
+          "tr": "Bence bu podcast etkileyici."
+        },
+        {
+          "id": "g8u2s10",
+          "blocks": [
+            "My cousin",
+            "says",
+            "the music",
+            "is",
+            "relaxing."
+          ],
+          "difficulty": 2,
+          "tr": "Kuzenim müziğin rahatlatıcı olduğunu söylüyor."
+        }
+      ],
+      "translations": [
+        {
+          "id": "g8u2t1",
+          "en": "teenager",
+          "tr": "ergen"
+        },
+        {
+          "id": "g8u2t2",
+          "en": "interest",
+          "tr": "ilgi alanı"
+        },
+        {
+          "id": "g8u2t3",
+          "en": "playlist",
+          "tr": "çalma listesi"
+        },
+        {
+          "id": "g8u2t4",
+          "en": "podcast",
+          "tr": "sesli yayın"
+        },
+        {
+          "id": "g8u2t5",
+          "en": "concert",
+          "tr": "konser"
+        },
+        {
+          "id": "g8u2t6",
+          "en": "hobby",
+          "tr": "hobi"
+        },
+        {
+          "id": "g8u2t7",
+          "en": "music",
+          "tr": "müzik"
+        },
+        {
+          "id": "g8u2t8",
+          "en": "instrument",
+          "tr": "müzik aleti"
+        },
+        {
+          "id": "g8u2t9",
+          "en": "routine",
+          "tr": "rutin"
+        }
+      ]
+    },
+    {
+      "id": "g8u3",
+      "title": "In the Kitchen",
+      "source": "meb",
+      "targetLanguage": [
+        "Ingredients and cooking tools",
+        "Cooking processes and instructions",
+        "Sequencing recipe steps",
+        "Quantities: a little/a few/how much/how many"
+      ],
+      "categories": [
+        {
+          "id": "g8u3c1",
+          "title": "INGREDIENTS",
+          "yes": [
+            "flour",
+            "butter",
+            "oil",
+            "onion",
+            "garlic",
+            "salt",
+            "pepper",
+            "egg",
+            "milk",
+            "sugar"
+          ],
+          "no": [
+            "whisk",
+            "grater",
+            "saucepan",
+            "colander",
+            "rolling pin",
+            "apron",
+            "knife",
+            "bowl",
+            "peeler",
+            "spoon"
+          ]
+        },
+        {
+          "id": "g8u3c2",
+          "title": "COOKING ACTIONS",
+          "yes": [
+            "peel",
+            "chop",
+            "slice",
+            "stir",
+            "mix",
+            "boil",
+            "fry",
+            "bake",
+            "roast",
+            "grate"
+          ],
+          "no": [
+            "flour",
+            "butter",
+            "oil",
+            "onion",
+            "garlic",
+            "salt",
+            "pepper",
+            "egg",
+            "milk",
+            "sugar"
+          ]
+        }
+      ],
+      "descriptions": [
+        {
+          "id": "g8u3d1",
+          "clue": "You cook food in hot oil in a pan.",
+          "options": [
+            "fry",
+            "boil",
+            "bake"
+          ],
+          "answer": "fry"
+        },
+        {
+          "id": "g8u3d2",
+          "clue": "You cook food in hot water.",
+          "options": [
+            "grill",
+            "fry",
+            "boil"
+          ],
+          "answer": "boil"
+        },
+        {
+          "id": "g8u3d3",
+          "clue": "You cook bread or cakes inside an oven.",
+          "options": [
+            "steam",
+            "bake",
+            "boil"
+          ],
+          "answer": "bake"
+        },
+        {
+          "id": "g8u3d4",
+          "clue": "You remove the skin from a fruit or vegetable.",
+          "options": [
+            "peel",
+            "mix",
+            "stir"
+          ],
+          "answer": "peel"
+        },
+        {
+          "id": "g8u3d5",
+          "clue": "You cut vegetables into small pieces.",
+          "options": [
+            "pour",
+            "whisk",
+            "chop"
+          ],
+          "answer": "chop"
+        },
+        {
+          "id": "g8u3d6",
+          "clue": "You move a spoon around in a liquid to mix it.",
+          "options": [
+            "peel",
+            "stir",
+            "grate"
+          ],
+          "answer": "stir"
+        }
+      ],
+      "pictures": [
+        {
+          "id": "g8u3p1",
+          "word": "flour",
+          "drawing": "small bowl of white flour beside a paper bag"
+        },
+        {
+          "id": "g8u3p2",
+          "word": "garlic",
+          "drawing": "garlic bulb with two loose cloves"
+        },
+        {
+          "id": "g8u3p3",
+          "word": "onion",
+          "drawing": "whole brown onion beside one cut half"
+        },
+        {
+          "id": "g8u3p4",
+          "word": "whisk",
+          "drawing": "metal whisk with a wooden handle"
+        },
+        {
+          "id": "g8u3p5",
+          "word": "grater",
+          "drawing": "silver box grater with small round holes"
+        },
+        {
+          "id": "g8u3p6",
+          "word": "saucepan",
+          "drawing": "small saucepan with a lid and long handle"
+        },
+        {
+          "id": "g8u3p7",
+          "word": "colander",
+          "drawing": "green colander holding cooked pasta"
+        },
+        {
+          "id": "g8u3p8",
+          "word": "rolling pin",
+          "drawing": "wooden rolling pin beside a flat piece of dough"
+        },
+        {
+          "id": "g8u3p9",
+          "word": "apron",
+          "drawing": "plain chef's apron with one large front pocket"
+        }
+      ],
+      "questions": [
+        {
+          "id": "g8u3q1",
+          "q": "What is the first step of this recipe?",
+          "a": "First, peel the potatoes."
+        },
+        {
+          "id": "g8u3q2",
+          "q": "Which tool do you use to grate cheese?",
+          "a": "I use a grater."
+        },
+        {
+          "id": "g8u3q3",
+          "q": "How many eggs are in the mixture?",
+          "a": "There are three eggs."
+        },
+        {
+          "id": "g8u3q4",
+          "q": "How much flour do we need?",
+          "a": "We need two hundred grams."
+        },
+        {
+          "id": "g8u3q5",
+          "q": "How long should the soup boil?",
+          "a": "For about fifteen minutes."
+        },
+        {
+          "id": "g8u3q6",
+          "q": "Who taught you this pasta recipe?",
+          "a": "My uncle taught me."
+        },
+        {
+          "id": "g8u3q7",
+          "q": "Why should we stir the soup?",
+          "a": "To mix all the ingredients."
+        },
+        {
+          "id": "g8u3q8",
+          "q": "Where do you bake the bread?",
+          "a": "In a hot oven."
+        },
+        {
+          "id": "g8u3q9",
+          "q": "Do you prefer sweet or salty snacks?",
+          "a": "I prefer salty snacks."
+        }
+      ],
+      "completions": [
+        {
+          "id": "g8u3h1",
+          "start": "Please add…",
+          "end": "…a tablespoon of olive oil.",
+          "wrongEndings": [
+            "g8u3h2",
+            "g8u3h5"
+          ]
+        },
+        {
+          "id": "g8u3h2",
+          "start": "This pancake mixture…",
+          "end": "…needs two eggs.",
+          "wrongEndings": [
+            "g8u3h1",
+            "g8u3h4"
+          ]
+        },
+        {
+          "id": "g8u3h3",
+          "start": "You should…",
+          "end": "…peel the potatoes first.",
+          "wrongEndings": [
+            "g8u3h2",
+            "g8u3h5"
+          ]
+        },
+        {
+          "id": "g8u3h4",
+          "start": "The wooden spoon is…",
+          "end": "…inside the kitchen drawer.",
+          "wrongEndings": [
+            "g8u3h2",
+            "g8u3h5"
+          ]
+        },
+        {
+          "id": "g8u3h5",
+          "start": "Our chef…",
+          "end": "…makes a delicious tomato soup.",
+          "wrongEndings": [
+            "g8u3h1",
+            "g8u3h4"
+          ]
+        },
+        {
+          "id": "g8u3h6",
+          "start": "I enjoy…",
+          "end": "…trying new vegetable recipes.",
+          "wrongEndings": [
+            "g8u3h2",
+            "g8u3h5"
+          ]
+        },
+        {
+          "id": "g8u3h7",
+          "start": "These carrots are…",
+          "end": "…ready to chop.",
+          "wrongEndings": [
+            "g8u3h2",
+            "g8u3h5"
+          ]
+        },
+        {
+          "id": "g8u3h8",
+          "start": "Please give…",
+          "end": "…me the flour and butter.",
+          "wrongEndings": [
+            "g8u3h2",
+            "g8u3h5"
+          ]
+        },
+        {
+          "id": "g8u3h9",
+          "start": "We need…",
+          "end": "…to stir the mixture slowly.",
+          "wrongEndings": [
+            "g8u3h2",
+            "g8u3h5"
+          ]
+        }
+      ],
+      "sentences": [
+        {
+          "id": "g8u3s1",
+          "blocks": [
+            "Please peel",
+            "the large",
+            "potatoes."
+          ],
+          "difficulty": 1,
+          "tr": "Lütfen büyük patatesleri soy."
+        },
+        {
+          "id": "g8u3s2",
+          "blocks": [
+            "This recipe",
+            "needs",
+            "three eggs."
+          ],
+          "difficulty": 1,
+          "tr": "Bu tarif için üç yumurta gerekiyor."
+        },
+        {
+          "id": "g8u3s3",
+          "blocks": [
+            "The chef",
+            "is stirring",
+            "the soup."
+          ],
+          "difficulty": 1,
+          "tr": "Aşçı çorbayı karıştırıyor."
+        },
+        {
+          "id": "g8u3s4",
+          "blocks": [
+            "My uncle",
+            "shows",
+            "me",
+            "his pasta recipe."
+          ],
+          "difficulty": 2,
+          "tr": "Amcam bana makarna tarifini gösterir."
+        },
+        {
+          "id": "g8u3s5",
+          "blocks": [
+            "This",
+            "is",
+            "a tablespoon of",
+            "olive oil."
+          ],
+          "difficulty": 2,
+          "tr": "Bu bir yemek kaşığı zeytinyağı."
+        },
+        {
+          "id": "g8u3s6",
+          "blocks": [
+            "The mixture",
+            "needs",
+            "a little",
+            "butter."
+          ],
+          "difficulty": 2,
+          "tr": "Karışıma biraz tereyağı gerekiyor."
+        },
+        {
+          "id": "g8u3s7",
+          "blocks": [
+            "The cook",
+            "gives",
+            "us",
+            "a clean bowl."
+          ],
+          "difficulty": 2,
+          "tr": "Aşçı bize temiz bir kâse verir."
+        },
+        {
+          "id": "g8u3s8",
+          "blocks": [
+            "These",
+            "are",
+            "our homemade",
+            "pancakes."
+          ],
+          "difficulty": 2,
+          "tr": "Bunlar bizim ev yapımı kreplerimiz."
+        },
+        {
+          "id": "g8u3s9",
+          "blocks": [
+            "I",
+            "think",
+            "the bread",
+            "is",
+            "ready."
+          ],
+          "difficulty": 2,
+          "tr": "Bence ekmek hazır."
+        },
+        {
+          "id": "g8u3s10",
+          "blocks": [
+            "Our chef",
+            "says",
+            "fresh ingredients",
+            "are",
+            "important."
+          ],
+          "difficulty": 2,
+          "tr": "Aşçımız taze malzemelerin önemli olduğunu söylüyor."
+        }
+      ],
+      "translations": [
+        {
+          "id": "g8u3t1",
+          "en": "ingredient",
+          "tr": "malzeme"
+        },
+        {
+          "id": "g8u3t2",
+          "en": "soup",
+          "tr": "çorba"
+        },
+        {
+          "id": "g8u3t3",
+          "en": "butter",
+          "tr": "tereyağı"
+        },
+        {
+          "id": "g8u3t4",
+          "en": "oil",
+          "tr": "yağ"
+        },
+        {
+          "id": "g8u3t5",
+          "en": "salt",
+          "tr": "tuz"
+        },
+        {
+          "id": "g8u3t6",
+          "en": "pepper",
+          "tr": "karabiber"
+        },
+        {
+          "id": "g8u3t7",
+          "en": "egg",
+          "tr": "yumurta"
+        },
+        {
+          "id": "g8u3t8",
+          "en": "tablespoon",
+          "tr": "yemek kaşığı"
+        },
+        {
+          "id": "g8u3t9",
+          "en": "oven",
+          "tr": "fırın"
+        }
+      ]
+    },
+    {
+      "id": "g8u4",
+      "title": "On the Phone",
+      "source": "meb",
+      "targetLanguage": [
+        "Polite phone requests and identifying the caller",
+        "Taking and leaving messages",
+        "Asking someone to repeat or spell",
+        "Arranging a call back"
+      ],
+      "categories": [
+        {
+          "id": "g8u4c1",
+          "title": "PHONE ACTIONS",
+          "yes": [
+            "call",
+            "dial",
+            "answer",
+            "ring",
+            "speak",
+            "listen",
+            "repeat",
+            "spell",
+            "hold on",
+            "call back"
+          ],
+          "no": [
+            "peel",
+            "chop",
+            "slice",
+            "stir",
+            "mix",
+            "boil",
+            "fry",
+            "bake",
+            "roast",
+            "grate"
+          ]
+        },
+        {
+          "id": "g8u4c2",
+          "title": "CALLING ITEMS",
+          "yes": [
+            "phone",
+            "mobile phone",
+            "headset",
+            "charger",
+            "notepad",
+            "pen",
+            "contact list",
+            "address book",
+            "phone cable",
+            "phone case"
+          ],
+          "no": [
+            "mountain",
+            "river",
+            "lake",
+            "forest",
+            "beach",
+            "island",
+            "valley",
+            "cave",
+            "coast",
+            "waterfall"
+          ]
+        }
+      ],
+      "descriptions": [
+        {
+          "id": "g8u4d1",
+          "clue": "I let you speak to someone who is far away.",
+          "options": [
+            "calculator",
+            "camera",
+            "phone"
+          ],
+          "answer": "phone"
+        },
+        {
+          "id": "g8u4d2",
+          "clue": "I tell someone what a caller said.",
+          "options": [
+            "address",
+            "message",
+            "number"
+          ],
+          "answer": "message"
+        },
+        {
+          "id": "g8u4d3",
+          "clue": "You wait without ending a telephone call.",
+          "options": [
+            "hold on",
+            "hang up",
+            "call back"
+          ],
+          "answer": "hold on"
+        },
+        {
+          "id": "g8u4d4",
+          "clue": "You end a telephone call.",
+          "options": [
+            "hold on",
+            "call back",
+            "hang up"
+          ],
+          "answer": "hang up"
+        },
+        {
+          "id": "g8u4d5",
+          "clue": "You telephone someone again.",
+          "options": [
+            "hold on",
+            "call back",
+            "hang up"
+          ],
+          "answer": "call back"
+        },
+        {
+          "id": "g8u4d6",
+          "clue": "You say a name letter by letter.",
+          "options": [
+            "spell",
+            "repeat",
+            "confirm"
+          ],
+          "answer": "spell"
+        }
+      ],
+      "pictures": [
+        {
+          "id": "g8u4p1",
+          "word": "mobile phone",
+          "drawing": "mobile phone showing an incoming call symbol"
+        },
+        {
+          "id": "g8u4p2",
+          "word": "telephone",
+          "drawing": "desk telephone with a handset and number buttons"
+        },
+        {
+          "id": "g8u4p3",
+          "word": "notepad",
+          "drawing": "small notepad with a short written message"
+        },
+        {
+          "id": "g8u4p4",
+          "word": "pen",
+          "drawing": "blue pen lying beside a sheet of paper"
+        },
+        {
+          "id": "g8u4p5",
+          "word": "envelope",
+          "drawing": "closed white envelope with a small stamp"
+        },
+        {
+          "id": "g8u4p6",
+          "word": "address book",
+          "drawing": "small address book with alphabet tabs"
+        },
+        {
+          "id": "g8u4p7",
+          "word": "charger",
+          "drawing": "phone charger with a coiled white cable"
+        },
+        {
+          "id": "g8u4p8",
+          "word": "phone booth",
+          "drawing": "glass phone booth with a telephone inside"
+        },
+        {
+          "id": "g8u4p9",
+          "word": "headset",
+          "drawing": "headset with one earpiece and a small microphone"
+        }
+      ],
+      "questions": [
+        {
+          "id": "g8u4q1",
+          "q": "May I speak to Ece, please?",
+          "a": "She is here. I'll pass her over."
+        },
+        {
+          "id": "g8u4q2",
+          "q": "Why are you calling the sports centre?",
+          "a": "To ask about swimming lessons."
+        },
+        {
+          "id": "g8u4q3",
+          "q": "When can I call you back?",
+          "a": "After half past six."
+        },
+        {
+          "id": "g8u4q4",
+          "q": "Who is calling, please?",
+          "a": "This is Deniz speaking."
+        },
+        {
+          "id": "g8u4q5",
+          "q": "How do you spell your surname?",
+          "a": "K-A-Y-A."
+        },
+        {
+          "id": "g8u4q6",
+          "q": "What is your phone number?",
+          "a": "It is 555 0102."
+        },
+        {
+          "id": "g8u4q7",
+          "q": "Where is Ms Yilmaz at the moment?",
+          "a": "She is in a meeting room."
+        },
+        {
+          "id": "g8u4q8",
+          "q": "Could I leave a message for Mert?",
+          "a": "Yes. I'll write it down for him."
+        },
+        {
+          "id": "g8u4q9",
+          "q": "How many calls did the office receive?",
+          "a": "It received seven calls."
+        }
+      ],
+      "completions": [
+        {
+          "id": "g8u4h1",
+          "start": "Please leave…",
+          "end": "…a message after the tone.",
+          "wrongEndings": [
+            "g8u4h2",
+            "g8u4h5"
+          ]
+        },
+        {
+          "id": "g8u4h2",
+          "start": "The caller…",
+          "end": "…wants to speak to Ece.",
+          "wrongEndings": [
+            "g8u4h1",
+            "g8u4h4"
+          ]
+        },
+        {
+          "id": "g8u4h3",
+          "start": "Could you…",
+          "end": "…repeat your number, please?",
+          "wrongEndings": [
+            "g8u4h2",
+            "g8u4h5"
+          ]
+        },
+        {
+          "id": "g8u4h4",
+          "start": "The mobile phone is…",
+          "end": "…inside my jacket pocket.",
+          "wrongEndings": [
+            "g8u4h2",
+            "g8u4h5"
+          ]
+        },
+        {
+          "id": "g8u4h5",
+          "start": "Our receptionist…",
+          "end": "…takes messages for the manager.",
+          "wrongEndings": [
+            "g8u4h1",
+            "g8u4h4"
+          ]
+        },
+        {
+          "id": "g8u4h6",
+          "start": "I would like…",
+          "end": "…to call you back this evening.",
+          "wrongEndings": [
+            "g8u4h2",
+            "g8u4h5"
+          ]
+        },
+        {
+          "id": "g8u4h7",
+          "start": "Please give…",
+          "end": "…him my new phone number.",
+          "wrongEndings": [
+            "g8u4h2",
+            "g8u4h5"
+          ]
+        },
+        {
+          "id": "g8u4h8",
+          "start": "These contact details are…",
+          "end": "…for the school office.",
+          "wrongEndings": [
+            "g8u4h2",
+            "g8u4h5"
+          ]
+        },
+        {
+          "id": "g8u4h9",
+          "start": "We need…",
+          "end": "…to check the connection.",
+          "wrongEndings": [
+            "g8u4h2",
+            "g8u4h5"
+          ]
+        }
+      ],
+      "sentences": [
+        {
+          "id": "g8u4s1",
+          "blocks": [
+            "Could you",
+            "repeat",
+            "your number?"
+          ],
+          "difficulty": 1,
+          "tr": "Numaranızı tekrar eder misiniz?"
+        },
+        {
+          "id": "g8u4s2",
+          "blocks": [
+            "I",
+            "want to leave",
+            "a message."
+          ],
+          "difficulty": 1,
+          "tr": "Bir mesaj bırakmak istiyorum."
+        },
+        {
+          "id": "g8u4s3",
+          "blocks": [
+            "The caller",
+            "needs",
+            "some information."
+          ],
+          "difficulty": 1,
+          "tr": "Arayan kişinin biraz bilgiye ihtiyacı var."
+        },
+        {
+          "id": "g8u4s4",
+          "blocks": [
+            "The caller",
+            "leaves",
+            "Ece",
+            "a message."
+          ],
+          "difficulty": 2,
+          "tr": "Arayan kişi Ece'ye bir mesaj bırakır."
+        },
+        {
+          "id": "g8u4s5",
+          "blocks": [
+            "This",
+            "is",
+            "the manager's",
+            "phone number."
+          ],
+          "difficulty": 2,
+          "tr": "Bu müdürün telefon numarası."
+        },
+        {
+          "id": "g8u4s6",
+          "blocks": [
+            "The receptionist",
+            "gives",
+            "me",
+            "a notepad."
+          ],
+          "difficulty": 2,
+          "tr": "Resepsiyon görevlisi bana bir not defteri verir."
+        },
+        {
+          "id": "g8u4s7",
+          "blocks": [
+            "My phone",
+            "has got",
+            "a clear",
+            "speaker."
+          ],
+          "difficulty": 2,
+          "tr": "Telefonumun sesi net veren bir hoparlörü var."
+        },
+        {
+          "id": "g8u4s8",
+          "blocks": [
+            "These",
+            "are",
+            "our office's",
+            "contact details."
+          ],
+          "difficulty": 2,
+          "tr": "Bunlar ofisimizin iletişim bilgileri."
+        },
+        {
+          "id": "g8u4s9",
+          "blocks": [
+            "The receptionist",
+            "says",
+            "the manager",
+            "is",
+            "busy."
+          ],
+          "difficulty": 2,
+          "tr": "Resepsiyon görevlisi müdürün meşgul olduğunu söylüyor."
+        },
+        {
+          "id": "g8u4s10",
+          "blocks": [
+            "I",
+            "hope",
+            "the connection",
+            "is",
+            "clear."
+          ],
+          "difficulty": 2,
+          "tr": "Umarım bağlantı nettir."
+        }
+      ],
+      "translations": [
+        {
+          "id": "g8u4t1",
+          "en": "phone",
+          "tr": "telefon"
+        },
+        {
+          "id": "g8u4t2",
+          "en": "caller",
+          "tr": "arayan kişi"
+        },
+        {
+          "id": "g8u4t3",
+          "en": "contact",
+          "tr": "iletişim"
+        },
+        {
+          "id": "g8u4t4",
+          "en": "line",
+          "tr": "telefon hattı"
+        },
+        {
+          "id": "g8u4t5",
+          "en": "connection",
+          "tr": "bağlantı"
+        },
+        {
+          "id": "g8u4t6",
+          "en": "number",
+          "tr": "numara"
+        },
+        {
+          "id": "g8u4t7",
+          "en": "ring",
+          "tr": "çalmak"
+        },
+        {
+          "id": "g8u4t8",
+          "en": "answer",
+          "tr": "telefona cevap vermek"
+        },
+        {
+          "id": "g8u4t9",
+          "en": "dial",
+          "tr": "numarayı çevirmek"
+        }
+      ]
+    },
+    {
+      "id": "g8u5",
+      "title": "The Internet",
+      "source": "meb",
+      "targetLanguage": [
+        "Internet habits and purposes",
+        "Online safety and privacy",
+        "Instructions: upload/download/log in/log out",
+        "Checking sources and sharing responsibly"
+      ],
+      "categories": [
+        {
+          "id": "g8u5c1",
+          "title": "ONLINE ACTIONS",
+          "yes": [
+            "upload",
+            "download",
+            "search",
+            "click",
+            "save",
+            "share",
+            "delete",
+            "log in",
+            "log out",
+            "reply"
+          ],
+          "no": [
+            "peel",
+            "chop",
+            "slice",
+            "stir",
+            "mix",
+            "boil",
+            "fry",
+            "bake",
+            "roast",
+            "grate"
+          ]
+        },
+        {
+          "id": "g8u5c2",
+          "title": "COMPUTER PARTS",
+          "yes": [
+            "keyboard",
+            "mouse",
+            "screen",
+            "speaker",
+            "webcam",
+            "cable",
+            "processor",
+            "memory card",
+            "hard drive",
+            "touchpad"
+          ],
+          "no": [
+            "river",
+            "mountain",
+            "forest",
+            "beach",
+            "valley",
+            "cave",
+            "waterfall",
+            "desert",
+            "lake",
+            "island"
+          ]
+        }
+      ],
+      "descriptions": [
+        {
+          "id": "g8u5d1",
+          "clue": "I am a secret code that protects your online account.",
+          "options": [
+            "website",
+            "password",
+            "username"
+          ],
+          "answer": "password"
+        },
+        {
+          "id": "g8u5d2",
+          "clue": "I am the name you use to identify your account.",
+          "options": [
+            "username",
+            "password",
+            "browser"
+          ],
+          "answer": "username"
+        },
+        {
+          "id": "g8u5d3",
+          "clue": "I am a program for opening and using websites.",
+          "options": [
+            "attachment",
+            "password",
+            "browser"
+          ],
+          "answer": "browser"
+        },
+        {
+          "id": "g8u5d4",
+          "clue": "I am a file sent together with an email.",
+          "options": [
+            "browser",
+            "attachment",
+            "username"
+          ],
+          "answer": "attachment"
+        },
+        {
+          "id": "g8u5d5",
+          "clue": "I take you to another web page when you click me.",
+          "options": [
+            "password",
+            "link",
+            "username"
+          ],
+          "answer": "link"
+        },
+        {
+          "id": "g8u5d6",
+          "clue": "I am a group of connected web pages with one address.",
+          "options": [
+            "web page",
+            "browser",
+            "website"
+          ],
+          "answer": "website"
+        }
+      ],
+      "pictures": [
+        {
+          "id": "g8u5p1",
+          "word": "laptop",
+          "drawing": "open laptop displaying a simple search page"
+        },
+        {
+          "id": "g8u5p2",
+          "word": "keyboard",
+          "drawing": "computer keyboard with white letter keys"
+        },
+        {
+          "id": "g8u5p3",
+          "word": "mouse",
+          "drawing": "blue computer mouse with two buttons"
+        },
+        {
+          "id": "g8u5p4",
+          "word": "router",
+          "drawing": "wireless router with two short antennas"
+        },
+        {
+          "id": "g8u5p5",
+          "word": "monitor",
+          "drawing": "computer monitor on a small stand"
+        },
+        {
+          "id": "g8u5p6",
+          "word": "USB stick",
+          "drawing": "small blue USB memory stick"
+        },
+        {
+          "id": "g8u5p7",
+          "word": "webcam",
+          "drawing": "small webcam clipped to a monitor"
+        },
+        {
+          "id": "g8u5p8",
+          "word": "printer",
+          "drawing": "printer with one sheet coming out"
+        },
+        {
+          "id": "g8u5p9",
+          "word": "tablet",
+          "drawing": "tablet computer with a large home button"
+        }
+      ],
+      "questions": [
+        {
+          "id": "g8u5q1",
+          "q": "Why do you use a search engine?",
+          "a": "To find reliable information."
+        },
+        {
+          "id": "g8u5q2",
+          "q": "What keeps your account private?",
+          "a": "A strong, secret password."
+        },
+        {
+          "id": "g8u5q3",
+          "q": "When do you log out of a shared device?",
+          "a": "After I finish using my account."
+        },
+        {
+          "id": "g8u5q4",
+          "q": "Who can see a public post?",
+          "a": "Anyone who can open the page."
+        },
+        {
+          "id": "g8u5q5",
+          "q": "Where are your downloaded files?",
+          "a": "They are in my Downloads folder."
+        },
+        {
+          "id": "g8u5q6",
+          "q": "How do you send a file with an email?",
+          "a": "I add it as an attachment."
+        },
+        {
+          "id": "g8u5q7",
+          "q": "How many devices use this router?",
+          "a": "Four devices use it."
+        },
+        {
+          "id": "g8u5q8",
+          "q": "Which button sends your reply?",
+          "a": "The send button does."
+        },
+        {
+          "id": "g8u5q9",
+          "q": "Should you share your password?",
+          "a": "No, I should keep it private."
+        }
+      ],
+      "completions": [
+        {
+          "id": "g8u5h1",
+          "start": "I need…",
+          "end": "…a strong, private password.",
+          "wrongEndings": [
+            "g8u5h2",
+            "g8u5h5"
+          ]
+        },
+        {
+          "id": "g8u5h2",
+          "start": "A strong password…",
+          "end": "…protects your online account.",
+          "wrongEndings": [
+            "g8u5h1",
+            "g8u5h4"
+          ]
+        },
+        {
+          "id": "g8u5h3",
+          "start": "You must not…",
+          "end": "…share your private password.",
+          "wrongEndings": [
+            "g8u5h2",
+            "g8u5h5"
+          ]
+        },
+        {
+          "id": "g8u5h4",
+          "start": "The router is…",
+          "end": "…beside the classroom computer.",
+          "wrongEndings": [
+            "g8u5h2",
+            "g8u5h5"
+          ]
+        },
+        {
+          "id": "g8u5h5",
+          "start": "My browser…",
+          "end": "…opens this website quickly.",
+          "wrongEndings": [
+            "g8u5h1",
+            "g8u5h4"
+          ]
+        },
+        {
+          "id": "g8u5h6",
+          "start": "Please send…",
+          "end": "…me the worksheet as a file.",
+          "wrongEndings": [
+            "g8u5h2",
+            "g8u5h5"
+          ]
+        },
+        {
+          "id": "g8u5h7",
+          "start": "These messages are…",
+          "end": "…from our class study group.",
+          "wrongEndings": [
+            "g8u5h2",
+            "g8u5h5"
+          ]
+        },
+        {
+          "id": "g8u5h8",
+          "start": "I enjoy…",
+          "end": "…doing research online.",
+          "wrongEndings": [
+            "g8u5h2",
+            "g8u5h5"
+          ]
+        },
+        {
+          "id": "g8u5h9",
+          "start": "We should…",
+          "end": "…check facts before sharing.",
+          "wrongEndings": [
+            "g8u5h2",
+            "g8u5h5"
+          ]
+        }
+      ],
+      "sentences": [
+        {
+          "id": "g8u5s1",
+          "blocks": [
+            "We",
+            "check",
+            "our sources."
+          ],
+          "difficulty": 1,
+          "tr": "Kaynaklarımızı kontrol ederiz."
+        },
+        {
+          "id": "g8u5s2",
+          "blocks": [
+            "I",
+            "never share",
+            "my password."
+          ],
+          "difficulty": 1,
+          "tr": "Şifremi asla paylaşmam."
+        },
+        {
+          "id": "g8u5s3",
+          "blocks": [
+            "This website",
+            "provides",
+            "useful facts."
+          ],
+          "difficulty": 1,
+          "tr": "Bu internet sitesi faydalı bilgiler sağlar."
+        },
+        {
+          "id": "g8u5s4",
+          "blocks": [
+            "My friend",
+            "sends",
+            "me",
+            "a useful link."
+          ],
+          "difficulty": 2,
+          "tr": "Arkadaşım bana faydalı bir bağlantı gönderir."
+        },
+        {
+          "id": "g8u5s5",
+          "blocks": [
+            "This",
+            "is",
+            "my new",
+            "username."
+          ],
+          "difficulty": 2,
+          "tr": "Bu benim yeni kullanıcı adım."
+        },
+        {
+          "id": "g8u5s6",
+          "blocks": [
+            "Our classroom",
+            "has got",
+            "a fast",
+            "connection."
+          ],
+          "difficulty": 2,
+          "tr": "Sınıfımızda hızlı bir bağlantı var."
+        },
+        {
+          "id": "g8u5s7",
+          "blocks": [
+            "The browser",
+            "shows",
+            "us",
+            "the home page."
+          ],
+          "difficulty": 2,
+          "tr": "Tarayıcı bize ana sayfayı gösterir."
+        },
+        {
+          "id": "g8u5s8",
+          "blocks": [
+            "These",
+            "are",
+            "my account's",
+            "privacy settings."
+          ],
+          "difficulty": 2,
+          "tr": "Bunlar hesabımın gizlilik ayarları."
+        },
+        {
+          "id": "g8u5s9",
+          "blocks": [
+            "We",
+            "know",
+            "online privacy",
+            "is",
+            "important."
+          ],
+          "difficulty": 2,
+          "tr": "Çevrimiçi gizliliğin önemli olduğunu biliyoruz."
+        },
+        {
+          "id": "g8u5s10",
+          "blocks": [
+            "The teacher",
+            "says",
+            "this source",
+            "is",
+            "reliable."
+          ],
+          "difficulty": 2,
+          "tr": "Öğretmen bu kaynağın güvenilir olduğunu söylüyor."
+        }
+      ],
+      "translations": [
+        {
+          "id": "g8u5t1",
+          "en": "internet",
+          "tr": "internet"
+        },
+        {
+          "id": "g8u5t2",
+          "en": "website",
+          "tr": "internet sitesi"
+        },
+        {
+          "id": "g8u5t3",
+          "en": "browser",
+          "tr": "tarayıcı"
+        },
+        {
+          "id": "g8u5t4",
+          "en": "device",
+          "tr": "cihaz"
+        },
+        {
+          "id": "g8u5t5",
+          "en": "online",
+          "tr": "çevrimiçi"
+        },
+        {
+          "id": "g8u5t6",
+          "en": "offline",
+          "tr": "çevrimdışı"
+        },
+        {
+          "id": "g8u5t7",
+          "en": "screen",
+          "tr": "ekran"
+        },
+        {
+          "id": "g8u5t8",
+          "en": "link",
+          "tr": "bağlantı"
+        },
+        {
+          "id": "g8u5t9",
+          "en": "download",
+          "tr": "indirmek"
+        }
+      ]
+    },
+    {
+      "id": "g8u6",
+      "title": "Adventures",
+      "source": "meb",
+      "targetLanguage": [
+        "Adventure activities and equipment",
+        "Preferences: would rather and prefer X to Y",
+        "Comparing activities with reasons",
+        "Checking equipment and following an instructor"
+      ],
+      "categories": [
+        {
+          "id": "g8u6c1",
+          "title": "ADVENTURE SPORTS",
+          "yes": [
+            "rafting",
+            "trekking",
+            "climbing",
+            "hiking",
+            "diving",
+            "surfing",
+            "caving",
+            "canoeing",
+            "paragliding",
+            "skydiving"
+          ],
+          "no": [
+            "helmet",
+            "harness",
+            "life jacket",
+            "knee pads",
+            "elbow pads",
+            "goggles",
+            "gloves",
+            "rope",
+            "carabiner",
+            "whistle"
+          ]
+        },
+        {
+          "id": "g8u6c2",
+          "title": "SAFETY EQUIPMENT",
+          "yes": [
+            "helmet",
+            "harness",
+            "life jacket",
+            "knee pads",
+            "elbow pads",
+            "goggles",
+            "gloves",
+            "rope",
+            "carabiner",
+            "whistle"
+          ],
+          "no": [
+            "flour",
+            "butter",
+            "oil",
+            "onion",
+            "garlic",
+            "salt",
+            "pepper",
+            "egg",
+            "milk",
+            "sugar"
+          ]
+        }
+      ],
+      "descriptions": [
+        {
+          "id": "g8u6d1",
+          "clue": "I explore caves using a helmet and a light.",
+          "options": [
+            "caving",
+            "surfing",
+            "rafting"
+          ],
+          "answer": "caving"
+        },
+        {
+          "id": "g8u6d2",
+          "clue": "I move down a river in an inflatable boat.",
+          "options": [
+            "climbing",
+            "skydiving",
+            "rafting"
+          ],
+          "answer": "rafting"
+        },
+        {
+          "id": "g8u6d3",
+          "clue": "I ride waves while standing on a board.",
+          "options": [
+            "caving",
+            "surfing",
+            "hiking"
+          ],
+          "answer": "surfing"
+        },
+        {
+          "id": "g8u6d4",
+          "clue": "I go up rocks with a rope and a harness.",
+          "options": [
+            "climbing",
+            "diving",
+            "rafting"
+          ],
+          "answer": "climbing"
+        },
+        {
+          "id": "g8u6d5",
+          "clue": "I move underwater with breathing equipment.",
+          "options": [
+            "hiking",
+            "camping",
+            "diving"
+          ],
+          "answer": "diving"
+        },
+        {
+          "id": "g8u6d6",
+          "clue": "I walk along paths in the countryside.",
+          "options": [
+            "surfing",
+            "hiking",
+            "rafting"
+          ],
+          "answer": "hiking"
+        }
+      ],
+      "pictures": [
+        {
+          "id": "g8u6p1",
+          "word": "helmet",
+          "drawing": "red climbing helmet with a fastened chin strap"
+        },
+        {
+          "id": "g8u6p2",
+          "word": "rope",
+          "drawing": "coiled blue climbing rope"
+        },
+        {
+          "id": "g8u6p3",
+          "word": "paddle",
+          "drawing": "yellow paddle with one broad blade"
+        },
+        {
+          "id": "g8u6p4",
+          "word": "harness",
+          "drawing": "climbing harness with leg loops and a waist belt"
+        },
+        {
+          "id": "g8u6p5",
+          "word": "life jacket",
+          "drawing": "orange life jacket with two buckled straps"
+        },
+        {
+          "id": "g8u6p6",
+          "word": "backpack",
+          "drawing": "large green hiking backpack"
+        },
+        {
+          "id": "g8u6p7",
+          "word": "tent",
+          "drawing": "blue camping tent with a zipped entrance"
+        },
+        {
+          "id": "g8u6p8",
+          "word": "canoe",
+          "drawing": "long narrow canoe floating on calm water"
+        },
+        {
+          "id": "g8u6p9",
+          "word": "torch",
+          "drawing": "black torch shining a small beam of light"
+        }
+      ],
+      "questions": [
+        {
+          "id": "g8u6q1",
+          "q": "Would you rather go rafting or hiking?",
+          "a": "I would rather go hiking."
+        },
+        {
+          "id": "g8u6q2",
+          "q": "Why must climbers wear helmets?",
+          "a": "To protect their heads."
+        },
+        {
+          "id": "g8u6q3",
+          "q": "Who checks your climbing equipment?",
+          "a": "Our instructor checks it."
+        },
+        {
+          "id": "g8u6q4",
+          "q": "Where are you going caving?",
+          "a": "In the limestone cave."
+        },
+        {
+          "id": "g8u6q5",
+          "q": "When does the trekking course start?",
+          "a": "It starts next Saturday."
+        },
+        {
+          "id": "g8u6q6",
+          "q": "How can beginners stay safe?",
+          "a": "They follow their instructor."
+        },
+        {
+          "id": "g8u6q7",
+          "q": "How many life jackets do we need?",
+          "a": "We need eight life jackets."
+        },
+        {
+          "id": "g8u6q8",
+          "q": "What equipment do we need for rafting?",
+          "a": "Life jackets and paddles."
+        },
+        {
+          "id": "g8u6q9",
+          "q": "Is climbing harder than a short walk?",
+          "a": "Yes, climbing is more difficult."
+        }
+      ],
+      "completions": [
+        {
+          "id": "g8u6h1",
+          "start": "We need…",
+          "end": "…life jackets for the boat trip.",
+          "wrongEndings": [
+            "g8u6h2",
+            "g8u6h5"
+          ]
+        },
+        {
+          "id": "g8u6h2",
+          "start": "Our climbing instructor…",
+          "end": "…checks every harness carefully.",
+          "wrongEndings": [
+            "g8u6h1",
+            "g8u6h4"
+          ]
+        },
+        {
+          "id": "g8u6h3",
+          "start": "I would rather…",
+          "end": "…go hiking than try rafting.",
+          "wrongEndings": [
+            "g8u6h2",
+            "g8u6h5"
+          ]
+        },
+        {
+          "id": "g8u6h4",
+          "start": "The safety equipment is…",
+          "end": "…inside the instructor's bag.",
+          "wrongEndings": [
+            "g8u6h2",
+            "g8u6h5"
+          ]
+        },
+        {
+          "id": "g8u6h5",
+          "start": "This mountain route…",
+          "end": "…takes about three hours.",
+          "wrongEndings": [
+            "g8u6h1",
+            "g8u6h4"
+          ]
+        },
+        {
+          "id": "g8u6h6",
+          "start": "Please show…",
+          "end": "…me how to wear this helmet.",
+          "wrongEndings": [
+            "g8u6h2",
+            "g8u6h5"
+          ]
+        },
+        {
+          "id": "g8u6h7",
+          "start": "These climbing ropes are…",
+          "end": "…strong enough for the activity.",
+          "wrongEndings": [
+            "g8u6h2",
+            "g8u6h5"
+          ]
+        },
+        {
+          "id": "g8u6h8",
+          "start": "I enjoy…",
+          "end": "…exploring caves with a guide.",
+          "wrongEndings": [
+            "g8u6h2",
+            "g8u6h5"
+          ]
+        },
+        {
+          "id": "g8u6h9",
+          "start": "We should…",
+          "end": "…follow the instructor's advice.",
+          "wrongEndings": [
+            "g8u6h2",
+            "g8u6h5"
+          ]
+        }
+      ],
+      "sentences": [
+        {
+          "id": "g8u6s1",
+          "blocks": [
+            "I",
+            "would rather try",
+            "rafting."
+          ],
+          "difficulty": 1,
+          "tr": "Rafting yapmayı tercih ederim."
+        },
+        {
+          "id": "g8u6s2",
+          "blocks": [
+            "We",
+            "prefer",
+            "hiking to diving."
+          ],
+          "difficulty": 1,
+          "tr": "Yürüyüşü dalışa tercih ederiz."
+        },
+        {
+          "id": "g8u6s3",
+          "blocks": [
+            "Climbers",
+            "must check",
+            "their equipment."
+          ],
+          "difficulty": 1,
+          "tr": "Tırmanıcılar ekipmanlarını kontrol etmeli."
+        },
+        {
+          "id": "g8u6s4",
+          "blocks": [
+            "The instructor",
+            "gives",
+            "us",
+            "a safety guide."
+          ],
+          "difficulty": 2,
+          "tr": "Eğitmen bize bir güvenlik rehberi verir."
+        },
+        {
+          "id": "g8u6s5",
+          "blocks": [
+            "This",
+            "is",
+            "a properly fitted",
+            "helmet."
+          ],
+          "difficulty": 2,
+          "tr": "Bu başa doğru şekilde oturan bir kask."
+        },
+        {
+          "id": "g8u6s6",
+          "blocks": [
+            "Our team",
+            "has got",
+            "two strong",
+            "ropes."
+          ],
+          "difficulty": 2,
+          "tr": "Takımımızın iki sağlam ipi var."
+        },
+        {
+          "id": "g8u6s7",
+          "blocks": [
+            "The guide",
+            "shows",
+            "me",
+            "the safe route."
+          ],
+          "difficulty": 2,
+          "tr": "Rehber bana güvenli rotayı gösterir."
+        },
+        {
+          "id": "g8u6s8",
+          "blocks": [
+            "These",
+            "are",
+            "our instructor's",
+            "life jackets."
+          ],
+          "difficulty": 2,
+          "tr": "Bunlar eğitmenimizin can yelekleri."
+        },
+        {
+          "id": "g8u6s9",
+          "blocks": [
+            "I",
+            "think",
+            "caving",
+            "is",
+            "challenging."
+          ],
+          "difficulty": 2,
+          "tr": "Bence mağaracılık zorlayıcı."
+        },
+        {
+          "id": "g8u6s10",
+          "blocks": [
+            "The guide",
+            "says",
+            "our equipment",
+            "is",
+            "ready."
+          ],
+          "difficulty": 2,
+          "tr": "Rehber ekipmanımızın hazır olduğunu söylüyor."
+        }
+      ],
+      "translations": [
+        {
+          "id": "g8u6t1",
+          "en": "adventure",
+          "tr": "macera"
+        },
+        {
+          "id": "g8u6t2",
+          "en": "climbing",
+          "tr": "tırmanış"
+        },
+        {
+          "id": "g8u6t3",
+          "en": "rafting",
+          "tr": "rafting"
+        },
+        {
+          "id": "g8u6t4",
+          "en": "trekking",
+          "tr": "doğa yürüyüşü"
+        },
+        {
+          "id": "g8u6t5",
+          "en": "parachute",
+          "tr": "paraşüt"
+        },
+        {
+          "id": "g8u6t6",
+          "en": "camping",
+          "tr": "kamp yapma"
+        },
+        {
+          "id": "g8u6t7",
+          "en": "exciting",
+          "tr": "heyecan verici"
+        },
+        {
+          "id": "g8u6t8",
+          "en": "cycling",
+          "tr": "bisiklet sürme"
+        },
+        {
+          "id": "g8u6t9",
+          "en": "diving",
+          "tr": "dalış"
+        }
+      ]
+    },
+    {
+      "id": "g8u7",
+      "title": "Tourism",
+      "source": "meb",
+      "targetLanguage": [
+        "Cultural sites, accommodation and holidays",
+        "Past travel experiences",
+        "Comparing destinations and accommodation",
+        "Asking about travel arrangements"
+      ],
+      "categories": [
+        {
+          "id": "g8u7c1",
+          "title": "TOURIST PLACES",
+          "yes": [
+            "castle",
+            "ruins",
+            "museum",
+            "palace",
+            "old town",
+            "market",
+            "beach",
+            "waterfall",
+            "monument",
+            "cave"
+          ],
+          "no": [
+            "passport",
+            "ticket",
+            "brochure",
+            "map",
+            "guidebook",
+            "camera",
+            "suitcase",
+            "backpack",
+            "luggage tag",
+            "boarding pass"
+          ]
+        },
+        {
+          "id": "g8u7c2",
+          "title": "TRAVEL ITEMS",
+          "yes": [
+            "passport",
+            "ticket",
+            "brochure",
+            "map",
+            "guidebook",
+            "camera",
+            "suitcase",
+            "backpack",
+            "luggage tag",
+            "boarding pass"
+          ],
+          "no": [
+            "mountain",
+            "river",
+            "lake",
+            "forest",
+            "beach",
+            "island",
+            "valley",
+            "cave",
+            "coast",
+            "waterfall"
+          ]
+        }
+      ],
+      "descriptions": [
+        {
+          "id": "g8u7d1",
+          "clue": "I am a historic building with towers and thick walls.",
+          "options": [
+            "hotel",
+            "museum",
+            "castle"
+          ],
+          "answer": "castle"
+        },
+        {
+          "id": "g8u7d2",
+          "clue": "I am a small place offering rooms to travellers.",
+          "options": [
+            "museum",
+            "guesthouse",
+            "station"
+          ],
+          "answer": "guesthouse"
+        },
+        {
+          "id": "g8u7d3",
+          "clue": "Old buildings are partly broken and no longer whole here.",
+          "options": [
+            "ruins",
+            "beach",
+            "market"
+          ],
+          "answer": "ruins"
+        },
+        {
+          "id": "g8u7d4",
+          "clue": "I sell local food and goods from many small stalls.",
+          "options": [
+            "castle",
+            "museum",
+            "market"
+          ],
+          "answer": "market"
+        },
+        {
+          "id": "g8u7d5",
+          "clue": "Visitors stay in my rooms and pay for each night.",
+          "options": [
+            "station",
+            "hotel",
+            "museum"
+          ],
+          "answer": "hotel"
+        },
+        {
+          "id": "g8u7d6",
+          "clue": "I am sandy land next to the sea.",
+          "options": [
+            "beach",
+            "cave",
+            "palace"
+          ],
+          "answer": "beach"
+        }
+      ],
+      "pictures": [
+        {
+          "id": "g8u7p1",
+          "word": "castle",
+          "drawing": "stone castle with two towers and a large gate"
+        },
+        {
+          "id": "g8u7p2",
+          "word": "ruins",
+          "drawing": "broken stone columns beside a low ancient wall"
+        },
+        {
+          "id": "g8u7p3",
+          "word": "guesthouse",
+          "drawing": "small guesthouse with flowers beside its entrance"
+        },
+        {
+          "id": "g8u7p4",
+          "word": "suitcase",
+          "drawing": "green suitcase with wheels and a handle"
+        },
+        {
+          "id": "g8u7p5",
+          "word": "passport",
+          "drawing": "closed passport booklet with a simple globe symbol"
+        },
+        {
+          "id": "g8u7p6",
+          "word": "brochure",
+          "drawing": "folded travel brochure showing a beach and a castle"
+        },
+        {
+          "id": "g8u7p7",
+          "word": "souvenir",
+          "drawing": "small souvenir model of a historic tower"
+        },
+        {
+          "id": "g8u7p8",
+          "word": "postcard",
+          "drawing": "postcard with a landscape picture and a stamp"
+        },
+        {
+          "id": "g8u7p9",
+          "word": "hotel",
+          "drawing": "hotel building with a front desk visible inside"
+        }
+      ],
+      "questions": [
+        {
+          "id": "g8u7q1",
+          "q": "Did you visit Konya or Izmir?",
+          "a": "We visited Konya."
+        },
+        {
+          "id": "g8u7q2",
+          "q": "What did you explore in Şanlıurfa?",
+          "a": "Its old streets and markets."
+        },
+        {
+          "id": "g8u7q3",
+          "q": "Who showed you around the old town?",
+          "a": "A local guide showed us around."
+        },
+        {
+          "id": "g8u7q4",
+          "q": "Where did you stay during the trip?",
+          "a": "At a guesthouse near the centre."
+        },
+        {
+          "id": "g8u7q5",
+          "q": "When did you book your room?",
+          "a": "I booked it two weeks ago."
+        },
+        {
+          "id": "g8u7q6",
+          "q": "How did you travel to Konya?",
+          "a": "We took the high-speed train."
+        },
+        {
+          "id": "g8u7q7",
+          "q": "Why did you choose a cultural holiday?",
+          "a": "To learn about local traditions."
+        },
+        {
+          "id": "g8u7q8",
+          "q": "How many nights did you stay there?",
+          "a": "We stayed for three nights."
+        },
+        {
+          "id": "g8u7q9",
+          "q": "How much was one night at the hotel?",
+          "a": "It was nine hundred liras."
+        }
+      ],
+      "completions": [
+        {
+          "id": "g8u7h1",
+          "start": "I bought…",
+          "end": "…a souvenir for my cousin.",
+          "wrongEndings": [
+            "g8u7h2",
+            "g8u7h5"
+          ]
+        },
+        {
+          "id": "g8u7h2",
+          "start": "Our local guide…",
+          "end": "…knows the old town very well.",
+          "wrongEndings": [
+            "g8u7h1",
+            "g8u7h4"
+          ]
+        },
+        {
+          "id": "g8u7h3",
+          "start": "We would like to…",
+          "end": "…explore the historic streets.",
+          "wrongEndings": [
+            "g8u7h2",
+            "g8u7h5"
+          ]
+        },
+        {
+          "id": "g8u7h4",
+          "start": "The guesthouse is…",
+          "end": "…near the city centre.",
+          "wrongEndings": [
+            "g8u7h2",
+            "g8u7h5"
+          ]
+        },
+        {
+          "id": "g8u7h5",
+          "start": "This travel brochure…",
+          "end": "…has a map of Şanlıurfa.",
+          "wrongEndings": [
+            "g8u7h1",
+            "g8u7h4"
+          ]
+        },
+        {
+          "id": "g8u7h6",
+          "start": "Please give…",
+          "end": "…me the hotel address.",
+          "wrongEndings": [
+            "g8u7h2",
+            "g8u7h5"
+          ]
+        },
+        {
+          "id": "g8u7h7",
+          "start": "These ruins are…",
+          "end": "…older than the castle.",
+          "wrongEndings": [
+            "g8u7h2",
+            "g8u7h5"
+          ]
+        },
+        {
+          "id": "g8u7h8",
+          "start": "I enjoyed…",
+          "end": "…learning about local customs.",
+          "wrongEndings": [
+            "g8u7h2",
+            "g8u7h5"
+          ]
+        },
+        {
+          "id": "g8u7h9",
+          "start": "Our family decided…",
+          "end": "…to spend three nights in Konya.",
+          "wrongEndings": [
+            "g8u7h2",
+            "g8u7h5"
+          ]
+        }
+      ],
+      "sentences": [
+        {
+          "id": "g8u7s1",
+          "blocks": [
+            "We",
+            "visited",
+            "Konya."
+          ],
+          "difficulty": 1,
+          "tr": "Konya'yı ziyaret ettik."
+        },
+        {
+          "id": "g8u7s2",
+          "blocks": [
+            "I",
+            "prefer",
+            "cultural holidays."
+          ],
+          "difficulty": 1,
+          "tr": "Kültür tatillerini tercih ederim."
+        },
+        {
+          "id": "g8u7s3",
+          "blocks": [
+            "This room",
+            "is",
+            "cheaper than mine."
+          ],
+          "difficulty": 1,
+          "tr": "Bu oda benimkinden daha ucuz."
+        },
+        {
+          "id": "g8u7s4",
+          "blocks": [
+            "Our guide",
+            "tells",
+            "us",
+            "local stories."
+          ],
+          "difficulty": 2,
+          "tr": "Rehberimiz bize yöresel hikâyeler anlatır."
+        },
+        {
+          "id": "g8u7s5",
+          "blocks": [
+            "These",
+            "are",
+            "my favourite",
+            "souvenirs."
+          ],
+          "difficulty": 2,
+          "tr": "Bunlar benim en sevdiğim hediyelik eşyalar."
+        },
+        {
+          "id": "g8u7s6",
+          "blocks": [
+            "The hotel",
+            "has got",
+            "a quiet",
+            "courtyard."
+          ],
+          "difficulty": 2,
+          "tr": "Otelin sessiz bir avlusu var."
+        },
+        {
+          "id": "g8u7s7",
+          "blocks": [
+            "The receptionist",
+            "gives",
+            "me",
+            "a room key."
+          ],
+          "difficulty": 2,
+          "tr": "Resepsiyon görevlisi bana bir oda anahtarı verir."
+        },
+        {
+          "id": "g8u7s8",
+          "blocks": [
+            "This",
+            "is",
+            "our travel",
+            "brochure."
+          ],
+          "difficulty": 2,
+          "tr": "Bu bizim seyahat broşürümüz."
+        },
+        {
+          "id": "g8u7s9",
+          "blocks": [
+            "I",
+            "think",
+            "Şanlıurfa",
+            "is",
+            "fascinating."
+          ],
+          "difficulty": 2,
+          "tr": "Bence Şanlıurfa büyüleyici."
+        },
+        {
+          "id": "g8u7s10",
+          "blocks": [
+            "My sister",
+            "says",
+            "the ruins",
+            "are",
+            "impressive."
+          ],
+          "difficulty": 2,
+          "tr": "Kız kardeşim kalıntıların etkileyici olduğunu söylüyor."
+        }
+      ],
+      "translations": [
+        {
+          "id": "g8u7t1",
+          "en": "tourist",
+          "tr": "turist"
+        },
+        {
+          "id": "g8u7t2",
+          "en": "destination",
+          "tr": "gidilecek yer"
+        },
+        {
+          "id": "g8u7t3",
+          "en": "coast",
+          "tr": "kıyı"
+        },
+        {
+          "id": "g8u7t4",
+          "en": "beach",
+          "tr": "plaj"
+        },
+        {
+          "id": "g8u7t5",
+          "en": "island",
+          "tr": "ada"
+        },
+        {
+          "id": "g8u7t6",
+          "en": "mountain",
+          "tr": "dağ"
+        },
+        {
+          "id": "g8u7t7",
+          "en": "city",
+          "tr": "şehir"
+        },
+        {
+          "id": "g8u7t8",
+          "en": "map",
+          "tr": "harita"
+        },
+        {
+          "id": "g8u7t9",
+          "en": "guide",
+          "tr": "rehber"
+        }
+      ]
+    },
+    {
+      "id": "g8u8",
+      "title": "Chores",
+      "source": "meb",
+      "targetLanguage": [
+        "Household duties and sharing responsibilities",
+        "Have to/must for obligations",
+        "Be responsible for + noun/-ing",
+        "Asking about chore routines"
+      ],
+      "categories": [
+        {
+          "id": "g8u8c1",
+          "title": "HOUSEHOLD CHORES",
+          "yes": [
+            "sweep",
+            "mop",
+            "dust",
+            "vacuum",
+            "iron",
+            "fold clothes",
+            "wash dishes",
+            "do the laundry",
+            "make the bed",
+            "set the table"
+          ],
+          "no": [
+            "broom",
+            "bucket",
+            "sponge",
+            "cloth",
+            "dustpan",
+            "dishwasher",
+            "detergent",
+            "bin",
+            "apron",
+            "dish rack"
+          ]
+        },
+        {
+          "id": "g8u8c2",
+          "title": "CLEANING TOOLS",
+          "yes": [
+            "broom",
+            "mop",
+            "bucket",
+            "sponge",
+            "cloth",
+            "dustpan",
+            "brush",
+            "vacuum cleaner",
+            "duster",
+            "toilet brush"
+          ],
+          "no": [
+            "apple",
+            "pear",
+            "peach",
+            "lemon",
+            "banana",
+            "grape",
+            "melon",
+            "plum",
+            "cherry",
+            "strawberry"
+          ]
+        }
+      ],
+      "descriptions": [
+        {
+          "id": "g8u8d1",
+          "clue": "I clean the floor with a broom.",
+          "options": [
+            "vacuum",
+            "sweep",
+            "mop"
+          ],
+          "answer": "sweep"
+        },
+        {
+          "id": "g8u8d2",
+          "clue": "I clean the floor with a wet mop.",
+          "options": [
+            "mop",
+            "sweep",
+            "dust"
+          ],
+          "answer": "mop"
+        },
+        {
+          "id": "g8u8d3",
+          "clue": "I remove dust from furniture with a cloth.",
+          "options": [
+            "iron",
+            "fold clothes",
+            "dust"
+          ],
+          "answer": "dust"
+        },
+        {
+          "id": "g8u8d4",
+          "clue": "I make wrinkled clothes smooth with heat.",
+          "options": [
+            "wash dishes",
+            "iron",
+            "fold clothes"
+          ],
+          "answer": "iron"
+        },
+        {
+          "id": "g8u8d5",
+          "clue": "I clean plates and cups after a meal.",
+          "options": [
+            "wash dishes",
+            "make the bed",
+            "set the table"
+          ],
+          "answer": "wash dishes"
+        },
+        {
+          "id": "g8u8d6",
+          "clue": "I clean the floor with a machine that sucks up dirt.",
+          "options": [
+            "sweep",
+            "mop",
+            "vacuum"
+          ],
+          "answer": "vacuum"
+        }
+      ],
+      "pictures": [
+        {
+          "id": "g8u8p1",
+          "word": "broom",
+          "drawing": "long broom with brown bristles"
+        },
+        {
+          "id": "g8u8p2",
+          "word": "mop",
+          "drawing": "mop with a blue handle and white cotton head"
+        },
+        {
+          "id": "g8u8p3",
+          "word": "bucket",
+          "drawing": "blue bucket half full of water"
+        },
+        {
+          "id": "g8u8p4",
+          "word": "sponge",
+          "drawing": "yellow kitchen sponge with a green top"
+        },
+        {
+          "id": "g8u8p5",
+          "word": "cloth",
+          "drawing": "folded pink cleaning cloth"
+        },
+        {
+          "id": "g8u8p6",
+          "word": "iron",
+          "drawing": "electric iron with a white handle"
+        },
+        {
+          "id": "g8u8p7",
+          "word": "dishwasher",
+          "drawing": "open dishwasher with plates on its racks"
+        },
+        {
+          "id": "g8u8p8",
+          "word": "laundry bag",
+          "drawing": "cloth laundry bag with a shirt sticking out"
+        },
+        {
+          "id": "g8u8p9",
+          "word": "dustpan",
+          "drawing": "blue dustpan beside a small hand brush"
+        }
+      ],
+      "questions": [
+        {
+          "id": "g8u8q1",
+          "q": "What is your responsibility at home?",
+          "a": "I take out the rubbish."
+        },
+        {
+          "id": "g8u8q2",
+          "q": "Who washes the dishes after lunch?",
+          "a": "My brother does."
+        },
+        {
+          "id": "g8u8q3",
+          "q": "What do you use to water the plants?",
+          "a": "I use a small watering can."
+        },
+        {
+          "id": "g8u8q4",
+          "q": "Why should families share chores?",
+          "a": "Because everyone uses the home."
+        },
+        {
+          "id": "g8u8q5",
+          "q": "How often do you change your sheets?",
+          "a": "Once a week."
+        },
+        {
+          "id": "g8u8q6",
+          "q": "Where do you keep the mop?",
+          "a": "In the cupboard beside the sink."
+        },
+        {
+          "id": "g8u8q7",
+          "q": "How many plates should I put out?",
+          "a": "Put out four plates."
+        },
+        {
+          "id": "g8u8q8",
+          "q": "Which machine washes our clothes?",
+          "a": "The washing machine does."
+        },
+        {
+          "id": "g8u8q9",
+          "q": "Must everyone do the same chore?",
+          "a": "No, we can share different jobs."
+        }
+      ],
+      "completions": [
+        {
+          "id": "g8u8h1",
+          "start": "I am responsible for…",
+          "end": "…washing the dinner plates.",
+          "wrongEndings": [
+            "g8u8h2",
+            "g8u8h5"
+          ]
+        },
+        {
+          "id": "g8u8h2",
+          "start": "My older brother…",
+          "end": "…takes out the rubbish at night.",
+          "wrongEndings": [
+            "g8u8h1",
+            "g8u8h4"
+          ]
+        },
+        {
+          "id": "g8u8h3",
+          "start": "Everyone must…",
+          "end": "…help with household chores.",
+          "wrongEndings": [
+            "g8u8h2",
+            "g8u8h5"
+          ]
+        },
+        {
+          "id": "g8u8h4",
+          "start": "The cleaning cloth is…",
+          "end": "…beside the kitchen sink.",
+          "wrongEndings": [
+            "g8u8h2",
+            "g8u8h5"
+          ]
+        },
+        {
+          "id": "g8u8h5",
+          "start": "The dishwasher…",
+          "end": "…cleans our plates and cups.",
+          "wrongEndings": [
+            "g8u8h1",
+            "g8u8h4"
+          ]
+        },
+        {
+          "id": "g8u8h6",
+          "start": "Please give…",
+          "end": "…me the laundry basket.",
+          "wrongEndings": [
+            "g8u8h2",
+            "g8u8h5"
+          ]
+        },
+        {
+          "id": "g8u8h7",
+          "start": "These clean towels are…",
+          "end": "…ready to fold.",
+          "wrongEndings": [
+            "g8u8h2",
+            "g8u8h5"
+          ]
+        },
+        {
+          "id": "g8u8h8",
+          "start": "I do not mind…",
+          "end": "…setting the table for dinner.",
+          "wrongEndings": [
+            "g8u8h2",
+            "g8u8h5"
+          ]
+        },
+        {
+          "id": "g8u8h9",
+          "start": "Our family wants…",
+          "end": "…to share the jobs fairly.",
+          "wrongEndings": [
+            "g8u8h2",
+            "g8u8h5"
+          ]
+        }
+      ],
+      "sentences": [
+        {
+          "id": "g8u8s1",
+          "blocks": [
+            "We",
+            "must share",
+            "household chores."
+          ],
+          "difficulty": 1,
+          "tr": "Ev işlerini paylaşmalıyız."
+        },
+        {
+          "id": "g8u8s2",
+          "blocks": [
+            "My brother",
+            "does",
+            "the laundry."
+          ],
+          "difficulty": 1,
+          "tr": "Erkek kardeşim çamaşırları yıkar."
+        },
+        {
+          "id": "g8u8s3",
+          "blocks": [
+            "I",
+            "am responsible for",
+            "the dishes."
+          ],
+          "difficulty": 1,
+          "tr": "Bulaşıklardan ben sorumluyum."
+        },
+        {
+          "id": "g8u8s4",
+          "blocks": [
+            "My father",
+            "gives",
+            "me",
+            "a clean cloth."
+          ],
+          "difficulty": 2,
+          "tr": "Babam bana temiz bir bez verir."
+        },
+        {
+          "id": "g8u8s5",
+          "blocks": [
+            "This",
+            "is",
+            "our family's",
+            "chore chart."
+          ],
+          "difficulty": 2,
+          "tr": "Bu ailemizin ev işi çizelgesi."
+        },
+        {
+          "id": "g8u8s6",
+          "blocks": [
+            "Our kitchen",
+            "has got",
+            "a new",
+            "dishwasher."
+          ],
+          "difficulty": 2,
+          "tr": "Mutfağımızda yeni bir bulaşık makinesi var."
+        },
+        {
+          "id": "g8u8s7",
+          "blocks": [
+            "My sister",
+            "shows",
+            "us",
+            "her chore list."
+          ],
+          "difficulty": 2,
+          "tr": "Kız kardeşim bize ev işi listesini gösterir."
+        },
+        {
+          "id": "g8u8s8",
+          "blocks": [
+            "These",
+            "are",
+            "the children's",
+            "clean towels."
+          ],
+          "difficulty": 2,
+          "tr": "Bunlar çocukların temiz havluları."
+        },
+        {
+          "id": "g8u8s9",
+          "blocks": [
+            "We",
+            "believe",
+            "shared chores",
+            "are",
+            "fair."
+          ],
+          "difficulty": 2,
+          "tr": "Ev işlerini paylaşmanın adil olduğuna inanıyoruz."
+        },
+        {
+          "id": "g8u8s10",
+          "blocks": [
+            "My mother",
+            "says",
+            "the kitchen",
+            "is",
+            "tidy."
+          ],
+          "difficulty": 2,
+          "tr": "Annem mutfağın düzenli olduğunu söylüyor."
+        }
+      ],
+      "translations": [
+        {
+          "id": "g8u8t1",
+          "en": "chore",
+          "tr": "ev işi"
+        },
+        {
+          "id": "g8u8t2",
+          "en": "household",
+          "tr": "ev halkı"
+        },
+        {
+          "id": "g8u8t3",
+          "en": "duty",
+          "tr": "görev"
+        },
+        {
+          "id": "g8u8t4",
+          "en": "laundry",
+          "tr": "çamaşır"
+        },
+        {
+          "id": "g8u8t5",
+          "en": "dishes",
+          "tr": "bulaşıklar"
+        },
+        {
+          "id": "g8u8t6",
+          "en": "recycling",
+          "tr": "geri dönüşüm"
+        },
+        {
+          "id": "g8u8t7",
+          "en": "rubbish",
+          "tr": "çöp"
+        },
+        {
+          "id": "g8u8t8",
+          "en": "room",
+          "tr": "oda"
+        },
+        {
+          "id": "g8u8t9",
+          "en": "kitchen",
+          "tr": "mutfak"
+        }
+      ]
+    },
+    {
+      "id": "g8u9",
+      "title": "Science",
+      "source": "meb",
+      "targetLanguage": [
+        "Experiments, tools and scientific achievements",
+        "Present continuous for experiments in progress",
+        "Past simple for completed investigations",
+        "Recording and comparing results"
+      ],
+      "categories": [
+        {
+          "id": "g8u9c1",
+          "title": "LAB EQUIPMENT",
+          "yes": [
+            "microscope",
+            "thermometer",
+            "test tube",
+            "beaker",
+            "scales",
+            "magnet",
+            "goggles",
+            "funnel",
+            "pipette",
+            "timer"
+          ],
+          "no": [
+            "flour",
+            "butter",
+            "oil",
+            "onion",
+            "garlic",
+            "salt",
+            "pepper",
+            "egg",
+            "milk",
+            "sugar"
+          ]
+        },
+        {
+          "id": "g8u9c2",
+          "title": "SCIENCE ACTIONS",
+          "yes": [
+            "measure",
+            "test",
+            "observe",
+            "compare",
+            "record",
+            "discover",
+            "invent",
+            "develop",
+            "research",
+            "calculate"
+          ],
+          "no": [
+            "microscope",
+            "thermometer",
+            "test tube",
+            "beaker",
+            "scales",
+            "magnet",
+            "goggles",
+            "funnel",
+            "pipette",
+            "timer"
+          ]
+        }
+      ],
+      "descriptions": [
+        {
+          "id": "g8u9d1",
+          "clue": "I make very small things look much larger.",
+          "options": [
+            "microscope",
+            "telescope",
+            "thermometer"
+          ],
+          "answer": "microscope"
+        },
+        {
+          "id": "g8u9d2",
+          "clue": "I measure how hot or cold something is.",
+          "options": [
+            "microscope",
+            "magnet",
+            "thermometer"
+          ],
+          "answer": "thermometer"
+        },
+        {
+          "id": "g8u9d3",
+          "clue": "We measure how heavy a sample is.",
+          "options": [
+            "timer",
+            "scales",
+            "funnel"
+          ],
+          "answer": "scales"
+        },
+        {
+          "id": "g8u9d4",
+          "clue": "I am a narrow glass container for small experiments.",
+          "options": [
+            "test tube",
+            "goggles",
+            "magnet"
+          ],
+          "answer": "test tube"
+        },
+        {
+          "id": "g8u9d5",
+          "clue": "I attract objects made of iron.",
+          "options": [
+            "beaker",
+            "pipette",
+            "magnet"
+          ],
+          "answer": "magnet"
+        },
+        {
+          "id": "g8u9d6",
+          "clue": "You wear me to protect your eyes during experiments.",
+          "options": [
+            "apron",
+            "goggles",
+            "gloves"
+          ],
+          "answer": "goggles"
+        }
+      ],
+      "pictures": [
+        {
+          "id": "g8u9p1",
+          "word": "microscope",
+          "drawing": "microscope with one eyepiece and a small stage"
+        },
+        {
+          "id": "g8u9p2",
+          "word": "thermometer",
+          "drawing": "laboratory thermometer with a red line"
+        },
+        {
+          "id": "g8u9p3",
+          "word": "test tube",
+          "drawing": "clear test tube in a small wooden holder"
+        },
+        {
+          "id": "g8u9p4",
+          "word": "beaker",
+          "drawing": "glass beaker with blue liquid and measurement lines"
+        },
+        {
+          "id": "g8u9p5",
+          "word": "scales",
+          "drawing": "digital scales with a small sample on top"
+        },
+        {
+          "id": "g8u9p6",
+          "word": "magnet",
+          "drawing": "red horseshoe magnet with silver ends"
+        },
+        {
+          "id": "g8u9p7",
+          "word": "goggles",
+          "drawing": "clear safety goggles with a blue strap"
+        },
+        {
+          "id": "g8u9p8",
+          "word": "light bulb",
+          "drawing": "glass light bulb with a visible metal filament"
+        },
+        {
+          "id": "g8u9p9",
+          "word": "solar cell",
+          "drawing": "small blue solar cell connected to two wires"
+        }
+      ],
+      "questions": [
+        {
+          "id": "g8u9q1",
+          "q": "What did Aziz Sancar study?",
+          "a": "He studied how cells repair DNA."
+        },
+        {
+          "id": "g8u9q2",
+          "q": "Who is Canan Dağdeviren?",
+          "a": "She is a scientist and engineer."
+        },
+        {
+          "id": "g8u9q3",
+          "q": "Why do scientists repeat experiments?",
+          "a": "To check the results again."
+        },
+        {
+          "id": "g8u9q4",
+          "q": "Where are you testing the water?",
+          "a": "In the school laboratory."
+        },
+        {
+          "id": "g8u9q5",
+          "q": "When is the school science fair?",
+          "a": "Next Thursday afternoon."
+        },
+        {
+          "id": "g8u9q6",
+          "q": "How many samples did you test?",
+          "a": "We tested four water samples."
+        },
+        {
+          "id": "g8u9q7",
+          "q": "Which tool measures temperature?",
+          "a": "A thermometer does."
+        },
+        {
+          "id": "g8u9q8",
+          "q": "How did you record the results?",
+          "a": "We put the numbers in a table."
+        },
+        {
+          "id": "g8u9q9",
+          "q": "Must pupils wear safety goggles?",
+          "a": "Yes, to protect their eyes."
+        }
+      ],
+      "completions": [
+        {
+          "id": "g8u9h1",
+          "start": "We used…",
+          "end": "…a microscope to observe cells.",
+          "wrongEndings": [
+            "g8u9h2",
+            "g8u9h5"
+          ]
+        },
+        {
+          "id": "g8u9h2",
+          "start": "Our science experiment…",
+          "end": "…showed a clear result.",
+          "wrongEndings": [
+            "g8u9h1",
+            "g8u9h4"
+          ]
+        },
+        {
+          "id": "g8u9h3",
+          "start": "You must…",
+          "end": "…follow the laboratory rules.",
+          "wrongEndings": [
+            "g8u9h2",
+            "g8u9h5"
+          ]
+        },
+        {
+          "id": "g8u9h4",
+          "start": "The glass beaker is…",
+          "end": "…on the laboratory bench.",
+          "wrongEndings": [
+            "g8u9h2",
+            "g8u9h5"
+          ]
+        },
+        {
+          "id": "g8u9h5",
+          "start": "This young researcher…",
+          "end": "…studies new medical devices.",
+          "wrongEndings": [
+            "g8u9h1",
+            "g8u9h4"
+          ]
+        },
+        {
+          "id": "g8u9h6",
+          "start": "Please show…",
+          "end": "…me your table of results.",
+          "wrongEndings": [
+            "g8u9h2",
+            "g8u9h5"
+          ]
+        },
+        {
+          "id": "g8u9h7",
+          "start": "These water samples are…",
+          "end": "…ready for the next test.",
+          "wrongEndings": [
+            "g8u9h2",
+            "g8u9h5"
+          ]
+        },
+        {
+          "id": "g8u9h8",
+          "start": "I enjoy…",
+          "end": "…learning about new discoveries.",
+          "wrongEndings": [
+            "g8u9h2",
+            "g8u9h5"
+          ]
+        },
+        {
+          "id": "g8u9h9",
+          "start": "The scientist wanted…",
+          "end": "…to compare the two materials.",
+          "wrongEndings": [
+            "g8u9h2",
+            "g8u9h5"
+          ]
+        }
+      ],
+      "sentences": [
+        {
+          "id": "g8u9s1",
+          "blocks": [
+            "We",
+            "test",
+            "new ideas."
+          ],
+          "difficulty": 1,
+          "tr": "Yeni fikirleri sınarız."
+        },
+        {
+          "id": "g8u9s2",
+          "blocks": [
+            "We",
+            "are observing",
+            "a water sample."
+          ],
+          "difficulty": 1,
+          "tr": "Bir su örneğini gözlemliyoruz."
+        },
+        {
+          "id": "g8u9s3",
+          "blocks": [
+            "The magnet",
+            "has got",
+            "two poles."
+          ],
+          "difficulty": 1,
+          "tr": "Mıknatısın iki kutbu var."
+        },
+        {
+          "id": "g8u9s4",
+          "blocks": [
+            "Our teacher",
+            "gives",
+            "us",
+            "safety goggles."
+          ],
+          "difficulty": 2,
+          "tr": "Öğretmenimiz bize koruyucu gözlük verir."
+        },
+        {
+          "id": "g8u9s5",
+          "blocks": [
+            "This",
+            "is",
+            "a useful",
+            "scientific tool."
+          ],
+          "difficulty": 2,
+          "tr": "Bu faydalı bir bilimsel araç."
+        },
+        {
+          "id": "g8u9s6",
+          "blocks": [
+            "The researcher",
+            "shows",
+            "me",
+            "a data table."
+          ],
+          "difficulty": 2,
+          "tr": "Araştırmacı bana bir veri tablosu gösterir."
+        },
+        {
+          "id": "g8u9s7",
+          "blocks": [
+            "Our laboratory",
+            "has got",
+            "a new",
+            "microscope."
+          ],
+          "difficulty": 2,
+          "tr": "Laboratuvarımızda yeni bir mikroskop var."
+        },
+        {
+          "id": "g8u9s8",
+          "blocks": [
+            "These",
+            "are",
+            "our experiment's",
+            "results."
+          ],
+          "difficulty": 2,
+          "tr": "Bunlar deneyimizin sonuçları."
+        },
+        {
+          "id": "g8u9s9",
+          "blocks": [
+            "We",
+            "know",
+            "good evidence",
+            "is",
+            "important."
+          ],
+          "difficulty": 2,
+          "tr": "Güçlü kanıtların önemli olduğunu biliyoruz."
+        },
+        {
+          "id": "g8u9s10",
+          "blocks": [
+            "Our teacher",
+            "says",
+            "the results",
+            "are",
+            "reliable."
+          ],
+          "difficulty": 2,
+          "tr": "Öğretmenimiz sonuçların güvenilir olduğunu söylüyor."
+        }
+      ],
+      "translations": [
+        {
+          "id": "g8u9t1",
+          "en": "science",
+          "tr": "bilim"
+        },
+        {
+          "id": "g8u9t2",
+          "en": "scientist",
+          "tr": "bilim insanı"
+        },
+        {
+          "id": "g8u9t3",
+          "en": "research",
+          "tr": "araştırma"
+        },
+        {
+          "id": "g8u9t4",
+          "en": "experiment",
+          "tr": "deney"
+        },
+        {
+          "id": "g8u9t5",
+          "en": "observation",
+          "tr": "gözlem"
+        },
+        {
+          "id": "g8u9t6",
+          "en": "laboratory",
+          "tr": "laboratuvar"
+        },
+        {
+          "id": "g8u9t7",
+          "en": "question",
+          "tr": "soru"
+        },
+        {
+          "id": "g8u9t8",
+          "en": "method",
+          "tr": "yöntem"
+        },
+        {
+          "id": "g8u9t9",
+          "en": "theory",
+          "tr": "kuram"
+        }
+      ]
+    },
+    {
+      "id": "g8u10",
+      "title": "Natural Forces",
+      "source": "meb",
+      "targetLanguage": [
+        "Natural events, disasters and preparedness",
+        "Predictions: will/may",
+        "Simple consequences with if",
+        "School safety plans and weather warnings"
+      ],
+      "categories": [
+        {
+          "id": "g8u10c1",
+          "title": "DISASTER WORDS",
+          "yes": [
+            "earthquake",
+            "flood",
+            "drought",
+            "tornado",
+            "storm",
+            "landslide",
+            "tsunami",
+            "eruption",
+            "avalanche",
+            "heatwave"
+          ],
+          "no": [
+            "guitar",
+            "drum",
+            "piano",
+            "violin",
+            "flute",
+            "speaker",
+            "headphones",
+            "microphone",
+            "keyboard",
+            "trumpet"
+          ]
+        },
+        {
+          "id": "g8u10c2",
+          "title": "WEATHER WORDS",
+          "yes": [
+            "rain",
+            "wind",
+            "snow",
+            "hail",
+            "fog",
+            "thunder",
+            "lightning",
+            "cloud",
+            "storm",
+            "temperature"
+          ],
+          "no": [
+            "whisk",
+            "grater",
+            "saucepan",
+            "colander",
+            "rolling pin",
+            "apron",
+            "knife",
+            "bowl",
+            "peeler",
+            "spoon"
+          ]
+        }
+      ],
+      "descriptions": [
+        {
+          "id": "g8u10d1",
+          "clue": "I make the ground shake suddenly.",
+          "options": [
+            "flood",
+            "drought",
+            "earthquake"
+          ],
+          "answer": "earthquake"
+        },
+        {
+          "id": "g8u10d2",
+          "clue": "I cover land with too much water.",
+          "options": [
+            "earthquake",
+            "flood",
+            "tornado"
+          ],
+          "answer": "flood"
+        },
+        {
+          "id": "g8u10d3",
+          "clue": "I happen when a place has very little rain for a long time.",
+          "options": [
+            "drought",
+            "avalanche",
+            "storm"
+          ],
+          "answer": "drought"
+        },
+        {
+          "id": "g8u10d4",
+          "clue": "I am a fast-spinning column of air reaching the ground.",
+          "options": [
+            "landslide",
+            "drought",
+            "tornado"
+          ],
+          "answer": "tornado"
+        },
+        {
+          "id": "g8u10d5",
+          "clue": "I am a mountain that can send out hot rock.",
+          "options": [
+            "island",
+            "volcano",
+            "valley"
+          ],
+          "answer": "volcano"
+        },
+        {
+          "id": "g8u10d6",
+          "clue": "I happen when earth and rocks slide down a slope.",
+          "options": [
+            "landslide",
+            "flood",
+            "drought"
+          ],
+          "answer": "landslide"
+        }
+      ],
+      "pictures": [
+        {
+          "id": "g8u10p1",
+          "word": "volcano",
+          "drawing": "volcano releasing a small cloud above its crater"
+        },
+        {
+          "id": "g8u10p2",
+          "word": "tornado",
+          "drawing": "grey funnel-shaped tornado above flat land"
+        },
+        {
+          "id": "g8u10p3",
+          "word": "flood",
+          "drawing": "water covering a road beside a small house"
+        },
+        {
+          "id": "g8u10p4",
+          "word": "landslide",
+          "drawing": "earth and rocks sliding down a bare hillside"
+        },
+        {
+          "id": "g8u10p5",
+          "word": "storm",
+          "drawing": "dark storm cloud with rain and a lightning bolt"
+        },
+        {
+          "id": "g8u10p6",
+          "word": "rain cloud",
+          "drawing": "grey cloud with several blue raindrops"
+        },
+        {
+          "id": "g8u10p7",
+          "word": "supply kit",
+          "drawing": "open supply bag with a torch and water"
+        },
+        {
+          "id": "g8u10p8",
+          "word": "blanket",
+          "drawing": "folded warm orange blanket"
+        },
+        {
+          "id": "g8u10p9",
+          "word": "water bottle",
+          "drawing": "sealed clear bottle filled with drinking water"
+        }
+      ],
+      "questions": [
+        {
+          "id": "g8u10q1",
+          "q": "What can happen after very heavy rain?",
+          "a": "A river may flood."
+        },
+        {
+          "id": "g8u10q2",
+          "q": "Why should we prepare an emergency kit?",
+          "a": "To have useful supplies ready."
+        },
+        {
+          "id": "g8u10q3",
+          "q": "Where should we keep the safety plan?",
+          "a": "In a place everyone can find."
+        },
+        {
+          "id": "g8u10q4",
+          "q": "Who explains the school safety rules?",
+          "a": "Our teachers explain them."
+        },
+        {
+          "id": "g8u10q5",
+          "q": "When will you practise the safety drill?",
+          "a": "Next Monday morning."
+        },
+        {
+          "id": "g8u10q6",
+          "q": "How many water bottles are in the kit?",
+          "a": "There are six bottles."
+        },
+        {
+          "id": "g8u10q7",
+          "q": "Which natural event makes ground shake?",
+          "a": "An earthquake does."
+        },
+        {
+          "id": "g8u10q8",
+          "q": "How can we check tomorrow's weather?",
+          "a": "We can check the forecast."
+        },
+        {
+          "id": "g8u10q9",
+          "q": "Will a long drought help plants grow?",
+          "a": "No, plants need enough water."
+        }
+      ],
+      "completions": [
+        {
+          "id": "g8u10h1",
+          "start": "An emergency kit contains…",
+          "end": "…clean water and a torch.",
+          "wrongEndings": [
+            "g8u10h2",
+            "g8u10h5"
+          ]
+        },
+        {
+          "id": "g8u10h2",
+          "start": "This loud signal…",
+          "end": "…is a weather warning.",
+          "wrongEndings": [
+            "g8u10h1",
+            "g8u10h4"
+          ]
+        },
+        {
+          "id": "g8u10h3",
+          "start": "We should…",
+          "end": "…follow our school safety plan.",
+          "wrongEndings": [
+            "g8u10h2",
+            "g8u10h5"
+          ]
+        },
+        {
+          "id": "g8u10h4",
+          "start": "The emergency supplies are…",
+          "end": "…in the clearly marked box.",
+          "wrongEndings": [
+            "g8u10h2",
+            "g8u10h5"
+          ]
+        },
+        {
+          "id": "g8u10h5",
+          "start": "A long drought…",
+          "end": "…leaves very little water.",
+          "wrongEndings": [
+            "g8u10h1",
+            "g8u10h4"
+          ]
+        },
+        {
+          "id": "g8u10h6",
+          "start": "Please show…",
+          "end": "…me the school safety plan.",
+          "wrongEndings": [
+            "g8u10h2",
+            "g8u10h5"
+          ]
+        },
+        {
+          "id": "g8u10h7",
+          "start": "These water bottles are…",
+          "end": "…part of our emergency supplies.",
+          "wrongEndings": [
+            "g8u10h2",
+            "g8u10h5"
+          ]
+        },
+        {
+          "id": "g8u10h8",
+          "start": "If the rain continues,…",
+          "end": "…the river may flood.",
+          "wrongEndings": [
+            "g8u10h2",
+            "g8u10h5"
+          ]
+        },
+        {
+          "id": "g8u10h9",
+          "start": "We need…",
+          "end": "…to practise the safety drill.",
+          "wrongEndings": [
+            "g8u10h2",
+            "g8u10h5"
+          ]
+        }
+      ],
+      "sentences": [
+        {
+          "id": "g8u10s1",
+          "blocks": [
+            "We",
+            "may need",
+            "extra supplies."
+          ],
+          "difficulty": 1,
+          "tr": "Fazladan malzemeye ihtiyacımız olabilir."
+        },
+        {
+          "id": "g8u10s2",
+          "blocks": [
+            "This kit",
+            "contains",
+            "useful supplies."
+          ],
+          "difficulty": 1,
+          "tr": "Bu çantada işe yarayan malzemeler var."
+        },
+        {
+          "id": "g8u10s3",
+          "blocks": [
+            "Everyone",
+            "must follow",
+            "the safety plan."
+          ],
+          "difficulty": 1,
+          "tr": "Herkes güvenlik planına uymalı."
+        },
+        {
+          "id": "g8u10s4",
+          "blocks": [
+            "The teacher",
+            "gives",
+            "us",
+            "a clear warning."
+          ],
+          "difficulty": 2,
+          "tr": "Öğretmen bize açık bir uyarı verir."
+        },
+        {
+          "id": "g8u10s5",
+          "blocks": [
+            "This",
+            "is",
+            "our school's",
+            "safety plan."
+          ],
+          "difficulty": 2,
+          "tr": "Bu okulumuzun güvenlik planı."
+        },
+        {
+          "id": "g8u10s6",
+          "blocks": [
+            "Our classroom",
+            "has got",
+            "a small",
+            "emergency kit."
+          ],
+          "difficulty": 2,
+          "tr": "Sınıfımızda küçük bir acil durum çantası var."
+        },
+        {
+          "id": "g8u10s7",
+          "blocks": [
+            "The guide",
+            "shows",
+            "me",
+            "the safe exit."
+          ],
+          "difficulty": 2,
+          "tr": "Rehber bana güvenli çıkışı gösterir."
+        },
+        {
+          "id": "g8u10s8",
+          "blocks": [
+            "These",
+            "are",
+            "the team’s",
+            "safety supplies."
+          ],
+          "difficulty": 2,
+          "tr": "Bunlar ekibin güvenlik malzemeleri."
+        },
+        {
+          "id": "g8u10s9",
+          "blocks": [
+            "We",
+            "know",
+            "clean water",
+            "is",
+            "essential."
+          ],
+          "difficulty": 2,
+          "tr": "Temiz suyun hayati olduğunu biliyoruz."
+        },
+        {
+          "id": "g8u10s10",
+          "blocks": [
+            "Our teachers",
+            "say",
+            "the safety plan",
+            "is",
+            "clear."
+          ],
+          "difficulty": 2,
+          "tr": "Öğretmenlerimiz güvenlik planının açık olduğunu söylüyor."
+        }
+      ],
+      "translations": [
+        {
+          "id": "g8u10t1",
+          "en": "earthquake",
+          "tr": "deprem"
+        },
+        {
+          "id": "g8u10t2",
+          "en": "drought",
+          "tr": "kuraklık"
+        },
+        {
+          "id": "g8u10t3",
+          "en": "tsunami",
+          "tr": "tsunami"
+        },
+        {
+          "id": "g8u10t4",
+          "en": "wildfire",
+          "tr": "orman yangını"
+        },
+        {
+          "id": "g8u10t5",
+          "en": "rain",
+          "tr": "yağmur"
+        },
+        {
+          "id": "g8u10t6",
+          "en": "wind",
+          "tr": "rüzgâr"
+        },
+        {
+          "id": "g8u10t7",
+          "en": "lightning",
+          "tr": "şimşek"
+        },
+        {
+          "id": "g8u10t8",
+          "en": "thunder",
+          "tr": "gök gürültüsü"
+        },
+        {
+          "id": "g8u10t9",
+          "en": "wave",
+          "tr": "dalga"
+        }
+      ]
+    },
+    {
+      "id": "g8u11",
+      "title": "School Clubs and Learning",
+      "source": "general",
+      "targetLanguage": [
+        "School clubs, subjects and study tools",
+        "Explaining a learning purpose",
+        "Polite requests and project work",
+        "Checking meanings and giving simple feedback"
+      ],
+      "categories": [
+        {
+          "id": "g8u11c1",
+          "title": "SCHOOL CLUBS",
+          "yes": [
+            "art club",
+            "music club",
+            "chess club",
+            "science club",
+            "drama club",
+            "sports club",
+            "book club",
+            "robotics club",
+            "dance club",
+            "film club"
+          ],
+          "no": [
+            "bakery",
+            "harbour",
+            "hospital",
+            "station",
+            "airport",
+            "pharmacy",
+            "museum",
+            "hotel",
+            "garage",
+            "bank"
+          ]
+        },
+        {
+          "id": "g8u11c2",
+          "title": "LEARNING TOOLS",
+          "yes": [
+            "dictionary",
+            "ruler",
+            "eraser",
+            "notebook",
+            "stapler",
+            "calculator",
+            "protractor",
+            "folder",
+            "flashcard",
+            "highlighter"
+          ],
+          "no": [
+            "river",
+            "mountain",
+            "forest",
+            "beach",
+            "valley",
+            "cave",
+            "waterfall",
+            "desert",
+            "lake",
+            "island"
+          ]
+        }
+      ],
+      "descriptions": [
+        {
+          "id": "g8u11d1",
+          "clue": "I deal with numbers, shapes and calculations.",
+          "options": [
+            "geography",
+            "maths",
+            "history"
+          ],
+          "answer": "maths"
+        },
+        {
+          "id": "g8u11d2",
+          "clue": "I help you learn about places and maps.",
+          "options": [
+            "geography",
+            "music",
+            "maths"
+          ],
+          "answer": "geography"
+        },
+        {
+          "id": "g8u11d3",
+          "clue": "I help you learn about people and events in the past.",
+          "options": [
+            "science",
+            "art",
+            "history"
+          ],
+          "answer": "history"
+        },
+        {
+          "id": "g8u11d4",
+          "clue": "I involve singing and playing instruments.",
+          "options": [
+            "history",
+            "music",
+            "maths"
+          ],
+          "answer": "music"
+        },
+        {
+          "id": "g8u11d5",
+          "clue": "I involve drawing and painting.",
+          "options": [
+            "art",
+            "geography",
+            "science"
+          ],
+          "answer": "art"
+        },
+        {
+          "id": "g8u11d6",
+          "clue": "I involve experiments about the natural world.",
+          "options": [
+            "music",
+            "history",
+            "science"
+          ],
+          "answer": "science"
+        }
+      ],
+      "pictures": [
+        {
+          "id": "g8u11p1",
+          "word": "dictionary",
+          "drawing": "thick dictionary with coloured alphabet tabs"
+        },
+        {
+          "id": "g8u11p2",
+          "word": "folder",
+          "drawing": "blue folder containing three worksheets"
+        },
+        {
+          "id": "g8u11p3",
+          "word": "ruler",
+          "drawing": "clear ruler with black measurement marks"
+        },
+        {
+          "id": "g8u11p4",
+          "word": "eraser",
+          "drawing": "white eraser beside a small pencil mark"
+        },
+        {
+          "id": "g8u11p5",
+          "word": "notebook",
+          "drawing": "open notebook with neatly written study notes"
+        },
+        {
+          "id": "g8u11p6",
+          "word": "stapler",
+          "drawing": "small red stapler beside two paper sheets"
+        },
+        {
+          "id": "g8u11p7",
+          "word": "schoolbag",
+          "drawing": "blue schoolbag with two shoulder straps"
+        },
+        {
+          "id": "g8u11p8",
+          "word": "calculator",
+          "drawing": "calculator showing a simple addition sum"
+        },
+        {
+          "id": "g8u11p9",
+          "word": "protractor",
+          "drawing": "clear semicircular protractor with angle markings"
+        }
+      ],
+      "questions": [
+        {
+          "id": "g8u11q1",
+          "q": "Why did you join the robotics club?",
+          "a": "To learn how to build robots."
+        },
+        {
+          "id": "g8u11q2",
+          "q": "When does the chess club meet?",
+          "a": "On Thursdays after school."
+        },
+        {
+          "id": "g8u11q3",
+          "q": "Where will you present your project?",
+          "a": "In the school conference hall."
+        },
+        {
+          "id": "g8u11q4",
+          "q": "Who helps your project group?",
+          "a": "Our group leader helps us."
+        },
+        {
+          "id": "g8u11q5",
+          "q": "How many members has the art club got?",
+          "a": "There are twelve members."
+        },
+        {
+          "id": "g8u11q6",
+          "q": "Which subject deals with numbers?",
+          "a": "Maths does."
+        },
+        {
+          "id": "g8u11q7",
+          "q": "What do you need to measure an angle?",
+          "a": "I need a protractor."
+        },
+        {
+          "id": "g8u11q8",
+          "q": "How do you check a new word's meaning?",
+          "a": "I look it up in a dictionary."
+        },
+        {
+          "id": "g8u11q9",
+          "q": "Can I borrow your dictionary?",
+          "a": "Yes, but please return it."
+        }
+      ],
+      "completions": [
+        {
+          "id": "g8u11h1",
+          "start": "Our group needs…",
+          "end": "…a clear plan for the project.",
+          "wrongEndings": [
+            "g8u11h2",
+            "g8u11h5"
+          ]
+        },
+        {
+          "id": "g8u11h2",
+          "start": "The robotics club…",
+          "end": "…meets every Thursday.",
+          "wrongEndings": [
+            "g8u11h1",
+            "g8u11h4"
+          ]
+        },
+        {
+          "id": "g8u11h3",
+          "start": "We would like to…",
+          "end": "…improve our speaking skills.",
+          "wrongEndings": [
+            "g8u11h2",
+            "g8u11h5"
+          ]
+        },
+        {
+          "id": "g8u11h4",
+          "start": "The project folder is…",
+          "end": "…in the classroom cupboard.",
+          "wrongEndings": [
+            "g8u11h2",
+            "g8u11h5"
+          ]
+        },
+        {
+          "id": "g8u11h5",
+          "start": "Our school dictionary…",
+          "end": "…includes useful examples.",
+          "wrongEndings": [
+            "g8u11h1",
+            "g8u11h4"
+          ]
+        },
+        {
+          "id": "g8u11h6",
+          "start": "Please give…",
+          "end": "…me feedback on my work.",
+          "wrongEndings": [
+            "g8u11h2",
+            "g8u11h5"
+          ]
+        },
+        {
+          "id": "g8u11h7",
+          "start": "These flashcards are…",
+          "end": "…useful for vocabulary practice.",
+          "wrongEndings": [
+            "g8u11h2",
+            "g8u11h5"
+          ]
+        },
+        {
+          "id": "g8u11h8",
+          "start": "I enjoy…",
+          "end": "…working on group projects.",
+          "wrongEndings": [
+            "g8u11h2",
+            "g8u11h5"
+          ]
+        },
+        {
+          "id": "g8u11h9",
+          "start": "We should…",
+          "end": "…check the deadline carefully.",
+          "wrongEndings": [
+            "g8u11h2",
+            "g8u11h5"
+          ]
+        }
+      ],
+      "sentences": [
+        {
+          "id": "g8u11s1",
+          "blocks": [
+            "I",
+            "would like to join",
+            "the robotics club."
+          ],
+          "difficulty": 1,
+          "tr": "Robotik kulübüne katılmak istiyorum."
+        },
+        {
+          "id": "g8u11s2",
+          "blocks": [
+            "We",
+            "need",
+            "clear feedback."
+          ],
+          "difficulty": 1,
+          "tr": "Açık geri bildirime ihtiyacımız var."
+        },
+        {
+          "id": "g8u11s3",
+          "blocks": [
+            "Our project",
+            "includes",
+            "a short video."
+          ],
+          "difficulty": 1,
+          "tr": "Projemizde kısa bir video var."
+        },
+        {
+          "id": "g8u11s4",
+          "blocks": [
+            "Our teacher",
+            "gives",
+            "us",
+            "project feedback."
+          ],
+          "difficulty": 2,
+          "tr": "Öğretmenimiz bize proje hakkında geri bildirim verir."
+        },
+        {
+          "id": "g8u11s5",
+          "blocks": [
+            "This",
+            "is",
+            "a useful",
+            "learning tool."
+          ],
+          "difficulty": 2,
+          "tr": "Bu faydalı bir öğrenme aracı."
+        },
+        {
+          "id": "g8u11s6",
+          "blocks": [
+            "My group",
+            "has got",
+            "a clear",
+            "project plan."
+          ],
+          "difficulty": 2,
+          "tr": "Grubumun açık bir proje planı var."
+        },
+        {
+          "id": "g8u11s7",
+          "blocks": [
+            "The librarian",
+            "shows",
+            "me",
+            "a new dictionary."
+          ],
+          "difficulty": 2,
+          "tr": "Kütüphaneci bana yeni bir sözlük gösterir."
+        },
+        {
+          "id": "g8u11s8",
+          "blocks": [
+            "These",
+            "are",
+            "our group's",
+            "worksheets."
+          ],
+          "difficulty": 2,
+          "tr": "Bunlar grubumuzun çalışma kâğıtları."
+        },
+        {
+          "id": "g8u11s9",
+          "blocks": [
+            "We",
+            "think",
+            "group projects",
+            "are",
+            "valuable."
+          ],
+          "difficulty": 2,
+          "tr": "Bizce grup projeleri değerlidir."
+        },
+        {
+          "id": "g8u11s10",
+          "blocks": [
+            "The librarian",
+            "says",
+            "this dictionary",
+            "is",
+            "helpful."
+          ],
+          "difficulty": 2,
+          "tr": "Kütüphaneci bu sözlüğün faydalı olduğunu söylüyor."
+        }
+      ],
+      "translations": [
+        {
+          "id": "g8u11t1",
+          "en": "protractor",
+          "tr": "açıölçer"
+        },
+        {
+          "id": "g8u11t2",
+          "en": "feedback",
+          "tr": "geri bildirim"
+        },
+        {
+          "id": "g8u11t3",
+          "en": "revise",
+          "tr": "tekrar yapmak"
+        },
+        {
+          "id": "g8u11t4",
+          "en": "deadline",
+          "tr": "son teslim tarihi"
+        },
+        {
+          "id": "g8u11t5",
+          "en": "assignment",
+          "tr": "ödev"
+        },
+        {
+          "id": "g8u11t6",
+          "en": "group work",
+          "tr": "grup çalışması"
+        },
+        {
+          "id": "g8u11t7",
+          "en": "project",
+          "tr": "proje"
+        },
+        {
+          "id": "g8u11t8",
+          "en": "flashcard",
+          "tr": "kelime kartı"
+        },
+        {
+          "id": "g8u11t9",
+          "en": "worksheet",
+          "tr": "çalışma kâğıdı"
+        }
+      ]
+    },
+    {
+      "id": "g8u12",
+      "title": "Health and Well-being",
+      "source": "general",
+      "targetLanguage": [
+        "Everyday health needs and balanced routines",
+        "Simple advice with should/should not",
+        "Asking for help and explaining a problem",
+        "Rest, hygiene and study breaks"
+      ],
+      "categories": [
+        {
+          "id": "g8u12c1",
+          "title": "HEALTHY HABITS",
+          "yes": [
+            "sleep well",
+            "drink water",
+            "wash hands",
+            "brush teeth",
+            "take breaks",
+            "exercise",
+            "stretch",
+            "rest",
+            "walk",
+            "use soap"
+          ],
+          "no": [
+            "whisk",
+            "grater",
+            "saucepan",
+            "colander",
+            "rolling pin",
+            "apron",
+            "knife",
+            "bowl",
+            "peeler",
+            "spoon"
+          ]
+        },
+        {
+          "id": "g8u12c2",
+          "title": "HEALTH PROBLEMS",
+          "yes": [
+            "headache",
+            "toothache",
+            "earache",
+            "cough",
+            "fever",
+            "sore throat",
+            "stomach ache",
+            "runny nose",
+            "rash",
+            "backache"
+          ],
+          "no": [
+            "balloon",
+            "candle",
+            "present",
+            "invitation",
+            "napkin",
+            "bunting",
+            "ribbon",
+            "party hat",
+            "confetti",
+            "banner"
+          ]
+        }
+      ],
+      "descriptions": [
+        {
+          "id": "g8u12d1",
+          "clue": "My head hurts.",
+          "options": [
+            "headache",
+            "toothache",
+            "earache"
+          ],
+          "answer": "headache"
+        },
+        {
+          "id": "g8u12d2",
+          "clue": "My throat hurts when I swallow.",
+          "options": [
+            "backache",
+            "toothache",
+            "sore throat"
+          ],
+          "answer": "sore throat"
+        },
+        {
+          "id": "g8u12d3",
+          "clue": "I keep blowing my nose.",
+          "options": [
+            "rash",
+            "runny nose",
+            "earache"
+          ],
+          "answer": "runny nose"
+        },
+        {
+          "id": "g8u12d4",
+          "clue": "My tooth hurts when I eat.",
+          "options": [
+            "toothache",
+            "headache",
+            "cough"
+          ],
+          "answer": "toothache"
+        },
+        {
+          "id": "g8u12d5",
+          "clue": "I have small red marks on my skin.",
+          "options": [
+            "cough",
+            "earache",
+            "rash"
+          ],
+          "answer": "rash"
+        },
+        {
+          "id": "g8u12d6",
+          "clue": "My body temperature is higher than usual.",
+          "options": [
+            "headache",
+            "fever",
+            "backache"
+          ],
+          "answer": "fever"
+        }
+      ],
+      "pictures": [
+        {
+          "id": "g8u12p1",
+          "word": "bandage",
+          "drawing": "roll of white bandage with a loose end"
+        },
+        {
+          "id": "g8u12p2",
+          "word": "plaster",
+          "drawing": "small plaster with a clean white centre"
+        },
+        {
+          "id": "g8u12p3",
+          "word": "soap",
+          "drawing": "green bar of soap beside a few bubbles"
+        },
+        {
+          "id": "g8u12p4",
+          "word": "tissues",
+          "drawing": "box of tissues with one tissue sticking out"
+        },
+        {
+          "id": "g8u12p5",
+          "word": "sports shoes",
+          "drawing": "pair of comfortable blue sports shoes"
+        },
+        {
+          "id": "g8u12p6",
+          "word": "fruit bowl",
+          "drawing": "bowl holding an apple, a banana and an orange"
+        },
+        {
+          "id": "g8u12p7",
+          "word": "sleep mask",
+          "drawing": "soft blue sleep mask with an elastic strap"
+        },
+        {
+          "id": "g8u12p8",
+          "word": "water glass",
+          "drawing": "clear glass filled with drinking water"
+        },
+        {
+          "id": "g8u12p9",
+          "word": "toothbrush",
+          "drawing": "green toothbrush with short white bristles"
+        }
+      ],
+      "questions": [
+        {
+          "id": "g8u12q1",
+          "q": "How do you feel after enough sleep?",
+          "a": "I feel rested and ready."
+        },
+        {
+          "id": "g8u12q2",
+          "q": "What should you do if a tooth hurts?",
+          "a": "Tell an adult and see a dentist."
+        },
+        {
+          "id": "g8u12q3",
+          "q": "Who leads the school fitness club?",
+          "a": "Our PE teacher leads it."
+        },
+        {
+          "id": "g8u12q4",
+          "q": "When do you take a short study break?",
+          "a": "After a period of focused work."
+        },
+        {
+          "id": "g8u12q5",
+          "q": "Why is a balanced routine important?",
+          "a": "It gives time for work and rest."
+        },
+        {
+          "id": "g8u12q6",
+          "q": "Where do you keep your toothbrush?",
+          "a": "In a clean bathroom holder."
+        },
+        {
+          "id": "g8u12q7",
+          "q": "How many glasses are on the tray?",
+          "a": "There are four empty glasses."
+        },
+        {
+          "id": "g8u12q8",
+          "q": "Which item can cover a small cut?",
+          "a": "A clean plaster can cover it."
+        },
+        {
+          "id": "g8u12q9",
+          "q": "Can you ask for help when worried?",
+          "a": "Yes, I can speak to an adult."
+        }
+      ],
+      "completions": [
+        {
+          "id": "g8u12h1",
+          "start": "I have got…",
+          "end": "…a sore throat and a cough.",
+          "wrongEndings": [
+            "g8u12h2",
+            "g8u12h5"
+          ]
+        },
+        {
+          "id": "g8u12h2",
+          "start": "A balanced routine…",
+          "end": "…gives us time to rest.",
+          "wrongEndings": [
+            "g8u12h1",
+            "g8u12h4"
+          ]
+        },
+        {
+          "id": "g8u12h3",
+          "start": "You should…",
+          "end": "…tell an adult if you feel ill.",
+          "wrongEndings": [
+            "g8u12h2",
+            "g8u12h5"
+          ]
+        },
+        {
+          "id": "g8u12h4",
+          "start": "The clean bandages are…",
+          "end": "…inside the first-aid box.",
+          "wrongEndings": [
+            "g8u12h2",
+            "g8u12h5"
+          ]
+        },
+        {
+          "id": "g8u12h5",
+          "start": "My younger cousin…",
+          "end": "…needs a quiet place to rest.",
+          "wrongEndings": [
+            "g8u12h1",
+            "g8u12h4"
+          ]
+        },
+        {
+          "id": "g8u12h6",
+          "start": "Please bring…",
+          "end": "…me a glass of water.",
+          "wrongEndings": [
+            "g8u12h2",
+            "g8u12h5"
+          ]
+        },
+        {
+          "id": "g8u12h7",
+          "start": "These sports shoes are…",
+          "end": "…comfortable for a short walk.",
+          "wrongEndings": [
+            "g8u12h2",
+            "g8u12h5"
+          ]
+        },
+        {
+          "id": "g8u12h8",
+          "start": "I enjoy…",
+          "end": "…taking a break in the garden.",
+          "wrongEndings": [
+            "g8u12h2",
+            "g8u12h5"
+          ]
+        },
+        {
+          "id": "g8u12h9",
+          "start": "We must…",
+          "end": "…wash our hands before meals.",
+          "wrongEndings": [
+            "g8u12h2",
+            "g8u12h5"
+          ]
+        }
+      ],
+      "sentences": [
+        {
+          "id": "g8u12s1",
+          "blocks": [
+            "We",
+            "need",
+            "enough rest."
+          ],
+          "difficulty": 1,
+          "tr": "Yeterince dinlenmeye ihtiyacımız var."
+        },
+        {
+          "id": "g8u12s2",
+          "blocks": [
+            "My cousin",
+            "has got",
+            "a sore throat."
+          ],
+          "difficulty": 1,
+          "tr": "Kuzenimin boğazı ağrıyor."
+        },
+        {
+          "id": "g8u12s3",
+          "blocks": [
+            "I",
+            "can ask for",
+            "help."
+          ],
+          "difficulty": 1,
+          "tr": "Yardım isteyebilirim."
+        },
+        {
+          "id": "g8u12s4",
+          "blocks": [
+            "The nurse",
+            "gives",
+            "me",
+            "a clean plaster."
+          ],
+          "difficulty": 2,
+          "tr": "Hemşire bana temiz bir yara bandı verir."
+        },
+        {
+          "id": "g8u12s5",
+          "blocks": [
+            "This",
+            "is",
+            "a healthy",
+            "daily habit."
+          ],
+          "difficulty": 2,
+          "tr": "Bu sağlıklı bir günlük alışkanlık."
+        },
+        {
+          "id": "g8u12s6",
+          "blocks": [
+            "My brother",
+            "offers",
+            "me",
+            "some water."
+          ],
+          "difficulty": 2,
+          "tr": "Erkek kardeşim bana biraz su ikram eder."
+        },
+        {
+          "id": "g8u12s7",
+          "blocks": [
+            "These",
+            "are",
+            "my sister's",
+            "sports shoes."
+          ],
+          "difficulty": 2,
+          "tr": "Bunlar kız kardeşimin spor ayakkabıları."
+        },
+        {
+          "id": "g8u12s8",
+          "blocks": [
+            "Our classroom",
+            "has got",
+            "a quiet",
+            "reading corner."
+          ],
+          "difficulty": 2,
+          "tr": "Sınıfımızda sessiz bir okuma köşesi var."
+        },
+        {
+          "id": "g8u12s9",
+          "blocks": [
+            "We",
+            "know",
+            "good sleep",
+            "is",
+            "important."
+          ],
+          "difficulty": 2,
+          "tr": "İyi bir uykunun önemli olduğunu biliyoruz."
+        },
+        {
+          "id": "g8u12s10",
+          "blocks": [
+            "Our teacher",
+            "says",
+            "regular breaks",
+            "are",
+            "useful."
+          ],
+          "difficulty": 2,
+          "tr": "Öğretmenimiz düzenli molaların faydalı olduğunu söylüyor."
+        }
+      ],
+      "translations": [
+        {
+          "id": "g8u12t1",
+          "en": "headache",
+          "tr": "baş ağrısı"
+        },
+        {
+          "id": "g8u12t2",
+          "en": "toothache",
+          "tr": "diş ağrısı"
+        },
+        {
+          "id": "g8u12t3",
+          "en": "earache",
+          "tr": "kulak ağrısı"
+        },
+        {
+          "id": "g8u12t4",
+          "en": "cough",
+          "tr": "öksürük"
+        },
+        {
+          "id": "g8u12t5",
+          "en": "fever",
+          "tr": "ateş"
+        },
+        {
+          "id": "g8u12t6",
+          "en": "sore throat",
+          "tr": "boğaz ağrısı"
+        },
+        {
+          "id": "g8u12t7",
+          "en": "rash",
+          "tr": "döküntü"
+        },
+        {
+          "id": "g8u12t8",
+          "en": "plaster",
+          "tr": "yara bandı"
+        },
+        {
+          "id": "g8u12t9",
+          "en": "bandage",
+          "tr": "bandaj"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "version": "0.40.0",
+  "sourceAndRuntimeHashes": "passed",
+  "entrypointAssets": "passed",
+  "protectedCurriculum": "passed",
+  "release": {
+    "version": "0.40.0",
+    "runtimeFiles": 237,
+    "sourceFiles": 387,
+    "relativeEntrypointAssets": "passed",
+    "sourceFingerprint": "passed",
+    "runtimeHashes": "passed"
+  },
+  "preservationOutput": "{\n  protectedFiles: 13,\n  units: 44,\n  preservedTasks: 3033,\n  tasks: 4805,\n  conversations: 921\n}\n"
+}

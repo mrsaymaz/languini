@@ -1,0 +1,128 @@
+[
+  {
+    "arena": "courtyard",
+    "name": "Languini Cafe",
+    "upgraded": false,
+    "meshObjects": 213,
+    "visibleMeshObjects": 83,
+    "triangles": 119406,
+    "venue": {
+      "extraWidth": 0,
+      "extraDepth": 0,
+      "overviewScale": 1,
+      "width": 9.4,
+      "depth": 9.1,
+      "centerZ": 0,
+      "pickup": [
+        3.75,
+        -3
+      ]
+    },
+    "walkableCells": 621
+  },
+  {
+    "arena": "bistro",
+    "name": "Languini Diner",
+    "upgraded": false,
+    "meshObjects": 256,
+    "visibleMeshObjects": 83,
+    "triangles": 144598,
+    "venue": {
+      "extraWidth": 1,
+      "extraDepth": 1,
+      "overviewScale": 1.045,
+      "width": 10.4,
+      "depth": 10.1,
+      "centerZ": -0.5,
+      "pickup": [
+        3.75,
+        -3
+      ]
+    },
+    "walkableCells": 697
+  },
+  {
+    "arena": "banquet",
+    "name": "Languini Bistro",
+    "upgraded": false,
+    "meshObjects": 298,
+    "visibleMeshObjects": 84,
+    "triangles": 166322,
+    "venue": {
+      "extraWidth": 2,
+      "extraDepth": 2,
+      "overviewScale": 1.09,
+      "width": 11.4,
+      "depth": 11.1,
+      "centerZ": -1,
+      "pickup": [
+        3.75,
+        -3
+      ]
+    },
+    "walkableCells": 921
+  },
+  {
+    "arena": "courtyard",
+    "name": "Languini Cafe",
+    "upgraded": true,
+    "meshObjects": 221,
+    "visibleMeshObjects": 96,
+    "triangles": 132102,
+    "venue": {
+      "extraWidth": 0,
+      "extraDepth": 0,
+      "overviewScale": 1,
+      "width": 9.4,
+      "depth": 9.1,
+      "centerZ": 0,
+      "pickup": [
+        3.75,
+        -3
+      ]
+    },
+    "walkableCells": 621
+  },
+  {
+    "arena": "bistro",
+    "name": "Languini Diner",
+    "upgraded": true,
+    "meshObjects": 265,
+    "visibleMeshObjects": 97,
+    "triangles": 157294,
+    "venue": {
+      "extraWidth": 1,
+      "extraDepth": 1,
+      "overviewScale": 1.045,
+      "width": 10.4,
+      "depth": 10.1,
+      "centerZ": -0.5,
+      "pickup": [
+        3.75,
+        -3
+      ]
+    },
+    "walkableCells": 697
+  },
+  {
+    "arena": "banquet",
+    "name": "Languini Bistro",
+    "upgraded": true,
+    "meshObjects": 307,
+    "visibleMeshObjects": 98,
+    "triangles": 179018,
+    "venue": {
+      "extraWidth": 2,
+      "extraDepth": 2,
+      "overviewScale": 1.09,
+      "width": 11.4,
+      "depth": 11.1,
+      "centerZ": -1,
+      "pickup": [
+        3.75,
+        -3
+      ]
+    },
+    "walkableCells": 921
+  }
+]

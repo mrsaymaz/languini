@@ -1,0 +1,1364 @@
+{
+  "name": "Languini",
+  "credit": "by Mr. Saymaz",
+  "version": "0.55.0",
+  "basedOnVersion": "0.54.0",
+  "date": "2026-10-23",
+  "units": 44,
+  "tasks": 4805,
+  "conversations": 921,
+  "curatedDialogueLinks": 44,
+  "sortingPacks": 88,
+  "sortingClassificationCards": 1220,
+  "customerProfiles": 24,
+  "layeredDishes": 9,
+  "automatedTests": 469,
+  "automatedPassed": 469,
+  "automatedFailed": 0,
+  "completeServiceCombinations": 264,
+  "additionalEventEquipmentServices": 528,
+  "totalSimulatedServices": 1200,
+  "baselineAutomatedTests": 465,
+  "newFocusedRegressionTests": 4,
+  "terminalMeasuredStates": 34408,
+  "fontAdvanceProfiles": [
+    "DejaVu Sans Bold",
+    "Nimbus Sans Bold"
+  ],
+  "singlePageFitPhoneSizes": [
+    "320x480",
+    "320x568",
+    "360x640",
+    "393x740",
+    "390x844",
+    "430x850",
+    "568x320",
+    "667x375",
+    "844x390",
+    "1024x600"
+  ],
+  "additionalDesktopLayout": "1366x768",
+  "notchedLayoutRegression": true,
+  "protectedContentFiles": 13,
+  "contentSha256": {
+    "content/dialogue-links.json": "92a8790c89cc19798305fa725dcad3f010d18b956ea96ccf0ad7f50dd638bc4a",
+    "content/fluent-emoji-assets.json": "9ff60e356fc9a3b8d9235141a25c5947e4e0ac6d88df24bee10422ce08a2def7",
+    "content/fluent-word-map.json": "86c9c104f66fce8fc088de646e470d43d09d85dbb73909da9007eb66a241d7de",
+    "content/grade5.json": "ab2e64d700abb66e5e4674ad5f289bb9e0d46858c5779e6de73bbf3d02c68ca5",
+    "content/grade6.json": "15dbf9fbd1d8a6c6960ec7d8833f5d656e32b9da35bd24eb67350aa982d411ee",
+    "content/grade7.json": "d4e005c6f744b0d1f2336e6b80a39465f3027e8078938ce84a4f343caf120ace",
+    "content/grade8.json": "8eb581dac9f4557b5f181a1ad256a4a9ae016ab4b28cb7727fba7858cacef3b5",
+    "content/reviewed-replies.json": "fff666c13507632190617b7b0aed78fe56aea6c07c8f30516b465696641c1a33",
+    "content/sorting-packs.json": "30ae4d959c4558a17fbfe7b2c9b60fe444b82ceddeb5c3c4d01615f334cf3ac1",
+    "content/wordrift-base.json": "bbd2b1b2e0fdba8a7218a7bb74ab5d0a74bbdab2297b57fcd0d88fac7e1f982f",
+    "public/data/grade-bank-import.json": "4cd7555ac0428491679166aa9cf8627df6ad282e93c4b349cf34f82e40f68035",
+    "public/data/language.json": "d322955a10fdd26367319a4de1aa2bb354612d4d407efb5121e063fafd9a3ee6",
+    "public/data/provenance.json": "ced8003c1475741c934bab507d53805c7d83455fec1113808e7f8b9cf17432ab"
+  },
+  "curriculumProvenanceVersion": "0.38.0 (reviewed grammatical boundaries; original baseline/source banks retained)",
+  "saveKey": "rune-bistro-v1",
+  "saveSchemaVersion": 1,
+  "newAssessedExamples": 0,
+  "localLaunch": "Extract the full ZIP and open root index.html in a desktop browser with WebGL enabled.",
+  "phoneLaunch": "Upload ready root files or rebuilt source/dist to a static host.",
+  "readyRuntimeManifestFiles": 242,
+  "sourceFingerprintFiles": 435,
+  "gameBundleSha256": "8608f64df089e9319b1d42bd54e72c626a74886b27baa18e271b49f235d2b7a2",
+  "performance": {
+    "type": "CPU scene traversal. Includes hidden meshes and multiplies instanced triangle counts; not renderer calls, GPU memory or FPS.",
+    "regularSceneMeshBudget": 320,
+    "qualityModes": [
+      "auto",
+      "lite",
+      "high"
+    ],
+    "autoPixelRatioCap": 2,
+    "lightPixelRatioCap": 1.5,
+    "runtimeDiagnostics": "LanguiniDiagnostics()",
+    "measuredDeviceFPS": null,
+    "studioSourceTextureBytes": 32768,
+    "studioSourceTextureSize": "128x64 RGBA",
+    "lightModeStudioEnvironment": true,
+    "regularSceneCountScope": "Initial CPU scene objects/triangles, including hidden objects. Pass meals are created on readiness. Counts are not actual renderer draw calls or FPS.",
+    "guidanceSignSourceTextureBytes": 458752,
+    "guidanceSignSourceTextures": "7 \u00d7 256x64 RGBA; GPU/browser overhead unmeasured",
+    "renovatedSceneMeshBudget": 360,
+    "milestoneSceneMeshBudget": 360,
+    "memoryPhotoAdditionalMeshObjects": 2,
+    "regularScenes": [
+      {
+        "arena": "courtyard",
+        "upgraded": false,
+        "meshObjects": 250,
+        "triangles": 195906,
+        "rainSegments": 0
+      },
+      {
+        "arena": "bistro",
+        "upgraded": false,
+        "meshObjects": 281,
+        "triangles": 222382,
+        "rainSegments": 0
+      },
+      {
+        "arena": "banquet",
+        "upgraded": false,
+        "meshObjects": 312,
+        "triangles": 249106,
+        "rainSegments": 0
+      }
+    ],
+    "renovatedSceneScope": "CPU scene traversal includes hidden food and instance-expanded triangles. Upgraded includes all projects/equipment, reputation level 5, first choice in every decor slot, Takeaway first, Takeaway counter and rain. These are not renderer calls, GPU time, memory or physical device FPS.",
+    "sampledPreparationVisibleTriangles": [
+      59638,
+      74558
+    ],
+    "sampledPortraitPreparationRendererCalls": [
+      90,
+      108
+    ],
+    "sampledFrameScope": "Light quality, initial six-block station views and five story poses. Single-frame samples in software WebGL; not worst-case/device FPS.",
+    "previousReleaseScenes": [
+      {
+        "arena": "courtyard",
+        "upgraded": true,
+        "meshes": 251,
+        "triangles": 203080,
+        "chef": {
+          "meshes": 22,
+          "triangles": 35064
+        }
+      },
+      {
+        "arena": "bistro",
+        "upgraded": true,
+        "meshes": 282,
+        "triangles": 229900,
+        "chef": {
+          "meshes": 22,
+          "triangles": 35064
+        }
+      },
+      {
+        "arena": "banquet",
+        "upgraded": true,
+        "meshes": 312,
+        "triangles": 256968,
+        "chef": {
+          "meshes": 22,
+          "triangles": 35064
+        }
+      }
+    ],
+    "renovatedScenes": [
+      {
+        "arena": "courtyard",
+        "upgraded": true,
+        "meshObjects": 286,
+        "triangles": 227386,
+        "rainSegments": 240
+      },
+      {
+        "arena": "bistro",
+        "upgraded": true,
+        "meshObjects": 318,
+        "triangles": 255214,
+        "rainSegments": 240
+      },
+      {
+        "arena": "banquet",
+        "upgraded": true,
+        "meshObjects": 348,
+        "triangles": 282714,
+        "rainSegments": 240
+      }
+    ]
+  },
+  "verification": {
+    "automated": "The earlier full run counted the new annotation tag as food geometry; the corrected check separately preserves all original food triangles and requires the tag. Eight affected and 25 final focused checks then passed. A later workspace restore removed unsaved logs; the implementation was recovered from saved v0.52.0. Its compiled game.js is byte-identical to the already-tested final runtime, and all 36 current focused checks pass. Earlier full-run console output is not retained; current focused and browser evidence is included.",
+    "curriculumPreservation": "passed",
+    "localStartupWithRendererDouble": "passed",
+    "numericFontAndGeometryLayout": "Actual serving/chair approaches, all 864 design/decor combinations, invariant prep close-up/plate geometry, neutral weather-free station views and oriented held-menu rays passed.",
+    "renderedBrowser": "15 fresh native touch/software-WebGL cases passed after recovery: green tray storage before pink task, two stored colours, actual pink badge background/border and ring, seven task-screen types, 320/393 phones, 768/1024 coarse-pointer tablets, landscape and desktop dock. Visible table badge/readable title with expanded guide, 44 px targets and zero page errors. Physical Safari/FPS unmeasured.",
+    "actualPhoneFingerInput": "Native simulated taps in high-DPR Chromium, including a location badge that walks to the correct preparation task. Physical iPhone/Safari performance remains unmeasured.",
+    "deviceSpeech": "not run",
+    "hardwarePerformance": "not run",
+    "serviceDuration": "not run",
+    "screenshots": "Soup pouring, salad tumbling and sandwich finish inspected internally; excluded from deliverables.",
+    "liveKitchenSimulation": "passed: 336 services, navigation, plate conservation, cargo, pause, supply and one-time delivery regressions",
+    "guidance": "passed: 48 recommendation-only services, actual HUD sign/primary clicks with DOM double, manual route override, cargo identities, blockers, first-use state, numerical badge placement and scene-cue suppression",
+    "checkout": "Passed: exact two-second reduction for every corrected check; unchanged 850 ms feed, paper-only corrected English, protected readback, pause/refit/audio and one-time completion.",
+    "activities": "passed: tap/swipe/compatibility/cancel/second finger/refit, all-unit wash/one-time batch, both language directions, delayed audio/fallback/exact word restoration, measured labels and washing sightlines",
+    "washingCloseup": "passed: profiled ceramic, sink, two hands, local food/dirt cleaning, native taps to 3D, restored patches after rotation and reduced motion; 33 compositions / 297 control rays / 99 food-patch rays. Offline geometry sketch inspected; actual WebGL/CSS/phone visuals pending.",
+    "referenceSlice": "Passed: three phases / 324 action states / 6480 geometric hand-to-ink rays, canonical nine-component food through every phase and exact triangle retention in batched pass/served food. Actual rendering unverified.",
+    "testExecution": "passed: sequential workers with a 512 MiB V8 heap limit; bounded scene-object identity diagnostics",
+    "plateAndVoices": "passed: matching white serving ceramic; recognized British male selection, novelty/default exclusion, British speech locale/discovery, stable persona variation and preserved replay gates; actual device voice sound/availability unverified",
+    "washingFeedback": "passed: translucent foam outside native cards, rising bubbles, dirt-before-shimmer ordering, finite sheen, static glints for reduced motion and restored completion; actual rendering pending",
+    "restaurantCraft": "Bounded scene geometry, oriented guest/menu ray tests, new floor-plan/decor navigation combinations and station cutaways passed. Weather adds 144 line segments with no new dynamic lights or downloaded media.",
+    "languini": "Unchanged restaurant/save IDs and sequential unlocks; increasing venue floor and walkable area, reachable actual station approaches, portrait 60\u00b0/15\u00b0 overview with all anchors on screen.",
+    "finalLayout": "Approved back kitchen and entrance counters; clear central aisle in every venue. Station approaches, held/cooking/pass meals, plate stacks and steam use the same plan. Existing work-surface geometry and full-size prep plate retained.",
+    "motion": "passed: five targeted regressions for finite camera pose/bounds, actual camera pause/readiness and unchanged simulation, ripple pooling/reduced/disposal, scrub/rinse/restoration and stable washing SVG nodes; startup included in 15-test focused pass",
+    "threePhasePreparation": "Three phases retained; five/six-block fixtures cannot complete at the third block. All nine recipes consolidate to canonical final geometry; earlier phase food persists.",
+    "deliveryCrate": "Passed: measured-font compact-paper fitting for all vocabulary/definition labels at both option counts; original label width/height retained; enlarged crate composition and 99 unobstructed-ink rays across 11 viewports. Sorting unchanged.",
+    "freshness": "Passed: model thresholds/expiry/readiness/pause/three phases/tip bounds and one-time handoff; native ring/audio/refit protection. Actual visual timing feel unverified.",
+    "arenaProgression": "Passed: sequential saved Cafe/Diner milestones; failed/unrelated records do not unlock; startup guards fresh/cached selection and existing wins.",
+    "customerReviews": "Passed: six-sided CSS 3D markup, front/back/edge treatment, smooth full vertical-axis revolution, phase continuity, late fade, finite poses, stable identity and reduced-motion fade. Actual Safari/Chrome compositing unverified.",
+    "tabRecovery": "Repeated hide/show/focus/Resume cycles and no duplicate frame loop; scoped pause CSS leaves the menu visible. Device suspension unverified.",
+    "ticketFlow": "Passed: native correct tap fills and sends automatically; wrong answers remain open; repeated taps cannot duplicate completion; pause/camera/speech gates and rotation preserve one clip/send commit.",
+    "additionalLanguage": "All 44 units and 4,805 tasks retained; exact original wording/IDs/answers/translations. Requested boundary and role changes are explicit and reproducible.",
+    "washingTaps": "Pointerup accepts a captured tap even when click targets the plate; compatibility clicks do not duplicate it; cancellation and keyboard activation are tested.",
+    "preparationSpace": "v0.38.1 board, papers, note and full-size main plate retained exactly across all three venue locations for six-block fixtures.",
+    "restaurantDesign": "27 actual venue/layout/counter combinations reachable; save isolation, decoration gates, capacities and packing-page fit passed. 13 focused checks passed.",
+    "connectedService": "Optional supplier/large-order episodes: protected clocks, receiving and Pantry deposit, accept/decline, one-time rewards, original goals on decline; completed across all 44 units and all venues/pace combinations.",
+    "takeawayExpansion": "Four/eight distinct pairs per stage; original number stage retained; gradually unlocked names, quantities, times and packing. Original unit banks unchanged.",
+    "extractedRelease": "The actual extracted v0.50.0 file-origin runtime, without QA hooks, completed all three meal phases, protected translation/readback, returned to overview, lifted/returned a delivery label and accepted a native washing word. Zero page errors or external requests. See validation/extracted-polish-v0.50.0.json.",
+    "finalStartup": "3/3 final entrypoint/storage/classic-script checks passed after header and modal-toast refinements. Evidence: validation/clean-ui-final-startup-v0.45.1.txt.",
+    "languageIntegrity": "All 4,805 tasks / 3,285 choice tasks / 1,520 sentence reconstructions passed the current build gate. Protected source banks unchanged. Generated task/choice regression results are in the full-suite log.",
+    "extractedRuntime": "Fresh actual extracted file-origin runtime passed with no QA hooks: native primary-button route into matching task, one-action phone layouts at 320/393/844 widths, shared washing/delivery identities, recipe identity, expanded-guide badge and title width, retained desktop dock, zero page errors and external requests. Runtime SHA matches the previously tested final version."
+  },
+  "published": false,
+  "newFeatures": [
+    "Physical label grid follows its measured rows and columns, preventing hidden choices",
+    "Incomplete/stale cached choices are rebuilt from the current task",
+    "Mandatory build-time language-integrity checks and optional rendered-control audit"
+  ],
+  "listeningMeasuredStates": 46376,
+  "liveKitchenCompleteServiceCombinations": 264,
+  "liveKitchenEventEquipmentServices": 72,
+  "liveKitchenTotalSimulatedServices": 336,
+  "legacySimulatedServices": 792,
+  "guidanceSimulatedServices": 48,
+  "receiptMeasuredStates": 5698,
+  "receiptSightlineCases": 27,
+  "receiptSightlineRays": 243,
+  "washingMeasuredStates": 33440,
+  "sortingLabelMeasuredStates": 26840,
+  "washingModelCases": 88,
+  "washingSightlineCases": 33,
+  "washingSightlineRays": 297,
+  "washingFoodSightlineRays": 99,
+  "washingShuffledSpacingStates": 92664,
+  "washingMinimumTargetGapPixels": 14,
+  "referencePreparationActionStates": 324,
+  "referenceInkSightlineSamples": 6480,
+  "selectedNextUpgrades": [],
+  "customerVoiceSelection": {
+    "maleLocale": "en-GB",
+    "femaleLocalePreference": "en-US",
+    "neutralLocalePreference": "en-US",
+    "profileCount": 24,
+    "genderMetadata": "explicit per-character preference",
+    "variation": "deterministic across installed recognized personas",
+    "discoveryWaitMilliseconds": 350,
+    "malePriority": "natural/enhanced/neural British male; other recognized/explicitly labelled British male; written support",
+    "noveltyVoices": "Fred and novelty personas excluded; no browser-default male path",
+    "unclassifiedMaleFallback": false,
+    "nonBritishMaleFallback": false,
+    "missingMaleVoiceResult": "voice-unavailable; retain written support",
+    "deviceVoiceAvailability": "unverified; uses installed device catalogue"
+  },
+  "receiptAutomaticFinish": {
+    "feedMilliseconds": 850,
+    "minimumReadingMilliseconds": 400,
+    "maximumReadingMilliseconds": 3000,
+    "readingMillisecondsFormula": "clamp(1600 + 190 \u00d7 word count, 2400, 5000) - 2000",
+    "collectionButton": false,
+    "pauseSpeechReadinessGates": true,
+    "readingTimerFreezes": true,
+    "rotation": "restore full corrected check with renewed safe reading time",
+    "presentation": "External printed ivory paper beside the register LCD, separately framed after Print; corrected sentence hidden on screen",
+    "correctEnglishOnPaperOnly": true,
+    "fullSizeCameraAnchorDuringFeed": true,
+    "feedStyle": "Cropped geometry and UVs with smoothstep ease; native ink translates through identical clip"
+  },
+  "washingFeedback": {
+    "soapBubbles": 12,
+    "nativeBlockEdges": true,
+    "cleanGlints": 3,
+    "shimmerDurationSeconds": 0.84,
+    "shimmerStartsAfterSeconds": 0.42,
+    "reducedMotion": "static clean glints; no moving foam/sheen",
+    "soapTrailInstances": 10
+  },
+  "completedSelectedUpgrades": [
+    "Unified restaurant UI and control icons",
+    "Purposeful station-specific feedback effects",
+    "Distinct arena identities and visible renovations"
+  ],
+  "stationFeedback": {
+    "maxSteamInstances": 8,
+    "maxCrumbInstances": 10,
+    "lazyParticleBatches": 2,
+    "successOnRestoration": false,
+    "paused": true,
+    "reducedMotion": "suppress bursts and soap trail; settle stamps; retain static clean glints",
+    "textures": 0,
+    "extraLights": 0,
+    "upgradedInkCases": 24,
+    "upgradedInkRays": 216
+  },
+  "motion": {
+    "camera": "quintic acceleration/settle with finite 0.18-unit lift and 0.10-unit side arc; exact goal and readiness gate",
+    "venueRevealSeconds": 0.72,
+    "menuDriftMaximumSceneUnits": 0.111,
+    "noTaskIdleDrift": true,
+    "preparation": "higher ingredient toss, one reused 0.42-second rim ripple and 0.26-second final plate settle",
+    "english": "finite ink/edge confirmation, numbered link response and audio-only icon breathing; stable text/targets",
+    "washScrubSeconds": 0.64,
+    "washRinseSeconds": 0.84,
+    "rinseInstances": 8,
+    "stationarySVGRebuiltEachFrame": false,
+    "pause": "camera/finite station/guest/reward reactions and CSS cues freeze; local visual clock avoids phase jumps",
+    "reducedMotion": "immediate camera/clean result and optional CSS motion disabled",
+    "restoredProgress": "no new success ripple, plate flourish or rinse; native restored successes suppress animation",
+    "newLights": 0,
+    "remoteAssets": 0,
+    "postprocessingPasses": 0,
+    "devicePerformance": "unmeasured"
+  },
+  "preparation": {
+    "phases": 3,
+    "blocksPerPhase": {
+      "minimumInBank": 3,
+      "maximumInBank": 5,
+      "fixedThreeBlockLimit": false
+    },
+    "ingredientGroupsPerMeal": 9,
+    "sentenceSelection": "Three distinct reviewed sentences from the selected unit",
+    "firstIngredientsRetained": true,
+    "progressRestoredOnRefit": true,
+    "stockReservationsPerMeal": 1,
+    "routeAdvancesPerPreparation": 1,
+    "rewardPayoutsPerPreparation": 1,
+    "assessedSentencesPerPreparation": 3,
+    "washingPhases": "One sentence per plate; 3/6/9 plates by arena",
+    "englishPausesService": true,
+    "taskTimers": true,
+    "v027RushFeatures": false,
+    "phaseNames": [
+      "Build",
+      "Layer",
+      "Finish"
+    ],
+    "retainedIngredientCounts": [
+      0,
+      3,
+      6
+    ],
+    "recipeSpecificInstructions": true,
+    "timerProtection": "Each phase has its own freshness clock; audio, camera, pause, completion and rotation gates preserve answering time",
+    "translationBeforeCorrect": false,
+    "translationRevealMilliseconds": 2000,
+    "translationRevealPauseAudioCameraProtected": true,
+    "translationTimePreservedOnRefit": true,
+    "washingPlatesByArena": {
+      "courtyard": 3,
+      "bistro": 6,
+      "banquet": 9
+    },
+    "foodPortions": "One paper/portion per block; repeated types consolidate into the three canonical phase layers after the complete sentence."
+  },
+  "rollbackLineageVersion": "0.26.0",
+  "deliveryCrate": {
+    "layout": "Content-sized paper with smaller margins; preserved label cells; reclaimed space enlarges the crate",
+    "sortingLayoutChanged": false,
+    "verifiedViewportSizes": 11,
+    "clearManifestRays": 99,
+    "crateWidthAtLeastOneChoiceBlock": true,
+    "minimumTouchSize": 44,
+    "actualRenderedAppearance": "unverified"
+  },
+  "freshness": {
+    "grades": {
+      "green": "Great: >50% remaining",
+      "yellow": "Good: >25% to 50%",
+      "red": "Late: <=25%; stays red at zero"
+    },
+    "shape": "circular countdown with seconds and grade in existing status row",
+    "lengthAware": true,
+    "challengeBudgetFactor": 0.75,
+    "clocksPerMealPreparation": 3,
+    "pauseCameraAudioReadbackProtected": true,
+    "rotationResetsClock": false,
+    "expiry": "Continue the task; no answer skip or language error",
+    "accuracyAffected": false,
+    "baseRewardAffected": false,
+    "orderTipRelaxedMaximum": 2,
+    "orderTipChallengeMaximum": 4,
+    "tipPaid": "Once on first physical dish handoff; rounded mean task quality",
+    "backgroundServiceDuringEnglish": "paused"
+  },
+  "arenaProgression": {
+    "openInitially": [
+      "courtyard"
+    ],
+    "lockedInitially": [
+      "bistro",
+      "banquet"
+    ],
+    "requirement": "Cafe win unlocks Diner; Cafe and Diner wins unlock Bistro",
+    "scope": "Saved player, across grades/units/houses/difficulties",
+    "existingWinsAccepted": true,
+    "saveSchemaChange": false,
+    "guarded": [
+      "setup selection",
+      "cached config",
+      "service start"
+    ],
+    "isolatedPreviewBypass": false
+  },
+  "customerReviews": {
+    "categories": [
+      "Taste",
+      "Service",
+      "Speed"
+    ],
+    "starsPerCategory": 3,
+    "eatingSeconds": 3.8,
+    "reviewSeconds": 3.2,
+    "spinSeconds": 1.05,
+    "departureSeconds": 0.4,
+    "resultsWaitForFinalReview": true,
+    "reducedMotion": "Static card, fade only",
+    "deviceVisualCheck": "unverified",
+    "presentation": "Six-sided CSS 3D card; ivory front, green back, gold edges, embossed stars",
+    "revolutionAxis": "local vertical axis",
+    "revolutionDegrees": 360,
+    "depthPixels": 6,
+    "perspectivePixels": 850,
+    "fadeBeginsAtProgress": 0.68
+  },
+  "tabRecovery": {
+    "confirmedFault": "Global paused CSS froze the initially transparent pause-card entrance",
+    "pauseModalExplicitlyVisible": true,
+    "hiddenFrameTimeDiscarded": true,
+    "contextRecoveryDeadlineWaitsWhileHidden": true,
+    "deviceSuspension": "unverified"
+  },
+  "ticketFlow": {
+    "correctTap": "immediate answer and gap fill",
+    "autoClip": true,
+    "extraSendActionRequired": false,
+    "wrongAnswers": "remain on task; existing feedback/attempt scoring",
+    "readbackMilliseconds": 850,
+    "clipAnimationGateMilliseconds": 690,
+    "pauseCameraSpeechProtected": true,
+    "rotationRestoresProgress": true,
+    "optionalWordDrag": true,
+    "manualClipControlsVisible": false
+  },
+  "venueLearning": {
+    "washingPlates": [
+      3,
+      6,
+      9
+    ],
+    "deliveryLabels": [
+      1,
+      2,
+      3
+    ],
+    "menuRounds": [
+      1,
+      1,
+      2
+    ],
+    "ticketRounds": [
+      1,
+      1,
+      2
+    ],
+    "checkoutRounds": [
+      1,
+      1,
+      2
+    ],
+    "DinerRequiredStations": [
+      "tablet",
+      "ticket",
+      "recipe",
+      "repair"
+    ],
+    "BistroAdditionalStations": [
+      "greeting",
+      "final conversation"
+    ],
+    "reviewedContentOnly": true,
+    "limitedSentencePools": "Exhaust distinct answers, then revisit least recently used sentences",
+    "inventoryAndStageRewards": "committed once after the complete group"
+  },
+  "lastFullSuiteSeconds": 248.399034981,
+  "fullSuiteDurationSeconds": 248.399034981,
+  "fullSuiteTestCount": 420,
+  "ownerGuide": {
+    "poses": 6,
+    "productionVariants": 11,
+    "productionImageBytes": 260432,
+    "originalImageBytes": 9588176,
+    "tutorialStorageKey": "languini-owner-guidance-v1",
+    "sourceOriginals": "artwork/originals",
+    "imageFormat": "WebP",
+    "quietAndReducedMotion": true,
+    "gameplayRulesChanged": false,
+    "browserChecks": {
+      "viewports": [
+        "320x480",
+        "320x568",
+        "360x640",
+        "390x844",
+        "667x375",
+        "1366x768"
+      ],
+      "runtimeErrors": 0,
+      "smallestViewportFits": true,
+      "pairSelectionWorks": true,
+      "hintPoseLoads": true,
+      "recoveryPoseLoads": true,
+      "resultsPoseLoads": true,
+      "physicalPhoneTest": false
+    },
+    "openingFrame": "Transparent; no background, border or shadow",
+    "openingPlacement": "Panel-anchored: 78svh up to 640 CSS pixels on desktop; 170-pixel hero on tall phones; side placement on landscape; compact portrait on the shortest phones."
+  },
+  "automatedEvidenceVersion": "pending",
+  "branding": {
+    "direction": "Chef\u2019s Seal",
+    "fullLogo": true,
+    "compactEmblem": true,
+    "transparent": true,
+    "favicon": true,
+    "appleTouchIcon": true,
+    "manifestIcons": [
+      192,
+      512
+    ],
+    "sourceDirectory": "artwork/branding",
+    "physicalHomeScreenInstallTested": false,
+    "startupTestsPassed": 12,
+    "browserViewports": 8,
+    "uncaughtBrowserErrors": 0
+  },
+  "setupLessonPicker": {
+    "order": [
+      "restaurant",
+      "team",
+      "lesson and pace"
+    ],
+    "gradeLevels": {
+      "5": "A1",
+      "6": "A1+",
+      "7": "A2",
+      "8": "A2+"
+    },
+    "unitCards": 44,
+    "descriptions": 44,
+    "nativeUnitDropdown": false,
+    "gradeBrowsingCommits": false,
+    "unitSelectionCommits": true,
+    "cancelPreservesSelection": true,
+    "savedLessonAndPaceVerified": true,
+    "viewportLayouts": 9,
+    "smallestViewport": "320x480",
+    "longTitleCompactCases": 4,
+    "reference": "user supplied IMG_0583(1).PNG",
+    "gameplayRulesChanged": false
+  },
+  "baselineCurriculumSha256": {
+    "content/dialogue-links.json": "92a8790c89cc19798305fa725dcad3f010d18b956ea96ccf0ad7f50dd638bc4a",
+    "content/fluent-emoji-assets.json": "9ff60e356fc9a3b8d9235141a25c5947e4e0ac6d88df24bee10422ce08a2def7",
+    "content/fluent-word-map.json": "86c9c104f66fce8fc088de646e470d43d09d85dbb73909da9007eb66a241d7de",
+    "content/grade5.json": "ab2e64d700abb66e5e4674ad5f289bb9e0d46858c5779e6de73bbf3d02c68ca5",
+    "content/grade6.json": "15dbf9fbd1d8a6c6960ec7d8833f5d656e32b9da35bd24eb67350aa982d411ee",
+    "content/grade7.json": "d4e005c6f744b0d1f2336e6b80a39465f3027e8078938ce84a4f343caf120ace",
+    "content/grade8.json": "8eb581dac9f4557b5f181a1ad256a4a9ae016ab4b28cb7727fba7858cacef3b5",
+    "content/reviewed-replies.json": "fff666c13507632190617b7b0aed78fe56aea6c07c8f30516b465696641c1a33",
+    "content/sorting-packs.json": "30ae4d959c4558a17fbfe7b2c9b60fe444b82ceddeb5c3c4d01615f334cf3ac1",
+    "content/wordrift-base.json": "bbd2b1b2e0fdba8a7218a7bb74ab5d0a74bbdab2297b57fcd0d88fac7e1f982f",
+    "public/data/grade-bank-import.json": "4cd7555ac0428491679166aa9cf8627df6ad282e93c4b349cf34f82e40f68035",
+    "public/data/language.json": "4018a75658d58105292e03e874f74dbccb61165271a7e2686eeae7063c837c69",
+    "public/data/provenance.json": "87e1435881c59c74e39b920a859254226c5620c1553011ec800dc9994e5c6d96"
+  },
+  "preservationMethod": "Original 13 baseline hashes remain unchanged. Original activity wording, answers, translations, IDs and all non-sentence fields are compared exactly. Requested sentence boundaries and blockRoles are validated against the reviewed mapping; the expanded runtime reproduces deterministically.",
+  "languageExpansion": {
+    "sources": [
+      {
+        "file": "grade5-2.json",
+        "sha256": "3a2f45ba4cba496b1357b4e1fa4670333b6c13859d81b56fd2d62bf9afeb9794"
+      },
+      {
+        "file": "grade6-2.json",
+        "sha256": "49e2a0345e732284aded95d441550484722845015b63a1ec4423cb8f6a15cf1c"
+      },
+      {
+        "file": "grade7-2.json",
+        "sha256": "d8568dbe43ed3ef56e91f9b78b6287bdfc8733d7108da4dc1f528d6ec279ae3a"
+      },
+      {
+        "file": "grade8-2.json",
+        "sha256": "e246793be3fd8560db0103f78d8612f823198bccbf01cce37b87dfe1b7250145"
+      }
+    ],
+    "addedActivities": 1772,
+    "duplicateLinks": 516,
+    "newSortingPacks": 44,
+    "totalSortingCards": 1220,
+    "byKind": {
+      "vocabulary": 312,
+      "description": 252,
+      "question": 390,
+      "sentence": 818
+    },
+    "inputPictureSpecifications": 396,
+    "pictureAssetsGenerated": 0,
+    "ambiguousCategoryPlacementsExcluded": 4,
+    "rawSources": "content/additional-banks",
+    "report": "public/data/additional-bank-import.json"
+  },
+  "sentenceBlocks": {
+    "policy": "Subject + verb group + indirect object + object/complement + place + time, where present. Source word order and wording are preserved; questions and imperatives retain their natural grammar.",
+    "total": 1520,
+    "changed": 534,
+    "byBlockCount": {
+      "3": 1332,
+      "4": 186,
+      "5": 2
+    },
+    "reviewFile": "content/sentence-blocks.json",
+    "teacherReview": "validation/sentence-block-review-v0.38.0.tsv",
+    "layoutCorrectionVersion": "0.38.1"
+  },
+  "focusedTestsCurrentRelease": 3,
+  "restaurantLayout": {
+    "file": "src/restaurant-layout.mjs",
+    "camera": "src/restaurant-camera.mjs",
+    "downwardAngleDegreesFromFloor": 60,
+    "sideRotationDegrees": 15,
+    "projection": "orthographic",
+    "tableCounts": {
+      "Cafe": 2,
+      "Diner": 3,
+      "Bistro": 4
+    },
+    "unchangedPrepBoardAndPlate": true,
+    "renderedCases": 13,
+    "browserErrors": 0,
+    "navigationFootprintsSharedWithRenderer": true,
+    "savedProgressCompatible": true,
+    "preparationCloseUpElevationAdded": 0.75,
+    "overviewPrepHeightUnchanged": true,
+    "renderedCasesVersion": "0.39.0"
+  },
+  "automatedScope": "54 targeted startup, view, navigation, geometry, story and weather checks passed; 351 other suite checks were not rerun for this visual update.",
+  "fullSuitePassed": 373,
+  "fullSuiteFailed": 2,
+  "previousReleaseTestEvidence": {
+    "version": "0.39.0",
+    "automatedTests": 347,
+    "fullSuitePassed": 344,
+    "fullSuiteFailed": 3,
+    "focusedReadingRerun": {
+      "tests": 3,
+      "passed": 3,
+      "failed": 0,
+      "seconds": 22.416144113999998
+    },
+    "fullSuiteInitialResult": {
+      "passed": 344,
+      "failed": 3,
+      "reason": "Fixed 2.1-second wall-clock sleeps expired before protected reading time finished under GC/CPU delay. Production reading timers unchanged."
+    }
+  },
+  "newNumberMappings": 201,
+  "takeawayNumbers": {
+    "rangeInclusive": [
+      0,
+      200
+    ],
+    "spelling": "British English; compound tens hyphenated; hundred and remainder",
+    "relaxedPairs": 4,
+    "challengePairs": 8,
+    "challengeSets": 2,
+    "pairsPerPage": 4,
+    "distinctAcrossChallengeSets": true,
+    "requiredBeforeCollection": true,
+    "firstSetSeparateReward": false,
+    "previewBothDifficulties": true,
+    "phoneFitSizes": [
+      "320x480",
+      "360x640",
+      "390x844",
+      "430x932",
+      "568x320",
+      "667x375",
+      "844x390",
+      "1366x768"
+    ],
+    "allMappingsMeasuredWithTwoFontProfiles": true,
+    "dataBankModified": false,
+    "renderedCases": 13,
+    "browserErrors": 0,
+    "nativeFourPairCompletion": true,
+    "nativeEightPairCompletion": true,
+    "nativeRotationPersistence": true,
+    "nativeWrongPairRecovery": true,
+    "nativePreviewBothDifficulties": true,
+    "nativeRaisedSixBlockPreparation": true,
+    "guaranteedEveryRegularShift": true,
+    "usualOrder": 4,
+    "independentOfSpecialEvent": true,
+    "eventSelectionIncludesAllFourTypes": true
+  },
+  "automatedSeconds": 90.698199356,
+  "previousReleaseValidation": {
+    "version": "0.43.0",
+    "automatedTests": 371,
+    "scope": "371/371 passed; previous release evidence remains under validation/."
+  },
+  "reputation": {
+    "initialAverage": 2.1,
+    "inheritedReviewCount": 150,
+    "inheritedStarTotal": 315,
+    "customerConversion": "mean assessed category stars / 3 * 5",
+    "categories": [
+      "taste",
+      "service",
+      "speed"
+    ],
+    "categoryScale": 3,
+    "customerScale": 5,
+    "scoreRevealSeconds": 2.1,
+    "celebrateStrictlyAbove": 4,
+    "perfectReviewTreatment": 5,
+    "scope": "grade + team + restaurant, shared across lessons and paces",
+    "duplicateCreditGuard": "persisted shift serial + order ID; bounded credited ledger; dining credited flag",
+    "milestones": [
+      2.5,
+      3,
+      3.5,
+      4,
+      4.5
+    ],
+    "milestoneEffects": [
+      "owner results reaction",
+      "returning-customer dialogue",
+      "cumulative entrance recognition"
+    ],
+    "sequentialScoreReveals": true,
+    "newAssetDownloads": 0,
+    "browserErrors": 0,
+    "browserInteractionCases": 15
+  },
+  "takeoverStory": {
+    "durationSeconds": 32,
+    "shots": [
+      "memory",
+      "handover",
+      "inspection",
+      "cleaning",
+      "repair",
+      "opening"
+    ],
+    "oncePerRestaurantCampaign": true,
+    "skipPauseContinueReplay": true,
+    "rendering": "Existing 3D room and chef, procedural elderly owner and story props",
+    "hiddenTabsFreeze": true,
+    "reducedMotion": true,
+    "normalGameplayStartsAfterStory": true,
+    "finalRenderedCases": 31,
+    "dialogue": "Compact persistent subtitles; no spoken voice acting",
+    "permanentCafePhoto": true,
+    "originalMusic": "Local Web Audio composition: piano-style harmonics, soft plucked bass, filtered brush percussion",
+    "timedFoley": true,
+    "newMediaDownloads": 0,
+    "soundToggle": true,
+    "audioFreezeOnPauseOrHidden": true,
+    "audioCueBacklog": false,
+    "normalCompletionAudioCrossfade": true,
+    "skipStopsAudio": true,
+    "browserCases": 35,
+    "browserErrors": 0,
+    "audioRenderSeconds": 34,
+    "audioPeak": 0.06689417362213135,
+    "actingBeats": 23,
+    "actorActions": [
+      "owner straightens sign and looks back",
+      "key transfer and promise",
+      "owner relief and departure",
+      "sticky table and failed equipment inspection",
+      "sleeve preparation",
+      "contact-driven floor/table/photo cleaning",
+      "study and straighten photograph",
+      "hinged repair panels and equipment response",
+      "OPEN sign flip",
+      "quiet wait, bell, chef reaction and arrival"
+    ],
+    "musicMotif": "Unfinished melody, photograph reprise and reopening resolution",
+    "independentMusicAndFoleyBuses": true,
+    "quietBeforeBell": true,
+    "hideInstructionPlaques": true,
+    "customerArrivesAtTable": true,
+    "finalCameraMatchesGameplay": true,
+    "quietBeatRMS": 6.347442821561424e-05,
+    "bellSecondRMS": 0.01011005621089298,
+    "finalVisualRerun": {
+      "cases": 10,
+      "renderedFrames": 6,
+      "errors": 0,
+      "evidence": "validation/story-visual-refinement-v0.43.0.json"
+    }
+  },
+  "newGuaranteedPickupServices": 24,
+  "fullSuiteInitialResult": {
+    "passed": 373,
+    "failed": 2,
+    "evidence": "validation/automated-tests-v0.44.0.txt",
+    "resolution": "Updated legacy graphics checks for intended vertex-colour and geometry batching; 10/10 final graphics/model checks passed."
+  },
+  "finalFocusedStory": {
+    "tests": 18,
+    "passed": 18,
+    "failed": 0,
+    "scope": "Final acting, photo visibility, customer arrival, camera, audio, controls, reputation and pickup regression checks after final refinements.",
+    "evidence": "validation/story-final-focused-v0.43.0.txt"
+  },
+  "extractedRuntimeBrowser": {
+    "version": "0.50.0",
+    "actualExtractedFileOrigin": true,
+    "noQAHooks": true,
+    "nativeThreePhaseMeal": true,
+    "nativeLabelLiftDestinationAndMissReturn": true,
+    "nativeWashingAcceptance": true,
+    "phases": [
+      {
+        "phase": 0,
+        "blocks": 3,
+        "nativePlacements": true,
+        "translationReadback": true
+      },
+      {
+        "phase": 1,
+        "blocks": 3,
+        "nativePlacements": true,
+        "translationReadback": true
+      },
+      {
+        "phase": 2,
+        "blocks": 4,
+        "nativePlacements": true,
+        "translationReadback": true
+      }
+    ],
+    "englishReadbackRetained": true,
+    "dropCaptionYieldsWithoutMovingTarget": true,
+    "returnedToOverview": true,
+    "bundleSha256": "c3052ec010a4704fe452e652329a72057dd3439233f9f0244e9b5e6f28b99fa0",
+    "errors": [],
+    "externalRequests": []
+  },
+  "modelDetail": {
+    "scope": [
+      "playable chef",
+      "all nine dishes and 81 ingredient layers",
+      "main workstations"
+    ],
+    "chefTriangles": 35064,
+    "chefMeshObjects": 22,
+    "externalAssetDownloadsAdded": 0,
+    "customerDetailUnchanged": true,
+    "rigCompatible": true,
+    "exactPlateRadius": 0.46,
+    "sixBlockPrepDimensionsUnchanged": true,
+    "foodGeometryShared": true,
+    "garmentAndFoodMaterialBatching": true,
+    "geometryEvidence": "validation/scene-geometry-v0.44.0.json",
+    "browserEvidence": "validation/model-browser-v0.44.0.json",
+    "browserCases": 23,
+    "browserErrors": 0,
+    "nativeSixBlockPreparation": true,
+    "nativeSixBlockWashing": true,
+    "renderedFoodCases": 9
+  },
+  "finalFocusedModels": {
+    "tests": 10,
+    "passed": 10,
+    "failed": 0,
+    "evidence": "validation/model-graphics-final-v0.44.0.txt"
+  },
+  "cafeEvolution": {
+    "version": "0.45.0",
+    "designScope": "grade/team/venue; bounded authored layouts, not unrestricted dragging",
+    "validatedConfigurations": 27,
+    "decorationSlots": 5,
+    "atmospheres": [
+      "breakfast",
+      "rain",
+      "evening"
+    ],
+    "supplementalTaskModes": [
+      "names",
+      "quantities",
+      "times",
+      "instructions"
+    ],
+    "directorEpisodesPerNormalShift": 1,
+    "functionalTemplatesSource": "src/takeaway-tasks.mjs",
+    "curriculumBanksChanged": false,
+    "externalAssetDownloadsAdded": 0,
+    "geometryEvidence": "validation/scene-geometry-v0.45.0.json",
+    "browserEvidence": [
+      "validation/cafe-browser-v0.45.0.json",
+      "validation/cafe-final-browser-v0.45.0.json"
+    ],
+    "browserCases": 29
+  },
+  "cleanUI": {
+    "version": "0.45.1",
+    "panels": [
+      "setup",
+      "lessons",
+      "design",
+      "shop",
+      "help",
+      "pause",
+      "results",
+      "service offers"
+    ],
+    "optionalDetails": [
+      "Shift details",
+      "Display & guidance",
+      "Kitchen & controls",
+      "Design & takeaway",
+      "Show topics"
+    ],
+    "assessedContentChanged": false,
+    "gameplayRulesChanged": false,
+    "browserEvidence": "validation/clean-ui-browser-v0.45.1.json",
+    "geometry": "Unchanged from v0.45.0; see validation/scene-geometry-v0.45.0.json."
+  },
+  "fullRegressionRun": {
+    "version": "0.55.0",
+    "uniquePassingChecks": 469,
+    "initialFullRun": {
+      "tests": 469,
+      "passed": 465,
+      "failed": 4,
+      "durationMs": 319919.027636
+    },
+    "finalAffectedRun": {
+      "tests": 106,
+      "passed": 106,
+      "failed": 0,
+      "durationMs": 98990.974189
+    },
+    "scope": "469 unique regression checks: initial full run 465 passed and four old total-mesh assertions failed after scenery was added. Their checks now keep the original room limit and separately bound exterior/hidden walking meshes. Final 106 affected scene, service, graphics, startup and story checks all pass. Final paired arrivals and terrace material are included in that rerun.",
+    "evidence": [
+      "validation/neighbourhood-initial-full-v0.55.0.txt",
+      "validation/neighbourhood-final-focused-v0.55.0.txt"
+    ]
+  },
+  "finalFocusedStartup": {
+    "tests": 1,
+    "passed": 1,
+    "failed": 0,
+    "vmBudgetSeconds": 30,
+    "sameBehaviorAssertions": true,
+    "evidence": "validation/startup-final-v0.45.2.txt"
+  },
+  "answerIntegrity": {
+    "version": "0.45.2",
+    "reportedTask": "g5u1d3",
+    "answer": "chess club",
+    "rootCause": "Legacy full-row CSS pushed the odd final label beyond a fitted single-row paper.",
+    "curriculumDataChanged": false,
+    "choiceTasks": 3285,
+    "sentenceReconstructions": 1520,
+    "randomChoiceSets": 105120,
+    "renderedLabelTasks": 1841,
+    "renderedLabelCases": 40502,
+    "viewports": 11,
+    "nativeWebGLCases": 13,
+    "evidence": [
+      "validation/language-integrity-v0.45.2.json",
+      "validation/answer-controls-v0.45.2.json",
+      "validation/label-native-v0.45.2.json"
+    ],
+    "semanticScope": "Key consistency, reconstructed sentences, explicit memberships and selectable visible answers; not an automatic proof that every distractor is semantically wrong."
+  },
+  "previousAutomatedVerification": "v0.47.0: 417/417 full suite checks, 15 Ulti browser cases and extracted file-origin persistence/purchases/abandonment checks passed.",
+  "designWeather": {
+    "version": "0.46.0",
+    "layoutSaveIDs": {
+      "classic": "Window caf\u00e9",
+      "cosy": "Dining clusters",
+      "express": "Takeaway first"
+    },
+    "configurationChecks": 864,
+    "nativeBrowserCases": 27,
+    "rainSegments": 144,
+    "newDynamicLights": 0,
+    "newTextureFiles": 0,
+    "newAudioDownloads": 0,
+    "ambienceBuffer": "8 seconds, stereo, generated locally once per audio context",
+    "volumeDefault": 0.55,
+    "speechDuckMultiplier": 0.12,
+    "weatherHidesDuringEnglish": true,
+    "evidence": [
+      "validation/design-weather-browser-v0.46.0.json",
+      "validation/scene-geometry-v0.46.0.json",
+      "validation/atmosphere-final-v0.46.0.txt"
+    ]
+  },
+  "automatedNotRun": 0,
+  "openingWeather": {
+    "version": "0.46.1",
+    "stationaryCamera": true,
+    "menu3D": "Cached; evening warm-up and resize/scene changes invalidate it",
+    "skyCanvasDprCap": 1.25,
+    "skyAnimationCapHz": 30,
+    "gameplayRainSegments": 240,
+    "extraDynamicLights": 0,
+    "newMediaDownloads": 0,
+    "roomMaskedFromSkyRain": true,
+    "englishCloseupsNeutral": true,
+    "reducedMotionStatic": true,
+    "nativeSetupRenderCallsPerRedraw": [
+      111,
+      112,
+      111
+    ],
+    "baselineSetupRenderCallsPerFrame": [
+      225,
+      229,
+      227
+    ],
+    "hardwareFPS": "Unmeasured. Counts are software-WebGL renderer work, not physical-device FPS."
+  },
+  "menuStability": {
+    "version": "0.46.2",
+    "plainNativeTabletBacking": true,
+    "embeddedListeningDoesNotRepaint": true,
+    "consecutiveRoundsHoldSettledCamera": true,
+    "differentGuestArrivalAndInputLockRetained": true,
+    "nativeBrowserCases": 16,
+    "sampledMenuFrames": 504,
+    "fadedTaskFrames": 0,
+    "unfittedTaskFrames": 0,
+    "newRoundCameraFlights": 0,
+    "paintedMenuCovers": 0,
+    "browserEvidence": "validation/menu-browser-v0.46.2.json",
+    "baselineEvidence": "validation/menu-before-v0.46.1.json",
+    "languageAudit": "validation/language-integrity-v0.46.2.json",
+    "curriculumWordingAndKeys": "unchanged",
+    "physicalDevicePerformance": "unmeasured",
+    "fullSuiteTestsPassed": 407,
+    "extractedRuntimeMenuAndListeningPassed": true
+  },
+  "ulti": {
+    "pools": "16 logical pools, key grade:team; shared across lessons and venues",
+    "rewards": {
+      "Languini Cafe": {
+        "relaxed": 4,
+        "challenge": 8
+      },
+      "Languini Diner": {
+        "relaxed": 6,
+        "challenge": 12
+      },
+      "Languini Bistro": {
+        "relaxed": 8,
+        "challenge": 16
+      }
+    },
+    "lifetimeHours": 168,
+    "expiry": "Individual award timestamps; no renewal from later awards",
+    "spendable": false,
+    "duplicatePrevention": "Unique immutable shift receipt, retained after expiry",
+    "ineligible": "Failures, abandonment and previews/demos",
+    "persistence": "Existing browser profile; backward compatible; Ulti receipt union on sequential open-tab saves",
+    "externalConnection": "Not wired; read-only snapshot prepared for later integration",
+    "browserCases": 15,
+    "focusedTests": 10,
+    "browserEvidence": "validation/ulti-browser-v0.47.0.json",
+    "focusedEvidence": "validation/ulti-focused-v0.47.0.txt",
+    "extractedFileOriginPassed": true
+  },
+  "desktopFraming": {
+    "version": "0.47.1",
+    "minimumViewport": [
+      1024,
+      600
+    ],
+    "serviceMargins": {
+      "top": 76,
+      "bottom": 100
+    },
+    "previousServiceMargins": {
+      "top": 172,
+      "bottom": 154
+    },
+    "scaleIncreasePercent": {
+      "1024x600": 54.7,
+      "1280x720": 38.1,
+      "1366x768": 33.9,
+      "1920x1080": 19.9,
+      "2560x1080": 19.9
+    },
+    "viewAngleDegrees": {
+      "pitch": 60,
+      "yaw": 15
+    },
+    "phoneOpeningAndNonKitchenFixturePoses": "exactly preserved across 33 cases",
+    "nativeBrowserCases": 24,
+    "renderingGeometry": "unchanged",
+    "evidence": [
+      "validation/desktop-camera-focused-v0.47.1.txt",
+      "validation/desktop-regression-v0.47.1.txt",
+      "validation/desktop-browser-v0.47.1.json"
+    ],
+    "extractedRuntimePassed": true
+  },
+  "overviewNavigation": {
+    "minZoom": 0.9,
+    "maxZoom": 1.25,
+    "pan": "Bounded room-relative movement, empty-floor drag only",
+    "inputs": [
+      "wheel",
+      "buttons",
+      "phone pinch",
+      "empty-floor drag"
+    ],
+    "notifications": [
+      "meal",
+      "guest",
+      "pickup",
+      "supplies"
+    ],
+    "actions": "Reveal location only; no gameplay action",
+    "protected": [
+      "English tasks",
+      "story",
+      "setup",
+      "pause"
+    ],
+    "deviceFPS": "Unmeasured",
+    "browserCases": 21,
+    "evidence": [
+      "validation/zoom-browser-v0.48.0.json",
+      "validation/zoom-final-focused-v0.48.0.txt"
+    ],
+    "extractedRuntimePassed": true
+  },
+  "foodPreparation": {
+    "motionTypes": [
+      "pour",
+      "tumble",
+      "sprinkle",
+      "stack",
+      "arrange"
+    ],
+    "placementSeconds": [
+      0.4,
+      0.46
+    ],
+    "stackSettleSeconds": 0.14,
+    "rimHighlightSeconds": 0.38,
+    "newTextureBytes": 0,
+    "maxComponentBatchesPerPortion": 12,
+    "steamCapacity": 8,
+    "crumbCapacity": 10,
+    "paperAndVesselSizes": "unchanged",
+    "rotationRestoration": "Immediate and silent",
+    "deviceFPS": "Unmeasured",
+    "evidence": [
+      "validation/preparation-focused-v0.49.0.txt",
+      "validation/preparation-test-summary-v0.49.0.json"
+    ],
+    "browserCases": 12,
+    "extractedRuntimePassed": true,
+    "dropCaption": "Yields after accepted placements; full target retained"
+  },
+  "interactionCraft": {
+    "touch": "visual-only pickup, destination, label flight/return and washing ownership",
+    "customerGestures": [
+      "menu",
+      "chat",
+      "kitchen",
+      "watch",
+      "raise"
+    ],
+    "priority": "English, held props, explicit reactions, dining and Reduced motion",
+    "materialMaps": "four existing generated maps reused; no extra lights or downloads",
+    "deviceFPS": "unmeasured",
+    "automatedChecks": 8,
+    "evidence": [
+      "validation/interaction-test-summary-v0.50.0.json",
+      "validation/interaction-browser-v0.50.0.json",
+      "validation/interaction-scene-counts-v0.50.0.json"
+    ],
+    "browserCases": 10,
+    "browserPageErrors": 0,
+    "characterShadowBatchCapacity": "2 \u00d7 venue seats + pickup guests + chef",
+    "newImageDownloads": 0,
+    "newDynamicLights": 0,
+    "extractedRuntimePassed": true
+  },
+  "phoneFieldFixes": {
+    "referenceScreenshots": [
+      "IMG_0778.PNG",
+      "IMG_0779.PNG",
+      "IMG_0780.PNG",
+      "IMG_0782.PNG",
+      "IMG_0783.PNG"
+    ],
+    "antialias": "all quality modes at context creation",
+    "pixelRatioCaps": {
+      "lite": 1.5,
+      "high": 2
+    },
+    "lightEnvironment": true,
+    "phoneReviews": [
+      148,
+      140
+    ],
+    "physicalPhoneFPS": "unmeasured",
+    "browserCases": 15,
+    "browserPageErrors": 0,
+    "screenWidths": [
+      315,
+      320,
+      390,
+      393,
+      844
+    ],
+    "rootViewport": "Fixed/clipped; scroll remains at zero after task focus",
+    "locationButtons": "At least 44 px; collision-aware; normal kitchen commands",
+    "reviewPlacement": "Avoids task signs, rail and camera",
+    "evidence": [
+      "validation/phone-browser-v0.51.0.json",
+      "validation/phone-test-summary-v0.51.0.json",
+      "validation/phone-extracted-v0.51.0.json"
+    ],
+    "extractedRuntimePassed": true,
+    "nativeFoodIconDrag": true
+  },
+  "phoneActions": {
+    "version": "0.52.0",
+    "simpleScreens": "under 760 CSS px or coarse primary pointer",
+    "phoneDock": "one contextual main action; no Hold/Return",
+    "safeStorage": "walk to Counter or Pass before the selected ordinary job",
+    "fullCounter": "atomic tray swap at Counter; other blocked actions unavailable",
+    "explicitCooking": true,
+    "protectedEnglishRetained": true,
+    "sourceBrowserCases": 10,
+    "physicalDeviceFPS": "unmeasured",
+    "evidence": [
+      "validation/simple-kitchen-test-summary-v0.52.0.json",
+      "validation/simple-kitchen-browser-v0.52.0.json",
+      "validation/simple-kitchen-extracted-v0.52.0.json"
+    ],
+    "extractedRuntimePassed": true
+  },
+  "taskColours": {
+    "version": "0.53.0",
+    "tables": {
+      "T1": "sage green",
+      "T2": "dusty pink",
+      "T3": "terracotta",
+      "T4": "teal"
+    },
+    "takeaway": "violet/P order number",
+    "washing": "blue/WASH",
+    "supplies": "ochre/STOCK",
+    "correctnessAndHouseColoursIndependent": true,
+    "tagTextureSize": [
+      256,
+      64
+    ],
+    "extraDownloadedMedia": 0,
+    "newDynamicLights": 0,
+    "newAnimations": 0,
+    "expandedGuideKeepsTableBadge": true,
+    "duplicateCounterAliasCountFixed": true,
+    "physicalDeviceFPS": "unmeasured",
+    "evidence": [
+      "validation/task-colours-test-summary-v0.53.0.json",
+      "validation/task-colours-browser-v0.53.0.json",
+      "validation/task-colours-extracted-v0.53.0.json"
+    ],
+    "browserCases": 15,
+    "browserPageErrors": 0,
+    "extractedRuntimePassed": true
+  },
+  "previousFullRegression": {
+    "version": "0.53.0",
+    "passed": 465,
+    "scope": "See fullRegressionRun for the retained evidence and earlier recovery limitations."
+  },
+  "currentVerificationScope": "469 unique regression checks: initial full run 465 passed and four old total-mesh assertions failed after scenery was added. Their checks now keep the original room limit and separately bound exterior/hidden walking meshes. Final 106 affected scene, service, graphics, startup and story checks all pass. Final paired arrivals and terrace material are included in that rerun.",
+  "openingLayout": {
+    "version": "0.54.0",
+    "passPlayRemoved": true,
+    "legacyCooperativeDisabled": true,
+    "characterName": "Chef",
+    "creatorCredit": "by Mr. Saymaz",
+    "order": [
+      "Restaurant",
+      "Ulti",
+      "Team",
+      "Lesson and Pace",
+      "Shop and Open caf\u00e9",
+      "Design"
+    ],
+    "minimumTouchTargetCSSpx": 44,
+    "shortLandscape": "Scroll inside setup",
+    "physicalDevicePerformance": "Unmeasured",
+    "evidence": [
+      "validation/opening-layout-v0.54.0.json"
+    ],
+    "focusedUniquePassingChecks": 63,
+    "renderedViewportCases": 10,
+    "nativeDialogsAndStartPassed": true,
+    "browserPageErrors": 0,
+    "testedRuntimeBundleSHA256": "cc7a0a35ee290befd98969d5298c8a8e2665fb2326528f5d5c97b8611279729d",
+    "extractedRuntimePassed": true
+  },
+  "neighbourhood": {
+    "version": "0.55.0",
+    "venues": [
+      "Caf\u00e9",
+      "Diner",
+      "Bistro"
+    ],
+    "nearScenery": "All screens",
+    "distantShopRenderFromCSSWidth": 600,
+    "newDynamicLights": 0,
+    "newExternalMedia": 0,
+    "newAnimationLoops": 0,
+    "signAtlasPixels": [
+      512,
+      512
+    ],
+    "awningDripSegments": 16,
+    "movingFoliageClusters": 2,
+    "arrivalMaxSeconds": 4.6,
+    "taskAvailabilityChanged": false,
+    "pauseAndReducedMotionSupported": true,
+    "allEnglishStationsCutAwayExterior": true,
+    "queueAtLevel": {
+      "4": 1,
+      "5": 2
+    },
+    "existingRoomMeshBudgetsRetained": true,
+    "browserCases": 25,
+    "browserPageErrors": 0,
+    "physicalDeviceFPS": "Unmeasured",
+    "evidence": [
+      "validation/neighbourhood-geometry-v0.55.0.json",
+      "validation/neighbourhood-browser-v0.55.0.json",
+      "validation/neighbourhood-test-summary-v0.55.0.json",
+      "validation/neighbourhood-extracted-v0.55.0.json"
+    ],
+    "extractedRuntimePassed": true,
+    "testedBundleSHA256": "233a2ecb49131c2f5200b03b0714f67c028c1f92a278795923035af67fc814f1"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "version": "0.46.2",
+  "cases": [
+    {
+      "label": "consecutive translation menu rounds",
+      "frames": 61,
+      "hiddenFrames": 0,
+      "unfittedFrames": 0,
+      "newRoundFlights": 0,
+      "coverPaints": 0,
+      "badFrames": []
+    },
+    {
+      "label": "Wrong answer recovery, matched and selected cards survive rotation and pause; hint retains the next correct pair",
+      "pass": true
+    },
+    {
+      "label": "picture consecutive rounds",
+      "frames": 69,
+      "hiddenFrames": 0,
+      "unfittedFrames": 0,
+      "newRoundFlights": 0,
+      "coverPaints": 0,
+      "badFrames": []
+    },
+    {
+      "label": "picture completes both rounds",
+      "pass": true
+    },
+    {
+      "label": "translation-reverse consecutive rounds",
+      "frames": 55,
+      "hiddenFrames": 0,
+      "unfittedFrames": 0,
+      "newRoundFlights": 0,
+      "coverPaints": 0,
+      "badFrames": []
+    },
+    {
+      "label": "translation-reverse completes both rounds",
+      "pass": true
+    },
+    {
+      "label": "audio-translation consecutive rounds",
+      "frames": 58,
+      "hiddenFrames": 0,
+      "unfittedFrames": 0,
+      "newRoundFlights": 0,
+      "coverPaints": 0,
+      "badFrames": []
+    },
+    {
+      "label": "audio-translation completes both rounds",
+      "pass": true
+    },
+    {
+      "label": "listening consecutive rounds",
+      "frames": 23,
+      "hiddenFrames": 0,
+      "unfittedFrames": 0,
+      "newRoundFlights": 0,
+      "coverPaints": 0,
+      "badFrames": []
+    },
+    {
+      "label": "listening completes both rounds",
+      "pass": true
+    },
+    {
+      "label": "listening-pair consecutive rounds",
+      "frames": 18,
+      "hiddenFrames": 0,
+      "unfittedFrames": 0,
+      "newRoundFlights": 0,
+      "coverPaints": 0,
+      "badFrames": []
+    },
+    {
+      "label": "listening-pair completes both rounds",
+      "pass": true
+    },
+    {
+      "label": "takeaway numbers relaxed",
+      "frames": 92,
+      "hiddenFrames": 0,
+      "unfittedFrames": 0,
+      "newRoundFlights": 0,
+      "coverPaints": 0,
+      "badFrames": []
+    },
+    {
+      "label": "takeaway numbers challenge",
+      "frames": 49,
+      "hiddenFrames": 0,
+      "unfittedFrames": 0,
+      "newRoundFlights": 0,
+      "coverPaints": 0,
+      "badFrames": []
+    },
+    {
+      "label": "translation to listening",
+      "frames": 58,
+      "hiddenFrames": 0,
+      "unfittedFrames": 0,
+      "newRoundFlights": 0,
+      "coverPaints": 0,
+      "badFrames": []
+    },
+    {
+      "label": "listening to picture",
+      "frames": 21,
+      "hiddenFrames": 0,
+      "unfittedFrames": 0,
+      "newRoundFlights": 0,
+      "coverPaints": 0,
+      "badFrames": []
+    }
+  ],
+  "errors": [],
+  "externalRequests": [],
+  "method": "Actual app with scratch-only task fixtures. Native touch controls and frame-by-frame task overlay sampling. Software WebGL Chromium; physical-device FPS/audio unmeasured."
+}

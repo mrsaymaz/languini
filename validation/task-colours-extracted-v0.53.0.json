@@ -1,0 +1,18 @@
+{
+  "version": "0.53.0",
+  "actualExtractedFileOrigin": true,
+  "noQAHooks": true,
+  "phoneWidths": [
+    320,
+    393,
+    844
+  ],
+  "nativeMainActionToMatchingTask": true,
+  "sharedWashAndSuppliesIdentity": true,
+  "recipeIdentity": true,
+  "expandedGuideHeaderAndBadge": true,
+  "desktopDockRetained": true,
+  "bundleSha256": "8608f64df089e9319b1d42bd54e72c626a74886b27baa18e271b49f235d2b7a2",
+  "errors": [],
+  "externalRequests": []
+}

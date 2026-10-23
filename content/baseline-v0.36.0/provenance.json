@@ -1,0 +1,30 @@
+{
+  "version": "0.12.0",
+  "source": "Wordrift-v0.23.1.zip",
+  "grades": 4,
+  "units": 44,
+  "tasks": 3033,
+  "conversations": 531,
+  "repairs": 259,
+  "derivedListening": 742,
+  "policy": "Wordrift material plus the four supplied grade banks. All existing unit IDs, names and order are preserved. Five unmatched source sections are excluded. Duplicate questions are merged. Replies are expanded where needed, and vocabulary questions stay within their grade and theme.",
+  "sources": [
+    "Wordrift-v0.23.1.zip",
+    {
+      "file": "grade5.json",
+      "sha256": "ab2e64d700abb66e5e4674ad5f289bb9e0d46858c5779e6de73bbf3d02c68ca5"
+    },
+    {
+      "file": "grade6.json",
+      "sha256": "15dbf9fbd1d8a6c6960ec7d8833f5d656e32b9da35bd24eb67350aa982d411ee"
+    },
+    {
+      "file": "grade7.json",
+      "sha256": "d4e005c6f744b0d1f2336e6b80a39465f3027e8078938ce84a4f343caf120ace"
+    },
+    {
+      "file": "grade8.json",
+      "sha256": "8eb581dac9f4557b5f181a1ad256a4a9ae016ab4b28cb7727fba7858cacef3b5"
+    }
+  ]
+}

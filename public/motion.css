@@ -1,0 +1,24 @@
+/* Short action-led flourishes. Projected paper/control transforms stay untouched. */
+@keyframes languini-arrive{from{opacity:0;translate:0 7px}to{opacity:1;translate:0 0}}
+@keyframes languini-ink{0%{box-shadow:inset 0 0 0 2px #9fcba8,0 0 0 0 #71a98466}60%{box-shadow:inset 0 0 0 1px #8ebc98,0 0 0 5px #71a98400}100%{box-shadow:inset 0 0 0 0 transparent,0 0 0 0 transparent}}
+@keyframes languini-mark{0%{scale:.65;rotate:-8deg}65%{scale:1.15;rotate:3deg}100%{scale:1;rotate:0deg}}
+@keyframes languini-link{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
+@keyframes languini-audio{0%,100%{opacity:.65;scale:.92}50%{opacity:1;scale:1.07}}
+#setup:not([hidden]) .intro-copy{animation:languini-arrive .45s ease both}
+#setup:not([hidden]) .setup-card{animation:languini-arrive .52s .06s ease both}
+.setup-card :is(.team-option,.difficulty-option,.arena-option){transition:background-color .18s,border-color .18s,box-shadow .18s}
+.setup-card :is(.team-option,.difficulty-option,.arena-option)[aria-pressed=true]>:is(svg,.crest){animation:languini-mark .32s ease-out both}
+#task-card.object-ui[data-moving=false] .station-status{animation:languini-arrive .25s ease-out both}
+#task-card.object-ui :is(.pair-card.matched,.reply-bubble.correct,.answer-button.correct,.repair-sentence .fixed,.ticket-gap.filled){animation:languini-ink .42s ease-out}
+#task-card.object-ui .wash-block.connected .wash-mark{animation:languini-mark .30s ease-out}
+#task-card.object-ui .tablet-confirmation.confirmed{animation:languini-ink .42s ease-out}
+#task-card.object-ui #washing-links polyline{stroke-dasharray:1;stroke-dashoffset:0;animation:languini-link .28s ease-out both}
+#task-card.object-ui :is(.pair-audio.playing,#listen-again.playing) svg{animation:languini-audio .8s ease-in-out infinite}
+#task-card.object-ui[data-restored=true] :is(.correct,.matched,.fixed,.filled,.confirmed,.wash-mark),#task-card.object-ui[data-restored=true] #washing-links polyline{animation:none!important}
+[data-motion-restore=true],[data-motion-restore=true] .wash-mark{animation:none!important}
+[data-paused=true] #play *,[data-paused=true] #play *::before,[data-paused=true] #play *::after{animation-play-state:paused!important}
+[data-motion=reduced] *,[data-motion=reduced] *::before,[data-motion=reduced] *::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+
+/* Resume controls remain visible while gameplay is paused. */
+[data-paused=true] #pause-modal .small-modal{animation:none;opacity:1;transform:none}

@@ -1,0 +1,41 @@
+/* Crisp native ink on a six-sided card, with depth and a vertical-axis turn. */
+.customer-reviews{position:absolute;inset:0;pointer-events:none;z-index:4;overflow:hidden}
+.customer-review{position:absolute;box-sizing:border-box;perspective:850px;perspective-origin:50% 42%;pointer-events:none;color:#315641;will-change:opacity}
+.review-turntable{position:absolute;inset:0;transform-style:preserve-3d;transform-origin:50% 50%;will-change:transform}
+.review-face{position:absolute;inset:0;box-sizing:border-box;border-radius:15px;backface-visibility:hidden;-webkit-backface-visibility:hidden;overflow:hidden;border:1px solid #cbb47d;box-shadow:inset 0 0 0 2px #fff9e8,inset 0 0 0 4px #cbb47d55}
+.review-front{padding:13px 15px 10px;background:radial-gradient(ellipse at 0 0,#ffffffc9,transparent 65%),linear-gradient(135deg,#fffdf1,#f2e5c7);transform:translateZ(3px);filter:brightness(var(--review-front-light,1))}
+.review-front::before{content:'';position:absolute;inset:7px;border:1px solid #b69a5b40;border-radius:9px;pointer-events:none}
+.review-front header{position:relative;display:flex;justify-content:space-between;align-items:center;height:27px;color:#506c4e;font:800 10px/1.2 var(--sans);letter-spacing:.14em}
+.review-front header small{display:block;margin-top:3px;font:700 9px/1.1 var(--sans);letter-spacing:.07em;color:#8e7f59}
+.review-medallion{width:29px;height:29px;display:grid;place-items:center;background:linear-gradient(140deg,#f6dfa2,#bd9145);border:1px solid #ae8849;border-radius:50%;box-shadow:inset 0 1px 2px #fff8dd,0 2px 3px #69573130;color:#6f653d}
+.review-medallion svg{width:18px;height:18px}
+.review-front h3{margin:4px 0 5px;font:600 18px/1.15 var(--serif);letter-spacing:-.03em;color:#355541}
+.review-ratings{padding:3px 0;border-block:1px solid #c6b17d66}
+.rating-row{display:flex;justify-content:space-between;align-items:center;gap:8px;height:22px;font:700 12px/1.2 var(--sans)}
+.rating-row>span{display:flex;gap:4px}.review-star{display:flex;font-style:normal}.rating-row svg{width:18px;height:18px;stroke-width:1.6}
+.rating-row .earned{color:#ac7b27;fill:#ecc66b;filter:drop-shadow(0 1px 0 #fff5ce) drop-shadow(0 1px 1px #a0763640)}
+.rating-row .unearned{color:#c7bea5;fill:#e9e1cd}
+.review-front footer{display:flex;gap:4px;align-items:center;justify-content:center;margin-top:6px;color:#7b805e;font:700 9px/1.2 var(--sans);letter-spacing:.04em}
+.review-front footer svg{width:11px;height:11px;color:#6b9566}
+.review-back{padding:10px;background:radial-gradient(ellipse at 10% 0,#54765d,#244c3c 68%);transform:rotateY(180deg) translateZ(3px);filter:brightness(var(--review-back-light,1));box-shadow:inset 0 0 0 2px #325941,inset 0 0 0 4px #c1a36899;color:#f0dbac}
+.review-back-frame{height:100%;border:1px solid #d5b87980;border-radius:8px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;background:repeating-linear-gradient(45deg,transparent 0 15px,#d4bf8d06 15px 16px)}
+.review-monogram{display:grid;place-items:center;width:49px;height:49px;border:1px solid #ddc18a;border-radius:50%;font:500 35px/1 var(--serif);box-shadow:0 0 0 4px #d3b77712,inset 0 0 0 3px #d3b77718;text-shadow:0 2px 1px #142e27}
+.review-back b{font:800 11px/1 var(--sans);letter-spacing:.22em}.review-back small{font:500 9px/1.2 var(--serif);color:#d5c99f}.review-back-stars{display:flex;gap:6px}.review-back-stars svg{width:12px;height:12px;fill:#e6c381;color:#e6c381}
+.review-foil{position:absolute;inset:0;border-radius:inherit;background:linear-gradient(112deg,transparent 30%,#fff6d955 47%,#fffbed88 50%,#fff6d933 53%,transparent 70%);background-size:220% 100%;background-position:var(--review-shine,0%) 0;opacity:.45;pointer-events:none}
+.review-edge{position:absolute;background:linear-gradient(90deg,#9b793c,#ebd59e 35%,#c1a365 65%,#9d804b);backface-visibility:visible}
+.edge-left,.edge-right{width:6px;top:14px;bottom:14px}.edge-left{left:-3px;transform:rotateY(90deg)}.edge-right{right:-3px;transform:rotateY(90deg)}
+.edge-top,.edge-bottom{height:6px;left:14px;right:14px}.edge-top{top:-3px;transform:rotateX(90deg)}.edge-bottom{bottom:-3px;transform:rotateX(90deg)}
+.review-shadow{position:absolute;inset:8px 2px -1px;border-radius:17px;background:#173e2926;box-shadow:0 8px 14px #173e2926;transform:translateY(5px);pointer-events:none}
+[data-motion=reduced] .review-turntable{will-change:auto}
+
+.customer-rating{position:absolute;transform:translate(-50%,-100%);display:grid;justify-items:center;gap:7px;padding:15px 12px 12px;border:1px solid #a7a58b;border-radius:16px;background:linear-gradient(145deg,#fffdf3,#eee7d3);box-shadow:0 7px 18px #203f3938;color:#355741;text-align:center;pointer-events:none}
+.customer-rating strong{font:800 clamp(17px,4.6vw,22px)/1.2 var(--sans);letter-spacing:-.035em}
+.customer-rating small{font:800 9px/1.3 var(--sans);letter-spacing:.12em}
+.rating-stars{display:flex;gap:5px}.rating-stars svg{width:22px;height:22px}.rating-stars .earned{fill:#d4ae52;color:#9a762f}.rating-stars .unearned{color:#c5bba3;fill:#e2dac6}
+.customer-rating[data-high=true]{border:2px solid #d3ad53;background:radial-gradient(ellipse at 50% 0,#fff2ba,#fffaf0 70%);box-shadow:0 0 0 4px #e8ce7740,0 8px 28px #64512544;color:#715119;animation:rating-arrival .42s cubic-bezier(.16,.9,.25,1.2) both}
+.customer-rating[data-perfect=true]{background:radial-gradient(ellipse at 50% 0,#ffe895,#fffaf0 78%);box-shadow:0 0 0 5px #e9c96d4d,0 0 30px #ffe59c80,0 9px 25px #64512544}
+.customer-rating[data-high=true] .rating-stars svg{animation:rating-star .6s ease both}.customer-rating .rating-stars svg:nth-child(2){animation-delay:.06s}.customer-rating .rating-stars svg:nth-child(3){animation-delay:.12s}.customer-rating .rating-stars svg:nth-child(4){animation-delay:.18s}.customer-rating .rating-stars svg:nth-child(5){animation-delay:.24s}
+@keyframes rating-arrival{from{transform:translate(-50%,-82%) scale(.88)}to{transform:translate(-50%,-100%) scale(1)}}
+@keyframes rating-star{from{transform:scale(.5) rotate(-12deg)}to{transform:scale(1) rotate(0)}}
+[data-paused=true] .customer-rating,[data-paused=true] .rating-stars svg{animation-play-state:paused}
+[data-motion=reduced] .customer-rating,[data-motion=reduced] .rating-stars svg{animation:none}

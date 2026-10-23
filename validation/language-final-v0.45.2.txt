@@ -1,0 +1,14 @@
+✔ all 4805 reviewed tasks have complete, unique answer keys and reconstructible sentence blocks (89.318558ms)
+✔ the reported kings and queens clue always offers exactly one chess club answer (7.86614ms)
+✔ both paces and random choice order preserve one correct key for every choice task (736.401439ms)
+✔ future malformed language imports are rejected instead of creating an impossible task (0.784855ms)
+✔ generated matching, listening and functional pickup tasks retain distinct selectable matches (36.921981ms)
+✔ sorting cards have one explicit category in their own pack and both trays have answers (12.007121ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1272.267918

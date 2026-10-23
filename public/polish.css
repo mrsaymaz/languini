@@ -1,0 +1,127 @@
+/* v0.13: paper, joinery and enamel. Native ink uses the station geometry. */
+:root{--ink:#243f38;--muted:#697a6d;--cream:#fffaf0;--paper:#f5ecd9;--green:#326b59;--green-dark:#204d3e;--gold:#bf965d;--cyan:#58dce6;--line:#dcd2ba;--radius-control:10px;--shadow-contact:0 2px 0 #8f75502b;--shadow-raised:0 5px 14px #2c382324}
+body{font-kerning:normal;text-rendering:optimizeLegibility}
+button,select{transition:background-color .12s,border-color .12s,box-shadow .12s}
+.setup-card,.small-modal,.shop-card,.results-card{background:linear-gradient(135deg,#fffbee,#f8f0df);border:1px solid #e1d1af;box-shadow:0 18px 65px #273c3038,inset 0 0 0 4px #fffdf044}
+.setup-heading h2,.small-modal h2,.shop-card h2,.results-card h2{color:#2b5747}
+.setup-card .team-option,.setup-card .difficulty-option,.setup-card .arena-option{border-color:#d6cfb7;background:linear-gradient(#fffcef,#f2eddf)}
+.setup-card button[aria-pressed=true]{border-color:var(--team-color,#5c8b70);background:linear-gradient(#f3f6e5,#e2ead6)}
+.brand-icon{background:linear-gradient(150deg,#315d4d,#183f35);box-shadow:inset 0 0 0 1px #a9be8a,0 3px 0 #9c885844}
+.primary-button{background:linear-gradient(#3f7b62,#285944);box-shadow:0 3px 0 #19452f,0 8px 18px #294b3528;color:#fff9e7}
+.primary-button:focus-visible{outline-color:#19bacf}
+.display-settings{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:14px 0}
+.display-settings label{display:flex;flex-direction:column;gap:6px;font-size:12px;color:#516b56;letter-spacing:0;text-align:left}
+.display-settings select{width:100%;min-width:0;min-height:44px;padding:7px 8px;border:1px solid #c7c8ac;border-radius:8px;font-size:12px;line-height:1.3;color:#325845;background:#fff9e9}
+.performance-note{font:11px/1.4 var(--sans);color:#6d7c68;margin:0 0 12px}
+#equipment-note.equipped-summary{display:block!important;margin:0;font:600 10px/1.25 var(--sans);color:#4c7359;letter-spacing:0}
+.station-route{display:flex;align-items:center;gap:3px;margin-top:3px;height:12px}
+.station-route i{display:grid;place-items:center;width:15px;height:12px;color:#8e937b;opacity:.6}
+.station-route i svg{width:11px;height:11px}
+.station-route .current{color:#1e7569;opacity:1;border-bottom:2px solid #298c7b}
+.station-route .done{color:#527b4b;opacity:1}
+#task-card.object-ui .station-status>span:last-child{max-width:340px}
+#task-card.object-ui .table-token{background:linear-gradient(150deg,var(--team),color-mix(in srgb,var(--team) 80%,#283c33));border-color:#fff1cfaa;box-shadow:0 3px 0 #695b382b,0 5px 9px #233e3220}
+#task-card.object-ui .device-surface{background:linear-gradient(135deg,#f7f6e9,#e9efdf);border-color:#9cac8f}
+#task-card.object-ui .menu-page .pair-card,#task-card.object-ui .menu-page .tablet-choice{background:linear-gradient(150deg,#fffdf3,#f7f4e6);border-color:#bdc6aa;box-shadow:var(--shadow-contact)}
+#task-card.object-ui .menu-page .pair-card.selected,#task-card.object-ui .menu-page .tablet-choice.selected{background:#e5f5e8;border:2px solid #287d70;box-shadow:inset 0 -3px 0 #8db99a66}
+#task-card.object-ui .pair-card.selected::before{content:'•';position:absolute;left:3px;top:2px;font-size:12px;line-height:12px;color:#287d70;pointer-events:none}
+#task-card.object-ui .menu-page .pair-card.matched{background:linear-gradient(#e6efd8,#d8e5cd);border-color:#91b28a;box-shadow:inset 0 1px 3px #3f62351a}
+#task-card.object-ui .menu-page .pair-card.pair-wrong{border:2px dashed #aa7849;background:#fff0dc}
+#task-card.object-ui .menu-page .pair-card.hinted{outline:2px dashed #b78945;outline-offset:-4px}
+#task-card.object-ui .delivery-page .label-choice.selected{box-shadow:0 3px 0 #aa916c55,inset 0 0 0 2px #ffffff66;border-style:solid}
+#task-card.object-ui .delivery-page .label-choice.selected .sticker-corner{width:15px;height:15px;background:linear-gradient(135deg,#f3f8e5 48%,#bdcdab 50%)}
+#task-card.object-ui .sort-destination.drop-ready{outline:3px solid #338574;outline-offset:-3px;background:#c8e7ca33}
+#task-card.object-ui .sort-destination b{border-bottom:2px solid #bdad82;box-shadow:0 2px 2px #5b452215}
+#task-card.object-ui .sort-destination:first-of-type b::before{content:'Ⅰ ';color:#927445}
+#task-card.object-ui .sort-destination:last-of-type b::before{content:'Ⅱ ';color:#927445}
+#task-card.object-ui .recipe-note{background:linear-gradient(110deg,#fffdf1,#f4e8cc);border-color:#bcaa81}
+#task-card.object-ui .ingredient-option.selected{background:#e6f1da;outline:2px solid #48846c;outline-offset:-2px;box-shadow:0 3px 6px #2c4b3026}
+#task-card.object-ui .ingredient-option.used{color:#406742;opacity:.9}
+#task-card.object-ui .object-drop-zone.drop-ready{outline:3px solid #379680;outline-offset:-3px;background:#bde5cc26}
+#task-card.object-ui .speech-question{background:linear-gradient(135deg,#fffcf0,#f6edda);border-color:#c9b58a;box-shadow:0 3px 0 #b39c7044,0 8px 20px #3549311c}
+#task-card.object-ui .reply-bubble{background:linear-gradient(135deg,#fafbeb,#e9efdd);border-color:#b7c5a6}
+#task-card.object-ui .reply-bubble.incorrect{border:2px dashed #af814f}
+/* Current-stage ticket/register composition: no essential inner scrolling. */
+#task-card.object-ui [data-page=ticket] .surface-scroll,#task-card.object-ui [data-page=checkout] .surface-scroll{display:flex;flex-direction:column;gap:var(--page-gap,5px);height:100%;padding:var(--page-padding,8px);overflow:visible;touch-action:manipulation;scroll-padding:0;box-shadow:none}
+#task-card.object-ui [data-page=ticket],#task-card.object-ui [data-page=checkout]{overflow:visible}
+#task-card.object-ui [data-page=ticket] .printed-ticket-heading{flex:none;height:var(--page-header,48px);min-height:0;padding:var(--clip-clearance,48px) 0 0!important;margin:0;border:0;align-items:end;position:relative}
+#task-card.object-ui [data-page=ticket] .printed-ticket-heading>span{position:absolute;bottom:0}
+#task-card.object-ui [data-page=ticket] .printed-ticket-heading>span:last-child{right:0}
+#task-card.object-ui [data-page=ticket] .printed-ticket-heading b{font:700 12px/1.1 var(--serif);letter-spacing:.04em}
+#task-card.object-ui [data-page=ticket] .printed-ticket-heading small{font:700 9px/1.1 var(--sans);margin:1px 0 0}
+#task-card.object-ui [data-page=ticket] .ticket-order-no{font-size:17px}
+#task-card.object-ui [data-page=ticket] .ticket-sentence{font:700 var(--page-font,16px)/1.3 var(--sans);margin:0;min-height:var(--page-sentence-height,44px);letter-spacing:0;overflow-wrap:anywhere;flex:none}
+#task-card.object-ui [data-page=ticket] .ticket-gap{font:inherit;min-height:44px;min-width:64px;padding:5px 8px;vertical-align:middle;max-width:100%}
+#task-card.object-ui [data-page=ticket] .ticket-choices-label{display:none}
+#task-card.object-ui [data-page] .ticket-choices{display:grid;grid-template-columns:repeat(var(--page-columns,3),minmax(0,1fr));gap:var(--page-gap,5px);margin:0;flex:none}
+#task-card.object-ui [data-page] .ticket-choice,#task-card.object-ui [data-page] .repair-choice{min-width:0;min-height:44px;height:var(--page-choice-height,44px);padding:5px 7px;font:700 var(--page-font,16px)/1.3 var(--sans);margin:0;overflow:visible}
+#task-card.object-ui [data-page=ticket] .ticket-bottomline{font:600 10px/1.2 var(--sans);padding:4px 0 0;min-height:22px;margin:0;border-top:1px dashed #c9b68c;flex:none}
+#task-card.object-ui [data-page=ticket] .ticket-grip{min-height:44px;height:44px;margin:0;padding:5px 8px;flex:none}
+#task-card.object-ui [data-page=checkout] .terminal-heading{height:24px;min-height:24px;margin:0;padding:0;border:0;font-size:11px;line-height:1.1;flex:none}
+#task-card.object-ui [data-page=checkout] .terminal-heading small{font-size:8px;line-height:1.1;letter-spacing:.04em;margin-top:1px}
+#task-card.object-ui [data-page=checkout] .terminal-heading svg{width:12px;height:12px;margin-right:4px}
+#task-card.object-ui [data-page=checkout] .repair-sentence{gap:5px;align-items:center;margin:0;flex:none;font:700 var(--page-font,16px)/1.3 var(--sans)}
+#task-card.object-ui [data-page=checkout] .repair-word{min-width:44px;min-height:44px;max-width:100%;padding:4px 7px;font:inherit;line-height:1.3;touch-action:manipulation}
+#task-card.object-ui:not([data-stage=find]) [data-page=checkout] .repair-word:disabled:not(.flagged){min-width:0;min-height:0;padding:0;border:0;box-shadow:none;background:transparent;opacity:1;color:#e3ecd6}
+#task-card.object-ui [data-page=checkout] .eraser-button,#task-card.object-ui [data-page=checkout] .print-button{height:44px;min-height:44px;padding:6px 9px;margin:0;flex:none;font-size:14px;box-shadow:0 2px 0 #112f2833}
+#task-card.object-ui [data-page=checkout] .reply-label{display:none}
+#task-card.object-ui [data-page=checkout] .terminal-status{font:600 10px/1.2 var(--sans);min-height:18px;padding:3px 0 0;margin:0;flex:none}
+#task-card.object-ui [data-page=checkout] .repair-instruction{display:none}
+#task-card.object-ui .listening-caption{background:#fff9e9!important;border:1px solid #c8b887!important;box-shadow:inset 0 2px 3px #6b543112}
+/***** Feedback remains separate from the user's moving finger. *****/
+#task-card.object-ui[data-landing=ready] .task-feedback::before{content:'↓ ';font-weight:900}
+#task-card.object-ui[data-feedback=wrong] .task-feedback::before{content:'↻ ';font-weight:900}
+.project-card{border:1px solid #cec5a7;background:#fffbef;border-radius:10px;box-shadow:var(--shadow-contact)}
+.project-card.active{border-color:#669879;box-shadow:inset 3px 0 0 #669879}
+.pass-dish[aria-pressed=true]{border:2px solid #3d8d79;background:#e9f2d8}
+.table-label.delivery-target{outline:2px solid #439780;outline-offset:2px}
+#task-card.object-ui[data-moving=true] .object-surface,#task-card.object-ui[data-moving=true] .guest-chat,#task-card.object-ui[data-moving=true] .conversation-replies{opacity:0;pointer-events:none}
+#task-card.object-ui .object-surface{transition:opacity .10s}
+@media(max-height:500px){.station-route{display:none}}
+@media(max-height:450px) and (min-aspect-ratio:14/10){#equipment-note.equipped-summary{grid-column:1/-1;grid-row:4;font-size:9px}.setup-card:has(#equipment-note.equipped-summary)>.setup-actions{grid-row:5}}
+:root[data-motion=reduced] *, :root[data-motion=reduced] *::before, :root[data-motion=reduced] *::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+
+/* Replay remains a visible, independent control when a clue is revealed. */
+#task-card.object-ui .listen-audio-wrap{display:grid;grid-template-columns:52px minmax(0,1fr);gap:8px;align-items:stretch}
+#task-card.object-ui .menu-page .customer-audio{height:100%;min-height:44px;padding:4px;gap:2px;flex-direction:column}
+#task-card.object-ui .menu-page .customer-audio>svg{width:22px;height:22px;flex-shrink:0}
+#task-card.object-ui .menu-page .customer-audio>span{font:700 10px/1.2 var(--sans)}
+#task-card.object-ui .listening-clue{position:relative;min-width:0;display:grid;place-items:center;align-content:center;padding:4px 6px;background:#edf0df;border:1px solid #c5ceb4;border-radius:8px}
+#task-card.object-ui .listening-help{font:600 11px/1.3 var(--sans);color:#607353;text-align:center}
+#task-card.object-ui .listening-clue:has(.listening-caption:not([hidden])) .listening-help{display:none}
+#task-card.object-ui .menu-page .listening-caption{position:static;inset:auto;padding:0;border:0!important;background:transparent!important;box-shadow:none!important;border-radius:0;overflow-wrap:anywhere;font:700 var(--page-support-font,15px)/1.25 var(--sans);text-align:center;width:100%}
+#task-card.object-ui [data-flow=wide] .listening-tablet{grid-template-columns:var(--page-audio-width) minmax(0,1fr)}
+#task-card.object-ui [data-flow=wide] .listening-tablet>.listen-audio-wrap{grid-template-columns:minmax(0,1fr);grid-template-rows:52px minmax(0,1fr);gap:4px}
+#task-card.object-ui [data-flow=wide] .listening-tablet .customer-audio{flex-direction:row;gap:5px;padding:4px}
+#task-card.object-ui [data-flow=wide] .listening-tablet .customer-audio>span{font-size:12px}
+#task-card.object-ui .tablet-choice.selected{outline:2px solid #287d70;outline-offset:-3px}
+#task-card.object-ui .ingredient-option.used:disabled{visibility:visible;opacity:1;color:#477456;background:transparent;pointer-events:none}
+#task-card.object-ui .ingredient-option.used>span{text-decoration:underline;text-decoration-color:#8faa88;text-underline-offset:3px}
+
+/* Order signals shorten their presentation only when the full cards cannot fit. */
+.signal-identity,.signal-dish{display:block}
+.table-label[data-recommended=true],#delivery-button[data-recommended=true]{border-color:#a78d50;box-shadow:inset 3px 0 0 #b59a5d,0 4px 12px #294a351c}
+.table-label[data-compact=true]{height:64px;min-height:64px;padding:5px 7px;gap:5px;align-items:center}
+.table-label[data-compact=true] .signal-dish{display:none}
+.table-label[data-compact=true] b{font-size:10px;line-height:1.2}
+.table-label[data-compact=true] small{font-size:9px;line-height:1.2;margin-top:3px}
+.table-label[data-compact=true]>svg{width:18px;height:18px;flex-shrink:0}
+.table-label[data-compact=true] .patience-bar{margin-top:4px}
+#delivery-button[data-compact=true]{height:64px;min-height:64px}
+.context-tip{white-space:normal;text-align:left;line-height:1.35;max-width:min(560px,calc(100% - 116px));width:max-content}
+.context-tip>svg{flex-shrink:0}
+@media(max-height:399px){
+  .play-screen:not(.task-open) .game-header{top:max(8px,env(safe-area-inset-top));left:max(12px,env(safe-area-inset-left));right:max(12px,env(safe-area-inset-right))}
+  .play-screen:not(.task-open) .service-title{font-size:17px}
+  .play-screen:not(.task-open) .service-subtitle{font-size:9px;max-width:240px}
+  .play-screen:not(.task-open) .service-progress{top:53px;left:12px;padding:5px 8px}
+  .play-screen:not(.task-open) .shift-note{left:auto;right:12px;top:54px;font-size:9px;max-width:44%;padding:4px 7px}
+  .play-screen:not(.task-open) .flow-guide{display:none}
+  .play-screen:not(.task-open) .context-tip{bottom:8px;left:12px;transform:none;max-width:calc(100% - 130px);font-size:10px;padding:7px 10px}
+  .play-screen:not(.task-open) .context-tip.with-pass{display:none}
+  .play-screen:not(.task-open) .serving-pass{bottom:8px;left:12px;right:124px;transform:none;width:auto;max-width:none;padding:6px}
+  .play-screen:not(.task-open) .pass-heading{font-size:7px;margin-bottom:3px}
+  .play-screen:not(.task-open) .pass-dish{min-height:44px;min-width:132px;padding:5px 7px}
+  .play-screen:not(.task-open) .tea-button{bottom:8px;right:12px;min-height:44px}
+}

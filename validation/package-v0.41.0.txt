@@ -1,0 +1,1 @@
+{"version": "0.41.0", "path": "/workspace/scratch/ca8a670dbe2e/Languini-v0.41.0-A-Fresh-Start.zip", "entries": 848, "bytes": 21344009, "crc": "passed"}

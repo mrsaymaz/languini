@@ -1,0 +1,10 @@
+{
+  "version": "0.49.0",
+  "uniquePassingChecks": 432,
+  "failed": 0,
+  "scope": "Full suite exited 0; its saved log captured the first 310 passing checks. The remaining 14 files were rerun with output retained directly: 126/126 passed, with four overlapping checks. Combined passing names cover all 432 checks.",
+  "evidence": [
+    "preparation-full-v0.49.0.txt",
+    "preparation-remaining-v0.49.0.txt"
+  ]
+}

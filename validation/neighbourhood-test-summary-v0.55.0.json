@@ -1,0 +1,51 @@
+{
+  "version": "0.55.0",
+  "uniquePassingChecks": 469,
+  "initialFullRun": {
+    "tests": 469,
+    "passed": 465,
+    "failed": 4,
+    "durationMs": 319919.027636
+  },
+  "finalAffectedRun": {
+    "tests": 106,
+    "passed": 106,
+    "failed": 0,
+    "durationMs": 98990.974189
+  },
+  "scope": "469 unique regression checks: initial full run 465 passed and four old total-mesh assertions failed after scenery was added. Their checks now keep the original room limit and separately bound exterior/hidden walking meshes. Final 106 affected scene, service, graphics, startup and story checks all pass. Final paired arrivals and terrace material are included in that rerun.",
+  "browserCases": 25,
+  "browserErrors": [],
+  "languageAudit": {
+    "grades": 4,
+    "units": 44,
+    "tasks": 4805,
+    "issues": []
+  },
+  "protectedFilesUnchanged": 13,
+  "conversationsPreserved": 921,
+  "physicalDevicePerformance": "Unmeasured",
+  "extractedRuntime": {
+    "version": "0.55.0",
+    "openingStorySkipAndFirstShift": true,
+    "phoneDockBounds": true,
+    "nativeCorrectIngredientPlacement": true,
+    "normalAndPreviewEntry": true,
+    "noQAHooks": true,
+    "noNetworkRequests": true,
+    "diagnostics": {
+      "samples": 6,
+      "frameMeanMs": 22.22,
+      "frameP95Ms": 33.3,
+      "quality": "lite",
+      "pixelRatio": 1.5,
+      "renderCalls": 69,
+      "renderTriangles": 55322,
+      "textures": 23,
+      "geometries": 129
+    },
+    "errors": [],
+    "bundleSHA256": "233a2ecb49131c2f5200b03b0714f67c028c1f92a278795923035af67fc814f1",
+    "physicalDeviceFPS": "Unmeasured"
+  }
+}

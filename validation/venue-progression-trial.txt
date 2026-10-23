@@ -1,0 +1,39 @@
+✔ sorting has 44 canonical packs with bilingual, unambiguous explicit memberships (4.806154ms)
+✔ five incompatible imported themes use their canonical category packs (0.218446ms)
+✔ all 88 unit/difficulty sorting batches contain both headings and correct card counts (1.358719ms)
+✔ sorting gates its answer, refills stock once and cannot be replayed at full capacity (4.655657ms)
+✔ sorting mistakes and hints attach to individual classification skills (0.868351ms)
+✔ sorting, readback and pause protect all service clocks (1.314101ms)
+✔ sorting text and physical trays expose two destinations without hiding long words (309.5321ms)
+✔ sorting uses a short silent reaction and safely resumes after pause (483.089988ms)
+✔ one preparation position queues a second matching dish and the bench adds real capacity (3.707071ms)
+✔ bench cannot process a pot and queue priority never restarts running work (0.869901ms)
+✔ cooking queues and committed deliveries stop throughout English practice (2.149022ms)
+✔ a trolley takes two loads, pays only at separate handoffs and advances projects once each (1.514329ms)
+✔ single tray keeps one load and a committed meal cannot be lost to impatience (0.604471ms)
+✔ all event formats and equipment combinations complete in every arena and difficulty (1899.035947ms)
+✔ event rotation has no undefined outcomes and avoids the last two eligible types (2.752829ms)
+✔ extra-side request can be declined or accepted after restocking with a bounded route (0.86992ms)
+✔ takeaway uses its own pickup space without increasing dining capacity (0.461345ms)
+✔ Diner shared table retains two meals and adds ticket/checkout stages (0.50095ms)
+✔ refurbishment requires earned milestones, charges once and grants the physical equipment (0.679808ms)
+✔ project progress and event history persist with old gear, wallets and cosmetics (1.433329ms)
+✔ all project stages and finishes create distinct finite restaurant structures (959.660061ms)
+✔ phone preview exposes all four events, both physical equipment pieces and project stages (0.378492ms)
+✔ runtime scene displays real queued food, the occupied bench and the loaded trolley (505.812182ms)
+✔ a takeaway parcel and a second guest persist through the shared restaurant scene (591.085482ms)
+✔ missed queued orders cancel their jobs and cannot become phantom ready meals (0.845241ms)
+✔ sorting revisits due classifications while avoiding an immediate repeat when fresh cards exist (0.944807ms)
+✔ fully refurbished rooms keep the physical tablet unobstructed at every table and pickup (1727.522491ms)
+✔ every unit supports 3/6/9 washing plates, using reviewed sentences and one physical batch commit (157.243416ms)
+✔ venue routes and assessed steps rise while keeping three preparation phases (0.867407ms)
+✔ Bistro menu, ticket and checkout require two separate assessments without advancing or rewarding the first (3.201055ms)
+✔ delivery needs 1/2/3 labels and pays/restocks only after the final correct parcel (1.558436ms)
+ℹ tests 31
+ℹ suites 0
+ℹ pass 31
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 7025.741219

@@ -1,0 +1,59 @@
+{
+  "version": "0.45.1",
+  "cases": [
+    {
+      "width": 390,
+      "height": 844,
+      "setup": true,
+      "lessonsAndTopics": true,
+      "design": true,
+      "shop": true,
+      "helpDetails": true,
+      "pauseDetailsAndResume": true
+    },
+    {
+      "width": 320,
+      "height": 480,
+      "setup": true,
+      "lessonsAndTopics": true,
+      "design": true,
+      "shop": true,
+      "helpDetails": true,
+      "pauseDetailsAndResume": true
+    },
+    {
+      "width": 568,
+      "height": 320,
+      "setup": true,
+      "lessonsAndTopics": true,
+      "design": true,
+      "shop": true,
+      "helpDetails": true,
+      "pauseDetailsAndResume": true
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "setup": true,
+      "lessonsAndTopics": true,
+      "design": true,
+      "shop": true,
+      "helpDetails": true,
+      "pauseDetailsAndResume": true
+    },
+    {
+      "resultsDetails": true,
+      "episodeDecision": true
+    },
+    {
+      "taskCueAndControlsRetained": true,
+      "duplicatePauseCopyHidden": true
+    },
+    {
+      "packingRequestRetained": true
+    }
+  ],
+  "errors": [],
+  "externalRequests": [],
+  "method": "Native software-WebGL Chromium at compact portrait, portrait, landscape and desktop sizes. Real panel controls and disclosures; scratch simulation solves intervening English tasks for results. Screenshots inspected internally; physical phone hardware unmeasured."
+}

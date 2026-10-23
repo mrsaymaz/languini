@@ -1,0 +1,10 @@
+✔ consecutive menu rounds keep the screen camera settled and all new answers fitted (519.292858ms)
+✔ a menu for another guest still waits for its new camera before accepting answers (376.490817ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 2
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1182.155787

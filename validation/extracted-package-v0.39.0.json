@@ -1,0 +1,12 @@
+{
+  "version": "0.39.0",
+  "freshExtraction": true,
+  "runtimeFilesVerified": 237,
+  "sourceFilesVerified": 385,
+  "relativeEntrypointAssets": "passed",
+  "protectedBaselineFiles": 13,
+  "preservedOriginalTasks": 3033,
+  "tasks": 4805,
+  "conversations": 921,
+  "zipCRC": "passed"
+}

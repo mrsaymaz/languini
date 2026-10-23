@@ -1,0 +1,9 @@
+{
+  "version": "0.51.0",
+  "tests": 17,
+  "passed": 17,
+  "failed": 0,
+  "exitCode": 0,
+  "durationMs": 23490.500675,
+  "scope": "Final circle-bound ingredient dragging, grabbed-point drop tests, header/footer misses, wrong-order recovery, capture, sorting/delivery and later-phase rotation gestures. Focused tests/objects.test.mjs name-pattern run; counts captured from terminal output."
+}

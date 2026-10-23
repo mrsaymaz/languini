@@ -1,0 +1,19 @@
+{
+  "version": "0.52.0",
+  "actualExtractedFileOrigin": true,
+  "noQAHooks": true,
+  "onePhoneMainAction": true,
+  "phoneWidths": [
+    320,
+    393,
+    844
+  ],
+  "noHoldOrReturn": true,
+  "primaryLabel": "Menu",
+  "nativeMainButtonWalkedAndOpenedCorrectTask": true,
+  "rootScrollPreserved": true,
+  "desktopSixStationDockRetained": true,
+  "bundleSha256": "0b2820a4c6cf80afc80f055622b7b3b8268b94c77c1fb034ceb42339876cc79e",
+  "errors": [],
+  "externalRequests": []
+}

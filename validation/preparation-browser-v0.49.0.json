@@ -1,0 +1,544 @@
+{
+  "version": "0.49.0",
+  "cases": [
+    {
+      "width": 390,
+      "height": 844,
+      "recipe": "garden",
+      "phase": 2,
+      "blocks": [
+        {
+          "text": "in the library.1",
+          "width": 106.1875,
+          "height": 112.1875,
+          "x": 26.493000030517578,
+          "y": 621.2160034179688,
+          "bottom": 733.4035034179688,
+          "right": 132.68050003051758,
+          "used": true
+        },
+        {
+          "text": "must not shout2",
+          "width": 103.59375,
+          "height": 109.390625,
+          "x": 143.19200134277344,
+          "y": 622.7269897460938,
+          "bottom": 732.1176147460938,
+          "right": 246.78575134277344,
+          "used": true
+        },
+        {
+          "text": "We3",
+          "width": 103.59375,
+          "height": 109.390625,
+          "x": 258.59600830078125,
+          "y": 622.7269897460938,
+          "bottom": 732.1176147460938,
+          "right": 362.18975830078125,
+          "used": true
+        }
+      ],
+      "motions": 0,
+      "plated": 3,
+      "finish": false,
+      "instances": 2,
+      "render": {
+        "frame": 71,
+        "calls": 71,
+        "triangles": 61628,
+        "points": 0,
+        "lines": 0
+      },
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "recipe": "sunshine",
+      "phase": 0,
+      "blocks": [
+        {
+          "text": "is1",
+          "width": 103.59374237060547,
+          "height": 109.390625,
+          "x": 27.788000106811523,
+          "y": 622.7269897460938,
+          "bottom": 732.1176147460938,
+          "right": 131.381742477417,
+          "used": true
+        },
+        {
+          "text": "very helpful.2",
+          "width": 106.1875,
+          "height": 112.1875,
+          "x": 141.89700317382812,
+          "y": 621.2160034179688,
+          "bottom": 733.4035034179688,
+          "right": 248.08450317382812,
+          "used": true
+        },
+        {
+          "text": "The coach3",
+          "width": 103.59375,
+          "height": 109.390625,
+          "x": 258.59600830078125,
+          "y": 622.7269897460938,
+          "bottom": 732.1176147460938,
+          "right": 362.18975830078125,
+          "used": true
+        }
+      ],
+      "motions": 0,
+      "plated": 3,
+      "finish": false,
+      "instances": 1,
+      "render": {
+        "frame": 121,
+        "calls": 66,
+        "triangles": 55860,
+        "points": 0,
+        "lines": 0
+      },
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "recipe": "yoghurt",
+      "phase": 0,
+      "blocks": [
+        {
+          "text": "Our library1",
+          "width": 103.59374237060547,
+          "height": 109.390625,
+          "x": 27.788000106811523,
+          "y": 622.7269897460938,
+          "bottom": 732.1176147460938,
+          "right": 131.381742477417,
+          "used": true
+        },
+        {
+          "text": "many storybooks.2",
+          "width": 106.1875,
+          "height": 112.1875,
+          "x": 141.89700317382812,
+          "y": 621.2160034179688,
+          "bottom": 733.4035034179688,
+          "right": 248.08450317382812,
+          "used": true
+        },
+        {
+          "text": "has3",
+          "width": 103.59375,
+          "height": 109.390625,
+          "x": 258.59600830078125,
+          "y": 622.7269897460938,
+          "bottom": 732.1176147460938,
+          "right": 362.18975830078125,
+          "used": true
+        }
+      ],
+      "motions": 0,
+      "plated": 3,
+      "finish": false,
+      "instances": 1,
+      "render": {
+        "frame": 164,
+        "calls": 59,
+        "triangles": 53124,
+        "points": 0,
+        "lines": 0
+      },
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "recipe": "burger",
+      "phase": 2,
+      "blocks": [
+        {
+          "text": "the music club.1",
+          "width": 106.1875,
+          "height": 112.1875,
+          "x": 26.493000030517578,
+          "y": 621.2160034179688,
+          "bottom": 733.4035034179688,
+          "right": 132.68050003051758,
+          "used": true
+        },
+        {
+          "text": "My friend2",
+          "width": 103.59375,
+          "height": 109.390625,
+          "x": 143.19200134277344,
+          "y": 622.7269897460938,
+          "bottom": 732.1176147460938,
+          "right": 246.78575134277344,
+          "used": true
+        },
+        {
+          "text": "wants to join3",
+          "width": 103.59375,
+          "height": 109.390625,
+          "x": 258.59600830078125,
+          "y": 622.7269897460938,
+          "bottom": 732.1176147460938,
+          "right": 362.18975830078125,
+          "used": true
+        }
+      ],
+      "motions": 0,
+      "plated": 3,
+      "finish": false,
+      "instances": 2,
+      "render": {
+        "frame": 208,
+        "calls": 70,
+        "triangles": 61144,
+        "points": 0,
+        "lines": 0
+      },
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "recipe": "salad",
+      "phase": 0,
+      "blocks": [
+        {
+          "text": "welcomes1",
+          "width": 103.59374237060547,
+          "height": 109.390625,
+          "x": 27.788000106811523,
+          "y": 622.7269897460938,
+          "bottom": 732.1176147460938,
+          "right": 131.381742477417,
+          "used": true
+        },
+        {
+          "text": "Our music club2",
+          "width": 103.59375,
+          "height": 109.390625,
+          "x": 143.19200134277344,
+          "y": 622.7269897460938,
+          "bottom": 732.1176147460938,
+          "right": 246.78575134277344,
+          "used": true
+        },
+        {
+          "text": "new pupils.3",
+          "width": 106.1875,
+          "height": 112.1875,
+          "x": 257.3009948730469,
+          "y": 621.2160034179688,
+          "bottom": 733.4035034179688,
+          "right": 363.4884948730469,
+          "used": true
+        }
+      ],
+      "motions": 0,
+      "plated": 3,
+      "finish": false,
+      "instances": 0,
+      "render": {
+        "frame": 258,
+        "calls": 62,
+        "triangles": 56144,
+        "points": 0,
+        "lines": 0
+      },
+      "overflow": false
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "recipe": "pasta",
+      "phase": 0,
+      "blocks": [
+        {
+          "text": "Our teacher1",
+          "width": 146,
+          "height": 80.1875,
+          "x": 303.9200134277344,
+          "y": 197.18499755859375,
+          "bottom": 277.37249755859375,
+          "right": 449.9200134277344,
+          "used": true
+        },
+        {
+          "text": "this school.2",
+          "width": 149.59375,
+          "height": 82.296875,
+          "x": 468.78900146484375,
+          "y": 193.04800415039062,
+          "bottom": 275.3448791503906,
+          "right": 618.3827514648438,
+          "used": true
+        },
+        {
+          "text": "likes3",
+          "width": 146,
+          "height": 80.1875,
+          "x": 637.3070068359375,
+          "y": 197.18499755859375,
+          "bottom": 277.37249755859375,
+          "right": 783.3070068359375,
+          "used": true
+        }
+      ],
+      "motions": 0,
+      "plated": 3,
+      "finish": false,
+      "instances": 1,
+      "render": {
+        "frame": 286,
+        "calls": 51,
+        "triangles": 53770,
+        "points": 0,
+        "lines": 0
+      },
+      "overflow": false
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "recipe": "pancakes",
+      "phase": 2,
+      "blocks": [
+        {
+          "text": "must not shout1",
+          "width": 226.99996948242188,
+          "height": 109.390625,
+          "x": 321.7200012207031,
+          "y": 533.3519897460938,
+          "bottom": 642.7426147460938,
+          "right": 548.719970703125,
+          "used": true
+        },
+        {
+          "text": "in the library.2",
+          "width": 232.6875,
+          "height": 112.1875,
+          "x": 566.6420288085938,
+          "y": 529.0369873046875,
+          "bottom": 641.2244873046875,
+          "right": 799.3295288085938,
+          "used": true
+        },
+        {
+          "text": "We3",
+          "width": 227,
+          "height": 109.390625,
+          "x": 817.239990234375,
+          "y": 533.3519897460938,
+          "bottom": 642.7426147460938,
+          "right": 1044.239990234375,
+          "used": true
+        }
+      ],
+      "motions": 0,
+      "plated": 3,
+      "finish": false,
+      "instances": 2,
+      "render": {
+        "frame": 318,
+        "calls": 71,
+        "triangles": 63328,
+        "points": 0,
+        "lines": 0
+      },
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "recipe": "noodles",
+      "phase": 0,
+      "blocks": [
+        {
+          "text": "is1",
+          "width": 103.59374237060547,
+          "height": 109.390625,
+          "x": 27.788000106811523,
+          "y": 622.7269897460938,
+          "bottom": 732.1176147460938,
+          "right": 131.381742477417,
+          "used": true
+        },
+        {
+          "text": "very helpful.2",
+          "width": 106.1875,
+          "height": 112.1875,
+          "x": 141.89700317382812,
+          "y": 621.2160034179688,
+          "bottom": 733.4035034179688,
+          "right": 248.08450317382812,
+          "used": true
+        },
+        {
+          "text": "The coach3",
+          "width": 103.59375,
+          "height": 109.390625,
+          "x": 258.59600830078125,
+          "y": 622.7269897460938,
+          "bottom": 732.1176147460938,
+          "right": 362.18975830078125,
+          "used": true
+        }
+      ],
+      "motions": 0,
+      "plated": 3,
+      "finish": false,
+      "instances": 1,
+      "render": {
+        "frame": 346,
+        "calls": 65,
+        "triangles": 55320,
+        "points": 0,
+        "lines": 0
+      },
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "height": 480,
+      "recipe": "fruit",
+      "phase": 1,
+      "blocks": [
+        {
+          "text": "has1",
+          "width": 216,
+          "height": 51.09375,
+          "x": 79,
+          "y": 203.2270050048828,
+          "bottom": 254.3207550048828,
+          "right": 295,
+          "used": true
+        },
+        {
+          "text": "Our library2",
+          "width": 216,
+          "height": 51.09375,
+          "x": 79,
+          "y": 270.22698974609375,
+          "bottom": 321.32073974609375,
+          "right": 295,
+          "used": true
+        },
+        {
+          "text": "many storybooks.3",
+          "width": 221.390625,
+          "height": 52.296875,
+          "x": 79.7249984741211,
+          "y": 334.54400634765625,
+          "bottom": 386.84088134765625,
+          "right": 301.1156234741211,
+          "used": true
+        }
+      ],
+      "motions": 0,
+      "plated": 3,
+      "finish": false,
+      "instances": 0,
+      "render": {
+        "frame": 371,
+        "calls": 68,
+        "triangles": 65716,
+        "points": 0,
+        "lines": 0
+      },
+      "overflow": false
+    },
+    {
+      "sixQuickPlacements": true,
+      "allPaperLabelsVisible": true,
+      "recipe": "salad",
+      "phase": 0,
+      "blocks": [
+        {
+          "text": "gives1",
+          "width": 86,
+          "height": 55.890625,
+          "x": 73,
+          "y": 197.46200561523438,
+          "bottom": 253.35263061523438,
+          "right": 159,
+          "used": true
+        },
+        {
+          "text": "at school2",
+          "width": 77,
+          "height": 55.890625,
+          "x": 222,
+          "y": 197.46200561523438,
+          "bottom": 253.35263061523438,
+          "right": 299,
+          "used": true
+        },
+        {
+          "text": "The teacher3",
+          "width": 81,
+          "height": 55.890625,
+          "x": 73,
+          "y": 265.7950134277344,
+          "bottom": 321.6856384277344,
+          "right": 154,
+          "used": true
+        },
+        {
+          "text": "us4",
+          "width": 82,
+          "height": 55.890625,
+          "x": 217,
+          "y": 265.7950134277344,
+          "bottom": 321.6856384277344,
+          "right": 299,
+          "used": true
+        },
+        {
+          "text": "every day5",
+          "width": 83,
+          "height": 57.296875,
+          "x": 73.69999694824219,
+          "y": 331.385009765625,
+          "bottom": 388.681884765625,
+          "right": 156.6999969482422,
+          "used": true
+        },
+        {
+          "text": "homework6",
+          "width": 82,
+          "height": 55.890625,
+          "x": 217,
+          "y": 334.1289978027344,
+          "bottom": 390.0196228027344,
+          "right": 299,
+          "used": true
+        }
+      ],
+      "motions": 1,
+      "plated": 6,
+      "finish": false,
+      "instances": 0,
+      "render": {
+        "frame": 409,
+        "calls": 73,
+        "triangles": 56624,
+        "points": 0,
+        "lines": 0
+      },
+      "overflow": false
+    },
+    {
+      "pauseFreezesEffects": true,
+      "rotationRestoresFoodWithoutReplay": true
+    },
+    {
+      "reducedMotionImmediate": true
+    }
+  ],
+  "errors": [],
+  "method": "Actual app source with scratch-only preview/phase and animation sampling hooks. Native ingredient and dish taps; all nine recipes; deterministic live WebGL samples; software Chromium, not hardware FPS."
+}

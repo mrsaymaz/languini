@@ -1,0 +1,44 @@
+{
+  "version": "0.24.0",
+  "scope": "CPU scene objects/geometry only; includes hidden meshes and does not measure actual renderer draw calls or FPS",
+  "regularScenes": [
+    {
+      "arena": "courtyard",
+      "meshObjects": 213,
+      "visibleMeshObjects": 83,
+      "triangles": 119406
+    },
+    {
+      "arena": "bistro",
+      "meshObjects": 256,
+      "visibleMeshObjects": 83,
+      "triangles": 142654
+    },
+    {
+      "arena": "banquet",
+      "meshObjects": 298,
+      "visibleMeshObjects": 84,
+      "triangles": 162386
+    }
+  ],
+  "renovatedScenes": [
+    {
+      "arena": "courtyard",
+      "meshObjects": 221,
+      "visibleMeshObjects": 96,
+      "triangles": 132102
+    },
+    {
+      "arena": "bistro",
+      "meshObjects": 265,
+      "visibleMeshObjects": 97,
+      "triangles": 155350
+    },
+    {
+      "arena": "banquet",
+      "meshObjects": 307,
+      "visibleMeshObjects": 98,
+      "triangles": 175082
+    }
+  ]
+}

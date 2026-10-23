@@ -1,0 +1,16 @@
+{
+  "version": "0.46.1",
+  "cases": [
+    {
+      "label": "consecutive translation menu rounds",
+      "frames": 88,
+      "hiddenFrames": 10,
+      "unfittedFrames": 7,
+      "newRoundFlights": 7,
+      "coverPaints": 2
+    }
+  ],
+  "errors": [],
+  "externalRequests": [],
+  "method": "Actual app with scratch-only task fixtures. Native touch controls and frame-by-frame task overlay sampling. Software WebGL Chromium; physical-device FPS/audio unmeasured."
+}

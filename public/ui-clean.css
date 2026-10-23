@@ -1,0 +1,83 @@
+/* Less repeated copy, optional detail, comfortable controls. */
+.panel-details{margin:12px 0;text-align:left;border:1px solid #d6cbb1;border-radius:12px;background:#f7f1e4;color:#365b48;overflow:hidden}
+.panel-details>summary{display:list-item;cursor:pointer;min-height:44px;padding:13px 14px;font:700 13px/1.35 var(--sans);list-style-position:inside;touch-action:manipulation}
+.panel-details>summary::marker{color:#6d876b}
+.panel-details>summary:focus-visible{outline:3px solid #448c7b;outline-offset:-3px;border-radius:10px}
+.panel-details[open]>summary{border-bottom:1px solid #ded3ba}
+.panel-details>p,.panel-details>.result-review,.panel-details>.episode-result{margin:12px 14px;font-size:12px;line-height:1.55}
+.panel-details>.display-settings,.panel-details>.guidance-settings{margin:12px 14px}
+.panel-details .text-button{min-height:44px}
+.small-modal{max-height:calc(100dvh - 32px - env(safe-area-inset-top) - env(safe-area-inset-bottom));overflow-y:auto;overscroll-behavior:contain}
+#pause-modal .small-modal>h2{margin:0 0 18px}
+#pause-modal .settings-row{margin-bottom:16px}
+#pause-modal #resume-button{margin-top:12px}
+#pause-modal .performance-note{margin:10px 14px;font-size:11px;line-height:1.4}
+#pause-modal .settings-row button{min-height:44px}
+#pause-modal #quit-button{min-height:44px}
+#help-modal .help-reassurance{font-size:12px;line-height:1.45}
+#help-modal li b{font-size:14px}
+#help-modal li p{font-size:12px;color:#697d68}
+#help-modal .panel-details p{color:#657b67}
+#help-modal .text-button{min-height:44px}
+#result-details .learning-summary{color:#62765f}
+#result-details .result-review h3{font-size:14px;margin-top:12px}
+#result-details .episode-result{padding:10px}
+#setup-form .cooperative-option{min-height:44px}
+#setup-form .arena-option b{min-height:0}
+#setup-form .arena-option small{font-size:10px;line-height:1.35}
+#setup-form .arena-option .arena-lock{font-weight:600}
+#setup-form .lesson-selection strong{margin-bottom:0}
+#setup-form .setup-footer .text-button{min-height:44px}
+.lesson-list-toolbar{display:flex;align-items:center;justify-content:space-between;gap:12px;flex:none;margin:5px 0 8px}
+.lesson-list-toolbar .lesson-list-label{margin:0}
+.lesson-list-toolbar .text-button{min-height:44px;padding:8px 10px;font-size:12px}
+.lesson-unit-topics[hidden]{display:none!important}
+.lesson-picker-heading h2{margin:0}
+.lesson-unit-card{min-height:74px}
+.lesson-unit-copy>strong{margin-top:0}
+.design-dialog h2{margin:0}
+.design-dialog footer{justify-content:flex-end}
+.design-choice span{font-size:13px;color:#65765f}
+.design-milestone p{font-size:12px;color:#687962;margin:5px 0 12px}
+.design-tabs button{font-size:13px}
+.kitchen-hint[data-first-use=false][data-blocked=false]{visibility:hidden}
+@media(max-width:600px){.design-route-status{font-size:13px}.lesson-grade-options{margin-top:13px}.design-tabs{gap:7px}.design-tabs button{font-size:12px}}
+@media(max-height:450px){.small-modal{max-height:calc(100dvh - 16px)}.lesson-list-toolbar{margin:0 0 5px}.lesson-list-toolbar .text-button{font-size:11px;padding:6px 8px}}
+
+.shop-card .buy-button{min-height:44px}
+
+#setup-form .arena-option small{text-wrap:balance}
+#setup-form .design-earned{display:inline-grid;place-items:center;min-width:20px;height:20px;padding:2px 5px;font-size:10px}
+#setup-form #setup-design{white-space:nowrap}
+
+/* Keep a long lesson name from pushing Pause outside a compact phone. */
+.game-header .service-heading{min-width:0;flex:1}
+.game-header .service-heading>div{min-width:0}
+.game-header .house-seal,.game-header .header-tools{flex-shrink:0}
+.game-header .service-title,.game-header .service-subtitle{display:block;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
+/* A steady, opaque setup panel avoids recompositing a live backdrop blur. */
+#setup .setup-card{backdrop-filter:none;-webkit-backdrop-filter:none;background:#fffaf3}
+#setup.setup-screen{background:linear-gradient(90deg,transparent 20%,#e8dfc817 100%)}
+#world .opening-weather-sky{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:1}
+[data-atmosphere=evening] #setup .compact-brand{color:#fff1d4;text-shadow:0 1px 4px #182f45}
+[data-atmosphere=evening] #setup .owner-welcome figcaption{color:#fff1d4;text-shadow:0 1px 5px #182f45}
+
+[data-atmosphere=evening] #setup .intro-copy :is(h1,p,.eyebrow){color:#fff0d0;text-shadow:0 1px 4px #243647}
+
+[data-atmosphere=evening] #play:not(.task-open) .game-header :is(.service-title,.service-subtitle){color:#fff2d2;text-shadow:0 1px 4px #27384e}
+
+/* Ulti stays separate from the rune shop and active English controls. */
+#setup-form .setup-footer{flex-wrap:wrap;gap:5px 12px}
+#setup-form .ulti-pill{gap:5px;color:#655299}
+.ulti-pill b{padding:2px 7px;border-radius:8px;background:#ece5f5;font-size:12px;font-variant-numeric:tabular-nums}
+.ulti-result{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:5px 12px;width:100%;min-height:48px;padding:11px 14px;margin:12px 0;border:1px solid #d6c6e6;border-radius:12px;background:#f1eafa;color:#655184;text-align:left}
+.ulti-result b{font-size:19px}.ulti-result span{font-size:11px}
+.ulti-modal{position:relative;max-width:440px;width:calc(100% - 28px);max-height:calc(100svh - 32px);overflow:auto;text-align:left}
+#close-ulti{position:absolute;right:12px;top:12px;font-size:25px}
+.ulti-modal h2{font-size:24px;margin:12px 35px 12px 0}.ulti-balance{display:block;font-size:36px;color:#695091;font-variant-numeric:tabular-nums}
+.ulti-note{font-size:12px;line-height:1.5;color:#73746c;margin:10px 0 16px}
+.ulti-awards{list-style:none;padding:0;margin:0;display:grid;gap:8px;max-height:40svh;overflow:auto}
+.ulti-awards li{display:flex;flex-wrap:wrap;justify-content:space-between;gap:4px 10px;border-top:1px solid #e4ddce;padding:10px 0;font-size:12px}.ulti-awards b{color:#695091}.ulti-awards span{color:#72796b}.ulti-empty{color:#838473}
+
+#ulti-modal{z-index:20}

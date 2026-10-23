@@ -1,0 +1,224 @@
+/* Object controls: all dimensions are readable CSS pixels, never texture text. */
+:root{--bistro-safe-top:env(safe-area-inset-top,0px);--bistro-safe-bottom:env(safe-area-inset-bottom,0px);--bistro-safe-left:env(safe-area-inset-left,0px);--bistro-safe-right:env(safe-area-inset-right,0px)}
+html,body{overscroll-behavior:none}
+#task-card.object-ui{
+  --paper-light:#fffaf0;--paper-edge:#cbb58e;--brass:#bc975e;--teal:#168c8b;
+  position:absolute;inset:0!important;width:100%;height:100%;max-width:none;max-height:none!important;
+  margin:0;padding:0!important;border:0;border-radius:0;background:transparent!important;box-shadow:none;backdrop-filter:none;
+  overflow:visible;pointer-events:none;user-select:none;-webkit-user-select:none;-webkit-touch-callout:none;animation:none;
+}
+#task-card.object-ui .object-surface{position:absolute;left:0;top:0;margin:0!important;box-sizing:border-box;transform-origin:0 0;pointer-events:auto;overflow:hidden;min-width:0;max-width:none;max-height:none;border-radius:5px}
+#task-card.object-ui[data-moving=true] .object-surface,#task-card.object-ui[data-moving=true] .conversation-replies{pointer-events:none}
+#task-card.object-ui .surface-scroll{height:100%;overflow:auto;overscroll-behavior:contain;scrollbar-width:thin;scrollbar-color:#b2b69d transparent;touch-action:pan-y;padding:14px;min-width:0;scroll-padding:14px}
+#task-card.object-ui .surface-scroll[data-scroll-state=below]{box-shadow:inset 0 -12px 12px -14px #47675099}
+#task-card.object-ui .surface-scroll[data-scroll-state=above]{box-shadow:inset 0 12px 12px -14px #47675099}
+#task-card.object-ui .surface-scroll[data-scroll-state=both]{box-shadow:inset 0 -12px 12px -14px #47675099,inset 0 12px 12px -14px #47675099}
+#task-card.object-ui button{font:700 16px/1.3 var(--sans);min-height:48px;white-space:normal;overflow-wrap:anywhere;touch-action:manipulation;color:var(--ink)}
+#task-card.object-ui button:disabled{opacity:1;cursor:default}
+#task-card.object-ui button:active:not(:disabled){filter:brightness(.96)}
+#task-card.object-ui button:focus-visible{outline:3px solid #0d9dba;outline-offset:-4px}
+#task-card.object-ui .draggable-piece{touch-action:none;cursor:grab}
+#task-card.object-ui[data-dragging] .draggable-piece{cursor:grabbing}
+
+/* Identity and quiet assistance stay out of the work area. */
+#task-card.object-ui .station-status{position:absolute;top:max(12px,env(safe-area-inset-top));left:max(14px,env(safe-area-inset-left));right:75px;display:flex;align-items:center;gap:10px;min-height:48px;pointer-events:none;text-shadow:0 1px 3px #fff9}
+#task-card.object-ui .station-status>span:last-child{min-width:0}
+#task-card.object-ui .station-status b{display:block;font-size:14px;line-height:1.25;overflow-wrap:anywhere}
+#task-card.object-ui .station-status small{display:block;font-size:11px;line-height:1.4;margin-top:2px}
+#task-card.object-ui .station-meta{display:block;font-size:10px;color:#607568}
+#task-card.object-ui .station-mark{width:30px;height:38px;display:grid;place-items:center;color:#52715d}
+#task-card.object-ui .table-token{min-width:42px;min-height:46px;padding:6px;border:1px solid #fff5;outline:3px solid #fff7;outline-offset:1px;border-radius:10px 10px 14px 10px;background:var(--team);color:#fff8e6;display:grid;place-items:center;font-size:14px;line-height:1.1;flex-shrink:0;text-shadow:none;box-shadow:0 3px 9px #4b3b2a21}
+#task-card.object-ui .table-token small{font:700 9px/1.2 var(--sans);letter-spacing:.06em;margin:2px 0 0;color:#fff5dc}
+.task-open .game-header{top:max(12px,env(safe-area-inset-top));right:max(14px,env(safe-area-inset-right));left:auto;pointer-events:none}
+.task-open .game-header .service-heading,.task-open .game-header .rune-wallet,.task-open .service-progress,.task-open #context-tip,.task-open #station-action{display:none!important}
+.task-open .game-header #pause-button{pointer-events:auto;width:46px;height:46px;background:#fff8e8eb;border:1px solid #d5c9aa;box-shadow:0 3px 8px #3e4b3115}
+#task-card.object-ui .station-assist{position:absolute;bottom:max(8px,env(safe-area-inset-bottom));left:max(14px,env(safe-area-inset-left));right:max(14px,env(safe-area-inset-right));max-width:600px;margin:0 auto;pointer-events:none}
+#task-card.object-ui .task-toolbar{display:flex;justify-content:space-between;gap:8px;margin:5px 0 0;padding:0;border:0;pointer-events:auto}
+#task-card.object-ui .task-toolbar button{min-width:104px;min-height:44px;font-size:13px;padding:8px 12px;gap:7px;border-radius:12px;background:linear-gradient(#fffcef,#f1e8d4);border:1px solid #d2c4a5;box-shadow:0 2px 0 #bdad8c4d,0 3px 9px #253c3310}
+#task-card.object-ui .task-toolbar button svg{width:17px;height:17px;color:#78876a}
+#task-card.object-ui .task-feedback{font-size:12px;line-height:1.35;margin:0;padding:6px 11px;min-height:0;max-height:44px;overflow:auto;background:#fffaedee;border:1px solid #eee3c9;border-radius:10px;pointer-events:auto;box-shadow:0 2px 10px #3d483018}
+#task-card.object-ui .task-feedback.wrong{background:#fff0ddeb;border-color:#e3bb91;color:#885a38}
+#task-card.object-ui .task-feedback.success{background:#eaf5e7ee;border-color:#bed6b4;color:#3b7056}
+#task-card.object-ui[data-landing=ready] .task-feedback{background:#e3faf3;border-color:#81c6ba;color:#146c68}
+#task-card.object-ui .task-feedback:empty{display:none}
+#task-card.object-ui .task-readback{display:none!important}
+#task-card.object-ui .language-support{position:absolute;bottom:100%;left:0;right:0;margin:0 0 8px;padding:13px;background:#fff8e8;border:1px solid #c9b988;border-radius:10px;font-size:15px;line-height:1.4;max-height:130px;overflow:auto;pointer-events:auto;box-shadow:0 6px 20px #273a3426}
+
+/* A held menu, with a visual connection between the two matched cards. */
+#task-card.object-ui .device-surface{background:linear-gradient(150deg,#f7f8ed,#e6efdf);color:#355b4a;border:1px solid #9ba88e;box-shadow:inset 0 0 0 3px #ffffff77;border-radius:9px}
+#task-card.object-ui .order-tablet{border:0;background:transparent;box-shadow:none;border-radius:0;padding:0;margin:0}
+#task-card.object-ui .order-tablet::after{display:none}
+#task-card.object-ui .tablet-topline{font-size:10px;letter-spacing:.06em;line-height:1.4;margin-bottom:12px;padding-bottom:10px;border-bottom:1px solid #b5c4aa;gap:8px;align-items:start;color:#53745e}
+#task-card.object-ui #matched-count{color:#386f61;white-space:nowrap;letter-spacing:0;font-size:11px}
+#task-card.object-ui .matching-board{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:8px}
+#task-card.object-ui .pair-column-label{font-size:10px;letter-spacing:.09em;padding:2px 0 4px;color:#6f856e}
+#task-card.object-ui .pair-card{min-height:60px;padding:10px 9px;font-size:16px;border:1px solid #c4cfb7;border-radius:11px;line-height:1.3;background:linear-gradient(#fffef5,#f6f5e9);box-shadow:0 2px 0 #b8c3a536;transition:background .12s,border-color .12s,box-shadow .12s}
+#task-card.object-ui .pair-card .pair-key{display:none}
+#task-card.object-ui .pair-card .pair-label{font-size:16px;line-height:1.3;overflow-wrap:anywhere}
+#task-card.object-ui .pair-card.selected{border:2px solid #269f97;background:#e4faf1;box-shadow:0 0 0 3px #47b4a51a,inset 0 -3px 0 #8cc9ae44}
+#task-card.object-ui .pair-card.matched{background:#dfeedd;border-color:#a7c39a;color:#487350;box-shadow:inset 0 1px 3px #557c4320}
+#task-card.object-ui .pair-card.pair-wrong{background:#fae8d3;border-color:#d4ad79;animation:none}
+#task-card.object-ui .pair-picture img{width:62px;height:62px;object-fit:contain;max-width:100%;max-height:none}
+#task-card.object-ui .pair-image-fallback{font-size:14px;line-height:1.3}
+#task-card.object-ui .pair-check{width:17px;height:17px;right:3px;top:3px;background:#63916a;color:white;border-radius:50%}
+#task-card.object-ui .menu-order-summary{font-size:12px;line-height:1.35;min-height:30px;margin-top:12px;padding:8px 0;gap:5px;border-top:1px solid #c0cdb5}
+#task-card.object-ui .order-word{font-size:12px;padding:4px 6px;background:#e2efdb;border-radius:6px}
+#task-card.object-ui .tablet-confirmation{font-size:10px;padding:8px 0;line-height:1.4;letter-spacing:.06em}
+#task-card.object-ui .tablet-confirmation.confirmed{color:#28795b;font-weight:900}
+#task-card.object-ui .customer-audio{min-height:60px;width:100%;font-size:15px;margin:0 0 12px;padding:12px;border-radius:12px;background:#fffdf0;border-color:#bdc8aa;box-shadow:0 2px 0 #b7c29e33}
+#task-card.object-ui .customer-audio>svg{color:#49917b;width:25px;height:25px}
+#task-card.object-ui #listening-status{font-size:12px;line-height:1.4;display:block}
+#task-card.object-ui .tablet-options{display:grid;grid-template-columns:1fr;gap:8px;margin-top:10px}
+#task-card.object-ui .tablet-choice{font-size:16px;min-height:50px;padding:11px;border-radius:9px;background:#fffdf0;border-color:#c4cdb4;box-shadow:0 2px 0 #b6c19e33}
+#task-card.object-ui .tablet-choice.selected{background:#dcf5e9;border-color:#329d88;box-shadow:inset 0 0 0 1px #329d88}
+#task-card.object-ui .listening-basket{font-size:13px;padding:10px 0;line-height:1.4}
+#task-card.object-ui .listening-confirm{font-size:15px;min-height:48px;width:100%;background:#32785f;color:#fff8e4;border:1px solid #245f4c;border-radius:9px;box-shadow:0 3px 0 #235a4740}
+#task-card.object-ui .listening-confirm:disabled{background:#dde5d4;color:#81917b;border-color:#c2cdb5;box-shadow:none}
+#task-card.object-ui .listening-caption{font-size:15px;padding:10px;line-height:1.4}
+
+/* Plating: the ingredient and its paper tag form one movable piece. */
+#task-card.object-ui .recipe-note{background:linear-gradient(110deg,#fffdf2,#f8eed5);border:1px solid var(--paper-edge);border-left:4px solid #7e9d79;box-shadow:0 3px 5px #68482c25,inset 0 0 0 3px #fffdf24d;border-radius:3px 8px 8px 3px}
+#task-card.object-ui .recipe-note .surface-scroll{padding:9px 12px}
+#task-card.object-ui .recipe-note-heading{display:flex;align-items:center;justify-content:space-between;gap:6px;margin-bottom:5px}
+#task-card.object-ui .plating-dish{display:flex;align-items:center;gap:6px;font-size:11px;letter-spacing:0;margin:0;color:#786342}
+#task-card.object-ui .plating-dish svg{width:17px;height:17px}
+#task-card.object-ui .prep-count{font:800 11px/1.3 var(--sans);color:#537c64;white-space:nowrap}
+#task-card.object-ui .recipe-translation{font:15px/1.3 var(--sans);letter-spacing:0;margin:0 0 6px;overflow-wrap:anywhere}
+#task-card.object-ui .recipe-rail{display:block;min-height:0;padding:4px 0 0;margin:0;border:0;background:none;font:700 15px/1.35 var(--sans);color:#2e6958;overflow-wrap:anywhere}
+#task-card.object-ui .recipe-empty{font-size:12px;font-weight:500;font-style:italic;color:#91876b}
+#task-card.object-ui .placed-chunk{border-bottom:1px solid #9eb895;padding-bottom:1px}
+#task-card.object-ui .prep-progress{height:3px;margin-top:8px;background:#e2dcc3;border-radius:3px;overflow:hidden}
+#task-card.object-ui .prep-progress i{display:block;width:calc(var(--progress,0)*100%);height:100%;background:#48a390;transition:width .2s}
+#task-card.object-ui .word-bank{display:contents}
+#task-card.object-ui .ingredient-option{position:absolute;background:linear-gradient(115deg,#fffdf1,#f7ead0);border:1px solid #bda075;border-radius:3px 9px 9px 3px;padding:7px 20px 7px 17px;text-align:center;font-size:16px;line-height:1.25;box-shadow:0 3px 0 #b99c6b66,0 5px 8px #52351d22,inset 0 0 0 3px #fff9e566;display:grid;place-items:center;isolation:isolate}
+#task-card.object-ui .ingredient-option::before{content:'';position:absolute;left:6px;top:calc(50% - 3px);width:6px;height:6px;border-radius:50%;background:#a58551;border:1px solid #dfc794;box-shadow:inset 0 1px 2px #5d452c66}
+#task-card.object-ui .ingredient-option::after{content:'';position:absolute;right:5px;top:calc(50% - 12px);width:8px;height:24px;background:radial-gradient(circle,#b69b70 1px,transparent 1.5px) 0 0/4px 6px;opacity:.6}
+#task-card.object-ui .ingredient-option small,#task-card.object-ui .ingredient-option svg{display:none}
+#task-card.object-ui .ingredient-option.selected{border:2px solid #299d91;background:linear-gradient(115deg,#f3fff0,#dcf2df);box-shadow:0 3px 0 #6b9c7966,0 7px 12px #3b5a3026,inset 0 0 0 2px #f6fff499}
+#task-card.object-ui .ingredient-option:disabled{visibility:hidden;pointer-events:none}
+#task-card.object-ui .object-drop-zone{background:transparent;border:2px dashed transparent;border-radius:45%;display:flex;align-items:end;justify-content:center;padding:0;box-shadow:none;overflow:visible}
+#task-card.object-ui .object-drop-zone span{display:flex;gap:4px;align-items:center;font-size:11px;padding:5px 9px;margin-bottom:-3px;background:#fff8e8ef;border:1px solid #c5af82;border-radius:20px;line-height:1.25;pointer-events:none;box-shadow:0 2px 4px #70563c20;white-space:nowrap}
+#task-card.object-ui .object-drop-zone span svg{width:14px;height:14px;color:#82906c}
+#task-card.object-ui[data-selected=ingredient] .dish-drop,#task-card.object-ui[data-selected=label] #crate-drop{border-color:#63b7a5;background:#75d6b618;box-shadow:0 0 0 4px #bcf1d627}
+#task-card.object-ui .object-drop-zone.drop-ready{border-color:#239d92;border-style:solid;background:#81e6ce2b;box-shadow:0 0 0 5px #8dddc647,inset 0 0 0 3px #dffff066}
+#task-card.object-ui .object-drop-zone.drop-ready span{background:#dff9eb;border-color:#52aa91;color:#276f5e}
+#task-card.object-ui[data-dragging=ingredient] .ingredient-option.selected{z-index:12;box-shadow:0 5px 0 #b99c6b55,0 14px 20px #253a3538}
+
+/* Receiving: peelable stickers and wooden sorting trays. */
+#task-card.object-ui .manifest-surface{background:linear-gradient(100deg,#fffbee,#f2e6c9);border:1px solid #b49d72;border-radius:5px;box-shadow:0 4px 6px #593d2526,inset 0 0 0 4px #fff9e944}
+#task-card.object-ui .delivery-manifest{padding:0 0 10px;margin:0 0 10px;border:0;border-bottom:1px solid #d2bd92;background:none}
+#task-card.object-ui .paper-heading{display:flex;align-items:center;justify-content:space-between;gap:8px}
+#task-card.object-ui .manifest-heading{font-size:10px;line-height:1.3;letter-spacing:.13em;color:#927a53}
+#task-card.object-ui .paper-seal{display:grid;place-items:center;width:28px;height:25px;color:#a28d62}
+#task-card.object-ui .paper-seal svg{width:22px;height:22px}
+#task-card.object-ui .delivery-manifest .task-prompt{font:700 17px/1.35 var(--sans);letter-spacing:0;margin:6px 0 0;overflow-wrap:anywhere}
+#task-card.object-ui .delivery-labels{display:grid;grid-template-columns:1fr;gap:8px;padding-bottom:3px}
+#task-card.object-ui .label-choice{position:relative;display:block;width:100%;min-width:0;min-height:52px;padding:11px 52px 11px 12px;font-size:16px;line-height:1.35;border:1px dashed #bba274;background:#fffdf2;border-radius:4px 4px 12px 4px;box-shadow:0 2px 0 #d4bf9359;transform:none;text-align:left;overflow:hidden}
+#task-card.object-ui .label-choice.draggable-piece{touch-action:pan-y;cursor:pointer}
+#task-card.object-ui .drag-grip{position:absolute;right:0;top:0;bottom:0;width:44px;min-height:48px;display:flex;align-items:center;justify-content:center;gap:3px;background:#ede5cf;border-left:1px dotted #b9a67f;touch-action:none;cursor:grab}
+#task-card.object-ui .drag-grip i{width:3px;height:18px;background:radial-gradient(circle,#9e8a66 1.2px,transparent 1.4px) 0 0/3px 6px}
+#task-card.object-ui .label-choice.selected{border:2px solid #379c8e;background:#eaf8e5;box-shadow:0 2px 0 #85ae854d;transform:none}
+#task-card.object-ui .label-choice.selected .drag-grip{background:#d4e9ce}
+#task-card.object-ui .label-choice.incorrect{background:#f6e8d5;border-color:#d0ab7b;color:#8c6e4e}
+#task-card.object-ui .answer-key{display:none}
+#task-card.object-ui .sort-label{display:flex;flex-direction:column;justify-content:center;align-items:center;gap:6px;padding:12px;background:linear-gradient(105deg,#fffcef,#f4e7c9);border:1px solid #bba273;border-left:4px solid #4a9480;border-radius:3px 8px 8px 3px;touch-action:none;box-shadow:0 3px 0 #b69b6c59,0 6px 9px #563e2626}
+#task-card.object-ui .sort-label-heading{width:100%;display:flex;justify-content:space-between;align-items:center;font-size:10px;letter-spacing:.12em;color:#9c8257}
+#task-card.object-ui .tag-grip{display:flex;color:#af9872}
+#task-card.object-ui .tag-grip svg{width:15px;height:20px}
+#task-card.object-ui .sort-word{font-size:23px;line-height:1.25;margin:0;padding:0;background:none;overflow-wrap:anywhere;color:#345e4c}
+#task-card.object-ui .sort-count{font-size:11px;color:#788869}
+#task-card.object-ui #sort-meaning{font-size:15px;line-height:1.3;color:#8a795a}
+#task-card.object-ui .sort-destinations{display:contents}
+#task-card.object-ui .sort-destination{position:absolute;padding:8px;background:transparent;border:2px solid transparent;border-radius:5px;display:flex;flex-direction:column;justify-content:start;align-items:stretch;overflow:auto;box-shadow:none}
+#task-card.object-ui .sort-destination b{font-size:15px;line-height:1.3;padding:6px;background:#fff6dfeb;border:1px solid #c5ac7c;border-radius:3px;color:#6c593c;box-shadow:0 2px 2px #68482e1c}
+#task-card.object-ui .sort-destination small{font-size:12px;line-height:1.3;margin-top:4px;background:#fff7dccc;padding:3px;border-radius:3px}
+#task-card.object-ui .bin-landing{flex:1;min-height:20px;display:grid;place-items:center;color:#986c3b6b}
+#task-card.object-ui .bin-landing svg{width:22px;height:22px;rotate:90deg}
+#task-card.object-ui .sort-stack{font-size:11px;line-height:1.35;margin-top:4px;color:#6e6149;background:#fff6dfd9;border-radius:4px;max-height:34px;overflow:auto}
+#task-card.object-ui .sort-stack:empty{display:none}
+#task-card.object-ui .sort-destination.drop-ready{border:2px solid #2b9d8c;background:#93e5be36;box-shadow:inset 0 0 0 3px #d5ffdc66,0 0 0 3px #9adbb940}
+#task-card.object-ui .sort-destination.drop-ready .bin-landing{color:#1c8a71}
+#task-card.object-ui[data-dragging=sorting] #sort-card{z-index:12;box-shadow:0 5px 0 #b69b6c44,0 14px 20px #253a3538}
+#task-card.object-ui[data-dragging=sorting] #sort-count,#task-card.object-ui[data-dragging=sorting] #sort-meaning{display:none}
+
+/* Order rail: a kitchen ticket with word stickers and a mechanical clip. */
+#task-card.object-ui .ticket-paper{padding:0;background:linear-gradient(105deg,#fffdf1,#f6ecd3);box-shadow:0 4px 8px #4e3d2b33,inset 0 0 0 4px #fffbef55;border:1px solid #bda77a;border-radius:3px}
+#task-card.object-ui .ticket-paper .surface-scroll{padding:14px 16px 20px}
+#task-card.object-ui .printed-ticket-heading{padding:var(--clip-clearance,70px) 0 13px!important;font-size:11px;line-height:1.3;margin:0 0 16px;gap:10px;display:flex;justify-content:space-between;border-bottom:2px solid #ccb88e;color:#8f7956}
+#task-card.object-ui .printed-ticket-heading b{font:700 14px/1.3 var(--serif);letter-spacing:.05em;color:#5e624c}
+#task-card.object-ui .printed-ticket-heading small{display:block;font-size:9px;letter-spacing:.10em;margin-top:4px}
+#task-card.object-ui .ticket-order-no{text-align:right;font:700 23px/1.1 var(--serif);color:#947745}
+#task-card.object-ui .ticket-sentence{font:22px/1.6 var(--serif);letter-spacing:-.01em;margin:0 0 17px;overflow-wrap:anywhere}
+#task-card.object-ui .ticket-gap{display:inline-block;padding:5px 10px;min-width:64px;min-height:48px;background:#e9e5cb;border:2px dashed #ab9a69;border-radius:6px;font:700 19px/1.3 var(--sans);vertical-align:baseline;box-shadow:inset 0 2px 4px #6a67481c}
+#task-card.object-ui[data-selected=ticket-word] .ticket-gap{border-color:#349d8c;background:#e3f4df}
+#task-card.object-ui .ticket-gap.drop-ready{border:2px solid #22998a;background:#c5edd9;box-shadow:0 0 0 4px #58ba9c33}
+#task-card.object-ui .ticket-gap.filled{background:#dfedd1;border-style:solid;color:#416d4e;box-shadow:none}
+#task-card.object-ui .ticket-choices-label{display:block;font-size:10px;letter-spacing:.12em;color:#9b8860;margin:0 0 7px}
+#task-card.object-ui .ticket-choices{display:flex;flex-wrap:wrap;gap:8px}
+#task-card.object-ui .ticket-choice,#task-card.object-ui .repair-choice{min-height:48px;min-width:80px;flex:1;font-size:16px;padding:10px;border:1px solid #c4b38c;border-radius:5px;background:linear-gradient(#fffdf1,#f4eacf);box-shadow:0 2px 0 #bda67855;text-align:center;justify-content:center}
+#task-card.object-ui .ticket-choice.selected{border:2px solid #249f9c;background:#def3e5;box-shadow:0 3px 0 #6e9e8155}
+#task-card.object-ui .ticket-choice.incorrect{background:#f4e2cb;border-color:#c49e6f;color:#8d6844}
+#task-card.object-ui .ticket-choice:disabled:not(.incorrect):not(.correct){color:#9b947c;background:#f0e8d0;box-shadow:none}
+#task-card.object-ui .ticket-bottomline{display:flex;justify-content:space-between;gap:8px;font-size:10px;line-height:1.4;margin-top:18px;padding-top:13px;border-top:1px dashed #c9b68c;color:#917e5a}
+#task-card.object-ui .stamp-button{display:flex;align-items:center;justify-content:center;gap:6px;background:linear-gradient(#ead7ac,#d5ba86);border:1px solid #9c7c43;border-radius:7px;padding:6px;font-size:13px;min-height:48px;color:#6a552f;box-shadow:0 3px 0 #a28a5c,0 6px 10px #4b38212e}
+#task-card.object-ui .stamp-button svg{width:18px;height:18px}
+#task-card.object-ui .stamp-button.drop-ready{border:2px solid #368e75;background:#c9dfad;box-shadow:0 3px 0 #809161,0 0 0 4px #b3d6a555}
+#task-card.object-ui .stamp-button:disabled{background:#cde0b8;color:#4e7654;box-shadow:0 1px 0 #99b588}
+#task-card.object-ui .ticket-grip{width:100%;display:flex;align-items:center;justify-content:space-between;gap:7px;font-size:13px;min-height:48px;margin-top:14px;padding:10px;touch-action:none;background:#e7dec0;border:1px dashed #ab9763;border-radius:5px;color:#7f754e}
+#task-card.object-ui .ticket-grip svg{width:20px;height:20px}
+
+/* Register: readable keys, a highlighted edit and an unmistakable print key. */
+#task-card.object-ui .checkout-terminal{padding:0;border:1px solid #658371;border-radius:8px;background:linear-gradient(135deg,#254d43,#173b35);color:#e8f2dd;box-shadow:inset 0 0 0 4px #4a6a5844}
+#task-card.object-ui .checkout-terminal .surface-scroll{padding:16px;scrollbar-color:#78967e #234d42}
+#task-card.object-ui .terminal-heading{padding:0 0 13px;margin:0 0 16px;font-size:12px;letter-spacing:.06em;color:#c1dec4;border-bottom:1px solid #83a28a55}
+#task-card.object-ui .terminal-heading>span svg{width:18px;height:18px;margin-right:6px;color:#71c4b1}
+#task-card.object-ui .terminal-heading small{display:block;font-size:9px;letter-spacing:.12em;margin-top:6px;color:#85aa95}
+#task-card.object-ui .terminal-heading i{width:7px;height:7px;background:#8fd8b3;box-shadow:0 0 8px #7adab94d}
+#task-card.object-ui .repair-sentence{display:flex;flex-wrap:wrap;gap:7px;line-height:1.5;margin:0 0 16px}
+#task-card.object-ui .repair-word{font:700 18px/1.4 var(--sans);min-height:48px;max-width:100%;padding:8px 9px;background:linear-gradient(#3a5f50,#2c5044);border:1px solid #678569;border-radius:7px;color:#f0f5de;touch-action:pan-y;box-shadow:0 2px 0 #0d2b2780}
+#task-card.object-ui .repair-word.flagged{background:#806b3d;border:2px solid #cfb76f;box-shadow:0 0 0 3px #d9c48218;color:#ffefb1}
+#task-card.object-ui .repair-word.erased{background:#153c32;border:2px dashed #a2ad72;color:#bacd9b;box-shadow:inset 0 2px 4px #0a2c2b88}
+#task-card.object-ui .repair-word.fixed{background:#367359!important;color:#d6ffe3!important;border:1px solid #8fbd91;box-shadow:none}
+#task-card.object-ui .repair-word.keep-word{opacity:.6}
+#task-card.object-ui .repair-instruction{font:13px/1.4 var(--sans);padding:8px 0;color:#bbd3bc;justify-content:start}
+#task-card.object-ui .eraser-button,#task-card.object-ui .print-button{width:100%;display:flex;align-items:center;justify-content:center;gap:8px;min-height:50px;padding:11px;font-size:15px;border-radius:8px;background:linear-gradient(#efdfb6,#d6bd8b);border:1px solid #b7a06a;margin-bottom:10px;box-shadow:0 3px 0 #816f4b;color:#5b4f33}
+#task-card.object-ui .print-button{justify-content:space-between;background:linear-gradient(#d2efd4,#a7d5ae);border-color:#81b991;margin-top:16px;margin-bottom:2px;box-shadow:0 3px 0 #5f987c;color:#285b46}
+#task-card.object-ui .print-button:disabled{background:#a3bda1;box-shadow:none;color:#426951}
+#task-card.object-ui .terminal-status{font:11px/1.4 var(--sans);padding-top:11px;margin-top:15px;color:#9db9a0;border-color:#709d8b55}
+#task-card.object-ui .reply-label{display:block;font-size:10px;letter-spacing:.1em;margin:10px 0 9px;color:#bdd6b9}
+
+/* Replies belong to the guest, without covering their face. */
+#task-card.object-ui .guest-question{position:absolute;top:90px;left:16px;right:20px;max-width:min(400px,62%);max-height:28%;overflow:auto;pointer-events:auto}
+#task-card.object-ui .speech-question{background:linear-gradient(130deg,#fffdf0f5,#f7ecd5f5);border:1px solid #cfbd90;border-radius:18px 18px 18px 3px;padding:13px 15px;box-shadow:0 3px 0 #bdac8333,0 6px 14px #233e351a}
+#task-card.object-ui .speech-question small{font-size:11px;letter-spacing:.05em;color:#927b54}
+#task-card.object-ui .speech-question .task-prompt{font:20px/1.4 var(--serif);margin:6px 0 0;overflow-wrap:anywhere}
+#task-card.object-ui .dialogue-progress,#task-card.object-ui .previous-reply{font:12px/1.4 var(--sans);padding:6px 9px;background:#fff7e9ed;display:flex;gap:10px;border-radius:6px;margin-bottom:6px}
+#task-card.object-ui .conversation-replies{position:absolute;left:16px;right:16px;bottom:112px;max-height:44%;max-width:600px;margin:0 auto;overflow:auto;overscroll-behavior:contain;touch-action:pan-y;pointer-events:auto;display:grid;gap:9px;padding:3px 3px 7px}
+#task-card.object-ui .reply-bubble{min-height:54px;padding:13px 15px;font-size:16px;line-height:1.4;background:linear-gradient(125deg,#f9fff0f7,#e9f1dff7);border:1px solid #abc2a4;border-left:3px solid #8fb393;border-radius:14px 14px 3px 14px;box-shadow:0 3px 0 #9eae8d38,0 5px 12px #233e3514}
+#task-card.object-ui .reply-bubble.correct{background:#d8efcf;border-color:#78a577}
+#task-card.object-ui .reply-bubble.incorrect{background:#fae9d3;border-color:#c7a277;color:#916943}
+.drag-word{position:fixed;z-index:45;pointer-events:none;padding:12px 17px;max-width:230px;transform:translate(-50%,-100%);font:700 17px/1.35 var(--sans);border:1px solid #b59b69;border-left:4px solid #59a38b;border-radius:3px 8px 8px 3px;background:linear-gradient(110deg,#fffcef,#f5e8cb);box-shadow:0 4px 0 #b59b6944,0 13px 23px #253d3838;overflow-wrap:anywhere}
+@media(max-width:600px){#task-card.object-ui .station-mark{display:none}#task-card.object-ui .station-status{gap:9px}#task-card.object-ui .station-status b{font-size:13px}}
+@media(max-height:500px){
+  #task-card.object-ui .station-status{top:max(8px,env(safe-area-inset-top));min-height:44px}
+  #task-card.object-ui .station-status b{font-size:12px}#task-card.object-ui .station-status small{font-size:10px}#task-card.object-ui .station-meta{display:none}
+  #task-card.object-ui .table-token{min-height:40px;min-width:38px;font-size:13px;padding:5px}#task-card.object-ui .table-token small{font-size:8px}
+  #task-card.object-ui .station-assist{bottom:max(4px,env(safe-area-inset-bottom))}#task-card.object-ui .task-feedback{font-size:11px;max-height:36px;padding:4px 9px}
+  #task-card.object-ui .task-toolbar{margin-top:3px}#task-card.object-ui .task-toolbar button{min-height:44px;padding:6px 10px}
+  #task-card.object-ui .recipe-note .surface-scroll{padding:6px 9px}#task-card.object-ui .recipe-note-heading{margin-bottom:3px}
+  #task-card.object-ui .ingredient-option{font-size:15px;padding:4px 17px 4px 13px}
+  #task-card.object-ui .printed-ticket-heading{padding-top:var(--clip-clearance,58px)!important}
+  #task-card.object-ui .guest-question{top:64px;max-width:42%;max-height:60%}#task-card.object-ui .conversation-replies{left:47%;right:14px;bottom:90px;max-height:65%}
+  .task-open .game-header{top:max(8px,env(safe-area-inset-top))}
+}
+@media(prefers-reduced-motion:reduce){#task-card.object-ui *,#task-card.object-ui *::before,#task-card.object-ui *::after{animation:none!important;transition:none!important}}
+
+#task-card.object-ui .task-toolbar button:disabled{opacity:.65;background:#eae5d5;color:#85917b;box-shadow:none}
+#task-card.object-ui[data-moving=true] .station-status::after{content:'';flex-shrink:0;width:20px;height:5px;background:radial-gradient(circle,#769476 2px,transparent 2.5px) 0 0/7px 5px;animation:station-arriving .8s ease-in-out infinite}
+@keyframes station-arriving{50%{opacity:.3}}
+#task-card.object-ui[data-interaction=settling] .sort-label{filter:saturate(.65);opacity:.8}
+#task-card.object-ui[data-selected=sorting] .sort-label{border-color:#3a9b88;box-shadow:0 3px 0 #8ca56d77,0 0 0 4px #9bd6b933}
+#task-card.object-ui[data-selected=sorting] .sort-destination{border-color:#a6bd78;border-style:dashed;background:#daeeb018}
+#task-card.object-ui .station-status>span:last-child{padding:5px 9px;background:#fff9e8e8;border:1px solid #e6d8b7;border-radius:9px;box-shadow:0 2px 7px #3c4e2f12}
+#task-card.object-ui .task-feedback{color:#50694e}
+#task-card.object-ui #sort-meaning{color:#756449}

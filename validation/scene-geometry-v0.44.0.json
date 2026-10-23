@@ -1,0 +1,66 @@
+{
+  "version": "0.44.0",
+  "method": "CPU scene traversal. Includes hidden meshes and multiplies instanced triangle counts; not renderer calls, GPU memory or FPS.",
+  "scenes": [
+    {
+      "arena": "courtyard",
+      "upgraded": false,
+      "meshes": 236,
+      "triangles": 195552,
+      "chef": {
+        "meshes": 22,
+        "triangles": 35064
+      }
+    },
+    {
+      "arena": "courtyard",
+      "upgraded": true,
+      "meshes": 251,
+      "triangles": 203080,
+      "chef": {
+        "meshes": 22,
+        "triangles": 35064
+      }
+    },
+    {
+      "arena": "bistro",
+      "upgraded": false,
+      "meshes": 267,
+      "triangles": 222028,
+      "chef": {
+        "meshes": 22,
+        "triangles": 35064
+      }
+    },
+    {
+      "arena": "bistro",
+      "upgraded": true,
+      "meshes": 282,
+      "triangles": 229900,
+      "chef": {
+        "meshes": 22,
+        "triangles": 35064
+      }
+    },
+    {
+      "arena": "banquet",
+      "upgraded": false,
+      "meshes": 297,
+      "triangles": 248752,
+      "chef": {
+        "meshes": 22,
+        "triangles": 35064
+      }
+    },
+    {
+      "arena": "banquet",
+      "upgraded": true,
+      "meshes": 312,
+      "triangles": 256968,
+      "chef": {
+        "meshes": 22,
+        "triangles": 35064
+      }
+    }
+  ]
+}

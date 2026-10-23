@@ -1,0 +1,22 @@
+{
+  "version": "0.50.0",
+  "uniquePassingChecks": 440,
+  "fullRun": {
+    "tests": 440,
+    "pass": 437,
+    "fail": 3,
+    "exitCode": 1,
+    "durationMs": 322714.193335
+  },
+  "correctedFilesRerun": {
+    "tests": 17,
+    "pass": 17,
+    "fail": 0,
+    "exitCode": 0
+  },
+  "scope": "Full suite completed with 437 passes. Two outdated visual expectations (new plate contact plane and common neutral exposure) were corrected; stale entrypoint version tags were fixed. All 17 checks in the affected files then passed. No other failures. Combined unique passing names cover all 440 checks.",
+  "evidence": [
+    "interaction-full-v0.50.0.txt",
+    "interaction-rerun-v0.50.0.txt"
+  ]
+}

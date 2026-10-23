@@ -1,0 +1,887 @@
+{
+  "cases": [
+    {
+      "width": 390,
+      "height": 844,
+      "upgraded": false,
+      "setting": "overview",
+      "arena": "courtyard",
+      "tables": 2,
+      "camera": {
+        "pitch": 59.99999999999999,
+        "yaw": 14.999999999999998
+      },
+      "overflow": false,
+      "buttons": [
+        {
+          "label": "Read menu",
+          "rect": {
+            "x": 16,
+            "y": 766,
+            "width": 56.328125,
+            "height": 62,
+            "top": 766,
+            "right": 72.328125,
+            "bottom": 828,
+            "left": 16
+          }
+        },
+        {
+          "label": "Pass",
+          "rect": {
+            "x": 76.328125,
+            "y": 766,
+            "width": 56.328125,
+            "height": 62,
+            "top": 766,
+            "right": 132.65625,
+            "bottom": 828,
+            "left": 76.328125
+          }
+        },
+        {
+          "label": "Supplies",
+          "rect": {
+            "x": 136.65625,
+            "y": 766,
+            "width": 56.328125,
+            "height": 62,
+            "top": 766,
+            "right": 192.984375,
+            "bottom": 828,
+            "left": 136.65625
+          }
+        },
+        {
+          "label": "Counter empty",
+          "rect": {
+            "x": 196.984375,
+            "y": 766,
+            "width": 56.34375,
+            "height": 62,
+            "top": 766,
+            "right": 253.328125,
+            "bottom": 828,
+            "left": 196.984375
+          }
+        },
+        {
+          "label": "Wash 0",
+          "rect": {
+            "x": 257.328125,
+            "y": 766,
+            "width": 56.328125,
+            "height": 62,
+            "top": 766,
+            "right": 313.65625,
+            "bottom": 828,
+            "left": 257.328125
+          }
+        },
+        {
+          "label": "Tea · 25",
+          "rect": {
+            "x": 317.65625,
+            "y": 766,
+            "width": 56.328125,
+            "height": 62,
+            "top": 766,
+            "right": 373.984375,
+            "bottom": 828,
+            "left": 317.65625
+          }
+        }
+      ],
+      "fits": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "upgraded": false,
+      "setting": "overview",
+      "arena": "bistro",
+      "tables": 3,
+      "camera": {
+        "pitch": 59.99999999999999,
+        "yaw": 14.999999999999998
+      },
+      "overflow": false,
+      "buttons": [
+        {
+          "label": "Take order",
+          "rect": {
+            "x": 16,
+            "y": 766,
+            "width": 56.328125,
+            "height": 62,
+            "top": 766,
+            "right": 72.328125,
+            "bottom": 828,
+            "left": 16
+          }
+        },
+        {
+          "label": "Pass",
+          "rect": {
+            "x": 76.328125,
+            "y": 766,
+            "width": 56.328125,
+            "height": 62,
+            "top": 766,
+            "right": 132.65625,
+            "bottom": 828,
+            "left": 76.328125
+          }
+        },
+        {
+          "label": "Supplies",
+          "rect": {
+            "x": 136.65625,
+            "y": 766,
+            "width": 56.328125,
+            "height": 62,
+            "top": 766,
+            "right": 192.984375,
+            "bottom": 828,
+            "left": 136.65625
+          }
+        },
+        {
+          "label": "Counter empty",
+          "rect": {
+            "x": 196.984375,
+            "y": 766,
+            "width": 56.34375,
+            "height": 62,
+            "top": 766,
+            "right": 253.328125,
+            "bottom": 828,
+            "left": 196.984375
+          }
+        },
+        {
+          "label": "Wash 0",
+          "rect": {
+            "x": 257.328125,
+            "y": 766,
+            "width": 56.328125,
+            "height": 62,
+            "top": 766,
+            "right": 313.65625,
+            "bottom": 828,
+            "left": 257.328125
+          }
+        },
+        {
+          "label": "Tea · 25",
+          "rect": {
+            "x": 317.65625,
+            "y": 766,
+            "width": 56.328125,
+            "height": 62,
+            "top": 766,
+            "right": 373.984375,
+            "bottom": 828,
+            "left": 317.65625
+          }
+        }
+      ],
+      "fits": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "upgraded": false,
+      "setting": "overview",
+      "arena": "banquet",
+      "tables": 4,
+      "camera": {
+        "pitch": 59.99999999999999,
+        "yaw": 14.999999999999998
+      },
+      "overflow": false,
+      "buttons": [
+        {
+          "label": "Take order",
+          "rect": {
+            "x": 16,
+            "y": 766,
+            "width": 56.328125,
+            "height": 62,
+            "top": 766,
+            "right": 72.328125,
+            "bottom": 828,
+            "left": 16
+          }
+        },
+        {
+          "label": "Pass",
+          "rect": {
+            "x": 76.328125,
+            "y": 766,
+            "width": 56.328125,
+            "height": 62,
+            "top": 766,
+            "right": 132.65625,
+            "bottom": 828,
+            "left": 76.328125
+          }
+        },
+        {
+          "label": "Supplies",
+          "rect": {
+            "x": 136.65625,
+            "y": 766,
+            "width": 56.328125,
+            "height": 62,
+            "top": 766,
+            "right": 192.984375,
+            "bottom": 828,
+            "left": 136.65625
+          }
+        },
+        {
+          "label": "Counter empty",
+          "rect": {
+            "x": 196.984375,
+            "y": 766,
+            "width": 56.34375,
+            "height": 62,
+            "top": 766,
+            "right": 253.328125,
+            "bottom": 828,
+            "left": 196.984375
+          }
+        },
+        {
+          "label": "Wash 0",
+          "rect": {
+            "x": 257.328125,
+            "y": 766,
+            "width": 56.328125,
+            "height": 62,
+            "top": 766,
+            "right": 313.65625,
+            "bottom": 828,
+            "left": 257.328125
+          }
+        },
+        {
+          "label": "Tea · 25",
+          "rect": {
+            "x": 317.65625,
+            "y": 766,
+            "width": 56.328125,
+            "height": 62,
+            "top": 766,
+            "right": 373.984375,
+            "bottom": 828,
+            "left": 317.65625
+          }
+        }
+      ],
+      "fits": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "upgraded": true,
+      "setting": "overview",
+      "arena": "banquet",
+      "tables": 4,
+      "camera": {
+        "pitch": 59.99999999999999,
+        "yaw": 14.999999999999998
+      },
+      "overflow": false,
+      "buttons": [
+        {
+          "label": "Take order",
+          "rect": {
+            "x": 16,
+            "y": 766,
+            "width": 56.328125,
+            "height": 62,
+            "top": 766,
+            "right": 72.328125,
+            "bottom": 828,
+            "left": 16
+          }
+        },
+        {
+          "label": "Pass",
+          "rect": {
+            "x": 76.328125,
+            "y": 766,
+            "width": 56.328125,
+            "height": 62,
+            "top": 766,
+            "right": 132.65625,
+            "bottom": 828,
+            "left": 76.328125
+          }
+        },
+        {
+          "label": "Supplies",
+          "rect": {
+            "x": 136.65625,
+            "y": 766,
+            "width": 56.328125,
+            "height": 62,
+            "top": 766,
+            "right": 192.984375,
+            "bottom": 828,
+            "left": 136.65625
+          }
+        },
+        {
+          "label": "Counter empty",
+          "rect": {
+            "x": 196.984375,
+            "y": 766,
+            "width": 56.34375,
+            "height": 62,
+            "top": 766,
+            "right": 253.328125,
+            "bottom": 828,
+            "left": 196.984375
+          }
+        },
+        {
+          "label": "Wash 0",
+          "rect": {
+            "x": 257.328125,
+            "y": 766,
+            "width": 56.328125,
+            "height": 62,
+            "top": 766,
+            "right": 313.65625,
+            "bottom": 828,
+            "left": 257.328125
+          }
+        },
+        {
+          "label": "Tea · 25",
+          "rect": {
+            "x": 317.65625,
+            "y": 766,
+            "width": 56.328125,
+            "height": 62,
+            "top": 766,
+            "right": 373.984375,
+            "bottom": 828,
+            "left": 317.65625
+          }
+        }
+      ],
+      "fits": []
+    },
+    {
+      "width": 320,
+      "height": 480,
+      "upgraded": false,
+      "setting": "overview",
+      "arena": "banquet",
+      "tables": 4,
+      "camera": {
+        "pitch": 59.99999999999999,
+        "yaw": 14.999999999999998
+      },
+      "overflow": false,
+      "buttons": [
+        {
+          "label": "Take order",
+          "rect": {
+            "x": 16,
+            "y": 393,
+            "width": 44.65625,
+            "height": 71,
+            "top": 393,
+            "right": 60.65625,
+            "bottom": 464,
+            "left": 16
+          }
+        },
+        {
+          "label": "Pass",
+          "rect": {
+            "x": 64.65625,
+            "y": 393,
+            "width": 44.671875,
+            "height": 71,
+            "top": 393,
+            "right": 109.328125,
+            "bottom": 464,
+            "left": 64.65625
+          }
+        },
+        {
+          "label": "Supplies",
+          "rect": {
+            "x": 113.328125,
+            "y": 393,
+            "width": 44.671875,
+            "height": 71,
+            "top": 393,
+            "right": 158,
+            "bottom": 464,
+            "left": 113.328125
+          }
+        },
+        {
+          "label": "Counter empty",
+          "rect": {
+            "x": 162,
+            "y": 393,
+            "width": 44.65625,
+            "height": 71,
+            "top": 393,
+            "right": 206.65625,
+            "bottom": 464,
+            "left": 162
+          }
+        },
+        {
+          "label": "Wash 0",
+          "rect": {
+            "x": 210.65625,
+            "y": 393,
+            "width": 44.671875,
+            "height": 71,
+            "top": 393,
+            "right": 255.328125,
+            "bottom": 464,
+            "left": 210.65625
+          }
+        },
+        {
+          "label": "Tea · 25",
+          "rect": {
+            "x": 259.328125,
+            "y": 393,
+            "width": 44.671875,
+            "height": 71,
+            "top": 393,
+            "right": 304,
+            "bottom": 464,
+            "left": 259.328125
+          }
+        }
+      ],
+      "fits": []
+    },
+    {
+      "width": 360,
+      "height": 640,
+      "upgraded": false,
+      "setting": "overview",
+      "arena": "bistro",
+      "tables": 3,
+      "camera": {
+        "pitch": 59.99999999999999,
+        "yaw": 14.999999999999996
+      },
+      "overflow": false,
+      "buttons": [
+        {
+          "label": "Take order",
+          "rect": {
+            "x": 16,
+            "y": 553,
+            "width": 51.328125,
+            "height": 71,
+            "top": 553,
+            "right": 67.328125,
+            "bottom": 624,
+            "left": 16
+          }
+        },
+        {
+          "label": "Pass",
+          "rect": {
+            "x": 71.328125,
+            "y": 553,
+            "width": 51.328125,
+            "height": 71,
+            "top": 553,
+            "right": 122.65625,
+            "bottom": 624,
+            "left": 71.328125
+          }
+        },
+        {
+          "label": "Supplies",
+          "rect": {
+            "x": 126.65625,
+            "y": 553,
+            "width": 51.328125,
+            "height": 71,
+            "top": 553,
+            "right": 177.984375,
+            "bottom": 624,
+            "left": 126.65625
+          }
+        },
+        {
+          "label": "Counter empty",
+          "rect": {
+            "x": 181.984375,
+            "y": 553,
+            "width": 51.34375,
+            "height": 71,
+            "top": 553,
+            "right": 233.328125,
+            "bottom": 624,
+            "left": 181.984375
+          }
+        },
+        {
+          "label": "Wash 0",
+          "rect": {
+            "x": 237.328125,
+            "y": 553,
+            "width": 51.328125,
+            "height": 71,
+            "top": 553,
+            "right": 288.65625,
+            "bottom": 624,
+            "left": 237.328125
+          }
+        },
+        {
+          "label": "Tea · 25",
+          "rect": {
+            "x": 292.65625,
+            "y": 553,
+            "width": 51.328125,
+            "height": 71,
+            "top": 553,
+            "right": 343.984375,
+            "bottom": 624,
+            "left": 292.65625
+          }
+        }
+      ],
+      "fits": []
+    },
+    {
+      "width": 568,
+      "height": 320,
+      "upgraded": false,
+      "setting": "overview",
+      "arena": "banquet",
+      "tables": 4,
+      "camera": {
+        "pitch": 59.99999999999999,
+        "yaw": 14.999999999999998
+      },
+      "overflow": false,
+      "buttons": [
+        {
+          "label": "Take order",
+          "rect": {
+            "x": 200,
+            "y": 244,
+            "width": 55,
+            "height": 60,
+            "top": 244,
+            "right": 255,
+            "bottom": 304,
+            "left": 200
+          }
+        },
+        {
+          "label": "Pass",
+          "rect": {
+            "x": 259,
+            "y": 244,
+            "width": 55,
+            "height": 60,
+            "top": 244,
+            "right": 314,
+            "bottom": 304,
+            "left": 259
+          }
+        },
+        {
+          "label": "Supplies",
+          "rect": {
+            "x": 318,
+            "y": 244,
+            "width": 55,
+            "height": 60,
+            "top": 244,
+            "right": 373,
+            "bottom": 304,
+            "left": 318
+          }
+        },
+        {
+          "label": "Counter empty",
+          "rect": {
+            "x": 377,
+            "y": 244,
+            "width": 55,
+            "height": 60,
+            "top": 244,
+            "right": 432,
+            "bottom": 304,
+            "left": 377
+          }
+        },
+        {
+          "label": "Wash 0",
+          "rect": {
+            "x": 436,
+            "y": 244,
+            "width": 55,
+            "height": 60,
+            "top": 244,
+            "right": 491,
+            "bottom": 304,
+            "left": 436
+          }
+        },
+        {
+          "label": "Tea · 25",
+          "rect": {
+            "x": 495,
+            "y": 244,
+            "width": 55,
+            "height": 60,
+            "top": 244,
+            "right": 550,
+            "bottom": 304,
+            "left": 495
+          }
+        }
+      ],
+      "fits": []
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "upgraded": false,
+      "setting": "overview",
+      "arena": "banquet",
+      "tables": 4,
+      "camera": {
+        "pitch": 59.99999999999999,
+        "yaw": 14.999999999999998
+      },
+      "overflow": false,
+      "buttons": [
+        {
+          "label": "Take order",
+          "rect": {
+            "x": 478.5,
+            "y": 690,
+            "width": 64,
+            "height": 62,
+            "top": 690,
+            "right": 542.5,
+            "bottom": 752,
+            "left": 478.5
+          }
+        },
+        {
+          "label": "Pass",
+          "rect": {
+            "x": 547.5,
+            "y": 690,
+            "width": 64,
+            "height": 62,
+            "top": 690,
+            "right": 611.5,
+            "bottom": 752,
+            "left": 547.5
+          }
+        },
+        {
+          "label": "Supplies",
+          "rect": {
+            "x": 616.5,
+            "y": 690,
+            "width": 64,
+            "height": 62,
+            "top": 690,
+            "right": 680.5,
+            "bottom": 752,
+            "left": 616.5
+          }
+        },
+        {
+          "label": "Counter empty",
+          "rect": {
+            "x": 685.5,
+            "y": 690,
+            "width": 64,
+            "height": 62,
+            "top": 690,
+            "right": 749.5,
+            "bottom": 752,
+            "left": 685.5
+          }
+        },
+        {
+          "label": "Wash 0",
+          "rect": {
+            "x": 754.5,
+            "y": 690,
+            "width": 64,
+            "height": 62,
+            "top": 690,
+            "right": 818.5,
+            "bottom": 752,
+            "left": 754.5
+          }
+        },
+        {
+          "label": "Tea · 25",
+          "rect": {
+            "x": 823.5,
+            "y": 690,
+            "width": 64,
+            "height": 62,
+            "top": 690,
+            "right": 887.5,
+            "bottom": 752,
+            "left": 823.5
+          }
+        }
+      ],
+      "fits": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "upgraded": false,
+      "setting": "recipe",
+      "arena": "banquet",
+      "tables": 4,
+      "camera": {
+        "pitch": 65.77225468204583,
+        "yaw": 0
+      },
+      "overflow": false,
+      "buttons": [],
+      "fits": [
+        {
+          "id": "recipe-note",
+          "fit": "true"
+        },
+        {
+          "id": "ingredient-2",
+          "fit": "true"
+        },
+        {
+          "id": "ingredient-3",
+          "fit": "true"
+        },
+        {
+          "id": "ingredient-5",
+          "fit": "true"
+        },
+        {
+          "id": "ingredient-0",
+          "fit": "true"
+        },
+        {
+          "id": "ingredient-4",
+          "fit": "true"
+        },
+        {
+          "id": "ingredient-1",
+          "fit": "true"
+        }
+      ],
+      "nativeCompletion": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "upgraded": false,
+      "setting": "wash",
+      "arena": "banquet",
+      "tables": 4,
+      "camera": {
+        "pitch": 54.46232220802562,
+        "yaw": 0
+      },
+      "overflow": false,
+      "buttons": [],
+      "fits": [
+        {
+          "id": "main",
+          "fit": "true"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "upgraded": false,
+      "setting": "ticket",
+      "arena": "banquet",
+      "tables": 4,
+      "camera": {
+        "pitch": 0.7161599454704091,
+        "yaw": 0
+      },
+      "overflow": false,
+      "buttons": [],
+      "fits": [
+        {
+          "id": "main",
+          "fit": "true"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "upgraded": false,
+      "setting": "repair",
+      "arena": "banquet",
+      "tables": 4,
+      "camera": {
+        "pitch": 10.31324031235481,
+        "yaw": -3.2327845416685252e-15
+      },
+      "overflow": false,
+      "buttons": [],
+      "fits": [
+        {
+          "id": "main",
+          "fit": "true"
+        },
+        {
+          "id": "printed-receipt",
+          "fit": "true"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "upgraded": false,
+      "setting": "delivery",
+      "arena": "banquet",
+      "tables": 4,
+      "camera": {
+        "pitch": 89.71352348972293,
+        "yaw": 4.2407395752846544e-13
+      },
+      "overflow": false,
+      "buttons": [],
+      "fits": [
+        {
+          "id": "sort-card",
+          "fit": "true"
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "method": "Software-WebGL Chromium; temporary scratch-only fixture hooks, all three venue layouts, upgraded furniture, portrait/landscape/desktop overview and every physical work station. Six-block native ingredient/dish taps complete at 390×844."
+}

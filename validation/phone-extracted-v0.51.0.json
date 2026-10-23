@@ -1,0 +1,38 @@
+{
+  "version": "0.51.0",
+  "actualExtractedFileOrigin": true,
+  "noQAHooks": true,
+  "nativeThreePhaseMeal": true,
+  "nativeFoodIconDrag": true,
+  "nativeWorldBadgeRoute": true,
+  "nativeConversationWidth": 299.875,
+  "rootScrollPreserved": true,
+  "nativeLabelLiftDestinationAndMissReturn": true,
+  "nativeWashingAcceptance": true,
+  "phases": [
+    {
+      "phase": 0,
+      "blocks": 3,
+      "nativePlacements": true,
+      "translationReadback": true
+    },
+    {
+      "phase": 1,
+      "blocks": 3,
+      "nativePlacements": true,
+      "translationReadback": true
+    },
+    {
+      "phase": 2,
+      "blocks": 3,
+      "nativePlacements": true,
+      "translationReadback": true
+    }
+  ],
+  "englishReadbackRetained": true,
+  "dropCaptionYieldsWithoutMovingTarget": true,
+  "returnedToOverview": true,
+  "bundleSha256": "41431c8f9830c64b46f6f6045fe6a2e74b9ffe3d2f75b27556a9c08df4cef788",
+  "errors": [],
+  "externalRequests": []
+}

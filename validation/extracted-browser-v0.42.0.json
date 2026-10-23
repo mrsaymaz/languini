@@ -1,0 +1,10 @@
+{
+  "version": "0.42.0",
+  "actualExtractedRuntime": true,
+  "fileOrigin": true,
+  "openingStory": true,
+  "nativePauseContinueSkip": true,
+  "firstShiftAndPauseResume": true,
+  "errors": [],
+  "externalRequests": []
+}

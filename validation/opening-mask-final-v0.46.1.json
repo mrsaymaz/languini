@@ -1,0 +1,29 @@
+{
+  "version": "0.46.1",
+  "cases": [
+    {
+      "width": 390,
+      "height": 844,
+      "steady": true,
+      "skyAnimated": true,
+      "renders": 0,
+      "maskPoints": 5,
+      "overflow": false
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "steady": true,
+      "skyAnimated": true,
+      "renders": 0,
+      "maskPoints": 5,
+      "overflow": false
+    },
+    {
+      "nightHeaderInk": "rgb(255, 242, 210)",
+      "skyHiddenForGameplay": true
+    }
+  ],
+  "errors": [],
+  "method": "Final built source/CSS. Animated sky with zero repeated 3D renders, steady camera, projected interior exclusion, no horizontal overflow, readable night header and hidden sky during gameplay. Screenshots inspected internally."
+}

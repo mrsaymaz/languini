@@ -1,0 +1,30 @@
+{
+  "version": "0.53.0",
+  "uniquePassingChecks": 465,
+  "earlierFullRun": {
+    "tests": 465,
+    "pass": 464,
+    "fail": 1,
+    "durationMs": 319925.699706
+  },
+  "earlierAffectedRerun": {
+    "tests": 8,
+    "pass": 8,
+    "fail": 0
+  },
+  "earlierFinalFocusedRun": {
+    "tests": 25,
+    "pass": 25,
+    "fail": 0
+  },
+  "recoveredFocusedRun": {
+    "tests": 36,
+    "pass": 36,
+    "fail": 0
+  },
+  "recoveredRuntimeMatchesTestedSHA256": "8608f64df089e9319b1d42bd54e72c626a74886b27baa18e271b49f235d2b7a2",
+  "scope": "The earlier full run counted the new annotation tag as food geometry; the corrected check separately preserves all original food triangles and requires the tag. Eight affected and 25 final focused checks then passed. A later workspace restore removed unsaved logs; the implementation was recovered from saved v0.52.0. Its compiled game.js is byte-identical to the already-tested final runtime, and all 36 current focused checks pass. Earlier full-run console output is not retained; current focused and browser evidence is included.",
+  "evidence": [
+    "task-colours-recovered-focused-v0.53.0.txt"
+  ]
+}

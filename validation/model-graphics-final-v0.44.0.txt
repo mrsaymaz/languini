@@ -1,0 +1,18 @@
+✔ baked form shading preserves every vertex, normal, UV and index used for picking (10.013881ms)
+✔ the studio environment is a bounded local texture with no asset URL or per-frame work (7.418846ms)
+✔ all three restaurants retain the mesh budget and complete shading after material batching (961.068111ms)
+✔ paper packaging uses shared matte finishes instead of ceramic gloss or wooden grain (253.099088ms)
+✔ refined dishes keep their finite scale and use folded leaves and open curved pasta (293.913736ms)
+✔ Light mode removes studio reflections while Detailed reuses the same environment (3.546654ms)
+✔ detailed chef keeps the reach rig, face controls, identity proportions and batched mobile budget (425.909339ms)
+✔ smoother serving vessels retain the exact full-size plate footprint and cache shared geometry (231.833067ms)
+✔ all 81 ingredient layers reuse bounded material batches with their ingredient semantics intact (290.617733ms)
+✔ three restaurant scenes retain the previous draw-object cap and bounded geometry including hidden food (766.008066ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3616.431032

@@ -1,0 +1,437 @@
+{
+  "checks": [
+    {
+      "width": 390,
+      "height": 844,
+      "scrollHeight": 844,
+      "clientHeight": 844,
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "panel": {
+        "x": 16,
+        "y": 241.71875,
+        "width": 358,
+        "height": 588.5625,
+        "top": 241.71875,
+        "right": 374,
+        "bottom": 830.28125,
+        "left": 16
+      },
+      "start": {
+        "x": 140,
+        "y": 737.1875,
+        "width": 218,
+        "height": 46,
+        "top": 737.1875,
+        "right": 358,
+        "bottom": 783.1875,
+        "left": 140
+      },
+      "brands": [
+        {
+          "class": "",
+          "loaded": true,
+          "src": "http://127.0.0.1:8778/assets/branding/chefs-seal-emblem-64.webp",
+          "rect": {
+            "x": 16,
+            "y": 19.71875,
+            "width": 32,
+            "height": 32,
+            "top": 19.71875,
+            "right": 48,
+            "bottom": 51.71875,
+            "left": 16
+          }
+        },
+        {
+          "class": "mobile-brand-full",
+          "loaded": true,
+          "src": "http://127.0.0.1:8778/assets/branding/chefs-seal-logo-240.webp",
+          "rect": {
+            "x": 151.328125,
+            "y": 76.71875,
+            "width": 187.1875,
+            "height": 170,
+            "top": 76.71875,
+            "right": 338.515625,
+            "bottom": 246.71875,
+            "left": 151.328125
+          }
+        }
+      ]
+    },
+    {
+      "width": 360,
+      "height": 640,
+      "scrollHeight": 640,
+      "clientHeight": 640,
+      "scrollWidth": 360,
+      "clientWidth": 360,
+      "panel": {
+        "x": 16,
+        "y": 194.203125,
+        "width": 328,
+        "height": 416.59375,
+        "top": 194.203125,
+        "right": 344,
+        "bottom": 610.796875,
+        "left": 16
+      },
+      "start": {
+        "x": 137,
+        "y": 540.296875,
+        "width": 194,
+        "height": 46,
+        "top": 540.296875,
+        "right": 331,
+        "bottom": 586.296875,
+        "left": 137
+      },
+      "brands": [
+        {
+          "class": "",
+          "loaded": true,
+          "src": "http://127.0.0.1:8778/assets/branding/chefs-seal-emblem-64.webp",
+          "rect": {
+            "x": 16,
+            "y": 35.203125,
+            "width": 32,
+            "height": 32,
+            "top": 35.203125,
+            "right": 48,
+            "bottom": 67.203125,
+            "left": 16
+          }
+        },
+        {
+          "class": "mobile-brand-full",
+          "loaded": true,
+          "src": "http://127.0.0.1:8778/assets/branding/chefs-seal-logo-240.webp",
+          "rect": {
+            "x": 111.328125,
+            "y": 89.203125,
+            "width": 172.796875,
+            "height": 110,
+            "top": 89.203125,
+            "right": 284.125,
+            "bottom": 199.203125,
+            "left": 111.328125
+          }
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "scrollHeight": 568,
+      "clientHeight": 568,
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "panel": {
+        "x": 16,
+        "y": 125.203125,
+        "width": 288,
+        "height": 417.59375,
+        "top": 125.203125,
+        "right": 304,
+        "bottom": 542.796875,
+        "left": 16
+      },
+      "start": {
+        "x": 137,
+        "y": 472.296875,
+        "width": 154,
+        "height": 46,
+        "top": 472.296875,
+        "right": 291,
+        "bottom": 518.296875,
+        "left": 137
+      },
+      "brands": [
+        {
+          "class": "",
+          "loaded": true,
+          "src": "http://127.0.0.1:8778/assets/branding/chefs-seal-emblem-64.webp",
+          "rect": {
+            "x": 16,
+            "y": 33.203125,
+            "width": 28,
+            "height": 28,
+            "top": 33.203125,
+            "right": 44,
+            "bottom": 61.203125,
+            "left": 16
+          }
+        },
+        {
+          "class": "mobile-brand-full",
+          "loaded": true,
+          "src": "http://127.0.0.1:8778/assets/branding/chefs-seal-logo-240.webp",
+          "rect": {
+            "x": 82.65625,
+            "y": 67.203125,
+            "width": 153.59375,
+            "height": 70,
+            "top": 67.203125,
+            "right": 236.25,
+            "bottom": 137.203125,
+            "left": 82.65625
+          }
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "height": 480,
+      "scrollHeight": 480,
+      "clientHeight": 480,
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "panel": {
+        "x": 16,
+        "y": 61.703125,
+        "width": 288,
+        "height": 408.59375,
+        "top": 61.703125,
+        "right": 304,
+        "bottom": 470.296875,
+        "left": 16
+      },
+      "start": {
+        "x": 137,
+        "y": 401.796875,
+        "width": 154,
+        "height": 46,
+        "top": 401.796875,
+        "right": 291,
+        "bottom": 447.796875,
+        "left": 137
+      },
+      "brands": []
+    },
+    {
+      "width": 667,
+      "height": 375,
+      "scrollHeight": 375,
+      "clientHeight": 375,
+      "scrollWidth": 667,
+      "clientWidth": 667,
+      "panel": {
+        "x": 158,
+        "y": 86.203125,
+        "width": 493,
+        "height": 252.578125,
+        "top": 86.203125,
+        "right": 651,
+        "bottom": 338.78125,
+        "left": 158
+      },
+      "start": {
+        "x": 311,
+        "y": 283.78125,
+        "width": 325,
+        "height": 44,
+        "top": 283.78125,
+        "right": 636,
+        "bottom": 327.78125,
+        "left": 311
+      },
+      "brands": [
+        {
+          "class": "",
+          "loaded": true,
+          "src": "http://127.0.0.1:8778/assets/branding/chefs-seal-emblem-64.webp",
+          "rect": {
+            "x": 16,
+            "y": 42.203125,
+            "width": 32,
+            "height": 32,
+            "top": 42.203125,
+            "right": 48,
+            "bottom": 74.203125,
+            "left": 16
+          }
+        }
+      ]
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scrollHeight": 390,
+      "clientHeight": 390,
+      "scrollWidth": 844,
+      "clientWidth": 844,
+      "panel": {
+        "x": 158,
+        "y": 95.703125,
+        "width": 670,
+        "height": 248.59375,
+        "top": 95.703125,
+        "right": 828,
+        "bottom": 344.296875,
+        "left": 158
+      },
+      "start": {
+        "x": 315,
+        "y": 287.296875,
+        "width": 494,
+        "height": 44,
+        "top": 287.296875,
+        "right": 809,
+        "bottom": 331.296875,
+        "left": 315
+      },
+      "brands": [
+        {
+          "class": "brand-full",
+          "loaded": true,
+          "src": "http://127.0.0.1:8778/assets/branding/chefs-seal-logo-240.webp",
+          "rect": {
+            "x": 16,
+            "y": 45.703125,
+            "width": 220,
+            "height": 146.65625,
+            "top": 45.703125,
+            "right": 236,
+            "bottom": 192.359375,
+            "left": 16
+          }
+        }
+      ]
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "scrollHeight": 768,
+      "clientHeight": 768,
+      "scrollWidth": 1366,
+      "clientWidth": 1366,
+      "panel": {
+        "x": 867.265625,
+        "y": 30.25,
+        "width": 440,
+        "height": 707.484375,
+        "top": 30.25,
+        "right": 1307.265625,
+        "bottom": 737.734375,
+        "left": 867.265625
+      },
+      "start": {
+        "x": 1023.265625,
+        "y": 647.234375,
+        "width": 256,
+        "height": 48,
+        "top": 647.234375,
+        "right": 1279.265625,
+        "bottom": 695.234375,
+        "left": 1023.265625
+      },
+      "brands": [
+        {
+          "class": "brand-full",
+          "loaded": true,
+          "src": "http://127.0.0.1:8778/assets/branding/chefs-seal-logo-480.webp",
+          "rect": {
+            "x": 58.734375,
+            "y": 30,
+            "width": 327.828125,
+            "height": 218.546875,
+            "top": 30,
+            "right": 386.5625,
+            "bottom": 248.546875,
+            "left": 58.734375
+          }
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "height": 600,
+      "scrollHeight": 600,
+      "clientHeight": 600,
+      "scrollWidth": 1024,
+      "clientWidth": 1024,
+      "panel": {
+        "x": 556,
+        "y": 18.453125,
+        "width": 440,
+        "height": 563.09375,
+        "top": 18.453125,
+        "right": 996,
+        "bottom": 581.546875,
+        "left": 556
+      },
+      "start": {
+        "x": 703,
+        "y": 505.046875,
+        "width": 274,
+        "height": 48,
+        "top": 505.046875,
+        "right": 977,
+        "bottom": 553.046875,
+        "left": 703
+      },
+      "brands": [
+        {
+          "class": "brand-full",
+          "loaded": true,
+          "src": "http://127.0.0.1:8778/assets/branding/chefs-seal-logo-480.webp",
+          "rect": {
+            "x": 28,
+            "y": 15,
+            "width": 245.75,
+            "height": 163.828125,
+            "top": 15,
+            "right": 273.75,
+            "bottom": 178.828125,
+            "left": 28
+          }
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "helpOpens": true,
+  "playStarts": true,
+  "icons": {
+    "links": [
+      "./favicon.ico",
+      "./favicon-32.png",
+      "./apple-touch-icon.png"
+    ],
+    "manifest": {
+      "id": "./",
+      "name": "Languini · by Mr. Saymaz",
+      "short_name": "Languini",
+      "description": "Your restaurant. Your English adventure.",
+      "lang": "en",
+      "start_url": "./index.html",
+      "scope": "./",
+      "display": "standalone",
+      "theme_color": "#254c42",
+      "background_color": "#f5efdf",
+      "icons": [
+        {
+          "src": "./app-icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png",
+          "purpose": "any"
+        },
+        {
+          "src": "./app-icon-512.png",
+          "sizes": "512x512",
+          "type": "image/png",
+          "purpose": "any"
+        }
+      ]
+    }
+  },
+  "requested": [
+    "full-160.webp",
+    "chefs-seal-emblem-64.webp",
+    "chefs-seal-logo-240.webp",
+    "bust-160.webp",
+    "full-480.webp",
+    "chefs-seal-logo-480.webp"
+  ]
+}

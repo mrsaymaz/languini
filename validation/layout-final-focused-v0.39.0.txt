@@ -1,0 +1,38 @@
+✔ recommendations alone can complete 48 services across modes, arenas, events and equipment (1864.261802ms)
+✔ the destination badge and contextual primary button perform the same advertised action (15.682894ms)
+✔ tray, crate, plate and trolley advice stays attached to real destinations and order identities (3.995316ms)
+✔ blocked actions explain themselves until the player chooses a valid route (6.206037ms)
+✔ first-use tips learn only successful use, persist safely, and restore without changing progress (4.399354ms)
+✔ guidance and signs hide during English, side decisions, pause and terminal states (2.138777ms)
+✔ one badge stays inside the available playfield across phone sizes and safe side insets (1.11552ms)
+✔ free movement has finite footprint confirmation and does not alter English outcomes (7.21903ms)
+✔ scene signifiers point to the recommendation before any click and retain bounded geometry (1208.766243ms)
+✔ station, arena, shop and ticket controls resolve to one complete semantic icon family (20.888041ms)
+✔ particle feedback remains bounded after repeated actions, clears on reduced motion and releases its resources (9.666225ms)
+✔ real preparation emits crumbs for bread and steam for hot broth, with silent restoration (722.889747ms)
+✔ delivery approval seal stamps once and remains fully formed on restored packages (508.093894ms)
+✔ station feedback freezes during pause and overview steam follows real hot cooking jobs (549.182689ms)
+✔ all arena renovation stages add visible structure without exceeding existing mesh budgets (3912.960507ms)
+✔ fully upgraded warming equipment leaves ticket and receipt ink clear across arenas and viewports (1637.542444ms)
+✔ every venue keeps a clear central spine and all actual service approaches are reachable (67.023107ms)
+✔ all portrait overview cameras use the approved 60 degree pitch and 15 degree yaw (5.016534ms)
+✔ moving the prep counter preserves the close-up board, papers, plate and native surface size (1659.003694ms)
+✔ tall kitchen fixtures cut away for work and restore when the station closes (542.831499ms)
+✔ all arena/team combinations build finite complete 3D scenes (4880.578759ms)
+✔ table markers remain on screen at desktop and phone aspect ratios (5.234447ms)
+✔ static entrypoint includes all wired controls and local assets (18.784241ms)
+✔ close-ups keep each station above the phone task sheet (1.265296ms)
+✔ each camera has a distinct angle and recipe view is aerial (0.284036ms)
+✔ physical stations animate, remain pickable and restore the shared restaurant (358.160646ms)
+✔ customer-held menu is unobstructed from behind the right shoulder at every table (1178.243443ms)
+✔ all 24 customer profiles render, hold the menu and replace the previous table model (729.774442ms)
+✔ hanging paper meets its clip and checkout display sits in the existing terminal (203.322077ms)
+✔ all nine dishes plate distinct ingredients at stable landing heights (408.801066ms)
+ℹ tests 30
+ℹ suites 0
+ℹ pass 30
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 8163.815538

@@ -1,0 +1,11 @@
+# Matching serving plates and customer voices · v0.25.0
+
+The washing plate is the shared serving ceramic, including its baked form shading, ivory-white body, cream well, foot and fine brass rim. Its orientation and scale fit the existing close-up and scattered sentence targets. All food/dirt patches, hands, accepted-link cleaning and reduced-motion behavior are retained.
+
+Every customer profile stores an explicit female/male voice preference. Station speech resolves the guest from the active table, so a task at another table never accidentally uses table zero. Shared washing/delivery tasks use neutral American English. Customer preferences persist in speech sessions through rotation and pause.
+
+Speech requests `en-GB` for male customers and `en-US` for female/neutral speech at the existing learner-friendly rate. Male selection requires a recognized British male persona or explicit male label and excludes Fred/novelty voices. Suitable natural/enhanced/neural British voices are preferred. An unknown generic British voice, American male or browser default is not substituted. If no suitable voice exists, the request settles as unavailable and existing written support remains. No new speech service or voice installation is required.
+
+The browser speech API has no standard gender property. Selection recognizes explicit vendor labels and common Apple/Microsoft/Amazon personas; generic names remain unclassified. It cannot install or invent a missing voice. Female/neutral selection retains its existing English fallback. An empty catalogue gets the same cancellable 350 ms discovery window. Errors, cancellation and lost callbacks settle the speech gate. No pitch shifting is used. Variation is stable across catalogue reordering and duplicate enhanced/compact entries.
+
+Automated checks cover shared ceramic geometry/material/color attributes and disposal, all 33 washing arena/viewport sightlines, vendor persona selection, locale/fallback/variation, asynchronous voice discovery and cancellation, actual table assignment, automatic dialogue, shared tasks and voice preference retention across rotation. These use CPU/DOM/speech doubles. Actual browser rendering and device voice quality/availability need the mobile acceptance pass.

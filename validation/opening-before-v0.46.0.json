@@ -1,0 +1,116 @@
+{
+  "cases": [
+    {
+      "mood": "breakfast",
+      "cameraBefore": [
+        2.5320942857886,
+        18.138812291993347,
+        9.31225144898029
+      ],
+      "cameraAfter": [
+        2.5395346225433286,
+        18.14215351780358,
+        9.310257816755444
+      ],
+      "diagnostics": {
+        "samples": 17,
+        "frameMeanMs": 99.99,
+        "frameP95Ms": 200,
+        "quality": "lite",
+        "pixelRatio": 1,
+        "renderCalls": 225,
+        "renderTriangles": 192590,
+        "textures": 16,
+        "geometries": 216
+      },
+      "menu": true,
+      "canopy": true,
+      "weather": true,
+      "setup": {
+        "x": 16,
+        "y": 262.40625,
+        "width": 358,
+        "height": 547.1875,
+        "top": 262.40625,
+        "right": 374,
+        "bottom": 809.59375,
+        "left": 16
+      }
+    },
+    {
+      "mood": "rain",
+      "cameraBefore": [
+        2.569923232650407,
+        18.153867062608313,
+        9.302115213218148
+      ],
+      "cameraAfter": [
+        2.575900027006662,
+        18.155522953155117,
+        9.300513735997063
+      ],
+      "diagnostics": {
+        "samples": 63,
+        "frameMeanMs": 59.26,
+        "frameP95Ms": 150,
+        "quality": "lite",
+        "pixelRatio": 1,
+        "renderCalls": 229,
+        "renderTriangles": 192674,
+        "textures": 16,
+        "geometries": 223
+      },
+      "menu": true,
+      "canopy": true,
+      "weather": true,
+      "setup": {
+        "x": 16,
+        "y": 262.40625,
+        "width": 358,
+        "height": 547.1875,
+        "top": 262.40625,
+        "right": 374,
+        "bottom": 809.59375,
+        "left": 16
+      }
+    },
+    {
+      "mood": "evening",
+      "cameraBefore": [
+        2.594399653025044,
+        18.156626429456836,
+        9.29555677614516
+      ],
+      "cameraAfter": [
+        2.5965447497578387,
+        18.155571400492363,
+        9.294981999207922
+      ],
+      "diagnostics": {
+        "samples": 110,
+        "frameMeanMs": 53.94,
+        "frameP95Ms": 149.9,
+        "quality": "lite",
+        "pixelRatio": 1,
+        "renderCalls": 227,
+        "renderTriangles": 192998,
+        "textures": 16,
+        "geometries": 224
+      },
+      "menu": true,
+      "canopy": true,
+      "weather": true,
+      "setup": {
+        "x": 16,
+        "y": 262.40625,
+        "width": 358,
+        "height": 547.1875,
+        "top": 262.40625,
+        "right": 374,
+        "bottom": 809.59375,
+        "left": 16
+      }
+    }
+  ],
+  "errors": []
+}
