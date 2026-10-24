@@ -1,3 +1,7 @@
+## v0.58.2 · English stays English
+
+Browsers no longer offer to translate the game. The game page and the phone preview mark themselves as not for translation (translate="no" and the notranslate class on the page and its body, plus Google's notranslate meta tag), so Chrome, Edge and Safari do not show "Translate to Turkish" and Google Translate leaves the English questions and answers alone. A test fails if any of these markers is removed. Phone cameras, other devices and translation typed by hand cannot be blocked by a web page.
+
 ## v0.58.1 · Task cameras find the guest
 
 Fixes tasks that could not be finished because the camera pointed at the wrong place. When a student opened a guest's order before that guest had finished walking in, the menu tablet and conversation close-ups were framed on the spot where the guest was mid-walk; the guest then sat down and the camera kept looking at the floor or a wall, with the answers off screen. Opening a task now seats its guest first, so the close-up is framed on where they will stay. This only happened with motion switched on; Reduced motion already seated guests at once.
